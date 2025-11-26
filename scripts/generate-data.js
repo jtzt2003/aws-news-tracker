@@ -155,7 +155,7 @@ async function generateData() {
   console.log(`📅 Filtered to ${recentAnnouncements.length} announcements from last 7 days`);
 
   // Process announcements with AI (limit to 50 to avoid excessive API costs)
-  const itemsToProcess = recentAnnouncements.slice(0, 50);
+  const itemsToProcess = recentAnnouncements.slice(0, 25);
   console.log(`\n🤖 Processing ${itemsToProcess.length} announcements with AI...`);
   
   const processed = [];
