@@ -1,20 +1,23 @@
 {
-  "name": "aws-reinvent-tracker-vercel",
+  "name": "aws-reinvent-static",
   "version": "1.0.0",
-  "description": "AWS re:Invent announcement tracker - Vercel serverless deployment",
+  "description": "AWS re:Invent announcements tracker - Static site with GitHub Actions",
+  "main": "index.js",
   "scripts": {
-    "dev": "vercel dev",
-    "deploy": "vercel --prod",
-    "deploy-preview": "vercel"
+    "generate": "node scripts/generate-data.js",
+    "dev": "npx serve public",
+    "test": "node scripts/generate-data.js"
   },
+  "keywords": [
+    "aws",
+    "reinvent",
+    "announcements",
+    "static"
+  ],
+  "author": "",
+  "license": "MIT",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.32.1",
     "rss-parser": "^3.13.0"
-  },
-  "devDependencies": {
-    "vercel": "^33.0.0"
-  },
-  "engines": {
-    "node": ">=18.0.0"
   }
 }

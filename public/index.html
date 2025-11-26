@@ -1,443 +1,459 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AWS Updates Tracker</title>
-    <meta name="description" content="Real-time AWS news updates tracker with AI-powered summaries">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        @keyframes pulse-slow {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.5; }
-        }
-        .pulse-slow {
-            animation: pulse-slow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-        }
-        @keyframes slideIn {
-            from {
-                transform: translateX(100%);
-                opacity: 0;
-            }
-            to {
-                transform: translateX(0);
-                opacity: 1;
-            }
-        }
-        .slide-in {
-            animation: slideIn 0.3s ease-out;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AWS re:Invent 2024 Announcements</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      color: white;
+      margin-bottom: 40px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    .update-info {
+      background: rgba(255,255,255,0.2);
+      color: white;
+      padding: 8px 16px;
+      border-radius: 20px;
+      display: inline-block;
+      margin-top: 10px;
+      font-size: 0.9rem;
+    }
+
+    .controls {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .control-group {
+      flex: 1;
+      min-width: 200px;
+    }
+
+    label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 5px;
+      color: #333;
+      font-size: 0.9rem;
+    }
+
+    select, input {
+      width: 100%;
+      padding: 10px;
+      border: 2px solid #e0e0e0;
+      border-radius: 5px;
+      font-size: 1rem;
+      transition: border-color 0.3s;
+    }
+
+    select:focus, input:focus {
+      outline: none;
+      border-color: #667eea;
+    }
+
+    .stats {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .stat-item {
+      flex: 1;
+      min-width: 150px;
+      text-align: center;
+    }
+
+    .stat-number {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #667eea;
+    }
+
+    .stat-label {
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    .announcements {
+      display: grid;
+      gap: 20px;
+    }
+
+    .announcement {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .announcement:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    }
+
+    .announcement-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+      margin-bottom: 10px;
+    }
+
+    .announcement-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #333;
+      margin-bottom: 5px;
+      flex: 1;
+    }
+
+    .category-badge {
+      display: inline-block;
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      margin-left: 10px;
+      white-space: nowrap;
+    }
+
+    .category-AI_ML { background: #e3f2fd; color: #1976d2; }
+    .category-COMPUTE { background: #f3e5f5; color: #7b1fa2; }
+    .category-STORAGE { background: #e8f5e9; color: #388e3c; }
+    .category-DATABASE { background: #fff3e0; color: #f57c00; }
+    .category-ANALYTICS { background: #fce4ec; color: #c2185b; }
+    .category-SECURITY { background: #ffebee; color: #d32f2f; }
+    .category-NETWORKING { background: #e0f2f1; color: #00796b; }
+    .category-DEVTOOLS { background: #f1f8e9; color: #689f38; }
+    .category-CONTAINERS { background: #e8eaf6; color: #3f51b5; }
+    .category-SERVERLESS { background: #fff9c4; color: #f9a825; }
+    .category-OTHER { background: #f5f5f5; color: #616161; }
+
+    .announcement-meta {
+      display: flex;
+      gap: 15px;
+      font-size: 0.85rem;
+      color: #666;
+      margin-bottom: 10px;
+    }
+
+    .announcement-summary {
+      color: #555;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+
+    .announcement-link {
+      display: inline-block;
+      color: #667eea;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    .announcement-link:hover {
+      color: #764ba2;
+    }
+
+    .loading {
+      text-align: center;
+      padding: 40px;
+      color: white;
+      font-size: 1.2rem;
+    }
+
+    .error {
+      background: #ffebee;
+      color: #c62828;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .no-results {
+      text-align: center;
+      padding: 40px;
+      background: white;
+      border-radius: 10px;
+      color: #666;
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+      
+      .controls {
+        flex-direction: column;
+      }
+      
+      .stats {
+        flex-direction: column;
+      }
+    }
+  </style>
 </head>
-<body class="bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 min-h-screen text-white">
-    <div id="root"></div>
+<body>
+  <div class="container">
+    <header>
+      <h1>🚀 AWS re:Invent 2024</h1>
+      <div class="subtitle">Latest announcements and updates</div>
+      <div class="update-info" id="updateInfo">Loading...</div>
+    </header>
 
-    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <div class="controls">
+      <div class="control-group">
+        <label for="categoryFilter">📂 Filter by Category</label>
+        <select id="categoryFilter">
+          <option value="ALL">All Categories</option>
+        </select>
+      </div>
+      
+      <div class="control-group">
+        <label for="searchBox">🔍 Search</label>
+        <input type="text" id="searchBox" placeholder="Search announcements...">
+      </div>
 
-    <script type="text/babel">
-        const { useState, useEffect } = React;
+      <div class="control-group">
+        <label for="dateFilter">📅 Time Range</label>
+        <select id="dateFilter">
+          <option value="ALL">All Time</option>
+          <option value="1">Last 24 Hours</option>
+          <option value="3">Last 3 Days</option>
+          <option value="7">Last 7 Days</option>
+        </select>
+      </div>
+    </div>
 
-        // API Configuration
-        const API_BASE_URL = window.location.origin;
-        const AUTO_REFRESH_INTERVAL = 300000; // 5 minutes
+    <div class="stats" id="stats" style="display: none;">
+      <div class="stat-item">
+        <div class="stat-number" id="totalCount">0</div>
+        <div class="stat-label">Total Announcements</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number" id="filteredCount">0</div>
+        <div class="stat-label">Showing</div>
+      </div>
+    </div>
 
-        // AWS Service Categories
-        const CATEGORIES = {
-            COMPUTE: { name: 'Compute', color: 'bg-orange-500', icon: '⚡' },
-            STORAGE: { name: 'Storage', color: 'bg-green-500', icon: '💾' },
-            DATABASE: { name: 'Database', color: 'bg-blue-500', icon: '🗄️' },
-            AI_ML: { name: 'AI/ML', color: 'bg-purple-500', icon: '🤖' },
-            ANALYTICS: { name: 'Analytics', color: 'bg-yellow-500', icon: '📊' },
-            SECURITY: { name: 'Security', color: 'bg-red-500', icon: '🔒' },
-            NETWORKING: { name: 'Networking', color: 'bg-cyan-500', icon: '🌐' },
-            DEVTOOLS: { name: 'Developer Tools', color: 'bg-indigo-500', icon: '🛠️' },
-            CONTAINERS: { name: 'Containers', color: 'bg-teal-500', icon: '📦' },
-            SERVERLESS: { name: 'Serverless', color: 'bg-pink-500', icon: '⚙️' },
-            OTHER: { name: 'Other', color: 'bg-gray-500', icon: '📌' }
-        };
+    <div id="loading" class="loading">Loading announcements...</div>
+    <div id="error" class="error" style="display: none;"></div>
+    <div id="announcements" class="announcements"></div>
+    <div id="noResults" class="no-results" style="display: none;">
+      No announcements found matching your criteria.
+    </div>
+  </div>
 
-        // Notification Component
-        function Notification({ message, type = 'info', onClose }) {
-            useEffect(() => {
-                const timer = setTimeout(onClose, 5000);
-                return () => clearTimeout(timer);
-            }, [onClose]);
+  <script>
+    let allAnnouncements = [];
+    let filteredAnnouncements = [];
 
-            const colors = {
-                success: 'bg-green-500',
-                error: 'bg-red-500',
-                info: 'bg-blue-500'
-            };
-
-            return (
-                <div className={`fixed top-4 right-4 ${colors[type]} text-white px-6 py-4 rounded-lg shadow-2xl z-50 slide-in flex items-center gap-3`}>
-                    <span>{message}</span>
-                    <button onClick={onClose} className="text-xl leading-none">&times;</button>
-                </div>
-            );
+    // Fetch announcements from static JSON
+    async function fetchAnnouncements() {
+      try {
+        const response = await fetch('/data/announcements.json?t=' + Date.now());
+        if (!response.ok) {
+          throw new Error('Failed to load announcements');
         }
+        const data = await response.json();
+        
+        // Update last updated info
+        const updateInfo = document.getElementById('updateInfo');
+        const lastUpdated = new Date(data.generatedAt);
+        updateInfo.textContent = `Last updated: ${lastUpdated.toLocaleString()}`;
+        
+        return data.announcements;
+      } catch (error) {
+        console.error('Error fetching announcements:', error);
+        throw error;
+      }
+    }
 
-        // Main App Component
-        function AnnouncementTracker() {
-            const [announcements, setAnnouncements] = useState([]);
-            const [stats, setStats] = useState(null);
-            const [selectedCategory, setSelectedCategory] = useState('ALL');
-            const [searchQuery, setSearchQuery] = useState('');
-            const [selectedAnnouncement, setSelectedAnnouncement] = useState(null);
-            const [isLoading, setIsLoading] = useState(true);
-            const [notification, setNotification] = useState(null);
-            const [lastUpdate, setLastUpdate] = useState(null);
+    // Populate category filter
+    function populateCategories() {
+      const categories = [...new Set(allAnnouncements.map(a => a.category))].sort();
+      const select = document.getElementById('categoryFilter');
+      
+      categories.forEach(cat => {
+        const option = document.createElement('option');
+        option.value = cat;
+        option.textContent = cat.replace('_', '/');
+        select.appendChild(option);
+      });
+    }
 
-            // Load initial data
-            useEffect(() => {
-                loadData();
-            }, []);
+    // Filter announcements
+    function filterAnnouncements() {
+      const category = document.getElementById('categoryFilter').value;
+      const search = document.getElementById('searchBox').value.toLowerCase();
+      const dateFilter = document.getElementById('dateFilter').value;
 
-            // Auto-refresh
-            useEffect(() => {
-                const interval = setInterval(() => {
-                    loadData(true);
-                }, AUTO_REFRESH_INTERVAL);
+      let filtered = allAnnouncements;
 
-                return () => clearInterval(interval);
-            }, []);
+      // Category filter
+      if (category !== 'ALL') {
+        filtered = filtered.filter(a => a.category === category);
+      }
 
-            // Request notification permission
-            useEffect(() => {
-                if ('Notification' in window && Notification.permission === 'default') {
-                    Notification.requestPermission();
-                }
-            }, []);
+      // Search filter
+      if (search) {
+        filtered = filtered.filter(a => 
+          a.title.toLowerCase().includes(search) || 
+          a.summary.toLowerCase().includes(search)
+        );
+      }
 
-            // Load data from API
-            const loadData = async (silent = false) => {
-                try {
-                    if (!silent) setIsLoading(true);
-                    
-                    const [announcementsRes, statsRes] = await Promise.all([
-                        fetch(`${API_BASE_URL}/api/announcements`),
-                        fetch(`${API_BASE_URL}/api/stats`)
-                    ]);
+      // Date filter
+      if (dateFilter !== 'ALL') {
+        const daysAgo = parseInt(dateFilter);
+        const cutoffDate = Date.now() - (daysAgo * 24 * 60 * 60 * 1000);
+        filtered = filtered.filter(a => {
+          const announcementDate = new Date(a.timestamp).getTime();
+          return announcementDate >= cutoffDate;
+        });
+      }
 
-                    if (!announcementsRes.ok || !statsRes.ok) {
-                        throw new Error('Failed to fetch data');
-                    }
+      filteredAnnouncements = filtered;
+      renderAnnouncements();
+      updateStats();
+    }
 
-                    const announcementsData = await announcementsRes.json();
-                    const statsData = await statsRes.json();
+    // Render announcements
+    function renderAnnouncements() {
+      const container = document.getElementById('announcements');
+      const noResults = document.getElementById('noResults');
+      
+      container.innerHTML = '';
+      
+      if (filteredAnnouncements.length === 0) {
+        container.style.display = 'none';
+        noResults.style.display = 'block';
+        return;
+      }
+      
+      container.style.display = 'grid';
+      noResults.style.display = 'none';
+      
+      filteredAnnouncements.forEach(announcement => {
+        const div = document.createElement('div');
+        div.className = 'announcement';
+        
+        const date = new Date(announcement.timestamp);
+        const timeAgo = getTimeAgo(date);
+        
+        div.innerHTML = `
+          <div class="announcement-header">
+            <div class="announcement-title">${announcement.title}</div>
+            <span class="category-badge category-${announcement.category}">
+              ${announcement.category.replace('_', '/')}
+            </span>
+          </div>
+          <div class="announcement-meta">
+            <span>📅 ${timeAgo}</span>
+            <span>📰 ${announcement.source}</span>
+          </div>
+          <div class="announcement-summary">${announcement.summary}</div>
+          <a href="${announcement.link}" target="_blank" class="announcement-link">
+            Read more →
+          </a>
+        `;
+        
+        container.appendChild(div);
+      });
+    }
 
-                    setAnnouncements(announcementsData.announcements);
-                    setStats(statsData);
-                    setLastUpdate(new Date(announcementsData.lastUpdate));
+    // Update stats
+    function updateStats() {
+      document.getElementById('totalCount').textContent = allAnnouncements.length;
+      document.getElementById('filteredCount').textContent = filteredAnnouncements.length;
+      document.getElementById('stats').style.display = 'flex';
+    }
 
-                    if (silent && announcementsData.announcements.some(a => a.isNew)) {
-                        showNotification('New announcements available!', 'success');
-                        
-                        if ('Notification' in window && Notification.permission === 'granted') {
-                            new Notification('AWS News Tracker', {
-                                body: 'New announcements are available',
-                                icon: '/favicon.ico'
-                            });
-                        }
-                    }
-                } catch (error) {
-                    console.error('Error loading data:', error);
-                    showNotification('Failed to load announcements', 'error');
-                } finally {
-                    setIsLoading(false);
-                }
-            };
+    // Time ago helper
+    function getTimeAgo(date) {
+      const seconds = Math.floor((new Date() - date) / 1000);
+      
+      if (seconds < 60) return 'Just now';
+      if (seconds < 3600) return Math.floor(seconds / 60) + ' minutes ago';
+      if (seconds < 86400) return Math.floor(seconds / 3600) + ' hours ago';
+      if (seconds < 604800) return Math.floor(seconds / 86400) + ' days ago';
+      
+      return date.toLocaleDateString();
+    }
 
-            // Show notification
-            const showNotification = (message, type = 'info') => {
-                setNotification({ message, type });
-            };
+    // Initialize
+    async function init() {
+      try {
+        document.getElementById('loading').style.display = 'block';
+        document.getElementById('error').style.display = 'none';
+        
+        allAnnouncements = await fetchAnnouncements();
+        filteredAnnouncements = allAnnouncements;
+        
+        populateCategories();
+        renderAnnouncements();
+        updateStats();
+        
+        document.getElementById('loading').style.display = 'none';
+        
+        // Add event listeners
+        document.getElementById('categoryFilter').addEventListener('change', filterAnnouncements);
+        document.getElementById('searchBox').addEventListener('input', filterAnnouncements);
+        document.getElementById('dateFilter').addEventListener('change', filterAnnouncements);
+        
+      } catch (error) {
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('error').style.display = 'block';
+        document.getElementById('error').textContent = 'Failed to load announcements. Please try again later.';
+        console.error('Initialization error:', error);
+      }
+    }
 
-            // Filter announcements
-            const filteredAnnouncements = announcements.filter(ann => {
-                const matchesCategory = selectedCategory === 'ALL' || ann.category === selectedCategory;
-                const matchesSearch = ann.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                                     ann.summary.toLowerCase().includes(searchQuery.toLowerCase());
-                return matchesCategory && matchesSearch;
-            });
-
-            // Get category stats
-            const categoryStats = stats ? Object.keys(CATEGORIES).map(key => {
-                const count = stats.categories[key] || 0;
-                return { key, count, ...CATEGORIES[key] };
-            }).filter(stat => stat.count > 0) : [];
-
-            if (isLoading) {
-                return (
-                    <div className="flex items-center justify-center min-h-screen">
-                        <div className="text-center">
-                            <div className="text-6xl mb-4 animate-spin">⚙️</div>
-                            <div className="text-2xl text-gray-300">Loading announcements...</div>
-                        </div>
-                    </div>
-                );
-            }
-
-            return (
-                <div className="container mx-auto px-4 py-8 max-w-7xl">
-                    {/* Notification */}
-                    {notification && (
-                        <Notification
-                            message={notification.message}
-                            type={notification.type}
-                            onClose={() => setNotification(null)}
-                        />
-                    )}
-
-                    {/* Header */}
-                    <div className="mb-8">
-                        <div className="flex items-center justify-between mb-4">
-                            <div>
-                                <h1 className="text-5xl font-bold bg-gradient-to-r from-orange-400 via-pink-500 to-purple-500 bg-clip-text text-transparent">
-                                    AWS Updates Tracker
-                                </h1>
-                                <p className="text-xl text-gray-300 mt-2">Live Announcement Tracker</p>
-                            </div>
-                            <div className="text-right">
-                                <button
-                                    onClick={() => loadData()}
-                                    className="px-6 py-3 bg-purple-500 hover:bg-purple-600 rounded-lg font-medium transition-all mb-2"
-                                >
-                                    🔄 Refresh
-                                </button>
-                                <div className="flex items-center gap-2 text-sm text-gray-400">
-                                    <span className="pulse-slow">●</span>
-                                    <span>Updated: {lastUpdate?.toLocaleTimeString() || 'Never'}</span>
-                                </div>
-                                <div className="text-2xl font-bold text-orange-400 mt-1">
-                                    {stats?.total || 0} Announcements
-                                </div>
-                                {stats?.newCount > 0 && (
-                                    <div className="text-sm text-green-400 font-semibold">
-                                        {stats.newCount} new in last hour
-                                    </div>
-                                )}
-                            </div>
-                        </div>
-
-                        {/* Search Bar */}
-                        <div className="relative">
-                            <input
-                                type="text"
-                                placeholder="Search announcements..."
-                                className="w-full px-6 py-4 bg-white/10 backdrop-blur-lg rounded-2xl border border-white/20 focus:border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-500/50 text-white placeholder-gray-400"
-                                value={searchQuery}
-                                onChange={(e) => setSearchQuery(e.target.value)}
-                            />
-                            <span className="absolute right-4 top-4 text-gray-400 text-xl">🔍</span>
-                        </div>
-                    </div>
-
-                    {/* Category Filter Pills */}
-                    <div className="mb-8 flex flex-wrap gap-3">
-                        <button
-                            onClick={() => setSelectedCategory('ALL')}
-                            className={`px-6 py-2 rounded-full font-medium transition-all ${
-                                selectedCategory === 'ALL'
-                                    ? 'bg-white text-purple-900 shadow-lg scale-105'
-                                    : 'bg-white/10 hover:bg-white/20 backdrop-blur-lg border border-white/20'
-                            }`}
-                        >
-                            All ({stats?.total || 0})
-                        </button>
-                        {categoryStats.map(stat => (
-                            <button
-                                key={stat.key}
-                                onClick={() => setSelectedCategory(stat.key)}
-                                className={`px-6 py-2 rounded-full font-medium transition-all flex items-center gap-2 ${
-                                    selectedCategory === stat.key
-                                        ? 'bg-white text-purple-900 shadow-lg scale-105'
-                                        : 'bg-white/10 hover:bg-white/20 backdrop-blur-lg border border-white/20'
-                                }`}
-                            >
-                                <span>{stat.icon}</span>
-                                <span>{stat.name} ({stat.count})</span>
-                            </button>
-                        ))}
-                    </div>
-
-                    {/* Announcements Grid */}
-                    <div className="grid gap-6 lg:grid-cols-2">
-                        {filteredAnnouncements.map(announcement => {
-                            const category = CATEGORIES[announcement.category];
-                            return (
-                                <div
-                                    key={announcement.id}
-                                    className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20 hover:border-purple-500/50 transition-all hover:shadow-2xl hover:shadow-purple-500/20 cursor-pointer"
-                                    onClick={() => setSelectedAnnouncement(announcement)}
-                                >
-                                    {/* Category Badge */}
-                                    <div className="flex items-center justify-between mb-4">
-                                        <span className={`${category.color} px-4 py-1 rounded-full text-sm font-medium flex items-center gap-2`}>
-                                            <span>{category.icon}</span>
-                                            {category.name}
-                                        </span>
-                                        {announcement.isNew && (
-                                            <span className="bg-green-500 px-3 py-1 rounded-full text-xs font-bold pulse-slow">
-                                                NEW
-                                            </span>
-                                        )}
-                                    </div>
-
-                                    {/* Title */}
-                                    <h3 className="text-xl font-bold mb-3 text-white">
-                                        {announcement.title}
-                                    </h3>
-
-                                    {/* Summary */}
-                                    <p className="text-gray-300 mb-4 line-clamp-3">
-                                        {announcement.summary}
-                                    </p>
-
-                                    {/* Footer */}
-                                    <div className="flex items-center justify-between pt-4 border-t border-white/10">
-                                        <div className="text-sm text-gray-400">
-                                            <div>{new Date(announcement.timestamp).toLocaleString()}</div>
-                                            <div className="text-xs">{announcement.source}</div>
-                                        </div>
-                                        <div className="flex gap-2">
-                                            <button
-                                                onClick={(e) => {
-                                                    e.stopPropagation();
-                                                    window.open(announcement.link, '_blank');
-                                                }}
-                                                className="px-4 py-2 bg-blue-500 hover:bg-blue-600 rounded-lg font-medium transition-all"
-                                            >
-                                                🔗 View
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            );
-                        })}
-                    </div>
-
-                    {/* No results */}
-                    {filteredAnnouncements.length === 0 && (
-                        <div className="text-center py-16">
-                            <div className="text-6xl mb-4">🔍</div>
-                            <p className="text-xl text-gray-400">No announcements found</p>
-                        </div>
-                    )}
-
-                    {/* Detail Modal */}
-                    {selectedAnnouncement && (
-                        <div
-                            className="fixed inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4 z-50"
-                            onClick={() => setSelectedAnnouncement(null)}
-                        >
-                            <div
-                                className="bg-gradient-to-br from-slate-800 to-purple-900 rounded-2xl p-8 max-w-3xl w-full max-h-[80vh] overflow-y-auto border border-white/20"
-                                onClick={(e) => e.stopPropagation()}
-                            >
-                                {/* Close Button */}
-                                <button
-                                    onClick={() => setSelectedAnnouncement(null)}
-                                    className="float-right text-gray-400 hover:text-white text-3xl leading-none"
-                                >
-                                    ×
-                                </button>
-
-                                {/* Category */}
-                                <div className="mb-4">
-                                    <span className={`${CATEGORIES[selectedAnnouncement.category].color} px-4 py-2 rounded-full text-sm font-medium inline-flex items-center gap-2`}>
-                                        <span>{CATEGORIES[selectedAnnouncement.category].icon}</span>
-                                        {CATEGORIES[selectedAnnouncement.category].name}
-                                    </span>
-                                </div>
-
-                                {/* Title */}
-                                <h2 className="text-3xl font-bold mb-4 text-white">
-                                    {selectedAnnouncement.title}
-                                </h2>
-
-                                {/* Metadata */}
-                                <div className="text-sm text-gray-400 mb-6 flex gap-4">
-                                    <span>📅 {new Date(selectedAnnouncement.timestamp).toLocaleString()}</span>
-                                    <span>📰 {selectedAnnouncement.source}</span>
-                                </div>
-
-                                {/* Summary */}
-                                <div className="mb-6">
-                                    <h3 className="text-lg font-semibold mb-2 text-purple-300">AI Summary</h3>
-                                    <p className="text-gray-300">{selectedAnnouncement.summary}</p>
-                                </div>
-
-                                {/* Full Text */}
-                                <div className="mb-6">
-                                    <h3 className="text-lg font-semibold mb-2 text-purple-300">Details</h3>
-                                    <p className="text-gray-300 leading-relaxed">{selectedAnnouncement.fullText}</p>
-                                </div>
-
-                                {/* Actions */}
-                                <div className="flex gap-4">
-                                    <button
-                                        onClick={() => window.open(selectedAnnouncement.link, '_blank')}
-                                        className="flex-1 py-3 bg-blue-500 hover:bg-blue-600 rounded-lg font-medium transition-all"
-                                    >
-                                        🔗 Read Full Article
-                                    </button>
-                                    <button
-                                        onClick={() => {
-                                            navigator.clipboard.writeText(
-                                                `${selectedAnnouncement.title}\n\n${selectedAnnouncement.fullText}`
-                                            );
-                                            showNotification('Copied to clipboard!', 'success');
-                                        }}
-                                        className="flex-1 py-3 bg-green-500 hover:bg-green-600 rounded-lg font-medium transition-all"
-                                    >
-                                        📋 Copy Text
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    )}
-
-                    {/* System Info */}
-                    <div className="mt-8 bg-blue-500/20 border border-blue-500/50 rounded-2xl p-6">
-                        <h3 className="text-xl font-bold mb-3 flex items-center gap-2">
-                            <span>ℹ️</span>
-                            System Status
-                        </h3>
-                        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
-                            <div className="bg-white/10 rounded-lg p-4">
-                                <div className="text-2xl font-bold text-purple-400">{stats?.total || 0}</div>
-                                <div className="text-sm text-gray-400">Total</div>
-                            </div>
-                            <div className="bg-white/10 rounded-lg p-4">
-                                <div className="text-2xl font-bold text-green-400">{stats?.newCount || 0}</div>
-                                <div className="text-sm text-gray-400">New</div>
-                            </div>
-                            <div className="bg-white/10 rounded-lg p-4">
-                                <div className="text-2xl font-bold text-orange-400">
-                                    {Object.keys(stats?.categories || {}).length}
-                                </div>
-                                <div className="text-sm text-gray-400">Categories</div>
-                            </div>
-                            <div className="bg-white/10 rounded-lg p-4">
-                                <div className="text-2xl font-bold text-cyan-400">
-                                    {Object.keys(stats?.sources || {}).length}
-                                </div>
-                                <div className="text-sm text-gray-400">Sources</div>
-                            </div>
-                        </div>
-                        <div className="mt-4 text-center text-sm text-gray-400">
-                            <p>Hosted on Vercel • Updates every 5 minutes</p>
-                            <p className="mt-1">Powered by Claude AI</p>
-                        </div>
-                    </div>
-                </div>
-            );
-        }
-
-        ReactDOM.render(<AnnouncementTracker />, document.getElementById('root'));
-    </script>
+    // Run on page load
+    init();
+  </script>
 </body>
 </html>

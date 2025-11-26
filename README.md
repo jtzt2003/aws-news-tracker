@@ -1,602 +1,340 @@
-# 🚀 AWS re:Invent Tracker - Vercel Deployment Guide
+# 🚀 AWS re:Invent Announcements Tracker - Static Generation
 
-## Quick Deploy to Vercel (5 Minutes)
+A **static site** that automatically fetches and displays AWS announcements with AI-powered summaries. Uses GitHub Actions for hourly updates - **no serverless timeouts!**
 
-### Prerequisites
-- GitHub account
-- Vercel account (sign up free at [vercel.com](https://vercel.com))
-- Anthropic API key ([get one here](https://console.anthropic.com/))
+## ✨ Features
 
----
+- ✅ **FREE** - No Vercel Pro needed
+- ✅ **Instant loads** - Pre-generated static data
+- ✅ **No timeouts** - GitHub Actions handles processing
+- ✅ **AI summaries** - Claude generates concise summaries
+- ✅ **Auto-updates** - Runs every hour automatically
+- ✅ **7-day history** - Shows announcements from last week
+- ✅ **Filtering** - By category, search, and date range
 
-## 🎯 Method 1: One-Click Deploy (Easiest)
-
-### Step 1: Deploy to Vercel
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/aws-reinvent-tracker)
-
-1. Click the "Deploy" button above
-2. Sign in to Vercel (or create account)
-3. Connect your GitHub account
-4. Name your project (e.g., `aws-reinvent-tracker`)
-5. Click "Deploy"
-
-### Step 2: Add Environment Variables
-
-After deployment:
-
-1. Go to your project dashboard
-2. Click "Settings" → "Environment Variables"
-3. Add the following:
+## 🏗️ Architecture
 
 ```
-ANTHROPIC_API_KEY=sk-ant-your-key-here
+GitHub Action (hourly)
+  ↓
+Fetch RSS feeds
+  ↓
+Generate AI summaries (50 items)
+  ↓
+Save to public/data/announcements.json
+  ↓
+Commit & push
+  ↓
+Vercel auto-deploys
+  ↓
+Users get instant static page!
 ```
 
-4. Click "Save"
-5. Go to "Deployments" → Click "..." → "Redeploy"
+## 🚀 Setup Instructions
 
-### Step 3: Access Your Tracker
+### **Step 1: Create GitHub Repository**
 
-Your tracker will be live at:
+1. Go to GitHub and create a new repository (e.g., `aws-reinvent-tracker`)
+2. Clone it locally:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/aws-reinvent-tracker.git
+   cd aws-reinvent-tracker
+   ```
+
+### **Step 2: Add Project Files**
+
+1. Extract the provided archive to your repository
+2. Or copy all files from this directory
+
+Your structure should look like:
 ```
-https://your-project-name.vercel.app
-```
-
-That's it! 🎉
-
----
-
-## 🛠️ Method 2: Deploy via GitHub (Recommended)
-
-### Step 1: Push to GitHub
-
-```bash
-# Create a new repository on GitHub
-# Then push your code
-
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/yourusername/aws-reinvent-tracker.git
-git push -u origin main
-```
-
-### Step 2: Import to Vercel
-
-1. Go to [vercel.com/new](https://vercel.com/new)
-2. Click "Import Git Repository"
-3. Select your GitHub repository
-4. Click "Import"
-5. Configure project:
-   - **Framework Preset:** Other
-   - **Root Directory:** ./
-   - **Build Command:** (leave empty)
-   - **Output Directory:** public
-
-### Step 3: Add Environment Variables
-
-Before deploying, add:
-
-```
-ANTHROPIC_API_KEY=sk-ant-your-key-here
-```
-
-### Step 4: Deploy
-
-1. Click "Deploy"
-2. Wait 2-3 minutes
-3. Visit your live URL!
-
----
-
-## 💻 Method 3: Deploy via CLI (For Developers)
-
-### Step 1: Install Vercel CLI
-
-```bash
-npm install -g vercel
-```
-
-### Step 2: Login to Vercel
-
-```bash
-vercel login
-```
-
-### Step 3: Deploy
-
-```bash
-# Navigate to project directory
-cd reinvent-vercel
-
-# Deploy to preview
-vercel
-
-# Or deploy to production
-vercel --prod
-```
-
-### Step 4: Add Environment Variables
-
-```bash
-# Add your API key
-vercel env add ANTHROPIC_API_KEY
-
-# Enter value when prompted
-# Select: Production, Preview, Development
-
-# Redeploy to apply
-vercel --prod
-```
-
----
-
-## 📁 Project Structure
-
-```
-reinvent-vercel/
-├── api/
-│   ├── announcements.js    # GET /api/announcements
-│   ├── stats.js            # GET /api/stats
-│   └── health.js           # GET /api/health
-├── lib/
-│   └── utils.js            # Shared utilities
+aws-reinvent-tracker/
+├── .github/
+│   └── workflows/
+│       └── update-announcements.yml
+├── scripts/
+│   └── generate-data.js
 ├── public/
-│   └── index.html          # Frontend (React)
-├── package.json            # Dependencies
-└── vercel.json             # Vercel configuration
+│   ├── index.html
+│   └── data/
+│       └── .gitkeep (create empty file)
+├── package.json
+├── vercel.json
+├── .gitignore
+└── README.md
 ```
 
----
+### **Step 3: Add GitHub Secret (API Key)**
+
+1. Go to your repository → **Settings** → **Secrets and variables** → **Actions**
+2. Click **New repository secret**
+3. Name: `ANTHROPIC_API_KEY`
+4. Value: Your Anthropic API key (starts with `sk-ant-`)
+5. Click **Add secret**
+
+### **Step 4: Initial Setup**
+
+```bash
+# Install dependencies locally (optional - just for testing)
+npm install
+
+# Create data directory
+mkdir -p public/data
+
+# Commit everything
+git add .
+git commit -m "Initial commit: Static AWS tracker"
+git push origin main
+```
+
+### **Step 5: Deploy to Vercel**
+
+#### **Option A: Vercel CLI**
+
+```bash
+# Install Vercel CLI
+npm install -g vercel
+
+# Deploy
+cd your-repo
+vercel --prod
+```
+
+#### **Option B: Vercel Dashboard**
+
+1. Go to [vercel.com/dashboard](https://vercel.com/dashboard)
+2. Click **Import Project**
+3. Import your GitHub repository
+4. Click **Deploy**
+5. Done! ✅
+
+### **Step 6: Trigger First Run**
+
+The GitHub Action needs to run once to generate initial data:
+
+**Option A: Manual Trigger**
+1. Go to your repo → **Actions** tab
+2. Click **Update AWS Announcements** workflow
+3. Click **Run workflow** → **Run workflow**
+4. Wait ~2-3 minutes for it to complete
+
+**Option B: Just Wait**
+- The action will run automatically on the next hour (e.g., 1:00 PM, 2:00 PM)
+
+### **Step 7: Check Your Site!**
+
+Visit your Vercel URL (e.g., `https://your-project.vercel.app`)
+
+You should see:
+- ✅ AWS announcements displayed
+- ✅ AI-generated summaries
+- ✅ Category filters working
+- ✅ Search working
+- ✅ Last updated timestamp
+
+## 📊 How It Works
+
+### **GitHub Action Schedule**
+
+The workflow runs:
+- ⏰ **Every hour** at minute 0 (e.g., 1:00, 2:00, 3:00)
+- 🔨 **On push** to main branch
+- 👆 **Manually** via workflow dispatch
+
+### **Data Generation Process**
+
+1. Fetches RSS feeds from AWS (no time limit!)
+2. Filters to announcements from last 7 days
+3. Processes up to 50 items with AI summaries
+4. Saves to `public/data/announcements.json`
+5. Commits and pushes (triggers Vercel deployment)
+
+### **Frontend**
+
+- Pure static HTML/CSS/JavaScript
+- Fetches data from static JSON file
+- Instant page loads
+- Client-side filtering and search
 
 ## 🔧 Configuration
 
-### vercel.json
+### **Change Update Frequency**
 
-```json
-{
-  "version": 2,
-  "builds": [
-    {
-      "src": "api/**/*.js",
-      "use": "@vercel/node"
-    },
-    {
-      "src": "public/**",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "/api/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/public/$1"
-    }
-  ]
-}
+Edit `.github/workflows/update-announcements.yml`:
+
+```yaml
+schedule:
+  - cron: '0 * * * *'  # Every hour
+  # - cron: '0 */2 * * *'  # Every 2 hours
+  # - cron: '0 9,17 * * *'  # 9 AM and 5 PM
+  # - cron: '*/30 * * * *'  # Every 30 minutes
 ```
 
-### Environment Variables
+### **Change Number of Items**
 
-Set these in Vercel dashboard:
-
-| Variable | Required | Description |
-|----------|----------|-------------|
-| `ANTHROPIC_API_KEY` | Yes | Your Claude API key |
-
----
-
-## 🌐 Custom Domain
-
-### Add Custom Domain
-
-1. Go to Project Settings → Domains
-2. Add your domain (e.g., `reinvent.example.com`)
-3. Follow DNS instructions
-4. Vercel handles SSL automatically!
-
-### Supported Domains
-
-- Vercel subdomain: `your-project.vercel.app`
-- Custom domain: `your-domain.com`
-- Subdomain: `tracker.your-domain.com`
-
----
-
-## 📊 API Endpoints
-
-Your deployed tracker will have:
-
-### GET /api/announcements
-```bash
-curl https://your-project.vercel.app/api/announcements
-
-# With filters
-curl "https://your-project.vercel.app/api/announcements?category=AI_ML&limit=10"
-```
-
-### GET /api/stats
-```bash
-curl https://your-project.vercel.app/api/stats
-```
-
-### GET /api/health
-```bash
-curl https://your-project.vercel.app/api/health
-```
-
----
-
-## ⚙️ Advanced Configuration
-
-### Caching
-
-The app uses in-memory caching (5 minutes) to avoid API rate limits.
-
-To adjust cache duration, edit `api/announcements.js`:
+Edit `scripts/generate-data.js` line 128:
 
 ```javascript
-const CACHE_DURATION = 5 * 60 * 1000; // 5 minutes
-// Change to:
-const CACHE_DURATION = 10 * 60 * 1000; // 10 minutes
+const itemsToProcess = recentAnnouncements.slice(0, 50); // Change 50 to desired number
 ```
 
-### Timeout Settings
+### **Change Days of History**
 
-Serverless functions have a 10-second timeout on free tier.
+Edit `scripts/generate-data.js` line 123:
 
-For longer timeouts (Pro plan):
-
-```json
-{
-  "functions": {
-    "api/**/*.js": {
-      "maxDuration": 30
-    }
-  }
-}
+```javascript
+const sevenDaysAgo = Date.now() - (7 * 24 * 60 * 60 * 1000); // Change 7 to desired days
 ```
 
-### Memory Allocation
+## 💰 Cost Analysis
 
-Increase memory for faster performance:
+### **GitHub Actions**
+- Free tier: 2,000 minutes/month
+- Each run: ~2-3 minutes
+- Hourly runs: ~720 runs/month × 3 min = **2,160 minutes**
+- Cost: **FREE** (just within limit!)
 
-```json
-{
-  "functions": {
-    "api/**/*.js": {
-      "memory": 1024
-    }
-  }
-}
+Or run every 2 hours: 360 runs × 3 min = 1,080 minutes = **plenty of buffer**
+
+### **Anthropic API**
+- 50 announcements × $0.002 each = $0.10 per run
+- Hourly: $0.10 × 24 × 30 = **$72/month** (yikes!)
+- Every 2 hours: $0.10 × 12 × 30 = **$36/month** (better)
+- Every 6 hours: $0.10 × 4 × 30 = **$12/month** (reasonable)
+
+**Recommendation: Run every 2-4 hours for $12-36/month**
+
+### **Vercel**
+- Static site: **FREE** ✅
+- No serverless functions = No limits!
+
+## 🎯 Recommended Configuration
+
+For best cost/freshness balance:
+
+```yaml
+# Every 2 hours
+schedule:
+  - cron: '0 */2 * * *'
+
+# Process 30 items (not 50)
+const itemsToProcess = recentAnnouncements.slice(0, 30);
 ```
 
----
-
-## 🔍 Monitoring & Logs
-
-### View Logs
-
-1. Go to your project dashboard
-2. Click "Deployments"
-3. Select a deployment
-4. Click "Logs" or "Runtime Logs"
-
-### Real-Time Logs (CLI)
-
-```bash
-vercel logs your-project-name --follow
-```
-
-### Analytics
-
-Vercel provides built-in analytics:
-- Page views
-- Top pages
-- Visitor locations
-- Performance metrics
-
-Enable in: Settings → Analytics
-
----
+Cost: ~$18/month for very fresh data
 
 ## 🐛 Troubleshooting
 
-### Issue: "Internal Server Error"
+### **Action Fails on First Run**
 
-**Check:**
-1. Logs in Vercel dashboard
-2. Environment variables are set
-3. API key is valid
+Check:
+1. `ANTHROPIC_API_KEY` secret is set correctly
+2. Repo has write permissions for Actions:
+   - Settings → Actions → General → Workflow permissions
+   - Select "Read and write permissions"
+   - Save
 
-**Solution:**
-```bash
-vercel env ls
-vercel env add ANTHROPIC_API_KEY
-vercel --prod
-```
+### **No Data Showing**
 
-### Issue: "No announcements loading"
+1. Check if Action ran successfully (Actions tab)
+2. Check if `public/data/announcements.json` exists in repo
+3. Hard refresh browser (Ctrl+Shift+R)
 
-**Check:**
-1. API endpoint: `/api/health`
-2. Browser console for errors
-3. CORS headers
+### **"Last updated" Shows Old Time**
 
-**Solution:**
-- Check if API key has credits
-- Verify RSS feeds are accessible
-- Check function logs in Vercel
+1. Check Action logs for errors
+2. Manually trigger workflow
+3. Wait for Vercel to redeploy (~1-2 minutes)
 
-### Issue: "Timeout Error"
+### **Vercel Deploy Fails**
 
-**Cause:** Function exceeded time limit
+Make sure `public/` directory exists with `index.html`
 
-**Solution:**
-1. Reduce number of RSS items processed
-2. Upgrade to Pro plan for longer timeout
-3. Optimize code (reduce API calls)
+## 📈 Monitoring
 
-### Issue: "API Rate Limit"
+### **Check Action Status**
 
-**Cause:** Too many requests to Anthropic API
+- Go to **Actions** tab in GitHub
+- See all workflow runs and their status
+- Click any run to see detailed logs
 
-**Solution:**
-- Increase cache duration
-- Reduce number of summaries generated
-- Add rate limiting
+### **Check API Usage**
 
----
+- Visit [console.anthropic.com](https://console.anthropic.com)
+- Check Usage dashboard
+- Should show steady usage matching your schedule
 
-## 💰 Pricing & Limits
+### **Check Site Performance**
 
-### Vercel Free Tier
+- Visit [vercel.com/dashboard](https://vercel.com/dashboard)
+- View analytics and bandwidth usage
+- Static site = Very low resource usage ✅
 
-✅ **Included:**
-- 100GB bandwidth/month
-- Unlimited personal projects
-- SSL certificates
-- Custom domains
-- Serverless functions
-- Edge network
+## 🎉 Success Criteria
 
-⚠️ **Limits:**
-- 10-second function timeout
-- 100 deployments/day
-- 1000 serverless function invocations/day
+Your tracker is working perfectly when:
 
-### Vercel Pro ($20/month)
+- ✅ GitHub Action runs successfully (green check)
+- ✅ `announcements.json` updates in repo
+- ✅ Site shows current data
+- ✅ "Last updated" shows recent time
+- ✅ AI summaries are present (not truncated)
+- ✅ Filters and search work
+- ✅ Page loads instantly
 
-✅ **Upgrades:**
-- 1TB bandwidth
-- 60-second timeout
-- Unlimited deployments
-- Priority support
-- Team collaboration
+## 🚀 Going Further
 
-### Anthropic API Costs
+### **Add More Sources**
 
-- Pay per token
-- Approximately $3-5 per 1000 summaries
-- Free tier available for testing
-
-**Cost Optimization:**
-- Use caching (reduces API calls)
-- Generate summaries only for new items
-- Consider batch processing
-
----
-
-## 🔐 Security Best Practices
-
-### 1. Environment Variables
-
-✅ **Do:**
-- Store API keys in Vercel environment variables
-- Use different keys for development/production
-- Rotate keys regularly
-
-❌ **Don't:**
-- Commit API keys to Git
-- Share keys publicly
-- Hardcode sensitive data
-
-### 2. CORS Configuration
-
-Already configured in the API:
+Edit `scripts/generate-data.js` and add to `ANNOUNCEMENT_SOURCES`:
 
 ```javascript
-const corsHeaders = {
-  'Access-Control-Allow-Origin': '*',
-  'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
-  'Access-Control-Allow-Headers': 'Content-Type'
-};
-```
-
-For production, restrict origin:
-```javascript
-'Access-Control-Allow-Origin': 'https://your-domain.com'
-```
-
-### 3. Rate Limiting
-
-Add basic rate limiting:
-
-```javascript
-// In api/announcements.js
-const rateLimit = {};
-
-function checkRateLimit(ip) {
-  const now = Date.now();
-  if (!rateLimit[ip]) {
-    rateLimit[ip] = { count: 1, reset: now + 60000 };
-    return true;
-  }
-  
-  if (now > rateLimit[ip].reset) {
-    rateLimit[ip] = { count: 1, reset: now + 60000 };
-    return true;
-  }
-  
-  if (rateLimit[ip].count >= 30) {
-    return false; // Rate limited
-  }
-  
-  rateLimit[ip].count++;
-  return true;
-}
-```
-
----
-
-## 🚀 Performance Optimization
-
-### 1. Enable Edge Caching
-
-Add to `vercel.json`:
-
-```json
 {
-  "headers": [
-    {
-      "source": "/api/announcements",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "s-maxage=300, stale-while-revalidate"
-        }
-      ]
-    }
-  ]
+  name: 'AWS Security Blog',
+  url: 'https://aws.amazon.com/blogs/security/feed/',
+  type: 'rss'
 }
 ```
 
-### 2. Optimize Frontend
+### **Customize Appearance**
 
-- Already using CDN for React
-- Tailwind CSS via CDN
-- No build step required
-- Instant page loads
+Edit `public/index.html` CSS to match your branding
 
-### 3. Reduce Bundle Size
+### **Add Email Notifications**
 
-Currently:
-- Frontend: ~15KB (HTML + inline JS)
-- API functions: ~5KB each
-- Total: Minimal footprint
+Use GitHub Actions to send email when new announcements arrive
 
----
+## 💡 Why This Is Better
 
-## 📱 Mobile & PWA
+**vs Serverless:**
+- ✅ No timeouts (Action has 6-hour limit!)
+- ✅ No cold starts
+- ✅ Instant page loads
+- ✅ More reliable
 
-### Make it a PWA
+**vs Manual Updates:**
+- ✅ Automatic hourly updates
+- ✅ Always fresh data
+- ✅ No maintenance needed
 
-Add to `public/index.html`:
+**Cost:**
+- Serverless: $20/month (Vercel Pro) + $5/month (API) = $25/month
+- Static: $0/month (Vercel) + $12-36/month (API) = $12-36/month
+- **Savings: $9-13/month** OR **Better data freshness for same cost**
 
-```html
-<link rel="manifest" href="/manifest.json">
-<meta name="theme-color" content="#6B46C1">
-```
+## 🆘 Need Help?
 
-Create `public/manifest.json`:
+1. Check Actions logs first (most errors show here)
+2. Verify secret is set correctly
+3. Check Anthropic console for API issues
+4. Test locally: `npm install && npm run generate`
 
-```json
-{
-  "name": "AWS re:Invent Tracker",
-  "short_name": "re:Invent",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#1a202c",
-  "theme_color": "#6B46C1",
-  "icons": [
-    {
-      "src": "/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    }
-  ]
-}
-```
+## ✨ Enjoy!
 
----
+You now have a fully automated, reliable AWS announcement tracker that:
+- Updates automatically
+- Costs less than Starbucks
+- Never times out
+- Loads instantly
 
-## 🔄 Continuous Deployment
-
-### Automatic Deployments
-
-Vercel automatically deploys when you push to GitHub:
-
-- `main` branch → Production
-- Other branches → Preview deployments
-- Pull requests → Preview URLs
-
-### Deployment Hooks
-
-Trigger deployments via webhook:
-
-1. Go to Settings → Git
-2. Copy "Deploy Hook" URL
-3. Use in CI/CD or cron jobs
-
-```bash
-curl -X POST https://api.vercel.com/v1/integrations/deploy/...
-```
-
----
-
-## ✅ Deployment Checklist
-
-Before going live:
-
-- [ ] API key added to Vercel environment variables
-- [ ] Test API endpoints (`/api/health`, `/api/announcements`)
-- [ ] Custom domain configured (optional)
-- [ ] SSL certificate active (automatic)
-- [ ] Analytics enabled
-- [ ] Error tracking configured
-- [ ] Tested on mobile devices
-- [ ] Checked performance (Lighthouse)
-- [ ] Reviewed Vercel logs
-- [ ] Set up monitoring/alerts
-
----
-
-## 🎉 Success!
-
-Your AWS re:Invent Tracker is now live on Vercel!
-
-**What's Working:**
-✅ Serverless API with caching
-✅ Real-time announcement updates
-✅ AI-powered summaries
-✅ Beautiful responsive UI
-✅ Automatic SSL
-✅ Global CDN
-✅ Zero server management
-
-**Next Steps:**
-1. Share your URL with your team
-2. Add custom domain (optional)
-3. Monitor usage in Vercel dashboard
-4. Customize categories or RSS feeds
-5. Add more features!
-
----
-
-## 📚 Additional Resources
-
-- [Vercel Documentation](https://vercel.com/docs)
-- [Vercel CLI Reference](https://vercel.com/docs/cli)
-- [Serverless Functions](https://vercel.com/docs/functions)
-- [Environment Variables](https://vercel.com/docs/environment-variables)
-- [Custom Domains](https://vercel.com/docs/custom-domains)
-
----
-
-**Built with ❤️ for AWS re:Invent**
-**Deployed on Vercel • Powered by Claude AI**
+**No more serverless headaches!** 🎉
