@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AWS re:Invent 2025 Tracker</title>
-    <meta name="description" content="Real-time AWS re:Invent announcement tracker with AI-powered summaries">
+    <title>AWS Updates Tracker</title>
+    <meta name="description" content="Real-time AWS news updates tracker with AI-powered summaries">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @keyframes pulse-slow {
@@ -136,7 +136,7 @@
                         showNotification('New announcements available!', 'success');
                         
                         if ('Notification' in window && Notification.permission === 'granted') {
-                            new Notification('AWS re:Invent Update', {
+                            new Notification('AWS News Tracker', {
                                 body: 'New announcements are available',
                                 icon: '/favicon.ico'
                             });
@@ -196,7 +196,7 @@
                         <div className="flex items-center justify-between mb-4">
                             <div>
                                 <h1 className="text-5xl font-bold bg-gradient-to-r from-orange-400 via-pink-500 to-purple-500 bg-clip-text text-transparent">
-                                    AWS re:Invent 2025
+                                    AWS Updates Tracker
                                 </h1>
                                 <p className="text-xl text-gray-300 mt-2">Live Announcement Tracker</p>
                             </div>
