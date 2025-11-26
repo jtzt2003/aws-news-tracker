@@ -1,29 +1,4 @@
 {
-  "version": 2,
-  "name": "aws-reinvent-tracker",
-  "builds": [
-    {
-      "src": "api/**/*.js",
-      "use": "@vercel/node"
-    },
-    {
-      "src": "public/**",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "/api/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/public/$1"
-    }
-  ],
-  "env": {
-    "ANTHROPIC_API_KEY": "@anthropic_api_key"
-  },
   "functions": {
     "api/**/*.js": {
       "memory": 1024,
@@ -51,6 +26,12 @@
           "value": "1; mode=block"
         }
       ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/public/$1"
     }
   ]
 }
