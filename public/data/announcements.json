@@ -3,7 +3,7 @@
     {
       "id": "1a54148d0efec23f824012a464fd3b193c4bc330",
       "title": "Manage Amazon SageMaker HyperPod clusters with the new Amazon SageMaker AI MCP Server",
-      "summary": "AWS has announced that the Amazon SageMaker AI MCP Server now includes tools for setting up and managing HyperPod clusters, which are designed to simplify generative AI model development by scaling training, fine-tuning, and deployment tasks across AI accelerators. This enhancement allows AI coding assistants to provision and operate AI/ML clusters more effectively for model training and deployment workflows.",
+      "summary": "AWS has launched a new Amazon SageMaker AI MCP Server that provides tools for setting up and managing HyperPod clusters. Amazon SageMaker HyperPod simplifies generative AI model development by enabling quick scaling of training, fine-tuning, and deployment tasks across clusters of AI accelerators. The MCP Server allows AI coding assistants to provision and operate these AI/ML clusters for model training and deployment.",
       "category": "AI_ML",
       "timestamp": "2025-11-25T19:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/manage-amazon-sagemaker-hyperpod-clusters-mcp-server/",
@@ -13,7 +13,7 @@
     {
       "id": "98bd6a9ac0280d0e875eb68cf7dc2f48df015d5e",
       "title": "Introducing AWS Network Firewall Proxy in preview",
-      "summary": "AWS has launched Network Firewall Proxy in public preview, allowing organizations to implement centralized controls against data exfiltration and malware injection. The service can be configured in explicit mode with just a few clicks to filter both outbound application traffic and incoming responses. This new proxy capability enables customers to efficiently manage and secure web and inter-network traffic while protecting against spoofing attempts.",
+      "summary": "AWS has launched Network Firewall Proxy in public preview, enabling centralized protection against data exfiltration and malware injection. The service can be set up in explicit mode with just a few clicks to filter both outbound application traffic and incoming responses. It helps organizations efficiently manage and secure web and inter-network traffic while protecting against spoofing attempts.",
       "category": "STORAGE",
       "timestamp": "2025-11-25T19:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-network-firewall-proxy-preview",
@@ -23,7 +23,7 @@
     {
       "id": "4b2772c34d2caa806e734ec880cfc041592ecc39",
       "title": "AWS Lambda adds support for Node.js 24",
-      "summary": "AWS Lambda now supports Node.js 24, allowing developers to build serverless applications using both managed runtime and container base image options with automatic updates. Node.js 24 is the latest long-term support release that will receive security and bug fixes until April 2028, providing a simplified developer experience focused on modern async capabilities.",
+      "summary": "AWS Lambda now supports Node.js 24, allowing developers to build serverless applications using both managed runtime and container base images with automatic updates. Node.js 24 is the latest long-term support release that will receive security and bug fixes until April 2028, offering developers a simplified and modern async-focused experience.",
       "category": "SECURITY",
       "timestamp": "2025-11-25T15:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-lambda-nodejs-24/",
@@ -33,7 +33,7 @@
     {
       "id": "6f5fddef3d21268b0fc09d7e14af6f2aecfb2441",
       "title": "Amazon OpenSearch Service introduces Agentic Search",
-      "summary": "Amazon OpenSearch Service has launched Agentic Search, an intelligent agent-driven system that transforms data interaction by understanding user intent and automatically generating OpenSearch DSL queries from natural language search terms. The feature orchestrates appropriate tools and provides transparent summaries of its decision-making process through a simple 'agentic' query clause, making complex search operations more accessible to users.",
+      "summary": "Amazon OpenSearch Service has launched Agentic Search, an intelligent agent-driven search system that understands user intent and automatically generates OpenSearch DSL queries from natural language search terms. The new feature orchestrates appropriate tools and provides transparent summaries of its decision-making process through a simple 'agentic' query clause. This transforms how users interact with their data by making search more intuitive and automated.",
       "category": "ANALYTICS",
       "timestamp": "2025-11-25T08:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/opensearch-service-agentic-search/",
@@ -43,7 +43,7 @@
     {
       "id": "fe6fce6fb8a6ed7c46a988a35bfd25a21246a2ed",
       "title": "Amazon SageMaker AI Inference now supports bidirectional streaming ",
-      "summary": "Amazon SageMaker AI Inference has added bidirectional streaming support for real-time speech-to-text transcription, allowing models to simultaneously receive audio streams and return partial transcripts as users speak. This enables the development of AI voice agents with minimal latency by processing speech continuously rather than in batches, significantly reducing delays between user input and agent responses.",
+      "summary": "Amazon SageMaker AI Inference has added bidirectional streaming support for real-time speech-to-text transcription, allowing models to process continuous audio streams and return partial transcripts simultaneously as users speak. This enhancement enables the development of voice agents with minimal latency by eliminating the need for batch processing and providing real-time speech processing capabilities.",
       "category": "AI_ML",
       "timestamp": "2025-11-25T08:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/sagemaker-ai-inference-bidirectional-streaming/",
@@ -53,7 +53,7 @@
     {
       "id": "bcd8f5c0df569e1df9129389dd1bec38b5c9b4ef",
       "title": " AWS Service Quotas adds now support for automatic quota management ",
-      "summary": "AWS Service Quotas has launched automatic quota management in general availability, which sends notifications when quota usage approaches limits and allows customers to configure notification channels like email, SMS, or Slack. The feature can automatically and safely adjust AWS service quota values based on customer usage patterns. This helps prevent service disruptions by proactively managing quota limits without manual intervention.",
+      "summary": "AWS Service Quotas has launched automatic quota management, a new feature that monitors quota usage and sends notifications through preferred channels (email, SMS, or Slack) when usage approaches limits. The feature can automatically and safely adjust AWS service quota values based on customer usage patterns. This capability is now generally available through both the Service Quotas console and API.",
       "category": "OTHER",
       "timestamp": "2025-11-25T08:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/automatic-quota-management-service-quota-management/",
@@ -63,7 +63,7 @@
     {
       "id": "e668ff5f7164d7f131a08929f294fdd4842440d9",
       "title": "Amazon SageMaker AI now supports EAGLE speculative decoding",
-      "summary": "Amazon SageMaker AI has added support for EAGLE (Extrapolation Algorithm for Greater Language-model Efficiency) speculative decoding, which can improve large language model inference throughput by up to 2.5x. This new capability allows models to predict and validate multiple tokens simultaneously instead of processing them sequentially, resulting in faster response times for AI applications in production environments.",
+      "summary": "Amazon SageMaker AI has added support for EAGLE speculative decoding, a new capability that can improve large language model inference throughput by up to 2.5x. This technology works by enabling models to predict and validate multiple tokens simultaneously instead of processing them one at a time, resulting in faster response times for AI applications in production.",
       "category": "AI_ML",
       "timestamp": "2025-11-25T08:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-sagemaker-eagle-decoding/",
@@ -73,7 +73,7 @@
     {
       "id": "1192d36cee9929755d5448af8e952251c9804ee0",
       "title": "AWS Glue Data Quality now supports rule labeling for enhanced reporting",
-      "summary": "AWS Glue Data Quality now offers rule labeling in general availability, allowing users to apply custom key-value pair labels to data quality rules for better organization and reporting. This feature enables categorization of rules by business context, team ownership, compliance requirements, or other custom taxonomies to meet specific data quality and governance needs.",
+      "summary": "AWS Glue Data Quality now supports rule labeling, allowing users to apply custom key-value pair labels to data quality rules for better organization and reporting. This feature enables categorization of rules by business context, team ownership, compliance requirements, or any custom taxonomy that fits organizational needs. The enhancement improves filtering capabilities and enables more targeted reporting for data quality and governance initiatives.",
       "category": "ANALYTICS",
       "timestamp": "2025-11-25T08:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/glue-data-quality-rule-labeling-enhanced-reporting/",
@@ -83,7 +83,7 @@
     {
       "id": "b19d73841a59eedac6ea7c560acdc189530d15b0",
       "title": "AWS Glue Data Quality now supports pre-processing queries",
-      "summary": "AWS Glue Data Quality now offers preprocessing queries in general availability, allowing users to transform data before running quality checks through AWS Glue Data Catalog APIs. This feature enables creating derived columns, filtering data, performing calculations, and validating column relationships directly within the data quality evaluation process. The preprocessing queries provide enhanced flexibility for handling complex data quality scenarios.",
+      "summary": "AWS Glue Data Quality now supports preprocessing queries in general availability, allowing users to transform data before running quality checks through AWS Glue Data Catalog APIs. This feature enables creating derived columns, filtering data, performing calculations, and validating column relationships directly within the data quality evaluation process. The enhancement provides greater flexibility for handling complex data quality scenarios.",
       "category": "ANALYTICS",
       "timestamp": "2025-11-25T08:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-glue-data-quality-pre-processing-queries/",
@@ -93,7 +93,7 @@
     {
       "id": "76e15e43510d710a2848314aa45db01b216e9eff",
       "title": "Amazon Quick Suite introduces scheduling for Quick Flows",
-      "summary": "Amazon QuickSight has introduced scheduling capabilities for Quick Flows, allowing users to automate repetitive workflows without manual intervention. Users can now configure Quick Flows to run automatically at specified times or custom intervals (daily, weekly, monthly), improving operational efficiency and ensuring consistent execution of critical tasks. This feature is particularly useful for automating routine administrative tasks like generating recurring reports.",
+      "summary": "Amazon Quick Flows now supports automated scheduling, allowing users to run workflows automatically at specified times or intervals without manual intervention. Users can configure flows to run daily, weekly, monthly, or on custom schedules, making it ideal for automating routine tasks like generating recurring reports. This enhancement improves operational efficiency and ensures critical workflows execute consistently.",
       "category": "OTHER",
       "timestamp": "2025-11-25T08:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-quick-suite-scheduling-quick-flows/",
@@ -103,7 +103,7 @@
     {
       "id": "19abf15b4a22c04100a4c10f4b1711b2ca52740c",
       "title": "OpenSearch Service Enhances Log Analytics with New PPL Experience",
-      "summary": "AWS has enhanced Amazon OpenSearch Service's log analytics capabilities by making Piped Processing Language (PPL) and natural language the default experience in the OpenSearch UI's Observability workspace. The update includes over 35 new commands and combines pipeline syntax with simplified workflows to create a more intuitive observability experience. This enhancement helps customers analyze increasing data volumes more effectively while maintaining cost control.",
+      "summary": "AWS has enhanced Amazon OpenSearch Service by making Piped Processing Language (PPL) and natural language the default experience in the OpenSearch UI's Observability workspace. The update includes over 35 new commands for deep analysis and faceted exploration, designed to simplify log analytics workflows. This enhancement aims to help customers analyze large data volumes more intuitively while managing costs effectively.",
       "category": "SECURITY",
       "timestamp": "2025-11-24T18:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/opensearch-service-log-analytics-ppl/",
@@ -113,7 +113,7 @@
     {
       "id": "fcad7b213beb9478a38edf2f2d79d6cc5478784d",
       "title": "Amazon CloudFront announces support for mutual TLS authentication",
-      "summary": "Amazon CloudFront now supports mutual TLS authentication (mTLS), a security protocol that requires both server and client to authenticate each other using X.509 certificates at CloudFront's edge locations. This new feature allows customers to ensure only clients with trusted certificates can access their distributions, providing enhanced protection against unauthorized access and security threats.",
+      "summary": "Amazon CloudFront now supports mutual TLS authentication (mTLS), a security protocol that requires both server and client to authenticate each other using X.509 certificates. This feature allows customers to validate client identities at CloudFront's edge locations, ensuring only clients with trusted certificates can access their distributions. The enhancement helps protect against unauthorized access and reduces the implementation effort previously required by customers.",
       "category": "SECURITY",
       "timestamp": "2025-11-24T18:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-cloudfront-mutual-tls-authentication/",
@@ -123,7 +123,7 @@
     {
       "id": "d06dd1de4e42f9d1944afe97a3a3e222ba04ccb7",
       "title": "Amazon EC2 announces interruptible Capacity Reservations",
-      "summary": "Amazon EC2 has introduced interruptible Capacity Reservations, allowing customers to make their unused On-Demand Capacity Reservations (ODCRs) temporarily available to other workloads within their organization. This feature helps maximize utilization of reserved compute capacity while reducing costs, as customers can still reclaim the capacity when needed for critical operations. The enhancement builds on existing ODCRs that reserve compute capacity in specific Availability Zones for any duration.",
+      "summary": "Amazon EC2 has launched interruptible Capacity Reservations, allowing organizations to make their unused On-Demand Capacity Reservations (ODCRs) temporarily available to other workloads within their organization. This feature helps maximize utilization of reserved compute capacity while maintaining the ability to reclaim that capacity when needed for critical operations. The enhancement aims to improve cost efficiency by reducing waste from underutilized reserved capacity.",
       "category": "AI_ML",
       "timestamp": "2025-11-24T18:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-ec2-interruptible-capacity-reservations",
@@ -133,7 +133,7 @@
     {
       "id": "cd631391710869d198af7889727d5448ca2bdc4b",
       "title": "AWS IoT Core now supports IoT thing registry data retrieval from IoT rules",
-      "summary": "AWS IoT Core has introduced a new get_registry_data() inline rule function that allows IoT rules to dynamically retrieve device information from the IoT thing registry, including attributes, device types, and group memberships. This capability enables enhanced filtering, enrichment, and routing of IoT messages by leveraging registry data directly within rule processing. The feature allows for more sophisticated rule logic, such as filtering connectivity lifecycle events based on dynamically retrieved device attributes.",
+      "summary": "AWS IoT Core has introduced a new get_registry_data() inline rule function that allows IoT rules to dynamically retrieve device information from the IoT thing registry, including attributes, device types, and group membership. This enhancement enables better filtering, enrichment, and routing of IoT messages by leveraging registry data directly within rule processing. The capability is particularly useful for scenarios like filtering connectivity lifecycle events based on device attributes stored in the registry.",
       "category": "COMPUTE",
       "timestamp": "2025-11-24T18:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-iot-core-thing-registry-data-retrieval/",
@@ -143,7 +143,7 @@
     {
       "id": "f3cc3587b2fe631928079c0da55efe5dd6a98933",
       "title": "AWS Elemental MediaTailor now supports HLS Interstitials for live streams",
-      "summary": "AWS Elemental MediaTailor now supports HLS Interstitials for live streams, allowing broadcasters and streaming providers to seamlessly insert personalized advertisements and promotions directly into live video content. This new capability uses the HLS Interstitials specification (RFC 8216) and works natively with popular video players like HLS.js, Shaka Player, and Bitmovin.",
+      "summary": "AWS Elemental MediaTailor now supports HLS Interstitials for live streams, allowing broadcasters and streaming providers to insert personalized advertisements and promotions seamlessly into live content. This new capability uses the HLS Interstitials specification (RFC 8216) and works natively with popular video players like HLS.js, Shaka Player, and Bitmovin.",
       "category": "OTHER",
       "timestamp": "2025-11-24T15:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-elemental-mediatailor-hls-interstitials-live-streams",
@@ -153,7 +153,7 @@
     {
       "id": "26a65386727f1ea05da96ae0ffcaf84dc9613abd",
       "title": "Amazon Redshift now supports federated permissions across multi-warehouse architectures",
-      "summary": "Amazon Redshift now supports federated permissions, allowing customers to define data permissions once from any Redshift warehouse and automatically apply them across multiple warehouses in multi-warehouse architectures. This feature simplifies permissions management for customers who use multiple Redshift data warehouses to scale and isolate workloads. The capability provides consistent, centralized permission control across distributed warehouse environments.",
+      "summary": "Amazon Redshift has introduced federated permissions to simplify permission management across multi-warehouse architectures. This new feature allows customers to define data permissions once from any Redshift warehouse and automatically apply them across multiple warehouses, addressing the need for consistent access control as organizations scale and isolate workloads. The capability streamlines permissions management for customers using distributed Redshift deployments.",
       "category": "DATABASE",
       "timestamp": "2025-11-24T15:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-redshift-federated-permissions-multi-warehouse-architectures",
@@ -163,7 +163,7 @@
     {
       "id": "d9ad530194a5e6ea97433ec2b57f53a7b53cd56e",
       "title": "Amazon U7i instances now available in Asia Pacific (Jakarta) Region",
-      "summary": "Amazon EC2 U7i instances with 6TB of memory are now available in the Asia Pacific (Jakarta) region, powered by 4th generation Intel Xeon Scalable Processors and featuring 448 vCPUs with DDR5 memory. These high-memory instances are designed to help customers scale transaction processing throughput in rapidly growing data environments.",
+      "summary": "Amazon EC2 U7i instances with 6TB of memory are now available in the Asia Pacific (Jakarta) region, powered by custom 4th generation Intel Xeon Scalable Processors. These high-memory instances feature 448 vCPUs and DDR5 memory, designed to enhance transaction processing throughput for data-intensive workloads.",
       "category": "COMPUTE",
       "timestamp": "2025-11-24T15:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-u7i-instances-asia-pacific-jakarta-region",
@@ -173,7 +173,7 @@
     {
       "id": "c95be189c99678f7fb9c4f6ef6a9a3ea86a4a848",
       "title": "Amazon Connect flow modules now support custom inputs, outputs, and version management",
-      "summary": "Amazon Connect flow modules now support custom inputs, outputs, and branches, enabling more flexible and reusable business logic components. Users can create modules like authentication flows that accept parameters (phone number, PIN) and return specific outputs (customer name, status) with conditional branching paths. The update also includes version and alias management capabilities for better module lifecycle control.",
+      "summary": "Amazon Connect flow modules now support custom inputs, outputs, and branches, enabling more flexible and reusable business logic components. Users can create modules like authentication systems that accept parameters (phone number, PIN) and return results (customer name, status) with conditional branches. The update also includes version and alias management capabilities for better module governance.",
       "category": "OTHER",
       "timestamp": "2025-11-24T15:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-connect-flow-modules-custom-inputs-outputs-version-management",
@@ -183,7 +183,7 @@
     {
       "id": "7b9f333fa0ec3815434db890391797201e72f039",
       "title": "AWS Glue announces catalog federation for remote Apache Iceberg catalogs",
-      "summary": "AWS Glue now offers general availability of catalog federation for remote Apache Iceberg catalogs, enabling direct and secure access to Iceberg tables stored in Amazon S3 and cataloged in remote systems. This feature allows users to query remote Iceberg tables through AWS analytics engines without needing to move or copy the data, while providing real-time metadata synchronization between AWS Glue Data Catalog and remote catalogs.",
+      "summary": "AWS Glue now offers general availability of catalog federation for remote Apache Iceberg catalogs, enabling direct and secure access to Iceberg tables stored in Amazon S3 through AWS analytics engines. This feature allows users to query remote Iceberg tables without moving or copying data, while synchronizing metadata in real-time between AWS Glue Data Catalog and remote catalogs.",
       "category": "SECURITY",
       "timestamp": "2025-11-24T15:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-glue-catalog-federation-remote-apache-iceberg-catalogs",
@@ -193,7 +193,7 @@
     {
       "id": "ab883faa78f93f27cda7e83d61fa4a27876f15e5",
       "title": "Amazon Quick Suite Embedded Chat is now available",
-      "summary": "AWS has announced the general availability of Amazon QuickSight Embedded Chat, which allows developers to integrate QuickSight's conversational AI capabilities directly into their applications. This feature combines structured data and unstructured knowledge in a single conversation interface, eliminating the need to build custom conversational interfaces, orchestration logic, or data access layers from scratch. The solution addresses the key need for users to get answers within their existing workflows rather than switching to separate tools.",
+      "summary": "AWS has launched Amazon Quick Suite Embedded Chat, allowing developers to integrate conversational AI capabilities directly into their applications without building chat interfaces from scratch. The service combines structured and unstructured data in conversations, solving the problem of users needing to switch between different tools to get answers. This enables businesses to provide AI-powered chat functionality within their existing applications where users are already working.",
       "category": "SECURITY",
       "timestamp": "2025-11-24T15:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-quick-suite-embedded-chat",
@@ -203,7 +203,7 @@
     {
       "id": "6ea5d84a4aea860fb01e7ec07b9bf11c94ea8537",
       "title": "Amazon MSK Replicator is now available in five additional AWS Regions",
-      "summary": "Amazon MSK Replicator is now available in five additional AWS Regions: Asia Pacific (Thailand), Mexico (Central), Asia Pacific (Taipei), Canada West (Calgary), and Europe (Spain). MSK Replicator is a feature that allows users to easily replicate streaming data across Amazon MSK clusters within the same region or across different AWS regions with just a few clicks.",
+      "summary": "Amazon MSK Replicator, a feature that enables reliable data replication across Amazon MSK clusters, is now available in five additional AWS Regions: Asia Pacific (Thailand), Mexico (Central), Asia Pacific (Taipei), Canada West (Calgary), and Europe (Spain). This expansion allows customers in these regions to easily replicate streaming data across Amazon Managed Streaming for Apache Kafka clusters with just a few clicks.",
       "category": "ANALYTICS",
       "timestamp": "2025-11-24T15:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-msk-replicator-additional-aws-regions",
@@ -213,7 +213,7 @@
     {
       "id": "c741ff8579f55c8a4897803a1131c2ff4ef76a5e",
       "title": "AWS Lambda announces enhanced error handling capabilities for Kafka event processing",
-      "summary": "AWS Lambda has introduced enhanced error handling capabilities for both Amazon MSK and self-managed Apache Kafka event sources. These new features enable customers to create custom retry configurations, optimize failed message processing, and route failed events to designated Kafka topics as on-failure destinations. This enhancement allows developers to build more resilient Kafka workloads with improved error handling strategies through Lambda's event source mappings.",
+      "summary": "AWS Lambda has introduced enhanced error handling capabilities for both Amazon Managed Streaming for Apache Kafka (MSK) and self-managed Apache Kafka event sources. These new features enable customers to create custom retry configurations, optimize failed message retries, and route failed events to designated Kafka topics as on-failure destinations. This enhancement allows developers to build more resilient Kafka workloads with improved error handling strategies through Lambda's event source mappings.",
       "category": "SERVERLESS",
       "timestamp": "2025-11-24T15:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-lambda-enhanced-error-handling-capabilities-kafka-event-processing",
@@ -223,7 +223,7 @@
     {
       "id": "68a5518d833b37ac32d8d63282770e931ff3882e",
       "title": "Claude Opus 4.5 now available in Amazon Bedrock",
-      "summary": "AWS has made Claude Opus 4.5 available through Amazon Bedrock, Anthropic's latest foundation model that delivers advanced capabilities in coding, agentic workflows, and office tasks. The model offers Opus-level intelligence at one-third the previous cost and achieves state-of-the-art performance on software engineering benchmarks like SWE-bench.",
+      "summary": "AWS has made Claude Opus 4.5 available through Amazon Bedrock, Anthropic's newest model that delivers advanced AI capabilities for coding, workflows, and office tasks at one-third the cost of previous Opus models. The model achieves state-of-the-art performance on software engineering benchmarks like SWE-bench and excels at professional development tasks. This integration allows AWS customers to access Opus-level intelligence through Bedrock's fully managed foundation model service.",
       "category": "AI_ML",
       "timestamp": "2025-11-24T15:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/claude-opus-4-5-amazon-bedrock",
@@ -233,7 +233,7 @@
     {
       "id": "80e78d545767d26049c4ed647fe50c51dd0159c0",
       "title": "Amazon OpenSearch Service now supports OpenSearch version 3.3",
-      "summary": "Amazon OpenSearch Service now supports OpenSearch version 3.3, which brings enhanced search performance, improved observability, and new functionality for easier agentic AI integrations. A key feature is agentic search, which allows users to obtain precise search results using natural language inputs without needing to write complex domain-specific language (DSL) queries. The update also includes improvements to vector search capabilities.",
+      "summary": "Amazon OpenSearch Service now supports OpenSearch version 3.3, which delivers enhanced search performance, improved observability, and new functionality designed to simplify agentic AI integrations. A key feature is agentic search, which allows users to achieve precise search results using natural language inputs instead of complex domain-specific language (DSL) queries, along with improved vector search capabilities.",
       "category": "ANALYTICS",
       "timestamp": "2025-11-24T08:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-opensearch-service-opensearch-version-3-3/",
@@ -243,7 +243,7 @@
     {
       "id": "c56b6df466da04cb64790b95807d0048ca34915f",
       "title": "Amazon Aurora PostgreSQL introduces dynamic data masking",
-      "summary": "Amazon Aurora PostgreSQL now supports dynamic data masking through the new pg_columnmask extension, which provides column-level protection for sensitive data. This feature allows users to create SQL-based masking policies that control how sensitive information appears to different users, complementing PostgreSQL's existing row-level security and column-level grants.",
+      "summary": "Amazon Aurora PostgreSQL now supports dynamic data masking through the new pg_columnmask extension, enabling simplified protection of sensitive database information. This feature provides column-level data protection that works alongside PostgreSQL's existing row-level security and column grants. Users can implement SQL-based masking policies to control how sensitive data appears to different users without modifying the underlying data.",
       "category": "SECURITY",
       "timestamp": "2025-11-24T08:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-aurora-postgresql-dynamic-data-masking",
@@ -263,7 +263,7 @@
       "DATABASE": 1,
       "SERVERLESS": 1
     },
-    "lastUpdated": "2025-11-26T12:13:23.802Z"
+    "lastUpdated": "2025-11-26T12:15:53.359Z"
   },
-  "generatedAt": "2025-11-26T12:13:23.802Z"
+  "generatedAt": "2025-11-26T12:15:53.359Z"
 }
