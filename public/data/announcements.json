@@ -249,21 +249,272 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-aurora-postgresql-dynamic-data-masking",
       "source": "AWS What's New",
       "isNew": false
+    },
+    {
+      "id": "b532f866f1d215681f5f5ac27d709010bd9196ef",
+      "title": "Amazon SageMaker HyperPod now supports Spot Instances ",
+      "summary": "Amazon SageMaker HyperPod now supports Spot Instances, allowing customers to reduce GPU compute costs by up to 90% compared to on-demand instances. This integration enables organizations to automatically leverage spare EC2 capacity at significant discounts while maintaining HyperPod's managed AI experience. The feature addresses the critical need for cost optimization as AI workloads continue to scale.",
+      "category": "AI_ML",
+      "timestamp": "2025-11-24T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-sagemaker-hyperpod-spot-instances",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "794ff6cc47c449aa17aeeec4d9637d957340c5ed",
+      "title": "Amazon SageMaker HyperPod now supports NVIDIA Multi-Instance GPU (MIG) for generative AI tasks",
+      "summary": "Amazon SageMaker HyperPod now supports NVIDIA Multi-Instance GPU (MIG) technology, which allows administrators to partition a single GPU into multiple isolated instances. This enhancement enables better resource utilization by running multiple small generative AI tasks simultaneously on the same GPU while maintaining performance isolation between tasks.",
+      "category": "AI_ML",
+      "timestamp": "2025-11-24T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/sagemaker-hyperpod-nvidia-multi-instance-gpu/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c250d65329a854d0bff0c505a828c4155d33f211",
+      "title": "Amazon CloudFront integrates with VPC IPAM to support BYOIP",
+      "summary": "Amazon CloudFront now supports bringing your own IP addresses (BYOIP) through integration with VPC IP Address Manager (IPAM), allowing network administrators to use their own public IPv4 address pools with CloudFront distributions. This new capability provides Anycast Static IPs instead of CloudFront's typical rotating IP addresses, enabling customers to maintain dedicated IP addresses for partners and clients while simplifying IP address management across AWS's global infrastructure.",
+      "category": "SECURITY",
+      "timestamp": "2025-11-24T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/vpc-ipam-cloudfront-byoip",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "32c4a6323a4632fb5540eaa6c1ff8a19b8ef5006",
+      "title": "Amazon EMR Serverless now supports Apache Spark 4.0.1 (preview)",
+      "summary": "Amazon EMR Serverless now offers preview support for Apache Spark 4.0.1, bringing enhanced features like ANSI SQL support, VARIANT data types, and improved streaming capabilities. The update includes Apache Iceberg v3 table format for better compliance and governance, enabling teams to build data pipelines more easily while reducing technical debt and ensuring data accuracy.",
+      "category": "ANALYTICS",
+      "timestamp": "2025-11-21T22:50:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-emr-serverless-apache-spark/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "44402527d9ba96c589f32ec8cf33f719682dd395",
+      "title": "Amazon Athena for Apache Spark is now available in Amazon SageMaker notebooks",
+      "summary": "Amazon SageMaker now integrates Amazon Athena for Apache Spark, providing a unified serverless workspace where data engineers, analysts, and data scientists can query data, run Python code, develop jobs, train models, and visualize data without managing infrastructure. The integration offers second-level billing and scales in seconds to handle workloads ranging from interactive queries to petabyte-scale processing.",
+      "category": "AI_ML",
+      "timestamp": "2025-11-21T21:40:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-athena-apache-spark-sagemaker-notebooks/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c32cde872ee97d129d2128dde4175bde32fc8163",
+      "title": "AWS Payments Cryptography announces support for post-quantum cryptography to secure data in transit",
+      "summary": "AWS Payments Cryptography now supports hybrid post-quantum TLS to secure API calls, allowing customers to protect sensitive data transmissions using ML-KEM post-quantum cryptography. This feature helps enterprises defend against \"harvest now, decrypt later\" attacks, where adversaries could collect encrypted data today and decrypt it once quantum computers become capable enough in the future.",
+      "category": "SECURITY",
+      "timestamp": "2025-11-21T21:28:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-payments-cryptography-post-quantum-data-transit",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c19e57f6bf8446546abf51a5159382b6a569c545",
+      "title": "AWS Device Farm supports Managed Appium Endpoint and Environment Features",
+      "summary": "AWS Device Farm has introduced three new features to enhance web and mobile application testing: a fully-managed Appium endpoint that allows developers to run interactive tests on multiple physical devices directly from their IDE or local environment with minimal code, support for environment variables, and IAM role integration. These capabilities are designed to make it easier for developers to build better web and mobile experiences using real mobile devices and desktop browsers.",
+      "category": "SECURITY",
+      "timestamp": "2025-11-21T21:08:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-device-farm-managed-appium-endpoint/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "cb2b2385458a08a2eac07181abffc1cdc423f604",
+      "title": " EC2 Image Builder now supports auto-versioning and enhances Infrastructure as Code experience",
+      "summary": "Amazon EC2 Image Builder now offers automatic versioning for recipes and components, eliminating the need for manual version management and tracking. This enhancement allows users to automatically increment versions and dynamically reference the latest compatible versions in their pipelines. The feature significantly reduces operational overhead and streamlines Infrastructure as Code workflows by removing manual version update requirements.",
+      "category": "COMPUTE",
+      "timestamp": "2025-11-21T19:35:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/ec2-image-builder-auto-versioning-infrastructure/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e0ec45af1ac6c193efa842d6347b95e213863280",
+      "title": "Automated Reasoning checks now include natural language test Q&A generation",
+      "summary": "AWS has launched natural language test Q&A generation for Automated Reasoning checks in Amazon Bedrock Guardrails, which uses formal verification techniques to validate AI model outputs for accuracy and policy compliance. This feature delivers up to 99% accuracy in detecting correct responses from large language models, providing reliable detection of AI hallucinations and helping identify ambiguous model responses.",
+      "category": "AI_ML",
+      "timestamp": "2025-11-21T18:56:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/automated-reasoning-checks-include-natural-language/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "73029a4978691aa433f020169712e469081c88ee",
+      "title": "AWS IoT Core enhances IoT rules-SQL with variable setting and error handling capabilities",
+      "summary": "AWS IoT Core has enhanced its IoT rules-SQL with a new SET clause that allows users to set and reuse variables across SQL statements, providing a simpler and more consistent SQL experience. Additionally, a new get_or_default() function has been introduced to improve error handling by returning default values when data encoding or external dependency issues occur, ensuring IoT rules continue executing successfully.",
+      "category": "OTHER",
+      "timestamp": "2025-11-21T18:38:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-iot-core-rules-sql/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6b15c7e123125473eae55693e99659b1ee0aa2d0",
+      "title": "Amazon Connect launches monitoring of contacts queued for callback",
+      "summary": "Amazon Connect has introduced a new feature that allows monitoring of contacts waiting in callback queues. The feature enables searching for queued callback contacts and viewing details like customer phone numbers and queue duration through the Connect UI and APIs. This allows businesses to proactively route at-risk contacts to agents before callback timelines are exceeded and better manage customer expectations.",
+      "category": "OTHER",
+      "timestamp": "2025-11-21T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-connect-monitoring-contacts-queued-callback/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "81fe9e17652ce61feef16954ff2cbe739949fda7",
+      "title": "Aurora DSQL launches new Python, Node.js, and JDBC Connectors that simplify IAM authorization",
+      "summary": "AWS has released new Aurora DSQL Connectors for Python, Node.js, and JDBC that simplify IAM authentication when connecting to Aurora DSQL clusters using standard PostgreSQL drivers. These connectors automatically handle IAM token generation, eliminating the need for developers to manually write token generation code or supply IAM tokens. The connectors work transparently with popular PostgreSQL drivers like psycopg and psycopg2 for Python.",
+      "category": "SECURITY",
+      "timestamp": "2025-11-21T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/aurora-dsql-python-node-js-jdbc-connectors-iam",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "74e8081cf555ce36053bfc3b9b9b846d0c1573a7",
+      "title": "Amazon EMR 7.12 now supports the Apache Iceberg v3 table format",
+      "summary": "Amazon EMR 7.12 now supports Apache Iceberg v3 table format with version 1.10, enabling more cost-effective data deletion by marking deleted rows instead of rewriting entire files. This update improves data pipeline speed, reduces storage costs, and enhances governance through better row-level change tracking and more granular data access controls.",
+      "category": "SECURITY",
+      "timestamp": "2025-11-21T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-emr-apache-iceberg-v3-table-format/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a6fe834323bfc332c08c9844eb6dc26ecf6c244b",
+      "title": "Amazon Connect now enables agents to send follow-up replies to email contacts",
+      "summary": "Amazon Connect now allows agents to send follow-up email replies to customers while maintaining the original conversation thread and full history. This feature helps agents provide consistent support by preserving context without needing to start new email threads. The capability is available across multiple AWS regions including US East, US West, Africa (Cape Town), and several Asia Pacific locations.",
+      "category": "OTHER",
+      "timestamp": "2025-11-21T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-connect-enables-agents-send-followup-replies/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b49391e3508ee10931fcdfde6311fc10f2ecf464",
+      "title": "AWS WAF announces Web Bot Auth support",
+      "summary": "AWS WAF now supports Web Bot Auth (WBA), a new feature that provides secure authentication for legitimate AI agents and automated tools accessing web applications. This authentication method uses cryptographic signatures in HTTP messages to verify that requests come from authorized bots. The feature is based on active IETF draft standards and offers a standardized approach to distinguishing legitimate automated traffic from potentially malicious bots.",
+      "category": "SECURITY",
+      "timestamp": "2025-11-21T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-waf-web-bot-auth-support",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "bc0011a22a52bac49bf3fcdf21b7c1ea681dd143",
+      "title": "Second-generation AWS Outposts racks now supported in the AWS Asia Pacific (Tokyo) Region",
+      "summary": "AWS has expanded support for second-generation Outposts racks to the Asia Pacific (Tokyo) Region, allowing organizations in and around Japan to deploy AWS infrastructure on-premises. This expansion enables companies to meet latency and data residency requirements while maintaining a consistent hybrid cloud experience with AWS services, APIs, and tools.",
+      "category": "COMPUTE",
+      "timestamp": "2025-11-21T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/second-generation-aws-outposts-racks-asia-pacific-tokyo-region",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "016d49fd4f32d455a51ab00560687ab0e27e04e1",
+      "title": "Amazon Aurora DSQL database clusters now support up to 256 TiB of storage volume",
+      "summary": "Amazon Aurora DSQL has doubled its maximum storage capacity from 128 TiB to 256 TiB, enabling customers to manage larger datasets within a single database cluster. The service maintains its pay-as-you-use model with automatic storage scaling, eliminating the need for upfront storage provisioning. All Aurora DSQL clusters start with a default 10 TiB storage limit that can be expanded as needed.",
+      "category": "DATABASE",
+      "timestamp": "2025-11-21T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-aurora-dsql-database-clusters-up-to-256-tib",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c7ca971710ec7e279d764b10be51a696cb90d14a",
+      "title": "AWS announces Flexible Cost Allocation on AWS Transit Gateway ",
+      "summary": "AWS has announced the general availability of Flexible Cost Allocation (FCA) on AWS Transit Gateway, which provides more versatile options for distributing Transit Gateway costs across organizations. Previously, Transit Gateway only used a sender-pay model where the source attachment account owner paid all data usage costs, but FCA now allows organizations to configure different cost allocation strategies through a central metering policy.",
+      "category": "NETWORKING",
+      "timestamp": "2025-11-21T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-transit-gateway-flexible-cost-allocation/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c461083361132030f9412ac3f2b9b1cb8f5481ee",
+      "title": "Amazon Athena adds cost and performance controls for Capacity Reservations",
+      "summary": "Amazon Athena has introduced new cost and performance controls for Capacity Reservations, allowing users to configure Data Processing Unit (DPU) settings at both the workgroup and individual query levels. This feature enables users to balance cost efficiency, concurrency, and performance by setting explicit DPU values for queries running on dedicated serverless processing capacity.",
+      "category": "ANALYTICS",
+      "timestamp": "2025-11-21T16:39:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-athena-capacity-reservation-controls",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9a9f313d814876357ef24bebf9f6b83ff8e66863",
+      "title": "AWS Security Incident Response now provides agentic AI-powered investigation",
+      "summary": "AWS Security Incident Response has introduced an agentic AI-powered investigation feature that automatically collects and correlates evidence from multiple AWS data sources during security events. The AI agent presents findings in clear, actionable summaries to help security teams investigate and respond to incidents more quickly. This capability aims to reduce response times and minimize business disruption from security events.",
+      "category": "SECURITY",
+      "timestamp": "2025-11-21T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-security-incident-response-agentic-ai-powered-investigation",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "246ef929487c13b16d1d927a4ece588b09737bdd",
+      "title": "Amazon Location Service introduces Address Form Solution Builder",
+      "summary": "AWS has launched Address Form Solution Builder from Amazon Location Service, a no-code tool that allows developers to create customized address forms with predictive suggestions and autofill capabilities. The solution provides a guided experience to generate ready-to-use applications in minutes, with downloadable packages available in React JavaScript, React TypeScript, or Standalone HTML/JavaScript formats.",
+      "category": "OTHER",
+      "timestamp": "2025-11-21T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-location-service-introduces-address-form-builder",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8ad460d5e5126ccb8175b26ae5db839a1f0784e2",
+      "title": "AWS Cost Anomaly Detection accelerates anomaly identification",
+      "summary": "AWS Cost Anomaly Detection has upgraded its algorithm to identify unusual spending patterns faster by analyzing costs using rolling 24-hour windows and comparing them against equivalent periods from previous days. The enhanced system processes data each time AWS receives updated cost and usage information, eliminating previous delays in anomaly detection. This improvement addresses common challenges in cost pattern analysis by providing more timely alerts about spending irregularities.",
+      "category": "OTHER",
+      "timestamp": "2025-11-21T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-cost-anomaly-detection-accelerates-anomaly/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5b66afa1d149ab5e0ca9051ef7ee247b57447551",
+      "title": "AWS Transfer Family announces Terraform module to integrate with a custom identity provider",
+      "summary": "AWS Transfer Family has released a new Terraform module that enables automated deployment of Transfer Family endpoints integrated with custom identity providers (IdPs) for authentication and access control. This module allows organizations to streamline the setup of fully-managed file transfer services (SFTP, AS2, FTPS, FTP, and web-based) while leveraging their existing identity management systems through Infrastructure as Code.",
+      "category": "SECURITY",
+      "timestamp": "2025-11-21T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/transfer-family-terraform-custom-idp",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c729def8f6eedec637f1727c1104fed982c492ea",
+      "title": "Introducing one-click onboarding of existing datasets to Amazon SageMaker ",
+      "summary": "Amazon SageMaker has launched one-click onboarding that allows customers to quickly import their existing AWS datasets into SageMaker Unified Studio using their current IAM roles and permissions. The feature includes a new serverless notebook with a built-in AI agent that supports SQL, Python, Spark, and natural language, enabling data engineers, analysts, and data scientists to start working with their data within minutes.",
+      "category": "SECURITY",
+      "timestamp": "2025-11-21T15:03:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-sagemaker-one-click-onboarding-existing-datasets",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "adb99b192e8ab860d59bffb5f66591076dc78baa",
+      "title": "Introducing Amazon SageMaker Data Agent for analytics and AI/ML development",
+      "summary": "Amazon SageMaker has launched the SageMaker Data Agent, a built-in AI agent available in the new notebook experience within Amazon SageMaker Unified Studio. The agent helps data engineers, analysts, and data scientists by automatically generating code and execution plans from natural language prompts, reducing the time spent on manual setup tasks and boilerplate code. This tool accelerates the development of data analytics and machine learning applications by streamlining the workflow process.",
+      "category": "AI_ML",
+      "timestamp": "2025-11-21T15:01:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-sagemaker-data-agent-analytics-ai-ml-development",
+      "source": "AWS What's New",
+      "isNew": false
     }
   ],
   "stats": {
-    "total": 25,
+    "total": 50,
     "byCategory": {
-      "AI_ML": 5,
+      "AI_ML": 10,
       "STORAGE": 1,
-      "SECURITY": 6,
-      "ANALYTICS": 5,
-      "OTHER": 4,
-      "COMPUTE": 2,
-      "DATABASE": 1,
-      "SERVERLESS": 1
+      "SECURITY": 15,
+      "ANALYTICS": 7,
+      "OTHER": 9,
+      "COMPUTE": 4,
+      "DATABASE": 2,
+      "SERVERLESS": 1,
+      "NETWORKING": 1
     },
-    "lastUpdated": "2025-11-26T12:15:53.359Z"
+    "lastUpdated": "2025-11-26T12:31:21.983Z"
   },
-  "generatedAt": "2025-11-26T12:15:53.359Z"
+  "generatedAt": "2025-11-26T12:31:21.984Z"
 }
