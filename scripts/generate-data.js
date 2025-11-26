@@ -33,27 +33,31 @@ const ANNOUNCEMENT_SOURCES = [
   }
 ];
 
-// Category keywords
+// Category keywords - ordered by specificity (most specific first)
 const CATEGORY_KEYWORDS = {
-  'AI_ML': ['machine learning', 'ml', 'ai', 'artificial intelligence', 'bedrock', 'sagemaker', 'comprehend', 'rekognition', 'textract', 'generative ai', 'gen ai', 'foundation model'],
-  'COMPUTE': ['ec2', 'lambda', 'fargate', 'batch', 'compute', 'instance', 'graviton', 'elastic compute'],
-  'STORAGE': ['s3', 'ebs', 'efs', 'fsx', 'storage', 'backup', 'glacier'],
-  'DATABASE': ['rds', 'dynamodb', 'aurora', 'redshift', 'neptune', 'documentdb', 'timestream', 'database', 'elasticache', 'memorydb'],
-  'ANALYTICS': ['analytics', 'athena', 'emr', 'kinesis', 'quicksight', 'glue', 'data lake', 'msk', 'kafka'],
-  'SECURITY': ['security', 'iam', 'cognito', 'secrets manager', 'kms', 'waf', 'shield', 'guardduty', 'inspector', 'macie', 'detective'],
-  'NETWORKING': ['vpc', 'cloudfront', 'route 53', 'direct connect', 'transit gateway', 'network', 'api gateway', 'app mesh', 'cloud map'],
-  'DEVTOOLS': ['codecommit', 'codebuild', 'codedeploy', 'codepipeline', 'codeartifact', 'cloud9', 'x-ray', 'developer', 'devops'],
-  'CONTAINERS': ['ecs', 'eks', 'ecr', 'container', 'kubernetes', 'docker', 'app runner'],
-  'SERVERLESS': ['lambda', 'serverless', 'step functions', 'eventbridge', 'sns', 'sqs', 'api gateway']
+  'SECURITY': ['security', 'secrets manager', 'kms', 'waf', 'shield', 'guardduty', 'inspector', 'macie', 'detective', 'iam role', 'iam policy', 'cognito', 'certificate manager', 'acm'],
+  'AI_ML': ['machine learning', 'amazon bedrock', 'sagemaker', 'comprehend', 'rekognition', 'textract', 'generative ai', 'gen ai', 'foundation model', 'amazon q', 'polly', 'transcribe', 'translate', 'lex', 'personalize', 'forecast', 'fraud detector', 'lookout', 'deepracer'],
+  'DATABASE': ['amazon rds', 'dynamodb', 'aurora', 'redshift', 'neptune', 'documentdb', 'timestream', 'elasticache', 'memorydb', 'database migration'],
+  'CONTAINERS': ['amazon ecs', 'amazon eks', 'amazon ecr', 'container', 'kubernetes', 'docker', 'app runner', 'copilot'],
+  'SERVERLESS': ['aws lambda', 'step functions', 'eventbridge', 'amazon sns', 'amazon sqs', 'app sync'],
+  'COMPUTE': ['amazon ec2', 'aws fargate', 'aws batch', 'elastic compute', 'instance', 'graviton', 'lightsail', 'outposts', 'wavelength', 'local zones'],
+  'STORAGE': ['amazon s3', 'amazon ebs', 'amazon efs', 'amazon fsx', 'storage gateway', 'backup', 'glacier', 'snow family'],
+  'NETWORKING': ['amazon vpc', 'cloudfront', 'route 53', 'direct connect', 'transit gateway', 'elastic load balancing', 'elb', 'alb', 'nlb', 'app mesh', 'cloud map', 'global accelerator'],
+  'ANALYTICS': ['amazon athena', 'amazon emr', 'amazon kinesis', 'amazon quicksight', 'aws glue', 'data lake', 'amazon msk', 'opensearch', 'elasticsearch', 'redshift', 'lake formation'],
+  'DEVTOOLS': ['codecommit', 'codebuild', 'codedeploy', 'codepipeline', 'codeartifact', 'cloud9', 'x-ray', 'codewhisperer', 'codeguru', 'cloudshell']
 };
 
 // Categorize announcement
 function categorizeAnnouncement(title, content) {
   const text = (title + ' ' + content).toLowerCase();
   
+  // Check each category
   for (const [category, keywords] of Object.entries(CATEGORY_KEYWORDS)) {
     for (const keyword of keywords) {
-      if (text.includes(keyword)) {
+      // Use word boundaries for better matching
+      // This prevents "ml" from matching in "multi" or "ai" in "email"
+      const pattern = new RegExp('\\b' + keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b', 'i');
+      if (pattern.test(text)) {
         return category;
       }
     }
