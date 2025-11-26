@@ -155,7 +155,7 @@ async function generateData() {
   console.log(`📅 Filtered to ${recentAnnouncements.length} announcements from last 7 days`);
 
   // Process announcements with AI (limit to 50 to avoid excessive API costs)
-  const itemsToProcess = recentAnnouncements.slice(0, 25);
+  const itemsToProcess = recentAnnouncements.slice(0, 50);
   console.log(`\n🤖 Processing ${itemsToProcess.length} announcements with AI...`);
   
   const processed = [];
@@ -177,42 +177,73 @@ async function generateData() {
   
   console.log(`\n✓ Successfully processed ${processed.length} announcements`);
 
-  // Remove duplicates
-  const uniqueAnnouncements = processed.reduce((acc, current) => {
+  // Load existing announcements from JSON (if file exists)
+  const outputDir = path.join(__dirname, '..', 'public', 'data');
+  const outputPath = path.join(outputDir, 'announcements.json');
+  let existingAnnouncements = [];
+  
+  if (fs.existsSync(outputPath)) {
+    try {
+      const existingData = JSON.parse(fs.readFileSync(outputPath, 'utf8'));
+      existingAnnouncements = existingData.announcements || [];
+      console.log(`\n📂 Loaded ${existingAnnouncements.length} existing announcements`);
+    } catch (error) {
+      console.log(`\n⚠️  Could not load existing data: ${error.message}`);
+    }
+  }
+
+  // Combine existing + new announcements
+  const allAnnouncements = [...existingAnnouncements, ...processed];
+
+  // Remove duplicates by ID
+  const uniqueAnnouncements = allAnnouncements.reduce((acc, current) => {
     const exists = acc.find(item => item.id === current.id);
     if (!exists) acc.push(current);
     return acc;
   }, []);
 
-  // Sort by timestamp
-  uniqueAnnouncements.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+  console.log(`📊 Total unique announcements: ${uniqueAnnouncements.length}`);
 
-  console.log(`📦 Final result: ${uniqueAnnouncements.length} unique announcements`);
+  // Remove items older than 90 days (3 months)
+  const ninetyDaysAgo = Date.now() - (90 * 24 * 60 * 60 * 1000);
+  const recentOnly = uniqueAnnouncements.filter(item => {
+    const itemDate = new Date(item.timestamp).getTime();
+    return itemDate >= ninetyDaysAgo;
+  });
+
+  const removedCount = uniqueAnnouncements.length - recentOnly.length;
+  if (removedCount > 0) {
+    console.log(`🗑️  Removed ${removedCount} announcements older than 90 days`);
+  }
+
+  // Sort by timestamp (newest first)
+  recentOnly.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+
+  console.log(`📦 Final result: ${recentOnly.length} announcements (last 90 days)`);
 
   // Generate category stats
   const stats = {
-    total: uniqueAnnouncements.length,
+    total: recentOnly.length,
     byCategory: {},
     lastUpdated: new Date().toISOString()
   };
 
-  for (const announcement of uniqueAnnouncements) {
+  for (const announcement of recentOnly) {
     stats.byCategory[announcement.category] = (stats.byCategory[announcement.category] || 0) + 1;
   }
 
-  // Save to JSON file
-  const outputDir = path.join(__dirname, '..', 'public', 'data');
+  // Ensure output directory exists (outputPath already defined above)
   if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true });
   }
 
   const outputData = {
-    announcements: uniqueAnnouncements,
+    announcements: recentOnly,
     stats,
     generatedAt: new Date().toISOString()
   };
 
-  const outputPath = path.join(outputDir, 'announcements.json');
+  // outputPath already defined at line 182, reuse it
   fs.writeFileSync(outputPath, JSON.stringify(outputData, null, 2));
 
   console.log(`\n✅ Data saved to ${outputPath}`);
