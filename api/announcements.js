@@ -20,28 +20,10 @@ module.exports = async (req, res) => {
     const now = Date.now();
     if (!cachedAnnouncements || (now - cacheTime) > CACHE_DURATION) {
       console.log('Cache miss, fetching fresh data...');
-      try {
-        cachedAnnouncements = await fetchAllAnnouncements();
-        cacheTime = now;
-        console.log(`Successfully fetched ${cachedAnnouncements.length} announcements`);
-      } catch (fetchError) {
-        console.error('Error fetching announcements:', fetchError);
-        
-        // If we have stale cache, use it
-        if (cachedAnnouncements && cachedAnnouncements.length > 0) {
-          console.log('Using stale cache due to fetch error');
-        } else {
-          // No cache available, return error
-          throw fetchError;
-        }
-      }
+      cachedAnnouncements = await fetchAllAnnouncements();
+      cacheTime = now;
     } else {
       console.log('Using cached data');
-    }
-
-    // Ensure we have data
-    if (!cachedAnnouncements || cachedAnnouncements.length === 0) {
-      throw new Error('No announcements available. This could be due to RSS feed issues or rate limiting.');
     }
 
     let filtered = [...cachedAnnouncements];

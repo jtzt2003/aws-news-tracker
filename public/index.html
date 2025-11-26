@@ -89,7 +89,6 @@
             const [isLoading, setIsLoading] = useState(true);
             const [notification, setNotification] = useState(null);
             const [lastUpdate, setLastUpdate] = useState(null);
-            const [dateFilter, setDateFilter] = useState('ALL'); // NEW: Date filter state
 
             // Load initial data
             useEffect(() => {
@@ -161,18 +160,7 @@
                 const matchesCategory = selectedCategory === 'ALL' || ann.category === selectedCategory;
                 const matchesSearch = ann.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
                                      ann.summary.toLowerCase().includes(searchQuery.toLowerCase());
-                
-                // NEW: Date filtering
-                let matchesDate = true;
-                if (dateFilter !== 'ALL') {
-                    const announcementDate = new Date(ann.timestamp);
-                    const now = new Date();
-                    const daysAgo = parseInt(dateFilter);
-                    const cutoffDate = new Date(now.getTime() - (daysAgo * 24 * 60 * 60 * 1000));
-                    matchesDate = announcementDate >= cutoffDate;
-                }
-                
-                return matchesCategory && matchesSearch && matchesDate;
+                return matchesCategory && matchesSearch;
             });
 
             // Get category stats
@@ -244,28 +232,6 @@
                                 onChange={(e) => setSearchQuery(e.target.value)}
                             />
                             <span className="absolute right-4 top-4 text-gray-400 text-xl">🔍</span>
-                        </div>
-                        
-                        {/* Date Filter Dropdown - NEW */}
-                        <div className="mt-4">
-                            <label className="block text-sm text-gray-300 mb-2">📅 Time Range</label>
-                            <select
-                                value={dateFilter}
-                                onChange={(e) => setDateFilter(e.target.value)}
-                                className="px-4 py-2 bg-white/10 backdrop-blur-lg rounded-lg border border-white/20 focus:border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-500/50 text-white cursor-pointer"
-                            >
-                                <option value="ALL" className="bg-slate-800">All Time</option>
-                                <option value="1" className="bg-slate-800">Last 24 Hours</option>
-                                <option value="3" className="bg-slate-800">Last 3 Days</option>
-                                <option value="7" className="bg-slate-800">Last 7 Days</option>
-                                <option value="14" className="bg-slate-800">Last 14 Days</option>
-                                <option value="30" className="bg-slate-800">Last 30 Days</option>
-                            </select>
-                            {dateFilter !== 'ALL' && (
-                                <span className="ml-3 text-sm text-gray-400">
-                                    ({filteredAnnouncements.length} announcements)
-                                </span>
-                            )}
                         </div>
                     </div>
 
