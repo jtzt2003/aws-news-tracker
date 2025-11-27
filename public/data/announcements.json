@@ -31,6 +31,16 @@
       "isNew": false
     },
     {
+      "id": "1b6b5607419b2a30084c98b9c1a6dbc15b59a821",
+      "title": "Amazon Aurora now supports PostgreSQL 17.6, 16.10, 15.14, 14.19, and 13.22",
+      "summary": "Amazon Aurora PostgreSQL-Compatible Edition now supports five updated PostgreSQL versions (17.6, 16.10, 15.14, 14.19, and 13.22) with community improvements, bug fixes, and Aurora-specific enhancements. A key new feature is Dynamic Data Masking (DDM), available in versions 16.10 and 17.6, which provides database-level security by dynamically masking sensitive data like personally identifiable information based on role-based policies at query time.",
+      "category": "SECURITY",
+      "timestamp": "2025-11-26T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-aurora-minor-versions-17-6-16-10-15-14-14-19-13-22",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "ec51f80d7eee599cb4369dcb3c8c4c9decd9c6da",
       "title": "Amazon S3 Block Public Access now supports organization-level enforcement",
       "summary": "Amazon S3 Block Public Access now supports organization-level enforcement through AWS Organizations, enabling centralized control of public access settings across all accounts in an organization. This feature allows administrators to standardize and enforce S3 public access policies through a single configuration applied at the root or Organizational Unit level.",
@@ -602,10 +612,10 @@
     }
   ],
   "stats": {
-    "total": 60,
+    "total": 61,
     "byCategory": {
       "AI_ML": 14,
-      "SECURITY": 19,
+      "SECURITY": 20,
       "STORAGE": 3,
       "ANALYTICS": 7,
       "OTHER": 9,
@@ -614,7 +624,7 @@
       "SERVERLESS": 1,
       "NETWORKING": 1
     },
-    "lastUpdated": "2025-11-27T00:12:39.815Z"
+    "lastUpdated": "2025-11-27T10:24:23.989Z"
   },
-  "generatedAt": "2025-11-27T00:12:39.815Z"
+  "generatedAt": "2025-11-27T10:24:23.989Z"
 }
