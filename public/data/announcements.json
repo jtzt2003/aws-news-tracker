@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "f62b0c7bcf7b00fa945cbe6273db997b99aa1a04",
+      "title": "SageMaker HyperPod now supports Managed tiered KV cache and intelligent routing",
+      "summary": "Amazon SageMaker HyperPod has introduced Managed Tiered KV Cache and Intelligent Routing capabilities to optimize large language model (LLM) inference performance, particularly for long-context prompts and multi-turn conversations. These new features help customers deploying production LLM applications achieve faster response times when processing lengthy documents or maintaining conversation context, eliminating the need to recalculate attention mechanisms for all previous tokens with each new interaction.",
+      "category": "AI_ML",
+      "timestamp": "2025-11-26T18:58:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/sagemaker-hyperpod-managed-tiered-kv-cache/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ed77813d87087d01b1e93c34b1079b593e140abb",
+      "title": "Amazon SageMaker HyperPod now supports custom Kubernetes labels and taints",
+      "summary": "Amazon SageMaker HyperPod now supports custom Kubernetes labels and taints, giving customers precise control over pod scheduling and workload placement on EKS-orchestrated clusters. This enhancement prevents expensive GPU resources from being consumed by system pods and non-AI workloads while ensuring compatibility with custom device plugins like EFA and NVIDIA GPU operators.",
+      "category": "AI_ML",
+      "timestamp": "2025-11-26T18:45:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-sagemaker-hyperpod-kubernetes/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "24d8af6069970d2a01feaabbe7fe7f122e78ee80",
+      "title": "Amazon Kinesis Video Streams now supports a new cost effective warm storage tier",
+      "summary": "Amazon Kinesis Video Streams has introduced a new warm storage tier that provides cost-effective long-term media retention with sub-second access latency. The existing standard storage is now called the \"hot tier\" and remains optimized for real-time access and short-term storage. This new tier is designed to benefit developers building home security and enterprise video monitoring solutions who need extended media retention at lower costs.",
+      "category": "SECURITY",
+      "timestamp": "2025-11-26T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-kinesis-video-streams-warm-storage-tier/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ec51f80d7eee599cb4369dcb3c8c4c9decd9c6da",
+      "title": "Amazon S3 Block Public Access now supports organization-level enforcement",
+      "summary": "Amazon S3 Block Public Access now supports organization-level enforcement through AWS Organizations, enabling centralized control of public access settings across all accounts in an organization. This feature allows administrators to standardize and enforce S3 public access policies through a single configuration applied at the root or Organizational Unit level.",
+      "category": "STORAGE",
+      "timestamp": "2025-11-26T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-s3-block-public-access-organization-level-enforcement",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9986e8fe4113a48d61aa8796954dccbc5ae3c062",
+      "title": "Improved AWS Health event triage",
+      "summary": "AWS Health has added two new properties to its event schema - \"actionability\" and \"persona\" - to help customers better prioritize and route health events. These properties enable organizations to programmatically identify which events require customer action and automatically direct them to the appropriate teams. The enhanced schema is available through both the AWS Health API and Health EventBridge, improving operational efficiency and team coordination.",
+      "category": "SECURITY",
+      "timestamp": "2025-11-26T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/improved-aws-health-event-triage",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f62792209b90d6c2d3a41f35738902b4534e1a88",
+      "title": "AWS Compute Optimizer now supports unused NAT Gateway recommendations",
+      "summary": "AWS Compute Optimizer now provides recommendations to identify unused NAT Gateways, helping customers reduce costs by finding gateways with no traffic activity. The service analyzes CloudWatch metrics over a 32-day period, examining factors like active connection count and incoming packets to determine which NAT Gateways are idle and can potentially be removed.",
+      "category": "STORAGE",
+      "timestamp": "2025-11-26T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-compute-optimizer-unused-nat-gateway-recommendations",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e56fb4c352e6f623f4164997f5af3f07ab4a3b4f",
+      "title": "Amazon CloudWatch now supports deletion protection for logs",
+      "summary": "Amazon CloudWatch has introduced deletion protection for log groups, allowing administrators to safeguard critical logging data from accidental or unintended deletion. This feature provides an additional security layer for important logs such as audit trails, compliance records, and operational data. When enabled, the protection prevents log groups from being deleted, helping organizations preserve essential logging information.",
+      "category": "SECURITY",
+      "timestamp": "2025-11-26T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-cloudwatch-deletion-protection-logs",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "51dfd65e6d11684ffbc0a672a740a5125c2b51d1",
+      "title": "Amazon SageMaker HyperPod now supports programmatic node reboot and replacement",
+      "summary": "Amazon SageMaker HyperPod has released new APIs (BatchRebootClusterNodes and BatchReplaceClusterNodes) that allow users to programmatically reboot and replace cluster nodes. This enhancement provides better automation capabilities for managing resilient ML clusters used for training advanced models like large language models, diffusion models, and foundation models.",
+      "category": "AI_ML",
+      "timestamp": "2025-11-26T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-sagemaker-hyperpod-programmatic-node-reboot-replacement",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "603dd4663b1dbc95690df39b597b1cbff70ba9e4",
+      "title": "The AWS API MCP Server is now available on AWS Marketplace",
+      "summary": "AWS has released the AWS API MCP Server on AWS Marketplace, allowing customers to deploy the Model Context Protocol (MCP) server to Amazon Bedrock AgentCore as a managed service. The marketplace offering includes complete deployment instructions and provides enterprise-grade features like built-in authentication and session isolation while simplifying container management.",
+      "category": "SECURITY",
+      "timestamp": "2025-11-26T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/the-aws-api-mcp-server-aws-marketplace",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0a2bdec5e8d27ab3eff163fbce1609f0ef1fd4a1",
+      "title": "AWS announces support for Apache Iceberg V3 deletion vectors and row lineage",
+      "summary": "AWS has announced support for Apache Iceberg V3 deletion vectors and row lineage features across multiple services including Amazon EMR 7.12, AWS Glue, SageMaker notebooks, S3 Tables, and Glue Data Catalog. These capabilities enable customers to build petabyte-scale data lakes with enhanced performance for data modifications and improved tracking of record changes. The deletion vectors feature provides optimized delete operations through specialized delete files.",
+      "category": "AI_ML",
+      "timestamp": "2025-11-26T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-apache-iceberg-v3-deletion-vectors-row-lineage",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "1a54148d0efec23f824012a464fd3b193c4bc330",
       "title": "Manage Amazon SageMaker HyperPod clusters with the new Amazon SageMaker AI MCP Server",
       "summary": "AWS has launched a new Amazon SageMaker AI MCP Server that provides tools for setting up and managing HyperPod clusters. Amazon SageMaker HyperPod simplifies generative AI model development by enabling quick scaling of training, fine-tuning, and deployment tasks across clusters of AI accelerators. The MCP Server allows AI coding assistants to provision and operate these AI/ML clusters for model training and deployment.",
@@ -502,11 +602,11 @@
     }
   ],
   "stats": {
-    "total": 50,
+    "total": 60,
     "byCategory": {
-      "AI_ML": 10,
-      "STORAGE": 1,
-      "SECURITY": 15,
+      "AI_ML": 14,
+      "SECURITY": 19,
+      "STORAGE": 3,
       "ANALYTICS": 7,
       "OTHER": 9,
       "COMPUTE": 4,
@@ -514,7 +614,7 @@
       "SERVERLESS": 1,
       "NETWORKING": 1
     },
-    "lastUpdated": "2025-11-26T12:36:45.461Z"
+    "lastUpdated": "2025-11-27T00:12:39.815Z"
   },
-  "generatedAt": "2025-11-26T12:36:45.461Z"
+  "generatedAt": "2025-11-27T00:12:39.815Z"
 }
