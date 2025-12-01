@@ -1,6 +1,66 @@
 {
   "announcements": [
     {
+      "id": "e816356b415ca468d2acf9a92a83da16c91fd6f5",
+      "title": "AWS Transform launches an AI agent for full-stack Windows modernization",
+      "summary": "AWS Transform has launched a new AI agent that expands beyond .NET modernization to handle full-stack Windows application transformation, including both .NET applications and their Microsoft SQL Server databases. The agent automates the conversion of these Windows workloads to Amazon Aurora PostgreSQL and deploys them as containers on Amazon ECS or EC2 Linux. This full-stack approach accelerates Windows modernization by 5x compared to traditional methods.",
+      "category": "DATABASE",
+      "timestamp": "2025-12-01T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-transform-ai-agent-full-stack-windows-modernization",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "91bb4e093f31e916bc31bebd9c622a8c0f430ff9",
+      "title": "AWS Transform for mainframe now supports application reimagining",
+      "summary": "AWS Transform for mainframe has added new data and activity analysis capabilities that provide comprehensive insights to help reimagine legacy mainframe applications. These insights, combined with business logic extraction, enable organizations to decompose legacy applications into logical business domains. The enhanced capabilities create detailed specifications that coding agents like Kiro can use to transform applications into cloud-native architectures.",
+      "category": "OTHER",
+      "timestamp": "2025-12-01T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/transform-mainframe-application-reimagining/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "44c537e389fbb1286efdab3438d32d577ab83c2f",
+      "title": "AWS Transform adds new agentic AI capabilities for enterprise VMware migrations",
+      "summary": "AWS Transform has introduced new agentic AI capabilities that automate VMware migrations to AWS by collaborating with migration teams to understand business priorities and intelligently plan migrations. The AI agent can discover on-premises environments, prioritize applications, and migrate hundreds of applications across thousands of servers with significantly reduced manual effort and complexity. This enhancement streamlines the traditionally complex process of enterprise VMware-to-AWS migrations through intelligent automation.",
+      "category": "OTHER",
+      "timestamp": "2025-12-01T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/transform-vmware-agentic-ai-enterprise-migration/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "68b8d349096c55692bb444970d8f764d6467a3c2",
+      "title": "AWS Transform for mainframe delivers new testing automation capabilities",
+      "summary": "AWS Transform for mainframe has launched new testing automation capabilities designed to accelerate and de-risk mainframe modernization projects. The new features include automated test plan generation, test data collection scripts, test case automation scripts, and functional test environment tools for continuous delivery and regression testing. These capabilities aim to address key testing challenges that organizations face during mainframe modernization initiatives.",
+      "category": "OTHER",
+      "timestamp": "2025-12-01T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/transform-mainframe-testing-automation/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1b23688a4d36172a0c09e3c0434d6b8f41753170",
+      "title": "AWS launches AWS Transform custom to accelerate organization-wide application modernization",
+      "summary": "AWS has launched AWS Transform custom, a generally available agentic AI service designed to accelerate organization-wide application modernization at scale. The service specifically targets legacy systems including Windows, mainframe, and VMware environments to reduce technical debt and prepare technology stacks for AI integration. This addresses the significant resource burden organizations face, as they typically allocate 20-30% of their software development resources to maintaining outdated systems.",
+      "category": "OTHER",
+      "timestamp": "2025-12-01T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/transform-custom-organization-wide-modernization/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "50dfde60b6a2addbcf8af73ccd8b74df6526000e",
+      "title": "AWS Transform expands .NET transformation capabilities and enhances developer experience",
+      "summary": "AWS Transform is now generally available with expanded .NET transformation capabilities that allow customers to modernize .NET Framework and .NET code to .NET 10 or .NET Standard. The service includes new features for UI porting from ASP.NET Web Forms to Blazor on ASP.NET Core and Entity Framework ORM code transformation. These capabilities come with an enhanced, customizable developer experience integrated into the AWS Toolkit for Visual Studio 2022.",
+      "category": "OTHER",
+      "timestamp": "2025-12-01T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/transform-net-transformation-developer-experience/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "63e006270dd75824c1009da50883e533f954a83d",
       "title": "Amazon Connect now provides native testing and simulation capabilities (Preview)",
       "summary": "Amazon Connect has launched native testing and simulation capabilities in preview, allowing users to validate contact center workflows and self-service voice interactions with just a few clicks. The feature enables configuration of test parameters including caller information, call reasons, expected responses, and various business scenarios like after-hours conditions. This streamlines the process of testing and validating contact center experiences before deployment.",
@@ -712,19 +772,19 @@
     }
   ],
   "stats": {
-    "total": 71,
+    "total": 77,
     "byCategory": {
-      "OTHER": 16,
+      "DATABASE": 3,
+      "OTHER": 21,
       "SECURITY": 22,
       "AI_ML": 15,
       "STORAGE": 3,
       "ANALYTICS": 7,
       "COMPUTE": 4,
-      "DATABASE": 2,
       "SERVERLESS": 1,
       "NETWORKING": 1
     },
-    "lastUpdated": "2025-12-01T10:25:24.303Z"
+    "lastUpdated": "2025-12-01T22:19:12.431Z"
   },
-  "generatedAt": "2025-12-01T10:25:24.303Z"
+  "generatedAt": "2025-12-01T22:19:12.431Z"
 }
