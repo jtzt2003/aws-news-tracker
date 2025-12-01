@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "63e006270dd75824c1009da50883e533f954a83d",
+      "title": "Amazon Connect now provides native testing and simulation capabilities (Preview)",
+      "summary": "Amazon Connect has launched native testing and simulation capabilities in preview, allowing users to validate contact center workflows and self-service voice interactions with just a few clicks. The feature enables configuration of test parameters including caller information, call reasons, expected responses, and various business scenarios like after-hours conditions. This streamlines the process of testing and validating contact center experiences before deployment.",
+      "category": "OTHER",
+      "timestamp": "2025-11-30T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-connect-native-testing-simulation-capabilities-preview",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6a6c868f1e2a7ccceea67334125c500726a59178",
+      "title": "Amazon Connect launches automated email responses using conditional keywords and phrases",
+      "summary": "Amazon Connect has introduced automated email responses that use conditional keywords and phrases to trigger appropriate replies without agent involvement. This feature enables organizations to increase self-service capabilities and reduce manual handling time by automatically responding to common inquiries like product availability or shipment status. The automation is implemented by adding a \"Get stored content\" block to customer service flows with keyword-based routing logic.",
+      "category": "OTHER",
+      "timestamp": "2025-11-30T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-connect-automated-email-responses/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a41a81211da7c1989b7334c01bf3b7c397631742",
+      "title": "Amazon Connect Chat now supports agent-initiated workflows",
+      "summary": "Amazon Connect Chat now enables agents to send interactive forms directly within chat conversations to collect sensitive information or share policies, eliminating the need for customers to leave the chat interface. This new agent-initiated workflow feature allows agents to trigger forms at any point during conversations, such as when customers need to update their address. The enhancement aims to streamline processes, increase efficiency, and improve overall customer experience.",
+      "category": "SECURITY",
+      "timestamp": "2025-11-30T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-connect-chat-agent-initiated-workflows",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "39f008e515a1cf9f754709a37e28ccf055e17dbc",
+      "title": "Amazon Connect now provides automated performance evaluations for self-service interactions",
+      "summary": "Amazon Connect now offers automated performance evaluations for self-service interactions, allowing businesses to automatically assess the quality of customer interactions and gain insights to improve customer experience. Managers can define custom evaluation criteria that can be populated manually or automatically using conversational analytics and other Connect data. This feature helps identify issues such as AI agents repeatedly failing to understand customers, enabling businesses to optimize their self-service capabilities.",
+      "category": "OTHER",
+      "timestamp": "2025-11-30T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-connect-automated-performance-evaluations-self-service-interactions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a654e2e187ede7577cfea265e61b171f670a3c9e",
+      "title": "Amazon Connect now supports AI agent assistance and summarization for Agentforce Service",
+      "summary": "Amazon Connect has launched AI agent assistance and contact summarization for Salesforce Contact Center integration, enabling AI agents to automatically access Salesforce CRM data and knowledge base articles for faster issue resolution across voice and chat channels. When human agents need to intervene, they receive a unified customer view through the seamless integration. This enhancement aims to accelerate customer service resolution while maintaining consistency across different interaction types.",
+      "category": "OTHER",
+      "timestamp": "2025-11-30T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-connect-ai-agent-assistance-summarization-agentforce-service",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "29bd18ca11c9a2210a356afa62497c394c777987",
+      "title": "Amazon Connect now provides improved analytics and monitoring for AI agents",
+      "summary": "Amazon Connect has launched enhanced analytics and monitoring capabilities for AI agents used in both self-service and agent assistance scenarios. The new feature includes customizable dashboards that track key performance metrics such as AI-led interactions, hand-off rates, conversation turns, and average handle time. Users can also compare performance across different AI agent versions to optimize configurations and improve customer outcomes.",
+      "category": "OTHER",
+      "timestamp": "2025-11-30T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-connect-improved-analytics-monitoring-ai-agents",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0b6482d1a6b7c8c2071c51549b0dba77c559b7b2",
+      "title": "Amazon Connect adds support for third-party speech-to-text and text-to-speech AI models for end-customer self-service",
+      "summary": "Amazon Connect now supports third-party speech providers Deepgram (speech-to-text) and ElevenLabs (text-to-speech) for customer self-service, providing more flexibility in voice experience delivery. These third-party AI models can be integrated alongside Amazon Connect's native speech capabilities while maintaining the platform's built-in orchestration, analytics, and compliance controls. The feature is available with Amazon Connect unlimited AI across all commercial AWS regions.",
+      "category": "OTHER",
+      "timestamp": "2025-11-30T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-connect-third-party-speech-to-text-to-speech-ai-models",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "eb2c72ca72b14d39293cfd52eb0844125c89c0da",
+      "title": "Amazon Connect launches Model Context Protocol (MCP) support",
+      "summary": "Amazon Connect now supports Model Context Protocol (MCP), allowing AI agents to use standardized tools for retrieving information and completing actions in customer service scenarios. This enables AI agents to automatically handle tasks like looking up order status, processing refunds, and updating customer records during self-service interactions without human intervention. The feature enhances both customer self-service capabilities and employee assistance tools with extensible AI agent functionality.",
+      "category": "AI_ML",
+      "timestamp": "2025-11-30T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-connect-mcp-support",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c90e870c85e4bd12a257e929dd0b8db345aa8a2d",
+      "title": "Amazon Connect now provides granular access controls for performance evaluations",
+      "summary": "Amazon Connect has introduced granular access controls for performance evaluations, allowing businesses to restrict access to specific evaluation forms and templates based on roles and business functions. This enhancement improves security by preventing unauthorized access to evaluation materials while making it easier for managers to select appropriate forms for their teams. The feature enables businesses to provide targeted access to managers and agents based on their specific business line or functional requirements.",
+      "category": "SECURITY",
+      "timestamp": "2025-11-30T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-connect-granular-access-controls-performance-evaluations",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4b661f41566fdd719dc73c4617ab1f6a8d80efc3",
+      "title": "Amazon Connect now streams messages for AI-powered interactions",
+      "summary": "Amazon Connect now supports message streaming for AI-powered chat interactions, allowing customers to see AI agent responses as they're being generated in real-time. This feature displays status updates like \"One moment while I review your account\" and shows responses appearing progressively, reducing perceived wait times and improving customer confidence that their requests are actively being processed.",
+      "category": "OTHER",
+      "timestamp": "2025-11-30T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-connect-streams-messages-ai-powered-interactions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "f62b0c7bcf7b00fa945cbe6273db997b99aa1a04",
       "title": "SageMaker HyperPod now supports Managed tiered KV cache and intelligent routing",
       "summary": "Amazon SageMaker HyperPod has introduced Managed Tiered KV Cache and Intelligent Routing capabilities to optimize large language model (LLM) inference performance, particularly for long-context prompts and multi-turn conversations. These new features help customers deploying production LLM applications achieve faster response times when processing lengthy documents or maintaining conversation context, eliminating the need to recalculate attention mechanisms for all previous tokens with each new interaction.",
@@ -612,19 +712,19 @@
     }
   ],
   "stats": {
-    "total": 61,
+    "total": 71,
     "byCategory": {
-      "AI_ML": 14,
-      "SECURITY": 20,
+      "OTHER": 16,
+      "SECURITY": 22,
+      "AI_ML": 15,
       "STORAGE": 3,
       "ANALYTICS": 7,
-      "OTHER": 9,
       "COMPUTE": 4,
       "DATABASE": 2,
       "SERVERLESS": 1,
       "NETWORKING": 1
     },
-    "lastUpdated": "2025-11-30T22:19:37.075Z"
+    "lastUpdated": "2025-12-01T10:25:24.303Z"
   },
-  "generatedAt": "2025-11-30T22:19:37.075Z"
+  "generatedAt": "2025-12-01T10:25:24.303Z"
 }
