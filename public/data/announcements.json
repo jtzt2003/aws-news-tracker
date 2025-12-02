@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "50be67446002d2314427fa744e4d52d2c8130363",
+      "title": "Announcing Amazon EC2 General purpose M8azn instances (Preview)",
+      "summary": "Amazon has announced the preview availability of new EC2 M8azn instances, which are general-purpose, high-frequency compute instances powered by fifth-generation AMD EPYC processors. These instances offer the highest maximum CPU frequency available in the cloud at 5GHz, delivering up to 2x better compute performance compared to previous-generation M5zn instances and 24% higher performance than M8a instances.",
+      "category": "COMPUTE",
+      "timestamp": "2025-12-02T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-amazon-ec2-m8azn-preview",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f17fc1f9ec3bfab97a6e4b4c9f10cd2fa70cd1b4",
+      "title": "Announcing Amazon Nova 2 Sonic for real-time conversational AI",
+      "summary": "Amazon has announced the availability of Amazon Nova 2 Sonic, a new speech-to-speech AI model designed for real-time conversational applications. The model features industry-leading quality and pricing, with robust streaming speech understanding that handles background noise and various speaking styles, efficient dialog management, and expressive multilingual voice generation. Nova 2 Sonic offers superior reasoning capabilities and is optimized for natural voice-based conversational AI experiences.",
+      "category": "AI_ML",
+      "timestamp": "2025-12-02T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-nova-2-sonic-real-time-conversational-ai/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6554a4397c5dd956444d931259ae605faee95f80",
+      "title": "Announcing the Apache Spark upgrade agent for Amazon EMR",
+      "summary": "AWS has launched the Apache Spark upgrade agent for Amazon EMR, a new tool that significantly accelerates Apache Spark version upgrades for both EMR on EC2 and EMR Serverless. The agent reduces complex upgrade processes from months to weeks by automating code analysis and transformation, eliminating the need for organizations to invest substantial engineering resources in manually analyzing API changes and resolving conflicts. The tool features a conversational interface to streamline the upgrade experience.",
+      "category": "AI_ML",
+      "timestamp": "2025-12-02T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/apache-spark-upgrade-agent-amazon-emr",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a926ba0745afe3581a5a7ec9c5112cfcf69f211c",
+      "title": "Amazon RDS for SQL Server now supports Developer Edition",
+      "summary": "Amazon RDS for SQL Server now supports Microsoft SQL Server 2022 Developer Edition, a free version that includes all Enterprise Edition features for non-production use. This allows customers to build, test, and demonstrate applications while reducing costs and maintaining consistency with their production database environments.",
+      "category": "DATABASE",
+      "timestamp": "2025-12-02T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-rds-sql-server-supports-developer-edition/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "cff14ac532f0894433377e6633adeb67d4f75d5f",
+      "title": "Amazon S3 Storage Lens adds performance metrics, support for billions of prefixes, and export to S3 Tables",
+      "summary": "Amazon S3 Storage Lens has introduced three new capabilities to enhance storage visibility and optimization: performance metrics that reveal how applications interact with S3 data, analytics support for billions of prefixes within buckets, and direct metrics export to S3 Tables. These enhancements provide deeper insights into storage usage and application performance to help organizations better optimize costs, improve performance, and strengthen data protection across their S3 infrastructure.",
+      "category": "STORAGE",
+      "timestamp": "2025-12-02T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-s3-storage-lens-performance-metrics-prefixes-export-tables",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5b199f92449179a669e41bd187187faed8f76831",
+      "title": "Amazon FSx for NetApp ONTAP now supports Amazon S3 access",
+      "summary": "Amazon FSx for NetApp ONTAP now allows users to attach Amazon S3 Access Points to their file systems, enabling them to access file data as if it were stored in S3. This new feature makes file data seamlessly compatible with AI, machine learning, and analytics services that work with S3, while the data remains in the original FSx for NetApp ONTAP file system.",
+      "category": "AI_ML",
+      "timestamp": "2025-12-02T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-fsx-netapp-ontap-s3-access",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2b94a5dd5027c268e1812c5421dda67ff036cda5",
+      "title": "Amazon RDS for SQL Server launches optimize CPU with new generation instances for up to 55% lower price",
+      "summary": "Amazon RDS for SQL Server has launched \"optimize CPU\" support for new M7i and R7i instance families, offering up to 55% lower prices compared to previous generation instances. This feature optimizes Simultaneous Multi-threading (SMT) configuration to reduce commercial software licensing charges. Customers can achieve cost savings by upgrading from 6th generation instances, with additional reductions available for memory or IO-intensive database workloads.",
+      "category": "DATABASE",
+      "timestamp": "2025-12-02T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-rds-sql-server-optimized-cpu-lower-prices",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4b1dc89923484a7d9b15302b21443b4faf3f215c",
+      "title": "Amazon EC2 P6e-GB300 UltraServers accelerated by NVIDIA GB300 NVL72 are now generally available",
+      "summary": "AWS has launched Amazon EC2 P6e-GB300 UltraServers, powered by NVIDIA GB300 NVL72 chips, which offer 1.5x more GPU memory and 1.5x better FP4 compute performance compared to the previous P6e-GB200 generation. These new instances are designed to optimize performance for powerful AI models in production, particularly for applications requiring higher context processing and emerging techniques like reasoning and Agentic AI.",
+      "category": "COMPUTE",
+      "timestamp": "2025-12-02T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-p6e-gb300-ultraservers-nvidia-gb300-nvl72-generally-available",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f85d527c4bf12dcbe1a548b2d1db9343c7cd9915",
+      "title": "Announcing new memory-optimized Amazon EC2 X8aedz Instances ",
+      "summary": "AWS has announced the new EC2 X8aedz instances, which are memory-optimized instances powered by 5th generation AMD EPYC processors and offer the highest maximum CPU frequency of 5GHz in the cloud. These instances deliver up to 2x higher compute performance compared to the previous generation X2iezn instances and are built using sixth-generation AWS Nitro Cards. They are specifically designed for electronic design automation (EDA) workloads and other memory-intensive applications.",
+      "category": "COMPUTE",
+      "timestamp": "2025-12-02T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/memory-optimized-amazon-ec2-x8aedz-instances/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5458bd459c631a0bb11e2513f819332e20ad4db1",
+      "title": "Announcing Amazon EC2 Memory optimized X8i instances (Preview)",
+      "summary": "Amazon Web Services has announced the preview of Amazon EC2 X8i instances, next-generation memory-optimized instances powered by custom Intel Xeon 6 processors. These instances offer significant improvements over previous X2i instances, including 1.5x more memory capacity (up to 6TB), up to 3.4x more memory bandwidth, and 46% higher SAPS performance. The X8i instances will be SAP-certified and deliver the highest performance and fastest memory among comparable Intel processors available in the cloud.",
+      "category": "COMPUTE",
+      "timestamp": "2025-12-02T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-x8i-instances-preview",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "e816356b415ca468d2acf9a92a83da16c91fd6f5",
       "title": "AWS Transform launches an AI agent for full-stack Windows modernization",
       "summary": "AWS Transform has launched a new AI agent that expands beyond .NET modernization to handle full-stack Windows application transformation, including both .NET applications and their Microsoft SQL Server databases. The agent automates the conversion of these Windows workloads to Amazon Aurora PostgreSQL and deploys them as containers on Amazon ECS or EC2 Linux. This full-stack approach accelerates Windows modernization by 5x compared to traditional methods.",
@@ -772,19 +872,19 @@
     }
   ],
   "stats": {
-    "total": 77,
+    "total": 87,
     "byCategory": {
-      "DATABASE": 3,
+      "COMPUTE": 8,
+      "AI_ML": 18,
+      "DATABASE": 5,
+      "STORAGE": 4,
       "OTHER": 21,
       "SECURITY": 22,
-      "AI_ML": 15,
-      "STORAGE": 3,
       "ANALYTICS": 7,
-      "COMPUTE": 4,
       "SERVERLESS": 1,
       "NETWORKING": 1
     },
-    "lastUpdated": "2025-12-02T10:25:07.031Z"
+    "lastUpdated": "2025-12-02T22:18:36.437Z"
   },
-  "generatedAt": "2025-12-02T10:25:07.032Z"
+  "generatedAt": "2025-12-02T22:18:36.437Z"
 }
