@@ -1,6 +1,56 @@
 {
   "announcements": [
     {
+      "id": "345f08595809708ea4ebac6bd80b8e09c2c508d0",
+      "title": "Amazon SageMaker HyperPod now supports checkpointless training",
+      "summary": "Amazon SageMaker HyperPod has introduced checkpointless training, a new capability that eliminates the need for checkpoint-based job restarts during fault recovery in foundational model training. This innovation maintains continuous training momentum even when failures occur, dramatically reducing recovery time from hours to just minutes. The feature represents a significant improvement over traditional checkpoint-based recovery methods that require pausing entire training clusters and manual issue diagnosis.",
+      "category": "AI_ML",
+      "timestamp": "2025-12-03T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-sagemaker-hyperpod-checkpointless-training",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2379419c497922710cfe1119f61f4f358397f6e1",
+      "title": "New serverless model customization capability in Amazon SageMaker AI",
+      "summary": "AWS has launched a new serverless model customization capability in Amazon SageMaker AI that allows developers to quickly customize popular AI models using supervised fine-tuning and reinforcement learning techniques. This feature addresses the common need for developers to customize models with proprietary data to improve accuracy. SageMaker AI is AWS's fully managed service designed to provide comprehensive tools for high-performance, cost-effective AI model development across various use cases.",
+      "category": "AI_ML",
+      "timestamp": "2025-12-03T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/new-serverless-model-customization-capability-amazon-sagemaker-ai",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "736e2e303e55b235a1ad2907d672fe0b436715a2",
+      "title": "Announcing TypeScript support in Strands Agents (preview) and more",
+      "summary": "AWS has announced TypeScript support (in preview) for Strands Agents, their open source SDK for building AI agents. Previously only available in Python since its May release, developers can now choose between Python and TypeScript when building Strands Agents. The TypeScript implementation includes full type safety, async/await support, and follows modern JavaScript/TypeScript conventions.",
+      "category": "SERVERLESS",
+      "timestamp": "2025-12-03T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/typescript-strands-agents-preview",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9c31bc9aca62069c3aee0f5ccbd4420d033193b9",
+      "title": " Introducing elastic training on Amazon SageMaker HyperPod",
+      "summary": "Amazon SageMaker HyperPod now offers elastic training capabilities that automatically scale foundation model training workloads based on available resources and priorities. This eliminates the need for manual intervention when compute availability changes, saving significant engineering time previously spent halting and reconfiguring training jobs. The feature represents a shift from fixed-resource training to dynamic scaling that accelerates model development workflows.",
+      "category": "AI_ML",
+      "timestamp": "2025-12-03T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/elastic-training-amazon-sagemaker-hyperpod/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2704df6a7fca40dc868cee89aa75a7578a97ced5",
+      "title": "Amazon Bedrock now supports reinforcement fine-tuning delivering 66% accuracy gains on average over base models",
+      "summary": "Amazon Bedrock now offers reinforcement fine-tuning capabilities that allow developers to improve model accuracy by an average of 66% without requiring extensive machine learning expertise or large labeled datasets. This automated workflow enables models to align with specific requirements using only a small set of prompts rather than traditional large-scale data approaches. The feature makes advanced model customization accessible to everyday developers through Bedrock's streamlined automation.",
+      "category": "SECURITY",
+      "timestamp": "2025-12-03T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/bedrock-reinforcement-fine-tuning-66-base-models/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "50be67446002d2314427fa744e4d52d2c8130363",
       "title": "Announcing Amazon EC2 General purpose M8azn instances (Preview)",
       "summary": "Amazon has announced the preview availability of new EC2 M8azn instances, which are general-purpose, high-frequency compute instances powered by fifth-generation AMD EPYC processors. These instances offer the highest maximum CPU frequency available in the cloud at 5GHz, delivering up to 2x better compute performance compared to previous-generation M5zn instances and 24% higher performance than M8a instances.",
@@ -872,19 +922,19 @@
     }
   ],
   "stats": {
-    "total": 87,
+    "total": 92,
     "byCategory": {
+      "AI_ML": 21,
+      "SERVERLESS": 2,
+      "SECURITY": 23,
       "COMPUTE": 8,
-      "AI_ML": 18,
       "DATABASE": 5,
       "STORAGE": 4,
       "OTHER": 21,
-      "SECURITY": 22,
       "ANALYTICS": 7,
-      "SERVERLESS": 1,
       "NETWORKING": 1
     },
-    "lastUpdated": "2025-12-03T10:25:40.164Z"
+    "lastUpdated": "2025-12-03T22:21:27.729Z"
   },
-  "generatedAt": "2025-12-03T10:25:40.164Z"
+  "generatedAt": "2025-12-03T22:21:27.729Z"
 }
