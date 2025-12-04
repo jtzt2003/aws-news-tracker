@@ -1,6 +1,26 @@
 {
   "announcements": [
     {
+      "id": "c92b155d1a8e581bebba2b5b14b511ffc70ccbdd",
+      "title": "Amazon Bedrock now supports Responses API from OpenAI",
+      "summary": "Amazon Bedrock now supports OpenAI's Responses API through new API-compatible service endpoints, enabling asynchronous inference for long-running workloads and simplified tool integration for agentic workflows. The API provides stateful conversation management, automatically rebuilding context without requiring developers to manually pass entire conversation histories with each request. This enhancement streamlines development by reducing the complexity of managing conversational state and tool interactions.",
+      "category": "AI_ML",
+      "timestamp": "2025-12-04T12:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-bedrock-responses-api-from-openai/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1bf213e270559f1bb9f1a9b4453447151d57b47c",
+      "title": "Announcing new Amazon EC2 M9g instances powered by AWS Graviton5 processors (Preview)",
+      "summary": "AWS has announced the preview availability of new Amazon EC2 M9g instances powered by the latest AWS Graviton5 processors. These new general-purpose instances deliver up to 25% better compute performance compared to the previous generation Graviton4-based M8g instances, along with improved networking and Amazon EBS bandwidth. The Graviton5 processors are custom-designed by AWS to optimize price-performance for EC2 workloads.",
+      "category": "AI_ML",
+      "timestamp": "2025-12-04T09:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/ec2-m9g-instances-graviton5-processors-preview/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "345f08595809708ea4ebac6bd80b8e09c2c508d0",
       "title": "Amazon SageMaker HyperPod now supports checkpointless training",
       "summary": "Amazon SageMaker HyperPod has introduced checkpointless training, a new capability that eliminates the need for checkpoint-based job restarts during fault recovery in foundational model training. This innovation maintains continuous training momentum even when failures occur, dramatically reducing recovery time from hours to just minutes. The feature represents a significant improvement over traditional checkpoint-based recovery methods that require pausing entire training clusters and manual issue diagnosis.",
@@ -922,9 +942,9 @@
     }
   ],
   "stats": {
-    "total": 92,
+    "total": 94,
     "byCategory": {
-      "AI_ML": 21,
+      "AI_ML": 23,
       "SERVERLESS": 2,
       "SECURITY": 23,
       "COMPUTE": 8,
@@ -934,7 +954,7 @@
       "ANALYTICS": 7,
       "NETWORKING": 1
     },
-    "lastUpdated": "2025-12-04T10:25:46.241Z"
+    "lastUpdated": "2025-12-04T22:19:12.435Z"
   },
-  "generatedAt": "2025-12-04T10:25:46.241Z"
+  "generatedAt": "2025-12-04T22:19:12.435Z"
 }
