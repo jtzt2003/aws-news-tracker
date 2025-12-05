@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "4b17110c60c4e2725b3c5d1017abf6ca44b60733",
+      "title": "Amazon OpenSearch Service now supports automatic semantic enrichment",
+      "summary": "Amazon OpenSearch Service now offers automatic semantic enrichment for managed clusters, extending a capability previously available only in OpenSearch Serverless. This feature enables semantic search that understands context and meaning rather than just exact phrase matching, delivering more relevant search results with minimal configuration required.",
+      "category": "AI_ML",
+      "timestamp": "2025-12-05T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/opensearch-service-automatic-semantic-enrichment/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "304b1cca90799c859d38ef4e327f3bb577f4a244",
+      "title": "TwelveLabs’ Pegasus 1.2 model now in 23 new AWS regions via Global cross-region inference",
+      "summary": "Amazon Bedrock has expanded access to TwelveLabs' Pegasus 1.2 model to 23 additional AWS regions through Global cross-region inference, bringing the total to 30 available regions. The service now includes Geographic cross-region inference for EU regions, which helps meet data residency and compliance requirements by keeping workloads within specific geographic boundaries.",
+      "category": "AI_ML",
+      "timestamp": "2025-12-05T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/twelvelabs-pegasus-available-with-global-cross-region-inference/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2812e5d378e844840c1e09b198ed4c659082b22a",
+      "title": "SES Mail Manager is now available in 10 additional AWS Regions, 27 total",
+      "summary": "Amazon SES has expanded its Mail Manager product to 10 additional AWS Regions, bringing the total to 27 commercial regions where it's available. This expansion means Mail Manager is now offered in all commercial regions where SES provides its core Outbound service. Mail Manager enables customers to configure email routing and delivery mechanisms for their domains while providing unified email governance, risk, and compliance management.",
+      "category": "SECURITY",
+      "timestamp": "2025-12-05T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/ses-mail-manager-10-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "bbdd87e2ad452184c93ed6e9aa8d438ec570c2cf",
+      "title": "Amazon SES adds VPC support for API endpoints",
+      "summary": "Amazon SES now supports VPC endpoints, allowing customers to access SES APIs for sending emails and managing configurations directly through their Virtual Private Cloud without requiring an internet gateway. This enhancement improves security by keeping traffic within the VPC instead of routing it through the public internet. The feature enables more secure email operations for workloads running entirely within AWS VPCs.",
+      "category": "SECURITY",
+      "timestamp": "2025-12-05T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ses-vpc-api-endpoints/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "09d37c31f8439a41281996d8cbacbd8681422603",
+      "title": "Amazon Connect launches WhatsApp channel for Outbound Campaigns",
+      "summary": "Amazon Connect has added WhatsApp support for Outbound Campaigns, allowing businesses to proactively reach customers through automated WhatsApp messages. This feature enables companies to send appointment reminders, payment notifications, order updates, and product recommendations directly via WhatsApp. The setup process uses the same familiar Amazon Connect interface, building on existing WhatsApp Business messaging capabilities.",
+      "category": "AI_ML",
+      "timestamp": "2025-12-05T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/connect-whatsapp-channel-outbound-campaigns/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6db51ffdd330febe841610bd7c5918887bbf023c",
+      "title": "Amazon SageMaker now supports self-service migration of Notebook instances to latest platform versions",
+      "summary": "Amazon SageMaker now allows users to self-service migrate their Notebook instances to newer platform versions using the UpdateNotebookInstance API with a new PlatformIdentifier parameter. This feature enables seamless transitions from older, unsupported platform identifiers (notebook-al1-v1, notebook-al2-v1, notebook-al2-v2) to currently supported versions (notebook-al2-v3, notebook-al2023-v1).",
+      "category": "AI_ML",
+      "timestamp": "2025-12-05T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-sagemaker-self-service-migration-notebook-instances",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e236474a29f9c9962b10e45a970ab680cabe0083",
+      "title": "AWS Elastic Beanstalk now supports Node.js 24 on Amazon Linux 2023",
+      "summary": "AWS Elastic Beanstalk now supports Node.js 24 applications running on the Amazon Linux 2023 (AL2023) platform. This update allows developers to access the latest Node.js features and improvements while benefiting from AL2023's enhanced security and performance capabilities through Beanstalk's managed deployment service.",
+      "category": "SECURITY",
+      "timestamp": "2025-12-05T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/elastic-beanstalk-node-js-24-linux-2023/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "fdf5f6b3fe1b86fc93bafe9e61805c902db0c123",
+      "title": "Amazon Connect Customer Profiles launches new segmentation capabilities (Beta)",
+      "summary": "Amazon Connect Customer Profiles has launched new beta segmentation capabilities powered by Spark SQL, allowing users to create sophisticated customer segments using complete profile data with AI assistance. The feature enables access to both custom and standard objects, along with advanced SQL capabilities like joining objects, filtering with statistical functions, and standardizing date fields. This enhancement provides more powerful and flexible customer segmentation tools for complex data analysis within the Amazon Connect ecosystem.",
+      "category": "OTHER",
+      "timestamp": "2025-12-05T15:04:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-connect-customer-profiles/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ca845f0dcd7f1a979abfadcffb771b18302bdae1",
+      "title": "AWS launches simplified enablement of AWS CloudTrail events in Amazon CloudWatch",
+      "summary": "AWS has launched a simplified way to enable AWS CloudTrail events in Amazon CloudWatch, allowing users to centrally configure CloudTrail event collection alongside other AWS log sources like VPC flow logs and EKS Control Plane Logs. This new feature provides a consolidated view through CloudWatch's ingestion experience, making it easier to collect, monitor, and analyze log data from AWS resources and applications in one place.",
+      "category": "CONTAINERS",
+      "timestamp": "2025-12-05T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/key-enhancements-cloudtrail-events-cloudwatch/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "651a0bfdc4a000dc4a002d84ca85e8520fea0995",
+      "title": "AWS Elastic Beanstalk now supports Python 3.14 on Amazon Linux 2023",
+      "summary": "AWS Elastic Beanstalk now supports Python 3.14 applications on the Amazon Linux 2023 (AL2023) platform, allowing developers to use the latest Python features while benefiting from enhanced security and performance. This update enables customers to deploy and manage Python 3.14 applications through Beanstalk's infrastructure-abstracted service without having to worry about underlying server management.",
+      "category": "SECURITY",
+      "timestamp": "2025-12-05T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/elastic-beanstalk-python-314-linux-2023/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "c92b155d1a8e581bebba2b5b14b511ffc70ccbdd",
       "title": "Amazon Bedrock now supports Responses API from OpenAI",
       "summary": "Amazon Bedrock now supports OpenAI's Responses API through new API-compatible service endpoints, enabling asynchronous inference for long-running workloads and simplified tool integration for agentic workflows. The API provides stateful conversation management, automatically rebuilding context without requiring developers to manually pass entire conversation histories with each request. This enhancement streamlines development by reducing the complexity of managing conversational state and tool interactions.",
@@ -942,19 +1042,20 @@
     }
   ],
   "stats": {
-    "total": 94,
+    "total": 104,
     "byCategory": {
-      "AI_ML": 23,
+      "AI_ML": 27,
+      "SECURITY": 27,
+      "OTHER": 22,
+      "CONTAINERS": 1,
       "SERVERLESS": 2,
-      "SECURITY": 23,
       "COMPUTE": 8,
       "DATABASE": 5,
       "STORAGE": 4,
-      "OTHER": 21,
       "ANALYTICS": 7,
       "NETWORKING": 1
     },
-    "lastUpdated": "2025-12-05T10:23:31.608Z"
+    "lastUpdated": "2025-12-05T22:20:25.115Z"
   },
-  "generatedAt": "2025-12-05T10:23:31.608Z"
+  "generatedAt": "2025-12-05T22:20:25.115Z"
 }
