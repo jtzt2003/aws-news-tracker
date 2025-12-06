@@ -101,6 +101,16 @@
       "isNew": false
     },
     {
+      "id": "f6d2b5918417ffaa3b761a9902443cedd35baece",
+      "title": "Amazon Q now can analyze SES email sending",
+      "summary": "Amazon Q now supports analyzing Amazon Simple Email Service (SES) email sending, allowing customers to ask questions about their SES setup and usage patterns. Q can help optimize SES configurations and troubleshoot email deliverability issues, making SES management more accessible to users with less technical expertise.",
+      "category": "AI_ML",
+      "timestamp": "2025-12-05T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-q-analyze-ses-email-sending/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "c92b155d1a8e581bebba2b5b14b511ffc70ccbdd",
       "title": "Amazon Bedrock now supports Responses API from OpenAI",
       "summary": "Amazon Bedrock now supports OpenAI's Responses API through new API-compatible service endpoints, enabling asynchronous inference for long-running workloads and simplified tool integration for agentic workflows. The API provides stateful conversation management, automatically rebuilding context without requiring developers to manually pass entire conversation histories with each request. This enhancement streamlines development by reducing the complexity of managing conversational state and tool interactions.",
@@ -1042,9 +1052,9 @@
     }
   ],
   "stats": {
-    "total": 104,
+    "total": 105,
     "byCategory": {
-      "AI_ML": 27,
+      "AI_ML": 28,
       "SECURITY": 27,
       "OTHER": 22,
       "CONTAINERS": 1,
@@ -1055,7 +1065,7 @@
       "ANALYTICS": 7,
       "NETWORKING": 1
     },
-    "lastUpdated": "2025-12-05T22:20:25.115Z"
+    "lastUpdated": "2025-12-06T10:20:38.678Z"
   },
-  "generatedAt": "2025-12-05T22:20:25.115Z"
+  "generatedAt": "2025-12-06T10:20:38.678Z"
 }
