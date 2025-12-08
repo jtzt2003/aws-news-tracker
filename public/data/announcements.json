@@ -1,6 +1,26 @@
 {
   "announcements": [
     {
+      "id": "da40f8b372671247469a36c25ec9a7b988df1df6",
+      "title": "Amazon Quick Suite integrates Quick Research with Quick Flows for report automation",
+      "summary": "Amazon Quick Suite now integrates Quick Research with Quick Flows, allowing teams to automatically generate comprehensive research reports as part of multi-step workflows. This integration transforms research projects into reusable, shareable workflows across organizations. Quick Suite is Amazon's AI-powered workspace designed to help businesses quickly derive insights from their data and take action.",
+      "category": "OTHER",
+      "timestamp": "2025-12-08T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-quick-suite-research-flows-report-automation",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8b028e80c451a32178c504682dacd9a85e1eb3bc",
+      "title": "Announcing Spatial Data Management on AWS to accelerate spatial-data insights",
+      "summary": "AWS has announced Spatial Data Management on AWS (SDMA), a new solution that allows customers to store, enrich, and connect multimodal spatial data (including 3D, geospatial, behavioral, and temporal data) at scale in a secure, centralized cloud environment. SDMA functions as a collaborative hub that connects customers' spatial data with their ISV SaaS applications and AWS services to accelerate spatial data insights.",
+      "category": "OTHER",
+      "timestamp": "2025-12-08T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/spatial-data-management-spatial-data-insights/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "4b17110c60c4e2725b3c5d1017abf6ca44b60733",
       "title": "Amazon OpenSearch Service now supports automatic semantic enrichment",
       "summary": "Amazon OpenSearch Service now offers automatic semantic enrichment for managed clusters, extending a capability previously available only in OpenSearch Serverless. This feature enables semantic search that understands context and meaning rather than just exact phrase matching, delivering more relevant search results with minimal configuration required.",
@@ -1052,11 +1072,11 @@
     }
   ],
   "stats": {
-    "total": 105,
+    "total": 107,
     "byCategory": {
+      "OTHER": 24,
       "AI_ML": 28,
       "SECURITY": 27,
-      "OTHER": 22,
       "CONTAINERS": 1,
       "SERVERLESS": 2,
       "COMPUTE": 8,
@@ -1065,7 +1085,7 @@
       "ANALYTICS": 7,
       "NETWORKING": 1
     },
-    "lastUpdated": "2025-12-08T10:25:08.056Z"
+    "lastUpdated": "2025-12-08T22:20:40.503Z"
   },
-  "generatedAt": "2025-12-08T10:25:08.056Z"
+  "generatedAt": "2025-12-08T22:20:40.503Z"
 }
