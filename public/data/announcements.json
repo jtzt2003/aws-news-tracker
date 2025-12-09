@@ -1,6 +1,46 @@
 {
   "announcements": [
     {
+      "id": "3c7631cdd7e5e3be66e1824b54d6e784e3d388ab",
+      "title": "Amazon EC2 X8g instances now available in Europe (Stockholm) region",
+      "summary": "Amazon EC2 X8g instances are now available in the Europe (Stockholm) region, powered by AWS Graviton4 processors and offering up to 3 TiB of total memory with increased memory per vCPU. These instances are specifically designed for memory-intensive workloads including electronic design automation, in-memory databases, relational databases, and real-time big data applications.",
+      "category": "COMPUTE",
+      "timestamp": "2025-12-09T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-x8g-instances-europe-stockholm/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "46927d2a8a9a893679eb3ff49e6377f2bb7ff360",
+      "title": "AWS Partner Central now includes opportunity deal sizing",
+      "summary": "AWS has launched a new AI-powered deal sizing feature in AWS Partner Central that helps partners quickly estimate AWS monthly recurring revenue (MMR) and receive service recommendations when managing opportunities. The feature is integrated within APN Customer Engagements (ACE) Opportunities and can automatically populate deal information by importing AWS Pricing Calculator URLs. This capability streamlines deal management by reducing the time partners spend on revenue estimation tasks.",
+      "category": "OTHER",
+      "timestamp": "2025-12-09T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-partner-central-opportunity-deal-sizing",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7c8f10ae67588ff1779efa72dafa79fae3991bba",
+      "title": "Amazon RDS and Aurora now support resource tagging for Automated Backups",
+      "summary": "Amazon RDS and Aurora now support resource tagging for automated backups, allowing you to tag backups separately from their parent DB instances or clusters. This enhancement enables Attribute-Based Access Control (ABAC) and improves resource management and cost tracking by letting you control access and permissions through IAM policies using these tags.",
+      "category": "DATABASE",
+      "timestamp": "2025-12-09T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/rds-aurora-resource-tagging-automated-backups/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "abf87a984d83fb7e562781f11c75722e2d1f5655",
+      "title": "Amazon GameLift Servers enhances AWS Console for game developers with AI powered assistance",
+      "summary": "Amazon GameLift Servers has launched AI-powered assistance in the AWS Console using Amazon Q Developer to provide specialized guidance for game developers. The new feature helps developers navigate complex workflows, troubleshoot issues, and optimize game server deployments with tailored recommendations for integration, fleet configuration, and performance optimization.",
+      "category": "AI_ML",
+      "timestamp": "2025-12-09T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/gamelift-servers-console-developers-ai-powered/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "da40f8b372671247469a36c25ec9a7b988df1df6",
       "title": "Amazon Quick Suite integrates Quick Research with Quick Flows for report automation",
       "summary": "Amazon Quick Suite now integrates Quick Research with Quick Flows, allowing teams to automatically generate comprehensive research reports as part of multi-step workflows. This integration transforms research projects into reusable, shareable workflows across organizations. Quick Suite is Amazon's AI-powered workspace designed to help businesses quickly derive insights from their data and take action.",
@@ -1072,20 +1112,20 @@
     }
   ],
   "stats": {
-    "total": 107,
+    "total": 111,
     "byCategory": {
-      "OTHER": 24,
-      "AI_ML": 28,
+      "COMPUTE": 9,
+      "OTHER": 25,
+      "DATABASE": 6,
+      "AI_ML": 29,
       "SECURITY": 27,
       "CONTAINERS": 1,
       "SERVERLESS": 2,
-      "COMPUTE": 8,
-      "DATABASE": 5,
       "STORAGE": 4,
       "ANALYTICS": 7,
       "NETWORKING": 1
     },
-    "lastUpdated": "2025-12-09T10:26:47.532Z"
+    "lastUpdated": "2025-12-09T22:21:14.412Z"
   },
-  "generatedAt": "2025-12-09T10:26:47.532Z"
+  "generatedAt": "2025-12-09T22:21:14.412Z"
 }
