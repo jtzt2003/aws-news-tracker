@@ -1,6 +1,66 @@
 {
   "announcements": [
     {
+      "id": "39f19a307d1a5a331093e42b995deffeb9cc1e12",
+      "title": "Now generally available: Amazon EC2 C8gb instances",
+      "summary": "AWS has announced the general availability of Amazon EC2 C8gb instances, which are powered by AWS Graviton4 processors and optimized for Amazon EBS storage. These new instances deliver up to 30% better compute performance compared to Graviton3 processors and offer up to 150 Gbps of EBS bandwidth. The C8gb instances provide higher EBS performance compared to equivalent-sized Graviton4-based instances, making them ideal for workloads requiring enhanced block storage performance.",
+      "category": "COMPUTE",
+      "timestamp": "2025-12-10T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/generally-available-amazon-ec2-c8gb-instances",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8f49bb4d3862f1de3c70771c8a8953f109576533",
+      "title": "Amazon EC2 X8g instances now available in Asia Pacific (Sydney) region",
+      "summary": "Amazon EC2 X8g instances powered by AWS Graviton4 processors are now available in the Asia Pacific (Sydney) region, offering up to 60% better performance than Graviton2-based X2gd instances. These instances provide up to 3 TiB of total memory with increased memory per vCPU, making them ideal for memory-intensive workloads while delivering the best price performance among EC2 X-series instances.",
+      "category": "COMPUTE",
+      "timestamp": "2025-12-10T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-x8g-instances-asia-pacific-sydney/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "28792ca77e77ee6b650cd0a05c82c32821230b32",
+      "title": "Amazon ElastiCache Serverless now supports same-slot WATCH command",
+      "summary": "Amazon ElastiCache Serverless now supports the WATCH command for same-slot transactions, enabling developers to build more reliable applications with better data consistency in high-concurrency environments. The WATCH command makes transactions conditional by ensuring they only execute when the monitored keys remain unchanged, but it works specifically with transactions operating on keys within the same hash slot as the watched keys.",
+      "category": "DATABASE",
+      "timestamp": "2025-12-10T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-elasticache-serverless-same-slot-watch-command",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "837a7e9e0f502733c0a5e4243dc407d984430931",
+      "title": "Amazon CloudWatch SDK supports optimized JSON, CBOR protocols",
+      "summary": "Amazon CloudWatch has added support for JSON and CBOR (Concise Binary Object Representation) protocols in its SDK to deliver lower latency and better performance. The SDK automatically selects the optimal protocol, resulting in reduced payload sizes, decreased CPU and memory usage, and faster end-to-end processing for CloudWatch customers.",
+      "category": "OTHER",
+      "timestamp": "2025-12-10T12:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-cloudwatch-sdk-json-cbor-protocols",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "16b1f5d3eac17862ff9050277738e8dcfad0cdc3",
+      "title": "Amazon Braket now supports Qiskit 2.0",
+      "summary": "Amazon Braket now supports Qiskit 2.0, allowing quantum developers to use the latest version of the popular quantum software framework with enhanced native capabilities. The integration includes native implementations of Qiskit's Sampler and Estimator primitives that use Braket's program sets for optimized batching, which reduces both execution time and costs compared to generic wrapper approaches.",
+      "category": "OTHER",
+      "timestamp": "2025-12-10T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-braket-qiskit-2-0/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e73f6bccb16221d99bff9d094e443fd0247ef451",
+      "title": "AWS Support Center Console now supports  screen sharing for troubleshooting support cases",
+      "summary": "AWS has launched a new screen sharing feature for the AWS Support Center Console that allows customers to request virtual meetings during active support chats or calls. Users can join support calls with one click through a meeting bridge link and share their screens with AWS support representatives for more efficient troubleshooting. This enhancement streamlines the support experience by maintaining seamless access to case details during virtual meetings.",
+      "category": "OTHER",
+      "timestamp": "2025-12-10T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/support-center-console-screen-sharing/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "a64b40a426341cc0856f7569bc47cadaef18b7bc",
       "title": "Amazon EC2 C8gn instances are now available in additional regions",
       "summary": "Amazon EC2 C8gn instances powered by AWS Graviton4 processors are now available in the US East (Ohio) and Middle East (UAE) regions. These new instances deliver up to 30% better compute performance compared to the previous Graviton3-based C7gn instances and feature 6th generation AWS Nitro Cards with up to 600 Gbps network bandwidth, making them the highest network bandwidth offering among network-optimized EC2 instances.",
@@ -1122,12 +1182,12 @@
     }
   ],
   "stats": {
-    "total": 112,
+    "total": 118,
     "byCategory": {
+      "COMPUTE": 11,
+      "DATABASE": 7,
+      "OTHER": 28,
       "AI_ML": 30,
-      "COMPUTE": 9,
-      "OTHER": 25,
-      "DATABASE": 6,
       "SECURITY": 27,
       "CONTAINERS": 1,
       "SERVERLESS": 2,
@@ -1135,7 +1195,7 @@
       "ANALYTICS": 7,
       "NETWORKING": 1
     },
-    "lastUpdated": "2025-12-10T10:25:47.199Z"
+    "lastUpdated": "2025-12-10T22:21:25.750Z"
   },
-  "generatedAt": "2025-12-10T10:25:47.199Z"
+  "generatedAt": "2025-12-10T22:21:25.750Z"
 }
