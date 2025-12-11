@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "1715fb770ba3d8bdda1d90386b25678af3a3b005",
+      "title": "Amazon ECS now supports custom container stop signals on AWS Fargate",
+      "summary": "Amazon ECS now supports custom container stop signals for Linux tasks on AWS Fargate, allowing containers to use their preferred termination signals as defined in OCI images instead of always receiving SIGTERM. This enhancement enables more graceful shutdown behavior by aligning Fargate task termination with each container's specific stop signal configuration.",
+      "category": "CONTAINERS",
+      "timestamp": "2025-12-10T20:48:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ecs-custom-container-stop-signals-fargate/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "39f19a307d1a5a331093e42b995deffeb9cc1e12",
       "title": "Now generally available: Amazon EC2 C8gb instances",
       "summary": "AWS has announced the general availability of Amazon EC2 C8gb instances, which are powered by AWS Graviton4 processors and optimized for Amazon EBS storage. These new instances deliver up to 30% better compute performance compared to Graviton3 processors and offer up to 150 Gbps of EBS bandwidth. The C8gb instances provide higher EBS performance compared to equivalent-sized Graviton4-based instances, making them ideal for workloads requiring enhanced block storage performance.",
@@ -1182,20 +1192,20 @@
     }
   ],
   "stats": {
-    "total": 118,
+    "total": 119,
     "byCategory": {
+      "CONTAINERS": 2,
       "COMPUTE": 11,
       "DATABASE": 7,
       "OTHER": 28,
       "AI_ML": 30,
       "SECURITY": 27,
-      "CONTAINERS": 1,
       "SERVERLESS": 2,
       "STORAGE": 4,
       "ANALYTICS": 7,
       "NETWORKING": 1
     },
-    "lastUpdated": "2025-12-10T22:21:25.750Z"
+    "lastUpdated": "2025-12-11T10:26:26.394Z"
   },
-  "generatedAt": "2025-12-10T22:21:25.750Z"
+  "generatedAt": "2025-12-11T10:26:26.394Z"
 }
