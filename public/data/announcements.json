@@ -1,6 +1,76 @@
 {
   "announcements": [
     {
+      "id": "136105692ad1e9ea3e4f84b9c123a6857d0fed9f",
+      "title": "AWS DataSync increases scalability and performance for on-premises file transfers",
+      "summary": "AWS DataSync has launched Enhanced mode, which significantly improves data transfers between on-premises file servers and Amazon S3 by removing file count limits and delivering higher performance through parallel processing. This upgrade allows customers to transfer virtually unlimited numbers of files at faster speeds compared to the previous Basic mode. Enhanced mode maintains DataSync's secure, optimized network transfer capabilities while scaling to handle datasets of any size.",
+      "category": "AI_ML",
+      "timestamp": "2025-12-12T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-datasync-scalability-performance-on-premises-file-transfers",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "fd8606ae7b473bbd13f0da6a3a7d5885b0f39457",
+      "title": "AWS Shield network security director now supports multi-account analysis",
+      "summary": "AWS Shield's network security director now supports multi-account analysis and automated network security management, currently available in preview. The service provides visibility across AWS organizations, identifies misconfigured or missing network security services, and offers remediation recommendations. Users can designate a delegated administrator account to manage continuous network analysis across multiple accounts.",
+      "category": "SECURITY",
+      "timestamp": "2025-12-12T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-shield-network-security-director-multi-account-analysis",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e47f3df4c90befb0ea19673910866617e4174a62",
+      "title": "Amazon EMR Managed Scaling is now available in 7 additional AWS regions",
+      "summary": "Amazon EMR Managed Scaling has expanded to 7 additional AWS regions including Asia Pacific (Malaysia, New Zealand, Taipei, Thailand), Canada West (Calgary), Mexico (Central), and US Gameday Northeast (Illinois). This feature automatically resizes EC2 instances in EMR clusters to optimize performance while minimizing costs, requiring users to only set minimum and maximum compute limits.",
+      "category": "COMPUTE",
+      "timestamp": "2025-12-12T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-emr-managed-scaling-additional-regions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "49356a46f53748bbc6b9b2708acc941577b91180",
+      "title": "Validate best practice compliance for SAP ABAP applications with AWS Systems Manager",
+      "summary": "AWS Systems Manager Configuration Manager now enables automatic testing of SAP ABAP applications against AWS Well-Architected Framework SAP Lens best practices. This eliminates the need for SAP administrators to manually track and validate configurations against best practices from multiple sources including AWS, SAP, and operating system vendors.",
+      "category": "OTHER",
+      "timestamp": "2025-12-12T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/compliance-sap-abap-systems-manager/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ec035998958cc01fa7ce2aae4c2e4cf89cc46b10",
+      "title": "AWS DataSync introduces Terraform support for Enhanced mode",
+      "summary": "AWS DataSync has added Terraform support for its Enhanced mode, enabling easier setup of high-performance data transfers between S3 locations at scale. Enhanced mode leverages parallel processing to improve performance and scalability for datasets of any size, while eliminating file count limitations and providing detailed transfer metrics for better monitoring.",
+      "category": "OTHER",
+      "timestamp": "2025-12-12T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/datasync-terraform-enhanced-mode/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "72b94db71aff342c9f823f874e79d2f535fd9959",
+      "title": "AWS Elastic Beanstalk is now available in additional regions",
+      "summary": "AWS Elastic Beanstalk is now generally available in five additional regions: Asia Pacific (Melbourne, Malaysia, and Hyderabad), Canada West (Calgary), and Europe (Zurich). This expansion allows more developers in these regions to use the service that automatically handles application deployment, scaling, load balancing, and health monitoring on AWS infrastructure.",
+      "category": "OTHER",
+      "timestamp": "2025-12-12T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/elastic-beanstalk-additional-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d413389c43af14471cc95ff340d792a2006a4d28",
+      "title": "Amazon EC2 X2iedn instances now available in AWS Asia Pacific (Thailand) region",
+      "summary": "Amazon EC2 X2iedn instances, which are memory-optimized instances powered by 3rd generation Intel Xeon Scalable Processors, are now available in the AWS Asia Pacific (Thailand) region. These instances are designed for memory-intensive workloads and offer improved performance, price performance, and cost per GiB of memory compared to previous X1e instances. The instances are SAP-certified for running Business Suite on HANA applications.",
+      "category": "COMPUTE",
+      "timestamp": "2025-12-12T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/ec2-x2iedn-instances-thailand-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "3a1cf1de614847985ae1399f1d07a9d0ce148678",
       "title": "Amazon Aurora DSQL now supports cluster creation in seconds",
       "summary": "Amazon Aurora DSQL has significantly improved cluster creation speed, reducing setup time from minutes to just seconds. This enhancement allows developers to instantly provision databases for rapid prototyping and immediately start building using the integrated query editor in the AWS console. The faster provisioning eliminates the need for external client configuration and supports AI-powered development through the Aurora DSQL Model Context Protocol server.",
@@ -1272,20 +1342,20 @@
     }
   ],
   "stats": {
-    "total": 127,
+    "total": 134,
     "byCategory": {
+      "AI_ML": 31,
+      "SECURITY": 32,
+      "COMPUTE": 16,
+      "OTHER": 31,
       "DATABASE": 8,
-      "SECURITY": 31,
-      "COMPUTE": 14,
       "CONTAINERS": 2,
-      "OTHER": 28,
-      "AI_ML": 30,
       "SERVERLESS": 2,
       "STORAGE": 4,
       "ANALYTICS": 7,
       "NETWORKING": 1
     },
-    "lastUpdated": "2025-12-12T10:24:40.175Z"
+    "lastUpdated": "2025-12-12T22:21:00.791Z"
   },
-  "generatedAt": "2025-12-12T10:24:40.175Z"
+  "generatedAt": "2025-12-12T22:21:00.791Z"
 }
