@@ -71,6 +71,16 @@
       "isNew": false
     },
     {
+      "id": "81a51220eb5efe8ae19395a8da5080648bf39c1a",
+      "title": "Amazon EC2 X2iedn instances now available in AWS Europe (Zurich)  region",
+      "summary": "Amazon EC2 X2iedn instances, which are memory-optimized and powered by 3rd generation Intel Xeon Scalable Processors, are now available in the AWS Europe (Zurich) region. These instances are designed for memory-intensive workloads and offer improved performance, price performance, and cost per GiB of memory compared to previous X1e instances. They are SAP-certified for running Business Suite on HANA and SAP S/4HANA applications.",
+      "category": "COMPUTE",
+      "timestamp": "2025-12-12T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/ec2-x2iedn-instances-zurich-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "3a1cf1de614847985ae1399f1d07a9d0ce148678",
       "title": "Amazon Aurora DSQL now supports cluster creation in seconds",
       "summary": "Amazon Aurora DSQL has significantly improved cluster creation speed, reducing setup time from minutes to just seconds. This enhancement allows developers to instantly provision databases for rapid prototyping and immediately start building using the integrated query editor in the AWS console. The faster provisioning eliminates the need for external client configuration and supports AI-powered development through the Aurora DSQL Model Context Protocol server.",
@@ -1342,11 +1352,11 @@
     }
   ],
   "stats": {
-    "total": 134,
+    "total": 135,
     "byCategory": {
       "AI_ML": 31,
       "SECURITY": 32,
-      "COMPUTE": 16,
+      "COMPUTE": 17,
       "OTHER": 31,
       "DATABASE": 8,
       "CONTAINERS": 2,
@@ -1355,7 +1365,7 @@
       "ANALYTICS": 7,
       "NETWORKING": 1
     },
-    "lastUpdated": "2025-12-12T22:21:00.791Z"
+    "lastUpdated": "2025-12-13T10:20:53.002Z"
   },
-  "generatedAt": "2025-12-12T22:21:00.791Z"
+  "generatedAt": "2025-12-13T10:20:53.002Z"
 }
