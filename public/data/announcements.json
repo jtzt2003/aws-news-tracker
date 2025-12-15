@@ -1,6 +1,36 @@
 {
   "announcements": [
     {
+      "id": "1298ecc04f44ecbac0b2c70a59f4b37aa56b2671",
+      "title": "Amazon Connect now supports multiple choice and date questions in evaluation forms",
+      "summary": "Amazon Connect has introduced two new evaluation question types: multiple choice questions that allow multiple answer selections and date questions for capturing specific timeframes. These additions enable managers to gather more detailed insights on agent performance, such as tracking customer product interests during sales calls or recording key dates like loan application and approval times. The feature enhances the platform's evaluation capabilities for both human and AI agent performance assessment.",
+      "category": "OTHER",
+      "timestamp": "2025-12-15T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-connect-multiple-choice-date-questions-evaluation-forms/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "736fe4622b5be878a68e461f73a0143a0644bf68",
+      "title": "Amazon Elastic VMware Service (Amazon EVS) is now available in additional Regions",
+      "summary": "Amazon Elastic VMware Service (Amazon EVS) has expanded to six additional AWS regions: US West (N. California), Asia Pacific (Hyderabad), Asia Pacific (Malaysia), Canada West (Calgary), Mexico (Central), and South America (São Paulo). This expansion allows customers to run VMware Cloud Foundation workloads on AWS infrastructure with greater geographic coverage and flexibility.",
+      "category": "OTHER",
+      "timestamp": "2025-12-15T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-evs-available-in-additional-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e67a4c669b9bdd577901c3882c5c591e336b4b42",
+      "title": "ACM now supports automated certificate management for Kubernetes",
+      "summary": "AWS Certificate Manager (ACM) now provides automated certificate provisioning and distribution for Kubernetes workloads through AWS Controllers for Kubernetes (ACK). This eliminates the previously required manual steps of exporting certificates via API, creating Kubernetes Secrets, and manually updating them during renewal. The enhancement extends ACM's existing automation capabilities beyond AWS-integrated services like Application Load Balancers and CloudFront to include Kubernetes applications that terminate TLS.",
+      "category": "SECURITY",
+      "timestamp": "2025-12-15T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/acm-automated-certificate-management-kubernetes/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "136105692ad1e9ea3e4f84b9c123a6857d0fed9f",
       "title": "AWS DataSync increases scalability and performance for on-premises file transfers",
       "summary": "AWS DataSync has launched Enhanced mode, which significantly improves data transfers between on-premises file servers and Amazon S3 by removing file count limits and delivering higher performance through parallel processing. This upgrade allows customers to transfer virtually unlimited numbers of files at faster speeds compared to the previous Basic mode. Enhanced mode maintains DataSync's secure, optimized network transfer capabilities while scaling to handle datasets of any size.",
@@ -27,6 +57,16 @@
       "category": "COMPUTE",
       "timestamp": "2025-12-12T15:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-emr-managed-scaling-additional-regions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "eb5f6ebbf5180c5b97a71895d5efe062be3c29d3",
+      "title": "Amazon MSK Replicator is now available in ten additional AWS Regions",
+      "summary": "Amazon MSK Replicator, a feature that enables reliable data replication across Amazon MSK clusters, is now available in ten additional AWS Regions including locations in the Middle East, Asia Pacific, Africa, Europe, and Israel. This expansion allows customers in these regions to replicate streaming data across Amazon Managed Streaming for Apache Kafka clusters with improved regional availability.",
+      "category": "ANALYTICS",
+      "timestamp": "2025-12-12T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-msk-replicator-additional-aws-regions",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -1352,20 +1392,20 @@
     }
   ],
   "stats": {
-    "total": 135,
+    "total": 139,
     "byCategory": {
+      "OTHER": 33,
+      "SECURITY": 33,
       "AI_ML": 31,
-      "SECURITY": 32,
       "COMPUTE": 17,
-      "OTHER": 31,
+      "ANALYTICS": 8,
       "DATABASE": 8,
       "CONTAINERS": 2,
       "SERVERLESS": 2,
       "STORAGE": 4,
-      "ANALYTICS": 7,
       "NETWORKING": 1
     },
-    "lastUpdated": "2025-12-15T10:27:55.434Z"
+    "lastUpdated": "2025-12-15T22:21:40.885Z"
   },
-  "generatedAt": "2025-12-15T10:27:55.435Z"
+  "generatedAt": "2025-12-15T22:21:40.885Z"
 }
