@@ -21,12 +21,62 @@
       "isNew": false
     },
     {
+      "id": "f2eba0efa3c00847fe1ac4881506b064d3e24799",
+      "title": "Amazon Managed Service for Apache Flink is now available in AWS Asia Pacific (Auckland) Region",
+      "summary": "Amazon Managed Service for Apache Flink is now available in the AWS Asia Pacific (Auckland) Region, allowing customers to build real-time stream processing applications. This managed service simplifies the process of transforming and analyzing streaming data using Apache Flink, an open-source framework for data stream processing, while reducing the complexity of building and managing Apache Flink applications.",
+      "category": "DATABASE",
+      "timestamp": "2025-12-15T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-managed-service-apache-flink-aws-asia-pacific-auckland-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "fe168a228b4fe066386b213e2fc1574d3c2632fb",
+      "title": "Announcing cost allocation using users’ attributes",
+      "summary": "AWS has launched a new cost allocation feature that leverages existing workforce user attributes (such as cost center, division, and department) to track and analyze AWS application usage and costs. This capability allows customers to allocate per-user monthly subscription and on-demand fees for AWS applications like Amazon Q Business, Amazon Q Developer, and Amazon QuickSight to their respective internal business units. Organizations can implement this by importing their workforce users' attributes to IAM Identity Center.",
+      "category": "AI_ML",
+      "timestamp": "2025-12-15T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/cost-allocation-using-users-attributes",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "181972ced53a0b910f4b14ba522a609b7f0243ac",
+      "title": "Amazon EKS introduces enhanced network security policies",
+      "summary": "Amazon EKS has introduced enhanced network security policies that allow customers to improve network security for their Kubernetes workloads and external integrations. The new capabilities build on existing network segmentation features and enable centralized enforcement of network access filters across entire clusters. The enhancement also includes DNS-based policies to secure egress traffic.",
+      "category": "SECURITY",
+      "timestamp": "2025-12-15T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-eks-enhanced-network-security-policies",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b7997a42c10601969c67fa6477ff1f70f43d86cb",
+      "title": "AWS Billing and Cost Management now supports PDF export and CSV data download for Dashboards",
+      "summary": "AWS Billing and Cost Management has added new export capabilities for dashboards, allowing users to export entire dashboards as PDF files and download individual widget data in CSV format. These features enable offline analysis, easier sharing of cost insights across organizations, and detailed examination of data in spreadsheet applications.",
+      "category": "OTHER",
+      "timestamp": "2025-12-15T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-billing-cost-management-pdf-export-csv-data-download-dashboards",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "e67a4c669b9bdd577901c3882c5c591e336b4b42",
       "title": "ACM now supports automated certificate management for Kubernetes",
       "summary": "AWS Certificate Manager (ACM) now provides automated certificate provisioning and distribution for Kubernetes workloads through AWS Controllers for Kubernetes (ACK). This eliminates the previously required manual steps of exporting certificates via API, creating Kubernetes Secrets, and manually updating them during renewal. The enhancement extends ACM's existing automation capabilities beyond AWS-integrated services like Application Load Balancers and CloudFront to include Kubernetes applications that terminate TLS.",
       "category": "SECURITY",
       "timestamp": "2025-12-15T08:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/acm-automated-certificate-management-kubernetes/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "49ed6f42489a8748b5022fd6fb6744e111104253",
+      "title": "Amazon EC2 M7a instances are now available in the Europe (London) Region",
+      "summary": "Amazon EC2 M7a instances are now available in the Europe (London) Region, expanding their global availability. These general-purpose instances are powered by 4th Gen AMD EPYC processors running up to 3.7 GHz and deliver up to 50% better performance than the previous M6a generation. M7a instances are now accessible across multiple regions including the US, Asia Pacific, and several European locations.",
+      "category": "COMPUTE",
+      "timestamp": "2025-12-15T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/ec2-m7a-instances-europe-london-region/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -1392,20 +1442,20 @@
     }
   ],
   "stats": {
-    "total": 139,
+    "total": 144,
     "byCategory": {
-      "OTHER": 33,
-      "SECURITY": 33,
-      "AI_ML": 31,
-      "COMPUTE": 17,
+      "OTHER": 34,
+      "DATABASE": 9,
+      "AI_ML": 32,
+      "SECURITY": 34,
+      "COMPUTE": 18,
       "ANALYTICS": 8,
-      "DATABASE": 8,
       "CONTAINERS": 2,
       "SERVERLESS": 2,
       "STORAGE": 4,
       "NETWORKING": 1
     },
-    "lastUpdated": "2025-12-15T22:21:40.885Z"
+    "lastUpdated": "2025-12-16T10:27:19.004Z"
   },
-  "generatedAt": "2025-12-15T22:21:40.885Z"
+  "generatedAt": "2025-12-16T10:27:19.004Z"
 }
