@@ -1,6 +1,76 @@
 {
   "announcements": [
     {
+      "id": "ae246e694201c137c7d9fb8ec430e399c3b59c73",
+      "title": "Amazon EC2 M8i instances are now available in additional Regions",
+      "summary": "Amazon EC2 M8i instances are now available in five additional regions: Asia Pacific (Seoul, Tokyo, Sydney, Singapore) and Canada (Central). These instances feature custom Intel Xeon 6 processors exclusive to AWS, offering up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generation Intel processors.",
+      "category": "COMPUTE",
+      "timestamp": "2025-12-16T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-m8i-instances-additional-regions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "373318b099bf35e2cebb913b5f3a639711f083c3",
+      "title": "AWS reduces publishing time for Carbon Footprint Data to 21 days or Less",
+      "summary": "AWS has reduced the publishing time for customer carbon footprint data from up to three months to just 21 days or less, with data now available between the 15th and 21st of the month following usage. This faster access to carbon footprint insights enables customers to make more timely decisions about their application deployment and identify opportunities to reduce emissions more quickly.",
+      "category": "OTHER",
+      "timestamp": "2025-12-16T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-reduces-publishing-time-carbon-footprint-data",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d540755f76150767a24609b4c219919128226c2a",
+      "title": "Amazon Quick Suite now supports memory for chat agents",
+      "summary": "Amazon QuickSuite has introduced a memory feature for chat agents that enables personalized responses by remembering user preferences from previous conversations. The feature allows chat agents to tailor responses based on stored preferences like response format and acronyms, eliminating the need for users to repeatedly specify these preferences. Users maintain control over their data by being able to view and delete stored memory preferences as needed.",
+      "category": "OTHER",
+      "timestamp": "2025-12-16T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-quick-suite-memory-chat-agents/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a262e5188d1d6df401084e37b000b066b2a52cfe",
+      "title": "Amazon EC2 M8i-flex instances are now available in Asia Pacific (Sydney) Region",
+      "summary": "Amazon EC2 M8i-flex instances are now available in the Asia Pacific (Sydney) Region, powered by custom Intel Xeon 6 processors exclusive to AWS. These instances deliver up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generation Intel-based instances, along with up to 20% better performance than M7i-flex instances.",
+      "category": "COMPUTE",
+      "timestamp": "2025-12-16T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/ec2-m8i-flex-instances-sydney-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6b0be18fa9ac1b9ae04ffda284741bbb100850e4",
+      "title": "Amazon Quick Suite browser extension now supports Quick Flows",
+      "summary": "Amazon Quick Suite's browser extension now integrates with Amazon Quick Flows, allowing users to run automated workflows directly in their web browser without manually extracting information from web pages. Users can invoke their own workflows or shared ones, passing webpage content as input seamlessly within the browser. This feature streamlines routine tasks like contract analysis and report generation by eliminating the need to switch between applications.",
+      "category": "OTHER",
+      "timestamp": "2025-12-16T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/quick-suite-browser-extension-quick-flows/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1c18dc60274e21e555749c5f4099b2a6c775cc25",
+      "title": "AWS Clean Rooms publishes events for member invitations and table readiness to EventBridge",
+      "summary": "AWS Clean Rooms now publishes real-time events to Amazon EventBridge to notify members about collaboration invitations and table readiness status. This enhancement provides greater transparency by automatically alerting invited members when they receive collaboration invitations and notifying existing members when AWS Entity Resolution resources are associated with their collaboration. The feature streamlines the collaboration process by making it easier for members to stay informed about collaboration activities and respond to invitations promptly.",
+      "category": "SERVERLESS",
+      "timestamp": "2025-12-16T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/clean-rooms-events-member-invitations-table-readiness/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "63e6967b5ea301c294a7ab7bedde2d0af55140ea",
+      "title": "Amazon Route 53 launches detailed metrics for Resolver endpoints",
+      "summary": "Amazon Route 53 now offers detailed CloudWatch metrics for monitoring the performance and health of Route 53 Resolver endpoints and their associated target name servers. This enhancement improves visibility into hybrid cloud DNS configurations by providing monitoring capabilities for DNS query resolution between on-premises data centers and Amazon VPC. The metrics can be enabled individually for each Resolver endpoint through CloudWatch.",
+      "category": "NETWORKING",
+      "timestamp": "2025-12-16T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/route-53-detailed-metrics-resolver-endpoints/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "1298ecc04f44ecbac0b2c70a59f4b37aa56b2671",
       "title": "Amazon Connect now supports multiple choice and date questions in evaluation forms",
       "summary": "Amazon Connect has introduced two new evaluation question types: multiple choice questions that allow multiple answer selections and date questions for capturing specific timeframes. These additions enable managers to gather more detailed insights on agent performance, such as tracking customer product interests during sales calls or recording key dates like loan application and approval times. The feature enhances the platform's evaluation capabilities for both human and AI agent performance assessment.",
@@ -1442,20 +1512,20 @@
     }
   ],
   "stats": {
-    "total": 144,
+    "total": 151,
     "byCategory": {
-      "OTHER": 34,
+      "COMPUTE": 20,
+      "OTHER": 37,
+      "SERVERLESS": 3,
+      "NETWORKING": 2,
       "DATABASE": 9,
       "AI_ML": 32,
       "SECURITY": 34,
-      "COMPUTE": 18,
       "ANALYTICS": 8,
       "CONTAINERS": 2,
-      "SERVERLESS": 2,
-      "STORAGE": 4,
-      "NETWORKING": 1
+      "STORAGE": 4
     },
-    "lastUpdated": "2025-12-16T10:27:19.004Z"
+    "lastUpdated": "2025-12-16T22:20:42.621Z"
   },
-  "generatedAt": "2025-12-16T10:27:19.004Z"
+  "generatedAt": "2025-12-16T22:20:42.621Z"
 }
