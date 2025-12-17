@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "a650ac43305983a4051eb34a1146d22c2046ef3e",
+      "title": "Amazon WorkSpaces Applications announces additional health and performance metrics",
+      "summary": "Amazon WorkSpaces Applications has introduced new Amazon CloudWatch metrics that allow administrators to monitor the health and performance of fleets, sessions, instances, and users. These metrics can be easily enabled from the CloudWatch console and provide real-time updates to simplify troubleshooting. The new monitoring capabilities help administrators make better decisions about sizing and optimize end-user streaming performance.",
+      "category": "COMPUTE",
+      "timestamp": "2025-12-17T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-workspaces-applications-health-performance-metrics",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2c0e8beddaf11091630ec57ca0067cc556ae7a4c",
+      "title": "AWS Databases are now available on the Vercel Marketplace",
+      "summary": "AWS has made three of its database services—Amazon Aurora PostgreSQL, Amazon Aurora DSQL, and Amazon DynamoDB—generally available on the Vercel Marketplace, allowing developers to create and connect to AWS databases directly from Vercel in seconds. New users can create an AWS account through Vercel and receive $100 USD in credits that can be used with any of these database options for up to six months.",
+      "category": "SECURITY",
+      "timestamp": "2025-12-17T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-databases-are-available-on-the-vercel/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7fbdb3f01a4f4f0465b3ebb7330a329db09a3ce7",
+      "title": "Amazon Aurora now supports PostgreSQL 18.1 in the Amazon RDS Database preview environment ",
+      "summary": "Amazon Aurora PostgreSQL-Compatible Edition now supports PostgreSQL version 18.1 in the Amazon RDS Database Preview Environment, enabling users to evaluate the latest PostgreSQL features on Aurora. PostgreSQL 18.1 introduces performance improvements including \"skip scan\" support for multicolumn B-tree indexes, enhanced WHERE clause handling for OR and IN conditions, and parallel GIN index builds.",
+      "category": "SECURITY",
+      "timestamp": "2025-12-17T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-aurora-postgresql-18-1-rds-database-preview",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7e4119e1de10b1e1364a2b4c2580a95d7289a608",
+      "title": "AWS announces enhanced custom line item controls for AWS Billing Conductor",
+      "summary": "AWS Billing Conductor now offers enhanced custom line item controls that allow customers to create service-specific line items scoped to one or multiple AWS services. These line items can be customized in how they appear across billing artifacts like Bills Page, Cost Explorer, and Cost and Usage Records. The improvements enable more precise and tailored charge-back and re-billing strategies for customers.",
+      "category": "OTHER",
+      "timestamp": "2025-12-17T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/enhanced-custom-line-item-controls-aws-billing-conductor",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b38ff137a706255112f976903a58b85cb232fe7a",
+      "title": "Amazon EC2 C8g, M8g, R8g instances now available in additional regions",
+      "summary": "Amazon EC2 C8g, M8g, and R8g instances powered by AWS Graviton4 processors are now available in AWS GovCloud regions (US-West and US-East). These instances deliver up to 30% better performance compared to Graviton3-based instances and are built on the AWS Nitro System for enhanced performance through dedicated hardware offloading.",
+      "category": "SECURITY",
+      "timestamp": "2025-12-17T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-c8g-m8g-r8g-instances-additional-regions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1b1bd64f2b1f80cb7976f5db297d16b8830491fb",
+      "title": "Amazon ECR Public now supports PrivateLink for US East (N. Virginia) SDK Endpoint",
+      "summary": "Amazon ECR Public now supports AWS PrivateLink for its US East (N. Virginia) SDK endpoint, enabling customers to access the service through private network connections instead of the public internet. This enhancement allows users to establish secure, private connectivity from their Amazon VPC to the ECR Public SDK endpoint, improving network security and reducing public internet exposure.",
+      "category": "SECURITY",
+      "timestamp": "2025-12-17T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ecr-public-privatelink-us-east-n-virginia-sdk-endpoint",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3171085d34f21ebc5916e03fb3e4acd8f1bbf30f",
+      "title": "EC2 Auto Scaling now offers a synchronous API to launch instances inside an Auto Scaling group",
+      "summary": "AWS has launched a new synchronous API called LaunchInstances for EC2 Auto Scaling that gives customers more direct control over instance provisioning within Auto Scaling groups. The API provides immediate feedback on capacity availability, offering greater flexibility compared to the traditional automated scaling approach. This enhancement allows for more precise control over when and how instances are launched while still leveraging Auto Scaling's fleet management capabilities.",
+      "category": "OTHER",
+      "timestamp": "2025-12-17T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/ec2-auto-scaling-synchronous-api-launch-instances-auto-scaling-group",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "323d4af14d16050ac76d1adc7917c15057acf90c",
+      "title": "Amazon EC2 C8g instances now available in Europe (Zurich)",
+      "summary": "Amazon EC2 C8g instances, powered by AWS Graviton4 processors, are now available in the AWS Europe (Zurich) region. These instances deliver up to 30% better performance compared to Graviton3-based instances and are optimized for compute-intensive workloads including HPC, batch processing, gaming, video encoding, scientific modeling, distributed analytics, and CPU-based ML inference.",
+      "category": "SECURITY",
+      "timestamp": "2025-12-17T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-c8g-instances-europe-zurich",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "70eda0c8bba1d7210422500e7ee9c7e53ba4248a",
+      "title": "Amazon OpenSearch Service announces new OI2 instances",
+      "summary": "Amazon OpenSearch Service has launched new OI2 instances that are specifically optimized for higher indexing throughput, delivering up to 9% better performance compared to OR2 instances and up to 33% improvement over I8g instances. These new instances use the same architecture as OR2 instances and leverage Amazon S3 for high durability while providing improved price-performance for indexing workloads.",
+      "category": "COMPUTE",
+      "timestamp": "2025-12-17T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-opensearch-service-oi2-instances/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7cd21ebebf7ae3b45e48510300cc1f7d6af634a2",
+      "title": "AWS Payment Cryptography reduces API pricing by up to 63% and introduces tiered key pricing",
+      "summary": "AWS Payment Cryptography has announced significant price reductions of up to 63% for API requests across existing tiers, while introducing a new fourth tier and unified pricing across all regions. The service has also transitioned from flat-rate to tiered key pricing to better support customers managing high volumes of cryptographic keys. These changes are designed to make it more cost-effective for customers to migrate higher volume workloads to the service.",
+      "category": "SECURITY",
+      "timestamp": "2025-12-17T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-payment-cryptography-lower-pricing/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "effde40fdda484e3280983ede455f754ad0b72a9",
       "title": "AWS IoT Device Management Commands now supports dynamic payloads",
       "summary": "AWS IoT Device Management commands now support dynamic payloads, allowing developers to create reusable command templates with placeholders that can be populated with different values at runtime. The update includes parameter validation rules to ensure values meet specified criteria before execution. This enhancement makes command reuse more efficient by enabling runtime parameter configuration rather than requiring separate commands for different scenarios.",
@@ -1572,12 +1672,12 @@
     }
   ],
   "stats": {
-    "total": 157,
+    "total": 167,
     "byCategory": {
-      "OTHER": 39,
+      "COMPUTE": 23,
+      "SECURITY": 41,
+      "OTHER": 41,
       "SERVERLESS": 4,
-      "COMPUTE": 21,
-      "SECURITY": 35,
       "AI_ML": 33,
       "NETWORKING": 2,
       "DATABASE": 9,
@@ -1585,7 +1685,7 @@
       "CONTAINERS": 2,
       "STORAGE": 4
     },
-    "lastUpdated": "2025-12-17T10:25:55.318Z"
+    "lastUpdated": "2025-12-17T22:21:07.003Z"
   },
-  "generatedAt": "2025-12-17T10:25:55.318Z"
+  "generatedAt": "2025-12-17T22:21:07.003Z"
 }
