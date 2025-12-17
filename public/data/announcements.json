@@ -1,6 +1,36 @@
 {
   "announcements": [
     {
+      "id": "effde40fdda484e3280983ede455f754ad0b72a9",
+      "title": "AWS IoT Device Management Commands now supports dynamic payloads",
+      "summary": "AWS IoT Device Management commands now support dynamic payloads, allowing developers to create reusable command templates with placeholders that can be populated with different values at runtime. The update includes parameter validation rules to ensure values meet specified criteria before execution. This enhancement makes command reuse more efficient by enabling runtime parameter configuration rather than requiring separate commands for different scenarios.",
+      "category": "OTHER",
+      "timestamp": "2025-12-16T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-iot-device-management-commands-dynamic-payload/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "fdcd36bd056b33a3e14dc6720658e6f626d954f1",
+      "title": "Amazon Connect launches additional details within real-time metric alerts",
+      "summary": "Amazon Connect has enhanced its real-time metric alerts to include specific details about which agents, queues, flows, or routing profiles triggered the alert thresholds. This improvement allows managers to quickly identify and respond to customer experience and operational issues without having to manually investigate the root cause. For example, when queue wait times are elevated, managers can now see exactly which queues are affected and take immediate action like reassigning agents.",
+      "category": "SERVERLESS",
+      "timestamp": "2025-12-16T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-connect-additional-details-real-time-metric-alerts/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ea0cac0a5b1a52ce5339d229ee5503faf93329ce",
+      "title": "AWS Direct Connect announces new location in Hanoi, Vietnam",
+      "summary": "AWS has opened its first Direct Connect location in Vietnam at CMC Tower in Hanoi, enabling private network connections to AWS Regions worldwide (excluding China), GovCloud Regions, and Local Zones. The facility offers dedicated connections at 1 Gbps, 10 Gbps, and 100 Gbps speeds, with MACsec encryption available for the higher-speed tiers.",
+      "category": "COMPUTE",
+      "timestamp": "2025-12-16T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-direct-connect-hanoi/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "ae246e694201c137c7d9fb8ec430e399c3b59c73",
       "title": "Amazon EC2 M8i instances are now available in additional Regions",
       "summary": "Amazon EC2 M8i instances are now available in five additional regions: Asia Pacific (Seoul, Tokyo, Sydney, Singapore) and Canada (Central). These instances feature custom Intel Xeon 6 processors exclusive to AWS, offering up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generation Intel processors.",
@@ -17,6 +47,36 @@
       "category": "OTHER",
       "timestamp": "2025-12-16T15:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-reduces-publishing-time-carbon-footprint-data",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "26284e0e9bc7ff900bfd2c619afafd1c550a5c77",
+      "title": "AWS Artifact enables access to previous versions of compliance reports",
+      "summary": "AWS Artifact now provides self-service access to previous versions of AWS compliance reports, eliminating the need to contact AWS Support for historical documentation. This feature helps customers efficiently manage compliance requirements during audits and vendor assessments that require historical evidence. Access requires the \"artifact:ListReportVersions\" IAM permission, which is included in AWS managed policies.",
+      "category": "OTHER",
+      "timestamp": "2025-12-16T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-artifact-access-previous-versions-compliance-reports",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5d30e19d3e85d699bb94187b2b423229f5d92def",
+      "title": "AWS Security Incident Response introduces integration with Slack",
+      "summary": "AWS Security Incident Response now integrates with Slack, allowing teams to manage security incidents through both platforms with bidirectional synchronization. This integration enables users to create and update security cases directly from Slack while maintaining automatic data replication between systems. The feature helps organizations respond to security events more efficiently by leveraging existing communication workflows within Slack.",
+      "category": "SECURITY",
+      "timestamp": "2025-12-16T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-security-incident-response-integration-slack",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2d3cf2e29ea55d15cb5369f03ec3d03b6b60a665",
+      "title": "Amazon SageMaker AI is now available in Asia Pacific (New Zealand)",
+      "summary": "Amazon SageMaker AI is now available in the Asia Pacific (New Zealand) region, allowing developers and data scientists to build, train, and deploy machine learning models locally. SageMaker AI is a fully managed platform designed to simplify the entire machine learning process by removing technical complexity from each step.",
+      "category": "AI_ML",
+      "timestamp": "2025-12-16T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-sagemaker-ai-asia-pacific-new-zealand",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -1512,20 +1572,20 @@
     }
   ],
   "stats": {
-    "total": 151,
+    "total": 157,
     "byCategory": {
-      "COMPUTE": 20,
-      "OTHER": 37,
-      "SERVERLESS": 3,
+      "OTHER": 39,
+      "SERVERLESS": 4,
+      "COMPUTE": 21,
+      "SECURITY": 35,
+      "AI_ML": 33,
       "NETWORKING": 2,
       "DATABASE": 9,
-      "AI_ML": 32,
-      "SECURITY": 34,
       "ANALYTICS": 8,
       "CONTAINERS": 2,
       "STORAGE": 4
     },
-    "lastUpdated": "2025-12-16T22:20:42.621Z"
+    "lastUpdated": "2025-12-17T10:25:55.318Z"
   },
-  "generatedAt": "2025-12-16T22:20:42.621Z"
+  "generatedAt": "2025-12-17T10:25:55.318Z"
 }
