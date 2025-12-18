@@ -21,6 +21,16 @@
       "isNew": false
     },
     {
+      "id": "b709f05943046f9ecbf4fe02cb06335409836d0b",
+      "title": "Now generally available: Amazon EC2 M8gn and M8gb instances",
+      "summary": "AWS has announced the general availability of Amazon EC2 M8gn and M8gb instances powered by AWS Graviton4 processors, which deliver up to 30% better compute performance than Graviton3 processors. The M8gn instances feature 6th generation AWS Nitro Cards and offer up to 600 Gbps network bandwidth (the highest among network-optimized EC2 instances), while M8gb instances provide up to 150 Gbps of EBS bandwidth for enhanced storage performance.",
+      "category": "COMPUTE",
+      "timestamp": "2025-12-17T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/generally-available-amazon-ec2-m8gn-m8gb-instances",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "7fbdb3f01a4f4f0465b3ebb7330a329db09a3ce7",
       "title": "Amazon Aurora now supports PostgreSQL 18.1 in the Amazon RDS Database preview environment ",
       "summary": "Amazon Aurora PostgreSQL-Compatible Edition now supports PostgreSQL version 18.1 in the Amazon RDS Database Preview Environment, enabling users to evaluate the latest PostgreSQL features on Aurora. PostgreSQL 18.1 introduces performance improvements including \"skip scan\" support for multicolumn B-tree indexes, enhanced WHERE clause handling for OR and IN conditions, and parallel GIN index builds.",
@@ -1672,9 +1682,9 @@
     }
   ],
   "stats": {
-    "total": 167,
+    "total": 168,
     "byCategory": {
-      "COMPUTE": 23,
+      "COMPUTE": 24,
       "SECURITY": 41,
       "OTHER": 41,
       "SERVERLESS": 4,
@@ -1685,7 +1695,7 @@
       "CONTAINERS": 2,
       "STORAGE": 4
     },
-    "lastUpdated": "2025-12-17T22:21:07.003Z"
+    "lastUpdated": "2025-12-18T10:25:11.731Z"
   },
-  "generatedAt": "2025-12-17T22:21:07.003Z"
+  "generatedAt": "2025-12-18T10:25:11.731Z"
 }
