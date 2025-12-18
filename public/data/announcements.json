@@ -1,6 +1,86 @@
 {
   "announcements": [
     {
+      "id": "f07a6fcd9cc1114bccf14be763dd4aab0a35f84d",
+      "title": "Amazon EC2 C8a instances now available in the Europe (Spain) region",
+      "summary": "Amazon EC2 C8a instances, powered by 5th Gen AMD EPYC processors with up to 4.5 GHz frequency, are now available in the Europe (Spain) region. These compute-optimized instances deliver up to 30% higher performance and 19% better price-performance compared to C7a instances, with 33% more memory bandwidth making them ideal for latency-sensitive workloads.",
+      "category": "COMPUTE",
+      "timestamp": "2025-12-18T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-c8a-instances-europe-spain-region",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3a9ca41506f48af04027b3a629304cf68d95ca59",
+      "title": "Amazon WorkSpaces now supports IPv6",
+      "summary": "Amazon WorkSpaces now supports IPv6 connectivity through a dual-stack IPv4/IPv6 configuration, allowing users to connect from compatible clients (except when using SAML authentication). This update helps customers meet IPv6 compliance requirements and reduces costs by eliminating the need for expensive networking equipment to translate between IPv4 and IPv6 addresses.",
+      "category": "OTHER",
+      "timestamp": "2025-12-18T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-workspaces-ipv6/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "674e22734d0d6265d44116fc72f747860a039d43",
+      "title": "Amazon MSK Connect now supports dual-stack (IPv4 and IPv6) connectivity for new connectors",
+      "summary": "Amazon MSK Connect now supports dual-stack connectivity, allowing customers to create new connectors that use both IPv4 and IPv6 protocols simultaneously, in addition to the existing IPv4-only option. This enhancement helps organizations modernize their applications for IPv6 environments while maintaining backward compatibility with IPv4, facilitating compliance requirements and preparation for future network architectures.",
+      "category": "ANALYTICS",
+      "timestamp": "2025-12-18T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-msk-connect-dual-stack-ipv-and-ipv/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ac5f30808ef878536268ffed26474cabfc2d8ef6",
+      "title": "Amazon EC2 R8i and R8i-flex instances are now available in additional AWS regions",
+      "summary": "Amazon EC2 R8i and R8i-flex instances are now available in three additional AWS regions: Asia Pacific (Seoul), South America (Sao Paulo), and Asia Pacific (Tokyo). These instances are powered by custom Intel Xeon 6 processors exclusive to AWS, offering up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generations.",
+      "category": "COMPUTE",
+      "timestamp": "2025-12-18T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/ec2-r8i-r8i-flex-instances-additional-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b83f87b05b92720f4555696690fee9dc926a3301",
+      "title": "AWS Direct Connect now supports resilience testing with AWS Fault Injection Service",
+      "summary": "AWS Direct Connect now integrates with AWS Fault Injection Service (FIS) to enable controlled resilience testing of applications. This new capability allows users to simulate disruptions to Border Gateway Protocol (BGP) sessions over Virtual Interfaces and observe how their applications respond. The integration helps validate resilience mechanisms and improve application performance and observability through controlled fault injection experiments.",
+      "category": "NETWORKING",
+      "timestamp": "2025-12-18T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/direct-connect-resilience-testing-fault-injection-service/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d701fd9d7ee861857d4893afc11d890d2becf24a",
+      "title": "AWS Lambda durable functions are now available in 14 additional AWS Regions",
+      "summary": "AWS Lambda durable functions, which allow developers to build reliable multi-step applications and AI workflows, are now available in 14 additional AWS Regions. The expansion includes major regions across the US, Europe, and Asia Pacific, such as US East (N. Virginia), Europe (Ireland), Asia Pacific (Tokyo), and Asia Pacific (Singapore). This broader availability gives developers more geographic options for deploying complex, stateful serverless applications using Lambda's familiar development environment.",
+      "category": "SERVERLESS",
+      "timestamp": "2025-12-18T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/lambda-durable-functions-14-additional-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c5d0dfdcb8c8a03f39e7f553f3cb5f946a5bbe48",
+      "title": "Amazon Neptune Database is now available in the AWS Europe (Zurich) Region",
+      "summary": "Amazon Neptune Database, AWS's fully managed graph database service, is now available in the Europe (Zurich) Region with engine versions 1.4.5.0 and later. Users can create Neptune clusters in this region using various instance types including R5, R5d, R6g, R6i, X2iedn, T4g, and T3. Neptune enables easy development of applications with highly connected datasets using Apache TinkerPop Gremlin or openCypher query languages.",
+      "category": "DATABASE",
+      "timestamp": "2025-12-18T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-neptune-zurich-region",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "aa5c065dd6d64bf0a5912241247a3e3ad1f23158",
+      "title": "Amazon MSK introduces KRaft support for Express Brokers with Apache Kafka v3.9",
+      "summary": "Amazon MSK now supports Apache Kafka version 3.9 for Express Brokers, introducing KRaft (Kafka Raft) support that eliminates the need for Apache ZooKeeper for metadata management. KRaft moves metadata management from external ZooKeeper nodes to internal Kafka controllers, allowing metadata to be stored and replicated as topics within the Kafka brokers themselves.",
+      "category": "ANALYTICS",
+      "timestamp": "2025-12-18T08:00:00.000Z",
+      "link": "https://aws.amazon.comabout-aws/whats-new/2025/12/aws-msk-express-brokers-support-kraft/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "a650ac43305983a4051eb34a1146d22c2046ef3e",
       "title": "Amazon WorkSpaces Applications announces additional health and performance metrics",
       "summary": "Amazon WorkSpaces Applications has introduced new Amazon CloudWatch metrics that allow administrators to monitor the health and performance of fleets, sessions, instances, and users. These metrics can be easily enabled from the CloudWatch console and provide real-time updates to simplify troubleshooting. The new monitoring capabilities help administrators make better decisions about sizing and optimize end-user streaming performance.",
@@ -1682,20 +1762,20 @@
     }
   ],
   "stats": {
-    "total": 168,
+    "total": 176,
     "byCategory": {
-      "COMPUTE": 24,
+      "COMPUTE": 26,
+      "OTHER": 42,
+      "ANALYTICS": 10,
+      "NETWORKING": 3,
+      "SERVERLESS": 5,
+      "DATABASE": 10,
       "SECURITY": 41,
-      "OTHER": 41,
-      "SERVERLESS": 4,
       "AI_ML": 33,
-      "NETWORKING": 2,
-      "DATABASE": 9,
-      "ANALYTICS": 8,
       "CONTAINERS": 2,
       "STORAGE": 4
     },
-    "lastUpdated": "2025-12-18T10:25:11.731Z"
+    "lastUpdated": "2025-12-18T22:21:00.350Z"
   },
-  "generatedAt": "2025-12-18T10:25:11.731Z"
+  "generatedAt": "2025-12-18T22:21:00.350Z"
 }
