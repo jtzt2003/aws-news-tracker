@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "8ef7726ca3407bdab01ad968389d236778419e5d",
+      "title": "Amazon Application Recovery Controller region switch now supports three new capabilities",
+      "summary": "Amazon Application Recovery Controller (ARC) Region switch has added three new capabilities to help orchestrate multi-Region application failovers to another AWS Region during regional impairments. The service provides bounded recovery times while eliminating hours of manual engineering work previously required for failover procedures. It automates failover steps, dashboard creation, and evidence gathering for successful recovery operations.",
+      "category": "DATABASE",
+      "timestamp": "2025-12-19T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-application-recovery-controller-region-switch-new-capabilities",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f364e0aebd16d9e48a709eb2a5af118bd5167686",
+      "title": "AWS Private CA OCSP now available in China and AWS GovCloud (US) Regions",
+      "summary": "AWS Private Certificate Authority (AWS Private CA) has expanded its Online Certificate Status Protocol (OCSP) support to China and AWS GovCloud (US) Regions. This enhancement allows real-time certificate validation and revocation status checking for applications using private certificates in these regions. AWS Private CA is a fully managed service that eliminates the operational complexity of maintaining your own certificate authority infrastructure.",
+      "category": "SECURITY",
+      "timestamp": "2025-12-19T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-private-ca-ocsp-china-govcloud-us-regions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "08c5ac89a4a95c100e9eb9a2225ba25f175afd10",
+      "title": "Amazon SageMaker Studio now supports SOCI indexing for faster container startup times",
+      "summary": "Amazon SageMaker Studio now supports SOCI (Seekable Open Container Initiative) indexing, which reduces container startup times by 30-50% when using custom images. This enhancement improves the performance of SageMaker Studio, AWS's browser-based machine learning development environment that provides pre-built containers for popular ML frameworks like TensorFlow, PyTorch, and Scikit-learn.",
+      "category": "AI_ML",
+      "timestamp": "2025-12-19T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-sagemaker-nbi-soci/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "27a23143259aea74e95a84a3f57b835dde0bf31a",
+      "title": "Amazon RDS enhances observability for snapshot exports to Amazon S3",
+      "summary": "Amazon RDS has introduced enhanced observability features for snapshot exports to Amazon S3, providing detailed insights into export progress, failures, and performance through four new event types. These improvements allow users to monitor their snapshot exports with greater granularity and predictability. The feature enables exporting RDS database snapshots to Apache Parquet format in S3 buckets with better visibility into the export process.",
+      "category": "DATABASE",
+      "timestamp": "2025-12-19T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-rds-observability-snapshot-exports-s3",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b1db203d963db2fddcf4d3e6f5be46682b28116a",
+      "title": "Amazon Bedrock Data Automation launches instruction optimization for your document blueprints",
+      "summary": "Amazon Bedrock Data Automation (BDA) has launched blueprint instruction optimization, which automatically improves the accuracy of custom field extraction from documents using example assets with ground truth labels. This feature refines natural language instructions in blueprints to better extract insights from unstructured multimodal content including documents, images, audio, and videos. The enhancement helps optimize GenAI-powered applications by automatically improving extraction performance with minimal manual intervention.",
+      "category": "AI_ML",
+      "timestamp": "2025-12-19T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/bedrock-data-automation-optimization-document-blueprints/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "64692cc659f7616ec9fcdbb52ee23551a3d6eb22",
+      "title": "Timestream for InfluxDB Now Supports Restart API Calls",
+      "summary": "Amazon Timestream for InfluxDB now supports a restart API for both InfluxDB versions 2 and 3, allowing customers to trigger system restarts on their database instances through the AWS Management Console, API, or CLI. This new feature enables customers to perform resilience testing and address health-related issues more efficiently, streamlining operational management of their time-series database environments.",
+      "category": "DATABASE",
+      "timestamp": "2025-12-19T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/timestream-influxdb-restart-api",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "deb1d19b403cb1186fd4ba17da7b0eff920ffcb1",
+      "title": "Announcing Cost Allocation Tags support for Account Tags",
+      "summary": "AWS has announced support for Cost Allocation Tags with account tags, allowing customers with multiple member accounts to use their existing AWS Organizations account tags directly in cost management tools. Account tags are automatically applied at the account level and cover all metered usage within tagged accounts, removing the need to manually configure separate account groupings in AWS Cost Explorer and Cost and Usage Reports. This enhancement streamlines cost management across multi-account AWS environments.",
+      "category": "OTHER",
+      "timestamp": "2025-12-19T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/cost-allocation-tags/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6b9bdcdc95d0b7c1db2e9f7ee15c2ed6a7a61826",
+      "title": "Amazon ECR now supports creating repositories on push",
+      "summary": "Amazon Elastic Container Registry (ECR) now automatically creates repositories when container images are pushed, eliminating the need for users to manually pre-create repositories. This feature streamlines container workflows by using defined repository creation template settings to automatically generate repositories as needed. The capability is available across all AWS regions where ECR is offered.",
+      "category": "CONTAINERS",
+      "timestamp": "2025-12-19T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ecr-creating-repositories-on-push/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "15824a9b568044554d1846e29e16b225128220b2",
+      "title": "AWS IoT now offers event-based logging to help optimize observability costs",
+      "summary": "AWS IoT has introduced event-based logging, a new feature that allows developers to reduce Amazon CloudWatch costs while improving log management efficiency. This capability enables customizable log levels and destinations for individual IoT events based on their operational importance. For example, developers can set different log levels (like INFO-level) for specific event types such as certificate providers.",
+      "category": "OTHER",
+      "timestamp": "2025-12-19T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-iot-event-based-logging/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b4bad7fdb7a4b1da2ce4d7f522a4777df7de9e32",
+      "title": "Amazon WorkSpaces Applications now supports Microsoft Windows Server 2025",
+      "summary": "Amazon WorkSpaces Applications now supports Microsoft Windows Server 2025, allowing customers to launch streaming instances with the latest server operating system features. This update provides improved security, performance, and modern capabilities for application streaming environments. The new support enables delivery of the Windows 11 desktop experience to end users with enhanced flexibility.",
+      "category": "SECURITY",
+      "timestamp": "2025-12-19T08:00:00.000Z",
+      "link": "https://aws.amazon.comabout-aws/whats-new/2025/12/amazon-workspaces-applications-supports-microsoft-windows-server",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "a8e2f475b97552d6a1fde2c130fed82fc391daf5",
       "title": "Amazon EC2 now supports Availability Zone ID across its APIs",
       "summary": "Amazon EC2 now supports Availability Zone ID (AZ ID) parameters across its APIs, allowing users to create and manage resources using consistent zone identifiers that represent the same physical location across all AWS accounts. This replaces the previous system where AZ names could map to different physical locations, making resource placement optimization more reliable and predictable.",
@@ -1802,20 +1902,20 @@
     }
   ],
   "stats": {
-    "total": 180,
+    "total": 190,
     "byCategory": {
+      "DATABASE": 13,
+      "SECURITY": 43,
+      "AI_ML": 35,
+      "OTHER": 46,
+      "CONTAINERS": 4,
       "COMPUTE": 27,
-      "OTHER": 44,
       "ANALYTICS": 10,
-      "CONTAINERS": 3,
       "NETWORKING": 3,
       "SERVERLESS": 5,
-      "DATABASE": 10,
-      "SECURITY": 41,
-      "AI_ML": 33,
       "STORAGE": 4
     },
-    "lastUpdated": "2025-12-19T10:24:03.984Z"
+    "lastUpdated": "2025-12-19T22:20:59.991Z"
   },
-  "generatedAt": "2025-12-19T10:24:03.984Z"
+  "generatedAt": "2025-12-19T22:20:59.991Z"
 }
