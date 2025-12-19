@@ -1,6 +1,26 @@
 {
   "announcements": [
     {
+      "id": "a8e2f475b97552d6a1fde2c130fed82fc391daf5",
+      "title": "Amazon EC2 now supports Availability Zone ID across its APIs",
+      "summary": "Amazon EC2 now supports Availability Zone ID (AZ ID) parameters across its APIs, allowing users to create and manage resources using consistent zone identifiers that represent the same physical location across all AWS accounts. This replaces the previous system where AZ names could map to different physical locations, making resource placement optimization more reliable and predictable.",
+      "category": "COMPUTE",
+      "timestamp": "2025-12-18T20:55:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-az-id-api-support",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e6ccdfc10fb11a4aa8399e348fdd388ff6aaa00c",
+      "title": "Amazon WorkSpaces Applications announces Elastic fleets powered by Ubuntu Pro 24.04 LTS",
+      "summary": "Amazon WorkSpaces Applications now supports Ubuntu Pro 24.04 LTS on Elastic fleets, allowing ISVs and IT organizations to stream Ubuntu desktop applications to users through AWS Cloud infrastructure. This fully managed service enables secure, flexible access to desktops and applications from anywhere while providing scalability and cost-effectiveness.",
+      "category": "OTHER",
+      "timestamp": "2025-12-18T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-workspaces-ubuntu-elasticfleets",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "f07a6fcd9cc1114bccf14be763dd4aab0a35f84d",
       "title": "Amazon EC2 C8a instances now available in the Europe (Spain) region",
       "summary": "Amazon EC2 C8a instances, powered by 5th Gen AMD EPYC processors with up to 4.5 GHz frequency, are now available in the Europe (Spain) region. These compute-optimized instances deliver up to 30% higher performance and 19% better price-performance compared to C7a instances, with 33% more memory bandwidth making them ideal for latency-sensitive workloads.",
@@ -27,6 +47,26 @@
       "category": "ANALYTICS",
       "timestamp": "2025-12-18T15:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-msk-connect-dual-stack-ipv-and-ipv/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1a6551300d9086ca66dd6d4c4b08690a0bb863d9",
+      "title": "AWS IoT Core adds message batching to HTTP rule action",
+      "summary": "AWS IoT Core has introduced message batching functionality for HTTP rule actions, allowing multiple IoT messages to be combined into a single HTTP request before being sent to downstream endpoints. This new feature reduces both cost and throughput overhead when processing telemetry data from IoT workloads by minimizing the number of individual HTTP calls required.",
+      "category": "OTHER",
+      "timestamp": "2025-12-18T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-iot-core-message-batching-http-rule-action",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6e10f59cf6c19a420643be74d3aa5a7eec22abcf",
+      "title": "Amazon ECS Managed Instances now supports Amazon EC2 Spot Instances",
+      "summary": "Amazon ECS Managed Instances now supports EC2 Spot Instances, allowing users to access spare EC2 capacity at up to 90% discount compared to On-Demand pricing for fault-tolerant workloads. This enhancement maintains AWS's fully managed infrastructure approach while providing significant cost savings through automatic scaling and infrastructure management.",
+      "category": "CONTAINERS",
+      "timestamp": "2025-12-18T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ecs-managed-instances-ec2-spot-instances",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -1762,20 +1802,20 @@
     }
   ],
   "stats": {
-    "total": 176,
+    "total": 180,
     "byCategory": {
-      "COMPUTE": 26,
-      "OTHER": 42,
+      "COMPUTE": 27,
+      "OTHER": 44,
       "ANALYTICS": 10,
+      "CONTAINERS": 3,
       "NETWORKING": 3,
       "SERVERLESS": 5,
       "DATABASE": 10,
       "SECURITY": 41,
       "AI_ML": 33,
-      "CONTAINERS": 2,
       "STORAGE": 4
     },
-    "lastUpdated": "2025-12-18T22:21:00.350Z"
+    "lastUpdated": "2025-12-19T10:24:03.984Z"
   },
-  "generatedAt": "2025-12-18T22:21:00.350Z"
+  "generatedAt": "2025-12-19T10:24:03.984Z"
 }
