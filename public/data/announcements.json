@@ -1,6 +1,66 @@
 {
   "announcements": [
     {
+      "id": "0ddf3341ab08d389dc8cf78d8fd7d3971658b6da",
+      "title": "Oracle Database@AWS now supports sharing of AWS Marketplace entitlements across accounts",
+      "summary": "Oracle Database@AWS now allows customers to share AWS Marketplace entitlements across multiple accounts within an AWS Organization. This means organizations can purchase a single Oracle Database@AWS marketplace offer in one account and use it across all their AWS accounts within the organization. The feature simplifies license management and enables centralized purchasing while allowing distributed consumption of Oracle database services.",
+      "category": "OTHER",
+      "timestamp": "2025-12-22T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/oracle-database-aws-marketplace-entitlements-across-accounts/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f6f04e27d7bdbd0d1d42cdc153799e6305dda971",
+      "title": "Amazon ECS Service Connect enhances observability with Envoy Access Logs",
+      "summary": "Amazon ECS Service Connect now supports Envoy access logs, enabling deeper observability into request-level traffic patterns and service interactions within containerized applications. This enhancement provides detailed per-request telemetry that helps with end-to-end tracing, debugging, and compliance monitoring. The feature builds on Service Connect's existing capabilities for secure, resilient service-to-service communication across clusters, VPCs, and AWS accounts.",
+      "category": "CONTAINERS",
+      "timestamp": "2025-12-22T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ecs-service-connect-observability-envoy-access-logs",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "be31bbccf68b0bd4b2da096477af3fcd9c5fdcf9",
+      "title": "Research and Engineering Studio on AWS Version 2025.12 now available",
+      "summary": "AWS has released Research and Engineering Studio (RES) version 2025.12, an open source web-based portal that helps administrators create and manage secure cloud-based research and engineering environments. The new version introduces key improvements including tag propagation for CloudFormation resources, enhanced Windows domain configuration options, default session scheduling, and security enhancements.",
+      "category": "SECURITY",
+      "timestamp": "2025-12-22T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/research-engineering-studio-aws-new-version-available/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "647276de59971a5e3453cc9eb10e175b338c9d56",
+      "title": "AWS Storage Gateway now supports Nutanix AHV hypervisor",
+      "summary": "AWS Storage Gateway now supports deployment on the Nutanix AHV hypervisor, enabling organizations using Nutanix's KVM-based virtualization platform to deploy S3 File, Tape, and Volume gateways in their on-premises environments. This integration allows Nutanix AHV users to seamlessly access AWS's virtually unlimited cloud storage through their existing hyper-converged infrastructure.",
+      "category": "COMPUTE",
+      "timestamp": "2025-12-22T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-storage-gateway-nutanix-avh-hypervisor",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8aeeb5084a461014b2a796164dab25fcd1dcd937",
+      "title": "AWS Wickr launches admin APIs for programmatic network management at scale",
+      "summary": "AWS Wickr has launched a suite of admin APIs that enable administrators to programmatically manage secure communication networks at scale. These APIs automate critical administrative workflows including user lifecycle management (creating/deactivating accounts and assigning security groups) and network configuration. The new functionality allows organizations to streamline administrative tasks and manage their Wickr networks more efficiently through automated processes.",
+      "category": "SECURITY",
+      "timestamp": "2025-12-22T08:00:00.000Z",
+      "link": "https://aws.amazon.comabout-aws/whats-new/2025/12/aws-wickr-admin-apis-generally-available/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3a26dbbc2f1911d4313298f075f221136a4c0821",
+      "title": "Announcing AWS Neuron SDK 2.27.0",
+      "summary": "AWS has released Neuron SDK 2.27.0, which adds support for Trainium3 UltraServer and includes several new tools and features with expanded open source components. Key additions include the Neuron Explorer tools suite, Enhanced NKI with an open source compiler, native PyTorch support through TorchNeuron, and Kubernetes-native resource management via Neuron DRA. These updates are designed to enable standard machine learning frameworks to run seamlessly on AWS Trainium infrastructure without requiring code changes.",
+      "category": "AI_ML",
+      "timestamp": "2025-12-22T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/announcing-aws-neuron-2-27",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "8ef7726ca3407bdab01ad968389d236778419e5d",
       "title": "Amazon Application Recovery Controller region switch now supports three new capabilities",
       "summary": "Amazon Application Recovery Controller (ARC) Region switch has added three new capabilities to help orchestrate multi-Region application failovers to another AWS Region during regional impairments. The service provides bounded recovery times while eliminating hours of manual engineering work previously required for failover procedures. It automates failover steps, dashboard creation, and evidence gathering for successful recovery operations.",
@@ -1902,20 +1962,20 @@
     }
   ],
   "stats": {
-    "total": 190,
+    "total": 196,
     "byCategory": {
+      "OTHER": 47,
+      "CONTAINERS": 5,
+      "SECURITY": 45,
+      "COMPUTE": 28,
+      "AI_ML": 36,
       "DATABASE": 13,
-      "SECURITY": 43,
-      "AI_ML": 35,
-      "OTHER": 46,
-      "CONTAINERS": 4,
-      "COMPUTE": 27,
       "ANALYTICS": 10,
       "NETWORKING": 3,
       "SERVERLESS": 5,
       "STORAGE": 4
     },
-    "lastUpdated": "2025-12-22T10:24:07.215Z"
+    "lastUpdated": "2025-12-22T22:21:28.351Z"
   },
-  "generatedAt": "2025-12-22T10:24:07.215Z"
+  "generatedAt": "2025-12-22T22:21:28.352Z"
 }
