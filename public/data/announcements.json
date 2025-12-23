@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "c13da2036b64061eaf47475d640faab122cc35b8",
+      "title": "AWS Deadline Cloud now supports direct job submission from the Deadline Cloud Monitor",
+      "summary": "AWS Deadline Cloud has added direct job submission capabilities to its Monitor desktop application, eliminating the previous requirement to use the command line interface. This new feature expands compatibility with content creation tools that lack built-in Deadline Cloud plugins and makes it easier to submit rendering jobs directly through the desktop interface.",
+      "category": "OTHER",
+      "timestamp": "2025-12-22T22:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-deadline-cloud-direct-job-submission-from/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "0ddf3341ab08d389dc8cf78d8fd7d3971658b6da",
       "title": "Oracle Database@AWS now supports sharing of AWS Marketplace entitlements across accounts",
       "summary": "Oracle Database@AWS now allows customers to share AWS Marketplace entitlements across multiple accounts within an AWS Organization. This means organizations can purchase a single Oracle Database@AWS marketplace offer in one account and use it across all their AWS accounts within the organization. The feature simplifies license management and enables centralized purchasing while allowing distributed consumption of Oracle database services.",
@@ -17,6 +27,36 @@
       "category": "CONTAINERS",
       "timestamp": "2025-12-22T18:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ecs-service-connect-observability-envoy-access-logs",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0eab103ffedb4f691729a5b283a0b4e45aa0c09c",
+      "title": "Amazon Kinesis Video Streams now supports IPv6 for WebRTC",
+      "summary": "Amazon Kinesis Video Streams now supports IPv6 addressing for WebRTC through dual-stack endpoint support, allowing developers to use both IPv4 and IPv6 addresses for video streaming from millions of devices. This update ensures existing IPv4 implementations continue working reliably while providing IPv6 connectivity benefits and simplifying the transition to IPv6 addresses.",
+      "category": "ANALYTICS",
+      "timestamp": "2025-12-22T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-kinesis-video-streams-webrtc-ipv6/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2167f8531aa9f0e459b1cfe377fd6bc1c3b020eb",
+      "title": "Amazon GameLift Streams launches real-time performance stats and improved API error messaging ",
+      "summary": "Amazon GameLift Streams has launched new observability features that provide real-time performance statistics for individual streaming sessions, giving developers detailed insights into application performance issues. The update addresses developer requests for better visibility into session performance and resource utilization across different stream classes and GPUs. These enhanced stats enable developers to make more informed decisions about optimal GPU selection for their applications.",
+      "category": "OTHER",
+      "timestamp": "2025-12-22T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-gameliftstream-performance-stats-error-messaging",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0b0758b8e67021bbe6d923c181b2944b5511a98f",
+      "title": "Amazon GameLift Streams launches Gen6-based stream classes and enhanced autoscaling for better performance and pricing",
+      "summary": "Amazon GameLift Streams has introduced Gen6 stream classes based on EC2 G6 instances with NVIDIA L4 Tensor Core GPUs, delivering up to 2x better performance than Gen4 classes. The update also includes enhanced autoscaling with warm buffer capabilities, allowing customers to dynamically manage capacity scaling for optimized performance and cost-effectiveness.",
+      "category": "OTHER",
+      "timestamp": "2025-12-22T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-gameliftstream-gen6-enhanced-autoscaling",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -1962,20 +2002,20 @@
     }
   ],
   "stats": {
-    "total": 196,
+    "total": 200,
     "byCategory": {
-      "OTHER": 47,
+      "OTHER": 50,
       "CONTAINERS": 5,
+      "ANALYTICS": 11,
       "SECURITY": 45,
       "COMPUTE": 28,
       "AI_ML": 36,
       "DATABASE": 13,
-      "ANALYTICS": 10,
       "NETWORKING": 3,
       "SERVERLESS": 5,
       "STORAGE": 4
     },
-    "lastUpdated": "2025-12-22T22:21:28.351Z"
+    "lastUpdated": "2025-12-23T10:25:27.490Z"
   },
-  "generatedAt": "2025-12-22T22:21:28.352Z"
+  "generatedAt": "2025-12-23T10:25:27.490Z"
 }
