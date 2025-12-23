@@ -1,6 +1,86 @@
 {
   "announcements": [
     {
+      "id": "6b42de05eea077f0dbca0c36070fc0044613f209",
+      "title": "Oracle Database@AWS is now available in three additional AWS Regions",
+      "summary": "Oracle Database@AWS has expanded to three new AWS Regions: US-East-2 (Ohio), EU-Central-1 (Frankfurt), and AP-Northeast-1 (Tokyo). This service allows customers to run Oracle database workloads on Oracle Cloud Infrastructure (OCI) managed Exadata systems located within AWS data centers. The expansion particularly benefits EU and Japanese customers with data residency requirements who want to migrate their on-premises Oracle Exadata applications to AWS.",
+      "category": "OTHER",
+      "timestamp": "2025-12-23T18:50:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/oracle-database-aws-available-three-additional-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2a80c655e32eab2f352e567d501dc9d3348dc0ab",
+      "title": "NVIDIA Nemotron 3 Nano now available on Amazon Bedrock",
+      "summary": "AWS announced that NVIDIA Nemotron 3 Nano 30B A3B model is now available on Amazon Bedrock, featuring advanced capabilities including native tool calling, 256k token context window, and high reasoning performance. The model uses an efficient hybrid Mixture-of-Experts (MoE) architecture that delivers higher throughput than previous versions while maintaining the reasoning capabilities of larger models, making it particularly well-suited for agentic and coding workloads.",
+      "category": "AI_ML",
+      "timestamp": "2025-12-23T18:11:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/nvidia-nemotron-3-nano-amazon-bedrock",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6dab66dc993c175e05da200aac688fbbdbb90df7",
+      "title": "Amazon WorkSpaces Secure Browser now supports WebAuthn redirection for local Chromium browsers",
+      "summary": "Amazon WorkSpaces Secure Browser now supports WebAuthn redirection, enabling users to authenticate to websites using local FIDO2 security keys, biometric authenticators, and platform authenticators within their secure browser sessions. This feature works with Chromium-based browsers like Google Chrome 136+ and Microsoft Edge 137+, but is not supported on non-Chromium browsers such as Safari.",
+      "category": "SECURITY",
+      "timestamp": "2025-12-23T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-workspaces-secure-browser-webauthn-redirection-chromium-browsers",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8df176efef6b49bd92273593fdbe76f811011aba",
+      "title": "Amazon RDS for MySQL announces Innovation Release 9.5 in Amazon RDS Database Preview Environment",
+      "summary": "Amazon RDS for MySQL now supports community MySQL Innovation Release 9.5 in the Amazon RDS Database Preview Environment. This allows users to evaluate the latest MySQL innovation features while benefiting from a fully managed database service that simplifies setup, operation, and monitoring. MySQL 9.5 represents the latest innovation release from the MySQL community with various improvements and bug fixes.",
+      "category": "SECURITY",
+      "timestamp": "2025-12-23T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-rds-mysql-innovation-release/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b0d5712d4e391490014eb059874aaf7bf41c1ee6",
+      "title": "AWS Secrets Manager announces improved secret sorting capabilities",
+      "summary": "AWS Secrets Manager has expanded its sorting capabilities, allowing users to sort secrets by name, last changed date, last accessed date, and creation date (previously only creation date was available). This enhancement is available in both the Secrets Manager console and the ListSecrets API. The improvement provides better secret management and organization within AWS's fully managed service for handling database credentials, API keys, and other sensitive information.",
+      "category": "SECURITY",
+      "timestamp": "2025-12-23T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-secrets-manager-secret-sorting-capabilities",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5b4c5ef6bd05bb28cf352863e38f578f5edfda34",
+      "title": "AWS Transform enables network conversion for hybrid data center migrations",
+      "summary": "AWS Transform now offers automatic network conversion capabilities for hybrid data center migrations, eliminating the need for manual network mapping in environments with both VMware and non-VMware workloads. The service automatically analyzes VLANs and IP ranges from source networks and maps them to corresponding AWS infrastructure like VPCs, subnets, and security groups. This enhancement is part of AWS Transform for VMware, an AI-powered service that automates VMware workload discovery, planning, and migration processes.",
+      "category": "SECURITY",
+      "timestamp": "2025-12-23T12:47:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-transform-hybrid-network-migration/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "740f1fdb564ca424cacddfa1ee83a0fca0b12d7d",
+      "title": "Amazon WorkSpaces Secure Browser enables branding customization",
+      "summary": "Amazon WorkSpaces Secure Browser now allows organizations to customize branding on sign-in and session loading screens to maintain consistent visual identity. Users can upload their organization's logos, modify visual elements, and customize text content across all user touchpoints. This feature helps create a branded experience that aligns with company branding standards.",
+      "category": "AI_ML",
+      "timestamp": "2025-12-23T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-workspaces-secure-browser-enables-branding/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "797f84a3adaf61451b22e3c2b9bf8205ef947f1a",
+      "title": "Amazon Redshift supports four new materialized view (MV) features on data shares",
+      "summary": "Amazon Redshift has introduced four new materialized view (MV) features for data shares, enabling users to run create and refresh MV commands across multiple data warehouses and create MVs on shared MVs. The update also adds concurrency scaling support for the create MV DDL command, allowing it to scale automatically when the main cluster or workgroup runs out of resources.",
+      "category": "DATABASE",
+      "timestamp": "2025-12-23T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-redshift-mv-datasharing-features",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "c13da2036b64061eaf47475d640faab122cc35b8",
       "title": "AWS Deadline Cloud now supports direct job submission from the Deadline Cloud Monitor",
       "summary": "AWS Deadline Cloud has added direct job submission capabilities to its Monitor desktop application, eliminating the previous requirement to use the command line interface. This new feature expands compatibility with content creation tools that lack built-in Deadline Cloud plugins and makes it easier to submit rendering jobs directly through the desktop interface.",
@@ -2002,20 +2082,20 @@
     }
   ],
   "stats": {
-    "total": 200,
+    "total": 208,
     "byCategory": {
-      "OTHER": 50,
+      "OTHER": 51,
+      "AI_ML": 38,
+      "SECURITY": 49,
+      "DATABASE": 14,
       "CONTAINERS": 5,
       "ANALYTICS": 11,
-      "SECURITY": 45,
       "COMPUTE": 28,
-      "AI_ML": 36,
-      "DATABASE": 13,
       "NETWORKING": 3,
       "SERVERLESS": 5,
       "STORAGE": 4
     },
-    "lastUpdated": "2025-12-23T10:25:27.490Z"
+    "lastUpdated": "2025-12-23T22:20:48.817Z"
   },
-  "generatedAt": "2025-12-23T10:25:27.490Z"
+  "generatedAt": "2025-12-23T22:20:48.817Z"
 }
