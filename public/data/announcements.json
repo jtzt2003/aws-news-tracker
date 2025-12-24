@@ -31,6 +31,16 @@
       "isNew": false
     },
     {
+      "id": "d84c728b11a5c6ab55209d1539ed18e0803868dd",
+      "title": "Amazon MSK expands Standard Brokers and Express Brokers to Asia Pacific (New Zealand) Region",
+      "summary": "Amazon Managed Streaming for Apache Kafka (Amazon MSK) has expanded its availability to the Asia Pacific (New Zealand) region, allowing customers to create MSK Provisioned clusters there starting immediately. Amazon MSK is a fully managed service that simplifies building and running Apache Kafka applications while maintaining full compatibility with existing Apache Kafka workloads for easier migration.",
+      "category": "ANALYTICS",
+      "timestamp": "2025-12-23T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-msk-additional-aws-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "8df176efef6b49bd92273593fdbe76f811011aba",
       "title": "Amazon RDS for MySQL announces Innovation Release 9.5 in Amazon RDS Database Preview Environment",
       "summary": "Amazon RDS for MySQL now supports community MySQL Innovation Release 9.5 in the Amazon RDS Database Preview Environment. This allows users to evaluate the latest MySQL innovation features while benefiting from a fully managed database service that simplifies setup, operation, and monitoring. MySQL 9.5 represents the latest innovation release from the MySQL community with various improvements and bug fixes.",
@@ -47,6 +57,16 @@
       "category": "SECURITY",
       "timestamp": "2025-12-23T15:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-secrets-manager-secret-sorting-capabilities",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "faaa7170f242652a743169bee0753982d0626fe6",
+      "title": "MiniMax-M2 is now available on Amazon SageMaker JumpStart",
+      "summary": "AWS has made MiniMax-M2, an efficient open-source AI model, available on Amazon SageMaker JumpStart for quick deployment within minutes. The model is a compact Mixture of Experts (MoE) architecture with 230 billion total parameters but only 10 billion active parameters, designed to be fast and cost-effective for AI agents. Users can deploy MiniMax-M2 through either SageMaker Studio's interface or the SageMaker Python SDK.",
+      "category": "AI_ML",
+      "timestamp": "2025-12-23T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/minimax-m2-on-sagemaker-jumpstart",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -2082,20 +2102,20 @@
     }
   ],
   "stats": {
-    "total": 208,
+    "total": 210,
     "byCategory": {
       "OTHER": 51,
-      "AI_ML": 38,
+      "AI_ML": 39,
       "SECURITY": 49,
+      "ANALYTICS": 12,
       "DATABASE": 14,
       "CONTAINERS": 5,
-      "ANALYTICS": 11,
       "COMPUTE": 28,
       "NETWORKING": 3,
       "SERVERLESS": 5,
       "STORAGE": 4
     },
-    "lastUpdated": "2025-12-23T22:20:48.817Z"
+    "lastUpdated": "2025-12-24T10:23:18.658Z"
   },
-  "generatedAt": "2025-12-23T22:20:48.817Z"
+  "generatedAt": "2025-12-24T10:23:18.658Z"
 }
