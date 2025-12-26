@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "fda8408dbd1ca2772828ad24802055d797a784ca",
+      "title": "Amazon Connect expands automated agent performance evaluations to 5 additional languages",
+      "summary": "Amazon Connect now offers automated agent performance evaluations in five additional languages (Portuguese, French, Italian, German, and Spanish) using generative AI technology. Managers can define custom evaluation criteria in natural language and receive AI-generated assessments with explanations in their preferred language. The system also supports cross-language evaluation, allowing assessments to be completed in English even when customer conversations occur in other languages, enabling standardized evaluations across multilingual contact centers.",
+      "category": "AI_ML",
+      "timestamp": "2025-12-26T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-connect-automated-performance-evaluations-additional-languages/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "6b42de05eea077f0dbca0c36070fc0044613f209",
       "title": "Oracle Database@AWS is now available in three additional AWS Regions",
       "summary": "Oracle Database@AWS has expanded to three new AWS Regions: US-East-2 (Ohio), EU-Central-1 (Frankfurt), and AP-Northeast-1 (Tokyo). This service allows customers to run Oracle database workloads on Oracle Cloud Infrastructure (OCI) managed Exadata systems located within AWS data centers. The expansion particularly benefits EU and Japanese customers with data residency requirements who want to migrate their on-premises Oracle Exadata applications to AWS.",
@@ -2102,10 +2112,10 @@
     }
   ],
   "stats": {
-    "total": 210,
+    "total": 211,
     "byCategory": {
+      "AI_ML": 40,
       "OTHER": 51,
-      "AI_ML": 39,
       "SECURITY": 49,
       "ANALYTICS": 12,
       "DATABASE": 14,
@@ -2115,7 +2125,7 @@
       "SERVERLESS": 5,
       "STORAGE": 4
     },
-    "lastUpdated": "2025-12-26T10:23:25.392Z"
+    "lastUpdated": "2025-12-26T22:20:48.210Z"
   },
-  "generatedAt": "2025-12-26T10:23:25.392Z"
+  "generatedAt": "2025-12-26T22:20:48.210Z"
 }
