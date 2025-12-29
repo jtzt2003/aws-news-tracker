@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "9b4cf6b54b82fb0e9113112330bf48aa0f100886",
+      "title": "Amazon Connect dashboards now support filtering metrics based on custom business dimensions",
+      "summary": "Amazon Connect dashboards now allow users to filter metrics using custom business dimensions like divisions, product lines, or customer segments through predefined attributes. This enables organizations to customize their dashboards based on specific business needs, such as comparing handle times across different product lines to identify where agents may need additional training. The feature helps businesses gain more targeted insights from their contact center data.",
+      "category": "OTHER",
+      "timestamp": "2025-12-29T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-connect-dashboards-filtering-metrics-custom-business-dimensions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "fda8408dbd1ca2772828ad24802055d797a784ca",
       "title": "Amazon Connect expands automated agent performance evaluations to 5 additional languages",
       "summary": "Amazon Connect now offers automated agent performance evaluations in five additional languages (Portuguese, French, Italian, German, and Spanish) using generative AI technology. Managers can define custom evaluation criteria in natural language and receive AI-generated assessments with explanations in their preferred language. The system also supports cross-language evaluation, allowing assessments to be completed in English even when customer conversations occur in other languages, enabling standardized evaluations across multilingual contact centers.",
@@ -2112,10 +2122,10 @@
     }
   ],
   "stats": {
-    "total": 211,
+    "total": 212,
     "byCategory": {
+      "OTHER": 52,
       "AI_ML": 40,
-      "OTHER": 51,
       "SECURITY": 49,
       "ANALYTICS": 12,
       "DATABASE": 14,
@@ -2125,7 +2135,7 @@
       "SERVERLESS": 5,
       "STORAGE": 4
     },
-    "lastUpdated": "2025-12-29T10:25:16.524Z"
+    "lastUpdated": "2025-12-29T22:20:55.485Z"
   },
-  "generatedAt": "2025-12-29T10:25:16.525Z"
+  "generatedAt": "2025-12-29T22:20:55.485Z"
 }
