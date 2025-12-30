@@ -11,6 +11,16 @@
       "isNew": false
     },
     {
+      "id": "54212d94c490f2375ba51c52948be5d1e3ae010a",
+      "title": "Amazon OpenSearch UI supports CMK and increased metadata size",
+      "summary": "Amazon OpenSearch Service now supports AWS KMS customer managed keys (CMKs) for encrypting metadata and has increased the metadata size limit for OpenSearch UI applications. This enhancement helps organizations meet regulatory compliance requirements while using the managed dashboarding service that provides unified analytics across multiple AWS data sources including OpenSearch, S3, CloudWatch, and Security Lake.",
+      "category": "SECURITY",
+      "timestamp": "2025-12-29T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-opensearch-ui-cmk-metadata/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "fda8408dbd1ca2772828ad24802055d797a784ca",
       "title": "Amazon Connect expands automated agent performance evaluations to 5 additional languages",
       "summary": "Amazon Connect now offers automated agent performance evaluations in five additional languages (Portuguese, French, Italian, German, and Spanish) using generative AI technology. Managers can define custom evaluation criteria in natural language and receive AI-generated assessments with explanations in their preferred language. The system also supports cross-language evaluation, allowing assessments to be completed in English even when customer conversations occur in other languages, enabling standardized evaluations across multilingual contact centers.",
@@ -2122,11 +2132,11 @@
     }
   ],
   "stats": {
-    "total": 212,
+    "total": 213,
     "byCategory": {
       "OTHER": 52,
+      "SECURITY": 50,
       "AI_ML": 40,
-      "SECURITY": 49,
       "ANALYTICS": 12,
       "DATABASE": 14,
       "CONTAINERS": 5,
@@ -2135,7 +2145,7 @@
       "SERVERLESS": 5,
       "STORAGE": 4
     },
-    "lastUpdated": "2025-12-29T22:20:55.485Z"
+    "lastUpdated": "2025-12-30T10:24:58.294Z"
   },
-  "generatedAt": "2025-12-29T22:20:55.485Z"
+  "generatedAt": "2025-12-30T10:24:58.295Z"
 }
