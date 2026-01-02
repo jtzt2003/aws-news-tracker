@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "06c4c64daed2ade2202de0a5a766955633e97d7f",
+      "title": "Amazon Connect now provides the capability to store nested JSON object and looping arrays",
+      "summary": "Amazon Connect now supports storing and working with complex data structures like nested JSON objects and arrays directly within contact flows. This enhancement allows developers to build more dynamic automated customer experiences by saving complete data records from business systems and referencing specific elements within them. The feature also includes automatic looping capabilities for processing lists of items in customer service workflows.",
+      "category": "OTHER",
+      "timestamp": "2026-01-02T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-nested-json-object-looping-arrays",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "4bea28a1fce11bdc03498ae5af654378e6f8b19f",
       "title": "AWS WAF is now available in the AWS Asia Pacific (New Zealand) Region",
       "summary": "AWS WAF (Web Application Firewall) is now available in the AWS Asia Pacific (New Zealand) Region. AWS WAF helps protect web applications from common exploits and bots that could impact availability, security, or resource consumption. The service allows users to control content access based on specified conditions like IP addresses and query string values.",
@@ -2152,10 +2162,10 @@
     }
   ],
   "stats": {
-    "total": 215,
+    "total": 216,
     "byCategory": {
+      "OTHER": 53,
       "SECURITY": 52,
-      "OTHER": 52,
       "AI_ML": 40,
       "ANALYTICS": 12,
       "DATABASE": 14,
@@ -2165,7 +2175,7 @@
       "SERVERLESS": 5,
       "STORAGE": 4
     },
-    "lastUpdated": "2026-01-02T10:22:46.310Z"
+    "lastUpdated": "2026-01-02T22:21:22.390Z"
   },
-  "generatedAt": "2026-01-02T10:22:46.311Z"
+  "generatedAt": "2026-01-02T22:21:22.390Z"
 }
