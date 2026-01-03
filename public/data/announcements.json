@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "e6b819ca1d6d24e3e9a635774a4e3f864cc91fa8",
+      "title": "AWS Clean Rooms now supports detailed monitoring for collaboration queries",
+      "summary": "AWS Clean Rooms has launched detailed monitoring capabilities for SQL queries within collaborations, publishing comprehensive metrics to CloudWatch. This new feature enables monitoring of query performance and resource utilization, improving observability for workloads at scale. Collaboration creators can enable this detailed monitoring to gain better operational insights into their Clean Rooms deployments.",
+      "category": "OTHER",
+      "timestamp": "2026-01-02T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/clean-rooms-detailed-monitoring-collaboration-queries",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "06c4c64daed2ade2202de0a5a766955633e97d7f",
       "title": "Amazon Connect now provides the capability to store nested JSON object and looping arrays",
       "summary": "Amazon Connect now supports storing and working with complex data structures like nested JSON objects and arrays directly within contact flows. This enhancement allows developers to build more dynamic automated customer experiences by saving complete data records from business systems and referencing specific elements within them. The feature also includes automatic looping capabilities for processing lists of items in customer service workflows.",
@@ -2162,9 +2172,9 @@
     }
   ],
   "stats": {
-    "total": 216,
+    "total": 217,
     "byCategory": {
-      "OTHER": 53,
+      "OTHER": 54,
       "SECURITY": 52,
       "AI_ML": 40,
       "ANALYTICS": 12,
@@ -2175,7 +2185,7 @@
       "SERVERLESS": 5,
       "STORAGE": 4
     },
-    "lastUpdated": "2026-01-02T22:21:22.390Z"
+    "lastUpdated": "2026-01-03T10:21:40.889Z"
   },
-  "generatedAt": "2026-01-02T22:21:22.390Z"
+  "generatedAt": "2026-01-03T10:21:40.889Z"
 }
