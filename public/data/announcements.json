@@ -1,6 +1,46 @@
 {
   "announcements": [
     {
+      "id": "dc23ef7d235df6ac9765ce2eb0e3fd576df6431e",
+      "title": "AWS Marketplace Seller Reporting now provides collections visibility",
+      "summary": "AWS Marketplace Seller Reporting now includes collection visibility, providing real-time payment collection status in the Billed Revenue Dashboard and Billing Event Data Feed. This new feature allows sellers to clearly distinguish between invoiced, collected, and disbursed amounts, eliminating the previous gap between invoice creation and payment disbursement. The enhancement enables sellers to make better business decisions and reduces the need for payment status follow-ups with customers.",
+      "category": "OTHER",
+      "timestamp": "2026-01-06T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-marketplace-seller-reporting-collections/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "cac4f35c637008a34840b85ee2625dc810d5bd1c",
+      "title": "Amazon ECS now supports tmpfs mounts on AWS Fargate and ECS Managed Instances",
+      "summary": "Amazon ECS now supports tmpfs mounts for Linux tasks on AWS Fargate and ECS Managed Instances, in addition to the existing EC2 launch type support. This feature enables memory-backed temporary file systems within containers, allowing performance-sensitive workloads to access fast, temporary storage without writing data to persistent task storage.",
+      "category": "SECURITY",
+      "timestamp": "2026-01-06T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ecs-tmpfs-mounts-aws-fargate-managed-instances",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "36bdedb94d7d42b7114da19b95b3ab809f570e27",
+      "title": "Amazon MQ now supports HTTP based authentication for RabbitMQ brokers",
+      "summary": "Amazon MQ now supports HTTP-based authentication and authorization for RabbitMQ brokers, allowing them to verify user login credentials and permissions by making requests to an HTTP server. This feature is available for RabbitMQ version 4.2 and above running on m7g instances, and can be configured through the broker's configuration file. Users can enable this functionality by simply selecting RabbitMQ 4.2 when creating a new Amazon MQ broker.",
+      "category": "COMPUTE",
+      "timestamp": "2026-01-06T17:35:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-mq-http-based-rabbitmq-brokers/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7cd9086e1df9eba365491dd5c6f094aa4ea85d83",
+      "title": "AWS Config now supports 21 new resource types",
+      "summary": "AWS Config has expanded support to include 21 new resource types across Amazon EC2, SageMaker, and S3 Tables services. This expansion enhances monitoring coverage of AWS environments, allowing users to better discover, assess, audit, and remediate a wider range of resources. If recording is enabled for all resource types, AWS Config will automatically begin tracking these new additions.",
+      "category": "SECURITY",
+      "timestamp": "2026-01-06T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-config-new-resource-types",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "42bce1e4670f69049d38bfe29b8feedd7d779939",
       "title": "Amazon EC2 G5 instances are now available in Asia Pacific (Hong Kong) Region",
       "summary": "Amazon EC2 G5 instances powered by NVIDIA A10G Tensor Core GPUs are now available in the Asia Pacific (Hong Kong) region. These instances support graphics-intensive applications like remote workstations, video rendering, and cloud gaming, as well as machine learning workloads that require high-performance GPU computing.",
@@ -2222,20 +2262,20 @@
     }
   ],
   "stats": {
-    "total": 222,
+    "total": 226,
     "byCategory": {
+      "OTHER": 56,
+      "SECURITY": 54,
+      "COMPUTE": 30,
       "AI_ML": 41,
       "CONTAINERS": 6,
-      "OTHER": 55,
       "STORAGE": 5,
-      "COMPUTE": 29,
-      "SECURITY": 52,
       "ANALYTICS": 12,
       "DATABASE": 14,
       "NETWORKING": 3,
       "SERVERLESS": 5
     },
-    "lastUpdated": "2026-01-06T10:25:16.124Z"
+    "lastUpdated": "2026-01-06T22:22:33.508Z"
   },
-  "generatedAt": "2026-01-06T10:25:16.125Z"
+  "generatedAt": "2026-01-06T22:22:33.508Z"
 }
