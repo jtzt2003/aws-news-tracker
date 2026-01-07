@@ -1,6 +1,26 @@
 {
   "announcements": [
     {
+      "id": "f6cdd2cdb4fe79fc81275cc3b9cdc26f0ba98e4d",
+      "title": "Amazon EC2 I7ie instances now available in additional AWS regions",
+      "summary": "Amazon EC2 I7ie instances are now available in three additional AWS regions: Asia Pacific (Mumbai), Canada West (Calgary), and Europe (Paris). These instances are designed for storage-intensive workloads and are powered by 5th Gen Intel Xeon Processors, delivering up to 40% better compute performance and 20% better price performance compared to I3en instances, with up to 120TB of local NVMe storage.",
+      "category": "COMPUTE",
+      "timestamp": "2026-01-07T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-i7ie-instances-additional-aws-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "770ac59b7f073c6dc27c6daf06ae73558d12a56a",
+      "title": "Amazon EC2 C8i and C8i-flex instances are now available in additional AWS regions",
+      "summary": "Amazon EC2 C8i and C8i-flex instances are now available in three additional Asia Pacific regions: Mumbai, Seoul, and Tokyo. These instances are powered by custom Intel Xeon 6 processors exclusive to AWS, offering up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generations.",
+      "category": "COMPUTE",
+      "timestamp": "2026-01-07T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-c8i-c8i-flex-instances-additional-aws-regions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "dc23ef7d235df6ac9765ce2eb0e3fd576df6431e",
       "title": "AWS Marketplace Seller Reporting now provides collections visibility",
       "summary": "AWS Marketplace Seller Reporting now includes collection visibility, providing real-time payment collection status in the Billed Revenue Dashboard and Billing Event Data Feed. This new feature allows sellers to clearly distinguish between invoiced, collected, and disbursed amounts, eliminating the previous gap between invoice creation and payment disbursement. The enhancement enables sellers to make better business decisions and reduces the need for payment status follow-ups with customers.",
@@ -2262,11 +2282,11 @@
     }
   ],
   "stats": {
-    "total": 226,
+    "total": 228,
     "byCategory": {
+      "COMPUTE": 32,
       "OTHER": 56,
       "SECURITY": 54,
-      "COMPUTE": 30,
       "AI_ML": 41,
       "CONTAINERS": 6,
       "STORAGE": 5,
@@ -2275,7 +2295,7 @@
       "NETWORKING": 3,
       "SERVERLESS": 5
     },
-    "lastUpdated": "2026-01-07T10:26:28.132Z"
+    "lastUpdated": "2026-01-07T22:22:24.197Z"
   },
-  "generatedAt": "2026-01-07T10:26:28.132Z"
+  "generatedAt": "2026-01-07T22:22:24.197Z"
 }
