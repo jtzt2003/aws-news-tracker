@@ -1,12 +1,32 @@
 {
   "announcements": [
     {
+      "id": "1964ff1bf897639ad0f10677ed44e710ff082024",
+      "title": "AWS simplifies Client VPN onboarding with Quickstart setup",
+      "summary": "AWS has launched a new Quickstart setup method for AWS Client VPN that simplifies the onboarding process by reducing configuration steps. The streamlined approach uses pre-defined default configurations to make it easier for users to create and set up Client VPN endpoints. This enhancement allows for quicker deployment of secure remote connections to AWS resources and on-premises networks.",
+      "category": "OTHER",
+      "timestamp": "2026-01-07T20:44:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-client-vpn-onboarding-quickstart-setup",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "f6cdd2cdb4fe79fc81275cc3b9cdc26f0ba98e4d",
       "title": "Amazon EC2 I7ie instances now available in additional AWS regions",
       "summary": "Amazon EC2 I7ie instances are now available in three additional AWS regions: Asia Pacific (Mumbai), Canada West (Calgary), and Europe (Paris). These instances are designed for storage-intensive workloads and are powered by 5th Gen Intel Xeon Processors, delivering up to 40% better compute performance and 20% better price performance compared to I3en instances, with up to 120TB of local NVMe storage.",
       "category": "COMPUTE",
       "timestamp": "2026-01-07T17:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-i7ie-instances-additional-aws-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "167f4e69329442e0eafcae9c22b8480a82db6450",
+      "title": "Announcing Apache Airflow 2.11 Support in Amazon Managed Workflows for Apache Airflow",
+      "summary": "Amazon Managed Workflows for Apache Airflow (MWAA) now supports Apache Airflow version 2.11, which includes enhancements to help users prepare for the upcoming Apache Airflow 3 upgrade. The new version introduces features like trigger-based scheduling for delta intervals and other improvements to the managed orchestration service that simplifies setting up and operating data pipelines in the cloud.",
+      "category": "OTHER",
+      "timestamp": "2026-01-07T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/apache-airflow-2-11-support-amazon-managed-workflows/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -2282,10 +2302,10 @@
     }
   ],
   "stats": {
-    "total": 228,
+    "total": 230,
     "byCategory": {
+      "OTHER": 58,
       "COMPUTE": 32,
-      "OTHER": 56,
       "SECURITY": 54,
       "AI_ML": 41,
       "CONTAINERS": 6,
@@ -2295,7 +2315,7 @@
       "NETWORKING": 3,
       "SERVERLESS": 5
     },
-    "lastUpdated": "2026-01-07T22:22:24.197Z"
+    "lastUpdated": "2026-01-08T10:26:14.770Z"
   },
-  "generatedAt": "2026-01-07T22:22:24.197Z"
+  "generatedAt": "2026-01-08T10:26:14.771Z"
 }
