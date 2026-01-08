@@ -1,6 +1,66 @@
 {
   "announcements": [
     {
+      "id": "2539f1f22e0b355b7b3484b89fc5a394cac734ef",
+      "title": "Amazon MQ now supports certificate based authentication with mutual TLS for RabbitMQ brokers",
+      "summary": "Amazon MQ now supports certificate-based authentication using X.509 client certificates with mutual TLS (mTLS) for RabbitMQ brokers. This feature is available for RabbitMQ version 4.2 and above on M7g instance types, and can be configured through the RabbitMQ auth_mechanism_ssl plugin by modifying the broker's configuration file.",
+      "category": "COMPUTE",
+      "timestamp": "2026-01-08T19:39:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-mq-certificate-based-authentication-mutual-tls-rabbitmq/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5bcb47cca3b1c3bd432e00bd6b635a4113c0419b",
+      "title": "Amazon DocumentDB (with MongoDB compatibility) is Now Available in the Asia Pacific (Jakarta) Region",
+      "summary": "Amazon DocumentDB, a fully managed MongoDB-compatible database service, is now available in the Asia Pacific (Jakarta) region. The service enables users to operate critical document workloads at scale without managing infrastructure, offering scalability and durability for mission-critical MongoDB applications.",
+      "category": "DATABASE",
+      "timestamp": "2026-01-08T18:00:00.000Z",
+      "link": "https://aws.amazon.comabout-aws/whats-new/2026/01/amazon-documentdb-mongodb-compatibility-asia-pacific-jakarta-region",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0e5a98f11c65a03d9a5ab61c4f8003dd5f0e2259",
+      "title": "Amazon EC2 R8i and R8i-flex instances are now available in additional AWS regions",
+      "summary": "Amazon EC2 R8i and R8i-flex instances are now available in Asia Pacific (Mumbai, Hyderabad) and Europe (Paris) regions. These instances are powered by custom Intel Xeon 6 processors exclusive to AWS, offering up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generations. The processors deliver the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud.",
+      "category": "COMPUTE",
+      "timestamp": "2026-01-08T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-r8i-r8i-flex-instances-additional-aws-regions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c875fe10a54b37ea4e4322d6ee692a99e5156687",
+      "title": "Amazon Quick adds third-party AI agents and expands built-in actions library",
+      "summary": "Amazon QuickSight is expanding its AI capabilities by adding third-party AI agents and growing its built-in actions library to create a more integrated AI-powered workspace. The service, called Amazon Quick, aims to help organizations analyze business data and take action on insights without switching between multiple tools. This expansion addresses the problem of fragmented user experiences when working with various AI agents and enterprise applications for CRM, support, and collaboration.\n\nNote: The announcement text appears to be incomplete, cutting off mid-sentence, so this summary is based on the available information.",
+      "category": "OTHER",
+      "timestamp": "2026-01-08T17:56:00.000Z",
+      "link": "https://aws.amazon.com/aws.amazon.com/about-aws/whats-new/2026/01/3p-agent-in-quick/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ce8ac1460a8d6b61ec9812ebd7511c21612d133b",
+      "title": "Amazon EC2 M8i instances are now available in additional AWS Regions",
+      "summary": "Amazon EC2 M8i instances, powered by custom Intel Xeon 6 processors exclusive to AWS, are now available in Europe (Frankfurt) and Asia Pacific (Malaysia) regions. These instances offer up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generation Intel-based instances. The M8i instances provide the highest performance and fastest memory bandwidth among comparable Intel processors available in the cloud.",
+      "category": "COMPUTE",
+      "timestamp": "2026-01-08T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-m8i-instances-additional-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8791661bfab4e93c13c51fd237ac33ef375bd033",
+      "title": "AWS Lambda adds support for .NET 10",
+      "summary": "AWS Lambda now supports .NET 10 for building serverless applications, offering both managed runtime and container base image options with automatic updates. .NET 10 is the latest long-term support release that will receive security and bug fixes until November 2028, giving Lambda developers access to the newest .NET features.",
+      "category": "SECURITY",
+      "timestamp": "2026-01-08T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-lambda-dot-net-10/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "1964ff1bf897639ad0f10677ed44e710ff082024",
       "title": "AWS simplifies Client VPN onboarding with Quickstart setup",
       "summary": "AWS has launched a new Quickstart setup method for AWS Client VPN that simplifies the onboarding process by reducing configuration steps. The streamlined approach uses pre-defined default configurations to make it easier for users to create and set up Client VPN endpoints. This enhancement allows for quicker deployment of secure remote connections to AWS resources and on-premises networks.",
@@ -2302,20 +2362,20 @@
     }
   ],
   "stats": {
-    "total": 230,
+    "total": 236,
     "byCategory": {
-      "OTHER": 58,
-      "COMPUTE": 32,
-      "SECURITY": 54,
+      "COMPUTE": 35,
+      "DATABASE": 15,
+      "OTHER": 59,
+      "SECURITY": 55,
       "AI_ML": 41,
       "CONTAINERS": 6,
       "STORAGE": 5,
       "ANALYTICS": 12,
-      "DATABASE": 14,
       "NETWORKING": 3,
       "SERVERLESS": 5
     },
-    "lastUpdated": "2026-01-08T10:26:14.770Z"
+    "lastUpdated": "2026-01-08T22:22:26.476Z"
   },
-  "generatedAt": "2026-01-08T10:26:14.771Z"
+  "generatedAt": "2026-01-08T22:22:26.476Z"
 }
