@@ -1,6 +1,26 @@
 {
   "announcements": [
     {
+      "id": "715e258be9e80da1ab8ca76b677fe0590c879aff",
+      "title": "Amazon EMR Serverless adds support for job run level cost allocation",
+      "summary": "Amazon EMR Serverless now supports job run-level cost allocation, enabling users to track and analyze costs for individual job runs with granular billing attribution. This feature allows cost visibility through AWS Cost Explorer and Cost and Usage Reports by filtering on specific job run IDs and associated cost allocation tags.",
+      "category": "ANALYTICS",
+      "timestamp": "2026-01-09T20:29:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-emr-serverless-adds-job-run-level",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ed4792275aea7e3e2e3be5e8527729ac2fc8b785",
+      "title": "Amazon RDS for SQL Server now supports cross-region read replica in additional AWS Regions",
+      "summary": "Amazon RDS for SQL Server has expanded cross-region read replica support to 16 additional AWS Regions, allowing customers to deploy read-only database replicas closer to users in different geographic locations. This enhancement enables better scaling of read workloads and improved disaster recovery capabilities, since read replicas can be promoted to standalone production databases during regional outages.",
+      "category": "DATABASE",
+      "timestamp": "2026-01-09T08:05:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-sql-server-cross-region-read-replica-in-additional-aws-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "2539f1f22e0b355b7b3484b89fc5a394cac734ef",
       "title": "Amazon MQ now supports certificate based authentication with mutual TLS for RabbitMQ brokers",
       "summary": "Amazon MQ now supports certificate-based authentication using X.509 client certificates with mutual TLS (mTLS) for RabbitMQ brokers. This feature is available for RabbitMQ version 4.2 and above on M7g instance types, and can be configured through the RabbitMQ auth_mechanism_ssl plugin by modifying the broker's configuration file.",
@@ -2362,20 +2382,20 @@
     }
   ],
   "stats": {
-    "total": 236,
+    "total": 238,
     "byCategory": {
+      "ANALYTICS": 13,
+      "DATABASE": 16,
       "COMPUTE": 35,
-      "DATABASE": 15,
       "OTHER": 59,
       "SECURITY": 55,
       "AI_ML": 41,
       "CONTAINERS": 6,
       "STORAGE": 5,
-      "ANALYTICS": 12,
       "NETWORKING": 3,
       "SERVERLESS": 5
     },
-    "lastUpdated": "2026-01-09T10:24:59.804Z"
+    "lastUpdated": "2026-01-09T22:22:17.031Z"
   },
-  "generatedAt": "2026-01-09T10:24:59.804Z"
+  "generatedAt": "2026-01-09T22:22:17.031Z"
 }
