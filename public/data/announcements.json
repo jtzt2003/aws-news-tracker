@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "02b03cb0c5b2f50be93033254f47339e0b48d0ec",
+      "title": "Announcing larger managed database bundles for Amazon Lightsail",
+      "summary": "Amazon Lightsail has introduced two new larger managed database bundles that offer up to 8 vCPUs, 32GB of memory, and 960GB of SSD storage for both MySQL and PostgreSQL databases. These enhanced bundles are available in standard and high-availability configurations, enabling users to scale their database workloads and run more data-intensive production applications within Lightsail.",
+      "category": "COMPUTE",
+      "timestamp": "2026-01-09T22:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/larger-managed-database-bundles-lightsail/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "715e258be9e80da1ab8ca76b677fe0590c879aff",
       "title": "Amazon EMR Serverless adds support for job run level cost allocation",
       "summary": "Amazon EMR Serverless now supports job run-level cost allocation, enabling users to track and analyze costs for individual job runs with granular billing attribution. This feature allows cost visibility through AWS Cost Explorer and Cost and Usage Reports by filtering on specific job run IDs and associated cost allocation tags.",
@@ -2382,11 +2392,11 @@
     }
   ],
   "stats": {
-    "total": 238,
+    "total": 239,
     "byCategory": {
+      "COMPUTE": 36,
       "ANALYTICS": 13,
       "DATABASE": 16,
-      "COMPUTE": 35,
       "OTHER": 59,
       "SECURITY": 55,
       "AI_ML": 41,
@@ -2395,7 +2405,7 @@
       "NETWORKING": 3,
       "SERVERLESS": 5
     },
-    "lastUpdated": "2026-01-09T22:22:17.031Z"
+    "lastUpdated": "2026-01-10T10:21:28.523Z"
   },
-  "generatedAt": "2026-01-09T22:22:17.031Z"
+  "generatedAt": "2026-01-10T10:21:28.523Z"
 }
