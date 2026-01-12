@@ -1,6 +1,56 @@
 {
   "announcements": [
     {
+      "id": "1a41146883cf866fa3b5ebd5d5605d4cc99730c6",
+      "title": "Amazon SageMaker HyperPod now validates service quotas before creating clusters on console",
+      "summary": "Amazon SageMaker HyperPod console now validates AWS service quotas before creating clusters, allowing users to confirm they have sufficient quota availability before provisioning begins. This enhancement helps prevent cluster creation failures and improves the experience when setting up large-scale AI/ML infrastructure for training models like LLMs and foundation models.",
+      "category": "AI_ML",
+      "timestamp": "2026-01-12T18:10:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-sagemaker-hyperpod-validates-service-quotas/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c28ddcd866892f75d9bc445b4e385c3c263d9f81",
+      "title": "Amazon Lex launches configurable voice activity detection sensitivity",
+      "summary": "Amazon Lex now offers three configurable Voice Activity Detection (VAD) sensitivity levels - Default, High, and Maximum - that can be set for each bot locale. These settings allow bots to operate effectively across different noise environments, from typical background noise (Default) to moderate noise like busy offices (High) to very noisy environments like manufacturing floors or construction sites (Maximum). This enhancement enables better voice recognition performance by adapting to the specific acoustic conditions where the bot will be deployed.",
+      "category": "AI_ML",
+      "timestamp": "2026-01-12T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-lex-configurable-voice-activity-detection-sensitivity/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7e924cf08172b6429741609bee0f3c935a54398d",
+      "title": "Amazon Connect now provides agent screen recording status tracking",
+      "summary": "Amazon Connect now offers near real-time tracking of agent screen recording status through CloudWatch using Amazon EventBridge. This feature allows supervisors to monitor agents' on-screen actions during customer interactions (calls, chats, and tasks) in addition to reviewing audio and chat transcripts. The capability helps identify coaching opportunities and ensure compliance with business processes by providing visibility into both what agents say and do during customer contacts.",
+      "category": "SERVERLESS",
+      "timestamp": "2026-01-12T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-agent-screen-recording-status-tracking",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9cd2835966de8c61141858e222bc3cca0fd84d4d",
+      "title": "Amazon Redshift Serverless is now available in the AWS Asia Pacific (New Zealand) region",
+      "summary": "Amazon Redshift Serverless is now generally available in the AWS Asia Pacific (New Zealand) region, allowing users to run analytics without provisioning or managing data warehouse clusters. The serverless offering automatically provisions and scales capacity while enabling data analysts, developers, and data scientists to get insights from data in seconds.",
+      "category": "DATABASE",
+      "timestamp": "2026-01-12T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-redshift-serverless-aws-asia-pacific-new-zealand-region",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "846184d5b6cba66f2a84e000e46d4cce908f3a31",
+      "title": "Amazon Inspector adds Java Gradle support and expands ecosystem coverage",
+      "summary": "Amazon Inspector has expanded its vulnerability scanning capabilities to include Java Gradle support for Lambda functions and ECR images. The service now also covers additional technologies including MySQL, MariaDB, PHP, Jenkins-core, 7zip (Windows), Elasticsearch, and Curl/LibCurl. This update broadens Amazon Inspector's automated vulnerability detection across more applications and environments.",
+      "category": "SECURITY",
+      "timestamp": "2026-01-12T13:51:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-inspector-java-gradle-ecosystem/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "02b03cb0c5b2f50be93033254f47339e0b48d0ec",
       "title": "Announcing larger managed database bundles for Amazon Lightsail",
       "summary": "Amazon Lightsail has introduced two new larger managed database bundles that offer up to 8 vCPUs, 32GB of memory, and 960GB of SSD storage for both MySQL and PostgreSQL databases. These enhanced bundles are available in standard and high-availability configurations, enabling users to scale their database workloads and run more data-intensive production applications within Lightsail.",
@@ -2392,20 +2442,20 @@
     }
   ],
   "stats": {
-    "total": 239,
+    "total": 244,
     "byCategory": {
+      "AI_ML": 43,
+      "SERVERLESS": 6,
+      "DATABASE": 17,
+      "SECURITY": 56,
       "COMPUTE": 36,
       "ANALYTICS": 13,
-      "DATABASE": 16,
       "OTHER": 59,
-      "SECURITY": 55,
-      "AI_ML": 41,
       "CONTAINERS": 6,
       "STORAGE": 5,
-      "NETWORKING": 3,
-      "SERVERLESS": 5
+      "NETWORKING": 3
     },
-    "lastUpdated": "2026-01-12T10:27:11.109Z"
+    "lastUpdated": "2026-01-12T22:20:31.117Z"
   },
-  "generatedAt": "2026-01-12T10:27:11.109Z"
+  "generatedAt": "2026-01-12T22:20:31.117Z"
 }
