@@ -1,6 +1,56 @@
 {
   "announcements": [
     {
+      "id": "e6bc60b99ce6a5eb05ddb78493a03341ccef2405",
+      "title": "Amazon Neptune Database now supports R7g and R8g instances in 5 additional regions",
+      "summary": "Amazon Neptune Database now supports Graviton3-based R7g and Graviton4-based R8g instances in 5 additional regions (Asia Pacific Hong Kong, Osaka, and Singapore, Canada Central, and US West N. California) for engine versions 1.4.5+. These new instances are priced 16% lower than R6g instances and offer improved performance, with R7g featuring DDR5 memory for faster data access and up to 30Gbps enhanced networking.",
+      "category": "DATABASE",
+      "timestamp": "2026-01-13T19:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-neptune-database-r7g-r8g-additional-regions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "12ef2e978c9cb5bbe6b6f35ef37194f8fafb841d",
+      "title": "Amazon EC2 X8aedz instances are now available in Asia Pacific (Mumbai, Seoul) regions",
+      "summary": "Amazon EC2 X8aedz instances are now available in the Asia Pacific (Mumbai) and Asia Pacific (Seoul) regions. These instances are powered by 5th Gen AMD EPYC processors and offer the highest maximum CPU frequency of 5GHz in the cloud, making them ideal for electronic design automation (EDA) workloads.",
+      "category": "COMPUTE",
+      "timestamp": "2026-01-13T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-x8aedz-instances-asia-pacific-mumbai-seoul-regions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5dc418585e96b12c91eaa908e3a5a72f95e9b6f7",
+      "title": "Amazon Connect Cases now supports AWS CloudFormation",
+      "summary": "Amazon Connect Cases now supports AWS CloudFormation, allowing administrators to manage case resources using infrastructure as code. This enables programmatic deployment and updates of Cases configurations (templates, fields, layouts) across Amazon Connect instances through CloudFormation templates. The feature reduces manual setup time and helps minimize configuration errors.",
+      "category": "OTHER",
+      "timestamp": "2026-01-13T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-cases-aws-cloudformation/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d96529b553e44c5914b5b2b1f294bd0845ac83f1",
+      "title": "Amazon MSK Connect is now available in three additional AWS Regions",
+      "summary": "Amazon MSK Connect, a fully managed service for running Kafka Connect clusters with Amazon MSK, has expanded to three new AWS Regions: Asia Pacific (New Zealand), AWS GovCloud (US-East), and AWS GovCloud (US-West). MSK Connect allows users to easily deploy, monitor, and scale connectors that transfer data between Apache Kafka clusters and external systems like databases and file systems with just a few clicks.",
+      "category": "ANALYTICS",
+      "timestamp": "2026-01-13T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-msk-connect-additional-aws-regions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "420deba322c4c7d870e755a301259532e84336e7",
+      "title": "Amazon Lex launches improved speech recognition models for English",
+      "summary": "Amazon Lex has launched an improved neural automatic speech recognition (ASR) model for English that provides better accuracy for voice bots across diverse speaking styles, accents, and non-native speakers. The enhanced model reduces the need for customers to repeat themselves and improves self-service success rates. Users can enable this feature by selecting \"Neural\" as the ASR model option.",
+      "category": "AI_ML",
+      "timestamp": "2026-01-13T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-lex-improved-speech-recognition-models-english",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "1a41146883cf866fa3b5ebd5d5605d4cc99730c6",
       "title": "Amazon SageMaker HyperPod now validates service quotas before creating clusters on console",
       "summary": "Amazon SageMaker HyperPod console now validates AWS service quotas before creating clusters, allowing users to confirm they have sufficient quota availability before provisioning begins. This enhancement helps prevent cluster creation failures and improves the experience when setting up large-scale AI/ML infrastructure for training models like LLMs and foundation models.",
@@ -2442,20 +2492,20 @@
     }
   ],
   "stats": {
-    "total": 244,
+    "total": 249,
     "byCategory": {
-      "AI_ML": 43,
+      "DATABASE": 18,
+      "COMPUTE": 37,
+      "OTHER": 60,
+      "ANALYTICS": 14,
+      "AI_ML": 44,
       "SERVERLESS": 6,
-      "DATABASE": 17,
       "SECURITY": 56,
-      "COMPUTE": 36,
-      "ANALYTICS": 13,
-      "OTHER": 59,
       "CONTAINERS": 6,
       "STORAGE": 5,
       "NETWORKING": 3
     },
-    "lastUpdated": "2026-01-13T10:26:01.384Z"
+    "lastUpdated": "2026-01-13T22:23:15.344Z"
   },
-  "generatedAt": "2026-01-13T10:26:01.385Z"
+  "generatedAt": "2026-01-13T22:23:15.344Z"
 }
