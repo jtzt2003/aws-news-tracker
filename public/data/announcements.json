@@ -1,6 +1,46 @@
 {
   "announcements": [
     {
+      "id": "894b7c282c886cc54a3ab42276ed52c49658be86",
+      "title": "Amazon VPC IPAM policies now support RDS and Application Load Balancers",
+      "summary": "Amazon VPC IPAM (IP Address Manager) has expanded its policy support to include Amazon RDS instances and Application Load Balancers. This enhancement allows IP administrators to centrally configure and enforce IP allocation strategies for these resources, streamlining network and security management across AWS environments.",
+      "category": "SECURITY",
+      "timestamp": "2026-01-14T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-vpc-ipam-policies-rds-alb/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d63224ec313803cf29066e4b3db7846bfb191191",
+      "title": "AWS IoT Device Management launches Wi-Fi Simple Setup for managed integrations",
+      "summary": "AWS IoT Device Management has launched Wi-Fi Simple Setup (WSS) for managed integrations, allowing developers to streamline Wi-Fi provisioning in IoT solutions. The feature enables end users to connect Wi-Fi devices through QR code scanning, significantly reducing setup time and technical support requirements compared to manual configuration methods.",
+      "category": "OTHER",
+      "timestamp": "2026-01-14T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-iot-device-management-wifi-simple-setup/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6b4b6b7417b43c4de8fe4d0577e0bd728c512424",
+      "title": "Amazon Connect makes it easier to manage recurring overrides for hours of operation",
+      "summary": "Amazon Connect has introduced a visual calendar interface that simplifies managing contact center operating hours for recurring events like holidays, maintenance windows, and promotional periods. The new feature allows users to set up automatic recurring overrides (weekly, monthly, or custom schedules) that provide personalized customer experiences without requiring manual configuration updates. This enhancement gives contact center managers at-a-glance visibility of operating hours across daily, monthly, and yearly views.",
+      "category": "OTHER",
+      "timestamp": "2026-01-14T15:00:00.000Z",
+      "link": "https://aws.amazon.comabout-aws/whats-new/2026/01/amazon-connect-recurring-hour-operation-overrides",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d472ff751b5ae283fa2214576e55d5a56ee417d9",
+      "title": "Enhanced Transactions view now available in AWS Billing Console",
+      "summary": "AWS has released an enhanced Transactions view in the AWS Billing and Cost Management Console that provides significantly faster performance, with page loading times reduced from minutes to milliseconds. The new unified interface improves payment reconciliation, data accuracy, and overall visibility into financial transactions. These enhancements help customers reduce time spent on payment tracking and financial management tasks.",
+      "category": "OTHER",
+      "timestamp": "2026-01-14T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/enhanced-transactions-view-aws-billing-console",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "e6bc60b99ce6a5eb05ddb78493a03341ccef2405",
       "title": "Amazon Neptune Database now supports R7g and R8g instances in 5 additional regions",
       "summary": "Amazon Neptune Database now supports Graviton3-based R7g and Graviton4-based R8g instances in 5 additional regions (Asia Pacific Hong Kong, Osaka, and Singapore, Canada Central, and US West N. California) for engine versions 1.4.5+. These new instances are priced 16% lower than R6g instances and offer improved performance, with R7g featuring DDR5 memory for faster data access and up to 30Gbps enhanced networking.",
@@ -2492,20 +2532,20 @@
     }
   ],
   "stats": {
-    "total": 249,
+    "total": 253,
     "byCategory": {
+      "SECURITY": 57,
+      "OTHER": 63,
       "DATABASE": 18,
       "COMPUTE": 37,
-      "OTHER": 60,
       "ANALYTICS": 14,
       "AI_ML": 44,
       "SERVERLESS": 6,
-      "SECURITY": 56,
       "CONTAINERS": 6,
       "STORAGE": 5,
       "NETWORKING": 3
     },
-    "lastUpdated": "2026-01-14T10:26:41.885Z"
+    "lastUpdated": "2026-01-14T22:23:54.135Z"
   },
-  "generatedAt": "2026-01-14T10:26:41.885Z"
+  "generatedAt": "2026-01-14T22:23:54.136Z"
 }
