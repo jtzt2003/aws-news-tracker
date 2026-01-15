@@ -1,6 +1,56 @@
 {
   "announcements": [
     {
+      "id": "e2afdecd9d55133474c5e073b32fe614bf0d851c",
+      "title": "AWS Clean Rooms now supports parameters in PySpark analysis templates",
+      "summary": "AWS Clean Rooms now supports parameters in PySpark analysis templates, enabling organizations to create more flexible and scalable privacy-enhanced data collaboration workflows. This feature allows collaborators to provide different input values when running jobs without needing to modify the underlying template code. The enhancement increases flexibility for data partnerships while maintaining privacy protections in multi-party analytics scenarios.",
+      "category": "OTHER",
+      "timestamp": "2026-01-15T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-clean-rooms-parameters-pyspark-analysis-templates/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "43c21cf9f510aafdc704f5c6396385eb07c285ca",
+      "title": "Amazon Connect now provides agent scheduling metrics in data lake",
+      "summary": "Amazon Connect now provides agent scheduling metrics in its data lake, enabling easier reporting and insights generation. The feature includes interval-level metrics (15 or 30 minutes) such as forecasted headcount, scheduled headcount, and projected service level that can be viewed at both business unit and demand segment levels. This enhancement allows organizations to better analyze their workforce planning data after publishing monthly schedules.",
+      "category": "AI_ML",
+      "timestamp": "2026-01-15T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-scheduling-metrics/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2973e24efca02117e251fe8007ae6e1e22438ffc",
+      "title": "Amazon RDS now supports the latest CU and GDR updates for Microsoft SQL Server",
+      "summary": "Amazon RDS for SQL Server now supports the latest General Distribution Release (GDR) and Cumulative Update (CU) patches from Microsoft across SQL Server versions 2016, 2017, 2019, and 2022. These updates include important security fixes and improvements, with specific support for SQL Server 2016 SP3+GDR, SQL Server 2017 CU31+GDR, SQL Server 2019 CU32+GDR, and SQL Server 2022 CU22.",
+      "category": "DATABASE",
+      "timestamp": "2026-01-15T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-cu-gdr-updates-microsoft-sql-server",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f0142142732b1c17bdaceb21564b861eeae519e4",
+      "title": "Amazon RDS Custom now supports the latest GDR updates for Microsoft SQL Server",
+      "summary": "Amazon RDS Custom for SQL Server now supports the latest General Distribution Release (GDR) updates, including SQL Server 2019 CU32+GDR and SQL Server 2022 CU21+GDR. These updates address security vulnerabilities described in CVE-2025-59499, providing customers with enhanced security patches for their SQL Server databases running on RDS Custom.",
+      "category": "DATABASE",
+      "timestamp": "2026-01-15T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-custom-gdr-updates-microsoft-sql-server",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "65cf78f9d44babd10a8b4ea2a3fda343a6f45e90",
+      "title": "Amazon Redshift Serverless adds queue-based query resource management",
+      "summary": "Amazon Redshift Serverless now offers queue-based query resource management, allowing users to create dedicated query queues with customized monitoring rules for different workloads. This feature provides granular control over resource usage through metrics-based predicates and automated responses, such as automatically aborting queries that exceed time or resource limits. The enhancement improves upon the previous Query Monitoring Rules (QMR) system by enabling more targeted workload management.",
+      "category": "DATABASE",
+      "timestamp": "2026-01-15T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-redshift-serverless-queue-based-query-resource-management",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "44e6a38fe29e21a926f5b8dc6d25170b6b78bac6",
       "title": "Amazon VPC Route Server now available in new regions",
       "summary": "Amazon VPC Route Server has expanded to 16 new regions, bringing its total availability to 30 AWS regions worldwide. This service simplifies dynamic routing between virtual appliances in Amazon VPC by enabling BGP-based route advertisement and automatic updates to VPC route tables associated with subnets and internet gateways.",
@@ -2562,20 +2612,20 @@
     }
   ],
   "stats": {
-    "total": 256,
+    "total": 261,
     "byCategory": {
+      "OTHER": 64,
+      "AI_ML": 46,
+      "DATABASE": 21,
       "NETWORKING": 4,
       "SECURITY": 58,
-      "OTHER": 63,
-      "AI_ML": 45,
-      "DATABASE": 18,
       "COMPUTE": 37,
       "ANALYTICS": 14,
       "SERVERLESS": 6,
       "CONTAINERS": 6,
       "STORAGE": 5
     },
-    "lastUpdated": "2026-01-15T10:26:45.943Z"
+    "lastUpdated": "2026-01-15T22:22:58.408Z"
   },
-  "generatedAt": "2026-01-15T10:26:45.943Z"
+  "generatedAt": "2026-01-15T22:22:58.408Z"
 }
