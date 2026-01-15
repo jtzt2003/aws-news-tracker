@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "44e6a38fe29e21a926f5b8dc6d25170b6b78bac6",
+      "title": "Amazon VPC Route Server now available in new regions",
+      "summary": "Amazon VPC Route Server has expanded to 16 new regions, bringing its total availability to 30 AWS regions worldwide. This service simplifies dynamic routing between virtual appliances in Amazon VPC by enabling BGP-based route advertisement and automatic updates to VPC route tables associated with subnets and internet gateways.",
+      "category": "NETWORKING",
+      "timestamp": "2026-01-14T18:41:00.000Z",
+      "link": "https://aws.amazon.comabout-aws/whats-new/2026/01/amazon-vpc-route-server-available-new-regions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "894b7c282c886cc54a3ab42276ed52c49658be86",
       "title": "Amazon VPC IPAM policies now support RDS and Application Load Balancers",
       "summary": "Amazon VPC IPAM (IP Address Manager) has expanded its policy support to include Amazon RDS instances and Application Load Balancers. This enhancement allows IP administrators to centrally configure and enforce IP allocation strategies for these resources, streamlining network and security management across AWS environments.",
@@ -17,6 +27,26 @@
       "category": "OTHER",
       "timestamp": "2026-01-14T17:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-iot-device-management-wifi-simple-setup/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b3c78d9d59145881c414215e7423f6b4a80fa5ba",
+      "title": "Amazon Bedrock introduces API keys to streamline development in GovCloud regions",
+      "summary": "Amazon Bedrock has expanded API key support to AWS GovCloud (US) regions, bringing a feature that simplifies authentication for generative AI development to government cloud environments. API keys allow developers to quickly generate access credentials directly through the Bedrock console or AWS SDK, eliminating the need to manually configure IAM principals and policies. This streamlines the development process by providing a faster alternative to traditional IAM-based authentication setup.",
+      "category": "AI_ML",
+      "timestamp": "2026-01-14T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-bedrock-api-keys-streamline-development-govcloud/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "cd7d09cf4d4c8ad0270650765748a0b60fe1822e",
+      "title": "AWS Transform custom adds AWS PrivateLink support and expands to Europe (Frankfurt) Region",
+      "summary": "AWS Transform custom now supports AWS PrivateLink for enhanced network security and has expanded availability to the Europe (Frankfurt) Region alongside the existing US East (N. Virginia) Region. This service helps organizations automate repetitive code transformation tasks like language upgrades, API migrations, and framework updates to reduce technical debt. It's specifically designed for enterprise development teams and consulting partners managing large-scale, consistent code transformations.",
+      "category": "SECURITY",
+      "timestamp": "2026-01-14T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-transform-custom-privatelink-europe-frankfurt-region/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -2532,20 +2562,20 @@
     }
   ],
   "stats": {
-    "total": 253,
+    "total": 256,
     "byCategory": {
-      "SECURITY": 57,
+      "NETWORKING": 4,
+      "SECURITY": 58,
       "OTHER": 63,
+      "AI_ML": 45,
       "DATABASE": 18,
       "COMPUTE": 37,
       "ANALYTICS": 14,
-      "AI_ML": 44,
       "SERVERLESS": 6,
       "CONTAINERS": 6,
-      "STORAGE": 5,
-      "NETWORKING": 3
+      "STORAGE": 5
     },
-    "lastUpdated": "2026-01-14T22:23:54.135Z"
+    "lastUpdated": "2026-01-15T10:26:45.943Z"
   },
-  "generatedAt": "2026-01-14T22:23:54.136Z"
+  "generatedAt": "2026-01-15T10:26:45.943Z"
 }
