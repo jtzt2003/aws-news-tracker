@@ -1,6 +1,46 @@
 {
   "announcements": [
     {
+      "id": "2fac5f6329257539dfc0067365a13f2044e0e616",
+      "title": "Amazon MWAA now available in additional Region",
+      "summary": "Amazon Managed Workflows for Apache Airflow (MWAA) has expanded its availability to the AWS Asia Pacific (Thailand) region. MWAA is a managed service that provides the familiar Apache Airflow platform for workflow orchestration while offering enhanced scalability, availability, and security without the need to manage underlying infrastructure.",
+      "category": "SECURITY",
+      "timestamp": "2026-01-16T18:01:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-mwaa-additional-region",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b50c950fc399393bd1efa1b754f5711fe93dd595",
+      "title": "AWS Outposts racks support multiple LGW routing domains",
+      "summary": "AWS Outposts racks now support up to 10 isolated local gateway (LGW) routing domains per Outpost, each with independent route tables and BGP sessions for enhanced network segmentation. This feature enables traffic separation between routing domains and allows both customer-owned IP (CoIP) and direct VPC routing (DVR) modes to operate simultaneously on the same Outpost. The capability facilitates network connectivity segmentation for different departments or use cases within an organization's on-premises infrastructure.",
+      "category": "COMPUTE",
+      "timestamp": "2026-01-16T17:00:00.000Z",
+      "link": "https://aws.amazon.comabout-aws/whats-new/2026/01/aws-outposts-multiple-lgw-routing-domain",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2bdf321aef8544d5c26f42043caa60745395e46a",
+      "title": "Second-generation AWS Outposts racks are now supported in additional AWS Regions",
+      "summary": "AWS has expanded support for second-generation Outposts racks to the South America (São Paulo) and Europe (Stockholm) regions. Outposts racks allow organizations to extend AWS infrastructure and services to their on-premises data centers for consistent hybrid cloud experiences. This expansion enables organizations in and around Europe and South America to order Outposts racks connected to these newly supported regions.",
+      "category": "COMPUTE",
+      "timestamp": "2026-01-16T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/second-generation-aws-outposts-racks-additional-aws-regions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "bf19d8829336e8883483e829505d051ec9f7dddc",
+      "title": "Amazon S3 Storage Lens is now available in AWS GovCloud (US) Regions",
+      "summary": "Amazon S3 Storage Lens is now available in AWS GovCloud (US) Regions, providing government customers with organization-wide visibility into their storage usage and activity. The service offers a centralized view across thousands of accounts and helps optimize storage costs, identify data protection opportunities, and improve application performance through detailed metrics and insights.",
+      "category": "STORAGE",
+      "timestamp": "2026-01-16T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/s3-storage-lens-aws-govcloud-us-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "8a62879b5a878cfd5924dcfd6946c6a224b99a1d",
       "title": "Amazon S3 on Outposts is now available on second-generation AWS Outposts racks",
       "summary": "Amazon S3 on Outposts is now available on second-generation AWS Outposts racks, enabling customers to run S3 storage services on-premises for data residency, low latency, and local processing requirements. The service offers three storage tiers (196 TB, 490 TB, and 786 TB) to accommodate different workload needs including production, backups, and archival use cases. Customers can manage their on-premises data using the familiar S3 API for storing, securing, retrieving, and controlling access.",
@@ -2662,20 +2702,20 @@
     }
   ],
   "stats": {
-    "total": 266,
+    "total": 270,
     "byCategory": {
-      "COMPUTE": 39,
+      "SECURITY": 60,
+      "COMPUTE": 41,
+      "STORAGE": 7,
       "OTHER": 64,
-      "SECURITY": 59,
       "AI_ML": 46,
       "DATABASE": 22,
-      "STORAGE": 6,
       "NETWORKING": 4,
       "ANALYTICS": 14,
       "SERVERLESS": 6,
       "CONTAINERS": 6
     },
-    "lastUpdated": "2026-01-16T10:25:39.586Z"
+    "lastUpdated": "2026-01-16T22:22:39.347Z"
   },
-  "generatedAt": "2026-01-16T10:25:39.586Z"
+  "generatedAt": "2026-01-16T22:22:39.347Z"
 }
