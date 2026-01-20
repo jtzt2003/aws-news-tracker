@@ -1,6 +1,96 @@
 {
   "announcements": [
     {
+      "id": "674e71f8739b70c86e1e3cb6f731f99ca4a0ee4f",
+      "title": "AWS expands managed integrations for AWS IoT Device Management service coverage to the Middle East (UAE) region",
+      "summary": "AWS has expanded its IoT Device Management service's managed integrations feature to the Middle East (UAE) region. This expansion allows organizations in the UAE to better serve local customers by providing a unified interface for onboarding and managing diverse IoT devices, regardless of their connection type (direct, hub-based, or third-party cloud-based). The feature includes developer tools like unified interfaces and device SDKs to simplify IoT solution development.",
+      "category": "SECURITY",
+      "timestamp": "2026-01-20T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/managed-integrations-iot-device-coverage-uae/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "67461772c05b46c594ef7f6f3389e7fdcb88fd5c",
+      "title": "AWS Glue is now available in Asia Pacific (New Zealand) Region",
+      "summary": "AWS Glue, a serverless data integration service for ETL (extract, transform, load) workloads, is now available in the Asia Pacific (New Zealand) Region. This expansion allows customers in New Zealand to process and prepare their data for analytics, machine learning, and application development closer to their local data sources, potentially improving performance and reducing latency.",
+      "category": "AI_ML",
+      "timestamp": "2026-01-20T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-glue-available-new-zealand-region",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c97d51ca9fac14e7f7c888a4692da91b2206bc29",
+      "title": "Amazon Quick Suite launches expanded size, faster ingestion, and richer data type support for SPICE datasets",
+      "summary": "Amazon QuickSight's SPICE engine now supports datasets up to 2TB (double the previous 1TB limit) when using the new data preparation experience. The update includes faster data ingestion and loading capabilities, along with expanded data type support for advanced analytics and AI workloads. These improvements enable customers to handle larger datasets while maintaining strong performance and reducing time to insight.",
+      "category": "OTHER",
+      "timestamp": "2026-01-20T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-quick-suite-launches-expanded-spice",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "67a064a4499c6b7988dbd53323ddc08ff7e186a9",
+      "title": "Amazon RDS for Oracle extends support for bare metal instances to Standard Edition 2",
+      "summary": "Amazon RDS for Oracle now supports bare metal instances for Oracle Standard Edition 2 with Bring Your Own License (BYOL), offering access to various instance types including M7i, R7i, X2iedn, and others. These bare metal instances are available at 25% lower cost compared to equivalent virtualized instances and provide full visibility into CPU cores, potentially helping customers reduce commercial database licensing and support costs.",
+      "category": "DATABASE",
+      "timestamp": "2026-01-20T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-oracle-support-bare-metal-instances-standard-edition-2",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0bd66d3dd4a970354a45e2e43291582eb0d2ad0f",
+      "title": "Amazon EC2 G7e instances are now generally available",
+      "summary": "Amazon EC2 G7e instances are now generally available, powered by NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs and delivering up to 2.3x better inference performance compared to G6e instances. These instances are designed for deploying large language models, agentic AI, multimodal generative AI, and physical AI models, while also providing top performance for spatial computing workloads.",
+      "category": "AI_ML",
+      "timestamp": "2026-01-20T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-g7e-instances-generally-available",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3c8d508152c93cbe63b362894688e0e41cb15399",
+      "title": "Amazon Quick Sight expands dashboard customization in tables and pivot tables",
+      "summary": "Amazon QuickSight has expanded its dashboard customization capabilities, allowing readers to directly modify tables and pivot tables by adding/removing fields, changing aggregations, and adjusting formatting without needing dashboard author intervention. This enhancement gives end users greater flexibility to customize their data views for specific analytical requirements, such as sales managers adding revenue breakdowns by product category to identify growth opportunities.",
+      "category": "OTHER",
+      "timestamp": "2026-01-20T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-quicksight-expands-dashboard-customization-tables-pivot-tables",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c3e6335f077e9217df2725d052a7aae98024b9cf",
+      "title": "Amazon RDS Blue/Green Deployments reduces downtime to under five seconds",
+      "summary": "Amazon RDS has improved its Blue/Green Deployments feature to reduce database upgrade downtime to typically five seconds or less for single-Region configurations. The Blue/Green Deployment system creates a separate staging environment (Green) for testing changes while keeping production (Blue) running, then enables seamless switchover without requiring application endpoint modifications.",
+      "category": "DATABASE",
+      "timestamp": "2026-01-20T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-blue-green-deployments-reduces-downtime",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "98a2b76f72a1909b706f4fec358784e95007577a",
+      "title": "Amazon EVS now supports VCF and VMware ESX software version selection",
+      "summary": "Amazon Elastic VMware Service (Amazon EVS) now allows customers to specify supported combinations of VMware Cloud Foundation (VCF) and ESX software versions when configuring their EVS environments and hosts. This service enables organizations to run VCF natively within their Amazon VPC using AWS Nitro EC2 bare-metal instances, with automated deployment that can set up a complete VCF environment in hours through either the AWS console or programmatic methods.",
+      "category": "OTHER",
+      "timestamp": "2026-01-20T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-evs-vcf-vmware-esx-software-version",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "53d570bc88d0672790b44a7701cf48f19db8440b",
+      "title": "Amazon Bedrock Reserved Tier available now for Claude Opus 4.5 and Haiku 4.5",
+      "summary": "Amazon Bedrock has expanded its Reserved service tier to include Claude Opus 4.5 and Haiku 4.5 models, offering customers guaranteed tokens-per-minute capacity and predictable performance for mission-critical applications. The Reserved tier allows users to reserve prioritized compute capacity with flexible allocation of input and output token limits to match specific workload requirements while controlling costs.",
+      "category": "AI_ML",
+      "timestamp": "2026-01-16T18:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-bedrock-reserved-tier-claude-opus-haiku/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "2fac5f6329257539dfc0067365a13f2044e0e616",
       "title": "Amazon MWAA now available in additional Region",
       "summary": "Amazon Managed Workflows for Apache Airflow (MWAA) has expanded its availability to the AWS Asia Pacific (Thailand) region. MWAA is a managed service that provides the familiar Apache Airflow platform for workflow orchestration while offering enhanced scalability, availability, and security without the need to manage underlying infrastructure.",
@@ -2702,20 +2792,20 @@
     }
   ],
   "stats": {
-    "total": 270,
+    "total": 279,
     "byCategory": {
-      "SECURITY": 60,
+      "SECURITY": 61,
+      "AI_ML": 49,
+      "OTHER": 67,
+      "DATABASE": 24,
       "COMPUTE": 41,
       "STORAGE": 7,
-      "OTHER": 64,
-      "AI_ML": 46,
-      "DATABASE": 22,
       "NETWORKING": 4,
       "ANALYTICS": 14,
       "SERVERLESS": 6,
       "CONTAINERS": 6
     },
-    "lastUpdated": "2026-01-20T10:29:21.630Z"
+    "lastUpdated": "2026-01-20T22:24:16.410Z"
   },
-  "generatedAt": "2026-01-20T10:29:21.630Z"
+  "generatedAt": "2026-01-20T22:24:16.410Z"
 }
