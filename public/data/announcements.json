@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "516bcaaff39000ee72fdbe31f346ea668963cbe2",
+      "title": "SageMaker Unified Studio adds support for cross-Region and IAM role-based subscriptions",
+      "summary": "Amazon SageMaker Unified Studio now supports cross-Region subscriptions, allowing users to subscribe to AWS Glue and Amazon Redshift tables/views from different AWS Regions than their current project. The platform also introduces IAM role-based subscriptions for enhanced data access and governance. These features help break down data silos and improve cross-organizational collaboration by enabling teams to access curated data assets from any AWS Region.",
+      "category": "SECURITY",
+      "timestamp": "2026-01-20T20:59:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/sagemaker-unified-studio-adds-cross-region-iam/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "674e71f8739b70c86e1e3cb6f731f99ca4a0ee4f",
       "title": "AWS expands managed integrations for AWS IoT Device Management service coverage to the Middle East (UAE) region",
       "summary": "AWS has expanded its IoT Device Management service's managed integrations feature to the Middle East (UAE) region. This expansion allows organizations in the UAE to better serve local customers by providing a unified interface for onboarding and managing diverse IoT devices, regardless of their connection type (direct, hub-based, or third-party cloud-based). The feature includes developer tools like unified interfaces and device SDKs to simplify IoT solution development.",
@@ -67,6 +77,26 @@
       "category": "DATABASE",
       "timestamp": "2026-01-20T15:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-blue-green-deployments-reduces-downtime",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c5dd0b5d6b68f64ca55770edbd06556f106599ce",
+      "title": "Amazon Corretto January 2026 Quarterly Updates",
+      "summary": "Amazon released quarterly security and critical updates for its Corretto OpenJDK distribution on January 20, 2026, covering all Long-Term Supported (LTS) versions including 25.0.2, 21.0.10, 17.0.18, 11.0.30, and 8u482. Amazon Corretto is a free, multi-platform, production-ready distribution of OpenJDK that can be downloaded from the Corretto home page or installed via Linux package managers.",
+      "category": "SECURITY",
+      "timestamp": "2026-01-20T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-corretto-january-2026-quarterly-updates",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "71254182279decc782c8641a3af4fbafbbc782bf",
+      "title": "Amazon Aurora and RDS for PostgreSQL, MySQL and MariaDB now support r8g, r7g, and r7i database instances in additional AWS Regions",
+      "summary": "AWS has expanded availability of Graviton4-based R8g database instances for Amazon Aurora and RDS services to additional Asia Pacific regions including Hong Kong, Osaka, Jakarta, Seoul, and Singapore, as well as Canada Central. These R8g instances support PostgreSQL, MySQL, and MariaDB database engines across both Aurora and RDS platforms. This expansion builds upon AWS's previous R8g rollout, making the latest Graviton4 processor technology more widely accessible for database workloads.",
+      "category": "DATABASE",
+      "timestamp": "2026-01-20T15:00:00.000Z",
+      "link": "https://aws.amazon.comabout-aws/whats-new/2026/01/amazon-aurora-rds-r8g-r7g-r7i-instances-additional-regions/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -2792,12 +2822,12 @@
     }
   ],
   "stats": {
-    "total": 279,
+    "total": 282,
     "byCategory": {
-      "SECURITY": 61,
+      "SECURITY": 63,
       "AI_ML": 49,
       "OTHER": 67,
-      "DATABASE": 24,
+      "DATABASE": 25,
       "COMPUTE": 41,
       "STORAGE": 7,
       "NETWORKING": 4,
@@ -2805,7 +2835,7 @@
       "SERVERLESS": 6,
       "CONTAINERS": 6
     },
-    "lastUpdated": "2026-01-20T22:24:16.410Z"
+    "lastUpdated": "2026-01-21T10:30:44.070Z"
   },
-  "generatedAt": "2026-01-20T22:24:16.410Z"
+  "generatedAt": "2026-01-21T10:30:44.071Z"
 }
