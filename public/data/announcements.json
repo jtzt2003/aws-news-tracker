@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "b56fa6f0685f8e88567c15fea9fdcce4574590cc",
+      "title": "Amazon SageMaker HyperPod introduces enhanced lifecycle scripts debugging",
+      "summary": "Amazon SageMaker HyperPod has introduced enhanced debugging capabilities for lifecycle scripts to help users more easily identify and resolve issues during cluster node provisioning. This improvement provides more detailed troubleshooting information when lifecycle scripts encounter problems during cluster creation or node operations. SageMaker HyperPod is designed to provision resilient clusters for AI/ML workloads, including large language models, diffusion models, and foundation models.",
+      "category": "AI_ML",
+      "timestamp": "2026-01-21T19:15:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-sagemaker-hyperpod-lcs-enhanced-debug/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4eff3f6b9dd3dabbd9ae42a28fca8e95ee0f7ca5",
+      "title": "AWS Clean Rooms adds support for join and partition hints in SQL",
+      "summary": "AWS Clean Rooms now supports join and partition hints in SQL queries, allowing users to optimize join strategies and data partitioning for better performance and cost reduction. The feature enables SQL hints through comment-style syntax in both pre-approved analysis templates and ad hoc queries. Users can specifically leverage broadcast join hints for large table joins and partition hints to improve data distribution and parallel processing.",
+      "category": "OTHER",
+      "timestamp": "2026-01-21T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-clean-rooms-join-partition-hints-sql/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "566b38526c3aab155eb1f7a3510680d2fafcceb2",
+      "title": "Amazon Connect can now automatically select random samples of agent contacts for evaluation",
+      "summary": "Amazon Connect now offers automatic random sampling of agent contacts for evaluation, allowing managers to specify how many contacts they need to review per agent based on compliance requirements or internal policies. The system randomly selects the required number of contacts from a specified timeframe (e.g., 3 contacts per agent from the last week) to ensure fair coaching feedback. This feature includes new filtering capabilities to help managers customize their selection criteria.",
+      "category": "OTHER",
+      "timestamp": "2026-01-21T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-automatically-select-random-contacts-evaluation/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e3f35cc95e0bc18d2376361a44415ddc1fb826d2",
+      "title": "Amazon EMR Serverless now supports AWS KMS customer managed keys for encrypting local disks",
+      "summary": "Amazon EMR Serverless now supports encrypting local disks using AWS KMS customer managed keys (CMKs), providing users with greater control over their encryption strategy beyond the default AWS-owned keys. This enhancement helps organizations meet stricter regulatory and compliance requirements for their big data analytics workloads.",
+      "category": "SECURITY",
+      "timestamp": "2026-01-21T17:37:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-emr-serverless-aws-kms-customer-managed",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a71341ba7cba7419f694d2d99ae4994c347145f2",
+      "title": "Amazon Bedrock Reserved Tier available now for Claude Sonnet 4.5 in AWS GovCloud (US-West)",
+      "summary": "Amazon Bedrock has expanded its Reserved service tier to include Claude Sonnet 4.5 in AWS GovCloud (US-West), offering customers predictable performance and guaranteed tokens-per-minute capacity for mission-critical applications. The Reserved tier allows users to reserve prioritized compute capacity and provides flexible allocation of input and output token capacities to match specific workload requirements while controlling costs.",
+      "category": "AI_ML",
+      "timestamp": "2026-01-21T17:02:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-bedrock-reserved-tier-for-claude-sonnet-in-govcloud/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6d8895a35ceeb85149cbc8b314521c3bdd17089a",
+      "title": "Amazon EC2 C8gn instances are now available in additional regions",
+      "summary": "Amazon EC2 C8gn instances powered by AWS Graviton4 processors are now available in additional regions including Asia Pacific (Mumbai), Africa (Cape Town), Europe (Ireland, London), and Canada West (Calgary). These new instances deliver up to 30% better compute performance compared to the previous Graviton3-based C7gn instances and feature 6th generation AWS Nitro Cards with up to 600 Gbps network bandwidth.",
+      "category": "AI_ML",
+      "timestamp": "2026-01-21T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-c8gn-instances-additional-regions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "51c4ec0eb5ef0e5614be5d873b3e071889d51d02",
+      "title": "AWS introduces additional policy details to access denied error messages",
+      "summary": "AWS now includes the specific IAM and AWS Organizations policy ARN in access denied error messages when access is denied within the same account or organization. This enhancement allows users to quickly identify the exact policy causing the denial, rather than having to troubleshoot based only on the policy type as before. The change significantly speeds up the troubleshooting process for access-related issues.",
+      "category": "OTHER",
+      "timestamp": "2026-01-21T16:17:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/additional-policy-details-access-denied-error/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f5aa902a2c42cb4fcfb46de2c1e59617ca483bf9",
+      "title": "Instance Scheduler on AWS adds enhanced scaling, reliability, and event-driven automation",
+      "summary": "AWS has enhanced its Instance Scheduler service with improved scaling, reliability, and event-driven automation capabilities. Key new features include tracking of AWS tagging events, self-service troubleshooting through resource tags, automatic retry flows for insufficient EC2 capacity using alternate instance types, and dedicated EventBridge integration. The service has been re-architected with better orchestration and fan-out mechanisms to enable more intelligent scheduling based on AWS resource tagging events.",
+      "category": "SERVERLESS",
+      "timestamp": "2026-01-21T15:48:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/instance-scheduler-adds-enhanced-scaling/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c17fe6e42dcf2aed52c2ececce233ed94367f36d",
+      "title": "AWS Transfer Family Terraform module now supports web apps",
+      "summary": "AWS Transfer Family's Terraform module now supports deploying web apps that allow end users to transfer files to and from Amazon S3 through a web interface. This update enables centralized provisioning of branded web portals with federated authentication and user access controls using infrastructure as code. The enhancement allows for consistent and repeatable deployments of file transfer solutions for workforce use.",
+      "category": "SECURITY",
+      "timestamp": "2026-01-21T13:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-transfer-family-terraform-webapps",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5eb0f1307e9ae3be8cf1ad6f539804581951af9c",
+      "title": "Amazon ECR now supports cross-repository layer sharing to optimize storage and improve push performance",
+      "summary": "Amazon ECR has introduced blob mounting, a new feature that allows sharing of common image layers across repositories within a registry. This capability enables faster image pushes by reusing existing layers instead of re-uploading identical content, while also reducing storage costs by storing common layers only once. The feature is particularly beneficial for organizations managing multiple microservices or applications that share common base images.",
+      "category": "CONTAINERS",
+      "timestamp": "2026-01-20T21:31:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ecr-cross-repository-layer-sharing/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "516bcaaff39000ee72fdbe31f346ea668963cbe2",
       "title": "SageMaker Unified Studio adds support for cross-Region and IAM role-based subscriptions",
       "summary": "Amazon SageMaker Unified Studio now supports cross-Region subscriptions, allowing users to subscribe to AWS Glue and Amazon Redshift tables/views from different AWS Regions than their current project. The platform also introduces IAM role-based subscriptions for enhanced data access and governance. These features help break down data silos and improve cross-organizational collaboration by enabling teams to access curated data assets from any AWS Region.",
@@ -2822,20 +2922,20 @@
     }
   ],
   "stats": {
-    "total": 282,
+    "total": 292,
     "byCategory": {
-      "SECURITY": 63,
-      "AI_ML": 49,
-      "OTHER": 67,
+      "AI_ML": 52,
+      "OTHER": 70,
+      "SECURITY": 65,
+      "SERVERLESS": 7,
+      "CONTAINERS": 7,
       "DATABASE": 25,
       "COMPUTE": 41,
       "STORAGE": 7,
       "NETWORKING": 4,
-      "ANALYTICS": 14,
-      "SERVERLESS": 6,
-      "CONTAINERS": 6
+      "ANALYTICS": 14
     },
-    "lastUpdated": "2026-01-21T10:30:44.070Z"
+    "lastUpdated": "2026-01-21T22:26:41.081Z"
   },
-  "generatedAt": "2026-01-21T10:30:44.071Z"
+  "generatedAt": "2026-01-21T22:26:41.081Z"
 }
