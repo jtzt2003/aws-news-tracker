@@ -81,6 +81,16 @@
       "isNew": false
     },
     {
+      "id": "e64e30610d9ab16bc2941817f76e4ab333e04570",
+      "title": "Announcing availability of second-generation AWS Outposts racks in 20 more countries",
+      "summary": "AWS has expanded availability of its second-generation Outposts racks to 20 additional countries across Latin America, Asia, Africa, and the Middle East, including India, South Korea, Mexico, and South Africa. These racks allow organizations to deploy AWS infrastructure, services, and tools directly in their own data centers and on-premises locations for a consistent hybrid cloud experience.",
+      "category": "COMPUTE",
+      "timestamp": "2026-01-21T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/availability-second-generation-aws-outposts-racks-more-countries",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "c17fe6e42dcf2aed52c2ececce233ed94367f36d",
       "title": "AWS Transfer Family Terraform module now supports web apps",
       "summary": "AWS Transfer Family's Terraform module now supports deploying web apps that allow end users to transfer files to and from Amazon S3 through a web interface. This update enables centralized provisioning of branded web portals with federated authentication and user access controls using infrastructure as code. The enhancement allows for consistent and repeatable deployments of file transfer solutions for workforce use.",
@@ -2922,20 +2932,20 @@
     }
   ],
   "stats": {
-    "total": 292,
+    "total": 293,
     "byCategory": {
       "AI_ML": 52,
       "OTHER": 70,
       "SECURITY": 65,
       "SERVERLESS": 7,
+      "COMPUTE": 42,
       "CONTAINERS": 7,
       "DATABASE": 25,
-      "COMPUTE": 41,
       "STORAGE": 7,
       "NETWORKING": 4,
       "ANALYTICS": 14
     },
-    "lastUpdated": "2026-01-21T22:26:41.081Z"
+    "lastUpdated": "2026-01-22T10:28:56.734Z"
   },
-  "generatedAt": "2026-01-21T22:26:41.081Z"
+  "generatedAt": "2026-01-22T10:28:56.734Z"
 }
