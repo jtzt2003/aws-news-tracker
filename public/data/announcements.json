@@ -1,6 +1,86 @@
 {
   "announcements": [
     {
+      "id": "16f4da2ceccc71933ebb21d1c90c9831f9c027f6",
+      "title": "Amazon EC2 C8i instances are now available in AWS Europe (London) region",
+      "summary": "Amazon EC2 C8i instances are now available in the AWS Europe (London) region, powered by custom Intel Xeon 6 processors exclusive to AWS. These new instances deliver up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generation Intel-based instances, while offering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud.",
+      "category": "COMPUTE",
+      "timestamp": "2026-01-22T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-c8i-instances-europe-london-region",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4330ea079d6ea6b574be5e26fbade42af18b8216",
+      "title": "Amazon EC2 C8i and C8i-flex instances are now available in Asia Pacific (Sydney) and Europe (Frankfurt) regions",
+      "summary": "Amazon EC2 C8i and C8i-flex instances are now available in the Asia Pacific (Sydney) and Europe (Frankfurt) regions. These instances are powered by custom Intel Xeon 6 processors exclusive to AWS, delivering up to 15% better price-performance and 2.5x more memory bandwidth compared to the previous generation.",
+      "category": "COMPUTE",
+      "timestamp": "2026-01-22T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-c8i-c8i-flex-instances-asia-pacific-sydney-europe-london-regions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "bdf655cb1f543c8101b613cbb7c84d4207ae9477",
+      "title": "AWS Config launches 13 new managed rules",
+      "summary": "AWS Config has launched 13 new managed rules that help organizations assess and govern security, durability, and operational use cases across their AWS environments. These rules can be easily discovered, enabled, and managed directly from the AWS Config console and deployed across individual accounts or entire organizations. The new rules expand coverage to additional AWS services including Amazon Cognito User pools and Amazon EBS Snapshots to help improve overall security posture and compliance monitoring.",
+      "category": "SECURITY",
+      "timestamp": "2026-01-22T18:06:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-config-launches-new-rules/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "41e7afe66ec38d5ce932d0c77b2d035098d60cda",
+      "title": "Amazon Neptune Analytics is now available in 7 additional regions",
+      "summary": "Amazon Neptune Analytics has expanded to 7 new regions: US West (N. California), Asia Pacific (Seoul, Osaka, Hong Kong), Europe (Stockholm, Paris), and South America (São Paulo). Users can now create and manage Neptune Analytics graphs in these regions to run advanced graph analytics. Neptune is a serverless graph database designed for connected data that enhances AI application accuracy while reducing operational costs and burden.",
+      "category": "AI_ML",
+      "timestamp": "2026-01-22T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-neptune-analytics-generally-available-additional-regions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f39d9be8d60d40d5c53111cbee372ed2c72f992f",
+      "title": "Amazon Bedrock AgentCore Browser now supports custom browser extensions",
+      "summary": "Amazon Bedrock AgentCore Browser now supports custom Chrome browser extensions, allowing users to upload Chrome-compatible extensions to S3 for automatic installation during browser sessions. This enhancement enables automation of complex workflows that standard browser automation cannot handle independently. The feature is designed for enterprise developers, automation engineers, and organizations requiring specialized browser functionality across various industries.",
+      "category": "SECURITY",
+      "timestamp": "2026-01-22T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-bedrock-agentcore-browser-custom-extensions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8d5697851b02a36771a9f4b773215c8089d8cab5",
+      "title": "AWS expands Resource Control Policies support for Cognito and CloudWatch Logs ",
+      "summary": "AWS has expanded Resource Control Policies (RCPs) support to include Amazon Cognito and Amazon CloudWatch Logs. RCPs are organization-level policies that provide centralized control over maximum available permissions for resources across an organization. This expansion allows administrators to create policies that manage permissions for Cognito and CloudWatch Logs resources at the organizational level.",
+      "category": "SECURITY",
+      "timestamp": "2026-01-22T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-expands-resource-control-policies",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "32fe7128f0f1fb25c654da4c5ccf821ba9acf267",
+      "title": "Microsoft Office, Visio and Project 2024 Apps now on Amazon WorkSpaces",
+      "summary": "Amazon WorkSpaces Personal and Core now offer Microsoft's latest 2024 productivity applications, including Office LTSC Professional Plus and Standard, Visio LTSC Professional and Standard, and Project Professional and Standard editions. These Microsoft Office 2024, Visio 2024, and Project 2024 applications are integrated as managed applications within the Amazon WorkSpaces platform.",
+      "category": "OTHER",
+      "timestamp": "2026-01-22T16:54:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/microsoft-office-visio-project-2024-amazon-workspaces/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d0f9330d9b3296931f18f8b84c34a8fbb44783ca",
+      "title": "Amazon MQ now supports Java Messaging Service (JMS) specification for RabbitMQ brokers",
+      "summary": "Amazon MQ now supports Java Messaging Service (JMS) specification for RabbitMQ 4 brokers through the RabbitMQ JMS Topic Exchange plugin and JMS client, which is enabled by default. This allows users to run JMS 1.1, JMS 2.0, and JMS 3.1 applications on RabbitMQ and enables interoperability between JMS and AMQP messaging systems for easier workload migration.",
+      "category": "COMPUTE",
+      "timestamp": "2026-01-22T13:40:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-mq-jms-spec-rabbitmq/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "b56fa6f0685f8e88567c15fea9fdcce4574590cc",
       "title": "Amazon SageMaker HyperPod introduces enhanced lifecycle scripts debugging",
       "summary": "Amazon SageMaker HyperPod has introduced enhanced debugging capabilities for lifecycle scripts to help users more easily identify and resolve issues during cluster node provisioning. This improvement provides more detailed troubleshooting information when lifecycle scripts encounter problems during cluster creation or node operations. SageMaker HyperPod is designed to provision resilient clusters for AI/ML workloads, including large language models, diffusion models, and foundation models.",
@@ -2932,20 +3012,20 @@
     }
   ],
   "stats": {
-    "total": 293,
+    "total": 301,
     "byCategory": {
-      "AI_ML": 52,
-      "OTHER": 70,
-      "SECURITY": 65,
+      "COMPUTE": 45,
+      "SECURITY": 68,
+      "AI_ML": 53,
+      "OTHER": 71,
       "SERVERLESS": 7,
-      "COMPUTE": 42,
       "CONTAINERS": 7,
       "DATABASE": 25,
       "STORAGE": 7,
       "NETWORKING": 4,
       "ANALYTICS": 14
     },
-    "lastUpdated": "2026-01-22T10:28:56.734Z"
+    "lastUpdated": "2026-01-22T22:24:30.879Z"
   },
-  "generatedAt": "2026-01-22T10:28:56.734Z"
+  "generatedAt": "2026-01-22T22:24:30.879Z"
 }
