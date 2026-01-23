@@ -71,6 +71,26 @@
       "isNew": false
     },
     {
+      "id": "12003829a967844acb97e6516f31108b5ea175b1",
+      "title": "Now available: 48xlarge and metal-48xl sizes for EBS optimized Amazon EC2 instances",
+      "summary": "AWS has announced the general availability of new large-scale EC2 instances (C8gb, M8gb, and R8gb) in 48xlarge sizes, with C8gb and R8gb also available in metal-48xl configurations. These instances are powered by AWS Graviton4 processors, delivering up to 30% better compute performance than Graviton3 processors and offering up to 300 Gbps of EBS bandwidth. These represent the highest EBS performance available among non-accelerated compute instances.",
+      "category": "COMPUTE",
+      "timestamp": "2026-01-22T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/graviton4-ebs-optimized-larger-sizes",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6790c4595f541d6ad5c227253e4d3d7beb5a26ed",
+      "title": "Announcing availability of AWS Outposts racks in Rwanda",
+      "summary": "AWS has announced that Outposts racks are now available for shipment and installation in Rwanda. Outposts racks extend AWS infrastructure and services to customers' on-premises data centers, enabling a hybrid cloud experience with low latency access to local systems while maintaining connectivity to AWS regions. This expansion allows Rwandan customers to run workloads locally that require proximity to on-premises systems.",
+      "category": "COMPUTE",
+      "timestamp": "2026-01-22T16:00:00.000Z",
+      "link": "https://aws.amazon.comabout-aws/whats-new/2026/01/availability-aws-outposts-racks-rwanda",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "d0f9330d9b3296931f18f8b84c34a8fbb44783ca",
       "title": "Amazon MQ now supports Java Messaging Service (JMS) specification for RabbitMQ brokers",
       "summary": "Amazon MQ now supports Java Messaging Service (JMS) specification for RabbitMQ 4 brokers through the RabbitMQ JMS Topic Exchange plugin and JMS client, which is enabled by default. This allows users to run JMS 1.1, JMS 2.0, and JMS 3.1 applications on RabbitMQ and enables interoperability between JMS and AMQP messaging systems for easier workload migration.",
@@ -3012,9 +3032,9 @@
     }
   ],
   "stats": {
-    "total": 301,
+    "total": 303,
     "byCategory": {
-      "COMPUTE": 45,
+      "COMPUTE": 47,
       "SECURITY": 68,
       "AI_ML": 53,
       "OTHER": 71,
@@ -3025,7 +3045,7 @@
       "NETWORKING": 4,
       "ANALYTICS": 14
     },
-    "lastUpdated": "2026-01-22T22:24:30.879Z"
+    "lastUpdated": "2026-01-23T10:26:42.717Z"
   },
-  "generatedAt": "2026-01-22T22:24:30.879Z"
+  "generatedAt": "2026-01-23T10:26:42.717Z"
 }
