@@ -1,6 +1,66 @@
 {
   "announcements": [
     {
+      "id": "7fbf46727ba1eeaa5fdbd95d04290d3f04f63c27",
+      "title": "Amazon Route 53 Domains adds support for .ai, and other top-level domains",
+      "summary": "Amazon Route 53 Domains has expanded its domain registration service to support ten new top-level domains (TLDs), including .ai, .nz, .shop, .bot, .moi, .spot, .free, .deal, .now, and .hot. This expansion gives customers more options for establishing their online presence with domain names tailored to specific industries, regions, or purposes directly through AWS.",
+      "category": "NETWORKING",
+      "timestamp": "2026-01-23T20:07:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/1/amazon-route-53-domains-adds-support-for-.ai-and-other-top-level-domains/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3ecec5a82e6cfae7e765635724ee22a77c398905",
+      "title": "EC2 Auto Scaling Introduces New Mechanisms for Group Deletion Protection",
+      "summary": "AWS EC2 Auto Scaling has introduced a new IAM policy condition key called `autoscaling:ForceDelete` that controls whether Auto Scaling groups can be deleted while they still contain running instances. This condition key works with the `DeleteAutoScalingGroup` action and the `ForceDelete` parameter to provide administrators with granular control over deletion permissions. The feature serves as a safety mechanism to prevent accidental deletion of Auto Scaling groups that have active instances.",
+      "category": "COMPUTE",
+      "timestamp": "2026-01-23T19:09:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/ec2-auto-scaling-new-mechanisms-group-deletion-protection",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9cd6f787e2f649455deef7a19426d8d110c4f293",
+      "title": "Amazon EVS now supports multiple VMware NSX Edge Gateways",
+      "summary": "Amazon Elastic VMware Service (Amazon EVS) now supports deploying multiple VMware NSX Tier-0 Gateways within Software-Defined Data Centers (SDDC). This enhancement enables better network segmentation, improved performance and scale by distributing traffic across multiple NSX Edge Clusters, and more flexible routing configurations for customers.",
+      "category": "SECURITY",
+      "timestamp": "2026-01-23T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-evs-multiple-vmware-nsx-edge-gateways",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "34d98ce085d92826a5760d2e3cd3093156350b4c",
+      "title": "Announcing general availability of Amazon EC2 M4 Max Mac instances",
+      "summary": "AWS has announced the general availability of Amazon EC2 M4 Max Mac instances, which are powered by Mac Studio hardware and represent the next generation of EC2 Mac instances. These instances are designed for Apple developers to run demanding build and test workloads on AWS for applications across all Apple platforms including iOS, macOS, iPadOS, tvOS, watchOS, visionOS, and Safari. The M4 Max Mac instances offer up to 25% improved performance compared to previous generations.",
+      "category": "COMPUTE",
+      "timestamp": "2026-01-23T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-m4-max-mac-instances-ga",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "cce050ee51a2ef6ef8a7f858fd43a981adb13711",
+      "title": "Amazon RDS for Oracle now supports replicas in Oracle multi-tenant configuration",
+      "summary": "Amazon RDS for Oracle now supports database replicas for instances configured in Oracle's multi-tenant setup, which allows multiple isolated databases to run within a single container database for cost savings and simplified management. This new feature enables customers to distribute read workloads across replicas for better scaling and set up cross-region replicas for disaster recovery scenarios.",
+      "category": "DATABASE",
+      "timestamp": "2026-01-23T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-for-oracle-replica-multi-tenant-configuration-support",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e895d668e9b7ee9b6788c25cf0999d7c24761f47",
+      "title": "Amazon Connect adds conditional logic and real-time updates to Step-by-Step Guides",
+      "summary": "Amazon Connect has enhanced its Step-by-Step Guides feature with conditional logic capabilities, allowing managers to create dynamic user interfaces that adapt based on user interactions. This includes the ability to configure dropdown menus that show/hide fields, change default values, and adjust required fields based on previous inputs, making workflows more efficient and tailored to different scenarios. The announcement appears to be cut off mid-sentence regarding additional automatic updates functionality.",
+      "category": "OTHER",
+      "timestamp": "2026-01-23T13:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-conditional-logic-real-time-updates-step-by-step-guides/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "16f4da2ceccc71933ebb21d1c90c9831f9c027f6",
       "title": "Amazon EC2 C8i instances are now available in AWS Europe (London) region",
       "summary": "Amazon EC2 C8i instances are now available in the AWS Europe (London) region, powered by custom Intel Xeon 6 processors exclusive to AWS. These new instances deliver up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generation Intel-based instances, while offering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud.",
@@ -3032,20 +3092,20 @@
     }
   ],
   "stats": {
-    "total": 303,
+    "total": 309,
     "byCategory": {
-      "COMPUTE": 47,
-      "SECURITY": 68,
+      "NETWORKING": 5,
+      "COMPUTE": 49,
+      "SECURITY": 69,
+      "DATABASE": 26,
+      "OTHER": 72,
       "AI_ML": 53,
-      "OTHER": 71,
       "SERVERLESS": 7,
       "CONTAINERS": 7,
-      "DATABASE": 25,
       "STORAGE": 7,
-      "NETWORKING": 4,
       "ANALYTICS": 14
     },
-    "lastUpdated": "2026-01-23T10:26:42.717Z"
+    "lastUpdated": "2026-01-23T22:19:31.493Z"
   },
-  "generatedAt": "2026-01-23T10:26:42.717Z"
+  "generatedAt": "2026-01-23T22:19:31.494Z"
 }
