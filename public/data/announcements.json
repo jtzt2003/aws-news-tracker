@@ -1,6 +1,26 @@
 {
   "announcements": [
     {
+      "id": "4fb5a131c3bde46e7748f41a7d9ba4621e7ab5b9",
+      "title": "Amazon WorkSpaces Core announces monthly pricing for managed instances ",
+      "summary": "AWS has introduced monthly flat-rate pricing for Amazon WorkSpaces Core managed instances, giving customers the option to choose between monthly or hourly billing based on their usage patterns. Monthly pricing is best suited for predictable full-time desktop usage, while hourly billing remains ideal for variable usage scenarios. Both pricing models operate on a pay-as-you-go basis without requiring long-term commitments.",
+      "category": "COMPUTE",
+      "timestamp": "2026-01-26T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/1/amazon-workspaces-core-managed-instances-flexible-billing/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e9c47fd3de92fc8c53e042c8c03fa9a8dc938174",
+      "title": "AWS Transfer Family now supports Amazon FSx for NetApp ONTAP ",
+      "summary": "AWS Transfer Family now supports Amazon FSx for NetApp ONTAP, allowing customers to access their FSx for ONTAP file system data through SFTP, FTPS, and FTP protocols via S3 Access Points. This integration enables users to maintain their existing file system workflows while accessing data through both Transfer Family's managed file transfer protocols and native file protocols like NFS/SMB.",
+      "category": "SECURITY",
+      "timestamp": "2026-01-26T13:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-transfer-family-amazon-fsx-netapp-ontap",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "7fbf46727ba1eeaa5fdbd95d04290d3f04f63c27",
       "title": "Amazon Route 53 Domains adds support for .ai, and other top-level domains",
       "summary": "Amazon Route 53 Domains has expanded its domain registration service to support ten new top-level domains (TLDs), including .ai, .nz, .shop, .bot, .moi, .spot, .free, .deal, .now, and .hot. This expansion gives customers more options for establishing their online presence with domain names tailored to specific industries, regions, or purposes directly through AWS.",
@@ -3092,11 +3112,11 @@
     }
   ],
   "stats": {
-    "total": 309,
+    "total": 311,
     "byCategory": {
+      "COMPUTE": 50,
+      "SECURITY": 70,
       "NETWORKING": 5,
-      "COMPUTE": 49,
-      "SECURITY": 69,
       "DATABASE": 26,
       "OTHER": 72,
       "AI_ML": 53,
@@ -3105,7 +3125,7 @@
       "STORAGE": 7,
       "ANALYTICS": 14
     },
-    "lastUpdated": "2026-01-26T10:28:19.668Z"
+    "lastUpdated": "2026-01-26T22:23:56.366Z"
   },
-  "generatedAt": "2026-01-26T10:28:19.669Z"
+  "generatedAt": "2026-01-26T22:23:56.366Z"
 }
