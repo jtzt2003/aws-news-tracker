@@ -1,12 +1,42 @@
 {
   "announcements": [
     {
+      "id": "523acd98da3a6314e8cbc0c7a210df956d6f7f59",
+      "title": "Amazon Lightsail expands blueprint selection with updated support for Node.js, LAMP, and Ruby on Rails blueprints",
+      "summary": "Amazon Lightsail has released updated Node.js, LAMP, and Ruby on Rails blueprints that now enforce Instance Metadata Service Version 2 (IMDSv2) by default and support IPv6-only instances. Users can quickly deploy virtual private servers with these popular development stacks preinstalled by simply selecting a blueprint and instance bundle. This update makes it easier for developers to get started building web applications on AWS cloud infrastructure.",
+      "category": "COMPUTE",
+      "timestamp": "2026-01-26T22:45:00.000Z",
+      "link": "https://aws.amazon.comabout-aws/whats-new/2026/01/amazon-lightsail-nodejs-lamp-and-ruby-on-rails/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "61c7a87af109ab66f8e1a46e5af117317ac517d1",
+      "title": "Amazon Bedrock now supports 1-hour duration for prompt caching",
+      "summary": "Amazon Bedrock now offers a 1-hour time-to-live (TTL) option for prompt caching on select Anthropic Claude models, extending the default 5-minute cache duration. This enhancement improves cost efficiency and performance for long-running agentic workflows and multi-turn conversations by maintaining cached prompt prefixes for longer periods.",
+      "category": "AI_ML",
+      "timestamp": "2026-01-26T22:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-bedrock-one-hour-duration-prompt-caching/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "4fb5a131c3bde46e7748f41a7d9ba4621e7ab5b9",
       "title": "Amazon WorkSpaces Core announces monthly pricing for managed instances ",
       "summary": "AWS has introduced monthly flat-rate pricing for Amazon WorkSpaces Core managed instances, giving customers the option to choose between monthly or hourly billing based on their usage patterns. Monthly pricing is best suited for predictable full-time desktop usage, while hourly billing remains ideal for variable usage scenarios. Both pricing models operate on a pay-as-you-go basis without requiring long-term commitments.",
       "category": "COMPUTE",
       "timestamp": "2026-01-26T15:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/1/amazon-workspaces-core-managed-instances-flexible-billing/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d06644b0479dd17f555e3024a1aa1bc4f98970f4",
+      "title": "Amazon Managed Grafana now available in the AWS GovCloud (US) Regions",
+      "summary": "Amazon Managed Grafana is now available in both AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions, allowing government customers and regulated industries to visualize and analyze operational data while meeting strict compliance requirements. This fully managed service based on open-source Grafana supports all standard features in the GovCloud environment, making it easier to handle operational data visualization at scale for sensitive workloads.",
+      "category": "OTHER",
+      "timestamp": "2026-01-26T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-managed-grafana-aws-govcloud-us-regions",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -3112,20 +3142,20 @@
     }
   ],
   "stats": {
-    "total": 311,
+    "total": 314,
     "byCategory": {
-      "COMPUTE": 50,
+      "COMPUTE": 51,
+      "AI_ML": 54,
+      "OTHER": 73,
       "SECURITY": 70,
       "NETWORKING": 5,
       "DATABASE": 26,
-      "OTHER": 72,
-      "AI_ML": 53,
       "SERVERLESS": 7,
       "CONTAINERS": 7,
       "STORAGE": 7,
       "ANALYTICS": 14
     },
-    "lastUpdated": "2026-01-26T22:23:56.366Z"
+    "lastUpdated": "2026-01-27T10:29:25.067Z"
   },
-  "generatedAt": "2026-01-26T22:23:56.366Z"
+  "generatedAt": "2026-01-27T10:29:25.068Z"
 }
