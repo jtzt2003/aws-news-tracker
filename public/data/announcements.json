@@ -1,6 +1,46 @@
 {
   "announcements": [
     {
+      "id": "5027b1b721aa64b572dada3be1d7ef60127dc466",
+      "title": "AWS Deadline Cloud now supports editing job name and description",
+      "summary": "AWS Deadline Cloud now allows users to edit job names and descriptions after job submission, whereas previously these could only be set during initial job creation. This enhancement improves job organization and identification by enabling users to update names or add tracking details like shot and sequence numbers after submission. The feature addresses a key workflow need for better job metadata management across users and projects.",
+      "category": "OTHER",
+      "timestamp": "2026-01-27T19:21:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-deadline-cloud-editing-job-name-description/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "80eff4b4070fa927fc8befe0d8142d94e14ec597",
+      "title": "AWS Network Firewall now supports GenAI traffic visibility and enforcement with Web category-based filtering",
+      "summary": "AWS Network Firewall has introduced new capabilities that provide visibility into generative AI application traffic and enable filtering based on web categories. This feature allows organizations to identify and control access to GenAI services, social media, streaming sites, and other web categories using pre-defined URL categories within firewall rules. The update simplifies governance and helps security teams enforce compliance policies more effectively.",
+      "category": "SECURITY",
+      "timestamp": "2026-01-27T19:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-network-firewall-web-category-based-filtering",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "51445502116b6c8c2f203b8836c5698e4c730a41",
+      "title": "AWS Marketplace expands AMI self-service listing experience to FPGA products",
+      "summary": "AWS Marketplace has introduced a self-service listing experience for sellers to list Amazon Machine Image (AMI) products that include FPGA (Field Programmable Gate Array) images. This new capability removes the need for manual Product Load Forms and speeds up time-to-market for AWS partners offering specialized hardware accelerators using FPGA technology on Amazon F2 instances. Sellers can now create and manage these AMIs with FPGA images through the new self-service interface.",
+      "category": "COMPUTE",
+      "timestamp": "2026-01-27T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-marketplace-expands-ami-self-service-listing-experience-to-fpga-products",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d44143c054e2b2c23915ddffa150d40661cc371c",
+      "title": "Amazon WorkSpaces announces advanced printer redirection",
+      "summary": "AWS has introduced advanced printer redirection for Amazon WorkSpaces Personal, allowing Windows users to access their full range of printer capabilities from virtual desktop environments. This feature enables users to utilize specialized printing functions like double-sided printing, paper tray selection, stapling, hole-punching, and color management directly from their WorkSpaces. The enhancement addresses the need for comprehensive printing functionality in virtual desktop scenarios.",
+      "category": "OTHER",
+      "timestamp": "2026-01-27T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-workspaces-advanced-printer-redirection/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "523acd98da3a6314e8cbc0c7a210df956d6f7f59",
       "title": "Amazon Lightsail expands blueprint selection with updated support for Node.js, LAMP, and Ruby on Rails blueprints",
       "summary": "Amazon Lightsail has released updated Node.js, LAMP, and Ruby on Rails blueprints that now enforce Instance Metadata Service Version 2 (IMDSv2) by default and support IPv6-only instances. Users can quickly deploy virtual private servers with these popular development stacks preinstalled by simply selecting a blueprint and instance bundle. This update makes it easier for developers to get started building web applications on AWS cloud infrastructure.",
@@ -17,6 +57,16 @@
       "category": "AI_ML",
       "timestamp": "2026-01-26T22:30:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-bedrock-one-hour-duration-prompt-caching/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "843b33d4ec940f392839f6e3ebbb020279652be3",
+      "title": "AWS IAM Identity Center now supports IPv6",
+      "summary": "AWS IAM Identity Center now supports IPv6 connectivity through new dual-stack endpoints, allowing customers to connect using IPv6, IPv4, or both protocols. The existing IPv4-only endpoints remain available to ensure backward compatibility with current implementations.",
+      "category": "OTHER",
+      "timestamp": "2026-01-26T18:02:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/iam-identity-center-ipv6-dualstack-support/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -3142,12 +3192,12 @@
     }
   ],
   "stats": {
-    "total": 314,
+    "total": 319,
     "byCategory": {
-      "COMPUTE": 51,
+      "OTHER": 76,
+      "SECURITY": 71,
+      "COMPUTE": 52,
       "AI_ML": 54,
-      "OTHER": 73,
-      "SECURITY": 70,
       "NETWORKING": 5,
       "DATABASE": 26,
       "SERVERLESS": 7,
@@ -3155,7 +3205,7 @@
       "STORAGE": 7,
       "ANALYTICS": 14
     },
-    "lastUpdated": "2026-01-27T10:29:25.067Z"
+    "lastUpdated": "2026-01-27T22:24:01.120Z"
   },
-  "generatedAt": "2026-01-27T10:29:25.068Z"
+  "generatedAt": "2026-01-27T22:24:01.120Z"
 }
