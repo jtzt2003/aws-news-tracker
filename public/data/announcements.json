@@ -41,6 +41,26 @@
       "isNew": false
     },
     {
+      "id": "48a65aba2f63ad1325353cbb732078b80b80cb01",
+      "title": "Amazon RDS for PostgreSQL, MySQL and MariaDB now support r6id and r6gd database instances in additional AWS Regions ",
+      "summary": "AWS has expanded availability of memory-optimized database instances for Amazon RDS, with R6id instances now available in Tel Aviv and R6gd instances in Asia Pacific (Osaka) and EU (Spain, Zurich) regions for PostgreSQL, MySQL, and MariaDB. The AWS Graviton2-based instances offer up to 40% better performance compared to equivalent R5-based instances, depending on the specific database configuration and workload.",
+      "category": "DATABASE",
+      "timestamp": "2026-01-27T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-product-generally-available-rds-r6id-r6gd-expansion",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "fdb388804a2d44d980e6e3b717b0e4bfeb69cd30",
+      "title": "Amazon Connect now supports granular access controls for cases",
+      "summary": "Amazon Connect now supports tag-based access controls for cases, allowing administrators to restrict who can view and manage specific case data. Users can associate tags with case templates and configure security profiles to control access based on those tags. For example, fraud-related cases can be tagged and restricted so only users with fraud security profiles can access them, helping enforce internal controls.",
+      "category": "SECURITY",
+      "timestamp": "2026-01-27T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-cases-granular-access-controls/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "523acd98da3a6314e8cbc0c7a210df956d6f7f59",
       "title": "Amazon Lightsail expands blueprint selection with updated support for Node.js, LAMP, and Ruby on Rails blueprints",
       "summary": "Amazon Lightsail has released updated Node.js, LAMP, and Ruby on Rails blueprints that now enforce Instance Metadata Service Version 2 (IMDSv2) by default and support IPv6-only instances. Users can quickly deploy virtual private servers with these popular development stacks preinstalled by simply selecting a blueprint and instance bundle. This update makes it easier for developers to get started building web applications on AWS cloud infrastructure.",
@@ -3192,20 +3212,20 @@
     }
   ],
   "stats": {
-    "total": 319,
+    "total": 321,
     "byCategory": {
       "OTHER": 76,
-      "SECURITY": 71,
+      "SECURITY": 72,
       "COMPUTE": 52,
+      "DATABASE": 27,
       "AI_ML": 54,
       "NETWORKING": 5,
-      "DATABASE": 26,
       "SERVERLESS": 7,
       "CONTAINERS": 7,
       "STORAGE": 7,
       "ANALYTICS": 14
     },
-    "lastUpdated": "2026-01-27T22:24:01.120Z"
+    "lastUpdated": "2026-01-28T10:30:19.668Z"
   },
-  "generatedAt": "2026-01-27T22:24:01.120Z"
+  "generatedAt": "2026-01-28T10:30:19.669Z"
 }
