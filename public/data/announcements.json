@@ -1,6 +1,66 @@
 {
   "announcements": [
     {
+      "id": "89e14b8ca02de705f1eb30723b8a5491a1e6eaf1",
+      "title": "Announcing increased 1 MB payload size support in Amazon EventBridge",
+      "summary": "Amazon EventBridge has increased its event payload size limit from 256 KB to 1 MB, allowing developers to handle richer and more complex data in their event-driven applications. This enhancement eliminates the need for developers to split, compress, or store large payloads externally when building scalable serverless applications that route events between various systems and AWS services.",
+      "category": "AI_ML",
+      "timestamp": "2026-01-29T18:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-eventbridge-increases-event-payload-size-256-kb-1-mb",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "29f3a26e52f43060c2eef9bb98a444db1984d163",
+      "title": "Amazon Bedrock now supports server-side custom tools using the Responses API ",
+      "summary": "Amazon Bedrock has added server-side tool support to its Responses API with OpenAI-compatible endpoints, allowing the service to call tools directly without requiring client-side processing. This enhancement enables AI applications to perform real-time, multi-step actions like web searches, code execution, and database updates automatically. The feature complements Bedrock's existing client-side tool capabilities across its Converse, Chat Completions, and Responses APIs.",
+      "category": "SECURITY",
+      "timestamp": "2026-01-29T18:09:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-bedrock-server-side-custom-tools-responses-api",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0df984c93c71f4eac2aac37299126353e6ef1f4f",
+      "title": "Amazon Cognito introduces inbound federation Lambda triggers",
+      "summary": "Amazon Cognito has launched inbound federation Lambda triggers that allow you to transform and customize federated user attributes during authentication from external SAML and OIDC providers. This feature gives you complete programmatic control over the federation flow by enabling you to modify provider responses before they're stored in your user pool, without needing to change your identity provider configuration.",
+      "category": "SECURITY",
+      "timestamp": "2026-01-29T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-cognito-inbound-federation-lambda-trigger/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "bab5873a16f942ba1d2490008f49d49523f68481",
+      "title": "Amazon Keyspaces (for Apache Cassandra) introduces pre-warming with WarmThroughput for your tables",
+      "summary": "Amazon Keyspaces (for Apache Cassandra) has introduced a new pre-warming feature called WarmThroughput that allows users to proactively prepare tables to handle anticipated traffic increases. This capability works with both new and existing tables across all capacity modes (provisioned and on-demand) and supports multi-Region replicated tables. The feature helps ensure tables are ready to meet future traffic demands without performance issues during traffic spikes.",
+      "category": "OTHER",
+      "timestamp": "2026-01-29T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-keyspaces-apache-cassandra-pre-warming-warmthroughput-tables",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9c743f4565a371caf970d9b870f7aeb3751edb76",
+      "title": "AWS announces Deployment Agent SOPs in AWS MCP Server (preview)",
+      "summary": "AWS has launched deployment Standard Operating Procedures (SOPs) in its AWS MCP Server preview, which are structured natural language instructions that guide AI agents through complex, multi-step deployment tasks. This feature allows customers to deploy web applications to their AWS accounts using simple natural language prompts from MCP-compatible tools like Kiro, Cursor, and Claude Code. The SOPs ensure consistent, reliable, and efficient automated deployment processes.",
+      "category": "SECURITY",
+      "timestamp": "2026-01-29T12:01:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/01/aws-announces-deployment-agent-sops-in-aws-mcp-server-preview",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "44cf055438d7fce5c2eba09e77870637cdf639cb",
+      "title": "Amazon GameLift Servers now supports automatic scaling to and from zero instances",
+      "summary": "Amazon GameLift Servers now supports automatic scaling to zero instances, eliminating the need for developers to maintain running instances during periods of low or no gaming activity. This new feature addresses a key cost optimization challenge by allowing fleets to scale down completely during off-peak hours, rather than requiring continuously running instances to keep autoscaling active. The enhancement enables game developers to significantly reduce unnecessary infrastructure costs for their multiplayer games.",
+      "category": "OTHER",
+      "timestamp": "2026-01-29T09:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-gamelift-servers-automatic-scaling",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "2ff234ff5855140fd30bfc3d38dc35c995696310",
       "title": "Amazon EKS and Amazon EKS Distro now supports Kubernetes version 1.35",
       "summary": "AWS has announced support for Kubernetes version 1.35 in both Amazon EKS and Amazon EKS Distro. Users can now create new EKS clusters with version 1.35 or upgrade existing clusters using the EKS console, eksctl CLI, or infrastructure-as-code tools. This update brings the latest Kubernetes features and bug fixes to AWS's managed Kubernetes services.",
@@ -3252,20 +3312,20 @@
     }
   ],
   "stats": {
-    "total": 325,
+    "total": 331,
     "byCategory": {
+      "AI_ML": 55,
+      "SECURITY": 75,
+      "OTHER": 78,
       "CONTAINERS": 8,
       "COMPUTE": 53,
       "ANALYTICS": 15,
       "DATABASE": 28,
-      "OTHER": 76,
-      "SECURITY": 72,
-      "AI_ML": 54,
       "NETWORKING": 5,
       "SERVERLESS": 7,
       "STORAGE": 7
     },
-    "lastUpdated": "2026-01-29T10:37:56.795Z"
+    "lastUpdated": "2026-01-29T22:29:14.071Z"
   },
-  "generatedAt": "2026-01-29T10:37:56.795Z"
+  "generatedAt": "2026-01-29T22:29:14.071Z"
 }
