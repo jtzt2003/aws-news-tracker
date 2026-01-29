@@ -1,6 +1,46 @@
 {
   "announcements": [
     {
+      "id": "2ff234ff5855140fd30bfc3d38dc35c995696310",
+      "title": "Amazon EKS and Amazon EKS Distro now supports Kubernetes version 1.35",
+      "summary": "AWS has announced support for Kubernetes version 1.35 in both Amazon EKS and Amazon EKS Distro. Users can now create new EKS clusters with version 1.35 or upgrade existing clusters using the EKS console, eksctl CLI, or infrastructure-as-code tools. This update brings the latest Kubernetes features and bug fixes to AWS's managed Kubernetes services.",
+      "category": "CONTAINERS",
+      "timestamp": "2026-01-28T23:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-eks-distro-kubernetes-version-1-35",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f985ef301df2afe583b112199e1b05a5dbcc6dfa",
+      "title": "Amazon EC2 R7gd instances are now available in Europe (Paris) Region",
+      "summary": "Amazon EC2 R7gd instances are now available in the Europe (Paris) Region, featuring AWS Graviton3 processors, DDR5 memory, and up to 3.8 TB of local NVMe SSD storage. These instances are optimized for memory-intensive workloads like databases, in-memory caches, and real-time big data analytics that require high-speed, low-latency local storage.",
+      "category": "COMPUTE",
+      "timestamp": "2026-01-28T18:18:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/r7gd-instances-available-in-paris",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "50ef6b11eae7a2ab6501885b414e0a83c0719995",
+      "title": "Amazon MSK Replicator is now available in Asia Pacific (New Zealand)",
+      "summary": "Amazon MSK Replicator is now available in the Asia Pacific (New Zealand) region, allowing users to replicate streaming data across Amazon MSK clusters. This feature enables easy data replication between MSK clusters in different or same AWS regions with just a few clicks, helping build regionally resilient streaming applications for improved availability and business continuity.",
+      "category": "ANALYTICS",
+      "timestamp": "2026-01-28T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-msk-replicator-asia-pacific-new-zealand",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5315cc73011c15a251c084e4bc03353c0116b0e0",
+      "title": "Amazon DynamoDB global tables with multi-Region strong consistency now supports application resiliency testing with AWS Fault Injection Service",
+      "summary": "Amazon DynamoDB global tables with multi-Region strong consistency (MRSC) now integrates with AWS Fault Injection Service (FIS) to enable controlled resiliency testing. This integration allows developers to simulate real-world failure scenarios, such as regional outages, to test how their applications handle disruptions. The feature helps improve application performance, observability, and resilience through controlled fault injection experiments.",
+      "category": "DATABASE",
+      "timestamp": "2026-01-28T11:38:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-dynamodb-global-tables-with-mrsc-fis/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "5027b1b721aa64b572dada3be1d7ef60127dc466",
       "title": "AWS Deadline Cloud now supports editing job name and description",
       "summary": "AWS Deadline Cloud now allows users to edit job names and descriptions after job submission, whereas previously these could only be set during initial job creation. This enhancement improves job organization and identification by enabling users to update names or add tracking details like shot and sequence numbers after submission. The feature addresses a key workflow need for better job metadata management across users and projects.",
@@ -3212,20 +3252,20 @@
     }
   ],
   "stats": {
-    "total": 321,
+    "total": 325,
     "byCategory": {
+      "CONTAINERS": 8,
+      "COMPUTE": 53,
+      "ANALYTICS": 15,
+      "DATABASE": 28,
       "OTHER": 76,
       "SECURITY": 72,
-      "COMPUTE": 52,
-      "DATABASE": 27,
       "AI_ML": 54,
       "NETWORKING": 5,
       "SERVERLESS": 7,
-      "CONTAINERS": 7,
-      "STORAGE": 7,
-      "ANALYTICS": 14
+      "STORAGE": 7
     },
-    "lastUpdated": "2026-01-28T22:28:03.786Z"
+    "lastUpdated": "2026-01-29T10:37:56.795Z"
   },
-  "generatedAt": "2026-01-28T22:28:03.786Z"
+  "generatedAt": "2026-01-29T10:37:56.795Z"
 }
