@@ -1,6 +1,76 @@
 {
   "announcements": [
     {
+      "id": "de370de0c76db222e9ec0605d28d0bebd992f607",
+      "title": "Amazon RDS now supports IPv6 for VPC endpoints of RDS Service APIs",
+      "summary": "Amazon RDS now supports IPv6 for VPC endpoints of RDS Service APIs, enabling dual-stack (IPv4 and IPv6) connectivity for accessing RDS APIs directly within your VPC without internet traversal. This expands on the existing IPv6 support for public endpoints and provides an expanded address space to help scale applications beyond IPv4 limitations.",
+      "category": "DATABASE",
+      "timestamp": "2026-01-30T20:55:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-ipv6-vpc-endpoints-service-apis",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5c1ab0fbb1d8ce5b604ce80f79b62afa3307d76b",
+      "title": "Amazon SageMaker Unified Studio now supports AWS PrivateLink",
+      "summary": "Amazon SageMaker Unified Studio now supports AWS PrivateLink, enabling customers to establish secure connectivity between their VPC and the service without data traffic traversing the public internet. This enhancement allows network administrators to onboard AWS service endpoints directly to their VPC, keeping all data transfers within the AWS network for customers requiring security beyond standard HTTPS/TLS2 protocols.",
+      "category": "AI_ML",
+      "timestamp": "2026-01-30T19:08:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-sagemaker-unified-studio-aws-privatelink/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "efb219d34366efc97199533d368c465b94ecf18a",
+      "title": "Amazon ECS now publishes container health status as a CloudWatch metric",
+      "summary": "Amazon ECS now publishes container health status as a CloudWatch metric through Container Insights, providing enhanced observability for containerized applications. This new metric allows customers to monitor the operational health of their containers and set up CloudWatch alarms to proactively respond to unhealthy containers when health checks are configured in their ECS task definitions.",
+      "category": "CONTAINERS",
+      "timestamp": "2026-01-30T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ecs-container-health-status-metric/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b2dcc7916506e7c327cc2ecda1e6a44671c0b148",
+      "title": "New Partner Revenue Measurement gives visibility into AWS service consumption",
+      "summary": "AWS has launched Partner Revenue Measurement, a new capability that provides AWS Partners with visibility into how their solutions drive AWS service consumption across both partner-managed and customer-managed accounts. This tool enables partners to better understand their revenue impact and product consumption patterns by tagging AWS resources using their AWS Marketplace product codes with the tag key \"aws-apn-id.\"",
+      "category": "OTHER",
+      "timestamp": "2026-01-30T17:05:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/new-partner-revenue-measurement",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0ab6e58318ab4bd895e5722c25bf0fc859b9d8fd",
+      "title": "Amazon GameLift Streams expands streaming capability to six new regions",
+      "summary": "Amazon GameLift Streams has expanded its streaming capabilities to six new regions: London, Stockholm, São Paulo, Mumbai, Seoul, and Sydney. This expansion enables customers to deliver low-latency streaming experiences to players across Europe, South America, India, and Asia while increasing overall GPU availability for better scalability.",
+      "category": "OTHER",
+      "timestamp": "2026-01-30T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/glstreams-new-regions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "73524e0d2280ab6fc5f00d08bf6c698a1d4c4640",
+      "title": "Amazon EC2 R8a instances are now available in Europe (Spain) and Europe (Frankfurt) Regions",
+      "summary": "Amazon EC2 R8a instances are now available in the Europe (Spain) and Europe (Frankfurt) regions, featuring 5th generation AMD EPYC processors with up to 4.5 GHz frequency. These new instances offer up to 30% higher performance, 19% better price-performance, and 45% more memory bandwidth compared to the previous R7a instances, making them well-suited for latency-sensitive workloads.",
+      "category": "COMPUTE",
+      "timestamp": "2026-01-30T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-r8a-instances-are-available-europe",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8263c566845ce99d8b1ba38bc1eb2200c32e9670",
+      "title": "Amazon RDS for Oracle now supports cross-Region replicas with additional storage volumes",
+      "summary": "Amazon RDS for Oracle now supports cross-Region replicas with additional storage volumes, allowing customers to add up to three extra storage volumes of up to 64 TiB each beyond the primary storage. This enhancement provides flexibility to scale storage up to 256 TiB total without application downtime as workload demands change. The feature enables customers to set up cross-Region replicas with this expanded storage capability for improved disaster recovery and geographic distribution.",
+      "category": "DATABASE",
+      "timestamp": "2026-01-30T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/rds-for-oracle-cross-region-replicas-additional-storage-volumes",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "89e14b8ca02de705f1eb30723b8a5491a1e6eaf1",
       "title": "Announcing increased 1 MB payload size support in Amazon EventBridge",
       "summary": "Amazon EventBridge has increased its event payload size limit from 256 KB to 1 MB, allowing developers to handle richer and more complex data in their event-driven applications. This enhancement eliminates the need for developers to split, compress, or store large payloads externally when building scalable serverless applications that route events between various systems and AWS services.",
@@ -3322,20 +3392,20 @@
     }
   ],
   "stats": {
-    "total": 332,
+    "total": 339,
     "byCategory": {
-      "AI_ML": 55,
+      "DATABASE": 30,
+      "AI_ML": 56,
+      "CONTAINERS": 9,
+      "OTHER": 80,
+      "COMPUTE": 54,
       "SECURITY": 76,
-      "OTHER": 78,
-      "CONTAINERS": 8,
-      "COMPUTE": 53,
       "ANALYTICS": 15,
-      "DATABASE": 28,
       "NETWORKING": 5,
       "SERVERLESS": 7,
       "STORAGE": 7
     },
-    "lastUpdated": "2026-01-30T10:35:34.786Z"
+    "lastUpdated": "2026-01-30T22:27:27.144Z"
   },
-  "generatedAt": "2026-01-30T10:35:34.786Z"
+  "generatedAt": "2026-01-30T22:27:27.144Z"
 }
