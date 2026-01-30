@@ -41,6 +41,16 @@
       "isNew": false
     },
     {
+      "id": "3a8eb5fe257edff911ce38c3c6c06b463531fb76",
+      "title": "Change the server-side encryption type of Amazon S3 objects",
+      "summary": "AWS has introduced a new UpdateObjectEncryption API that allows users to change the server-side encryption type of Amazon S3 objects without moving any data, regardless of object size or storage class. This feature can be used at scale with S3 Batch Operations to standardize encryption across entire buckets while preserving object properties and lifecycle settings.",
+      "category": "SECURITY",
+      "timestamp": "2026-01-29T13:28:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/change-the-server-side-encryption-type-of-s3-objects",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "9c743f4565a371caf970d9b870f7aeb3751edb76",
       "title": "AWS announces Deployment Agent SOPs in AWS MCP Server (preview)",
       "summary": "AWS has launched deployment Standard Operating Procedures (SOPs) in its AWS MCP Server preview, which are structured natural language instructions that guide AI agents through complex, multi-step deployment tasks. This feature allows customers to deploy web applications to their AWS accounts using simple natural language prompts from MCP-compatible tools like Kiro, Cursor, and Claude Code. The SOPs ensure consistent, reliable, and efficient automated deployment processes.",
@@ -3312,10 +3322,10 @@
     }
   ],
   "stats": {
-    "total": 331,
+    "total": 332,
     "byCategory": {
       "AI_ML": 55,
-      "SECURITY": 75,
+      "SECURITY": 76,
       "OTHER": 78,
       "CONTAINERS": 8,
       "COMPUTE": 53,
@@ -3325,7 +3335,7 @@
       "SERVERLESS": 7,
       "STORAGE": 7
     },
-    "lastUpdated": "2026-01-29T22:29:14.071Z"
+    "lastUpdated": "2026-01-30T10:35:34.786Z"
   },
-  "generatedAt": "2026-01-29T22:29:14.071Z"
+  "generatedAt": "2026-01-30T10:35:34.786Z"
 }
