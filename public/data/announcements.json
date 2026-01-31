@@ -31,6 +31,16 @@
       "isNew": false
     },
     {
+      "id": "19ba29f12add1c4d4e036b8ed7181a7eb388ef8e",
+      "title": "AWS Lambda launches enhanced observability for Kafka event source mappings",
+      "summary": "AWS Lambda has launched enhanced observability features for Kafka event source mappings that provide CloudWatch Logs and metrics to monitor event polling, scaling, and processing states. This new capability helps customers quickly identify and resolve setup issues to maintain reliable data streaming workloads. The feature is available for both Amazon MSK and self-managed Apache Kafka event source mappings.",
+      "category": "SERVERLESS",
+      "timestamp": "2026-01-30T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-Lambda-observability-for-kafka-esm/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "b2dcc7916506e7c327cc2ecda1e6a44671c0b148",
       "title": "New Partner Revenue Measurement gives visibility into AWS service consumption",
       "summary": "AWS has launched Partner Revenue Measurement, a new capability that provides AWS Partners with visibility into how their solutions drive AWS service consumption across both partner-managed and customer-managed accounts. This tool enables partners to better understand their revenue impact and product consumption patterns by tagging AWS resources using their AWS Marketplace product codes with the tag key \"aws-apn-id.\"",
@@ -3392,20 +3402,20 @@
     }
   ],
   "stats": {
-    "total": 339,
+    "total": 340,
     "byCategory": {
       "DATABASE": 30,
       "AI_ML": 56,
       "CONTAINERS": 9,
+      "SERVERLESS": 8,
       "OTHER": 80,
       "COMPUTE": 54,
       "SECURITY": 76,
       "ANALYTICS": 15,
       "NETWORKING": 5,
-      "SERVERLESS": 7,
       "STORAGE": 7
     },
-    "lastUpdated": "2026-01-30T22:27:27.144Z"
+    "lastUpdated": "2026-01-31T10:25:57.526Z"
   },
-  "generatedAt": "2026-01-30T22:27:27.144Z"
+  "generatedAt": "2026-01-31T10:25:57.526Z"
 }
