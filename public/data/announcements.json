@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "efcf1977befb3314b8cc0a28fdd118ebbdcd16f5",
+      "title": "Amazon DynamoDB global tables now support replication across multiple AWS accounts",
+      "summary": "Amazon DynamoDB global tables now support replication across multiple AWS accounts, allowing customers to replicate tables across both accounts and regions. This new capability enables improved resiliency, account-level workload isolation, and the ability to apply distinct security and governance controls across different AWS accounts.",
+      "category": "SECURITY",
+      "timestamp": "2026-02-03T21:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/dynamodb-gt-multi-account/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1cf42c201a658d46850dcbebf9af88f4c156185f",
+      "title": "AWS Marketplace introduces localized billing for Professional Services from AWS EMEA",
+      "summary": "AWS Marketplace has launched localized billing for Professional Services in the Europe, Middle East, and Africa (EMEA) region through the AWS EMEA Marketplace Operator. EMEA customers can now use local payment methods and receive invoices directly from AWS EMEA, eliminating previous procurement barriers caused by complex cross-entity payment processes. This change simplifies the purchasing experience for Professional Services in the EMEA region.",
+      "category": "OTHER",
+      "timestamp": "2026-02-03T21:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-marketplace-localized-billing-professional/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e77c2e2ec1f9aaa64fc1c029fb725c2d1336687d",
+      "title": "Amazon RDS now provides an enhanced console experience to connect to a database",
+      "summary": "Amazon RDS has launched an enhanced console experience that consolidates all database connection information in one centralized location. The new interface provides ready-made, automatically-configured code snippets for multiple programming languages (Java, Python, Node.js) and command-line tools like psql, with snippets that adjust based on your database's specific authentication settings.",
+      "category": "DATABASE",
+      "timestamp": "2026-02-03T19:06:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-rds-provides-enhanced-console-experience",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "697402200cb9237a9a984d8f45466fd1567df242",
+      "title": "AWS Lake Formation is now available in Asia Pacific (New Zealand) Region",
+      "summary": "AWS Lake Formation has expanded to the Asia Pacific (New Zealand) Region, allowing organizations in that area to centrally manage fine-grained data access permissions and securely share data. The service enables users to define data locations and security policies while providing access to a centralized AWS Glue Data Catalog that describes available datasets and their usage guidelines.",
+      "category": "SECURITY",
+      "timestamp": "2026-02-03T18:14:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/AWS-Lake-Formation-Asia-Pacific-New-Zealand-Region",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "eca6f315ebfe177eb5aeee7bbd6cff22b120c689",
+      "title": "Amazon Connect launches an appeals workflow for agent performance evaluations",
+      "summary": "Amazon Connect has introduced an integrated appeals workflow that allows agents to dispute performance evaluations directly within the Connect UI. When agents disagree with their evaluation scores, they can submit appeals with supporting reasoning, such as citing specific examples of good performance that may have been overlooked. This feature aims to improve evaluation fairness and boost agent engagement in the performance review process.",
+      "category": "OTHER",
+      "timestamp": "2026-02-03T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-appeals-workflow-agent-performance-evaluations/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8d017876ef7e63e8759770d239f12a73cf9d6699",
+      "title": "Amazon Aurora DSQL now supports indexes on the NUMERIC data type",
+      "summary": "Amazon Aurora DSQL has added support for creating indexes on NUMERIC data types, allowing NUMERIC columns to be used in both primary keys and secondary indexes. This enhancement improves query performance for applications that work with high-precision numerical data like currency amounts, measurements, and statistical information.",
+      "category": "DATABASE",
+      "timestamp": "2026-02-03T17:39:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-dsql-indexes-numeric-data-type/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b105e5bd3b4c92641802ea6abfb286813ae7b005",
+      "title": "AWS Management Console now displays Account Name on the Navigation bar for easier account identification",
+      "summary": "AWS has made the account name visible in the AWS Management Console's navigation bar across all public regions, making it easier for users to identify which account they're currently working in. This feature helps customers who manage multiple AWS accounts (such as separate development and production environments) quickly distinguish between accounts at a glance. The account name is displayed for all authorized users within each account.",
+      "category": "OTHER",
+      "timestamp": "2026-02-03T17:18:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/console-displays-account-name-on-nav-bar",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3b36ad4d739f092e6872ff3e7d363b168df9d89e",
+      "title": "AWS IAM Identity Center enables account access and application use in multiple AWS Regions",
+      "summary": "AWS IAM Identity Center now allows you to replicate your single sign-on configuration from your primary AWS Region to additional regions of your choice. This enhancement improves resilience for user access to AWS accounts and enables you to deploy applications in regions that better meet your business requirements, such as data residency and user proximity needs.",
+      "category": "SECURITY",
+      "timestamp": "2026-02-03T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-iam-identity-center-multi-region-aws-account-access-and-application-deployment",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "778ea6dafbe0647f7daf49131c847b5542141753",
+      "title": "Amazon Quick Suite Enables Easy Resolution of Ambiguous Map Locations",
+      "summary": "Amazon QuickSight (part of AWS analytics services) has introduced a new feature that allows users to resolve ambiguous map locations directly within map visualizations. When location names appear in multiple regions—like \"Springfield\" which exists in several U.S. states—users can now explicitly define the correct geographical context through methods such as adding supporting geospatial fields or searching functionality. This enhancement improves the accuracy of geographical data visualization by eliminating location ambiguity.",
+      "category": "OTHER",
+      "timestamp": "2026-02-03T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/quick-ambiguous-locations-resolution",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "803b6d134774c60f7325b50976285d4ad3df5c06",
+      "title": "Oracle Database@AWS is now available in the Canada Central and Sydney AWS Regions",
+      "summary": "Oracle Database@AWS has expanded to two new AWS Regions: Canada Central and Sydney, with one Availability Zone in each region initially. This service provides access to Oracle Cloud Infrastructure (OCI) managed Oracle Exadata systems located within AWS data centers. The expansion enables customers to more easily migrate their on-premises Oracle Exadata and Oracle RAC applications to a similar cloud environment.",
+      "category": "SECURITY",
+      "timestamp": "2026-02-03T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/oracle-database-aws-available-canada-central-sydney-aws-regions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "66e8b1495d3c69e0c4e7093404833654fec85597",
       "title": "DeepSeek OCR, MiniMax M2.1, and Qwen3-VL-8B-Instruct models are now available on SageMaker JumpStart ",
       "summary": "AWS has announced the availability of three new foundation models on Amazon SageMaker JumpStart: DeepSeek OCR, MiniMax M2.1, and Qwen3-VL-8B-Instruct. These models provide specialized capabilities including document intelligence, multilingual coding, and advanced multimodal reasoning, allowing customers to build sophisticated AI applications across various use cases on AWS infrastructure.",
@@ -3482,20 +3582,20 @@
     }
   ],
   "stats": {
-    "total": 348,
+    "total": 358,
     "byCategory": {
+      "SECURITY": 83,
+      "OTHER": 87,
+      "DATABASE": 32,
       "AI_ML": 57,
       "COMPUTE": 55,
-      "SECURITY": 79,
-      "OTHER": 83,
-      "DATABASE": 30,
       "CONTAINERS": 9,
       "SERVERLESS": 8,
       "ANALYTICS": 15,
       "NETWORKING": 5,
       "STORAGE": 7
     },
-    "lastUpdated": "2026-02-03T10:41:16.660Z"
+    "lastUpdated": "2026-02-03T22:31:04.711Z"
   },
-  "generatedAt": "2026-02-03T10:41:16.660Z"
+  "generatedAt": "2026-02-03T22:31:04.711Z"
 }
