@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "73f2d4eba4137b7dc841268457b88d6156f9fe21",
+      "title": "AWS Batch now supports unmanaged compute environments for Amazon EKS",
+      "summary": "AWS Batch now supports unmanaged compute environments for Amazon EKS, allowing users to leverage AWS Batch's job scheduling and orchestration capabilities while maintaining full control over their Kubernetes infrastructure. This feature is particularly beneficial for organizations with specific security, compliance, or operational requirements that need direct management of their EKS clusters. Users can create these environments through the CreateComputeEnvironment API or AWS Batch console by selecting their existing EKS cluster.",
+      "category": "SECURITY",
+      "timestamp": "2026-02-04T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-batch-on-eks-unmanaged-compute-environments",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b3cd16db3a347027a907df3c7e59146de8fd9af8",
+      "title": "Structured outputs now available in Amazon Bedrock",
+      "summary": "Amazon Bedrock now supports structured outputs, allowing foundation models to generate consistent, machine-readable responses that automatically adhere to predefined JSON schemas. This eliminates the need for manual JSON validation and additional application checks, making production workflows more reliable and predictable. The feature is particularly useful for tasks like data extraction and automated workflow processes.",
+      "category": "AI_ML",
+      "timestamp": "2026-02-04T19:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/structured-outputs-available-amazon-bedrock/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7c8bcf897e5d50dfa512d06b4637f7a16338085f",
+      "title": "Amazon EC2 G7e instances now available in US West (Oregon) region",
+      "summary": "Amazon EC2 G7e instances powered by NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs are now available in the US West (Oregon) region. These instances deliver up to 2.3x better inference performance compared to G6e instances and are optimized for deploying large language models, agentic AI, multimodal generative AI, and physical AI models. G7e instances provide the highest performance for spatial computing and hybrid graphics workloads.",
+      "category": "AI_ML",
+      "timestamp": "2026-02-04T19:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-g7e-instances-oregon-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "211dbef1e98a5fd5543f490d8e522952d92e7c33",
+      "title": "Cartesia Sonic 3 text-to-speech model is now available on Amazon SageMaker JumpStart",
+      "summary": "Cartesia's Sonic 3, a state-of-the-art text-to-speech model, is now available on Amazon SageMaker JumpStart, offering AWS customers access to high-quality speech synthesis with industry-leading low latency. The model supports 42 languages and provides fine-grained control over speech characteristics including volume, speed, and emotion through API parameters and SSML tags.",
+      "category": "AI_ML",
+      "timestamp": "2026-02-04T19:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/cartesia-sonic-3-on-sagemaker-jumpstart",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c09720f06c4400b8a53421edc4f3e28a3a066965",
+      "title": "Amazon ECS adds Network Load Balancer support for Linear and Canary deployments",
+      "summary": "Amazon ECS now natively supports linear and canary deployment strategies for services using Network Load Balancers (NLB), enabling managed incremental traffic shifting during updates. This feature particularly benefits applications requiring TCP/UDP connections, low latency, long-lived connections, or static IP addresses. ECS customers using NLB can now perform controlled traffic shifting for safer application rollouts.",
+      "category": "CONTAINERS",
+      "timestamp": "2026-02-04T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ecs-nlb-linear-canary-deployments",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d227d45efc8d9a004d4ec013df49df0814a6a045",
+      "title": "Apache Spark lineage now available in Amazon SageMaker Unified Studio for IDC based domains",
+      "summary": "Amazon SageMaker has made Data Lineage for Apache Spark jobs generally available in SageMaker Unified Studio for IDC-based domains. This feature tracks schema and data transformations across EMR (EC2, Serverless, EKS) and AWS Glue environments, helping users identify root causes of issues and understand the impact of data changes.",
+      "category": "AI_ML",
+      "timestamp": "2026-02-04T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/apache-spark-lineage-amazon-sageMaker-unified-studio",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "78b7f253fe3191f04377ac7e5819902ade75503b",
+      "title": "Introducing Amazon EC2 C8id, M8id, and R8id instances",
+      "summary": "AWS has launched new Amazon EC2 C8id, M8id, and R8id instances powered by custom Intel Xeon 6 processors, delivering up to 43% higher performance and 3.3x more memory bandwidth than previous generation instances. These new instances offer significantly expanded capacity with up to 384 vCPUs, 3TiB of memory, and 22.8TB of NVMe SSD storage—three times more than their predecessors.",
+      "category": "COMPUTE",
+      "timestamp": "2026-02-04T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8id-m8id-r8id-instances/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3234b5b4c31c82706b8cce467529170be29140ec",
+      "title": "Amazon EC2 and VPC now display related resources for security groups",
+      "summary": "AWS has launched a new \"Related resources\" tab for security groups in the Amazon EC2 and VPC consoles, providing users with a consolidated view of all resources that depend on a specific security group. This feature eliminates the need to manually check multiple services before making security group configuration changes, helping customers better understand dependencies and avoid potential issues when modifying their virtual firewall rules.",
+      "category": "SECURITY",
+      "timestamp": "2026-02-04T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-console-related-resources-generally-available",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "92b4d85f795336fb01763aa8653b82c0056d3482",
+      "title": "Amazon EKS simplifies providing IAM permissions to EKS add-ons in AWS GovCloud (US) Regions",
+      "summary": "Amazon EKS has introduced direct integration between EKS add-ons and EKS Pod Identity in AWS GovCloud (US) Regions, simplifying how cluster operational software obtains IAM permissions to interact with AWS services. This integration streamlines the lifecycle management process for critical add-ons that need to access AWS resources outside the Kubernetes cluster.",
+      "category": "CONTAINERS",
+      "timestamp": "2026-02-04T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-eks-simplifies-iam-permissions-eks-addons",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "80b2b61b731a5b2d641d6542a8e3473346761738",
+      "title": "Amazon Redshift now supports autonomics for multi-cluster environments",
+      "summary": "Amazon Redshift has extended its autonomics capabilities to support multi-cluster environments, allowing automatic optimization features to work intelligently across multiple warehouses. This enhancement eliminates the need for manual performance tuning across consumer clusters, benefiting database administrators who manage distributed Redshift workloads. The autonomics features include Automatic Table Optimization, Automatic Table Sorting, Auto Vacuum, and Auto Analyze.",
+      "category": "DATABASE",
+      "timestamp": "2026-02-04T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-redshift-autonomics-for-multi-cluster",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "efcf1977befb3314b8cc0a28fdd118ebbdcd16f5",
       "title": "Amazon DynamoDB global tables now support replication across multiple AWS accounts",
       "summary": "Amazon DynamoDB global tables now support replication across multiple AWS accounts, allowing customers to replicate tables across both accounts and regions. This new capability enables improved resiliency, account-level workload isolation, and the ability to apply distinct security and governance controls across different AWS accounts.",
@@ -3582,20 +3682,20 @@
     }
   ],
   "stats": {
-    "total": 358,
+    "total": 368,
     "byCategory": {
-      "SECURITY": 83,
+      "SECURITY": 85,
+      "AI_ML": 61,
+      "CONTAINERS": 11,
+      "COMPUTE": 56,
+      "DATABASE": 33,
       "OTHER": 87,
-      "DATABASE": 32,
-      "AI_ML": 57,
-      "COMPUTE": 55,
-      "CONTAINERS": 9,
       "SERVERLESS": 8,
       "ANALYTICS": 15,
       "NETWORKING": 5,
       "STORAGE": 7
     },
-    "lastUpdated": "2026-02-04T22:29:33.796Z"
+    "lastUpdated": "2026-02-05T10:41:35.580Z"
   },
-  "generatedAt": "2026-02-04T22:29:33.797Z"
+  "generatedAt": "2026-02-05T10:41:35.581Z"
 }
