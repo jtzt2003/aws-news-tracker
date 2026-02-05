@@ -1,6 +1,36 @@
 {
   "announcements": [
     {
+      "id": "9888fe1b3f23659b4855265197d6024383bc3600",
+      "title": "AWS Builder ID now supports Sign in with Apple ",
+      "summary": "AWS Builder ID has added Sign in with Apple as a new social login option, joining the existing Sign in with Google capability. This allows Apple users to access AWS applications like AWS Builder Center, Training and Certification, re:Post, Startups, and Kiro using their Apple credentials instead of managing separate AWS login information.",
+      "category": "OTHER",
+      "timestamp": "2026-02-05T19:20:00.000Z",
+      "link": "https://aws.amazon.comabout-aws/whats-new/2026/02/aws-builder-id-sign-in-apple",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f56b5989d60bd1770b2b625eb730a0eaaa431d62",
+      "title": "Amazon EC2 High Memory U7i-6TB instances now available in AWS GovCloud (US-West)",
+      "summary": "Amazon EC2 High Memory U7i-6TB instances (u7i-6tb.112xlarge) are now available in AWS GovCloud (US-West), featuring 6TiB of DDR5 memory and 448 vCPUs powered by custom fourth-generation Intel Xeon Scalable Processors. These 7th generation instances are designed to scale transaction processing throughput in fast-growing data environments and support up to 100Gbps Elastic Block Storage.",
+      "category": "COMPUTE",
+      "timestamp": "2026-02-05T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-u7i-6tb-instances-available/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "49edb37dd672f8277d5ce3578efa0db82fe67e85",
+      "title": "Claude Opus 4.6 now available in Amazon Bedrock",
+      "summary": "Amazon Bedrock now supports Claude Opus 4.6, which Anthropic describes as their most intelligent model and the world's best for coding, enterprise agents, and professional work. The model brings advanced capabilities to Bedrock customers, offering industry-leading performance for complex coding projects, agentic tasks, and enterprise workflows that require deep reasoning and reliability.",
+      "category": "AI_ML",
+      "timestamp": "2026-02-05T09:59:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/2/claude-opus-4.6-available-amazon-bedrock/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "73f2d4eba4137b7dc841268457b88d6156f9fe21",
       "title": "AWS Batch now supports unmanaged compute environments for Amazon EKS",
       "summary": "AWS Batch now supports unmanaged compute environments for Amazon EKS, allowing users to leverage AWS Batch's job scheduling and orchestration capabilities while maintaining full control over their Kubernetes infrastructure. This feature is particularly beneficial for organizations with specific security, compliance, or operational requirements that need direct management of their EKS clusters. Users can create these environments through the CreateComputeEnvironment API or AWS Batch console by selecting their existing EKS cluster.",
@@ -3682,20 +3712,20 @@
     }
   ],
   "stats": {
-    "total": 368,
+    "total": 371,
     "byCategory": {
+      "OTHER": 88,
+      "COMPUTE": 57,
+      "AI_ML": 62,
       "SECURITY": 85,
-      "AI_ML": 61,
       "CONTAINERS": 11,
-      "COMPUTE": 56,
       "DATABASE": 33,
-      "OTHER": 87,
       "SERVERLESS": 8,
       "ANALYTICS": 15,
       "NETWORKING": 5,
       "STORAGE": 7
     },
-    "lastUpdated": "2026-02-05T10:41:35.580Z"
+    "lastUpdated": "2026-02-05T22:28:48.141Z"
   },
-  "generatedAt": "2026-02-05T10:41:35.581Z"
+  "generatedAt": "2026-02-05T22:28:48.141Z"
 }
