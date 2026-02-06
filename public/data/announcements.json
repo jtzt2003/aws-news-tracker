@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "18fc042f21db73c341f5300b063250e0ba57a31f",
+      "title": "Amazon EC2 G6e instances now available in Dubai region",
+      "summary": "Amazon EC2 G6e instances powered by NVIDIA L40S Tensor Core GPUs are now available in the Middle East (UAE) Region in Dubai. These instances support machine learning and spatial computing applications, including deployment of large language models, diffusion models for generating images/video/audio, and creating immersive 3D simulations and digital twins.",
+      "category": "AI_ML",
+      "timestamp": "2026-02-05T19:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-g6e-instances-dubai-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "9888fe1b3f23659b4855265197d6024383bc3600",
       "title": "AWS Builder ID now supports Sign in with Apple ",
       "summary": "AWS Builder ID has added Sign in with Apple as a new social login option, joining the existing Sign in with Google capability. This allows Apple users to access AWS applications like AWS Builder Center, Training and Certification, re:Post, Startups, and Kiro using their Apple credentials instead of managing separate AWS login information.",
@@ -11,12 +21,52 @@
       "isNew": false
     },
     {
+      "id": "f3edb04284f536c3ae749b83c4e28b1de6f03992",
+      "title": "Amazon WorkSpaces launches Graphics G6, Gr6, and G6f bundles",
+      "summary": "Amazon WorkSpaces has launched 12 new Graphics bundles (G6, Gr6, and G6f) built on the EC2 G6 family, designed to support graphics-intensive and GPU-accelerated workloads. These bundles are available on both WorkSpaces Personal and Core, offering various performance, memory, and cost configurations to meet different customer requirements.",
+      "category": "COMPUTE",
+      "timestamp": "2026-02-05T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-workspaces-personal-core-graphics-g6-gr6-g6f-bundles/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "00e9e08ad55b550e7f668ac9a801fa6be0fef3cb",
+      "title": "Amazon EC2 I7ie instances now available in AWS Canada (Central)",
+      "summary": "Amazon EC2 I7ie instances are now available in AWS Canada (Central), designed for large storage I/O intensive workloads with 5th Gen Intel Xeon Processors running at 3.2 GHz all-core turbo frequency. These instances deliver up to 40% better compute performance and 20% better price performance compared to I3en instances, while offering up to 120TB of local NVMe storage density—the highest available in the cloud for storage-optimized instances.",
+      "category": "COMPUTE",
+      "timestamp": "2026-02-05T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-i7ie-instances-available-aws-canada/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2e8cd4fcaa6fa819ab4a0fe7d45db898b77a9c96",
+      "title": "AWS Glue launches native REST API connector for universal data integration",
+      "summary": "AWS Glue has launched a native REST API connector that allows customers to easily integrate data from any REST-enabled source into their ETL workflows. This new capability enables users to create custom connectors for REST-based data sources and seamlessly incorporate them into AWS Glue ETL jobs. The addition expands AWS Glue's connectivity options beyond its existing 60+ native connectors for 100+ non-AWS data sources.",
+      "category": "ANALYTICS",
+      "timestamp": "2026-02-05T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-glue-rest-api-connector",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "f56b5989d60bd1770b2b625eb730a0eaaa431d62",
       "title": "Amazon EC2 High Memory U7i-6TB instances now available in AWS GovCloud (US-West)",
       "summary": "Amazon EC2 High Memory U7i-6TB instances (u7i-6tb.112xlarge) are now available in AWS GovCloud (US-West), featuring 6TiB of DDR5 memory and 448 vCPUs powered by custom fourth-generation Intel Xeon Scalable Processors. These 7th generation instances are designed to scale transaction processing throughput in fast-growing data environments and support up to 100Gbps Elastic Block Storage.",
       "category": "COMPUTE",
       "timestamp": "2026-02-05T16:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-u7i-6tb-instances-available/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "97f2cbc297ec2465b132dc2943b4bc8a91d00236",
+      "title": "Amazon EC2 capacity blocks for ML can be shared across multiple accounts",
+      "summary": "AWS has announced the general availability of cross-account sharing for Amazon EC2 Capacity Blocks for ML, enabling organizations to share reserved GPU capacity across multiple AWS accounts through AWS Resource Access Manager (RAM). This feature allows organizations to purchase Capacity Blocks once and provision them across different accounts and workloads at no additional cost, helping optimize GPU utilization and reduce overall expenses.",
+      "category": "COMPUTE",
+      "timestamp": "2026-02-05T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-capacity-blocks-multiple-accounts",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -3712,20 +3762,20 @@
     }
   ],
   "stats": {
-    "total": 371,
+    "total": 376,
     "byCategory": {
+      "AI_ML": 63,
       "OTHER": 88,
-      "COMPUTE": 57,
-      "AI_ML": 62,
+      "COMPUTE": 60,
+      "ANALYTICS": 16,
       "SECURITY": 85,
       "CONTAINERS": 11,
       "DATABASE": 33,
       "SERVERLESS": 8,
-      "ANALYTICS": 15,
       "NETWORKING": 5,
       "STORAGE": 7
     },
-    "lastUpdated": "2026-02-05T22:28:48.141Z"
+    "lastUpdated": "2026-02-06T10:40:52.870Z"
   },
-  "generatedAt": "2026-02-05T22:28:48.141Z"
+  "generatedAt": "2026-02-06T10:40:52.871Z"
 }
