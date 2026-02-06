@@ -1,6 +1,66 @@
 {
   "announcements": [
     {
+      "id": "79242eec442bb04703f3a26bc7676ddc14d8197c",
+      "title": "Amazon WorkSpaces Secure Browser now supports custom domain",
+      "summary": "Amazon WorkSpaces Secure Browser now allows organizations to use custom domains for their portal access instead of the default AWS-provided URLs. This enhancement enables administrators to configure portal access through their own domain names, providing a more branded and integrated user experience. The setup requires adding the custom domain in the portal settings and configuring a reverse proxy.",
+      "category": "NETWORKING",
+      "timestamp": "2026-02-06T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-workspaces-secure-browser-custom-domains/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f2283e913d0560ad7e8efb83670ba82fe5790403",
+      "title": "Amazon ECS Managed Instances now available in AWS European Sovereign Cloud",
+      "summary": "Amazon ECS Managed Instances is now available in the AWS European Sovereign Cloud, providing a fully managed compute option that eliminates infrastructure management overhead while maintaining access to full EC2 capabilities. This service automatically handles infrastructure operations and scaling, allowing organizations to focus on applications while reducing total cost of ownership and operational complexity.",
+      "category": "SECURITY",
+      "timestamp": "2026-02-06T17:10:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/ecs-mi-european-sovereign-cloud",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "59900e7bcf368c21be68b25914857a68eabab66f",
+      "title": "Amazon Bedrock AgentCore Browser now supports browser profiles",
+      "summary": "Amazon Bedrock AgentCore Browser now supports browser profiles, allowing users to maintain authentication state across multiple browser sessions without needing to log in repeatedly. This feature significantly reduces session setup time from minutes to tens of seconds by persisting browser data like cookies and local storage. The enhancement particularly benefits enterprise customers who run hundreds or thousands of automated browser sessions daily.",
+      "category": "AI_ML",
+      "timestamp": "2026-02-06T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-bedrock-agentcore-browser-profiles",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "250e5e3176cc8cd3ea667dd4edab3412dfcc288b",
+      "title": "AWS Config now supports 30 new resource types",
+      "summary": "AWS Config has added support for 30 new resource types across services including Amazon EKS, Amazon Q, and AWS IoT, expanding monitoring coverage of AWS environments. This enhancement allows users to better discover, assess, audit, and remediate a broader range of resources. If you have recording enabled for all resource types, AWS Config will automatically begin tracking these new additions.",
+      "category": "AI_ML",
+      "timestamp": "2026-02-06T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-config-new-resource-types",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1027e17ca00cecdb58eb16452ee86fb57e8b3c93",
+      "title": "Amazon Connect Cases now supports CSV uploads to map related field options",
+      "summary": "Amazon Connect Cases now allows administrators to use CSV file uploads to define complex field relationships in case templates, such as which defect types apply to specific product categories. This new feature replaces manual configuration with bulk uploads, significantly reducing setup time and onboarding effort for organizations managing large-scale field option mappings.",
+      "category": "OTHER",
+      "timestamp": "2026-02-06T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-cases-csv-related-field-options",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e5c59992deac095183b0bdb0b92e7d3699eab9ed",
+      "title": "AWS Network Firewall announces new price reductions",
+      "summary": "AWS Network Firewall has announced two key pricing reductions to lower costs for customers. The service now extends existing hourly and data processing discounts to NAT Gateways that are service-chained with Network Firewall secondary endpoints, expanding beyond the previous limitation to primary endpoints only. Additionally, AWS has eliminated extra data processing charges for Advanced Inspection features, including TLS inspection of encrypted traffic.",
+      "category": "SECURITY",
+      "timestamp": "2026-02-06T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-network-firewall-new-price-reduction/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "18fc042f21db73c341f5300b063250e0ba57a31f",
       "title": "Amazon EC2 G6e instances now available in Dubai region",
       "summary": "Amazon EC2 G6e instances powered by NVIDIA L40S Tensor Core GPUs are now available in the Middle East (UAE) Region in Dubai. These instances support machine learning and spatial computing applications, including deployment of large language models, diffusion models for generating images/video/audio, and creating immersive 3D simulations and digital twins.",
@@ -3762,20 +3822,20 @@
     }
   ],
   "stats": {
-    "total": 376,
+    "total": 382,
     "byCategory": {
-      "AI_ML": 63,
-      "OTHER": 88,
+      "NETWORKING": 6,
+      "SECURITY": 87,
+      "AI_ML": 65,
+      "OTHER": 89,
       "COMPUTE": 60,
       "ANALYTICS": 16,
-      "SECURITY": 85,
       "CONTAINERS": 11,
       "DATABASE": 33,
       "SERVERLESS": 8,
-      "NETWORKING": 5,
       "STORAGE": 7
     },
-    "lastUpdated": "2026-02-06T10:40:52.870Z"
+    "lastUpdated": "2026-02-06T22:25:52.945Z"
   },
-  "generatedAt": "2026-02-06T10:40:52.871Z"
+  "generatedAt": "2026-02-06T22:25:52.945Z"
 }
