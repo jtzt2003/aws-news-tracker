@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "8c096e1ace52451d8037c8125e074b1853770764",
+      "title": "AWS Payment Cryptography Achieves Cartes Bancaires Approval",
+      "summary": "AWS Payment Cryptography has received approval from Groupement des Cartes Bancaires (CB), France's national card payment network, making it one of the first cloud-based payment cryptography services to achieve this certification. This approval allows payment organizations like banks, processors, and payment facilitators to run their payment workloads on AWS while maintaining CB compliance requirements.",
+      "category": "SECURITY",
+      "timestamp": "2026-02-11T21:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/payment-cryptography-cartes-bancaires",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "cd31c9e3d0e0d43f67531f80552efc29cd635073",
+      "title": "Amazon Connect launches after contact work timeout configuration for tasks, chats, and emails",
+      "summary": "Amazon Connect now allows administrators to configure after contact work timeout settings for agents handling chats, tasks, emails, and callbacks. This feature automatically returns agents to a ready state after a specified time limit, preventing them from spending too long on post-contact activities and improving overall efficiency. The timeout settings can be customized at the channel level for each agent to optimize workflow management.",
+      "category": "OTHER",
+      "timestamp": "2026-02-11T20:14:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-omnichannel-acw-timeouts",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "152d92bebfeddc4a110edd84663f86006612cf39",
+      "title": "Amazon Connect launches auto-accept for tasks, chats, and emails",
+      "summary": "Amazon Connect has expanded its auto-accept functionality beyond inbound voice contacts to now include chats, tasks, emails, and callbacks. This feature automatically connects incoming contacts to available agents without requiring manual acceptance, reducing wait times and ensuring customers receive faster assistance. The auto-accept settings can be configured at the channel level for individual agents.",
+      "category": "OTHER",
+      "timestamp": "2026-02-11T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-omnichannel-auto-accept",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d73d62fab339c7d9de6c96347eddf4a4c960dcb8",
+      "title": "Amazon Aurora DSQL is now available in additional AWS Regions",
+      "summary": "Amazon Aurora DSQL, AWS's fastest serverless distributed SQL database, has expanded availability to four new regions: Asia Pacific (Melbourne and Sydney) and Canada (Central and West Calgary). The service offers virtually unlimited scalability, high availability, and zero infrastructure management for building always-available applications. Aurora DSQL is designed to provide effortless scaling and resilience with single-Region cluster support in these newly added locations.",
+      "category": "DATABASE",
+      "timestamp": "2026-02-11T19:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-dsql-additional-aws-regions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7380b1def41d71ec43b68a6a0707982df20c6b07",
+      "title": "Amazon MSK now supports broker logs on Express Brokers",
+      "summary": "Amazon MSK now provides broker logs for Express Brokers at no additional cost, enabling users to troubleshoot connectivity and availability issues while gaining insights into broker behavior during rebalances or fail-overs. The logs can be easily integrated into existing observability pipelines through pre-built connections with Amazon CloudWatch Logs and Amazon S3. This feature is available for both new and existing MSK Express clusters.",
+      "category": "STORAGE",
+      "timestamp": "2026-02-11T19:23:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-msk-express-brokers-support-broker-logs",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "86c9c90ed5ea9b07ae578f8713c098a57aa2b6b9",
+      "title": "AWS Elastic Beanstalk now supports GitHub Actions for automated application deployment",
+      "summary": "AWS Elastic Beanstalk now integrates with GitHub Actions to enable automated deployment of web applications directly from GitHub repositories. This integration streamlines CI/CD pipelines by automatically deploying applications when code or configuration changes are pushed to the repository. The feature helps development teams automate their software delivery process with built-in build, test, and deployment workflows.",
+      "category": "OTHER",
+      "timestamp": "2026-02-11T19:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-elastic-beanstalk-github-action",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "839ebc20010f37572ec2f03b8240fc52ca2d7b13",
+      "title": "AWS Lake Formation enhances cross-account sharing",
+      "summary": "AWS Lake Formation now supports enhanced cross-account sharing, enabling organizations to share hundreds of thousands of tables across multiple AWS accounts. The service allows centralized permission management for catalogs, databases, and tables, with fine-grained access controls that can be shared with external IAM principals, AWS accounts, AWS Organizations, and organizational units (OUs).",
+      "category": "ANALYTICS",
+      "timestamp": "2026-02-11T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-lake-formation-cross-account-sharing",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ac4805b6561a170faef40cd0b14997068bdddb0b",
+      "title": "Amazon EC2 C8i and C8i-flex instances are now available in Europe (Paris), Canada (Central), and US West (N. California) regions",
+      "summary": "Amazon EC2 C8i and C8i-flex instances are now available in three additional regions: Europe (Paris), Canada (Central), and US West (N. California). These instances are powered by custom Intel Xeon 6 processors exclusive to AWS, offering up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generations.",
+      "category": "COMPUTE",
+      "timestamp": "2026-02-11T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8i-c8i-flex-instances-europe-paris-canada-central-uswest-ncalifornia-regions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8c2954596a7adbad7506a703dbc8f3dec8f73935",
+      "title": "Amazon RDS for MariaDB now supports community MariaDB minor versions 10.6.25, 10.11.16, 11.4.10, and 11.8.6",
+      "summary": "Amazon RDS for MariaDB now supports four new community minor versions: 10.6.25, 10.11.16, 11.4.10, and 11.8.6. AWS recommends upgrading to these latest versions to address security vulnerabilities and benefit from bug fixes, performance improvements, and new features. Users can utilize automatic minor version upgrades to keep their databases updated.",
+      "category": "SECURITY",
+      "timestamp": "2026-02-11T16:23:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-rds-mariadb-community-versions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f5a60996d6f676b56a45e1649c1a12a97db3cde0",
+      "title": "Amazon DocumentDB (with MongoDB compatibility) is Now Available in the Asia Pacific (Melbourne) Region",
+      "summary": "Amazon DocumentDB (with MongoDB compatibility) has expanded its availability to the Asia Pacific (Melbourne) region. This fully managed JSON database service allows users to operate critical document workloads at scale without infrastructure management, specifically designed for mission-critical MongoDB workloads with enhanced scalability and durability.",
+      "category": "DATABASE",
+      "timestamp": "2026-02-11T16:00:00.000Z",
+      "link": "https://aws.amazon.comabout-aws/whats-new/2026/02/amazon-documentdb-mongodb-compatibility-asia-pacific-melbourne-region",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "eb7785afa4f405d6bb74eb2a05f7eba5f9226907",
       "title": "Amazon Neptune Analytics is now available in 7 additional regions",
       "summary": "Amazon Neptune Analytics has expanded to 7 new regions including Middle East (Bahrain and UAE), Israel (Tel Aviv), Africa (Cape Town), Canada (Calgary), Asia Pacific (Malaysia), and Europe (Zurich). Users can now create and manage Neptune Analytics graphs in these regions to run advanced graph analytics. Neptune is a serverless graph database that enhances AI application accuracy while reducing operational costs and instantly scaling graph workloads.",
@@ -3852,20 +3952,20 @@
     }
   ],
   "stats": {
-    "total": 385,
+    "total": 395,
     "byCategory": {
+      "SECURITY": 89,
+      "OTHER": 93,
+      "DATABASE": 36,
+      "STORAGE": 8,
+      "ANALYTICS": 17,
+      "COMPUTE": 61,
       "AI_ML": 66,
-      "OTHER": 90,
-      "DATABASE": 34,
       "NETWORKING": 6,
-      "SECURITY": 87,
-      "COMPUTE": 60,
-      "ANALYTICS": 16,
       "CONTAINERS": 11,
-      "SERVERLESS": 8,
-      "STORAGE": 7
+      "SERVERLESS": 8
     },
-    "lastUpdated": "2026-02-11T10:51:55.251Z"
+    "lastUpdated": "2026-02-11T22:30:05.840Z"
   },
-  "generatedAt": "2026-02-11T10:51:55.252Z"
+  "generatedAt": "2026-02-11T22:30:05.840Z"
 }
