@@ -1,6 +1,66 @@
 {
   "announcements": [
     {
+      "id": "eb1cd4bec581e652d5adfa97455a2cdea2431797",
+      "title": "Amazon Bedrock increases default quotas for Anthropic’s Claude Sonnet 4.5 model in AWS GovCloud (US)",
+      "summary": "Amazon Bedrock has increased the default quotas for Anthropic's Claude Sonnet 4.5 model in AWS GovCloud regions by 25x, raising limits to 5,000,000 tokens per minute and 1,000 requests per minute to match commercial AWS regions. This enhancement allows customers in regulated environments to better scale their AI workloads using Claude Sonnet 4.5, which is optimized for complex agents, coding, and long-horizon tasks.",
+      "category": "AI_ML",
+      "timestamp": "2026-02-12T19:52:00.000Z",
+      "link": "https://aws.amazon.comabout-aws/whats-new/2026/02/amazon-bedrock-increases-default-sonnet-4.5-quotas-aws-govcloud-us",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d4dbee7b3d5470b6947238af6b96e722a5b74280",
+      "title": "AI Troubleshooting in the AWS Support Center Console now supports 7 additional languages",
+      "summary": "AWS has expanded AI troubleshooting capabilities in the AWS Support Center Console to support seven additional languages beyond English: Japanese, Korean, Simplified and Traditional Mandarin, Spanish, Portuguese, and French. This update removes language barriers that previously existed when the feature was only available in English, allowing customers to access AI-powered support assistance in their preferred language. The AWS Support Center Console serves as the main platform where customers manage their support experience and track support cases.",
+      "category": "OTHER",
+      "timestamp": "2026-02-12T18:39:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/ai-troubleshooting-in-aws-support-center/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "68eac9e2301ff38dbfe62069cc4ba494ae4048df",
+      "title": "Amazon RDS for PostgreSQL supports minor versions  18.2, 17.8, 16.12, 15.16 and 14.21 ",
+      "summary": "Amazon RDS for PostgreSQL now supports minor versions 18.2, 17.8, 16.12, 15.16, and 14.21, which include security vulnerability fixes and bug fixes from the PostgreSQL community. The release also introduces the new pg_stat_monitor extension that provides unified performance metrics and query performance insights. AWS recommends upgrading to these latest minor versions for improved security and functionality.",
+      "category": "SECURITY",
+      "timestamp": "2026-02-12T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/rds-minor-version-18-2-17-8-16-12-15-16-14-21",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "cc3265260f3198fa84acb76e40b14ed5f274d636",
+      "title": "Announcing new Amazon EC2 general purpose M8azn instances",
+      "summary": "AWS has announced the general availability of Amazon EC2 M8azn instances, which are general purpose instances powered by fifth generation AMD EPYC processors with the highest maximum CPU frequency of 5GHz in the cloud. These new instances offer up to 2x compute performance compared to previous generation M5zn instances and up to 24% higher performance than M8a instances, while also delivering significantly improved memory bandwidth.",
+      "category": "COMPUTE",
+      "timestamp": "2026-02-12T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-m8azn-instances-generally-available",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6af5ffb9c91740424821b66ac1792bedcdc7ec2a",
+      "title": "Amazon S3 Tables add partition and sort order definition in the CreateTable API",
+      "summary": "Amazon S3 Tables now supports defining partition and sort order properties directly in the CreateTable API, simplifying programmatic table management and optimization. This enhancement allows developers to specify these properties when creating tables through the API, AWS CLI, or AWS SDK, eliminating the need for separate configuration steps after table creation.",
+      "category": "STORAGE",
+      "timestamp": "2026-02-12T11:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/s3-tables-partition-and-sort-order-createtable-api/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "649b5bfedc938d0800f65a966361eddd2537d13c",
+      "title": "AWS Backup adds cross-Region database snapshot copy to logically air-gapped vaults",
+      "summary": "AWS Backup now enables direct cross-Region database snapshot copying to logically air-gapped vaults for Amazon Aurora, Neptune, and DocumentDB, eliminating the need for intermediate copying steps. This single-action capability helps protect against ransomware attacks and regional outages by allowing cross-Region and cross-account snapshot copies directly to secure, isolated storage locations.",
+      "category": "DATABASE",
+      "timestamp": "2026-02-12T11:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-backup-adds-cross-region-database-snapshot-logically-air-gapped-vaults/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "8c096e1ace52451d8037c8125e074b1853770764",
       "title": "AWS Payment Cryptography Achieves Cartes Bancaires Approval",
       "summary": "AWS Payment Cryptography has received approval from Groupement des Cartes Bancaires (CB), France's national card payment network, making it one of the first cloud-based payment cryptography services to achieve this certification. This approval allows payment organizations like banks, processors, and payment facilitators to run their payment workloads on AWS while maintaining CB compliance requirements.",
@@ -3952,20 +4012,20 @@
     }
   ],
   "stats": {
-    "total": 395,
+    "total": 401,
     "byCategory": {
-      "SECURITY": 89,
-      "OTHER": 93,
-      "DATABASE": 36,
-      "STORAGE": 8,
+      "AI_ML": 67,
+      "OTHER": 94,
+      "SECURITY": 90,
+      "COMPUTE": 62,
+      "STORAGE": 9,
+      "DATABASE": 37,
       "ANALYTICS": 17,
-      "COMPUTE": 61,
-      "AI_ML": 66,
       "NETWORKING": 6,
       "CONTAINERS": 11,
       "SERVERLESS": 8
     },
-    "lastUpdated": "2026-02-12T10:48:14.269Z"
+    "lastUpdated": "2026-02-12T22:33:55.570Z"
   },
-  "generatedAt": "2026-02-12T10:48:14.270Z"
+  "generatedAt": "2026-02-12T22:33:55.570Z"
 }
