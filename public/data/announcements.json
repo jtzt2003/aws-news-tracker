@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "f02372cc00c1e03262bdcb9475aff8b913f222cd",
+      "title": "AWS Batch now provides Job Queue and Share Utilization Visibility",
+      "summary": "AWS Batch has introduced new visibility features that provide insights into queue and share utilization, showing how workloads are distributed across compute resources. The update includes queue utilization data in job queue snapshots for both FIFO and fair share queues, plus individual fair share allocation capacity consumption details. The ListServiceJobs API has also been enhanced with a scheduledAt timestamp for better job tracking.",
+      "category": "COMPUTE",
+      "timestamp": "2026-02-13T17:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-batch-provides-job-queue-share-utilization",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a5ea667336185eed94e609bd3df9b656b82d3962",
+      "title": "Amazon Connect launches in-app notifications to surface critical operational alerts to business users",
+      "summary": "Amazon Connect has introduced in-app notifications that appear in the workspace header across all pages, allowing teams to stay informed of critical operational alerts without disrupting their current workflow. The feature includes a notification icon with an unread message badge, and users can view messages, access embedded links, and manage read/unread status directly from the header without leaving their current task.",
+      "category": "OTHER",
+      "timestamp": "2026-02-13T17:20:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-in-app-notifications",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9b4f0ce1380cbe7bb9eb7a2ed40aa728546fa501",
+      "title": "Amazon Connect now provides real time AI-powered overviews and recommended next actions for Tasks",
+      "summary": "Amazon Connect has launched a new AI-powered feature that automatically generates task overviews and suggests next actions to help agents process work items more efficiently. The system summarizes previous activities (like order verification or eligibility checks) and provides recommended steps to complete tasks such as processing refunds. This enhancement is designed to help customer service agents understand context faster and resolve issues more quickly.",
+      "category": "AI_ML",
+      "timestamp": "2026-02-13T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/connect-tasks-ai-assistance",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7e3c5a6cb64a47641ca01dac09d12658087555e5",
+      "title": "Amazon RDS now supports backup configuration when restoring snapshots",
+      "summary": "Amazon RDS and Aurora now allow users to view and modify backup settings (retention period and backup window) when restoring database snapshots, providing greater flexibility during restore operations. Previously, restored databases automatically inherited backup configurations from the original snapshot without the ability to customize these settings. This enhancement gives users more control over their backup policies immediately upon restoration.",
+      "category": "DATABASE",
+      "timestamp": "2026-02-13T13:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/rds-aurora-backup-configuration-restoring-snapshots/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a275ec085d9c11885330cb3f74878f3e683c3c3e",
+      "title": "Amazon Aurora DSQL adds support for identity columns and sequence objects ",
+      "summary": "Amazon Aurora DSQL now supports identity columns and sequence objects, allowing developers to generate auto-incrementing integer IDs directly in the database using standard SQL patterns. This feature simplifies PostgreSQL application migrations and enables creation of compact, human-readable identifiers like order numbers and account IDs without requiring custom ID generation logic.",
+      "category": "DATABASE",
+      "timestamp": "2026-02-13T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-dsql-adds-identity-columns-sequence/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2f63bbb3684d1904116eaae7eb687f134f6dadaa",
+      "title": "Announcing Amazon EC2 C8i, M8i, and R8i instances on second-generation AWS Outposts racks",
+      "summary": "AWS has launched its latest generation of EC2 instances (C8i, M8i, and R8i) on second-generation AWS Outposts racks, offering compute-optimized, general-purpose, and memory-optimized configurations respectively. These new x86-powered instances deliver 20% better performance and 2.5x more memory bandwidth compared to their predecessors (C7i, M7i, and R7i instances) on the same Outposts infrastructure.",
+      "category": "AI_ML",
+      "timestamp": "2026-02-12T22:34:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8i-m8i-and-r8i-instances-on-aws-outposts/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "811b072bff2d2d271d3971e539e7c3628374bd11",
+      "title": "Amazon Bedrock adds support for the latest open-weight models in Asia Pacific (Sydney)",
+      "summary": "Amazon Bedrock has expanded support for the latest open-weight foundation models to the Asia Pacific (Sydney) region through the bedrock-mantle endpoint. The newly supported models come from major AI providers including DeepSeek, Google, MiniMax, Mistral, Moonshot AI, Nvidia, and OpenAI. This expansion gives customers in the Sydney region access to more diverse AI models through AWS's fully managed generative AI service.",
+      "category": "AI_ML",
+      "timestamp": "2026-02-12T22:14:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-bedrock-support-latest-open-weight-models-asia-pacific-sydney/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b33f797397d2844e0df1727c9242382dc3e3e1e6",
+      "title": "Amazon S3 Access Grants are now available in the AWS Asia Pacific (Taipei) Region",
+      "summary": "Amazon S3 Access Grants is now available in the AWS Asia Pacific (Taipei) Region. This feature allows you to map identities from directories like Microsoft Entra ID or AWS IAM principals to S3 datasets, enabling automatic access management based on corporate identity. It helps organizations manage data permissions at scale by streamlining S3 access for end users.",
+      "category": "STORAGE",
+      "timestamp": "2026-02-12T21:47:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-s3-access-grants-are-available-in-taipei",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2954cc8ee1840c767b377f1fd909c11c5e68cf1d",
+      "title": "Amazon Bedrock expands support for AWS PrivateLink",
+      "summary": "Amazon Bedrock, AWS's fully managed service for accessing foundation models and building generative AI applications, has expanded its AWS PrivateLink support to include the bedrock-mantle endpoint. This addition allows customers to privately access their applications through the new endpoint, which is powered by Project Mantle, complementing the existing PrivateLink support for the bedrock-runtime endpoint.",
+      "category": "AI_ML",
+      "timestamp": "2026-02-12T21:40:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-bedrock-expands-aws-privatelink-support-openai-api-endpoints/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "cfec9f9aa630676213de07724cf32cf19e8e0f64",
+      "title": "AWS expands Resource Control Policies support to Amazon DynamoDB ",
+      "summary": "AWS has extended Resource Control Policies (RCPs) support to Amazon DynamoDB, allowing organizations to centrally manage and limit the maximum permissions for DynamoDB resources. This enhancement enables administrators to create policies that restrict access to DynamoDB from identities outside their organization, helping to establish stronger data perimeter controls.",
+      "category": "SECURITY",
+      "timestamp": "2026-02-12T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-expands-resource-control-policies-amazon",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "eb1cd4bec581e652d5adfa97455a2cdea2431797",
       "title": "Amazon Bedrock increases default quotas for Anthropic’s Claude Sonnet 4.5 model in AWS GovCloud (US)",
       "summary": "Amazon Bedrock has increased the default quotas for Anthropic's Claude Sonnet 4.5 model in AWS GovCloud regions by 25x, raising limits to 5,000,000 tokens per minute and 1,000 requests per minute to match commercial AWS regions. This enhancement allows customers in regulated environments to better scale their AI workloads using Claude Sonnet 4.5, which is optimized for complex agents, coding, and long-horizon tasks.",
@@ -4012,20 +4112,20 @@
     }
   ],
   "stats": {
-    "total": 401,
+    "total": 411,
     "byCategory": {
-      "AI_ML": 67,
-      "OTHER": 94,
-      "SECURITY": 90,
-      "COMPUTE": 62,
-      "STORAGE": 9,
-      "DATABASE": 37,
+      "COMPUTE": 63,
+      "OTHER": 95,
+      "AI_ML": 71,
+      "DATABASE": 39,
+      "STORAGE": 10,
+      "SECURITY": 91,
       "ANALYTICS": 17,
       "NETWORKING": 6,
       "CONTAINERS": 11,
       "SERVERLESS": 8
     },
-    "lastUpdated": "2026-02-13T10:40:25.261Z"
+    "lastUpdated": "2026-02-13T22:34:46.372Z"
   },
-  "generatedAt": "2026-02-13T10:40:25.261Z"
+  "generatedAt": "2026-02-13T22:34:46.372Z"
 }
