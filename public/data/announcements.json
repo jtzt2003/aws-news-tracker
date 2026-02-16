@@ -1,6 +1,46 @@
 {
   "announcements": [
     {
+      "id": "6aa30a95fbae65e0498c0d786833683927579cd0",
+      "title": "Announcing Amazon DocumentDB long-term support (LTS) on 5.0",
+      "summary": "Amazon DocumentDB now offers Long-Term Support (LTS) for version 5.0, allowing customers to reduce database upgrade frequency and maintenance overhead. LTS versions will only receive critical stability and security patches without new features, helping organizations maintain stable database environments with less frequent updates.",
+      "category": "SECURITY",
+      "timestamp": "2026-02-16T19:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/announcing-amazon-documentdb-5-0-long-term-support",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0f62540c28474476662272f22283b929e13f63a9",
+      "title": "AWS Backup announces PrivateLink support for SAP HANA on AWS",
+      "summary": "AWS Backup now supports AWS PrivateLink for SAP HANA systems on Amazon EC2, allowing backup traffic to flow through private network connections instead of the public internet. This enhancement helps organizations in regulated industries like financial services, healthcare, and government meet strict security and compliance requirements for their SAP HANA workloads.",
+      "category": "SECURITY",
+      "timestamp": "2026-02-16T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-backup-announces-privatelink-sap-hana-aws/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d591f64cde4d27f634c5b84784942d1184ffe3e9",
+      "title": "Amazon EC2 supports nested virtualization on virtual Amazon EC2 instances",
+      "summary": "AWS now supports nested virtualization on virtual Amazon EC2 instances, allowing customers to run virtual machines within virtual machines using KVM or Hyper-V hypervisors. Previously, this capability was only available on bare metal EC2 instances. This enhancement enables use cases like mobile app emulation, automotive hardware simulation, and running Windows Subsystem for Linux within virtualized environments.",
+      "category": "COMPUTE",
+      "timestamp": "2026-02-16T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-nested-virtualization-on-virtual",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "828a354b1e945daba740f7b3c4385989d598fb1f",
+      "title": "Amazon EC2 High Memory U7i instances now available in additional regions",
+      "summary": "Amazon has expanded the regional availability of its EC2 High Memory U7i instances, bringing 6TB instances to South America (São Paulo) and Europe (Milan), 12TB instances to AWS GovCloud (US-East), and 16TB instances to Europe (London). These 7th generation instances are powered by custom Intel Xeon Scalable Processors (Sapphire Rapids) and feature DDR5 memory ranging from 6TiB to 16TiB depending on the instance type.",
+      "category": "COMPUTE",
+      "timestamp": "2026-02-13T23:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-highmem-instances-available/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "f02372cc00c1e03262bdcb9475aff8b913f222cd",
       "title": "AWS Batch now provides Job Queue and Share Utilization Visibility",
       "summary": "AWS Batch has introduced new visibility features that provide insights into queue and share utilization, showing how workloads are distributed across compute resources. The update includes queue utilization data in job queue snapshots for both FIFO and fair share queues, plus individual fair share allocation capacity consumption details. The ListServiceJobs API has also been enhanced with a scheduledAt timestamp for better job tracking.",
@@ -4112,20 +4152,20 @@
     }
   ],
   "stats": {
-    "total": 411,
+    "total": 415,
     "byCategory": {
-      "COMPUTE": 63,
+      "SECURITY": 93,
+      "COMPUTE": 65,
       "OTHER": 95,
       "AI_ML": 71,
       "DATABASE": 39,
       "STORAGE": 10,
-      "SECURITY": 91,
       "ANALYTICS": 17,
       "NETWORKING": 6,
       "CONTAINERS": 11,
       "SERVERLESS": 8
     },
-    "lastUpdated": "2026-02-16T10:51:35.924Z"
+    "lastUpdated": "2026-02-16T22:30:17.977Z"
   },
-  "generatedAt": "2026-02-16T10:51:35.925Z"
+  "generatedAt": "2026-02-16T22:30:17.977Z"
 }
