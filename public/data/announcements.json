@@ -1,6 +1,36 @@
 {
   "announcements": [
     {
+      "id": "d003881b98091310276c0367229990215a5b3a18",
+      "title": "Amazon Connect now includes agent time-off requests in draft schedules",
+      "summary": "Amazon Connect now automatically includes agent time-off requests when generating draft schedules, providing clear visibility into why agents aren't scheduled for specific days or periods. This enhancement eliminates the need for schedulers to check published schedules or troubleshoot configurations to understand scheduling gaps. The feature helps streamline workforce management by making time-off information readily visible during the schedule planning process.",
+      "category": "OTHER",
+      "timestamp": "2026-02-17T18:50:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/02/amazon-connect-time-off-draft-schedules",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a79fa5ee7f8bf10acbcf8c36c24df20e72df499b",
+      "title": "Amazon EC2 C8a instances now available in the Europe (Frankfurt) and Europe (Ireland) region",
+      "summary": "Amazon EC2 C8a instances, powered by 5th Gen AMD EPYC processors, are now available in the Europe (Frankfurt) and Europe (Ireland) regions. These compute-optimized instances deliver up to 30% higher performance and 19% better price-performance compared to C7a instances, with 33% more memory bandwidth making them ideal for latency-sensitive workloads.",
+      "category": "COMPUTE",
+      "timestamp": "2026-02-17T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8a-instances-europe-frankfurt-europe-ireland-regions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5819b9c0cc1c73843db540f79da4c8d7c231d0be",
+      "title": "Claude Sonnet 4.6 now available in Amazon Bedrock ",
+      "summary": "Amazon Bedrock now supports Claude Sonnet 4.6, Anthropic's latest AI model that delivers frontier performance in coding, agents, and professional work while approaching Opus 4.6 intelligence at a lower cost. The model excels at computer use tasks, enabling organizations to deploy browser-based automation across business tools with near-human reliability. This makes it ideal for high-volume coding and knowledge work that requires faster, high-quality task completion.",
+      "category": "AI_ML",
+      "timestamp": "2026-02-17T15:43:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/claude-sonnet-4.6-available-in-amazon-bedrock/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "a7dacc3a859810d84fa25ed45e43a86f9c97c6e8",
       "title": "AWS HealthImaging launches additional metrics for monitoring data stores",
       "summary": "AWS HealthImaging has launched new CloudWatch metrics that allow customers to monitor medical imaging storage at both account and data store levels. The metrics provide granular tracking of storage volume, image sets, and DICOM studies, series, and instances. This enhancement helps customers better understand their medical imaging storage usage and growth patterns over time.",
@@ -57,6 +87,16 @@
       "category": "AI_ML",
       "timestamp": "2026-02-16T17:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-m7i-israel-tel-aviv-regions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "314d6fd9706b1f4f57fbd954d1e122ece0fc5b7c",
+      "title": "Amazon Aurora now supports Server-Side Encryption at Rest",
+      "summary": "Amazon Aurora now automatically applies server-side encryption at rest to all new database clusters by default using AWS-owned keys, with no additional cost or performance impact. This enhancement strengthens security posture while remaining fully managed and transparent to users. Existing database clusters are not affected by this change and will continue operating with their current encryption settings.",
+      "category": "SECURITY",
+      "timestamp": "2026-02-16T13:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-server-side-encryption-at-rest",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -4192,12 +4232,12 @@
     }
   ],
   "stats": {
-    "total": 419,
+    "total": 423,
     "byCategory": {
-      "OTHER": 96,
-      "COMPUTE": 66,
-      "SECURITY": 94,
-      "AI_ML": 72,
+      "OTHER": 97,
+      "COMPUTE": 67,
+      "AI_ML": 73,
+      "SECURITY": 95,
       "DATABASE": 39,
       "STORAGE": 10,
       "ANALYTICS": 17,
@@ -4205,7 +4245,7 @@
       "CONTAINERS": 11,
       "SERVERLESS": 8
     },
-    "lastUpdated": "2026-02-17T10:46:29.444Z"
+    "lastUpdated": "2026-02-17T22:32:45.445Z"
   },
-  "generatedAt": "2026-02-17T10:46:29.444Z"
+  "generatedAt": "2026-02-17T22:32:45.445Z"
 }
