@@ -1,12 +1,72 @@
 {
   "announcements": [
     {
+      "id": "acdcc00a0585ac5d5b2725a07346ab8732c2e00b",
+      "title": "Amazon Aurora DSQL now integrates with Kiro powers and AI agent skills",
+      "summary": "AWS has announced that Amazon Aurora DSQL now integrates with Kiro powers and AI agent skills, allowing developers to build Aurora DSQL-backed applications more quickly through AI-assisted development. The integration includes a bundled Aurora DSQL Model Context Protocol (MCP) server with development best practices, enabling AI agents to assist with database schema design, performance optimization, and operations out of the box.",
+      "category": "DATABASE",
+      "timestamp": "2026-02-18T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-dsql-integrates-with-kiro-powers-and-agent-skills",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a721cde9e8a114279014b9c901f9a5b46496fab1",
+      "title": "Amazon Connect Cases now supports AWS Service Quotas",
+      "summary": "Amazon Connect Cases now integrates with AWS Service Quotas, allowing administrators to centrally monitor limits and usage while scaling case workloads more effectively. Administrators can request quota increases directly through the Service Quotas console, with eligible requests receiving automatic approval. This enhancement helps prevent service disruptions from unexpected quota constraints.",
+      "category": "OTHER",
+      "timestamp": "2026-02-18T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-cases-aws-service-quotas",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c27b637d8a63b8e68683889769fc87e1ab33016a",
+      "title": "Amazon Managed Grafana now supports AWS KMS customer managed keys",
+      "summary": "Amazon Managed Grafana now supports AWS KMS customer managed keys (CMK), allowing users to encrypt data in their Grafana workspaces using their own encryption keys instead of the default AWS owned keys. This enhancement provides greater control over data encryption for the fully managed Grafana service that helps visualize and analyze operational data at scale.",
+      "category": "SECURITY",
+      "timestamp": "2026-02-18T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-managed-grafana-customer-managed-keys",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "05da6f71bcf5cbd57213efd7ad914e8f817317f1",
+      "title": "Amazon OpenSearch Service expands support for Graviton4 (c8g,m8g & r8g ) instances",
+      "summary": "Amazon OpenSearch Service now supports AWS Graviton4-based EC2 instances, including compute optimized (c8g), general purpose (m8g), and memory optimized (r8g, r8gd) instance types. These new Graviton4 processors deliver up to 30% better performance compared to Graviton3 processors while offering the best price-performance ratio for their respective workload types.",
+      "category": "COMPUTE",
+      "timestamp": "2026-02-18T05:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-opensearch-service-expands-support-graviton4-based-instances",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f41690fa9522a3b24ea87376cb909b9f0ca8261a",
+      "title": "Amazon OpenSearch Service now supports storage optimized  i7i  instances",
+      "summary": "Amazon OpenSearch Service now supports the latest generation i7i storage optimized instances powered by 5th generation Intel Xeon Scalable processors. These new instances deliver up to 23% better compute performance and over 10% better price performance compared to previous generation i4i instances. The i7i instances feature 3rd generation AWS Nitro SSDs that provide up to 50% better real-time storage performance and significantly lower storage I/O latency.",
+      "category": "SECURITY",
+      "timestamp": "2026-02-18T04:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-opensearch-service-supports-i7i-instances",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "8a7daeb8208993e28f5c30bc0b7b02276f2750f1",
       "title": "Amazon Bedrock reinforcement fine-tuning adds support for open-weight models with OpenAI-compatible APIs",
       "summary": "Amazon Bedrock has expanded its reinforcement fine-tuning (RFT) capabilities to support popular open-weight models like OpenAI GPT-OSS and Qwen, while adding OpenAI-compatible fine-tuning APIs. This enhancement allows developers to improve model accuracy without needing extensive machine learning expertise or large datasets, as the service automates the entire customization workflow and enables models to learn from feedback.",
       "category": "AI_ML",
       "timestamp": "2026-02-17T21:17:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-bedrock-reinforcement-fine-tuning-openai",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f84d404d4a60f2f719b15354d97581ec2767178a",
+      "title": "Amazon Aurora MySQL 3.12 (compatible with MySQL 8.0.44) is now generally available",
+      "summary": "Amazon Aurora MySQL 3.12, which is compatible with MySQL 8.0.44, is now generally available. This release includes security enhancements, bug fixes, and several availability improvements. Users can upgrade manually by modifying their DB cluster or enable automatic minor version upgrades.",
+      "category": "SECURITY",
+      "timestamp": "2026-02-17T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-mysql-312-available/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -4262,20 +4322,20 @@
     }
   ],
   "stats": {
-    "total": 426,
+    "total": 432,
     "byCategory": {
+      "DATABASE": 40,
+      "OTHER": 99,
+      "SECURITY": 98,
+      "COMPUTE": 68,
       "AI_ML": 74,
-      "OTHER": 98,
-      "COMPUTE": 67,
       "ANALYTICS": 18,
-      "SECURITY": 95,
-      "DATABASE": 39,
       "STORAGE": 10,
       "NETWORKING": 6,
       "CONTAINERS": 11,
       "SERVERLESS": 8
     },
-    "lastUpdated": "2026-02-18T10:45:27.631Z"
+    "lastUpdated": "2026-02-18T22:34:12.477Z"
   },
-  "generatedAt": "2026-02-18T10:45:27.631Z"
+  "generatedAt": "2026-02-18T22:34:12.477Z"
 }
