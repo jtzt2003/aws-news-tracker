@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "8a7daeb8208993e28f5c30bc0b7b02276f2750f1",
+      "title": "Amazon Bedrock reinforcement fine-tuning adds support for open-weight models with OpenAI-compatible APIs",
+      "summary": "Amazon Bedrock has expanded its reinforcement fine-tuning (RFT) capabilities to support popular open-weight models like OpenAI GPT-OSS and Qwen, while adding OpenAI-compatible fine-tuning APIs. This enhancement allows developers to improve model accuracy without needing extensive machine learning expertise or large datasets, as the service automates the entire customization workflow and enables models to learn from feedback.",
+      "category": "AI_ML",
+      "timestamp": "2026-02-17T21:17:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-bedrock-reinforcement-fine-tuning-openai",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "d003881b98091310276c0367229990215a5b3a18",
       "title": "Amazon Connect now includes agent time-off requests in draft schedules",
       "summary": "Amazon Connect now automatically includes agent time-off requests when generating draft schedules, providing clear visibility into why agents aren't scheduled for specific days or periods. This enhancement eliminates the need for schedulers to check published schedules or troubleshoot configurations to understand scheduling gaps. The feature helps streamline workforce management by making time-off information readily visible during the schedule planning process.",
@@ -17,6 +27,26 @@
       "category": "COMPUTE",
       "timestamp": "2026-02-17T17:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8a-instances-europe-frankfurt-europe-ireland-regions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a8a7e55f96a7a747e2ce76961725cbd29a6783d5",
+      "title": "Amazon Connect now supports multi-line text fields on case templates",
+      "summary": "Amazon Connect now supports multi-line text fields on case templates, enabling agents to capture detailed notes and structured data with expanded vertical space for multiple paragraphs. These enhanced fields are designed to better accommodate comprehensive documentation such as root cause analysis, transaction details, and investigation findings. The feature is available through Amazon Connect Cases in multiple AWS regions including US East, US West, Canada Central, and Europe.",
+      "category": "OTHER",
+      "timestamp": "2026-02-17T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-cases-multiline-text-fields/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "311a8162d460603417928c98842731a347d2991f",
+      "title": "Amazon MSK now supports dual-stack (IPv4 and IPv6) connectivity for existing clusters",
+      "summary": "Amazon Managed Streaming for Apache Kafka (Amazon MSK) now supports dual-stack connectivity, allowing both IPv4 and IPv6 protocols for existing MSK Provisioned and MSK Serverless clusters. This enhancement enables customers to modernize their applications for IPv6 environments while maintaining backward compatibility with IPv4. The feature helps organizations meet compliance requirements and prepare for future network architecture changes.",
+      "category": "ANALYTICS",
+      "timestamp": "2026-02-17T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-msk-dual-stack-ipv4-and-ipv6",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -4232,20 +4262,20 @@
     }
   ],
   "stats": {
-    "total": 423,
+    "total": 426,
     "byCategory": {
-      "OTHER": 97,
+      "AI_ML": 74,
+      "OTHER": 98,
       "COMPUTE": 67,
-      "AI_ML": 73,
+      "ANALYTICS": 18,
       "SECURITY": 95,
       "DATABASE": 39,
       "STORAGE": 10,
-      "ANALYTICS": 17,
       "NETWORKING": 6,
       "CONTAINERS": 11,
       "SERVERLESS": 8
     },
-    "lastUpdated": "2026-02-17T22:32:45.445Z"
+    "lastUpdated": "2026-02-18T10:45:27.631Z"
   },
-  "generatedAt": "2026-02-17T22:32:45.445Z"
+  "generatedAt": "2026-02-18T10:45:27.631Z"
 }
