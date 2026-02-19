@@ -31,6 +31,16 @@
       "isNew": false
     },
     {
+      "id": "95efee2d660d3a73b48ccfde03ac3e25468a1a40",
+      "title": "AWS Clean Rooms announces support for remote Apache Iceberg REST catalogs",
+      "summary": "AWS Clean Rooms now supports catalog federation for remote Apache Iceberg REST catalogs, allowing direct and secure access to Iceberg tables stored in Amazon S3 without requiring table metadata replication. This new capability simplifies clean room setup by enabling organizations to use AWS Glue catalog federation to connect their existing Iceberg REST catalogs directly in Clean Rooms collaborations.",
+      "category": "STORAGE",
+      "timestamp": "2026-02-18T12:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-clean-rooms-remote-iceberg-catalogs",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "05da6f71bcf5cbd57213efd7ad914e8f817317f1",
       "title": "Amazon OpenSearch Service expands support for Graviton4 (c8g,m8g & r8g ) instances",
       "summary": "Amazon OpenSearch Service now supports AWS Graviton4-based EC2 instances, including compute optimized (c8g), general purpose (m8g), and memory optimized (r8g, r8gd) instance types. These new Graviton4 processors deliver up to 30% better performance compared to Graviton3 processors while offering the best price-performance ratio for their respective workload types.",
@@ -47,6 +57,16 @@
       "category": "SECURITY",
       "timestamp": "2026-02-18T04:30:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-opensearch-service-supports-i7i-instances",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ee04baf9351f869a6b6839f1f6855e38403563c5",
+      "title": "Amazon EC2 R8i and R8i-flex instances are now available in Europe (Ireland) region",
+      "summary": "Amazon EC2 R8i and R8i-flex instances are now available in the Europe (Ireland) region, powered by custom Intel Xeon 6 processors exclusive to AWS. These new instances provide up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generation Intel-based instances, delivering the highest performance among comparable Intel processors in the cloud.",
+      "category": "COMPUTE",
+      "timestamp": "2026-02-17T23:45:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-r8i-r8i-flex-instances-DUB-region/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -4322,20 +4342,20 @@
     }
   ],
   "stats": {
-    "total": 432,
+    "total": 434,
     "byCategory": {
       "DATABASE": 40,
       "OTHER": 99,
       "SECURITY": 98,
-      "COMPUTE": 68,
+      "STORAGE": 11,
+      "COMPUTE": 69,
       "AI_ML": 74,
       "ANALYTICS": 18,
-      "STORAGE": 10,
       "NETWORKING": 6,
       "CONTAINERS": 11,
       "SERVERLESS": 8
     },
-    "lastUpdated": "2026-02-18T22:34:12.477Z"
+    "lastUpdated": "2026-02-19T10:43:32.854Z"
   },
-  "generatedAt": "2026-02-18T22:34:12.477Z"
+  "generatedAt": "2026-02-19T10:43:32.855Z"
 }
