@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "40c059696cb594cf1c59ae636af265cb8748c2ba",
+      "title": "Amazon RDS for Oracle now supports January 2026 Release Update and Spatial Patch Bundle",
+      "summary": "Amazon RDS for Oracle now supports the January 2026 Release Update for Oracle Database versions 19c and 21c, which includes important security updates. Additionally, Oracle Database 19c receives the corresponding Spatial Patch Bundle that provides fixes for Oracle Spatial and Graph functionality. AWS recommends upgrading to the January 2026 RU to ensure security and optimal performance.",
+      "category": "SECURITY",
+      "timestamp": "2026-02-20T08:38:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-rd-for-oracle-jan-release-update-spatial-patch-bundle/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "b6346ff783adbf4dc05c29c7b81ba4c43316a53f",
       "title": "AWS IAM Identity Center is now available in the Asia Pacific (New Zealand) AWS Region",
       "summary": "AWS IAM Identity Center is now available in the Asia Pacific (New Zealand) region, expanding availability to 38 total AWS regions. This service provides single sign-on capabilities for workforce access to AWS applications by connecting existing identity sources, and powers personalized experiences in AWS applications like Amazon Q while enabling user-aware access control and auditing.",
@@ -4192,10 +4202,10 @@
     }
   ],
   "stats": {
-    "total": 419,
+    "total": 420,
     "byCategory": {
+      "SECURITY": 93,
       "AI_ML": 73,
-      "SECURITY": 92,
       "OTHER": 95,
       "SERVERLESS": 9,
       "COMPUTE": 68,
@@ -4205,7 +4215,7 @@
       "NETWORKING": 5,
       "CONTAINERS": 11
     },
-    "lastUpdated": "2026-02-20T10:39:27.724Z"
+    "lastUpdated": "2026-02-20T22:27:44.610Z"
   },
-  "generatedAt": "2026-02-20T10:39:27.724Z"
+  "generatedAt": "2026-02-20T22:27:44.611Z"
 }
