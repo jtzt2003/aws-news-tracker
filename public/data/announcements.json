@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "b6346ff783adbf4dc05c29c7b81ba4c43316a53f",
+      "title": "AWS IAM Identity Center is now available in the Asia Pacific (New Zealand) AWS Region",
+      "summary": "AWS IAM Identity Center is now available in the Asia Pacific (New Zealand) region, expanding availability to 38 total AWS regions. This service provides single sign-on capabilities for workforce access to AWS applications by connecting existing identity sources, and powers personalized experiences in AWS applications like Amazon Q while enabling user-aware access control and auditing.",
+      "category": "AI_ML",
+      "timestamp": "2026-02-19T22:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-iam-identity-center-asia-pacific-new-zealand-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "163a461c25f02c070b8b83e6fffbb58ab7830e8b",
       "title": "Amazon EC2 G7e instances now available in Asia Pacific (Tokyo) region",
       "summary": "Amazon EC2 G7e instances, powered by NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs, are now available in the Asia Pacific (Tokyo) region. These instances deliver up to 2.3x better inference performance compared to G6e instances and are optimized for deploying large language models, agentic AI, multimodal generative AI, and physical AI models. G7e instances provide the highest performance for spatial computing and graphics-intensive workloads.",
@@ -4179,33 +4189,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/vpc-ipam-cloudfront-byoip",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "32c4a6323a4632fb5540eaa6c1ff8a19b8ef5006",
-      "title": "Amazon EMR Serverless now supports Apache Spark 4.0.1 (preview)",
-      "summary": "Amazon EMR Serverless now offers preview support for Apache Spark 4.0.1, bringing enhanced features like ANSI SQL support, VARIANT data types, and improved streaming capabilities. The update includes Apache Iceberg v3 table format for better compliance and governance, enabling teams to build data pipelines more easily while reducing technical debt and ensuring data accuracy.",
-      "category": "ANALYTICS",
-      "timestamp": "2025-11-21T22:50:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-emr-serverless-apache-spark/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
     "total": 419,
     "byCategory": {
-      "AI_ML": 72,
+      "AI_ML": 73,
       "SECURITY": 92,
       "OTHER": 95,
       "SERVERLESS": 9,
       "COMPUTE": 68,
       "DATABASE": 39,
       "STORAGE": 11,
-      "ANALYTICS": 17,
+      "ANALYTICS": 16,
       "NETWORKING": 5,
       "CONTAINERS": 11
     },
-    "lastUpdated": "2026-02-19T22:33:15.905Z"
+    "lastUpdated": "2026-02-20T10:39:27.724Z"
   },
-  "generatedAt": "2026-02-19T22:33:15.905Z"
+  "generatedAt": "2026-02-20T10:39:27.724Z"
 }
