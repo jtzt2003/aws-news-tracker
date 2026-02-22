@@ -4019,153 +4019,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-quick-suite-scheduling-quick-flows/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "19abf15b4a22c04100a4c10f4b1711b2ca52740c",
-      "title": "OpenSearch Service Enhances Log Analytics with New PPL Experience",
-      "summary": "AWS has enhanced Amazon OpenSearch Service by making Piped Processing Language (PPL) and natural language the default experience in the OpenSearch UI's Observability workspace. The update includes over 35 new commands for deep analysis and faceted exploration, designed to simplify log analytics workflows. This enhancement aims to help customers analyze large data volumes more intuitively while managing costs effectively.",
-      "category": "SECURITY",
-      "timestamp": "2025-11-24T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/opensearch-service-log-analytics-ppl/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "fcad7b213beb9478a38edf2f2d79d6cc5478784d",
-      "title": "Amazon CloudFront announces support for mutual TLS authentication",
-      "summary": "Amazon CloudFront now supports mutual TLS authentication (mTLS), a security protocol that requires both server and client to authenticate each other using X.509 certificates. This feature allows customers to validate client identities at CloudFront's edge locations, ensuring only clients with trusted certificates can access their distributions. The enhancement helps protect against unauthorized access and reduces the implementation effort previously required by customers.",
-      "category": "SECURITY",
-      "timestamp": "2025-11-24T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-cloudfront-mutual-tls-authentication/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d06dd1de4e42f9d1944afe97a3a3e222ba04ccb7",
-      "title": "Amazon EC2 announces interruptible Capacity Reservations",
-      "summary": "Amazon EC2 has launched interruptible Capacity Reservations, allowing organizations to make their unused On-Demand Capacity Reservations (ODCRs) temporarily available to other workloads within their organization. This feature helps maximize utilization of reserved compute capacity while maintaining the ability to reclaim that capacity when needed for critical operations. The enhancement aims to improve cost efficiency by reducing waste from underutilized reserved capacity.",
-      "category": "AI_ML",
-      "timestamp": "2025-11-24T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-ec2-interruptible-capacity-reservations",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "cd631391710869d198af7889727d5448ca2bdc4b",
-      "title": "AWS IoT Core now supports IoT thing registry data retrieval from IoT rules",
-      "summary": "AWS IoT Core has introduced a new get_registry_data() inline rule function that allows IoT rules to dynamically retrieve device information from the IoT thing registry, including attributes, device types, and group membership. This enhancement enables better filtering, enrichment, and routing of IoT messages by leveraging registry data directly within rule processing. The capability is particularly useful for scenarios like filtering connectivity lifecycle events based on device attributes stored in the registry.",
-      "category": "COMPUTE",
-      "timestamp": "2025-11-24T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-iot-core-thing-registry-data-retrieval/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f3cc3587b2fe631928079c0da55efe5dd6a98933",
-      "title": "AWS Elemental MediaTailor now supports HLS Interstitials for live streams",
-      "summary": "AWS Elemental MediaTailor now supports HLS Interstitials for live streams, allowing broadcasters and streaming providers to insert personalized advertisements and promotions seamlessly into live content. This new capability uses the HLS Interstitials specification (RFC 8216) and works natively with popular video players like HLS.js, Shaka Player, and Bitmovin.",
-      "category": "OTHER",
-      "timestamp": "2025-11-24T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-elemental-mediatailor-hls-interstitials-live-streams",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "26a65386727f1ea05da96ae0ffcaf84dc9613abd",
-      "title": "Amazon Redshift now supports federated permissions across multi-warehouse architectures",
-      "summary": "Amazon Redshift has introduced federated permissions to simplify permission management across multi-warehouse architectures. This new feature allows customers to define data permissions once from any Redshift warehouse and automatically apply them across multiple warehouses, addressing the need for consistent access control as organizations scale and isolate workloads. The capability streamlines permissions management for customers using distributed Redshift deployments.",
-      "category": "DATABASE",
-      "timestamp": "2025-11-24T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-redshift-federated-permissions-multi-warehouse-architectures",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d9ad530194a5e6ea97433ec2b57f53a7b53cd56e",
-      "title": "Amazon U7i instances now available in Asia Pacific (Jakarta) Region",
-      "summary": "Amazon EC2 U7i instances with 6TB of memory are now available in the Asia Pacific (Jakarta) region, powered by custom 4th generation Intel Xeon Scalable Processors. These high-memory instances feature 448 vCPUs and DDR5 memory, designed to enhance transaction processing throughput for data-intensive workloads.",
-      "category": "COMPUTE",
-      "timestamp": "2025-11-24T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-u7i-instances-asia-pacific-jakarta-region",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c95be189c99678f7fb9c4f6ef6a9a3ea86a4a848",
-      "title": "Amazon Connect flow modules now support custom inputs, outputs, and version management",
-      "summary": "Amazon Connect flow modules now support custom inputs, outputs, and branches, enabling more flexible and reusable business logic components. Users can create modules like authentication systems that accept parameters (phone number, PIN) and return results (customer name, status) with conditional branches. The update also includes version and alias management capabilities for better module governance.",
-      "category": "OTHER",
-      "timestamp": "2025-11-24T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-connect-flow-modules-custom-inputs-outputs-version-management",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "7b9f333fa0ec3815434db890391797201e72f039",
-      "title": "AWS Glue announces catalog federation for remote Apache Iceberg catalogs",
-      "summary": "AWS Glue now offers general availability of catalog federation for remote Apache Iceberg catalogs, enabling direct and secure access to Iceberg tables stored in Amazon S3 through AWS analytics engines. This feature allows users to query remote Iceberg tables without moving or copying data, while synchronizing metadata in real-time between AWS Glue Data Catalog and remote catalogs.",
-      "category": "SECURITY",
-      "timestamp": "2025-11-24T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-glue-catalog-federation-remote-apache-iceberg-catalogs",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ab883faa78f93f27cda7e83d61fa4a27876f15e5",
-      "title": "Amazon Quick Suite Embedded Chat is now available",
-      "summary": "AWS has launched Amazon Quick Suite Embedded Chat, allowing developers to integrate conversational AI capabilities directly into their applications without building chat interfaces from scratch. The service combines structured and unstructured data in conversations, solving the problem of users needing to switch between different tools to get answers. This enables businesses to provide AI-powered chat functionality within their existing applications where users are already working.",
-      "category": "SECURITY",
-      "timestamp": "2025-11-24T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-quick-suite-embedded-chat",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6ea5d84a4aea860fb01e7ec07b9bf11c94ea8537",
-      "title": "Amazon MSK Replicator is now available in five additional AWS Regions",
-      "summary": "Amazon MSK Replicator, a feature that enables reliable data replication across Amazon MSK clusters, is now available in five additional AWS Regions: Asia Pacific (Thailand), Mexico (Central), Asia Pacific (Taipei), Canada West (Calgary), and Europe (Spain). This expansion allows customers in these regions to easily replicate streaming data across Amazon Managed Streaming for Apache Kafka clusters with just a few clicks.",
-      "category": "ANALYTICS",
-      "timestamp": "2025-11-24T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-msk-replicator-additional-aws-regions",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c741ff8579f55c8a4897803a1131c2ff4ef76a5e",
-      "title": "AWS Lambda announces enhanced error handling capabilities for Kafka event processing",
-      "summary": "AWS Lambda has introduced enhanced error handling capabilities for both Amazon Managed Streaming for Apache Kafka (MSK) and self-managed Apache Kafka event sources. These new features enable customers to create custom retry configurations, optimize failed message retries, and route failed events to designated Kafka topics as on-failure destinations. This enhancement allows developers to build more resilient Kafka workloads with improved error handling strategies through Lambda's event source mappings.",
-      "category": "SERVERLESS",
-      "timestamp": "2025-11-24T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-lambda-enhanced-error-handling-capabilities-kafka-event-processing",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "68a5518d833b37ac32d8d63282770e931ff3882e",
-      "title": "Claude Opus 4.5 now available in Amazon Bedrock",
-      "summary": "AWS has made Claude Opus 4.5 available through Amazon Bedrock, Anthropic's newest model that delivers advanced AI capabilities for coding, workflows, and office tasks at one-third the cost of previous Opus models. The model achieves state-of-the-art performance on software engineering benchmarks like SWE-bench and excels at professional development tasks. This integration allows AWS customers to access Opus-level intelligence through Bedrock's fully managed foundation model service.",
-      "category": "AI_ML",
-      "timestamp": "2025-11-24T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/claude-opus-4-5-amazon-bedrock",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 415,
+    "total": 402,
     "byCategory": {
-      "SECURITY": 91,
-      "AI_ML": 71,
-      "OTHER": 95,
-      "SERVERLESS": 9,
-      "COMPUTE": 68,
-      "DATABASE": 39,
+      "SECURITY": 87,
+      "AI_ML": 69,
+      "OTHER": 93,
+      "SERVERLESS": 8,
+      "COMPUTE": 66,
+      "DATABASE": 38,
       "STORAGE": 11,
-      "ANALYTICS": 15,
+      "ANALYTICS": 14,
       "NETWORKING": 5,
       "CONTAINERS": 11
     },
-    "lastUpdated": "2026-02-22T10:26:44.548Z"
+    "lastUpdated": "2026-02-22T22:26:48.047Z"
   },
-  "generatedAt": "2026-02-22T10:26:44.548Z"
+  "generatedAt": "2026-02-22T22:26:48.047Z"
 }
