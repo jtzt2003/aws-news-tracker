@@ -4149,73 +4149,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/claude-opus-4-5-amazon-bedrock",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "80e78d545767d26049c4ed647fe50c51dd0159c0",
-      "title": "Amazon OpenSearch Service now supports OpenSearch version 3.3",
-      "summary": "Amazon OpenSearch Service now supports OpenSearch version 3.3, which delivers enhanced search performance, improved observability, and new functionality designed to simplify agentic AI integrations. A key feature is agentic search, which allows users to achieve precise search results using natural language inputs instead of complex domain-specific language (DSL) queries, along with improved vector search capabilities.",
-      "category": "ANALYTICS",
-      "timestamp": "2025-11-24T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-opensearch-service-opensearch-version-3-3/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c56b6df466da04cb64790b95807d0048ca34915f",
-      "title": "Amazon Aurora PostgreSQL introduces dynamic data masking",
-      "summary": "Amazon Aurora PostgreSQL now supports dynamic data masking through the new pg_columnmask extension, enabling simplified protection of sensitive database information. This feature provides column-level data protection that works alongside PostgreSQL's existing row-level security and column grants. Users can implement SQL-based masking policies to control how sensitive data appears to different users without modifying the underlying data.",
-      "category": "SECURITY",
-      "timestamp": "2025-11-24T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-aurora-postgresql-dynamic-data-masking",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b532f866f1d215681f5f5ac27d709010bd9196ef",
-      "title": "Amazon SageMaker HyperPod now supports Spot Instances ",
-      "summary": "Amazon SageMaker HyperPod now supports Spot Instances, allowing customers to reduce GPU compute costs by up to 90% compared to on-demand instances. This integration enables organizations to automatically leverage spare EC2 capacity at significant discounts while maintaining HyperPod's managed AI experience. The feature addresses the critical need for cost optimization as AI workloads continue to scale.",
-      "category": "AI_ML",
-      "timestamp": "2025-11-24T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-sagemaker-hyperpod-spot-instances",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "794ff6cc47c449aa17aeeec4d9637d957340c5ed",
-      "title": "Amazon SageMaker HyperPod now supports NVIDIA Multi-Instance GPU (MIG) for generative AI tasks",
-      "summary": "Amazon SageMaker HyperPod now supports NVIDIA Multi-Instance GPU (MIG) technology, which allows administrators to partition a single GPU into multiple isolated instances. This enhancement enables better resource utilization by running multiple small generative AI tasks simultaneously on the same GPU while maintaining performance isolation between tasks.",
-      "category": "AI_ML",
-      "timestamp": "2025-11-24T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/sagemaker-hyperpod-nvidia-multi-instance-gpu/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c250d65329a854d0bff0c505a828c4155d33f211",
-      "title": "Amazon CloudFront integrates with VPC IPAM to support BYOIP",
-      "summary": "Amazon CloudFront now supports bringing your own IP addresses (BYOIP) through integration with VPC IP Address Manager (IPAM), allowing network administrators to use their own public IPv4 address pools with CloudFront distributions. This new capability provides Anycast Static IPs instead of CloudFront's typical rotating IP addresses, enabling customers to maintain dedicated IP addresses for partners and clients while simplifying IP address management across AWS's global infrastructure.",
-      "category": "SECURITY",
-      "timestamp": "2025-11-24T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/vpc-ipam-cloudfront-byoip",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 420,
+    "total": 415,
     "byCategory": {
-      "SECURITY": 93,
-      "AI_ML": 73,
+      "SECURITY": 91,
+      "AI_ML": 71,
       "OTHER": 95,
       "SERVERLESS": 9,
       "COMPUTE": 68,
       "DATABASE": 39,
       "STORAGE": 11,
-      "ANALYTICS": 16,
+      "ANALYTICS": 15,
       "NETWORKING": 5,
       "CONTAINERS": 11
     },
-    "lastUpdated": "2026-02-21T22:25:32.331Z"
+    "lastUpdated": "2026-02-22T10:26:44.548Z"
   },
-  "generatedAt": "2026-02-21T22:25:32.331Z"
+  "generatedAt": "2026-02-22T10:26:44.548Z"
 }
