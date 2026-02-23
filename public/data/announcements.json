@@ -3949,93 +3949,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-lambda-nodejs-24/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "6f5fddef3d21268b0fc09d7e14af6f2aecfb2441",
-      "title": "Amazon OpenSearch Service introduces Agentic Search",
-      "summary": "Amazon OpenSearch Service has launched Agentic Search, an intelligent agent-driven search system that understands user intent and automatically generates OpenSearch DSL queries from natural language search terms. The new feature orchestrates appropriate tools and provides transparent summaries of its decision-making process through a simple 'agentic' query clause. This transforms how users interact with their data by making search more intuitive and automated.",
-      "category": "ANALYTICS",
-      "timestamp": "2025-11-25T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/opensearch-service-agentic-search/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "fe6fce6fb8a6ed7c46a988a35bfd25a21246a2ed",
-      "title": "Amazon SageMaker AI Inference now supports bidirectional streaming ",
-      "summary": "Amazon SageMaker AI Inference has added bidirectional streaming support for real-time speech-to-text transcription, allowing models to process continuous audio streams and return partial transcripts simultaneously as users speak. This enhancement enables the development of voice agents with minimal latency by eliminating the need for batch processing and providing real-time speech processing capabilities.",
-      "category": "AI_ML",
-      "timestamp": "2025-11-25T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/sagemaker-ai-inference-bidirectional-streaming/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "bcd8f5c0df569e1df9129389dd1bec38b5c9b4ef",
-      "title": " AWS Service Quotas adds now support for automatic quota management ",
-      "summary": "AWS Service Quotas has launched automatic quota management, a new feature that monitors quota usage and sends notifications through preferred channels (email, SMS, or Slack) when usage approaches limits. The feature can automatically and safely adjust AWS service quota values based on customer usage patterns. This capability is now generally available through both the Service Quotas console and API.",
-      "category": "OTHER",
-      "timestamp": "2025-11-25T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/automatic-quota-management-service-quota-management/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "e668ff5f7164d7f131a08929f294fdd4842440d9",
-      "title": "Amazon SageMaker AI now supports EAGLE speculative decoding",
-      "summary": "Amazon SageMaker AI has added support for EAGLE speculative decoding, a new capability that can improve large language model inference throughput by up to 2.5x. This technology works by enabling models to predict and validate multiple tokens simultaneously instead of processing them one at a time, resulting in faster response times for AI applications in production.",
-      "category": "AI_ML",
-      "timestamp": "2025-11-25T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-sagemaker-eagle-decoding/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "1192d36cee9929755d5448af8e952251c9804ee0",
-      "title": "AWS Glue Data Quality now supports rule labeling for enhanced reporting",
-      "summary": "AWS Glue Data Quality now supports rule labeling, allowing users to apply custom key-value pair labels to data quality rules for better organization and reporting. This feature enables categorization of rules by business context, team ownership, compliance requirements, or any custom taxonomy that fits organizational needs. The enhancement improves filtering capabilities and enables more targeted reporting for data quality and governance initiatives.",
-      "category": "ANALYTICS",
-      "timestamp": "2025-11-25T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/glue-data-quality-rule-labeling-enhanced-reporting/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b19d73841a59eedac6ea7c560acdc189530d15b0",
-      "title": "AWS Glue Data Quality now supports pre-processing queries",
-      "summary": "AWS Glue Data Quality now supports preprocessing queries in general availability, allowing users to transform data before running quality checks through AWS Glue Data Catalog APIs. This feature enables creating derived columns, filtering data, performing calculations, and validating column relationships directly within the data quality evaluation process. The enhancement provides greater flexibility for handling complex data quality scenarios.",
-      "category": "ANALYTICS",
-      "timestamp": "2025-11-25T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-glue-data-quality-pre-processing-queries/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "76e15e43510d710a2848314aa45db01b216e9eff",
-      "title": "Amazon Quick Suite introduces scheduling for Quick Flows",
-      "summary": "Amazon Quick Flows now supports automated scheduling, allowing users to run workflows automatically at specified times or intervals without manual intervention. Users can configure flows to run daily, weekly, monthly, or on custom schedules, making it ideal for automating routine tasks like generating recurring reports. This enhancement improves operational efficiency and ensures critical workflows execute consistently.",
-      "category": "OTHER",
-      "timestamp": "2025-11-25T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-quick-suite-scheduling-quick-flows/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 402,
+    "total": 395,
     "byCategory": {
       "SECURITY": 87,
-      "AI_ML": 69,
-      "OTHER": 93,
+      "AI_ML": 67,
+      "OTHER": 91,
       "SERVERLESS": 8,
       "COMPUTE": 66,
       "DATABASE": 38,
       "STORAGE": 11,
-      "ANALYTICS": 14,
+      "ANALYTICS": 11,
       "NETWORKING": 5,
       "CONTAINERS": 11
     },
-    "lastUpdated": "2026-02-22T22:26:48.047Z"
+    "lastUpdated": "2026-02-23T10:52:07.877Z"
   },
-  "generatedAt": "2026-02-22T22:26:48.047Z"
+  "generatedAt": "2026-02-23T10:52:07.877Z"
 }
