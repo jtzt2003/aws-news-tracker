@@ -1,6 +1,26 @@
 {
   "announcements": [
     {
+      "id": "0a27ac204ad576e2887ab4ddd0ed6d2bbd6b09ad",
+      "title": "AWS IAM Policy Autopilot is now available as a Kiro Power",
+      "summary": "AWS has released IAM Policy Autopilot as a Kiro power, making the open source static code analysis tool available for agentic AI development with one-click installation. The tool automatically generates baseline AWS IAM policies for developers, eliminating manual policy creation and allowing policies to be refined as applications evolve. This integration brings IAM policy expertise directly into the Kiro IDE and web interface.",
+      "category": "SECURITY",
+      "timestamp": "2026-02-23T18:49:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-iam-policy-autopilot-kiro-power/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "597d436c1b70909785ba2b7665ca038e4fbec07f",
+      "title": "Amazon Redshift Serverless introduces 3-year Serverless Reservations",
+      "summary": "Amazon Redshift Serverless now offers 3-year Serverless Reservations that provide up to 45% cost savings and improved cost predictability for analytics workloads. Customers can commit to a specific number of Redshift Processing Units (RPUs) for three years with no upfront payment required. This new pricing option enhances the serverless analytics platform that automatically scales without requiring cluster provisioning or management.",
+      "category": "DATABASE",
+      "timestamp": "2026-02-23T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-redshift-serverless-three-year-reservations/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "40c059696cb594cf1c59ae636af265cb8748c2ba",
       "title": "Amazon RDS for Oracle now supports January 2026 Release Update and Spatial Patch Bundle",
       "summary": "Amazon RDS for Oracle now supports the January 2026 Release Update for Oracle Database versions 19c and 21c, which includes important security updates. Additionally, Oracle Database 19c receives the corresponding Spatial Patch Bundle that provides fixes for Oracle Spatial and Graph functionality. AWS recommends upgrading to the January 2026 RU to ensure security and optimal performance.",
@@ -3919,53 +3939,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-apache-iceberg-v3-deletion-vectors-row-lineage",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "1a54148d0efec23f824012a464fd3b193c4bc330",
-      "title": "Manage Amazon SageMaker HyperPod clusters with the new Amazon SageMaker AI MCP Server",
-      "summary": "AWS has launched a new Amazon SageMaker AI MCP Server that provides tools for setting up and managing HyperPod clusters. Amazon SageMaker HyperPod simplifies generative AI model development by enabling quick scaling of training, fine-tuning, and deployment tasks across clusters of AI accelerators. The MCP Server allows AI coding assistants to provision and operate these AI/ML clusters for model training and deployment.",
-      "category": "AI_ML",
-      "timestamp": "2025-11-25T19:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/manage-amazon-sagemaker-hyperpod-clusters-mcp-server/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "98bd6a9ac0280d0e875eb68cf7dc2f48df015d5e",
-      "title": "Introducing AWS Network Firewall Proxy in preview",
-      "summary": "AWS has launched Network Firewall Proxy in public preview, enabling centralized protection against data exfiltration and malware injection. The service can be set up in explicit mode with just a few clicks to filter both outbound application traffic and incoming responses. It helps organizations efficiently manage and secure web and inter-network traffic while protecting against spoofing attempts.",
-      "category": "STORAGE",
-      "timestamp": "2025-11-25T19:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-network-firewall-proxy-preview",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4b2772c34d2caa806e734ec880cfc041592ecc39",
-      "title": "AWS Lambda adds support for Node.js 24",
-      "summary": "AWS Lambda now supports Node.js 24, allowing developers to build serverless applications using both managed runtime and container base images with automatic updates. Node.js 24 is the latest long-term support release that will receive security and bug fixes until April 2028, offering developers a simplified and modern async-focused experience.",
-      "category": "SECURITY",
-      "timestamp": "2025-11-25T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-lambda-nodejs-24/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 395,
+    "total": 394,
     "byCategory": {
       "SECURITY": 87,
-      "AI_ML": 67,
+      "DATABASE": 39,
+      "AI_ML": 66,
       "OTHER": 91,
       "SERVERLESS": 8,
       "COMPUTE": 66,
-      "DATABASE": 38,
-      "STORAGE": 11,
+      "STORAGE": 10,
       "ANALYTICS": 11,
       "NETWORKING": 5,
       "CONTAINERS": 11
     },
-    "lastUpdated": "2026-02-23T10:52:07.877Z"
+    "lastUpdated": "2026-02-23T22:41:39.170Z"
   },
-  "generatedAt": "2026-02-23T10:52:07.877Z"
+  "generatedAt": "2026-02-23T22:41:39.171Z"
 }
