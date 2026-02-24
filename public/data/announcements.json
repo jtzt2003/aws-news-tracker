@@ -1,6 +1,36 @@
 {
   "announcements": [
     {
+      "id": "dd028ac3f057329837bc08593bd99f08e88e7454",
+      "title": "MediaConvert Introduces new video probe API and UI",
+      "summary": "AWS Elemental MediaConvert has launched a new Probe API, a free metadata analysis tool that quickly extracts essential information about media files including codec specifications, pixel formats, color space details, and container information by reading header metadata. The tool is designed for efficiency, providing this analysis without needing to process the actual video content. This makes it particularly valuable for content creators, developers, and media professionals who need rapid media file insights.",
+      "category": "CONTAINERS",
+      "timestamp": "2026-02-24T00:01:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-mediaconvert-introduces-video-probe/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0f312b6aaaacdbaef0ac057e369026b37d189555",
+      "title": "AWS Trusted Advisor now delivers more accurate unused NAT Gateway checks powered by AWS Compute Optimizer",
+      "summary": "AWS Trusted Advisor has improved its unused NAT Gateway detection by integrating AWS Compute Optimizer capabilities, which analyze additional CloudWatch metrics over a 32-day period and verify route table associations. This enhancement significantly reduces false positives by avoiding flagging critical backup resources, enabling cost optimization teams and DevOps engineers to more confidently identify and remove truly unused NAT Gateways that generate unnecessary charges.",
+      "category": "STORAGE",
+      "timestamp": "2026-02-23T23:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/trusted-advisor-unused-nat-gateway-check/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e3db231e6063efc7260aad1b51ca1064920e7f02",
+      "title": "Amazon announces generative AI-based artifacts in Amazon Q Developer for visualizing resource and cost data",
+      "summary": "AWS has launched Amazon Q Developer artifacts, a generative AI feature that allows customers to visualize AWS resource data in tables and cost data in charts directly within the AWS Management Console. The update also relocates the Q icon to the navigation bar and moves the chat panel to the left side for easier access throughout the console. Customers can access these AI-powered visualization tools by clicking the Amazon Q icon and making requests.",
+      "category": "AI_ML",
+      "timestamp": "2026-02-23T20:05:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/generative-ai-based-Amazon-Q-artifacts/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "0a27ac204ad576e2887ab4ddd0ed6d2bbd6b09ad",
       "title": "AWS IAM Policy Autopilot is now available as a Kiro Power",
       "summary": "AWS has released IAM Policy Autopilot as a Kiro power, making the open source static code analysis tool available for agentic AI development with one-click installation. The tool automatically generates baseline AWS IAM policies for developers, eliminating manual policy creation and allowing policies to be refined as applications evolve. This integration brings IAM policy expertise directly into the Kiro IDE and web interface.",
@@ -11,12 +41,32 @@
       "isNew": false
     },
     {
+      "id": "be32da9b52a3a2b30cfaea3a2157a34a0d16a89f",
+      "title": "AWS Elemental Media Services Now Available in Asia Pacific (Malaysia) Region",
+      "summary": "AWS has expanded its Elemental Media Services suite to the Asia Pacific (Malaysia) Region, bringing cloud-based video workflow capabilities closer to Southeast Asian audiences. The comprehensive suite includes MediaConnect, MediaLive, MediaPackage, MediaConvert, and MediaTailor, enabling businesses to ingest, transport, transcode, package, and deliver high-quality video content with reduced latency and better performance for viewers in Malaysia and the broader Southeast Asian region.",
+      "category": "OTHER",
+      "timestamp": "2026-02-23T18:49:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/elemental-Malaysia/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "597d436c1b70909785ba2b7665ca038e4fbec07f",
       "title": "Amazon Redshift Serverless introduces 3-year Serverless Reservations",
       "summary": "Amazon Redshift Serverless now offers 3-year Serverless Reservations that provide up to 45% cost savings and improved cost predictability for analytics workloads. Customers can commit to a specific number of Redshift Processing Units (RPUs) for three years with no upfront payment required. This new pricing option enhances the serverless analytics platform that automatically scales without requiring cluster provisioning or management.",
       "category": "DATABASE",
       "timestamp": "2026-02-23T17:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-redshift-serverless-three-year-reservations/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e1884080285e5b111f3831e7b97ebe0ca9dfb50d",
+      "title": "Amazon S3 Tables are now available in AWS GovCloud (US) Regions",
+      "summary": "Amazon S3 Tables, AWS's first cloud object store with built-in Apache Iceberg support, are now available in AWS GovCloud (US-East) and (US-West) regions. This service provides optimized tabular data storage at scale with automatic table maintenance that continuously optimizes query performance and storage costs as data lakes grow. S3 Tables support the Apache Iceberg standard, enabling easy querying of tabular data.",
+      "category": "STORAGE",
+      "timestamp": "2026-02-23T05:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-s3-tables-aws-govcloud-us/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -3942,20 +3992,20 @@
     }
   ],
   "stats": {
-    "total": 394,
+    "total": 399,
     "byCategory": {
+      "CONTAINERS": 12,
+      "STORAGE": 12,
+      "AI_ML": 67,
       "SECURITY": 87,
+      "OTHER": 92,
       "DATABASE": 39,
-      "AI_ML": 66,
-      "OTHER": 91,
       "SERVERLESS": 8,
       "COMPUTE": 66,
-      "STORAGE": 10,
       "ANALYTICS": 11,
-      "NETWORKING": 5,
-      "CONTAINERS": 11
+      "NETWORKING": 5
     },
-    "lastUpdated": "2026-02-23T22:41:39.170Z"
+    "lastUpdated": "2026-02-24T10:51:23.201Z"
   },
-  "generatedAt": "2026-02-23T22:41:39.171Z"
+  "generatedAt": "2026-02-24T10:51:23.201Z"
 }
