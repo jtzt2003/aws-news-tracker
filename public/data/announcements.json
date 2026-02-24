@@ -1,6 +1,86 @@
 {
   "announcements": [
     {
+      "id": "582c9d37d767536d94a42b4be893d32c2b016477",
+      "title": "Announcing AWS Elemental Inference",
+      "summary": "AWS Elemental Inference is a new fully managed AI service that automatically generates vertical content and highlight clips from live and on-demand video for mobile and social platforms in real time. The service works in parallel with video encoding and enables broadcasters and streamers to reach audiences across multiple formats without requiring AI expertise or dedicated production teams. This allows content creators to efficiently repurpose their video content for different platforms and viewing preferences.",
+      "category": "OTHER",
+      "timestamp": "2026-02-24T19:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-elemental-inference-generally-avail/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c234c95a6d5e849ea34f4d15fdd8ec89245ec580",
+      "title": "Amazon RDS Snapshot Export to S3 now available in AWS GovCloud (US) Regions",
+      "summary": "Amazon RDS Snapshot Export to S3 is now available in AWS GovCloud (US) regions, allowing users to export database snapshot data in Apache Parquet format for analytics, data retention, and machine learning purposes. The feature supports all snapshot types and runs without impacting database performance, with exported data accessible through AWS analytics services like Amazon Athena.",
+      "category": "AI_ML",
+      "timestamp": "2026-02-24T18:26:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/rds-exports-s3-available-gov-cloud/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f324034d505eac0f0663ebdf440579fa6625375e",
+      "title": "AWS Deadline Cloud now supports running tasks together in chunks",
+      "summary": "AWS Deadline Cloud, a fully managed render management service for 2D/3D graphics and visual effects, now supports grouping tasks into \"chunks\" for more efficient execution. This new chunking feature is particularly beneficial for short tasks or tasks requiring long startup times, as it reduces overall completion time and costs by running multiple tasks together rather than individually.",
+      "category": "OTHER",
+      "timestamp": "2026-02-24T18:13:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-deadline-cloud-running-tasks-together-in/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "266254b6649bdec50da4ac00a29cb25e9bdfc05b",
+      "title": "Amazon EC2 R7a instances are now available in the Asia Pacific (Hyderabad) Region",
+      "summary": "Amazon EC2 R7a instances are now available in the AWS Asia Pacific (Hyderabad) Region. These instances are powered by 4th Gen AMD EPYC processors and deliver up to 50% higher performance compared to R6a instances, with availability across all purchasing options including On-Demand, Reserved, Spot, and Savings Plans.",
+      "category": "COMPUTE",
+      "timestamp": "2026-02-24T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-r7a-instances-asia-pacific-hyderabad-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ee879c711a00eeb45ba9bd39be37960debcd524f",
+      "title": "Amazon EC2 C8i and C8i-flex instances are now available in Asia Pacific (Malaysia) and South America (Sao Paulo) regions",
+      "summary": "Amazon EC2 C8i and C8i-flex instances are now available in Asia Pacific (Malaysia) and South America (São Paulo) regions. These instances are powered by custom Intel Xeon 6 processors exclusive to AWS, offering up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generations. The new instances deliver the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud.",
+      "category": "COMPUTE",
+      "timestamp": "2026-02-24T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8i-c8i-flex-instances-asia-pacific-malaysia-south-america-sao--paulo-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e3fa7948e43cbcff159aa03f5e69fe5e48986be0",
+      "title": "AWS AppConfig integrates with New Relic for automated rollbacks",
+      "summary": "AWS AppConfig has launched a new integration with New Relic Workflow Automation that enables automated rollbacks during feature flag and dynamic configuration deployments. The integration automatically detects degraded application health and triggers rollbacks within seconds, eliminating the need for manual intervention. This builds on AWS AppConfig's existing third-party alert capabilities to provide New Relic users with intelligent, automated deployment protection.",
+      "category": "OTHER",
+      "timestamp": "2026-02-24T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-appconfig-new-relic-for-automated-rollback/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4330aa8dd90ad54db2b837bc270d667add7d75bd",
+      "title": "Amazon EC2 M8a instances now available in AWS Europe (Frankfurt) region",
+      "summary": "Amazon EC2 M8a instances are now available in the AWS Europe (Frankfurt) region, powered by 5th generation AMD EPYC processors with frequencies up to 4.5 GHz. These new instances offer up to 30% higher performance, 19% better price-performance, and 45% more memory bandwidth compared to the previous M7a instances, making them well-suited for latency-sensitive workloads.",
+      "category": "COMPUTE",
+      "timestamp": "2026-02-24T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-m8a-instances-europe-frankfurt/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f3f3ad60f2d6f0a95e703acfa910fab63f2a9bf8",
+      "title": "Amazon EKS Node Monitoring Agent is now open source",
+      "summary": "Amazon EKS has open-sourced its Node Monitoring Agent, making the source code available on GitHub for community contributions. The agent addresses the challenge of maintaining reliable Kubernetes workloads by automatically monitoring and managing degraded cluster nodes, eliminating the need for manual intervention by cluster administrators.",
+      "category": "CONTAINERS",
+      "timestamp": "2026-02-24T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-eks-node-monitoring-agent-open-source/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "dd028ac3f057329837bc08593bd99f08e88e7454",
       "title": "MediaConvert Introduces new video probe API and UI",
       "summary": "AWS Elemental MediaConvert has launched a new Probe API, a free metadata analysis tool that quickly extracts essential information about media files including codec specifications, pixel formats, color space details, and container information by reading header metadata. The tool is designed for efficiency, providing this analysis without needing to process the actual video content. This makes it particularly valuable for content creators, developers, and media professionals who need rapid media file insights.",
@@ -3879,133 +3959,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-connect-streams-messages-ai-powered-interactions",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "f62b0c7bcf7b00fa945cbe6273db997b99aa1a04",
-      "title": "SageMaker HyperPod now supports Managed tiered KV cache and intelligent routing",
-      "summary": "Amazon SageMaker HyperPod has introduced Managed Tiered KV Cache and Intelligent Routing capabilities to optimize large language model (LLM) inference performance, particularly for long-context prompts and multi-turn conversations. These new features help customers deploying production LLM applications achieve faster response times when processing lengthy documents or maintaining conversation context, eliminating the need to recalculate attention mechanisms for all previous tokens with each new interaction.",
-      "category": "AI_ML",
-      "timestamp": "2025-11-26T18:58:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/sagemaker-hyperpod-managed-tiered-kv-cache/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ed77813d87087d01b1e93c34b1079b593e140abb",
-      "title": "Amazon SageMaker HyperPod now supports custom Kubernetes labels and taints",
-      "summary": "Amazon SageMaker HyperPod now supports custom Kubernetes labels and taints, giving customers precise control over pod scheduling and workload placement on EKS-orchestrated clusters. This enhancement prevents expensive GPU resources from being consumed by system pods and non-AI workloads while ensuring compatibility with custom device plugins like EFA and NVIDIA GPU operators.",
-      "category": "AI_ML",
-      "timestamp": "2025-11-26T18:45:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-sagemaker-hyperpod-kubernetes/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "24d8af6069970d2a01feaabbe7fe7f122e78ee80",
-      "title": "Amazon Kinesis Video Streams now supports a new cost effective warm storage tier",
-      "summary": "Amazon Kinesis Video Streams has introduced a new warm storage tier that provides cost-effective long-term media retention with sub-second access latency. The existing standard storage is now called the \"hot tier\" and remains optimized for real-time access and short-term storage. This new tier is designed to benefit developers building home security and enterprise video monitoring solutions who need extended media retention at lower costs.",
-      "category": "SECURITY",
-      "timestamp": "2025-11-26T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-kinesis-video-streams-warm-storage-tier/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "1b6b5607419b2a30084c98b9c1a6dbc15b59a821",
-      "title": "Amazon Aurora now supports PostgreSQL 17.6, 16.10, 15.14, 14.19, and 13.22",
-      "summary": "Amazon Aurora PostgreSQL-Compatible Edition now supports five updated PostgreSQL versions (17.6, 16.10, 15.14, 14.19, and 13.22) with community improvements, bug fixes, and Aurora-specific enhancements. A key new feature is Dynamic Data Masking (DDM), available in versions 16.10 and 17.6, which provides database-level security by dynamically masking sensitive data like personally identifiable information based on role-based policies at query time.",
-      "category": "SECURITY",
-      "timestamp": "2025-11-26T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-aurora-minor-versions-17-6-16-10-15-14-14-19-13-22",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ec51f80d7eee599cb4369dcb3c8c4c9decd9c6da",
-      "title": "Amazon S3 Block Public Access now supports organization-level enforcement",
-      "summary": "Amazon S3 Block Public Access now supports organization-level enforcement through AWS Organizations, enabling centralized control of public access settings across all accounts in an organization. This feature allows administrators to standardize and enforce S3 public access policies through a single configuration applied at the root or Organizational Unit level.",
-      "category": "STORAGE",
-      "timestamp": "2025-11-26T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-s3-block-public-access-organization-level-enforcement",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "9986e8fe4113a48d61aa8796954dccbc5ae3c062",
-      "title": "Improved AWS Health event triage",
-      "summary": "AWS Health has added two new properties to its event schema - \"actionability\" and \"persona\" - to help customers better prioritize and route health events. These properties enable organizations to programmatically identify which events require customer action and automatically direct them to the appropriate teams. The enhanced schema is available through both the AWS Health API and Health EventBridge, improving operational efficiency and team coordination.",
-      "category": "SECURITY",
-      "timestamp": "2025-11-26T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/improved-aws-health-event-triage",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f62792209b90d6c2d3a41f35738902b4534e1a88",
-      "title": "AWS Compute Optimizer now supports unused NAT Gateway recommendations",
-      "summary": "AWS Compute Optimizer now provides recommendations to identify unused NAT Gateways, helping customers reduce costs by finding gateways with no traffic activity. The service analyzes CloudWatch metrics over a 32-day period, examining factors like active connection count and incoming packets to determine which NAT Gateways are idle and can potentially be removed.",
-      "category": "STORAGE",
-      "timestamp": "2025-11-26T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-compute-optimizer-unused-nat-gateway-recommendations",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "e56fb4c352e6f623f4164997f5af3f07ab4a3b4f",
-      "title": "Amazon CloudWatch now supports deletion protection for logs",
-      "summary": "Amazon CloudWatch has introduced deletion protection for log groups, allowing administrators to safeguard critical logging data from accidental or unintended deletion. This feature provides an additional security layer for important logs such as audit trails, compliance records, and operational data. When enabled, the protection prevents log groups from being deleted, helping organizations preserve essential logging information.",
-      "category": "SECURITY",
-      "timestamp": "2025-11-26T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-cloudwatch-deletion-protection-logs",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "51dfd65e6d11684ffbc0a672a740a5125c2b51d1",
-      "title": "Amazon SageMaker HyperPod now supports programmatic node reboot and replacement",
-      "summary": "Amazon SageMaker HyperPod has released new APIs (BatchRebootClusterNodes and BatchReplaceClusterNodes) that allow users to programmatically reboot and replace cluster nodes. This enhancement provides better automation capabilities for managing resilient ML clusters used for training advanced models like large language models, diffusion models, and foundation models.",
-      "category": "AI_ML",
-      "timestamp": "2025-11-26T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-sagemaker-hyperpod-programmatic-node-reboot-replacement",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "603dd4663b1dbc95690df39b597b1cbff70ba9e4",
-      "title": "The AWS API MCP Server is now available on AWS Marketplace",
-      "summary": "AWS has released the AWS API MCP Server on AWS Marketplace, allowing customers to deploy the Model Context Protocol (MCP) server to Amazon Bedrock AgentCore as a managed service. The marketplace offering includes complete deployment instructions and provides enterprise-grade features like built-in authentication and session isolation while simplifying container management.",
-      "category": "SECURITY",
-      "timestamp": "2025-11-26T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/the-aws-api-mcp-server-aws-marketplace",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "0a2bdec5e8d27ab3eff163fbce1609f0ef1fd4a1",
-      "title": "AWS announces support for Apache Iceberg V3 deletion vectors and row lineage",
-      "summary": "AWS has announced support for Apache Iceberg V3 deletion vectors and row lineage features across multiple services including Amazon EMR 7.12, AWS Glue, SageMaker notebooks, S3 Tables, and Glue Data Catalog. These capabilities enable customers to build petabyte-scale data lakes with enhanced performance for data modifications and improved tracking of record changes. The deletion vectors feature provides optimized delete operations through specialized delete files.",
-      "category": "AI_ML",
-      "timestamp": "2025-11-26T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-apache-iceberg-v3-deletion-vectors-row-lineage",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 399,
+    "total": 396,
     "byCategory": {
-      "CONTAINERS": 12,
-      "STORAGE": 12,
-      "AI_ML": 67,
-      "SECURITY": 87,
-      "OTHER": 92,
+      "OTHER": 95,
+      "AI_ML": 64,
+      "COMPUTE": 69,
+      "CONTAINERS": 13,
+      "STORAGE": 10,
+      "SECURITY": 82,
       "DATABASE": 39,
       "SERVERLESS": 8,
-      "COMPUTE": 66,
       "ANALYTICS": 11,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-02-24T10:51:23.201Z"
+    "lastUpdated": "2026-02-24T22:35:02.410Z"
   },
-  "generatedAt": "2026-02-24T10:51:23.201Z"
+  "generatedAt": "2026-02-24T22:35:02.410Z"
 }
