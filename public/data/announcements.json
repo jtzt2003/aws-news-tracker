@@ -1,6 +1,36 @@
 {
   "announcements": [
     {
+      "id": "85d7566c332ee2c0dc1df72c6ae1fa9019635b7c",
+      "title": "AWS Security Agent adds support for penetration tests on shared VPCs across AWS accounts",
+      "summary": "AWS Security Agent now supports penetration testing on VPC resources that are shared across different AWS accounts within the same organization. This enhancement enables security teams to conduct comprehensive security assessments across multi-account environments from a centralized location. The feature utilizes AWS Resource Access Manager (RAM) to securely share VPC resources from sub-accounts to a central AWS account for testing purposes.",
+      "category": "SECURITY",
+      "timestamp": "2026-02-25T19:07:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-security-agent-adds-penetration-tests-shared/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "eb69cc38ca649c31f97a5401b49b1ea8fe124d43",
+      "title": "Amazon Aurora DSQL launches Playground for interactive database exploration",
+      "summary": "AWS has launched Amazon Aurora DSQL Playground, a browser-based interactive environment that allows developers to explore and experiment with Aurora DSQL without needing an AWS account. The playground enables users to write and execute SQL queries, test schema designs, and experience Aurora DSQL's PostgreSQL-compatible distributed SQL capabilities directly in their browser with no setup required.",
+      "category": "DATABASE",
+      "timestamp": "2026-02-25T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-dsql-launches-playground/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "95cfface01d794142d475a4a0599fb5456b7f1f5",
+      "title": "Announcing new metal sizes for Amazon EC2 M8gn and M8gb instances ",
+      "summary": "AWS has announced the general availability of new metal-24xl and metal-48xl sizes for Amazon EC2 M8gn and M8gb instances, powered by AWS Graviton4 processors that deliver up to 30% better compute performance than Graviton3. M8gn instances feature 6th generation AWS Nitro Cards with up to 600 Gbps network bandwidth (the highest among network optimized EC2 instances), while M8gb instances offer up to 300 Gbps of EBS bandwidth.",
+      "category": "COMPUTE",
+      "timestamp": "2026-02-25T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-m8gn-m8gb-new-metal-sizes/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "1ccf77305bff78c063363cf3a6c87ffd54be42fe",
       "title": "Amazon Bedrock now supports server-side tool execution with AgentCore Gateway",
       "summary": "Amazon Bedrock now supports server-side tool execution through integration with AgentCore Gateway and the Responses API. Customers can connect their AgentCore Gateway tools to Bedrock models by specifying a gateway ARN, eliminating the need for client-side orchestration. This enables automatic tool discovery and presentation to models during execution.",
@@ -3992,20 +4022,20 @@
     }
   ],
   "stats": {
-    "total": 399,
+    "total": 402,
     "byCategory": {
+      "SECURITY": 84,
+      "DATABASE": 40,
+      "COMPUTE": 70,
       "AI_ML": 65,
       "STORAGE": 11,
-      "SECURITY": 83,
       "OTHER": 95,
-      "COMPUTE": 69,
       "CONTAINERS": 13,
-      "DATABASE": 39,
       "SERVERLESS": 8,
       "ANALYTICS": 11,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-02-25T10:53:00.975Z"
+    "lastUpdated": "2026-02-25T22:34:59.244Z"
   },
-  "generatedAt": "2026-02-25T10:53:00.975Z"
+  "generatedAt": "2026-02-25T22:34:59.244Z"
 }
