@@ -1,6 +1,36 @@
 {
   "announcements": [
     {
+      "id": "1ccf77305bff78c063363cf3a6c87ffd54be42fe",
+      "title": "Amazon Bedrock now supports server-side tool execution with AgentCore Gateway",
+      "summary": "Amazon Bedrock now supports server-side tool execution through integration with AgentCore Gateway and the Responses API. Customers can connect their AgentCore Gateway tools to Bedrock models by specifying a gateway ARN, eliminating the need for client-side orchestration. This enables automatic tool discovery and presentation to models during execution.",
+      "category": "AI_ML",
+      "timestamp": "2026-02-24T23:02:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-bedrock-server-side-tool-execution-agentcore-gateway/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8ed28ecde417d9644cb023ab4259438579b38e15",
+      "title": "AWS Compute Optimizer now applies AWS-generated tags to EBS snapshots created during automation",
+      "summary": "AWS Compute Optimizer now automatically applies AWS-generated tags to EBS snapshots that are created when the service snapshots and deletes unattached EBS volumes. This enhancement improves visibility and tracking by making it easier to identify which snapshots were created through Compute Optimizer's automation processes, whether initiated manually or through automated rules.",
+      "category": "STORAGE",
+      "timestamp": "2026-02-24T19:58:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-compute-optimizer-applies-tags-ebs-snapshots/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9265879b477a7edc584d31ca38c80200f0dc0058",
+      "title": "AWS Observability now available as a Kiro power",
+      "summary": "AWS has launched AWS Observability as a Kiro power, which uses AI agent-assisted workflows to help developers and operators diagnose infrastructure and application health issues more quickly. Kiro Powers is a repository of pre-built Model Context Protocol (MCP) servers and tools validated by partners to streamline specialized software development and deployment scenarios. The AWS Observability power includes four specialized MCP servers designed for targeted observability tasks.",
+      "category": "SECURITY",
+      "timestamp": "2026-02-24T19:05:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-observability-kiro-power/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "582c9d37d767536d94a42b4be893d32c2b016477",
       "title": "Announcing AWS Elemental Inference",
       "summary": "AWS Elemental Inference is a new fully managed AI service that automatically generates vertical content and highlight clips from live and on-demand video for mobile and social platforms in real time. The service works in parallel with video encoding and enables broadcasters and streamers to reach audiences across multiple formats without requiring AI expertise or dedicated production teams. This allows content creators to efficiently repurpose their video content for different platforms and viewing preferences.",
@@ -3962,20 +3992,20 @@
     }
   ],
   "stats": {
-    "total": 396,
+    "total": 399,
     "byCategory": {
+      "AI_ML": 65,
+      "STORAGE": 11,
+      "SECURITY": 83,
       "OTHER": 95,
-      "AI_ML": 64,
       "COMPUTE": 69,
       "CONTAINERS": 13,
-      "STORAGE": 10,
-      "SECURITY": 82,
       "DATABASE": 39,
       "SERVERLESS": 8,
       "ANALYTICS": 11,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-02-24T22:35:02.410Z"
+    "lastUpdated": "2026-02-25T10:53:00.975Z"
   },
-  "generatedAt": "2026-02-24T22:35:02.410Z"
+  "generatedAt": "2026-02-25T10:53:00.975Z"
 }
