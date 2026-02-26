@@ -1,6 +1,66 @@
 {
   "announcements": [
     {
+      "id": "3edc7f04a246b424d9b3a67960d1f76b93e965b0",
+      "title": "Amazon Connect now supports dynamic dialing mode switching for outbound campaigns",
+      "summary": "Amazon Connect now allows contact center administrators to dynamically switch between preview and non-preview dialing modes during active outbound campaigns, eliminating the need to stop and restart campaigns to change strategies. This update replaces the previous rigid system where campaigns were locked into their initial dialing mode once started. The feature enables more flexible and adaptive dialing strategies for outbound campaign management.",
+      "category": "OTHER",
+      "timestamp": "2026-02-26T19:32:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/connect-dynamic-dialing-modes/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "837cba85e289bc7c8bb9df0d12c78358f371a7c4",
+      "title": "AWS Security Hub launches Extended plan for pay-as-you-go partner solutions",
+      "summary": "AWS Security Hub has launched its Extended plan, offering a pay-as-you-go model that combines AWS detection services with curated partner security solutions through a single-vendor experience. This new plan aims to simplify enterprise security operations by reducing the complexity of managing multiple vendor relationships and lengthy procurement cycles. The Extended plan provides streamlined procurement and unified security management across enterprise environments.",
+      "category": "SECURITY",
+      "timestamp": "2026-02-26T17:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/sec-hub-extended/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "69a40e060dff3c1b805bf44d86e0ecbdd73bc49a",
+      "title": "Amazon Cognito enhances client secret management with secret rotation and custom secrets",
+      "summary": "Amazon Cognito has enhanced client secret management for user pool app clients by introducing client secret rotation capabilities and support for custom client secrets. Previously, Cognito only supported automatically generated client secrets, but this update gives developers more control over secret lifecycle management. These improvements help strengthen security for applications, AI agents, and microservices that authenticate through Cognito.",
+      "category": "SECURITY",
+      "timestamp": "2026-02-26T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-cognito-client-secret-lifecycle/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e8d8b8e2160024c5764c23e99f818fd0b428444b",
+      "title": "Amazon EC2 M8i and M8i-flex instances are available in additional regions",
+      "summary": "Amazon EC2 M8i and M8i-flex instances are now available in four additional regions: US West (N. California), Europe (Paris), Asia Pacific (Hyderabad), and South America (Sao Paulo). These instances feature custom Intel Xeon 6 processors exclusive to AWS and deliver up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generations.",
+      "category": "COMPUTE",
+      "timestamp": "2026-02-26T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-m8i-m8i-flex-instances-additional-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "85de40c1d586eee8cef72cc944d5130198da5eee",
+      "title": "Introducing Amazon EC2 I8g.metal-48xl instances",
+      "summary": "AWS has launched Amazon EC2 I8g.metal-48xl instances, new storage-optimized instances powered by AWS Graviton4 processors that deliver up to 60% better compute performance than previous I4g instances. These instances feature third-generation AWS Nitro SSDs with local NVMe storage, providing up to 65% better real-time storage performance per TB, 50% lower storage I/O latency, and 60% lower latency variability.",
+      "category": "SECURITY",
+      "timestamp": "2026-02-26T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/ec2-i8g-metal-48xl-generally-available/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4d8863e786d07d1a510fdfe19d0148a5191cfa42",
+      "title": "AWS Lambda Durable Execution SDK for Java now available in Developer Preview",
+      "summary": "AWS has released a developer preview of the Lambda Durable Execution SDK for Java, which enables developers to build resilient multi-step applications without needing custom progress tracking or external orchestration services. The SDK supports use cases like order processing pipelines, AI workflows, and human-in-the-loop approvals through Lambda durable functions that automatically checkpoint progress.",
+      "category": "SERVERLESS",
+      "timestamp": "2026-02-26T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/lambda-durable-execution-java-preview/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "e1b3e5cbfec62d6c0dd98100e0b720cd9662f32f",
       "title": "AWS Outposts racks now support additional Amazon CloudWatch metrics in AWS GovCloud (US) Regions",
       "summary": "AWS Outposts racks in AWS GovCloud (US) Regions now support two additional Amazon CloudWatch metrics: VifConnectionStatus and VifBgpSessionState. These metrics enable customers to monitor the connectivity status of their Outposts racks' Local Gateway and Service Link Virtual Interfaces directly within the CloudWatch console, eliminating the need for external networking tools.",
@@ -4092,20 +4152,20 @@
     }
   ],
   "stats": {
-    "total": 409,
+    "total": 415,
     "byCategory": {
-      "COMPUTE": 74,
-      "SECURITY": 85,
+      "OTHER": 96,
+      "SECURITY": 88,
+      "COMPUTE": 75,
+      "SERVERLESS": 9,
       "DATABASE": 41,
       "AI_ML": 66,
       "STORAGE": 11,
-      "OTHER": 95,
       "CONTAINERS": 13,
-      "SERVERLESS": 8,
       "ANALYTICS": 11,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-02-26T10:47:45.712Z"
+    "lastUpdated": "2026-02-26T22:34:45.431Z"
   },
-  "generatedAt": "2026-02-26T10:47:45.712Z"
+  "generatedAt": "2026-02-26T22:34:45.431Z"
 }
