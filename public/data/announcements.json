@@ -1,12 +1,42 @@
 {
   "announcements": [
     {
+      "id": "67b0a147b62c2b783c639bb6efabda09dc911d88",
+      "title": "Amazon ECS Managed Instances now integrates with Amazon EC2 Capacity Reservations",
+      "summary": "Amazon ECS Managed Instances now integrates with Amazon EC2 Capacity Reservations, allowing users to utilize their reserved capacity for predictable workload availability while ECS manages the underlying infrastructure. This integration helps balance reliable capacity scaling with cost efficiency, particularly benefiting mission-critical workloads that require high availability.",
+      "category": "CONTAINERS",
+      "timestamp": "2026-02-26T22:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/ecs-mi-ec2-capacity-reservations/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3d4fb4051085b6b939687251e49aa205ee44c917",
+      "title": "AWS Marketplace now supports multiple purchases of SaaS and Professional Services products",
+      "summary": "AWS Marketplace now supports Concurrent Agreements, allowing buyers to make multiple purchases of the same SaaS or Professional Services product within a single AWS account. This removes the previous limitation of one active agreement per product per account, eliminating the need for seller workarounds. Different business units can now procure independently with their own customized terms and pricing arrangements.",
+      "category": "SERVERLESS",
+      "timestamp": "2026-02-26T21:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/concurrent-agreements-february/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "3edc7f04a246b424d9b3a67960d1f76b93e965b0",
       "title": "Amazon Connect now supports dynamic dialing mode switching for outbound campaigns",
       "summary": "Amazon Connect now allows contact center administrators to dynamically switch between preview and non-preview dialing modes during active outbound campaigns, eliminating the need to stop and restart campaigns to change strategies. This update replaces the previous rigid system where campaigns were locked into their initial dialing mode once started. The feature enables more flexible and adaptive dialing strategies for outbound campaign management.",
       "category": "OTHER",
       "timestamp": "2026-02-26T19:32:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/connect-dynamic-dialing-modes/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ce65c6a974123c7cd94fd6219add30f78576f0f5",
+      "title": "Amazon CloudWatch now provides lock contention diagnostics for Amazon RDS for PostgreSQL",
+      "summary": "Amazon CloudWatch Database Insights now offers lock contention diagnostics for Amazon RDS for PostgreSQL instances, helping users quickly identify root causes of both current and past locking issues. This feature is available exclusively in Advanced mode and provides visualization of blocking relationships in the Database Insights console. The capability enables faster troubleshooting of PostgreSQL database performance problems related to lock contention.",
+      "category": "DATABASE",
+      "timestamp": "2026-02-26T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-cloudwatch-lock-contention-diagnostics-rds-postgresql/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -47,6 +77,16 @@
       "category": "SECURITY",
       "timestamp": "2026-02-26T16:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/ec2-i8g-metal-48xl-generally-available/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f37ff34905497188e4acf23510118276a0b8fbad",
+      "title": "Amazon SNS now supports push notifications in the Europe (Spain) Region ",
+      "summary": "Amazon SNS now supports push notifications in the AWS Europe (Spain) Region, expanding the fully managed pub/sub service's capabilities to this geographic area. This enables customers in Spain to use Amazon SNS to send push notifications to supported platforms alongside its existing message delivery options to endpoints like Lambda, SQS, HTTP, SMS, and email.",
+      "category": "SERVERLESS",
+      "timestamp": "2026-02-26T15:32:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-sns-push-expansion-spain/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -4152,20 +4192,20 @@
     }
   ],
   "stats": {
-    "total": 415,
+    "total": 419,
     "byCategory": {
+      "CONTAINERS": 14,
+      "SERVERLESS": 11,
       "OTHER": 96,
+      "DATABASE": 42,
       "SECURITY": 88,
       "COMPUTE": 75,
-      "SERVERLESS": 9,
-      "DATABASE": 41,
       "AI_ML": 66,
       "STORAGE": 11,
-      "CONTAINERS": 13,
       "ANALYTICS": 11,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-02-26T22:34:45.431Z"
+    "lastUpdated": "2026-02-27T10:39:03.972Z"
   },
-  "generatedAt": "2026-02-26T22:34:45.431Z"
+  "generatedAt": "2026-02-27T10:39:03.972Z"
 }
