@@ -1,6 +1,66 @@
 {
   "announcements": [
     {
+      "id": "555f54145fb2206da73a7d169816243427c9ad72",
+      "title": "Amazon CloudWatch logs centralization rules now support customizable destination log group structure",
+      "summary": "Amazon CloudWatch now allows organizations to customize destination log group names when creating log centralization rules, enabling them to organize logs from multiple accounts into meaningful hierarchies. Users can structure log groups using attributes like account ID, region, or organizational unit to match their operational needs and compliance requirements. This feature provides more flexibility in how centralized logs are organized and managed across AWS Organizations.",
+      "category": "STORAGE",
+      "timestamp": "2026-02-27T18:50:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/cloudwatch-centralization-custom-groups/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ff729ef5406c21ab858785fc1dd4786302f0fcf8",
+      "title": "AWS Resource Access Manager now supports maintaining shares when accounts change organizations",
+      "summary": "AWS Resource Access Manager (RAM) now allows organizations to maintain resource sharing when AWS accounts move between different organizations. This is enabled through a new RetainSharingOnAccountLeaveOrganization parameter that prevents resource access disruption during account transfers. The feature helps security administrators ensure sharing continuity and enforce consistent policies across organizational changes.",
+      "category": "SECURITY",
+      "timestamp": "2026-02-27T17:35:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-resource-access-manager/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "23b60ac9d2e1fdae17efd39fe076330524d74a32",
+      "title": "AWS now supports Bacs Direct Debit as a payment method for UK customers",
+      "summary": "AWS now supports Bacs Direct Debit as a payment method for UK customers, allowing them to pay for AWS services directly from their GBP-based bank accounts. This provides a more convenient and automated way to manage cloud spending compared to the previous options of only credit/debit cards or EUR-based bank accounts. The feature supports both personal and business bank accounts that use the Bacs standard.",
+      "category": "OTHER",
+      "timestamp": "2026-02-27T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/aws-supports-bacs-direct-debit-payment-method/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6c38e43119b9533c98f2d3ef6969a84ab4cd3299",
+      "title": "Amazon OpenSearch Service adds new insights for improved cluster stability",
+      "summary": "Amazon OpenSearch Service has introduced two new Cluster Insights features: Cluster Overload and Suboptimal Sharding Strategy. These insights help identify resource utilization issues and shard imbalances that can cause performance problems, providing visibility into affected resources along with actionable recommendations for remediation.",
+      "category": "ANALYTICS",
+      "timestamp": "2026-02-27T10:49:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-opensearch-service-adds-new-insights-improved-cluster-stability/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7d7203878665d58ff99e01cd5856f5872ecdfd28",
+      "title": "Amazon RDS for PostgreSQL supports minor versions 18.3, 17.9, 16.13, 15.17, and 14.22",
+      "summary": "Amazon RDS for PostgreSQL now supports new minor versions 18.3, 17.9, 16.13, 15.17, and 14.22, which address a regression from the February 2026 PostgreSQL community release. AWS recommends upgrading to these latest versions to fix known security vulnerabilities and benefit from bug fixes provided by the PostgreSQL community.",
+      "category": "SECURITY",
+      "timestamp": "2026-02-27T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/rds-minor-version-18-3-17-9-16-13-15-17-14-22/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "68fb1f98fa410d4b614fdcc6d4980b82cf19a4cb",
+      "title": "Amazon Bedrock announces OpenAI-compatible Projects API ",
+      "summary": "Amazon Bedrock has added support for OpenAI-compatible Projects API within its Mantle inference engine. This enhancement allows developers to use familiar OpenAI API formats while accessing Bedrock's fully managed service that offers foundation models from companies like Anthropic, Meta, and OpenAI. The integration aims to simplify the development and scaling of generative AI applications through Bedrock's distributed inference capabilities.",
+      "category": "AI_ML",
+      "timestamp": "2026-02-26T23:06:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-projects-api-mantle-inference-engine/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "67b0a147b62c2b783c639bb6efabda09dc911d88",
       "title": "Amazon ECS Managed Instances now integrates with Amazon EC2 Capacity Reservations",
       "summary": "Amazon ECS Managed Instances now integrates with Amazon EC2 Capacity Reservations, allowing users to utilize their reserved capacity for predictable workload availability while ECS manages the underlying infrastructure. This integration helps balance reliable capacity scaling with cost efficiency, particularly benefiting mission-critical workloads that require high availability.",
@@ -4192,20 +4252,20 @@
     }
   ],
   "stats": {
-    "total": 419,
+    "total": 425,
     "byCategory": {
+      "STORAGE": 12,
+      "SECURITY": 90,
+      "OTHER": 97,
+      "ANALYTICS": 12,
+      "AI_ML": 67,
       "CONTAINERS": 14,
       "SERVERLESS": 11,
-      "OTHER": 96,
       "DATABASE": 42,
-      "SECURITY": 88,
       "COMPUTE": 75,
-      "AI_ML": 66,
-      "STORAGE": 11,
-      "ANALYTICS": 11,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-02-27T10:39:03.972Z"
+    "lastUpdated": "2026-02-27T22:24:47.895Z"
   },
-  "generatedAt": "2026-02-27T10:39:03.972Z"
+  "generatedAt": "2026-02-27T22:24:47.896Z"
 }
