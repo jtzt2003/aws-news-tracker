@@ -1,6 +1,56 @@
 {
   "announcements": [
     {
+      "id": "6328291297ebb2863b61182411bf36a0e7668e8c",
+      "title": "Amazon Lightsail expands blueprint selection with a new WordPress blueprint",
+      "summary": "Amazon Lightsail has introduced a new WordPress blueprint that allows users to launch a WordPress website with just a few clicks through a preinstalled VPS and guided setup wizard. The new blueprint includes Instance Metadata Service Version 2 (IMDSv2) enforced by default for enhanced security. This addition makes it easier for users to quickly deploy and manage WordPress sites on AWS cloud infrastructure within minutes.",
+      "category": "COMPUTE",
+      "timestamp": "2026-02-27T23:28:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/wordpress-blueprint-lightsail/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1ab3f610b515f1158b404a475974dba6c57f5e87",
+      "title": "EC2 Image Builder enhances lifecycle policies with wildcard support and simplified IAM",
+      "summary": "AWS EC2 Image Builder now supports wildcard patterns in lifecycle policies, allowing you to manage images from multiple recipes within a single policy instead of creating separate policies for each recipe. The service has also simplified IAM role creation by enabling users to create roles with pre-populated default permissions directly from the console.",
+      "category": "SECURITY",
+      "timestamp": "2026-02-27T22:10:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/ec2-image-builder-lifecycle-enhancements/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "da2b94faa66ce2c31619253f2e0f8b2acd36bca7",
+      "title": "ARC Region switch adds three new capabilities: post-recovery workflows, RDS orchestration and AWS provider support for Terraform",
+      "summary": "Amazon Application Recovery Controller (ARC) Region switch has added three new capabilities to enhance multi-Region disaster recovery automation. The new features include post-recovery workflows for additional recovery steps, native RDS execution blocks for database orchestration, and AWS provider support for Terraform infrastructure management. These enhancements help customers achieve more comprehensive and streamlined disaster recovery across multiple AWS accounts and Regions with reduced engineering effort.",
+      "category": "DATABASE",
+      "timestamp": "2026-02-27T22:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/arc-region-switch-post-recovery-rdsblock/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c89460c59e8fafc9cf05d157725e995afa6b4a88",
+      "title": "AWS Network Firewall now supports firewall state change notifications through Amazon EventBridge",
+      "summary": "AWS Network Firewall now integrates with Amazon EventBridge to deliver real-time notifications when firewall states change or configurations are updated. This integration provides immediate visibility into critical firewall operations, including changes to AWS Managed Rules, Partner Managed Rules, and endpoint status modifications. The feature enables enhanced monitoring and faster response to changes across network security infrastructure.",
+      "category": "SECURITY",
+      "timestamp": "2026-02-27T19:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/firewall-state-change-notifications/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4671de0092064df6bf62f5d07f5d7b485049696e",
+      "title": "Amazon Bedrock batch inference now supports the Converse API format",
+      "summary": "Amazon Bedrock batch inference now supports the Converse API format, allowing users to process batch workloads with a consistent, model-agnostic input structure. Previously, batch inference jobs required model-specific request formats through the InvokeModel API, but users can now select Converse as the invocation type for standardized formatting across different models.",
+      "category": "AI_ML",
+      "timestamp": "2026-02-27T19:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-bedrock-batch-inference-supports-converse-api-format/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "555f54145fb2206da73a7d169816243427c9ad72",
       "title": "Amazon CloudWatch logs centralization rules now support customizable destination log group structure",
       "summary": "Amazon CloudWatch now allows organizations to customize destination log group names when creating log centralization rules, enabling them to organize logs from multiple accounts into meaningful hierarchies. Users can structure log groups using attributes like account ID, region, or organizational unit to match their operational needs and compliance requirements. This feature provides more flexibility in how centralized logs are organized and managed across AWS Organizations.",
@@ -37,6 +87,16 @@
       "category": "ANALYTICS",
       "timestamp": "2026-02-27T10:49:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-opensearch-service-adds-new-insights-improved-cluster-stability/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "112d6698f4c06178e57d5de3d25215e207268a74",
+      "title": "Oracle Database@AWS is now available in the Dublin AWS Region",
+      "summary": "Oracle Database@AWS, which provides Oracle Cloud Infrastructure (OCI) managed Oracle Exadata systems within AWS data centers, is now available in the Dublin AWS Region (EU-West-1). This service allows customers to migrate their on-premises Oracle Exadata and Oracle Real Application Clusters (RAC) applications to AWS while maintaining a similar environment and integrating with AWS services like AWS Key Management Service.",
+      "category": "SECURITY",
+      "timestamp": "2026-02-27T08:31:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/oracle-database-aws-available-dublin-aws-region/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -4252,20 +4312,20 @@
     }
   ],
   "stats": {
-    "total": 425,
+    "total": 431,
     "byCategory": {
+      "COMPUTE": 76,
+      "SECURITY": 93,
+      "DATABASE": 43,
+      "AI_ML": 68,
       "STORAGE": 12,
-      "SECURITY": 90,
       "OTHER": 97,
       "ANALYTICS": 12,
-      "AI_ML": 67,
       "CONTAINERS": 14,
       "SERVERLESS": 11,
-      "DATABASE": 42,
-      "COMPUTE": 75,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-02-27T22:24:47.895Z"
+    "lastUpdated": "2026-02-28T10:24:57.964Z"
   },
-  "generatedAt": "2026-02-27T22:24:47.896Z"
+  "generatedAt": "2026-02-28T10:24:57.965Z"
 }
