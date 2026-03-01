@@ -4149,43 +4149,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-x8i-instances-preview",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "e816356b415ca468d2acf9a92a83da16c91fd6f5",
-      "title": "AWS Transform launches an AI agent for full-stack Windows modernization",
-      "summary": "AWS Transform has launched a new AI agent that expands beyond .NET modernization to handle full-stack Windows application transformation, including both .NET applications and their Microsoft SQL Server databases. The agent automates the conversion of these Windows workloads to Amazon Aurora PostgreSQL and deploys them as containers on Amazon ECS or EC2 Linux. This full-stack approach accelerates Windows modernization by 5x compared to traditional methods.",
-      "category": "DATABASE",
-      "timestamp": "2025-12-01T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-transform-ai-agent-full-stack-windows-modernization",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "91bb4e093f31e916bc31bebd9c622a8c0f430ff9",
-      "title": "AWS Transform for mainframe now supports application reimagining",
-      "summary": "AWS Transform for mainframe has added new data and activity analysis capabilities that provide comprehensive insights to help reimagine legacy mainframe applications. These insights, combined with business logic extraction, enable organizations to decompose legacy applications into logical business domains. The enhanced capabilities create detailed specifications that coding agents like Kiro can use to transform applications into cloud-native architectures.",
-      "category": "OTHER",
-      "timestamp": "2025-12-01T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/transform-mainframe-application-reimagining/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 417,
+    "total": 415,
     "byCategory": {
       "COMPUTE": 76,
       "SECURITY": 91,
-      "DATABASE": 43,
+      "DATABASE": 42,
       "AI_ML": 67,
       "STORAGE": 12,
-      "OTHER": 86,
+      "OTHER": 85,
       "ANALYTICS": 12,
       "CONTAINERS": 14,
       "SERVERLESS": 11,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-03-01T10:26:37.630Z"
+    "lastUpdated": "2026-03-01T22:25:34.841Z"
   },
-  "generatedAt": "2026-03-01T10:26:37.630Z"
+  "generatedAt": "2026-03-01T22:25:34.841Z"
 }
