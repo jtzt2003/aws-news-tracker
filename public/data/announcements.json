@@ -4169,63 +4169,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/transform-mainframe-application-reimagining/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "44c537e389fbb1286efdab3438d32d577ab83c2f",
-      "title": "AWS Transform adds new agentic AI capabilities for enterprise VMware migrations",
-      "summary": "AWS Transform has introduced new agentic AI capabilities that automate VMware migrations to AWS by collaborating with migration teams to understand business priorities and intelligently plan migrations. The AI agent can discover on-premises environments, prioritize applications, and migrate hundreds of applications across thousands of servers with significantly reduced manual effort and complexity. This enhancement streamlines the traditionally complex process of enterprise VMware-to-AWS migrations through intelligent automation.",
-      "category": "OTHER",
-      "timestamp": "2025-12-01T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/transform-vmware-agentic-ai-enterprise-migration/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "68b8d349096c55692bb444970d8f764d6467a3c2",
-      "title": "AWS Transform for mainframe delivers new testing automation capabilities",
-      "summary": "AWS Transform for mainframe has launched new testing automation capabilities designed to accelerate and de-risk mainframe modernization projects. The new features include automated test plan generation, test data collection scripts, test case automation scripts, and functional test environment tools for continuous delivery and regression testing. These capabilities aim to address key testing challenges that organizations face during mainframe modernization initiatives.",
-      "category": "OTHER",
-      "timestamp": "2025-12-01T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/transform-mainframe-testing-automation/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "1b23688a4d36172a0c09e3c0434d6b8f41753170",
-      "title": "AWS launches AWS Transform custom to accelerate organization-wide application modernization",
-      "summary": "AWS has launched AWS Transform custom, a generally available agentic AI service designed to accelerate organization-wide application modernization at scale. The service specifically targets legacy systems including Windows, mainframe, and VMware environments to reduce technical debt and prepare technology stacks for AI integration. This addresses the significant resource burden organizations face, as they typically allocate 20-30% of their software development resources to maintaining outdated systems.",
-      "category": "OTHER",
-      "timestamp": "2025-12-01T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/transform-custom-organization-wide-modernization/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "50dfde60b6a2addbcf8af73ccd8b74df6526000e",
-      "title": "AWS Transform expands .NET transformation capabilities and enhances developer experience",
-      "summary": "AWS Transform is now generally available with expanded .NET transformation capabilities that allow customers to modernize .NET Framework and .NET code to .NET 10 or .NET Standard. The service includes new features for UI porting from ASP.NET Web Forms to Blazor on ASP.NET Core and Entity Framework ORM code transformation. These capabilities come with an enhanced, customizable developer experience integrated into the AWS Toolkit for Visual Studio 2022.",
-      "category": "OTHER",
-      "timestamp": "2025-12-01T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/transform-net-transformation-developer-experience/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 421,
+    "total": 417,
     "byCategory": {
       "COMPUTE": 76,
       "SECURITY": 91,
       "DATABASE": 43,
       "AI_ML": 67,
       "STORAGE": 12,
-      "OTHER": 90,
+      "OTHER": 86,
       "ANALYTICS": 12,
       "CONTAINERS": 14,
       "SERVERLESS": 11,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-02-28T22:23:42.116Z"
+    "lastUpdated": "2026-03-01T10:26:37.630Z"
   },
-  "generatedAt": "2026-02-28T22:23:42.117Z"
+  "generatedAt": "2026-03-01T10:26:37.630Z"
 }
