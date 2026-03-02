@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "49b8cb66c2df4bc947fa3d95bef43c2755a41183",
+      "title": "AWS announces pricing for VPC Encryption Controls",
+      "summary": "AWS has announced pricing for VPC Encryption Controls, a new security feature that allows customers to audit and enforce encryption-in-transit for all traffic within and across VPCs in a region. The feature offers two modes: Monitor mode for detecting unencrypted traffic, and Enforce mode for ensuring all data-in-transit is encrypted and blocking resources that permit unencrypted traffic.",
+      "category": "SECURITY",
+      "timestamp": "2026-03-01T23:41:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/vpc-encryption-controls-pricing/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "6328291297ebb2863b61182411bf36a0e7668e8c",
       "title": "Amazon Lightsail expands blueprint selection with a new WordPress blueprint",
       "summary": "Amazon Lightsail has introduced a new WordPress blueprint that allows users to launch a WordPress website with just a few clicks through a preinstalled VPS and guided setup wizard. The new blueprint includes Instance Metadata Service Version 2 (IMDSv2) enforced by default for enhanced security. This addition makes it easier for users to quickly deploy and manage WordPress sites on AWS cloud infrastructure within minutes.",
@@ -4152,10 +4162,10 @@
     }
   ],
   "stats": {
-    "total": 415,
+    "total": 416,
     "byCategory": {
+      "SECURITY": 92,
       "COMPUTE": 76,
-      "SECURITY": 91,
       "DATABASE": 42,
       "AI_ML": 67,
       "STORAGE": 12,
@@ -4165,7 +4175,7 @@
       "SERVERLESS": 11,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-03-01T22:25:34.841Z"
+    "lastUpdated": "2026-03-02T10:53:53.705Z"
   },
-  "generatedAt": "2026-03-01T22:25:34.841Z"
+  "generatedAt": "2026-03-02T10:53:53.706Z"
 }
