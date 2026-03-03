@@ -1,6 +1,26 @@
 {
   "announcements": [
     {
+      "id": "aebc3637726f07be6a9ace9a5220daacf74b0fbc",
+      "title": " Amazon SageMaker Unified Studio launches support for remote connection from Kiro IDE",
+      "summary": "AWS has launched support for remote connection between Kiro IDE and Amazon SageMaker Unified Studio, enabling data scientists and ML engineers to use Kiro's development features while accessing SageMaker's scalable compute resources. This integration allows users to leverage Kiro's spec-driven development, conversational coding, and automated feature generation capabilities without switching between different environments. The connection is established through the AWS toolkit extension, streamlining the development workflow.",
+      "category": "SECURITY",
+      "timestamp": "2026-03-03T19:39:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-unified-studio-kiro-ide/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c26f218480be86ded222cac548e03466f5adaa30",
+      "title": " Policy in Amazon Bedrock AgentCore is now generally available ",
+      "summary": "Amazon Bedrock AgentCore's Policy feature is now generally available, offering centralized, fine-grained controls for agent-tool interactions that operate independently of agent code. The feature allows security, compliance, and operations teams to define tool access and input validation rules using natural language, which automatically converts to Cedar policy language. This enables policy management without requiring modifications to existing agent code.",
+      "category": "SECURITY",
+      "timestamp": "2026-03-03T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/policy-amazon-bedrock-agentcore-generally-available/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "6dcdbde82b4d00da7a389a0c7303bf9a3784ba3c",
       "title": "AWS Batch now supports configurable scale down delay",
       "summary": "AWS Batch now supports a configurable scale down delay feature through the new minScaleDownDelayMinutes parameter, which allows you to keep instances running for 20 minutes to 1 week after job completion. This enhancement helps reduce processing delays for intermittent and periodic workloads by preventing unnecessary instance terminations and relaunches that would otherwise slow down subsequent job processing.",
@@ -27,6 +47,16 @@
       "category": "SECURITY",
       "timestamp": "2026-03-01T23:41:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/vpc-encryption-controls-pricing/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a54aac5803ae22e81cf30a222cc16afc7f30a7b8",
+      "title": "AWS Elemental MediaLive Now Supports SRT Listener Mode ",
+      "summary": "AWS Elemental MediaLive now supports SRT (Secure Reliable Transport) Listener mode for both inputs and outputs, allowing MediaLive to wait for connections instead of initiating them. This enables upstream sources to push live video directly to MediaLive while downstream systems pull encoded streams on demand. The feature simplifies network setup by eliminating the need for complex firewall configurations or static public IP addresses.",
+      "category": "SECURITY",
+      "timestamp": "2026-02-28T00:14:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-medialive-introduces-srt-listener/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -4029,53 +4059,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/ec2-m9g-instances-graviton5-processors-preview/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "345f08595809708ea4ebac6bd80b8e09c2c508d0",
-      "title": "Amazon SageMaker HyperPod now supports checkpointless training",
-      "summary": "Amazon SageMaker HyperPod has introduced checkpointless training, a new capability that eliminates the need for checkpoint-based job restarts during fault recovery in foundational model training. This innovation maintains continuous training momentum even when failures occur, dramatically reducing recovery time from hours to just minutes. The feature represents a significant improvement over traditional checkpoint-based recovery methods that require pausing entire training clusters and manual issue diagnosis.",
-      "category": "AI_ML",
-      "timestamp": "2025-12-03T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-sagemaker-hyperpod-checkpointless-training",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "2379419c497922710cfe1119f61f4f358397f6e1",
-      "title": "New serverless model customization capability in Amazon SageMaker AI",
-      "summary": "AWS has launched a new serverless model customization capability in Amazon SageMaker AI that allows developers to quickly customize popular AI models using supervised fine-tuning and reinforcement learning techniques. This feature addresses the common need for developers to customize models with proprietary data to improve accuracy. SageMaker AI is AWS's fully managed service designed to provide comprehensive tools for high-performance, cost-effective AI model development across various use cases.",
-      "category": "AI_ML",
-      "timestamp": "2025-12-03T14:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/new-serverless-model-customization-capability-amazon-sagemaker-ai",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "736e2e303e55b235a1ad2907d672fe0b436715a2",
-      "title": "Announcing TypeScript support in Strands Agents (preview) and more",
-      "summary": "AWS has announced TypeScript support (in preview) for Strands Agents, their open source SDK for building AI agents. Previously only available in Python since its May release, developers can now choose between Python and TypeScript when building Strands Agents. The TypeScript implementation includes full type safety, async/await support, and follows modern JavaScript/TypeScript conventions.",
-      "category": "SERVERLESS",
-      "timestamp": "2025-12-03T14:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/typescript-strands-agents-preview",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
     "total": 406,
     "byCategory": {
+      "SECURITY": 95,
       "COMPUTE": 73,
-      "SECURITY": 92,
       "DATABASE": 40,
-      "AI_ML": 63,
+      "AI_ML": 61,
       "STORAGE": 11,
       "OTHER": 85,
       "ANALYTICS": 12,
       "CONTAINERS": 14,
-      "SERVERLESS": 11,
+      "SERVERLESS": 10,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-03-03T10:40:10.688Z"
+    "lastUpdated": "2026-03-03T22:30:07.205Z"
   },
-  "generatedAt": "2026-03-03T10:40:10.689Z"
+  "generatedAt": "2026-03-03T22:30:07.205Z"
 }
