@@ -4059,35 +4059,15 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/typescript-strands-agents-preview",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "9c31bc9aca62069c3aee0f5ccbd4420d033193b9",
-      "title": " Introducing elastic training on Amazon SageMaker HyperPod",
-      "summary": "Amazon SageMaker HyperPod now offers elastic training capabilities that automatically scale foundation model training workloads based on available resources and priorities. This eliminates the need for manual intervention when compute availability changes, saving significant engineering time previously spent halting and reconfiguring training jobs. The feature represents a shift from fixed-resource training to dynamic scaling that accelerates model development workflows.",
-      "category": "AI_ML",
-      "timestamp": "2025-12-03T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/elastic-training-amazon-sagemaker-hyperpod/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "2704df6a7fca40dc868cee89aa75a7578a97ced5",
-      "title": "Amazon Bedrock now supports reinforcement fine-tuning delivering 66% accuracy gains on average over base models",
-      "summary": "Amazon Bedrock now offers reinforcement fine-tuning capabilities that allow developers to improve model accuracy by an average of 66% without requiring extensive machine learning expertise or large labeled datasets. This automated workflow enables models to align with specific requirements using only a small set of prompts rather than traditional large-scale data approaches. The feature makes advanced model customization accessible to everyday developers through Bedrock's streamlined automation.",
-      "category": "SECURITY",
-      "timestamp": "2025-12-03T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/bedrock-reinforcement-fine-tuning-66-base-models/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 408,
+    "total": 406,
     "byCategory": {
       "COMPUTE": 73,
-      "SECURITY": 93,
+      "SECURITY": 92,
       "DATABASE": 40,
-      "AI_ML": 64,
+      "AI_ML": 63,
       "STORAGE": 11,
       "OTHER": 85,
       "ANALYTICS": 12,
@@ -4095,7 +4075,7 @@
       "SERVERLESS": 11,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-03-02T22:27:15.030Z"
+    "lastUpdated": "2026-03-03T10:40:10.688Z"
   },
-  "generatedAt": "2026-03-02T22:27:15.030Z"
+  "generatedAt": "2026-03-03T10:40:10.689Z"
 }
