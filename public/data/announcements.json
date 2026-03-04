@@ -1,6 +1,56 @@
 {
   "announcements": [
     {
+      "id": "7f3c3ccfda240b3c637ca48ad97f49aca7356b8a",
+      "title": "AWS simplifies IAM role creation and setup in service workflows",
+      "summary": "AWS has introduced a streamlined IAM role creation feature that allows users to create and configure IAM roles directly within service workflows through a new panel, eliminating the need to switch between browser tabs. This enhancement simplifies the process of setting up secure cross-service connections that use temporary credentials instead of hardcoded access keys. The feature is integrated into console tasks that require role configuration, making IAM role setup more efficient and user-friendly.",
+      "category": "SECURITY",
+      "timestamp": "2026-03-04T20:50:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-simplifies-iam-role-creation-and-setup/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d7d9086398871c4231eb0d76b38785859b1f8f30",
+      "title": "Amazon Lightsail now offers OpenClaw, a private self-hosted AI assistant",
+      "summary": "Amazon Lightsail now offers OpenClaw, a private self-hosted AI assistant that can be deployed on your own cloud infrastructure with built-in security features. The service includes pre-configured security controls, sandboxed agent sessions, one-click HTTPS access, and device pairing authentication for secure deployment. This allows users to run their own AI assistant privately without complex manual configuration.",
+      "category": "SECURITY",
+      "timestamp": "2026-03-04T17:11:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-lightsail-openclaw/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "be2adc907ff6ad2c3a7b23deee1523bf2408d8e1",
+      "title": "Amazon OpenSearch Ingestion now supports Amazon Managed Service for Prometheus as a sink",
+      "summary": "Amazon OpenSearch Ingestion now supports Amazon Managed Service for Prometheus as a sink, enabling customers to build fully managed, end-to-end metrics ingestion pipelines without custom forwarding infrastructure. This allows customers to manage their entire metrics ingestion workflow using the same pipeline infrastructure they already use for logs and traces, providing flexibility to route different observability signals to their optimal destinations.",
+      "category": "ANALYTICS",
+      "timestamp": "2026-03-04T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-opensearch-ingestion-supports-amazon-managed-service-prometheus-sink",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e3415d38f61693b9da189bb7d25619e63394cd0a",
+      "title": "Amazon OpenSearch Ingestion now supports unified ingestion endpoint for OpenTelemetry data",
+      "summary": "Amazon OpenSearch Ingestion now offers a unified ingestion endpoint that can accept all three OpenTelemetry observability signals (logs, metrics, and traces) through a single pipeline. This eliminates the previous requirement for customers to create and manage three separate pipelines for each signal type. The new capability simplifies pipeline architecture and reduces operational overhead for organizations using OpenTelemetry data.",
+      "category": "ANALYTICS",
+      "timestamp": "2026-03-04T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-opensearch-ingestion-unified-ingestion-endpoint-opentelemetry",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a0f67cce194d48d0b75e3db5ff6faf3f0a64f351",
+      "title": "Amazon GameLift Servers launches DDoS Protection",
+      "summary": "Amazon GameLift Servers has launched a new DDoS Protection feature designed to help game developers defend their session-based multiplayer games against denial-of-service and distributed denial-of-service attacks. The protection provides proactive, UDP-based traffic filtering that operates automatically without requiring manual configuration or causing significant latency increases, ultimately improving overall game session resilience.",
+      "category": "OTHER",
+      "timestamp": "2026-03-04T13:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-gamelift-servers-ddos-protection/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "73911556cdcf873332e91b014158ad6c78bb3f45",
       "title": "Amazon SageMaker Unified Studio adds metadata sync with third-party catalogs",
       "summary": "Amazon SageMaker Unified Studio now supports automatic metadata synchronization with third-party data catalog platforms including Atlan, Collibra, and Alation. This integration ensures consistent views of data and AI assets across platforms by automatically aligning glossary terms, asset descriptions, and ownership information. Organizations can now maintain unified metadata management without manual reconciliation between their SageMaker Catalog and these partner platforms.",
@@ -4059,33 +4109,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-q-analyze-ses-email-sending/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "c92b155d1a8e581bebba2b5b14b511ffc70ccbdd",
-      "title": "Amazon Bedrock now supports Responses API from OpenAI",
-      "summary": "Amazon Bedrock now supports OpenAI's Responses API through new API-compatible service endpoints, enabling asynchronous inference for long-running workloads and simplified tool integration for agentic workflows. The API provides stateful conversation management, automatically rebuilding context without requiring developers to manually pass entire conversation histories with each request. This enhancement streamlines development by reducing the complexity of managing conversational state and tool interactions.",
-      "category": "AI_ML",
-      "timestamp": "2025-12-04T12:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-bedrock-responses-api-from-openai/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 407,
+    "total": 411,
     "byCategory": {
-      "AI_ML": 62,
-      "SECURITY": 95,
+      "SECURITY": 97,
+      "ANALYTICS": 14,
+      "OTHER": 86,
+      "AI_ML": 61,
       "COMPUTE": 73,
       "DATABASE": 40,
       "STORAGE": 11,
-      "OTHER": 85,
-      "ANALYTICS": 12,
       "CONTAINERS": 14,
       "SERVERLESS": 10,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-03-04T10:37:41.663Z"
+    "lastUpdated": "2026-03-04T22:33:08.851Z"
   },
-  "generatedAt": "2026-03-04T10:37:41.664Z"
+  "generatedAt": "2026-03-04T22:33:08.851Z"
 }
