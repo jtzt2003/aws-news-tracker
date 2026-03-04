@@ -1,6 +1,26 @@
 {
   "announcements": [
     {
+      "id": "73911556cdcf873332e91b014158ad6c78bb3f45",
+      "title": "Amazon SageMaker Unified Studio adds metadata sync with third-party catalogs",
+      "summary": "Amazon SageMaker Unified Studio now supports automatic metadata synchronization with third-party data catalog platforms including Atlan, Collibra, and Alation. This integration ensures consistent views of data and AI assets across platforms by automatically aligning glossary terms, asset descriptions, and ownership information. Organizations can now maintain unified metadata management without manual reconciliation between their SageMaker Catalog and these partner platforms.",
+      "category": "AI_ML",
+      "timestamp": "2026-03-03T23:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-unified-studio-3p-catalogs/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "000e9b3643f730a45411cea1297439f095047987",
+      "title": " Amazon SageMaker Unified Studio now supports AWS Glue 5.1 for data processing jobs",
+      "summary": "Amazon SageMaker Unified Studio now supports AWS Glue 5.1, enabling data engineers and scientists to run Visual ETL, notebook, and code-based data processing jobs on Apache Spark 3.5.6 with Python 3.11 and Scala 2.12.18. The update also includes support for newer open table format libraries such as Apache Iceberg 1.10.0, Apache Hudi 1.0.2, and Delta Lake 3.3.2.",
+      "category": "AI_ML",
+      "timestamp": "2026-03-03T23:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-unified-studio-aws-glue-5-1/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "aebc3637726f07be6a9ace9a5220daacf74b0fbc",
       "title": " Amazon SageMaker Unified Studio launches support for remote connection from Kiro IDE",
       "summary": "AWS has launched support for remote connection between Kiro IDE and Amazon SageMaker Unified Studio, enabling data scientists and ML engineers to use Kiro's development features while accessing SageMaker's scalable compute resources. This integration allows users to leverage Kiro's spec-driven development, conversational coding, and automated feature generation capabilities without switching between different environments. The connection is established through the AWS toolkit extension, streamlining the development workflow.",
@@ -4049,25 +4069,15 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-bedrock-responses-api-from-openai/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "1bf213e270559f1bb9f1a9b4453447151d57b47c",
-      "title": "Announcing new Amazon EC2 M9g instances powered by AWS Graviton5 processors (Preview)",
-      "summary": "AWS has announced the preview availability of new Amazon EC2 M9g instances powered by the latest AWS Graviton5 processors. These new general-purpose instances deliver up to 25% better compute performance compared to the previous generation Graviton4-based M8g instances, along with improved networking and Amazon EBS bandwidth. The Graviton5 processors are custom-designed by AWS to optimize price-performance for EC2 workloads.",
-      "category": "AI_ML",
-      "timestamp": "2025-12-04T09:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/ec2-m9g-instances-graviton5-processors-preview/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 406,
+    "total": 407,
     "byCategory": {
+      "AI_ML": 62,
       "SECURITY": 95,
       "COMPUTE": 73,
       "DATABASE": 40,
-      "AI_ML": 61,
       "STORAGE": 11,
       "OTHER": 85,
       "ANALYTICS": 12,
@@ -4075,7 +4085,7 @@
       "SERVERLESS": 10,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-03-03T22:30:07.205Z"
+    "lastUpdated": "2026-03-04T10:37:41.663Z"
   },
-  "generatedAt": "2026-03-03T22:30:07.205Z"
+  "generatedAt": "2026-03-04T10:37:41.664Z"
 }
