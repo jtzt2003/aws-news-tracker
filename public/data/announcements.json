@@ -11,6 +11,16 @@
       "isNew": false
     },
     {
+      "id": "af4066d48b2e5c747763ac742f10b5396bd541e3",
+      "title": "Amazon SageMaker HyperPod now provides comprehensive observability for Restricted Instance Groups",
+      "summary": "Amazon SageMaker HyperPod has introduced comprehensive observability features for Restricted Instance Groups (RIG), specifically designed for teams training foundation models with Nova Forge. This new capability provides automated monitoring and a unified view of GPU performance, system health, network throughput, and Kubernetes cluster state, eliminating the need for manual metric collection and correlation across the infrastructure stack.",
+      "category": "AI_ML",
+      "timestamp": "2026-03-04T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-hyperpod-observability-rig/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "d7d9086398871c4231eb0d76b38785859b1f8f30",
       "title": "Amazon Lightsail now offers OpenClaw, a private self-hosted AI assistant",
       "summary": "Amazon Lightsail now offers OpenClaw, a private self-hosted AI assistant that can be deployed on your own cloud infrastructure with built-in security features. The service includes pre-configured security controls, sandboxed agent sessions, one-click HTTPS access, and device pairing authentication for secure deployment. This allows users to run their own AI assistant privately without complex manual configuration.",
@@ -4079,53 +4089,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-connect-customer-profiles/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "ca845f0dcd7f1a979abfadcffb771b18302bdae1",
-      "title": "AWS launches simplified enablement of AWS CloudTrail events in Amazon CloudWatch",
-      "summary": "AWS has launched a simplified way to enable AWS CloudTrail events in Amazon CloudWatch, allowing users to centrally configure CloudTrail event collection alongside other AWS log sources like VPC flow logs and EKS Control Plane Logs. This new feature provides a consolidated view through CloudWatch's ingestion experience, making it easier to collect, monitor, and analyze log data from AWS resources and applications in one place.",
-      "category": "CONTAINERS",
-      "timestamp": "2025-12-05T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/key-enhancements-cloudtrail-events-cloudwatch/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "651a0bfdc4a000dc4a002d84ca85e8520fea0995",
-      "title": "AWS Elastic Beanstalk now supports Python 3.14 on Amazon Linux 2023",
-      "summary": "AWS Elastic Beanstalk now supports Python 3.14 applications on the Amazon Linux 2023 (AL2023) platform, allowing developers to use the latest Python features while benefiting from enhanced security and performance. This update enables customers to deploy and manage Python 3.14 applications through Beanstalk's infrastructure-abstracted service without having to worry about underlying server management.",
-      "category": "SECURITY",
-      "timestamp": "2025-12-05T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/elastic-beanstalk-python-314-linux-2023/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f6d2b5918417ffaa3b761a9902443cedd35baece",
-      "title": "Amazon Q now can analyze SES email sending",
-      "summary": "Amazon Q now supports analyzing Amazon Simple Email Service (SES) email sending, allowing customers to ask questions about their SES setup and usage patterns. Q can help optimize SES configurations and troubleshoot email deliverability issues, making SES management more accessible to users with less technical expertise.",
-      "category": "AI_ML",
-      "timestamp": "2025-12-05T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-q-analyze-ses-email-sending/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 411,
+    "total": 409,
     "byCategory": {
-      "SECURITY": 97,
+      "SECURITY": 96,
+      "AI_ML": 61,
       "ANALYTICS": 14,
       "OTHER": 86,
-      "AI_ML": 61,
       "COMPUTE": 73,
       "DATABASE": 40,
       "STORAGE": 11,
-      "CONTAINERS": 14,
+      "CONTAINERS": 13,
       "SERVERLESS": 10,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-03-04T22:33:08.851Z"
+    "lastUpdated": "2026-03-05T10:40:02.095Z"
   },
-  "generatedAt": "2026-03-04T22:33:08.851Z"
+  "generatedAt": "2026-03-05T10:40:02.095Z"
 }
