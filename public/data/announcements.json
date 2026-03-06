@@ -1,12 +1,62 @@
 {
   "announcements": [
     {
+      "id": "7b9a0608c228332eb36d459d9f07f915223bd647",
+      "title": "Amazon Redshift introduces reusable templates for COPY operations",
+      "summary": "Amazon Redshift has introduced reusable templates for COPY operations that allow users to store and reuse frequently used COPY parameters. This feature eliminates the need to manually specify formatting parameters for each operation, maintaining consistency across data ingestion processes. The templates reduce time and effort required for executing COPY commands by streamlining repetitive data loading tasks.",
+      "category": "DATABASE",
+      "timestamp": "2026-03-06T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-redshift-reusable-templates-copy/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3a566ae59e2ed3f9d155c2a8469c56b504a82d2a",
+      "title": "Amazon Redshift introduces new array functions for semi-structured data processing",
+      "summary": "Amazon Redshift has introduced nine new array functions (including ARRAY_CONTAINS, ARRAY_DISTINCT, ARRAY_SORT, and others) that enable users to efficiently search, compare, sort, and transform semi-structured data stored in the SUPER data type. These functions allow developers to perform complex array operations directly within SQL queries, eliminating the need to write custom PartiQL SQL logic that was previously required for such tasks.",
+      "category": "DATABASE",
+      "timestamp": "2026-03-06T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-redshift-nine-new-array-functions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "292aec51bdadcab844451b08e71aad6600fb8beb",
+      "title": "Amazon EC2 R8g instances now available in additional regions",
+      "summary": "Amazon EC2 R8g instances are now available in three additional AWS regions: Middle East (UAE), Mexico (Central), and Europe (Zurich). These instances are powered by AWS Graviton4 processors and deliver up to 30% better performance compared to Graviton3-based instances. The R8g instances are optimized for memory-intensive workloads like databases, in-memory caches, and real-time big data analytics.",
+      "category": "SECURITY",
+      "timestamp": "2026-03-06T01:12:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-r8g-instances-additional-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3e098b6eabe8b5127b683d3b76eb502ee6f15813",
+      "title": "Amazon Redshift Serverless now maintains datashare permissions during restore",
+      "summary": "Amazon Redshift Serverless now automatically preserves datashare permissions when restoring a snapshot to the same namespace, eliminating the need for manual re-configuration. This enhancement streamlines data sharing workflows by removing the previous requirement for administrators to manually re-grant permissions to consumer clusters and recreate consumer databases after a restore operation.",
+      "category": "DATABASE",
+      "timestamp": "2026-03-05T22:45:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-redshift-serverless-maintains-datashare-permissions-on-restore/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "18a9268e16cd155831509e5dede5fb24db664471",
       "title": "Multi-party approval now supports approval team baselining",
       "summary": "AWS Multi-party approval (MPA) now includes approval team baselining, which allows MPA administrators to run test approvals to verify their approval teams are properly configured and responsive. This new feature helps prevent approval teams from becoming unresponsive due to issues like staff turnover, incorrect approver selection, or reduced engagement. The capability enables administrators and security teams to proactively validate their approval configurations before using them for critical operations.",
       "category": "SECURITY",
       "timestamp": "2026-03-05T19:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/multi-party-approval-team-baselining/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f8150a182803ef73c9d484e383a95d32063a972c",
+      "title": " Amazon SageMaker Unified Studio adds light mode support for IAM-based domains",
+      "summary": "Amazon SageMaker Unified Studio now supports light mode for IAM-based domains, allowing customers to choose between dark and light visual themes based on their preferences. This update improves readability in bright environments and gives users full control over their development environment's appearance.",
+      "category": "AI_ML",
+      "timestamp": "2026-03-05T18:22:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/sagemaker-unified-studio-light-mode/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -4112,11 +4162,11 @@
     }
   ],
   "stats": {
-    "total": 411,
+    "total": 416,
     "byCategory": {
-      "SECURITY": 97,
-      "DATABASE": 41,
-      "AI_ML": 58,
+      "DATABASE": 44,
+      "SECURITY": 98,
+      "AI_ML": 59,
       "COMPUTE": 75,
       "OTHER": 87,
       "ANALYTICS": 14,
@@ -4125,7 +4175,7 @@
       "SERVERLESS": 10,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-03-06T10:36:30.109Z"
+    "lastUpdated": "2026-03-06T22:29:31.971Z"
   },
-  "generatedAt": "2026-03-06T10:36:30.110Z"
+  "generatedAt": "2026-03-06T22:29:31.971Z"
 }
