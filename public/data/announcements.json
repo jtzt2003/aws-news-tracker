@@ -41,6 +41,16 @@
       "isNew": false
     },
     {
+      "id": "6cfb6a6c7204ccd4ca4fbd9adbb6b019b6d09290",
+      "title": "Amazon EC2 I8ge instances now generally available in Europe (Ireland) AWS region.",
+      "summary": "AWS has launched Amazon EC2 I8ge instances in the Europe (Ireland) region, designed for storage-intensive workloads. These instances feature 5th generation Intel Xeon Scalable processors (3.2 GHz all-core turbo) and provide up to 40% better compute performance and 20% better price performance compared to I3en instances. The I8ge instances offer up to 120TB of local NVMe storage density, which is the highest available in the cloud.",
+      "category": "COMPUTE",
+      "timestamp": "2026-03-05T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-I8ge-expansion-ireland/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "2c402445eec6d43996d0dda34c9c0547fa2d499e",
       "title": "Amazon OpenSearch Service introduces capacity optimized blue/green deployments",
       "summary": "Amazon OpenSearch Service has introduced a Capacity Optimized option for blue/green deployments that allows domain updates to proceed even when there isn't enough available instance capacity for a full parallel environment. The new approach performs updates in incremental batches rather than creating a complete duplicate environment, significantly reducing the number of additional instances required during the deployment process.",
@@ -4102,12 +4112,12 @@
     }
   ],
   "stats": {
-    "total": 410,
+    "total": 411,
     "byCategory": {
       "SECURITY": 97,
       "DATABASE": 41,
       "AI_ML": 58,
-      "COMPUTE": 74,
+      "COMPUTE": 75,
       "OTHER": 87,
       "ANALYTICS": 14,
       "STORAGE": 11,
@@ -4115,7 +4125,7 @@
       "SERVERLESS": 10,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-03-05T22:33:19.555Z"
+    "lastUpdated": "2026-03-06T10:36:30.109Z"
   },
-  "generatedAt": "2026-03-05T22:33:19.556Z"
+  "generatedAt": "2026-03-06T10:36:30.110Z"
 }
