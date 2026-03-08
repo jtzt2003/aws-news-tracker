@@ -4149,33 +4149,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-quick-suite-research-flows-report-automation",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "8b028e80c451a32178c504682dacd9a85e1eb3bc",
-      "title": "Announcing Spatial Data Management on AWS to accelerate spatial-data insights",
-      "summary": "AWS has announced Spatial Data Management on AWS (SDMA), a new solution that allows customers to store, enrich, and connect multimodal spatial data (including 3D, geospatial, behavioral, and temporal data) at scale in a secure, centralized cloud environment. SDMA functions as a collaborative hub that connects customers' spatial data with their ISV SaaS applications and AWS services to accelerate spatial data insights.",
-      "category": "OTHER",
-      "timestamp": "2025-12-08T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/spatial-data-management-spatial-data-insights/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 416,
+    "total": 415,
     "byCategory": {
       "DATABASE": 44,
       "SECURITY": 98,
       "AI_ML": 59,
       "COMPUTE": 75,
-      "OTHER": 87,
+      "OTHER": 86,
       "ANALYTICS": 14,
       "STORAGE": 11,
       "CONTAINERS": 13,
       "SERVERLESS": 10,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-03-07T22:24:28.333Z"
+    "lastUpdated": "2026-03-08T10:26:40.358Z"
   },
-  "generatedAt": "2026-03-07T22:24:28.334Z"
+  "generatedAt": "2026-03-08T10:26:40.358Z"
 }
