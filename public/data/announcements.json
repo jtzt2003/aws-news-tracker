@@ -4139,33 +4139,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/gamelift-servers-console-developers-ai-powered/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "da40f8b372671247469a36c25ec9a7b988df1df6",
-      "title": "Amazon Quick Suite integrates Quick Research with Quick Flows for report automation",
-      "summary": "Amazon Quick Suite now integrates Quick Research with Quick Flows, allowing teams to automatically generate comprehensive research reports as part of multi-step workflows. This integration transforms research projects into reusable, shareable workflows across organizations. Quick Suite is Amazon's AI-powered workspace designed to help businesses quickly derive insights from their data and take action.",
-      "category": "OTHER",
-      "timestamp": "2025-12-08T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-quick-suite-research-flows-report-automation",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 415,
+    "total": 414,
     "byCategory": {
       "DATABASE": 44,
       "SECURITY": 98,
       "AI_ML": 59,
       "COMPUTE": 75,
-      "OTHER": 86,
+      "OTHER": 85,
       "ANALYTICS": 14,
       "STORAGE": 11,
       "CONTAINERS": 13,
       "SERVERLESS": 10,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-03-08T10:26:40.358Z"
+    "lastUpdated": "2026-03-08T22:25:13.090Z"
   },
-  "generatedAt": "2026-03-08T10:26:40.358Z"
+  "generatedAt": "2026-03-08T22:25:13.090Z"
 }
