@@ -1,6 +1,46 @@
 {
   "announcements": [
     {
+      "id": "511f3b71788ad4bd803795b50a2d426da330938d",
+      "title": "Amazon CloudWatch Logs announces increased query concurrency and API limits",
+      "summary": "Amazon CloudWatch Logs has increased its query concurrency limit from 30 to 100 concurrent queries per account and raised API limits to 10 StartQuery and GetQueryResults calls per second per account/per-region. These enhancements allow customers to support more simultaneous users and execute more concurrent queries using the Logs Insights Query Language, improving overall dashboard and query performance.",
+      "category": "OTHER",
+      "timestamp": "2026-03-09T20:16:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-cloudwatch-logs-increased-limits/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2d962e1c501c9ef989835b97105774596fd81347",
+      "title": "Amazon Cognito is now available in Asia Pacific (Taipei) and Asia Pacific (New Zealand) Regions",
+      "summary": "Amazon Cognito, AWS's identity and access management service, has expanded to two new Asia Pacific regions: Taipei and New Zealand. This expansion brings all Cognito features and tiers to these regions, enabling customers to quickly implement secure authentication and access control for users, AI agents, and microservices.",
+      "category": "SECURITY",
+      "timestamp": "2026-03-09T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/cognito-taipei-and-new-zealand-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7bbfe09f86f72a285b6454dfa369f0c22bea3cbf",
+      "title": "IAM Roles Anywhere now supports post-quantum digital certificates",
+      "summary": "AWS IAM Roles Anywhere now supports FIPS 204 Module-Lattice Digital Signature Standard (ML-DSA), a quantum-resistant digital signature algorithm standardized by NIST. This enhancement helps protect against potential threats from large-scale quantum computers for customers who use X.509 certificates to authenticate workloads to AWS.",
+      "category": "OTHER",
+      "timestamp": "2026-03-09T19:53:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/iam-roles-anywhere-post-quantum-digital-certificates",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a6769b89dd0ac64cc298a206712fae08d1ee701f",
+      "title": "Amazon EC2 G7e instances now available in Asia Pacific (Seoul) and Europe (Spain) regions",
+      "summary": "Amazon EC2 G7e instances powered by NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs are now available in Asia Pacific (Seoul) and Europe (Spain) regions. These instances deliver up to 2.3x better inference performance compared to G6e instances and are optimized for deploying large language models, agentic AI, multimodal generative AI, and physical AI models. G7e instances also provide the highest performance for spatial computing and related workloads.",
+      "category": "AI_ML",
+      "timestamp": "2026-03-09T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-g7e-seoul-spain-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "7b9a0608c228332eb36d459d9f07f915223bd647",
       "title": "Amazon Redshift introduces reusable templates for COPY operations",
       "summary": "Amazon Redshift has introduced reusable templates for COPY operations that allow users to store and reuse frequently used COPY parameters. This feature eliminates the need to manually specify formatting parameters for each operation, maintaining consistency across data ingestion processes. The templates reduce time and effort required for executing COPY commands by streamlining repetitive data loading tasks.",
@@ -4089,53 +4129,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/support-center-console-screen-sharing/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "a64b40a426341cc0856f7569bc47cadaef18b7bc",
-      "title": "Amazon EC2 C8gn instances are now available in additional regions",
-      "summary": "Amazon EC2 C8gn instances powered by AWS Graviton4 processors are now available in the US East (Ohio) and Middle East (UAE) regions. These new instances deliver up to 30% better compute performance compared to the previous Graviton3-based C7gn instances and feature 6th generation AWS Nitro Cards with up to 600 Gbps network bandwidth, making them the highest network bandwidth offering among network-optimized EC2 instances.",
-      "category": "AI_ML",
-      "timestamp": "2025-12-09T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-c8gn-instances-additional-regions",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "3c7631cdd7e5e3be66e1824b54d6e784e3d388ab",
-      "title": "Amazon EC2 X8g instances now available in Europe (Stockholm) region",
-      "summary": "Amazon EC2 X8g instances are now available in the Europe (Stockholm) region, powered by AWS Graviton4 processors and offering up to 3 TiB of total memory with increased memory per vCPU. These instances are specifically designed for memory-intensive workloads including electronic design automation, in-memory databases, relational databases, and real-time big data applications.",
-      "category": "COMPUTE",
-      "timestamp": "2025-12-09T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-x8g-instances-europe-stockholm/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "46927d2a8a9a893679eb3ff49e6377f2bb7ff360",
-      "title": "AWS Partner Central now includes opportunity deal sizing",
-      "summary": "AWS has launched a new AI-powered deal sizing feature in AWS Partner Central that helps partners quickly estimate AWS monthly recurring revenue (MMR) and receive service recommendations when managing opportunities. The feature is integrated within APN Customer Engagements (ACE) Opportunities and can automatically populate deal information by importing AWS Pricing Calculator URLs. This capability streamlines deal management by reducing the time partners spend on revenue estimation tasks.",
-      "category": "OTHER",
-      "timestamp": "2025-12-09T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-partner-central-opportunity-deal-sizing",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 412,
+    "total": 413,
     "byCategory": {
-      "DATABASE": 43,
-      "SECURITY": 98,
+      "OTHER": 86,
+      "SECURITY": 99,
       "AI_ML": 58,
-      "COMPUTE": 75,
-      "OTHER": 85,
+      "DATABASE": 43,
+      "COMPUTE": 74,
       "ANALYTICS": 14,
       "STORAGE": 11,
       "CONTAINERS": 13,
       "SERVERLESS": 10,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-03-09T10:46:28.022Z"
+    "lastUpdated": "2026-03-09T22:30:05.835Z"
   },
-  "generatedAt": "2026-03-09T10:46:28.022Z"
+  "generatedAt": "2026-03-09T22:30:05.836Z"
 }
