@@ -4119,34 +4119,14 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-partner-central-opportunity-deal-sizing",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "7c8f10ae67588ff1779efa72dafa79fae3991bba",
-      "title": "Amazon RDS and Aurora now support resource tagging for Automated Backups",
-      "summary": "Amazon RDS and Aurora now support resource tagging for automated backups, allowing you to tag backups separately from their parent DB instances or clusters. This enhancement enables Attribute-Based Access Control (ABAC) and improves resource management and cost tracking by letting you control access and permissions through IAM policies using these tags.",
-      "category": "DATABASE",
-      "timestamp": "2025-12-09T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/rds-aurora-resource-tagging-automated-backups/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "abf87a984d83fb7e562781f11c75722e2d1f5655",
-      "title": "Amazon GameLift Servers enhances AWS Console for game developers with AI powered assistance",
-      "summary": "Amazon GameLift Servers has launched AI-powered assistance in the AWS Console using Amazon Q Developer to provide specialized guidance for game developers. The new feature helps developers navigate complex workflows, troubleshoot issues, and optimize game server deployments with tailored recommendations for integration, fleet configuration, and performance optimization.",
-      "category": "AI_ML",
-      "timestamp": "2025-12-09T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/gamelift-servers-console-developers-ai-powered/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 414,
+    "total": 412,
     "byCategory": {
-      "DATABASE": 44,
+      "DATABASE": 43,
       "SECURITY": 98,
-      "AI_ML": 59,
+      "AI_ML": 58,
       "COMPUTE": 75,
       "OTHER": 85,
       "ANALYTICS": 14,
@@ -4155,7 +4135,7 @@
       "SERVERLESS": 10,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-03-08T22:25:13.090Z"
+    "lastUpdated": "2026-03-09T10:46:28.022Z"
   },
-  "generatedAt": "2026-03-08T22:25:13.090Z"
+  "generatedAt": "2026-03-09T10:46:28.022Z"
 }
