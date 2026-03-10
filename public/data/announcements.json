@@ -11,6 +11,16 @@
       "isNew": false
     },
     {
+      "id": "24f72a8dd700da861ecd50c2342f7b40320dbbad",
+      "title": "Amazon Quick Suite launches User Preferences for chat personalization",
+      "summary": "Amazon QuickSight has launched User Preferences, a new feature that allows users to personalize their chat experience within the platform. Users can now customize their Chat panel layout (expanded or collapsed by default), select a default chat agent, and set a preferred knowledge scope for My Assistant. The system automatically remembers user settings and resumes from their last configuration.",
+      "category": "AI_ML",
+      "timestamp": "2026-03-09T20:03:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/user-preferences-in-quick/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "2d962e1c501c9ef989835b97105774596fd81347",
       "title": "Amazon Cognito is now available in Asia Pacific (Taipei) and Asia Pacific (New Zealand) Regions",
       "summary": "Amazon Cognito, AWS's identity and access management service, has expanded to two new Asia Pacific regions: Taipei and New Zealand. This expansion brings all Cognito features and tiers to these regions, enabling customers to quickly implement secure authentication and access control for users, AI agents, and microservices.",
@@ -4109,34 +4119,14 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-cloudwatch-sdk-json-cbor-protocols",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "16b1f5d3eac17862ff9050277738e8dcfad0cdc3",
-      "title": "Amazon Braket now supports Qiskit 2.0",
-      "summary": "Amazon Braket now supports Qiskit 2.0, allowing quantum developers to use the latest version of the popular quantum software framework with enhanced native capabilities. The integration includes native implementations of Qiskit's Sampler and Estimator primitives that use Braket's program sets for optimized batching, which reduces both execution time and costs compared to generic wrapper approaches.",
-      "category": "OTHER",
-      "timestamp": "2025-12-10T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-braket-qiskit-2-0/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "e73f6bccb16221d99bff9d094e443fd0247ef451",
-      "title": "AWS Support Center Console now supports  screen sharing for troubleshooting support cases",
-      "summary": "AWS has launched a new screen sharing feature for the AWS Support Center Console that allows customers to request virtual meetings during active support chats or calls. Users can join support calls with one click through a meeting bridge link and share their screens with AWS support representatives for more efficient troubleshooting. This enhancement streamlines the support experience by maintaining seamless access to case details during virtual meetings.",
-      "category": "OTHER",
-      "timestamp": "2025-12-10T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/support-center-console-screen-sharing/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 413,
+    "total": 412,
     "byCategory": {
-      "OTHER": 86,
+      "OTHER": 84,
+      "AI_ML": 59,
       "SECURITY": 99,
-      "AI_ML": 58,
       "DATABASE": 43,
       "COMPUTE": 74,
       "ANALYTICS": 14,
@@ -4145,7 +4135,7 @@
       "SERVERLESS": 10,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-03-09T22:30:05.835Z"
+    "lastUpdated": "2026-03-10T10:40:05.589Z"
   },
-  "generatedAt": "2026-03-09T22:30:05.836Z"
+  "generatedAt": "2026-03-10T10:40:05.589Z"
 }
