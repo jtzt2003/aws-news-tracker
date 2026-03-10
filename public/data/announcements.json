@@ -1,6 +1,66 @@
 {
   "announcements": [
     {
+      "id": "626c58c4e0ea9692c0e8b36473a090ae8a283193",
+      "title": "AWS Builder ID now supports Sign in with GitHub and Amazon ",
+      "summary": "AWS Builder ID has added GitHub and Amazon as new social login options, joining the existing Google and Apple sign-in capabilities. This allows developers to access AWS applications like AWS Builder Center, AWS Training and Certification, and Kiro using their existing GitHub or Amazon credentials without needing separate AWS login credentials.",
+      "category": "OTHER",
+      "timestamp": "2026-03-10T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-builder-id-sign-in-github-amazon/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "54fff12b63f65c5c599047a4def22389020caff9",
+      "title": "Amazon Connect enhances AI-powered predictive insights ",
+      "summary": "Amazon Connect has enhanced its AI-powered predictive insights with significant scalability and accuracy improvements, including support for up to 40 million product catalog items (an 8X increase) and up to 14% better model accuracy. The enhancements build on five recommendation algorithms from re:Invent 2025 and now include integration with message templates for trigger-based campaigns. These improvements help businesses deliver more proactive and personalized customer experiences at scale.",
+      "category": "OTHER",
+      "timestamp": "2026-03-10T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-predictive-insights/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c87bd4ec8aa18864bb790dd745356e4a41f901e4",
+      "title": "Amazon Connect now supports conversational analytics for email ",
+      "summary": "Amazon Connect now supports conversational analytics for email contacts, allowing contact center managers to automatically categorize emails, redact PII, and generate contact summaries. This new capability enables managers to quickly identify trends, maintain compliance by protecting sensitive data, and reduce time spent on agent performance reviews. The feature works automatically when customers send emails about issues like account problems.",
+      "category": "OTHER",
+      "timestamp": "2026-03-10T15:45:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-conversational-analytics-email/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2ea17a53df864e110da8514b3f5fb337663c7975",
+      "title": "Amazon Connect introduces AI-powered manager assistance (Preview)",
+      "summary": "Amazon Connect has launched a preview of an AI-powered assistant that allows contact center managers to instantly query over 150 operational metrics using natural language, eliminating hours of manual data gathering. The assistant can analyze historical data across areas like agent scheduling, self-service experiences, and performance evaluations, while also diagnosing underlying operational issues. This tool enables managers to get quick answers to operational questions and insights in seconds rather than spending time on manual analysis.",
+      "category": "OTHER",
+      "timestamp": "2026-03-10T15:45:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-ai-powered-manager-assistance/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3cdd1cfbd408f7130cffdc70a2dc80c0c5b4f7fb",
+      "title": "Amazon OpenSearch Service now supports in-place volume increases for all volume sizes",
+      "summary": "Amazon OpenSearch Service now allows in-place volume size increases for all storage volumes, removing the previous 3 TiB limitation. This enhancement enables users to scale storage capacity of any size without requiring disruptive blue/green deployments, making it faster and easier to expand storage when needed.",
+      "category": "ANALYTICS",
+      "timestamp": "2026-03-10T15:44:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-opensearch-service-in-place-volume/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5a7afa601a3ec6d0e986f465f1d7cdecf88f5f17",
+      "title": "Amazon Route 53 Global Resolver is now generally available",
+      "summary": "AWS has announced the general availability of Amazon Route 53 Global Resolver, an anycast DNS resolver that provides secure and reliable DNS resolution for authorized clients from anywhere on the internet. The service is now available across 30 AWS Regions with support for both IPv4 and IPv6 traffic, expanding from its initial preview launch at re:Invent 2025 in 11 regions. Global Resolver enables organizations to resolve both public internet domains and private domains for their authorized clients.",
+      "category": "NETWORKING",
+      "timestamp": "2026-03-09T22:04:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-route-53-global-resolver/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "511f3b71788ad4bd803795b50a2d426da330938d",
       "title": "Amazon CloudWatch Logs announces increased query concurrency and API limits",
       "summary": "Amazon CloudWatch Logs has increased its query concurrency limit from 30 to 100 concurrent queries per account and raised API limits to 10 StartQuery and GetQueryResults calls per second per account/per-region. These enhancements allow customers to support more simultaneous users and execute more concurrent queries using the Logs Insights Query Language, improving overall dashboard and query performance.",
@@ -4069,73 +4129,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/ec2-c7i-instances-asia-pacific-hyderabad-region/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "1715fb770ba3d8bdda1d90386b25678af3a3b005",
-      "title": "Amazon ECS now supports custom container stop signals on AWS Fargate",
-      "summary": "Amazon ECS now supports custom container stop signals for Linux tasks on AWS Fargate, allowing containers to use their preferred termination signals as defined in OCI images instead of always receiving SIGTERM. This enhancement enables more graceful shutdown behavior by aligning Fargate task termination with each container's specific stop signal configuration.",
-      "category": "CONTAINERS",
-      "timestamp": "2025-12-10T20:48:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ecs-custom-container-stop-signals-fargate/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "39f19a307d1a5a331093e42b995deffeb9cc1e12",
-      "title": "Now generally available: Amazon EC2 C8gb instances",
-      "summary": "AWS has announced the general availability of Amazon EC2 C8gb instances, which are powered by AWS Graviton4 processors and optimized for Amazon EBS storage. These new instances deliver up to 30% better compute performance compared to Graviton3 processors and offer up to 150 Gbps of EBS bandwidth. The C8gb instances provide higher EBS performance compared to equivalent-sized Graviton4-based instances, making them ideal for workloads requiring enhanced block storage performance.",
-      "category": "COMPUTE",
-      "timestamp": "2025-12-10T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/generally-available-amazon-ec2-c8gb-instances",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "8f49bb4d3862f1de3c70771c8a8953f109576533",
-      "title": "Amazon EC2 X8g instances now available in Asia Pacific (Sydney) region",
-      "summary": "Amazon EC2 X8g instances powered by AWS Graviton4 processors are now available in the Asia Pacific (Sydney) region, offering up to 60% better performance than Graviton2-based X2gd instances. These instances provide up to 3 TiB of total memory with increased memory per vCPU, making them ideal for memory-intensive workloads while delivering the best price performance among EC2 X-series instances.",
-      "category": "COMPUTE",
-      "timestamp": "2025-12-10T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-x8g-instances-asia-pacific-sydney/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "28792ca77e77ee6b650cd0a05c82c32821230b32",
-      "title": "Amazon ElastiCache Serverless now supports same-slot WATCH command",
-      "summary": "Amazon ElastiCache Serverless now supports the WATCH command for same-slot transactions, enabling developers to build more reliable applications with better data consistency in high-concurrency environments. The WATCH command makes transactions conditional by ensuring they only execute when the monitored keys remain unchanged, but it works specifically with transactions operating on keys within the same hash slot as the watched keys.",
-      "category": "DATABASE",
-      "timestamp": "2025-12-10T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-elasticache-serverless-same-slot-watch-command",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "837a7e9e0f502733c0a5e4243dc407d984430931",
-      "title": "Amazon CloudWatch SDK supports optimized JSON, CBOR protocols",
-      "summary": "Amazon CloudWatch has added support for JSON and CBOR (Concise Binary Object Representation) protocols in its SDK to deliver lower latency and better performance. The SDK automatically selects the optimal protocol, resulting in reduced payload sizes, decreased CPU and memory usage, and faster end-to-end processing for CloudWatch customers.",
-      "category": "OTHER",
-      "timestamp": "2025-12-10T12:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-cloudwatch-sdk-json-cbor-protocols",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 412,
+    "total": 413,
     "byCategory": {
-      "OTHER": 84,
+      "OTHER": 87,
+      "ANALYTICS": 15,
+      "NETWORKING": 6,
       "AI_ML": 59,
       "SECURITY": 99,
-      "DATABASE": 43,
-      "COMPUTE": 74,
-      "ANALYTICS": 14,
+      "DATABASE": 42,
+      "COMPUTE": 72,
       "STORAGE": 11,
-      "CONTAINERS": 13,
-      "SERVERLESS": 10,
-      "NETWORKING": 5
+      "CONTAINERS": 12,
+      "SERVERLESS": 10
     },
-    "lastUpdated": "2026-03-10T10:40:05.589Z"
+    "lastUpdated": "2026-03-10T22:30:00.614Z"
   },
-  "generatedAt": "2026-03-10T10:40:05.589Z"
+  "generatedAt": "2026-03-10T22:30:00.614Z"
 }
