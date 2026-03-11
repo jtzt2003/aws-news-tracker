@@ -1,6 +1,96 @@
 {
   "announcements": [
     {
+      "id": "2f78c8be08318233a2111749947aa56a1a803a91",
+      "title": "Amazon EC2 C8id instances are now available in Europe (Spain)",
+      "summary": "Amazon EC2 C8id instances, powered by custom Intel Xeon 6 processors, are now available in the Europe (Spain) region. These instances offer up to 384 vCPUs, 768GiB of memory, and 22.8TB of NVMe SSD storage, delivering up to 43% higher performance and 3.3x more memory bandwidth compared to previous generation C6id instances. The new instances provide up to 46% better performance for I/O intensive database workloads and up to 30% faster query results for I/O intensive applications.",
+      "category": "COMPUTE",
+      "timestamp": "2026-03-11T18:09:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-c8id-instances-europe-spain/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "db281cfd72fbd6d4ca9cb4218fac8866f919c4aa",
+      "title": "Amazon EC2 C8gd and M8gd instances are now available in additional AWS Regions",
+      "summary": "Amazon EC2 C8gd and M8gd instances are now available in additional AWS regions - C8gd in South America (São Paulo) and M8gd in Europe (Ireland). These instances are powered by AWS Graviton4 processors and offer up to 11.4 TB of local NVMe SSD storage, delivering up to 30% better performance compared to Graviton3-based instances and up to 40% higher performance for I/O intensive database workloads.",
+      "category": "COMPUTE",
+      "timestamp": "2026-03-11T18:04:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-c8gd-m8gd-instances-available/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "148c6b387276934251fe9ee27c8e47f63b01d999",
+      "title": "Amazon EC2 R7gd instances are now available in South America (Sao Paulo) Region",
+      "summary": "Amazon EC2 R7gd instances, powered by AWS Graviton3 processors with up to 3.8 TB of local NVMe SSD storage, are now available in the South America (São Paulo) region. These instances are optimized for memory-intensive workloads including open-source databases, in-memory caches, and real-time big data analytics that require high-speed, low-latency local storage access.",
+      "category": "COMPUTE",
+      "timestamp": "2026-03-11T17:01:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-r7gd-instances-available/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ef72259f528b02ed5e57cf7ae2150acbdfa98b13",
+      "title": "Amazon CloudWatch Database Insights on-demand analysis now available in AWS Govcloud (US) Regions",
+      "summary": "Amazon CloudWatch Database Insights' on-demand analysis feature is now available in AWS GovCloud (US-East) and AWS GovCloud (US-West) regions. This monitoring and diagnostics solution helps database administrators and developers optimize database performance by providing comprehensive visibility into database metrics, query analysis, and resource utilization patterns using machine learning to identify performance bottlenecks.",
+      "category": "AI_ML",
+      "timestamp": "2026-03-11T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-cloudwatch-database-insights-on-demand-analysis-in-govcloud/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0f5cb1ce9015dfc8e3c25efabb684b8efcc15100",
+      "title": "Amazon Connect now provides integrated workflows for managers to coach agents",
+      "summary": "Amazon Connect has introduced integrated agent coaching workflows that allow contact center managers to provide targeted feedback directly within the Connect interface. When managers spot improvement opportunities through evaluation scorecards, they can immediately create coaching plans using specific customer interaction examples. This enables managers to give timely, context-specific guidance to agents, such as highlighting interactions where an agent demonstrated strong problem-solving skills but could improve on showing customer empathy.",
+      "category": "OTHER",
+      "timestamp": "2026-03-11T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-integrated-agent-coaching-workflows/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3f60b7823976f5ab652ebdffeb013ee2813e7f1f",
+      "title": "Amazon EC2 High Memory U7i instances now available in additional regions",
+      "summary": "Amazon EC2 High Memory U7i instances are now available in additional AWS regions, with 8TB memory instances (u7i-8tb.112xlarge) launching in Asia Pacific (Hyderabad) and 12TB memory instances (u7i-12tb.224xlarge) in Europe (Spain). These 7th generation instances are powered by custom Intel Xeon Scalable Processors (Sapphire Rapids) and feature high-capacity DDR5 memory to support large-scale transaction processing workloads.",
+      "category": "COMPUTE",
+      "timestamp": "2026-03-11T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-high-memory-u7i-instances/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9129fa11a82ec7f582a8c26725070b3612920b27",
+      "title": "Amazon Connect now lets you select different From email addresses when sending emails",
+      "summary": "Amazon Connect now allows agents to select different \"From\" email addresses when sending outbound emails or replying to inbound messages, ensuring the correct brand identity is used for customer interactions. Administrators can configure multiple sender addresses per queue, enabling agents to choose the appropriate email address based on their current queue. This feature is particularly beneficial for contact centers managing multiple brands or business units.",
+      "category": "COMPUTE",
+      "timestamp": "2026-03-11T15:45:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-agents-select-from-email/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6ce69fedd4971ae66a1092b9b9184934debfb141",
+      "title": "Amazon Connect now provides case data in analytics data lake",
+      "summary": "Amazon Connect now includes case data in its analytics data lake, enabling users to create custom reports and analyze case-related trends alongside other Connect analytics. This integration allows direct use of Amazon Athena and Amazon QuickSight to analyze metrics like case volume by type, agent performance across shifts, and contact sentiment without requiring complex data pipeline development.",
+      "category": "ANALYTICS",
+      "timestamp": "2026-03-11T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-cases-data-lake",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f4d3213c4c0f5a7dda6bf15e2848fcc464b47973",
+      "title": "AWS Backup expands support for Amazon RDS Multi-AZ clusters to 17 Regions",
+      "summary": "AWS Backup has expanded its support for Amazon RDS Multi-AZ clusters to 17 additional regions across Asia Pacific, Europe, South America, Africa, and Canada. This expansion provides comprehensive data protection capabilities including automated lifecycle management and immutable backups with AWS Backup Vault Lock for RDS Multi-AZ clusters in these new regions.",
+      "category": "DATABASE",
+      "timestamp": "2026-03-11T10:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-backup-expands-amazon-rds-multi-az-clusters-17-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "4909381a59b8dcae4168df6c7a7d4bc14fe187f6",
       "title": "Amazon Bedrock AgentCore Runtime now supports stateful MCP server features ",
       "summary": "Amazon Bedrock AgentCore Runtime has expanded its Model Context Protocol (MCP) server support to include stateful features like elicitation, sampling, and progress notifications, in addition to existing resources, prompts, and tools capabilities. These new features enable MCP servers to interactively collect user input during tool execution, request LLM-generated content from clients, and provide real-time updates for long-running operations.",
@@ -4069,63 +4159,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/ec2-x2iedn-instances-zurich-region/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "3a1cf1de614847985ae1399f1d07a9d0ce148678",
-      "title": "Amazon Aurora DSQL now supports cluster creation in seconds",
-      "summary": "Amazon Aurora DSQL has significantly improved cluster creation speed, reducing setup time from minutes to just seconds. This enhancement allows developers to instantly provision databases for rapid prototyping and immediately start building using the integrated query editor in the AWS console. The faster provisioning eliminates the need for external client configuration and supports AI-powered development through the Aurora DSQL Model Context Protocol server.",
-      "category": "DATABASE",
-      "timestamp": "2025-12-11T21:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-aurora-dsql-cluster-creation-in-seconds",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4925c05996b58039e5ca34cbf9c3f84dabf84f3b",
-      "title": "Amazon WorkSpaces Secure Browser introduces Web Content Filtering",
-      "summary": "Amazon WorkSpaces Secure Browser has added Web Content Filtering capabilities that allow administrators to control and monitor employee web access through granular policies and URL/domain blocking across 25+ predefined categories. The new feature integrates with Session Logger for enhanced monitoring and compliance reporting, helping organizations maintain security and regulatory compliance for web browsing activities.",
-      "category": "SECURITY",
-      "timestamp": "2025-12-11T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-workspaces-secure-browser-web-content-filtering/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "05fe58e60a393185d0c31969c21d43fdd4589cd1",
-      "title": "Amazon Cognito identity pools now support private connectivity with AWS PrivateLink",
-      "summary": "Amazon Cognito identity pools now support AWS PrivateLink, allowing secure exchange of federated identities for AWS credentials through private connectivity between your VPC and Cognito without routing traffic over the public internet. This enhancement provides improved security by keeping authentication traffic within AWS's private network infrastructure. The feature enables identity pools to map authenticated and guest identities to IAM roles while maintaining private connectivity throughout the credential exchange process.",
-      "category": "SECURITY",
-      "timestamp": "2025-12-11T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-cognito-identity-pools-private-connectivity-aws-privatelink",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "fc9e944f9f2ebb787d1a4268cf07c56feca89052",
-      "title": "Amazon Aurora PostgreSQL now supports integration with Kiro powers",
-      "summary": "Amazon Aurora PostgreSQL now supports integration with Kiro powers, which provides AI agent-assisted development tools to help developers build Aurora PostgreSQL applications more quickly. Kiro powers offers a repository of curated Model Context Protocol (MCP) servers, steering files, and hooks that are validated by partners to accelerate specialized software development and deployment. This integration packages Aurora PostgreSQL-specific MCP server components to streamline the development process.",
-      "category": "SECURITY",
-      "timestamp": "2025-12-11T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-aurora-postgresql-integration-kiro-powers",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 411,
+    "total": 416,
     "byCategory": {
-      "AI_ML": 61,
-      "OTHER": 87,
-      "ANALYTICS": 15,
-      "NETWORKING": 6,
-      "SECURITY": 98,
+      "COMPUTE": 74,
+      "AI_ML": 62,
+      "OTHER": 88,
+      "ANALYTICS": 16,
       "DATABASE": 42,
-      "COMPUTE": 69,
+      "NETWORKING": 6,
+      "SECURITY": 95,
       "STORAGE": 11,
       "CONTAINERS": 12,
       "SERVERLESS": 10
     },
-    "lastUpdated": "2026-03-11T10:40:28.396Z"
+    "lastUpdated": "2026-03-11T22:27:59.777Z"
   },
-  "generatedAt": "2026-03-11T10:40:28.396Z"
+  "generatedAt": "2026-03-11T22:27:59.777Z"
 }
