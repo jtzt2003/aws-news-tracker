@@ -1,6 +1,86 @@
 {
   "announcements": [
     {
+      "id": "c36a2b31865178f821f59ff258bf621b3326c9e5",
+      "title": "AWS Elastic Beanstalk launches Deployments tab with in-progress deployment logs",
+      "summary": "AWS Elastic Beanstalk has launched a new Deployments tab that provides customers with a consolidated view of deployment history and real-time progress tracking through step-by-step logs. Previously, users had to wait for deployments to complete and correlate information across multiple sources to understand deployment status. This new feature centralizes deployment status, events, and detailed logs in a single interface within the environment dashboard.",
+      "category": "OTHER",
+      "timestamp": "2026-03-12T18:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/elastic-beanstalk-deployments-tab/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ecd88b5eabbe72c1094612686cb52e9693c5bde3",
+      "title": "AWS Private CA Connector for SCEP now supports AWS PrivateLink",
+      "summary": "AWS Private CA Connector for SCEP now supports AWS PrivateLink, enabling clients to request certificates directly within their VPC without using the public internet. This enhancement allows users to create VPC endpoints for private connectivity to their SCEP connector, keeping all certificate enrollment traffic securely within the AWS network.",
+      "category": "OTHER",
+      "timestamp": "2026-03-12T17:10:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-private-ca-connector-scep-privatelink/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "eb835c4d1f3532408e280531d5ac7416ca05f38a",
+      "title": "Amazon Bedrock AgentCore Memory announces streaming notifications for long-term memory",
+      "summary": "Amazon Bedrock AgentCore Memory now provides streaming notifications for long-term memory updates, eliminating the need for developers to poll for changes. The service streams updates directly to Amazon Kinesis whenever memory records are created or modified, enabling real-time triggering of downstream workflows. This enhancement allows AI agents to better leverage extracted insights from past interactions to deliver more personalized user experiences.",
+      "category": "AI_ML",
+      "timestamp": "2026-03-12T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/agentcore-memory-streaming-ltm/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "21b77a7b36bb0274c73cd0c81a1a384c3634f540",
+      "title": "Amazon EC2 M8i and M8i-flex instances are now available in additional AWS Regions",
+      "summary": "Amazon EC2 M8i and M8i-flex instances are now available in Europe (Ireland) and Europe (London) regions, powered by custom Intel Xeon 6 processors exclusive to AWS. These instances offer up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generation Intel-based instances, delivering the highest performance among comparable Intel processors in the cloud.",
+      "category": "COMPUTE",
+      "timestamp": "2026-03-12T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-m8i-m8i-flex-additional-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4605ca4b9947ef4f7bd4b3bc3b7704bd6e24a55b",
+      "title": "AWS Glue zero-ETL integrations with Amazon DynamoDB as the source support new configurations",
+      "summary": "AWS Glue zero-ETL integrations with Amazon DynamoDB now support configurable change data capture (CDC) refresh intervals ranging from 15 minutes to 6 days, allowing users to customize how frequently data changes are captured. The enhancement also includes on-demand data ingestion capability, enabling immediate data ingestion when needed. These new features bring DynamoDB zero-ETL integrations to feature parity with other AWS data source integrations.",
+      "category": "DATABASE",
+      "timestamp": "2026-03-12T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-glue-zetl-dynamodb-configurations/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2dc1b6e40a50f5640cefc39b84f914d8c5330996",
+      "title": "Amazon WorkSpaces now supports Microsoft Windows Server 2025",
+      "summary": "AWS has announced new Amazon WorkSpaces bundles powered by Microsoft Windows Server 2025, available for both WorkSpaces Personal and WorkSpaces Core. These new bundles allow customers to access the latest Windows server features and run applications like Microsoft 365 Apps for enterprise that require newer Windows versions. Previous Windows Server versions (2016, 2019, and 2022) continue to be available alongside the new 2025 option.",
+      "category": "SECURITY",
+      "timestamp": "2026-03-12T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-workspaces-windows-server-2025/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a4f34b7179b6244f73397e5036a2eb8869a7da31",
+      "title": "Amazon S3 introduces account regional namespaces for general purpose buckets",
+      "summary": "Amazon S3 now offers account regional namespaces for general purpose buckets, allowing users to create buckets in their own reserved namespace without needing globally unique names. This feature enables predictable bucket naming across multiple AWS Regions and simplifies workloads that require dedicated buckets per customer, team, or dataset. The change eliminates the common challenge of finding available bucket names and ensures desired names are always available within your account's namespace.",
+      "category": "SECURITY",
+      "timestamp": "2026-03-12T13:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-s3-account-regional-namespaces/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5efe2d415d43ce5b054245e887cf173036521489",
+      "title": "AWS Backup adds logically air-gapped vault support for Amazon EKS",
+      "summary": "AWS Backup has extended logically air-gapped vault support to Amazon EKS clusters, allowing organizations to store immutable, encrypted backup copies that are isolated and locked by default. These vaults enable secure cross-account backup sharing within AWS Organizations and support direct restore capabilities to minimize recovery time during data loss events.",
+      "category": "CONTAINERS",
+      "timestamp": "2026-03-12T10:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-backup-logically-air-gapped-vault-amazon-eks/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "292449e01c5da5464d7f01f733d5ac966a61f5fc",
       "title": "Amazon Neptune Database is now available in Asia Pacific (Hyderabad) region",
       "summary": "Amazon Neptune Database is now available in the AWS Asia Pacific (Hyderabad) region, allowing users to create Neptune clusters using various instance types including R5, R5d, R6g, R6i, X2iedn, T4g, and T3. Neptune is AWS's fully managed graph database service designed for building applications that work with highly connected datasets using Apache TinkerPop Gremlin or openCypher query languages.",
@@ -4079,63 +4159,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/ec2-m7a-instances-europe-london-region/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "136105692ad1e9ea3e4f84b9c123a6857d0fed9f",
-      "title": "AWS DataSync increases scalability and performance for on-premises file transfers",
-      "summary": "AWS DataSync has launched Enhanced mode, which significantly improves data transfers between on-premises file servers and Amazon S3 by removing file count limits and delivering higher performance through parallel processing. This upgrade allows customers to transfer virtually unlimited numbers of files at faster speeds compared to the previous Basic mode. Enhanced mode maintains DataSync's secure, optimized network transfer capabilities while scaling to handle datasets of any size.",
-      "category": "AI_ML",
-      "timestamp": "2025-12-12T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-datasync-scalability-performance-on-premises-file-transfers",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "fd8606ae7b473bbd13f0da6a3a7d5885b0f39457",
-      "title": "AWS Shield network security director now supports multi-account analysis",
-      "summary": "AWS Shield's network security director now supports multi-account analysis and automated network security management, currently available in preview. The service provides visibility across AWS organizations, identifies misconfigured or missing network security services, and offers remediation recommendations. Users can designate a delegated administrator account to manage continuous network analysis across multiple accounts.",
-      "category": "SECURITY",
-      "timestamp": "2025-12-12T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-shield-network-security-director-multi-account-analysis",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "e47f3df4c90befb0ea19673910866617e4174a62",
-      "title": "Amazon EMR Managed Scaling is now available in 7 additional AWS regions",
-      "summary": "Amazon EMR Managed Scaling has expanded to 7 additional AWS regions including Asia Pacific (Malaysia, New Zealand, Taipei, Thailand), Canada West (Calgary), Mexico (Central), and US Gameday Northeast (Illinois). This feature automatically resizes EC2 instances in EMR clusters to optimize performance while minimizing costs, requiring users to only set minimum and maximum compute limits.",
-      "category": "COMPUTE",
-      "timestamp": "2025-12-12T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-emr-managed-scaling-additional-regions",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "eb5f6ebbf5180c5b97a71895d5efe062be3c29d3",
-      "title": "Amazon MSK Replicator is now available in ten additional AWS Regions",
-      "summary": "Amazon MSK Replicator, a feature that enables reliable data replication across Amazon MSK clusters, is now available in ten additional AWS Regions including locations in the Middle East, Asia Pacific, Africa, Europe, and Israel. This expansion allows customers in these regions to replicate streaming data across Amazon Managed Streaming for Apache Kafka clusters with improved regional availability.",
-      "category": "ANALYTICS",
-      "timestamp": "2025-12-12T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-msk-replicator-additional-aws-regions",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 412,
+    "total": 416,
     "byCategory": {
-      "DATABASE": 43,
-      "COMPUTE": 72,
+      "OTHER": 87,
       "AI_ML": 62,
-      "OTHER": 85,
-      "ANALYTICS": 16,
+      "COMPUTE": 72,
+      "DATABASE": 44,
+      "SECURITY": 96,
+      "CONTAINERS": 13,
+      "ANALYTICS": 15,
       "NETWORKING": 6,
-      "SECURITY": 95,
       "STORAGE": 11,
-      "CONTAINERS": 12,
       "SERVERLESS": 10
     },
-    "lastUpdated": "2026-03-12T10:39:51.533Z"
+    "lastUpdated": "2026-03-12T22:27:17.464Z"
   },
-  "generatedAt": "2026-03-12T10:39:51.533Z"
+  "generatedAt": "2026-03-12T22:27:17.464Z"
 }
