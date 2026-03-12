@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "292449e01c5da5464d7f01f733d5ac966a61f5fc",
+      "title": "Amazon Neptune Database is now available in Asia Pacific (Hyderabad) region",
+      "summary": "Amazon Neptune Database is now available in the AWS Asia Pacific (Hyderabad) region, allowing users to create Neptune clusters using various instance types including R5, R5d, R6g, R6i, X2iedn, T4g, and T3. Neptune is AWS's fully managed graph database service designed for building applications that work with highly connected datasets using Apache TinkerPop Gremlin or openCypher query languages.",
+      "category": "DATABASE",
+      "timestamp": "2026-03-11T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-neptune-hyderabad/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "2f78c8be08318233a2111749947aa56a1a803a91",
       "title": "Amazon EC2 C8id instances are now available in Europe (Spain)",
       "summary": "Amazon EC2 C8id instances, powered by custom Intel Xeon 6 processors, are now available in the Europe (Spain) region. These instances offer up to 384 vCPUs, 768GiB of memory, and 22.8TB of NVMe SSD storage, delivering up to 43% higher performance and 3.3x more memory bandwidth compared to previous generation C6id instances. The new instances provide up to 46% better performance for I/O intensive database workloads and up to 30% faster query results for I/O intensive applications.",
@@ -4109,73 +4119,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-msk-replicator-additional-aws-regions",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "49356a46f53748bbc6b9b2708acc941577b91180",
-      "title": "Validate best practice compliance for SAP ABAP applications with AWS Systems Manager",
-      "summary": "AWS Systems Manager Configuration Manager now enables automatic testing of SAP ABAP applications against AWS Well-Architected Framework SAP Lens best practices. This eliminates the need for SAP administrators to manually track and validate configurations against best practices from multiple sources including AWS, SAP, and operating system vendors.",
-      "category": "OTHER",
-      "timestamp": "2025-12-12T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/compliance-sap-abap-systems-manager/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ec035998958cc01fa7ce2aae4c2e4cf89cc46b10",
-      "title": "AWS DataSync introduces Terraform support for Enhanced mode",
-      "summary": "AWS DataSync has added Terraform support for its Enhanced mode, enabling easier setup of high-performance data transfers between S3 locations at scale. Enhanced mode leverages parallel processing to improve performance and scalability for datasets of any size, while eliminating file count limitations and providing detailed transfer metrics for better monitoring.",
-      "category": "OTHER",
-      "timestamp": "2025-12-12T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/datasync-terraform-enhanced-mode/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "72b94db71aff342c9f823f874e79d2f535fd9959",
-      "title": "AWS Elastic Beanstalk is now available in additional regions",
-      "summary": "AWS Elastic Beanstalk is now generally available in five additional regions: Asia Pacific (Melbourne, Malaysia, and Hyderabad), Canada West (Calgary), and Europe (Zurich). This expansion allows more developers in these regions to use the service that automatically handles application deployment, scaling, load balancing, and health monitoring on AWS infrastructure.",
-      "category": "OTHER",
-      "timestamp": "2025-12-12T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/elastic-beanstalk-additional-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d413389c43af14471cc95ff340d792a2006a4d28",
-      "title": "Amazon EC2 X2iedn instances now available in AWS Asia Pacific (Thailand) region",
-      "summary": "Amazon EC2 X2iedn instances, which are memory-optimized instances powered by 3rd generation Intel Xeon Scalable Processors, are now available in the AWS Asia Pacific (Thailand) region. These instances are designed for memory-intensive workloads and offer improved performance, price performance, and cost per GiB of memory compared to previous X1e instances. The instances are SAP-certified for running Business Suite on HANA applications.",
-      "category": "COMPUTE",
-      "timestamp": "2025-12-12T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/ec2-x2iedn-instances-thailand-region/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "81a51220eb5efe8ae19395a8da5080648bf39c1a",
-      "title": "Amazon EC2 X2iedn instances now available in AWS Europe (Zurich)  region",
-      "summary": "Amazon EC2 X2iedn instances, which are memory-optimized and powered by 3rd generation Intel Xeon Scalable Processors, are now available in the AWS Europe (Zurich) region. These instances are designed for memory-intensive workloads and offer improved performance, price performance, and cost per GiB of memory compared to previous X1e instances. They are SAP-certified for running Business Suite on HANA and SAP S/4HANA applications.",
-      "category": "COMPUTE",
-      "timestamp": "2025-12-12T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/ec2-x2iedn-instances-zurich-region/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 416,
+    "total": 412,
     "byCategory": {
-      "COMPUTE": 74,
+      "DATABASE": 43,
+      "COMPUTE": 72,
       "AI_ML": 62,
-      "OTHER": 88,
+      "OTHER": 85,
       "ANALYTICS": 16,
-      "DATABASE": 42,
       "NETWORKING": 6,
       "SECURITY": 95,
       "STORAGE": 11,
       "CONTAINERS": 12,
       "SERVERLESS": 10
     },
-    "lastUpdated": "2026-03-11T22:27:59.777Z"
+    "lastUpdated": "2026-03-12T10:39:51.533Z"
   },
-  "generatedAt": "2026-03-11T22:27:59.777Z"
+  "generatedAt": "2026-03-12T10:39:51.533Z"
 }
