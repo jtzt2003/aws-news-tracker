@@ -1,12 +1,92 @@
 {
   "announcements": [
     {
+      "id": "2b2c2bc54e583fa0ef631ff0ee39c426c2c3497f",
+      "title": "Amazon CloudWatch Application Signals adds new SLO capabilities",
+      "summary": "Amazon CloudWatch Application Signals has introduced three new Service Level Objective (SLO) capabilities: SLO Recommendations, Service-Level SLOs, and SLO Performance Report. These console-based features help customers monitor and improve application performance across AWS services like EC2, ECS, and Lambda by automatically collecting application data. The new capabilities address the previous challenge where customers had to manually set SLO thresholds without data-driven guidance.",
+      "category": "CONTAINERS",
+      "timestamp": "2026-03-13T20:52:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/cloudwatch-application-signals-adds-slo-capabilities/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "bd0563450053a77ece7fc087f937848f655045ea",
+      "title": "Accelerate serverless application development with new SAM Kiro power ",
+      "summary": "AWS has announced the SAM Kiro power, which integrates AWS Serverless Application Model (SAM) capabilities with AI agent-assisted development in the Kiro platform. This new tool allows developers to build, deploy, and manage serverless applications directly in their local environment with AI assistance. The SAM Kiro power dynamically provides relevant guidance and development expertise to AI agents for building serverless applications more efficiently.",
+      "category": "SECURITY",
+      "timestamp": "2026-03-13T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-sam-kiro-power/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "99edc11d4b71201ba1b81811e51b2d6efd27dda7",
+      "title": "Amazon EC2 R8a instances are now available in Asia Pacific (Tokyo) Region",
+      "summary": "Amazon EC2 R8a instances are now available in the Asia Pacific (Tokyo) Region, featuring 5th Gen AMD EPYC processors with up to 4.5 GHz frequency. These instances deliver up to 30% higher performance and 19% better price-performance compared to R7a instances, along with 45% more memory bandwidth, making them ideal for latency-sensitive workloads.",
+      "category": "COMPUTE",
+      "timestamp": "2026-03-13T17:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-r8a-instances-tokyo/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "771ee05b50752626a59f9ffbdf3752d03ced562a",
+      "title": "Amazon EC2 M8azn instances are now available in US East (Ohio) Region",
+      "summary": "Amazon EC2 M8azn instances are now available in the US East (Ohio) Region, featuring fifth-generation AMD EPYC processors with the highest maximum CPU frequency of 5GHz available in the cloud. These general-purpose instances deliver up to 2x compute performance compared to M5zn instances and 24% higher performance than M8a instances, while also providing significantly higher memory bandwidth.",
+      "category": "COMPUTE",
+      "timestamp": "2026-03-13T17:15:46.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-m8azn-instances-ohio/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0c6ec86598da8155c5d9e27f7b8eb875f372899a",
+      "title": "Amazon MSK announces support for Standard brokers Graviton-3 instance in Africa (Cape Town) region",
+      "summary": "Amazon MSK now supports Standard brokers using AWS Graviton3-based M7g instances in the Africa (Cape Town) region. These M7g instances provide up to 24% compute cost savings and up to 29% higher read/write throughput compared to M5 instances. Users can create new clusters with M7g brokers or upgrade existing M5 clusters through the Amazon MSK console.",
+      "category": "COMPUTE",
+      "timestamp": "2026-03-13T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-msk-standardm7g-cpt-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a5af426a6f8629e177ab7f938b6dc6d6a13b931e",
+      "title": "AWS Network Firewall Launch in the AWS European Sovereign Cloud ",
+      "summary": "AWS Network Firewall is now available in the AWS European Sovereign Cloud, enabling European customers in highly regulated industries and government agencies to protect sensitive workloads while maintaining compliance with EU data protection regulations. This launch specifically targets organizations with strict data sovereignty requirements who need advanced network security capabilities within Europe's regulatory framework.",
+      "category": "OTHER",
+      "timestamp": "2026-03-13T16:15:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/network-firewall-european-sovereign-cloud-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7d3c81e2963f494af5f6d91edfa02545a56606ac",
+      "title": "AWS Lambda Managed Instances now supports Rust",
+      "summary": "AWS Lambda Managed Instances now supports Rust, allowing developers to run high-performance Rust functions on Lambda-managed EC2 instances while retaining Lambda's operational simplicity. This enables performance-critical applications to run without the complexity of server management. Lambda Managed Instances provides access to specialized compute configurations with latest-generation processors and high-bandwidth networking.",
+      "category": "SERVERLESS",
+      "timestamp": "2026-03-13T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-lambda-managed-instances-rust/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "0f4c548dce92ed1ab592c899153fff22505322b7",
       "title": "OpenSearch UI supports Cross Account Data Access to OpenSearch domains",
       "summary": "Amazon OpenSearch Service now enables cross-account data access, allowing users to query and build dashboards using data from OpenSearch domains across different AWS accounts within a single UI application. This eliminates the need to switch endpoints or replicate data when working with domains in the same region. The feature is available for both public and VPC-hosted OpenSearch domains.",
       "category": "SECURITY",
       "timestamp": "2026-03-12T20:40:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/opensearch-ui-cross-account-data-access-domains/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "64cc2eab586209401ba5b5126f9adccb0e441007",
+      "title": "New LZA MCP Server for AI-assisted configuration management ",
+      "summary": "AWS has released an open source LZA MCP Server that allows organizations to manage Landing Zone Accelerator deployments through natural language conversations with AI assistants. The server includes 20 specialized tools designed to streamline previously manual configuration tasks such as searching documentation, managing configurations, and monitoring pipelines. This innovation enables AI-assisted configuration management, making LZA deployments more accessible and efficient through conversational interfaces.",
+      "category": "SECURITY",
+      "timestamp": "2026-03-12T19:23:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/new-lza-mcp-server-ai-assisted/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -4182,20 +4262,20 @@
     }
   ],
   "stats": {
-    "total": 418,
+    "total": 426,
     "byCategory": {
-      "SECURITY": 98,
-      "OTHER": 87,
+      "CONTAINERS": 14,
+      "SECURITY": 100,
+      "COMPUTE": 75,
+      "OTHER": 88,
+      "SERVERLESS": 11,
       "AI_ML": 62,
-      "COMPUTE": 72,
       "DATABASE": 44,
-      "CONTAINERS": 13,
       "ANALYTICS": 15,
       "NETWORKING": 6,
-      "STORAGE": 11,
-      "SERVERLESS": 10
+      "STORAGE": 11
     },
-    "lastUpdated": "2026-03-13T10:38:09.713Z"
+    "lastUpdated": "2026-03-13T22:28:57.998Z"
   },
-  "generatedAt": "2026-03-13T10:38:09.713Z"
+  "generatedAt": "2026-03-13T22:28:57.999Z"
 }
