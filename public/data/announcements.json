@@ -61,6 +61,16 @@
       "isNew": false
     },
     {
+      "id": "4ddbb235ae5716d331b81648708d92a379731b92",
+      "title": "Amazon EC2 Hpc8a instances are now available in Asia Pacific (Tokyo) and AWS GovCloud (US-West)",
+      "summary": "Amazon EC2 Hpc8a instances are now available in the Asia Pacific (Tokyo) and AWS GovCloud (US-West) regions. These new instances are powered by 5th generation AMD EPYC processors with up to 4.5GHz frequency, delivering up to 40% higher performance and 25% better price performance compared to the previous Hpc7a instances. The Hpc8a instances are designed to accelerate compute-intensive workloads while helping customers optimize costs.",
+      "category": "COMPUTE",
+      "timestamp": "2026-03-13T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-hpc8a-additional-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "7d3c81e2963f494af5f6d91edfa02545a56606ac",
       "title": "AWS Lambda Managed Instances now supports Rust",
       "summary": "AWS Lambda Managed Instances now supports Rust, allowing developers to run high-performance Rust functions on Lambda-managed EC2 instances while retaining Lambda's operational simplicity. This enables performance-critical applications to run without the complexity of server management. Lambda Managed Instances provides access to specialized compute configurations with latest-generation processors and high-bandwidth networking.",
@@ -4262,11 +4272,11 @@
     }
   ],
   "stats": {
-    "total": 426,
+    "total": 427,
     "byCategory": {
       "CONTAINERS": 14,
       "SECURITY": 100,
-      "COMPUTE": 75,
+      "COMPUTE": 76,
       "OTHER": 88,
       "SERVERLESS": 11,
       "AI_ML": 62,
@@ -4275,7 +4285,7 @@
       "NETWORKING": 6,
       "STORAGE": 11
     },
-    "lastUpdated": "2026-03-13T22:28:57.998Z"
+    "lastUpdated": "2026-03-14T10:29:56.109Z"
   },
-  "generatedAt": "2026-03-13T22:28:57.999Z"
+  "generatedAt": "2026-03-14T10:29:56.109Z"
 }
