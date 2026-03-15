@@ -4249,34 +4249,14 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-billing-cost-management-pdf-export-csv-data-download-dashboards",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "e67a4c669b9bdd577901c3882c5c591e336b4b42",
-      "title": "ACM now supports automated certificate management for Kubernetes",
-      "summary": "AWS Certificate Manager (ACM) now provides automated certificate provisioning and distribution for Kubernetes workloads through AWS Controllers for Kubernetes (ACK). This eliminates the previously required manual steps of exporting certificates via API, creating Kubernetes Secrets, and manually updating them during renewal. The enhancement extends ACM's existing automation capabilities beyond AWS-integrated services like Application Load Balancers and CloudFront to include Kubernetes applications that terminate TLS.",
-      "category": "SECURITY",
-      "timestamp": "2025-12-15T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/acm-automated-certificate-management-kubernetes/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "49ed6f42489a8748b5022fd6fb6744e111104253",
-      "title": "Amazon EC2 M7a instances are now available in the Europe (London) Region",
-      "summary": "Amazon EC2 M7a instances are now available in the Europe (London) Region, expanding their global availability. These general-purpose instances are powered by 4th Gen AMD EPYC processors running up to 3.7 GHz and deliver up to 50% better performance than the previous M6a generation. M7a instances are now accessible across multiple regions including the US, Asia Pacific, and several European locations.",
-      "category": "COMPUTE",
-      "timestamp": "2025-12-15T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/ec2-m7a-instances-europe-london-region/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 427,
+    "total": 425,
     "byCategory": {
       "CONTAINERS": 14,
-      "SECURITY": 100,
-      "COMPUTE": 76,
+      "SECURITY": 99,
+      "COMPUTE": 75,
       "OTHER": 88,
       "SERVERLESS": 11,
       "AI_ML": 62,
@@ -4285,7 +4265,7 @@
       "NETWORKING": 6,
       "STORAGE": 11
     },
-    "lastUpdated": "2026-03-14T22:27:53.507Z"
+    "lastUpdated": "2026-03-15T10:30:59.895Z"
   },
-  "generatedAt": "2026-03-14T22:27:53.507Z"
+  "generatedAt": "2026-03-15T10:30:59.895Z"
 }
