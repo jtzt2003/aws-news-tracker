@@ -4139,73 +4139,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-sagemaker-ai-asia-pacific-new-zealand",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "d540755f76150767a24609b4c219919128226c2a",
-      "title": "Amazon Quick Suite now supports memory for chat agents",
-      "summary": "Amazon QuickSuite has introduced a memory feature for chat agents that enables personalized responses by remembering user preferences from previous conversations. The feature allows chat agents to tailor responses based on stored preferences like response format and acronyms, eliminating the need for users to repeatedly specify these preferences. Users maintain control over their data by being able to view and delete stored memory preferences as needed.",
-      "category": "OTHER",
-      "timestamp": "2025-12-16T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-quick-suite-memory-chat-agents/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "a262e5188d1d6df401084e37b000b066b2a52cfe",
-      "title": "Amazon EC2 M8i-flex instances are now available in Asia Pacific (Sydney) Region",
-      "summary": "Amazon EC2 M8i-flex instances are now available in the Asia Pacific (Sydney) Region, powered by custom Intel Xeon 6 processors exclusive to AWS. These instances deliver up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generation Intel-based instances, along with up to 20% better performance than M7i-flex instances.",
-      "category": "COMPUTE",
-      "timestamp": "2025-12-16T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/ec2-m8i-flex-instances-sydney-region/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6b0be18fa9ac1b9ae04ffda284741bbb100850e4",
-      "title": "Amazon Quick Suite browser extension now supports Quick Flows",
-      "summary": "Amazon Quick Suite's browser extension now integrates with Amazon Quick Flows, allowing users to run automated workflows directly in their web browser without manually extracting information from web pages. Users can invoke their own workflows or shared ones, passing webpage content as input seamlessly within the browser. This feature streamlines routine tasks like contract analysis and report generation by eliminating the need to switch between applications.",
-      "category": "OTHER",
-      "timestamp": "2025-12-16T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/quick-suite-browser-extension-quick-flows/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "1c18dc60274e21e555749c5f4099b2a6c775cc25",
-      "title": "AWS Clean Rooms publishes events for member invitations and table readiness to EventBridge",
-      "summary": "AWS Clean Rooms now publishes real-time events to Amazon EventBridge to notify members about collaboration invitations and table readiness status. This enhancement provides greater transparency by automatically alerting invited members when they receive collaboration invitations and notifying existing members when AWS Entity Resolution resources are associated with their collaboration. The feature streamlines the collaboration process by making it easier for members to stay informed about collaboration activities and respond to invitations promptly.",
-      "category": "SERVERLESS",
-      "timestamp": "2025-12-16T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/clean-rooms-events-member-invitations-table-readiness/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "63e6967b5ea301c294a7ab7bedde2d0af55140ea",
-      "title": "Amazon Route 53 launches detailed metrics for Resolver endpoints",
-      "summary": "Amazon Route 53 now offers detailed CloudWatch metrics for monitoring the performance and health of Route 53 Resolver endpoints and their associated target name servers. This enhancement improves visibility into hybrid cloud DNS configurations by providing monitoring capabilities for DNS query resolution between on-premises data centers and Amazon VPC. The metrics can be enabled individually for each Resolver endpoint through CloudWatch.",
-      "category": "NETWORKING",
-      "timestamp": "2025-12-16T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/route-53-detailed-metrics-resolver-endpoints/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 419,
+    "total": 414,
     "byCategory": {
       "CONTAINERS": 14,
       "SECURITY": 98,
-      "COMPUTE": 75,
-      "OTHER": 85,
-      "SERVERLESS": 11,
+      "COMPUTE": 74,
+      "OTHER": 83,
+      "SERVERLESS": 10,
       "AI_ML": 61,
       "DATABASE": 43,
       "ANALYTICS": 15,
-      "NETWORKING": 6,
+      "NETWORKING": 5,
       "STORAGE": 11
     },
-    "lastUpdated": "2026-03-15T22:29:38.076Z"
+    "lastUpdated": "2026-03-16T10:53:53.891Z"
   },
-  "generatedAt": "2026-03-15T22:29:38.076Z"
+  "generatedAt": "2026-03-16T10:53:53.891Z"
 }
