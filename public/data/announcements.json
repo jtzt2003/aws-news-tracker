@@ -1,6 +1,66 @@
 {
   "announcements": [
     {
+      "id": "941f434ed05de55963a694379489ccbe7fb71c9a",
+      "title": "Amazon Neptune now supports reading S3 data using openCyper",
+      "summary": "Amazon Neptune now supports reading data directly from Amazon S3 within openCypher queries through the new `neptune.read()` procedure. This feature allows customers to federate with external S3 data without needing to load it into Neptune first, eliminating traditional multi-step workflow requirements. Organizations can now perform real-time graph analytics by dynamically combining S3-stored data with their existing Neptune graphs.",
+      "category": "SECURITY",
+      "timestamp": "2026-03-16T19:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/neptune-read-s3-opencypher/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "40c2d36f36115d9f53dcc62d5e12a3906803e19c",
+      "title": "Amazon Timestream for InfluxDB 3 Now Supports Expanded Multi-Node Cluster Configurations",
+      "summary": "Amazon Timestream for InfluxDB 3 Enterprise edition now supports expanded multi-node cluster configurations with up to 15 total nodes, including 1-4 writer/reader nodes and up to 13 dedicated reader-only nodes. This enhancement enables organizations to scale their time-series databases for demanding production workloads that require high read throughput and high availability.",
+      "category": "DATABASE",
+      "timestamp": "2026-03-16T18:20:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-timestream-for-influxdb-3-multi-node-cluster/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4b61259ed0f160dbfdd58a5d8589966b51f6ff5e",
+      "title": "Announcing AWS Partner Central agents to accelerate co-sell",
+      "summary": "AWS has announced the general availability of AWS Partner Central agents, AI-powered capabilities built on Amazon Bedrock AgentCore that help accelerate co-selling between AWS and its partners. These agents work alongside partner sales teams to shorten sales cycles and simplify funding access. Partners can access these capabilities through the AWS console or programmatically via Model Context Protocol (MCP) to integrate them into their existing systems.",
+      "category": "AI_ML",
+      "timestamp": "2026-03-16T17:04:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-partner-central-agents-accelerate-co-sell/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e87d6b725045b3375c2faa01fe481f10b73aafcc",
+      "title": "Amazon SimpleDB now supports exporting domain data to Amazon S3",
+      "summary": "Amazon SimpleDB now supports direct export of domain data to Amazon S3 buckets in JSON format, with exports running in the background without affecting database performance. The export tool includes cross-region and cross-account capabilities, multiple encryption options, and flexible S3 configuration to support data migration, archival, and compliance requirements.",
+      "category": "STORAGE",
+      "timestamp": "2026-03-16T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-simpledb-domain-export-to-amazon-s3/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a9c0f848c7a01fe8a6fab6b10847cc257d897daf",
+      "title": "Amazon Connect now enables agents to forward email contacts to external email addresses",
+      "summary": "Amazon Connect now allows agents to forward email contacts to external email addresses and distribution lists directly from their workspace while maintaining ownership and full communication history of the original contact. This feature enables agents to easily involve back-office teams, experts, and partners in customer communications while serving as the primary point of contact for customers.",
+      "category": "OTHER",
+      "timestamp": "2026-03-16T15:45:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-forward-email-contacts/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f8e33d427fda7f8683c48237e8f194f446476503",
+      "title": "Amazon Bedrock AgentCore Runtime now supports the AG-UI protocol",
+      "summary": "Amazon Bedrock AgentCore Runtime now supports the Agent-User Interaction (AG-UI) protocol, an open, event-based standard for AI agent communication. This enables developers to deploy AG-UI servers that provide real-time, responsive agent experiences while AgentCore Runtime manages authentication, session isolation, and scaling automatically. The integration allows developers to focus on building interactive frontends rather than handling infrastructure concerns.",
+      "category": "AI_ML",
+      "timestamp": "2026-03-13T21:51:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-agentcore-runtime-ag-ui-protocol/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "2b2c2bc54e583fa0ef631ff0ee39c426c2c3497f",
       "title": "Amazon CloudWatch Application Signals adds new SLO capabilities",
       "summary": "Amazon CloudWatch Application Signals has introduced three new Service Level Objective (SLO) capabilities: SLO Recommendations, Service-Level SLOs, and SLO Performance Report. These console-based features help customers monitor and improve application performance across AWS services like EC2, ECS, and Lambda by automatically collecting application data. The new capabilities address the previous challenge where customers had to manually set SLO thresholds without data-driven guidance.",
@@ -4059,103 +4119,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-payment-cryptography-lower-pricing/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "effde40fdda484e3280983ede455f754ad0b72a9",
-      "title": "AWS IoT Device Management Commands now supports dynamic payloads",
-      "summary": "AWS IoT Device Management commands now support dynamic payloads, allowing developers to create reusable command templates with placeholders that can be populated with different values at runtime. The update includes parameter validation rules to ensure values meet specified criteria before execution. This enhancement makes command reuse more efficient by enabling runtime parameter configuration rather than requiring separate commands for different scenarios.",
-      "category": "OTHER",
-      "timestamp": "2025-12-16T20:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-iot-device-management-commands-dynamic-payload/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "fdcd36bd056b33a3e14dc6720658e6f626d954f1",
-      "title": "Amazon Connect launches additional details within real-time metric alerts",
-      "summary": "Amazon Connect has enhanced its real-time metric alerts to include specific details about which agents, queues, flows, or routing profiles triggered the alert thresholds. This improvement allows managers to quickly identify and respond to customer experience and operational issues without having to manually investigate the root cause. For example, when queue wait times are elevated, managers can now see exactly which queues are affected and take immediate action like reassigning agents.",
-      "category": "SERVERLESS",
-      "timestamp": "2025-12-16T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-connect-additional-details-real-time-metric-alerts/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ea0cac0a5b1a52ce5339d229ee5503faf93329ce",
-      "title": "AWS Direct Connect announces new location in Hanoi, Vietnam",
-      "summary": "AWS has opened its first Direct Connect location in Vietnam at CMC Tower in Hanoi, enabling private network connections to AWS Regions worldwide (excluding China), GovCloud Regions, and Local Zones. The facility offers dedicated connections at 1 Gbps, 10 Gbps, and 100 Gbps speeds, with MACsec encryption available for the higher-speed tiers.",
-      "category": "COMPUTE",
-      "timestamp": "2025-12-16T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-direct-connect-hanoi/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ae246e694201c137c7d9fb8ec430e399c3b59c73",
-      "title": "Amazon EC2 M8i instances are now available in additional Regions",
-      "summary": "Amazon EC2 M8i instances are now available in five additional regions: Asia Pacific (Seoul, Tokyo, Sydney, Singapore) and Canada (Central). These instances feature custom Intel Xeon 6 processors exclusive to AWS, offering up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generation Intel processors.",
-      "category": "COMPUTE",
-      "timestamp": "2025-12-16T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-m8i-instances-additional-regions",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "373318b099bf35e2cebb913b5f3a639711f083c3",
-      "title": "AWS reduces publishing time for Carbon Footprint Data to 21 days or Less",
-      "summary": "AWS has reduced the publishing time for customer carbon footprint data from up to three months to just 21 days or less, with data now available between the 15th and 21st of the month following usage. This faster access to carbon footprint insights enables customers to make more timely decisions about their application deployment and identify opportunities to reduce emissions more quickly.",
-      "category": "OTHER",
-      "timestamp": "2025-12-16T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-reduces-publishing-time-carbon-footprint-data",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "26284e0e9bc7ff900bfd2c619afafd1c550a5c77",
-      "title": "AWS Artifact enables access to previous versions of compliance reports",
-      "summary": "AWS Artifact now provides self-service access to previous versions of AWS compliance reports, eliminating the need to contact AWS Support for historical documentation. This feature helps customers efficiently manage compliance requirements during audits and vendor assessments that require historical evidence. Access requires the \"artifact:ListReportVersions\" IAM permission, which is included in AWS managed policies.",
-      "category": "OTHER",
-      "timestamp": "2025-12-16T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-artifact-access-previous-versions-compliance-reports",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "5d30e19d3e85d699bb94187b2b423229f5d92def",
-      "title": "AWS Security Incident Response introduces integration with Slack",
-      "summary": "AWS Security Incident Response now integrates with Slack, allowing teams to manage security incidents through both platforms with bidirectional synchronization. This integration enables users to create and update security cases directly from Slack while maintaining automatic data replication between systems. The feature helps organizations respond to security events more efficiently by leveraging existing communication workflows within Slack.",
-      "category": "SECURITY",
-      "timestamp": "2025-12-16T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-security-incident-response-integration-slack",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "2d3cf2e29ea55d15cb5369f03ec3d03b6b60a665",
-      "title": "Amazon SageMaker AI is now available in Asia Pacific (New Zealand)",
-      "summary": "Amazon SageMaker AI is now available in the Asia Pacific (New Zealand) region, allowing developers and data scientists to build, train, and deploy machine learning models locally. SageMaker AI is a fully managed platform designed to simplify the entire machine learning process by removing technical complexity from each step.",
-      "category": "AI_ML",
-      "timestamp": "2025-12-16T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-sagemaker-ai-asia-pacific-new-zealand",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 414,
+    "total": 412,
     "byCategory": {
-      "CONTAINERS": 14,
       "SECURITY": 98,
-      "COMPUTE": 74,
-      "OTHER": 83,
-      "SERVERLESS": 10,
-      "AI_ML": 61,
-      "DATABASE": 43,
+      "DATABASE": 44,
+      "AI_ML": 62,
+      "STORAGE": 12,
+      "OTHER": 81,
+      "CONTAINERS": 14,
+      "COMPUTE": 72,
+      "SERVERLESS": 9,
       "ANALYTICS": 15,
-      "NETWORKING": 5,
-      "STORAGE": 11
+      "NETWORKING": 5
     },
-    "lastUpdated": "2026-03-16T10:53:53.891Z"
+    "lastUpdated": "2026-03-16T22:34:53.828Z"
   },
-  "generatedAt": "2026-03-16T10:53:53.891Z"
+  "generatedAt": "2026-03-16T22:34:53.828Z"
 }
