@@ -1,6 +1,86 @@
 {
   "announcements": [
     {
+      "id": "0fb8a9ba58bda25213f2ce859b917e662e7f900c",
+      "title": "Amazon SageMaker Unified Studio supports aggregated view of data lineage  ",
+      "summary": "Amazon SageMaker Unified Studio now offers an aggregated view of data lineage that displays all jobs contributing to datasets, providing a complete picture of data transformations and dependencies across the entire lineage graph. This enhancement allows users to quickly identify all upstream sources and downstream consumers of their datasets. Previously, the platform only showed lineage graphs at specific points in time, making this aggregated view a significant improvement for understanding data flow comprehensively.",
+      "category": "AI_ML",
+      "timestamp": "2026-03-17T21:10:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sageMaker-unified-studio-aggregated-view -data-lineage/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "04f216e800f72444ad0e728b177c0715702e2698",
+      "title": "SageMaker Training Plans now enables extending of existing capacity commitments without workload reconfiguration",
+      "summary": "Amazon SageMaker Training Plans now allows users to extend their existing GPU capacity reservations when AI workloads run longer than expected, preventing interruptions to training jobs. Users can extend plans in 1-day increments (up to 14 days) or 7-day increments (up to 182 days/26 weeks) through the API or SageMaker console. This feature eliminates the need to reconfigure workloads when additional training time is required for reserved capacity clusters of up to 64 instances.",
+      "category": "AI_ML",
+      "timestamp": "2026-03-17T18:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-training-plan-extension/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7359a9662acefdfac4a433c8527b0109cff0ced1",
+      "title": "AWS Blu Insights is now AWS Transform for mainframe refactor",
+      "summary": "AWS has rebranded and integrated AWS Blu Insights into AWS Transform, creating a unified platform that supports all three mainframe modernization approaches: refactor, replatform, and reimagine. The service now offers code transformation at no cost, eliminating the previous pricing model based on lines of code. Customers can now launch and manage mainframe refactoring projects directly through the AWS Transform console.",
+      "category": "OTHER",
+      "timestamp": "2026-03-17T18:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-transform-mainframe-refactor/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b135303db45f1a2f35709e1574acd17548fc2cca",
+      "title": "Amazon MSK expands Express brokers to Africa (Cape Town) and Asia Pacific (Taipei) regions",
+      "summary": "Amazon MSK has expanded Express brokers availability to two new regions: Africa (Cape Town) and Asia Pacific (Taipei). Express brokers are a new broker type that delivers up to 3x more throughput per broker, scales up to 20x faster, and reduces recovery time by 90% compared to standard Apache Kafka brokers. These brokers come pre-configured with Kafka best practices and support all Kafka APIs.",
+      "category": "ANALYTICS",
+      "timestamp": "2026-03-17T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-msk-express-2-new-aws-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5efd2318d2da346db1b2b8a9ee750ce36b65a725",
+      "title": "Amazon Bedrock AgentCore Runtime now supports shell command execution",
+      "summary": "Amazon Bedrock AgentCore Runtime has introduced a new InvokeAgentRuntimeCommand API that enables direct execution of shell commands within running AgentCore Runtime sessions. The feature allows developers to send commands, stream real-time output over HTTP/2, and receive exit codes without needing custom command execution logic in their containers. This enhancement is particularly useful for AI agents that need to perform deterministic operations like running tests, installing dependencies, or executing git commands.",
+      "category": "AI_ML",
+      "timestamp": "2026-03-17T16:34:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/bedrock-agentcore-runtime-shell-command/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c702f46881cfc10051db6ee2ee717da6c1e54837",
+      "title": "Amazon Corretto 26 is now generally available",
+      "summary": "Amazon Corretto 26, a free production-ready OpenJDK distribution, is now generally available for download on Linux, Windows, and macOS with support through October 2026. This Feature Release includes HTTP/3 protocol support for faster and more efficient networking in Java applications, along with ahead-of-time object caching capabilities.",
+      "category": "OTHER",
+      "timestamp": "2026-03-17T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-corretto-26-generally-available/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1d228aaff512101212b003dcfdc6bc6a458657a6",
+      "title": "Amazon RDS enhancements for SQL Server Developer Edition",
+      "summary": "Amazon RDS for SQL Server Developer Edition now supports Additional Storage Volumes, Resource Governor, and SQL Server 2019. SQL Server Developer Edition provides all Enterprise edition functionality without license charges, making it ideal for development and testing environments. This enhancement expands storage and resource management capabilities for non-production SQL Server workloads on AWS.",
+      "category": "DATABASE",
+      "timestamp": "2026-03-17T07:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-rds-enhancements-for-sql-server-developer-edition/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d740bddf18f1a822c61a8fadd443459cfd337302",
+      "title": "Amazon Bedrock is now available in Asia Pacific (New Zealand)",
+      "summary": "Amazon Bedrock, AWS's fully managed generative AI service, is now available in the Asia Pacific (New Zealand) region. The service allows customers to easily build and scale AI applications using foundation models from leading companies including AI21 Labs, Anthropic, Cohere, Meta, Mistral AI, OpenAI, Stability AI, and Amazon. This regional expansion gives New Zealand-based customers local access to high-performing large language models and AI development tools.",
+      "category": "SECURITY",
+      "timestamp": "2026-03-17T01:35:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-asia-pacific-new-zealand/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "f676dc412ffdfbe47d0dc330ea2fbbff00b73a0f",
       "title": "Amazon CloudWatch introduces organization-wide EC2 detailed monitoring enablement",
       "summary": "Amazon CloudWatch now enables customers to automatically activate EC2 detailed monitoring across their entire AWS Organization through new enablement rules in CloudWatch Ingestion. These rules can automatically enable 1-minute interval metrics collection for both existing and newly launched EC2 instances that match the specified criteria. This feature ensures consistent and comprehensive monitoring coverage across all EC2 instances within an organization without manual configuration.",
@@ -4039,123 +4119,23 @@
       "link": "https://aws.amazon.comabout-aws/whats-new/2025/12/aws-msk-express-brokers-support-kraft/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "a650ac43305983a4051eb34a1146d22c2046ef3e",
-      "title": "Amazon WorkSpaces Applications announces additional health and performance metrics",
-      "summary": "Amazon WorkSpaces Applications has introduced new Amazon CloudWatch metrics that allow administrators to monitor the health and performance of fleets, sessions, instances, and users. These metrics can be easily enabled from the CloudWatch console and provide real-time updates to simplify troubleshooting. The new monitoring capabilities help administrators make better decisions about sizing and optimize end-user streaming performance.",
-      "category": "COMPUTE",
-      "timestamp": "2025-12-17T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-workspaces-applications-health-performance-metrics",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "2c0e8beddaf11091630ec57ca0067cc556ae7a4c",
-      "title": "AWS Databases are now available on the Vercel Marketplace",
-      "summary": "AWS has made three of its database services—Amazon Aurora PostgreSQL, Amazon Aurora DSQL, and Amazon DynamoDB—generally available on the Vercel Marketplace, allowing developers to create and connect to AWS databases directly from Vercel in seconds. New users can create an AWS account through Vercel and receive $100 USD in credits that can be used with any of these database options for up to six months.",
-      "category": "SECURITY",
-      "timestamp": "2025-12-17T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-databases-are-available-on-the-vercel/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b709f05943046f9ecbf4fe02cb06335409836d0b",
-      "title": "Now generally available: Amazon EC2 M8gn and M8gb instances",
-      "summary": "AWS has announced the general availability of Amazon EC2 M8gn and M8gb instances powered by AWS Graviton4 processors, which deliver up to 30% better compute performance than Graviton3 processors. The M8gn instances feature 6th generation AWS Nitro Cards and offer up to 600 Gbps network bandwidth (the highest among network-optimized EC2 instances), while M8gb instances provide up to 150 Gbps of EBS bandwidth for enhanced storage performance.",
-      "category": "COMPUTE",
-      "timestamp": "2025-12-17T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/generally-available-amazon-ec2-m8gn-m8gb-instances",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "7fbdb3f01a4f4f0465b3ebb7330a329db09a3ce7",
-      "title": "Amazon Aurora now supports PostgreSQL 18.1 in the Amazon RDS Database preview environment ",
-      "summary": "Amazon Aurora PostgreSQL-Compatible Edition now supports PostgreSQL version 18.1 in the Amazon RDS Database Preview Environment, enabling users to evaluate the latest PostgreSQL features on Aurora. PostgreSQL 18.1 introduces performance improvements including \"skip scan\" support for multicolumn B-tree indexes, enhanced WHERE clause handling for OR and IN conditions, and parallel GIN index builds.",
-      "category": "SECURITY",
-      "timestamp": "2025-12-17T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-aurora-postgresql-18-1-rds-database-preview",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "7e4119e1de10b1e1364a2b4c2580a95d7289a608",
-      "title": "AWS announces enhanced custom line item controls for AWS Billing Conductor",
-      "summary": "AWS Billing Conductor now offers enhanced custom line item controls that allow customers to create service-specific line items scoped to one or multiple AWS services. These line items can be customized in how they appear across billing artifacts like Bills Page, Cost Explorer, and Cost and Usage Records. The improvements enable more precise and tailored charge-back and re-billing strategies for customers.",
-      "category": "OTHER",
-      "timestamp": "2025-12-17T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/enhanced-custom-line-item-controls-aws-billing-conductor",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b38ff137a706255112f976903a58b85cb232fe7a",
-      "title": "Amazon EC2 C8g, M8g, R8g instances now available in additional regions",
-      "summary": "Amazon EC2 C8g, M8g, and R8g instances powered by AWS Graviton4 processors are now available in AWS GovCloud regions (US-West and US-East). These instances deliver up to 30% better performance compared to Graviton3-based instances and are built on the AWS Nitro System for enhanced performance through dedicated hardware offloading.",
-      "category": "SECURITY",
-      "timestamp": "2025-12-17T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-c8g-m8g-r8g-instances-additional-regions",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "1b1bd64f2b1f80cb7976f5db297d16b8830491fb",
-      "title": "Amazon ECR Public now supports PrivateLink for US East (N. Virginia) SDK Endpoint",
-      "summary": "Amazon ECR Public now supports AWS PrivateLink for its US East (N. Virginia) SDK endpoint, enabling customers to access the service through private network connections instead of the public internet. This enhancement allows users to establish secure, private connectivity from their Amazon VPC to the ECR Public SDK endpoint, improving network security and reducing public internet exposure.",
-      "category": "SECURITY",
-      "timestamp": "2025-12-17T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ecr-public-privatelink-us-east-n-virginia-sdk-endpoint",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "3171085d34f21ebc5916e03fb3e4acd8f1bbf30f",
-      "title": "EC2 Auto Scaling now offers a synchronous API to launch instances inside an Auto Scaling group",
-      "summary": "AWS has launched a new synchronous API called LaunchInstances for EC2 Auto Scaling that gives customers more direct control over instance provisioning within Auto Scaling groups. The API provides immediate feedback on capacity availability, offering greater flexibility compared to the traditional automated scaling approach. This enhancement allows for more precise control over when and how instances are launched while still leveraging Auto Scaling's fleet management capabilities.",
-      "category": "OTHER",
-      "timestamp": "2025-12-17T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/ec2-auto-scaling-synchronous-api-launch-instances-auto-scaling-group",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "323d4af14d16050ac76d1adc7917c15057acf90c",
-      "title": "Amazon EC2 C8g instances now available in Europe (Zurich)",
-      "summary": "Amazon EC2 C8g instances, powered by AWS Graviton4 processors, are now available in the AWS Europe (Zurich) region. These instances deliver up to 30% better performance compared to Graviton3-based instances and are optimized for compute-intensive workloads including HPC, batch processing, gaming, video encoding, scientific modeling, distributed analytics, and CPU-based ML inference.",
-      "category": "SECURITY",
-      "timestamp": "2025-12-17T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-c8g-instances-europe-zurich",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "70eda0c8bba1d7210422500e7ee9c7e53ba4248a",
-      "title": "Amazon OpenSearch Service announces new OI2 instances",
-      "summary": "Amazon OpenSearch Service has launched new OI2 instances that are specifically optimized for higher indexing throughput, delivering up to 9% better performance compared to OR2 instances and up to 33% improvement over I8g instances. These new instances use the same architecture as OR2 instances and leverage Amazon S3 for high durability while providing improved price-performance for indexing workloads.",
-      "category": "COMPUTE",
-      "timestamp": "2025-12-17T14:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-opensearch-service-oi2-instances/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 414,
+    "total": 412,
     "byCategory": {
-      "COMPUTE": 73,
-      "SECURITY": 98,
-      "AI_ML": 63,
-      "DATABASE": 44,
-      "STORAGE": 12,
+      "AI_ML": 66,
       "OTHER": 81,
+      "ANALYTICS": 16,
+      "DATABASE": 45,
+      "SECURITY": 94,
+      "COMPUTE": 70,
+      "STORAGE": 12,
       "CONTAINERS": 14,
       "SERVERLESS": 9,
-      "ANALYTICS": 15,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-03-17T10:52:38.388Z"
+    "lastUpdated": "2026-03-17T22:34:20.137Z"
   },
-  "generatedAt": "2026-03-17T10:52:38.388Z"
+  "generatedAt": "2026-03-17T22:34:20.137Z"
 }
