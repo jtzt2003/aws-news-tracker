@@ -1,6 +1,36 @@
 {
   "announcements": [
     {
+      "id": "f676dc412ffdfbe47d0dc330ea2fbbff00b73a0f",
+      "title": "Amazon CloudWatch introduces organization-wide EC2 detailed monitoring enablement",
+      "summary": "Amazon CloudWatch now enables customers to automatically activate EC2 detailed monitoring across their entire AWS Organization through new enablement rules in CloudWatch Ingestion. These rules can automatically enable 1-minute interval metrics collection for both existing and newly launched EC2 instances that match the specified criteria. This feature ensures consistent and comprehensive monitoring coverage across all EC2 instances within an organization without manual configuration.",
+      "category": "COMPUTE",
+      "timestamp": "2026-03-16T23:10:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/cloudwatch-org-enablement-ec2-metrics/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1faefdf74c11e8492faa49da16e009a2c42da39d",
+      "title": "Amazon CloudWatch Logs now supports log ingestion using HTTP-based protocol",
+      "summary": "Amazon CloudWatch Logs now supports HTTP-based log ingestion through multiple protocols including HTTP Log Collector (HLC), ND-JSON, Structured JSON, and OpenTelemetry (OTEL) with bearer token authentication. This enhancement enables customers to send logs from third-party or packaged software where AWS SDK integration isn't possible, providing greater flexibility for diverse logging environments.",
+      "category": "SECURITY",
+      "timestamp": "2026-03-16T22:04:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/cloudwatch-http-log-collector/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4e148cee537d14864ce40b0801378738daf9fd4b",
+      "title": "SageMaker HyperPod now supports idle resource sharing for dynamic cluster utilization",
+      "summary": "Amazon SageMaker HyperPod has introduced dynamic resource sharing that allows teams to borrow unused compute capacity from shared clusters beyond their guaranteed quotas. Administrators can set borrowing limits for specific resources like accelerators, vCPU, or memory to ensure fair distribution across teams. This feature addresses underutilization challenges commonly faced in shared compute clusters for generative AI workloads.",
+      "category": "AI_ML",
+      "timestamp": "2026-03-16T19:38:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/sagemaker-hyperpod-idle-resource-sharing/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "941f434ed05de55963a694379489ccbe7fb71c9a",
       "title": "Amazon Neptune now supports reading S3 data using openCyper",
       "summary": "Amazon Neptune now supports reading data directly from Amazon S3 within openCypher queries through the new `neptune.read()` procedure. This feature allows customers to federate with external S3 data without needing to load it into Neptune first, eliminating traditional multi-step workflow requirements. Organizations can now perform real-time graph analytics by dynamically combining S3-stored data with their existing Neptune graphs.",
@@ -4109,33 +4139,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-opensearch-service-oi2-instances/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "7cd21ebebf7ae3b45e48510300cc1f7d6af634a2",
-      "title": "AWS Payment Cryptography reduces API pricing by up to 63% and introduces tiered key pricing",
-      "summary": "AWS Payment Cryptography has announced significant price reductions of up to 63% for API requests across existing tiers, while introducing a new fourth tier and unified pricing across all regions. The service has also transitioned from flat-rate to tiered key pricing to better support customers managing high volumes of cryptographic keys. These changes are designed to make it more cost-effective for customers to migrate higher volume workloads to the service.",
-      "category": "SECURITY",
-      "timestamp": "2025-12-17T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-payment-cryptography-lower-pricing/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 412,
+    "total": 414,
     "byCategory": {
+      "COMPUTE": 73,
       "SECURITY": 98,
+      "AI_ML": 63,
       "DATABASE": 44,
-      "AI_ML": 62,
       "STORAGE": 12,
       "OTHER": 81,
       "CONTAINERS": 14,
-      "COMPUTE": 72,
       "SERVERLESS": 9,
       "ANALYTICS": 15,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-03-16T22:34:53.828Z"
+    "lastUpdated": "2026-03-17T10:52:38.388Z"
   },
-  "generatedAt": "2026-03-16T22:34:53.828Z"
+  "generatedAt": "2026-03-17T10:52:38.388Z"
 }
