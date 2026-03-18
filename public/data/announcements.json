@@ -1,6 +1,96 @@
 {
   "announcements": [
     {
+      "id": "aaa58318ecba57cd6a40e1797979e583567fe7f5",
+      "title": "Amazon EC2 High Memory U7i-6TB instances now available in Asia Pacific (Malaysia)",
+      "summary": "Amazon EC2 High Memory U7i instances with 6TB of memory (u7i-6tb.112xlarge) are now available in the Asia Pacific (Malaysia) region. These 7th generation instances feature custom Intel Xeon Scalable Processors, 6TiB of DDR5 memory, 448 vCPUs, and up to 100 Gbps EBS bandwidth. They are designed to help customers scale transaction processing throughput in fast-growing data environments.",
+      "category": "COMPUTE",
+      "timestamp": "2026-03-18T19:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/ec2-high-memory-u7i-6tb-asia-pacific/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4caa55bd172f598825b0adb4c3b4956171eca5e6",
+      "title": "Amazon ECR now supports pull through cache for Chainguard",
+      "summary": "Amazon ECR now supports Chainguard as an upstream source for its pull through cache feature, allowing customers to automatically synchronize private Chainguard images with improved security and availability. This enhancement helps customers scale their use of Chainguard images while keeping them in sync with Chainguard's registry without additional manual effort.",
+      "category": "SECURITY",
+      "timestamp": "2026-03-18T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ecr-pull-through-cache-chainguard/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b763d50cee9a356cf4adffa6dd043a2e4a2cfaff",
+      "title": "Amazon S3 Access Grants are now available in the AWS Asia Pacific (New Zealand) Region",
+      "summary": "Amazon S3 Access Grants are now available in the AWS Asia Pacific (New Zealand) Region, allowing organizations to map corporate identities from directories like Microsoft Entra ID or AWS IAM to S3 datasets. This feature enables automated, scalable management of S3 data permissions by granting access based on users' corporate identities.",
+      "category": "STORAGE",
+      "timestamp": "2026-03-18T17:17:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-s3-access-grants-new-zealand/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "012af049b39c7cd40ec3cc121de3cc1c1979e5cf",
+      "title": "Amazon EC2 M6in and M6idn instances are now available in Europe (London) Region",
+      "summary": "Amazon EC2 M6in and M6idn instances are now available in the AWS London Region, offering sixth-generation network-optimized computing powered by 3rd Generation Intel Xeon Scalable processors. These instances deliver up to 200 Gbps network bandwidth, providing 2x more network performance than comparable fifth-generation instances, making them ideal for network-intensive workloads.",
+      "category": "COMPUTE",
+      "timestamp": "2026-03-18T16:39:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-m6in-m6idn-instances-london/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6fdd15312ac07ef06fd1f859da4f7bb2e7e3e2c6",
+      "title": "Amazon EC2 C8a instances now available in the Asia Pacific (Tokyo) region",
+      "summary": "Amazon EC2 C8a instances are now available in the Asia Pacific (Tokyo) region, powered by 5th Gen AMD EPYC processors with up to 4.5 GHz frequency. These compute-optimized instances deliver up to 30% higher performance and 19% better price-performance compared to C7a instances, with 33% more memory bandwidth making them ideal for latency-sensitive workloads.",
+      "category": "COMPUTE",
+      "timestamp": "2026-03-18T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-r8a-instances-asia-pacific-tokyo-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "fbbe242cf669ccf290597daa494acd3159ac13d6",
+      "title": "Amazon Inspector expands agentless EC2 scanning and introduces Windows KB-based findings ",
+      "summary": "Amazon Inspector has expanded its agentless EC2 scanning capabilities to include Windows operating system vulnerability detection, eliminating the need for agents on Windows instances. The enhanced service now provides broader vulnerability detection coverage across various software and applications including WordPress, Apache HTTP Server, Python packages, and Ruby gems. This expansion enables security teams and IT administrators to identify vulnerabilities across a wider range of systems and software without deploying additional agents.",
+      "category": "SECURITY",
+      "timestamp": "2026-03-18T15:44:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-inspector-agentless-ec2-scanning-windows/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "989939c45220825486a66460d28f0c82d0451c60",
+      "title": "AWS Config launches 75 new managed rules",
+      "summary": "AWS Config has launched 75 new managed rules that help organizations govern security, durability, and operational use cases across their AWS environments. These rules can be easily searched, discovered, and enabled directly through AWS Config, and can be applied at both the account and organization level. The new rules extend governance capabilities to services like AWS Amplify, Amazon SageMaker, and Amazon Route 53.",
+      "category": "SECURITY",
+      "timestamp": "2026-03-18T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-config-launches-new-rules/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2dc0cee0d4229a53e045bfeeabec444e4d649280",
+      "title": "Amazon Redshift increases performance for new queries in dashboards and ETL workloads by up to 7x",
+      "summary": "Amazon Redshift has announced performance improvements that accelerate new queries by up to 7x, significantly enhancing response times for BI dashboards and ETL workloads. The enhancement specifically speeds up the SQL query preparation process, benefiting low-latency applications including near real-time analytics, BI dashboards, ETL pipelines, and AI agents. This improvement allows queries to start faster and return results more quickly for better overall performance.",
+      "category": "DATABASE",
+      "timestamp": "2026-03-18T13:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-redshift-increases-performance-for-new-queries/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b8eed77b72c94e42427c07c1b643324d2b0f5776",
+      "title": "Amazon OpenSearch Service now supports OpenSearch version 3.5",
+      "summary": "Amazon OpenSearch Service now supports OpenSearch version 3.5, which introduces enhanced agentic AI capabilities, improved search relevance tooling, and better observability features. The update includes agentic conversation memory that captures conversation context and tool reasoning in persistent storage, allowing AI agents to maintain coherent responses across multi-turn conversations.",
+      "category": "ANALYTICS",
+      "timestamp": "2026-03-18T03:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-opensearch-service-version-3-5/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "c1e08799dfed87e2ef8b580aab6f798c95ae951f",
       "title": "Amazon Connect expands agentic speech-to-speech voice experiences to the London (Europe) region and adds three new voices ",
       "summary": "Amazon Connect has expanded its agentic speech-to-speech voice experiences to the London (Europe) region and added three new voices: Pedro (US Spanish), Amy (UK English), and Brian (UK English). These AI agents can understand, reason, and take action across voice and messaging channels to automate both routine and complex customer service tasks.",
@@ -4029,93 +4119,23 @@
       "link": "https://aws.amazon.comabout-aws/whats-new/2025/12/amazon-workspaces-applications-supports-microsoft-windows-server",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "a8e2f475b97552d6a1fde2c130fed82fc391daf5",
-      "title": "Amazon EC2 now supports Availability Zone ID across its APIs",
-      "summary": "Amazon EC2 now supports Availability Zone ID (AZ ID) parameters across its APIs, allowing users to create and manage resources using consistent zone identifiers that represent the same physical location across all AWS accounts. This replaces the previous system where AZ names could map to different physical locations, making resource placement optimization more reliable and predictable.",
-      "category": "COMPUTE",
-      "timestamp": "2025-12-18T20:55:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-az-id-api-support",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "e6ccdfc10fb11a4aa8399e348fdd388ff6aaa00c",
-      "title": "Amazon WorkSpaces Applications announces Elastic fleets powered by Ubuntu Pro 24.04 LTS",
-      "summary": "Amazon WorkSpaces Applications now supports Ubuntu Pro 24.04 LTS on Elastic fleets, allowing ISVs and IT organizations to stream Ubuntu desktop applications to users through AWS Cloud infrastructure. This fully managed service enables secure, flexible access to desktops and applications from anywhere while providing scalability and cost-effectiveness.",
-      "category": "OTHER",
-      "timestamp": "2025-12-18T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-workspaces-ubuntu-elasticfleets",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f07a6fcd9cc1114bccf14be763dd4aab0a35f84d",
-      "title": "Amazon EC2 C8a instances now available in the Europe (Spain) region",
-      "summary": "Amazon EC2 C8a instances, powered by 5th Gen AMD EPYC processors with up to 4.5 GHz frequency, are now available in the Europe (Spain) region. These compute-optimized instances deliver up to 30% higher performance and 19% better price-performance compared to C7a instances, with 33% more memory bandwidth making them ideal for latency-sensitive workloads.",
-      "category": "COMPUTE",
-      "timestamp": "2025-12-18T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-c8a-instances-europe-spain-region",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "3a9ca41506f48af04027b3a629304cf68d95ca59",
-      "title": "Amazon WorkSpaces now supports IPv6",
-      "summary": "Amazon WorkSpaces now supports IPv6 connectivity through a dual-stack IPv4/IPv6 configuration, allowing users to connect from compatible clients (except when using SAML authentication). This update helps customers meet IPv6 compliance requirements and reduces costs by eliminating the need for expensive networking equipment to translate between IPv4 and IPv6 addresses.",
-      "category": "OTHER",
-      "timestamp": "2025-12-18T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-workspaces-ipv6/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "674e22734d0d6265d44116fc72f747860a039d43",
-      "title": "Amazon MSK Connect now supports dual-stack (IPv4 and IPv6) connectivity for new connectors",
-      "summary": "Amazon MSK Connect now supports dual-stack connectivity, allowing customers to create new connectors that use both IPv4 and IPv6 protocols simultaneously, in addition to the existing IPv4-only option. This enhancement helps organizations modernize their applications for IPv6 environments while maintaining backward compatibility with IPv4, facilitating compliance requirements and preparation for future network architectures.",
-      "category": "ANALYTICS",
-      "timestamp": "2025-12-18T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-msk-connect-dual-stack-ipv-and-ipv/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "1a6551300d9086ca66dd6d4c4b08690a0bb863d9",
-      "title": "AWS IoT Core adds message batching to HTTP rule action",
-      "summary": "AWS IoT Core has introduced message batching functionality for HTTP rule actions, allowing multiple IoT messages to be combined into a single HTTP request before being sent to downstream endpoints. This new feature reduces both cost and throughput overhead when processing telemetry data from IoT workloads by minimizing the number of individual HTTP calls required.",
-      "category": "OTHER",
-      "timestamp": "2025-12-18T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-iot-core-message-batching-http-rule-action",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6e10f59cf6c19a420643be74d3aa5a7eec22abcf",
-      "title": "Amazon ECS Managed Instances now supports Amazon EC2 Spot Instances",
-      "summary": "Amazon ECS Managed Instances now supports EC2 Spot Instances, allowing users to access spare EC2 capacity at up to 90% discount compared to On-Demand pricing for fault-tolerant workloads. This enhancement maintains AWS's fully managed infrastructure approach while providing significant cost savings through automatic scaling and infrastructure management.",
-      "category": "CONTAINERS",
-      "timestamp": "2025-12-18T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ecs-managed-instances-ec2-spot-instances",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 410,
+    "total": 412,
     "byCategory": {
-      "OTHER": 83,
-      "AI_ML": 66,
+      "COMPUTE": 70,
+      "SECURITY": 98,
+      "STORAGE": 13,
+      "DATABASE": 45,
       "ANALYTICS": 15,
-      "DATABASE": 44,
-      "SECURITY": 95,
-      "COMPUTE": 69,
-      "STORAGE": 12,
-      "CONTAINERS": 14,
+      "OTHER": 80,
+      "AI_ML": 66,
+      "CONTAINERS": 13,
       "SERVERLESS": 8,
       "NETWORKING": 4
     },
-    "lastUpdated": "2026-03-18T10:53:57.858Z"
+    "lastUpdated": "2026-03-18T22:33:22.832Z"
   },
-  "generatedAt": "2026-03-18T10:53:57.858Z"
+  "generatedAt": "2026-03-18T22:33:22.832Z"
 }
