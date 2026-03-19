@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "73ff045711690789d689b3e7f311693cff405d60",
+      "title": "Minimax M2.5 and GLM 5 models now available on Amazon Bedrock",
+      "summary": "Amazon Bedrock has added two new AI models to its platform: GLM 5 and Minimax M2.5. GLM 5 is a frontier-class large language model specifically designed for complex systems engineering and long-term agentic tasks, featuring capabilities in multi-step reasoning, mathematics, advanced coding, and tool-augmented workflows with long context support for enterprise applications.",
+      "category": "AI_ML",
+      "timestamp": "2026-03-18T21:07:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-minimax-glm/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "aaa58318ecba57cd6a40e1797979e583567fe7f5",
       "title": "Amazon EC2 High Memory U7i-6TB instances now available in Asia Pacific (Malaysia)",
       "summary": "Amazon EC2 High Memory U7i instances with 6TB of memory (u7i-6tb.112xlarge) are now available in the Asia Pacific (Malaysia) region. These 7th generation instances feature custom Intel Xeon Scalable Processors, 6TiB of DDR5 memory, 448 vCPUs, and up to 100 Gbps EBS bandwidth. They are designed to help customers scale transaction processing throughput in fast-growing data environments.",
@@ -17,6 +27,16 @@
       "category": "SECURITY",
       "timestamp": "2026-03-18T18:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ecr-pull-through-cache-chainguard/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b384eb50ec60652f8a96066b45fa0f89d666bc28",
+      "title": "NVIDIA Nemotron 3 Super now available on Amazon Bedrock ",
+      "summary": "Amazon Bedrock now offers NVIDIA Nemotron 3 Super, an open hybrid Mixture-of-Experts (MoE) model specifically designed for complex multi-agent AI applications. The model provides fast, cost-efficient inference while maintaining context and accuracy across long, multi-step tasks. Being fully open with accessible weights, datasets, and recipes, it enables easy customization and secure deployment for enterprises and startups.",
+      "category": "SECURITY",
+      "timestamp": "2026-03-18T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-nemotron-3-super/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -4059,83 +4079,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-rds-observability-snapshot-exports-s3",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "b1db203d963db2fddcf4d3e6f5be46682b28116a",
-      "title": "Amazon Bedrock Data Automation launches instruction optimization for your document blueprints",
-      "summary": "Amazon Bedrock Data Automation (BDA) has launched blueprint instruction optimization, which automatically improves the accuracy of custom field extraction from documents using example assets with ground truth labels. This feature refines natural language instructions in blueprints to better extract insights from unstructured multimodal content including documents, images, audio, and videos. The enhancement helps optimize GenAI-powered applications by automatically improving extraction performance with minimal manual intervention.",
-      "category": "AI_ML",
-      "timestamp": "2025-12-19T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/bedrock-data-automation-optimization-document-blueprints/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "64692cc659f7616ec9fcdbb52ee23551a3d6eb22",
-      "title": "Timestream for InfluxDB Now Supports Restart API Calls",
-      "summary": "Amazon Timestream for InfluxDB now supports a restart API for both InfluxDB versions 2 and 3, allowing customers to trigger system restarts on their database instances through the AWS Management Console, API, or CLI. This new feature enables customers to perform resilience testing and address health-related issues more efficiently, streamlining operational management of their time-series database environments.",
-      "category": "DATABASE",
-      "timestamp": "2025-12-19T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/timestream-influxdb-restart-api",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "deb1d19b403cb1186fd4ba17da7b0eff920ffcb1",
-      "title": "Announcing Cost Allocation Tags support for Account Tags",
-      "summary": "AWS has announced support for Cost Allocation Tags with account tags, allowing customers with multiple member accounts to use their existing AWS Organizations account tags directly in cost management tools. Account tags are automatically applied at the account level and cover all metered usage within tagged accounts, removing the need to manually configure separate account groupings in AWS Cost Explorer and Cost and Usage Reports. This enhancement streamlines cost management across multi-account AWS environments.",
-      "category": "OTHER",
-      "timestamp": "2025-12-19T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/cost-allocation-tags/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6b9bdcdc95d0b7c1db2e9f7ee15c2ed6a7a61826",
-      "title": "Amazon ECR now supports creating repositories on push",
-      "summary": "Amazon Elastic Container Registry (ECR) now automatically creates repositories when container images are pushed, eliminating the need for users to manually pre-create repositories. This feature streamlines container workflows by using defined repository creation template settings to automatically generate repositories as needed. The capability is available across all AWS regions where ECR is offered.",
-      "category": "CONTAINERS",
-      "timestamp": "2025-12-19T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ecr-creating-repositories-on-push/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "15824a9b568044554d1846e29e16b225128220b2",
-      "title": "AWS IoT now offers event-based logging to help optimize observability costs",
-      "summary": "AWS IoT has introduced event-based logging, a new feature that allows developers to reduce Amazon CloudWatch costs while improving log management efficiency. This capability enables customizable log levels and destinations for individual IoT events based on their operational importance. For example, developers can set different log levels (like INFO-level) for specific event types such as certificate providers.",
-      "category": "OTHER",
-      "timestamp": "2025-12-19T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-iot-event-based-logging/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b4bad7fdb7a4b1da2ce4d7f522a4777df7de9e32",
-      "title": "Amazon WorkSpaces Applications now supports Microsoft Windows Server 2025",
-      "summary": "Amazon WorkSpaces Applications now supports Microsoft Windows Server 2025, allowing customers to launch streaming instances with the latest server operating system features. This update provides improved security, performance, and modern capabilities for application streaming environments. The new support enables delivery of the Windows 11 desktop experience to end users with enhanced flexibility.",
-      "category": "SECURITY",
-      "timestamp": "2025-12-19T08:00:00.000Z",
-      "link": "https://aws.amazon.comabout-aws/whats-new/2025/12/amazon-workspaces-applications-supports-microsoft-windows-server",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 412,
+    "total": 408,
     "byCategory": {
+      "AI_ML": 66,
       "COMPUTE": 70,
       "SECURITY": 98,
       "STORAGE": 13,
-      "DATABASE": 45,
+      "DATABASE": 44,
       "ANALYTICS": 15,
-      "OTHER": 80,
-      "AI_ML": 66,
-      "CONTAINERS": 13,
+      "OTHER": 78,
+      "CONTAINERS": 12,
       "SERVERLESS": 8,
       "NETWORKING": 4
     },
-    "lastUpdated": "2026-03-18T22:33:22.832Z"
+    "lastUpdated": "2026-03-19T10:41:22.171Z"
   },
-  "generatedAt": "2026-03-18T22:33:22.832Z"
+  "generatedAt": "2026-03-19T10:41:22.172Z"
 }
