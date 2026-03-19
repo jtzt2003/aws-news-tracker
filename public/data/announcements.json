@@ -1,6 +1,66 @@
 {
   "announcements": [
     {
+      "id": "07961c012bbe8451fe94b701330ce6b5a48e6720",
+      "title": "Amazon EC2 Fleet now supports interruptible Capacity Reservations",
+      "summary": "Amazon EC2 Fleet now supports interruptible Capacity Reservations, allowing customers to specify interruptible Capacity Reservation IDs across Launch Templates when provisioning instances. This feature enables customers to make unused On-Demand Capacity Reservations temporarily available as interruptible reservations within their AWS Organization, improving overall capacity utilization.",
+      "category": "COMPUTE",
+      "timestamp": "2026-03-19T20:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-fleet-interruptible-capacity-reservations/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c4ae7c1baa60906beaf380ec699d90878eca0099",
+      "title": "AWS adds support for NIXL with EFA to accelerate LLM inference at scale",
+      "summary": "AWS has announced support for NVIDIA Inference Xfer Library (NIXL) with Elastic Fabric Adapter (EFA) to accelerate large language model (LLM) inference on Amazon EC2. This integration improves disaggregated inference serving by increasing KV-cache throughput, reducing inter-token latency, and optimizing memory utilization. The combination enables high-performance, low-latency KV-cache transfer between prefill and decode nodes for more efficient LLM inference at scale.",
+      "category": "COMPUTE",
+      "timestamp": "2026-03-19T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-support-nixl-with-efa/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b044ea687eac15de8f276b0d18dfe809e87093e1",
+      "title": "Amazon EC2 C8gn instances are now available in additional regions",
+      "summary": "Amazon EC2 C8gn instances powered by AWS Graviton4 processors are now available in additional regions including Asia Pacific (Jakarta, Hyderabad, Tokyo), South America (Sao Paulo), and Europe (Zurich). These new instances deliver up to 30% better compute performance compared to the previous Graviton3-based C7gn instances and feature 6th generation AWS Nitro Cards with up to 600 Gbps network bandwidth.",
+      "category": "AI_ML",
+      "timestamp": "2026-03-19T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-c8gn-instances-additional-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "25f5b7f2b732ef7e9f5300f64b19c399fd9a6dcf",
+      "title": "AWS Lambda now supports Availability Zone metadata ",
+      "summary": "AWS Lambda now provides Availability Zone (AZ) metadata through a new endpoint in the Lambda execution environment, allowing developers to identify which specific AZ their function is running in (e.g., use1-az1). This enables developers to build AZ-aware applications that can make intelligent routing decisions, such as preferring same-AZ endpoints to reduce latency and implement resilience patterns.",
+      "category": "DATABASE",
+      "timestamp": "2026-03-19T16:36:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/lambda-availability-zone-metadata/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9a9a84d8d6b230296f1cc453bb91de29f4c30671",
+      "title": "AWS Direct Connect announces new location in Sydney, Australia",
+      "summary": "AWS has opened a new Direct Connect location at Equinix SY5 in Sydney, Australia, marking the fourth such facility in Sydney and tenth in Australia overall. The location enables private, direct network access to all public AWS Regions (excluding China), AWS GovCloud Regions, and AWS Local Zones. The facility offers dedicated connections at 10 Gbps and 100 Gbps speeds with MACsec encryption.",
+      "category": "COMPUTE",
+      "timestamp": "2026-03-19T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-direct-connect-sydney-sy5/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2c535379f8944b1ca743232e04c47b32d6daa87c",
+      "title": "Amazon RDS Custom for SQL Server adds ability to view and schedule new operating system updates",
+      "summary": "Amazon RDS Custom for SQL Server now allows customers to view and schedule operating system updates for RDS-provided engine versions (RPEV), which come with SQL Server pre-installed on an AMI. Customers can see upcoming OS updates and choose to apply them immediately or schedule them for the next maintenance window using RDS Custom APIs. This enhancement gives users more control over when critical OS updates are applied to their SQL Server instances.",
+      "category": "DATABASE",
+      "timestamp": "2026-03-19T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-rds-custom-sql-server-operating-system-updates/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "73ff045711690789d689b3e7f311693cff405d60",
       "title": "Minimax M2.5 and GLM 5 models now available on Amazon Bedrock",
       "summary": "Amazon Bedrock has added two new AI models to its platform: GLM 5 and Minimax M2.5. GLM 5 is a frontier-class large language model specifically designed for complex systems engineering and long-term agentic tasks, featuring capabilities in multi-step reasoning, mathematics, advanced coding, and tool-augmented workflows with long context support for enterprise applications.",
@@ -4039,63 +4099,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/announcing-aws-neuron-2-27",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "8ef7726ca3407bdab01ad968389d236778419e5d",
-      "title": "Amazon Application Recovery Controller region switch now supports three new capabilities",
-      "summary": "Amazon Application Recovery Controller (ARC) Region switch has added three new capabilities to help orchestrate multi-Region application failovers to another AWS Region during regional impairments. The service provides bounded recovery times while eliminating hours of manual engineering work previously required for failover procedures. It automates failover steps, dashboard creation, and evidence gathering for successful recovery operations.",
-      "category": "DATABASE",
-      "timestamp": "2025-12-19T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-application-recovery-controller-region-switch-new-capabilities",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f364e0aebd16d9e48a709eb2a5af118bd5167686",
-      "title": "AWS Private CA OCSP now available in China and AWS GovCloud (US) Regions",
-      "summary": "AWS Private Certificate Authority (AWS Private CA) has expanded its Online Certificate Status Protocol (OCSP) support to China and AWS GovCloud (US) Regions. This enhancement allows real-time certificate validation and revocation status checking for applications using private certificates in these regions. AWS Private CA is a fully managed service that eliminates the operational complexity of maintaining your own certificate authority infrastructure.",
-      "category": "SECURITY",
-      "timestamp": "2025-12-19T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-private-ca-ocsp-china-govcloud-us-regions",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "08c5ac89a4a95c100e9eb9a2225ba25f175afd10",
-      "title": "Amazon SageMaker Studio now supports SOCI indexing for faster container startup times",
-      "summary": "Amazon SageMaker Studio now supports SOCI (Seekable Open Container Initiative) indexing, which reduces container startup times by 30-50% when using custom images. This enhancement improves the performance of SageMaker Studio, AWS's browser-based machine learning development environment that provides pre-built containers for popular ML frameworks like TensorFlow, PyTorch, and Scikit-learn.",
-      "category": "AI_ML",
-      "timestamp": "2025-12-19T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-sagemaker-nbi-soci/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "27a23143259aea74e95a84a3f57b835dde0bf31a",
-      "title": "Amazon RDS enhances observability for snapshot exports to Amazon S3",
-      "summary": "Amazon RDS has introduced enhanced observability features for snapshot exports to Amazon S3, providing detailed insights into export progress, failures, and performance through four new event types. These improvements allow users to monitor their snapshot exports with greater granularity and predictability. The feature enables exporting RDS database snapshots to Apache Parquet format in S3 buckets with better visibility into the export process.",
-      "category": "DATABASE",
-      "timestamp": "2025-12-19T14:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-rds-observability-snapshot-exports-s3",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 408,
+    "total": 410,
     "byCategory": {
+      "COMPUTE": 73,
       "AI_ML": 66,
-      "COMPUTE": 70,
-      "SECURITY": 98,
-      "STORAGE": 13,
       "DATABASE": 44,
+      "SECURITY": 97,
+      "STORAGE": 13,
       "ANALYTICS": 15,
       "OTHER": 78,
       "CONTAINERS": 12,
       "SERVERLESS": 8,
       "NETWORKING": 4
     },
-    "lastUpdated": "2026-03-19T10:41:22.171Z"
+    "lastUpdated": "2026-03-19T22:30:02.318Z"
   },
-  "generatedAt": "2026-03-19T10:41:22.172Z"
+  "generatedAt": "2026-03-19T22:30:02.319Z"
 }
