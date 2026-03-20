@@ -21,6 +21,16 @@
       "isNew": false
     },
     {
+      "id": "126367f16e78ad4a3c1a5034217a3175a59d2ce0",
+      "title": "Amazon Redshift supports federated permissions with IAM Identity Center in multiple AWS Regions",
+      "summary": "Amazon Redshift now supports federated permissions with AWS IAM Identity Center across multiple AWS Regions, allowing you to extend IdC beyond your primary region for better performance and reliability. This enables simplified administration of fine-grained access controls at the table and column level using existing workforce identities across multiple regions.",
+      "category": "DATABASE",
+      "timestamp": "2026-03-19T17:13:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/redshift-federated-permissions-idc-mrr/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "b044ea687eac15de8f276b0d18dfe809e87093e1",
       "title": "Amazon EC2 C8gn instances are now available in additional regions",
       "summary": "Amazon EC2 C8gn instances powered by AWS Graviton4 processors are now available in additional regions including Asia Pacific (Jakarta, Hyderabad, Tokyo), South America (Sao Paulo), and Europe (Zurich). These new instances deliver up to 30% better compute performance compared to the previous Graviton3-based C7gn instances and feature 6th generation AWS Nitro Cards with up to 600 Gbps network bandwidth.",
@@ -4102,11 +4112,11 @@
     }
   ],
   "stats": {
-    "total": 410,
+    "total": 411,
     "byCategory": {
       "COMPUTE": 73,
+      "DATABASE": 45,
       "AI_ML": 66,
-      "DATABASE": 44,
       "SECURITY": 97,
       "STORAGE": 13,
       "ANALYTICS": 15,
@@ -4115,7 +4125,7 @@
       "SERVERLESS": 8,
       "NETWORKING": 4
     },
-    "lastUpdated": "2026-03-19T22:30:02.318Z"
+    "lastUpdated": "2026-03-20T10:39:02.681Z"
   },
-  "generatedAt": "2026-03-19T22:30:02.319Z"
+  "generatedAt": "2026-03-20T10:39:02.682Z"
 }
