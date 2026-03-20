@@ -1,6 +1,46 @@
 {
   "announcements": [
     {
+      "id": "fcafedd241443aeee151cfe36a65534608011c3c",
+      "title": "Amazon EKS announces 99.99% Service Level Agreement and new 8XL scaling tier for Provisioned Control Plane clusters",
+      "summary": "Amazon EKS has upgraded its Service Level Agreement for Provisioned Control Plane clusters from 99.95% to 99.99% uptime. The service is also introducing a new 8XL scaling tier, which is the largest available capacity option for Provisioned Control Plane clusters, allowing customers to select from pre-defined scaling tiers for their cluster's control plane capacity.",
+      "category": "CONTAINERS",
+      "timestamp": "2026-03-20T20:48:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-eks-announces-sla-8xl-scaling-tier/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c09c5cab2ed94a8af11646e51da9d6a5356b9fbc",
+      "title": "AWS Neuron announces support for Dynamic Resource Allocation with Amazon EKS",
+      "summary": "AWS has launched the Neuron Dynamic Resource Allocation (DRA) driver for Amazon EKS, which enables Kubernetes-native hardware-aware scheduling for AWS Trainium-based instances. The driver publishes detailed device attributes directly to the Kubernetes scheduler, allowing for topology-aware placement decisions without requiring custom scheduler extensions. This development simplifies the deployment of AI workloads on Kubernetes by reducing the infrastructure complexity that ML engineers typically need to manage.",
+      "category": "CONTAINERS",
+      "timestamp": "2026-03-20T18:38:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/neuron-eks-dra-support/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "13751f6aabdfdd995e6c9d3f1f73f9f0e6deb7fe",
+      "title": "AWS DataSync now supports AWS Secrets Manager for all location types",
+      "summary": "AWS DataSync has expanded its AWS Secrets Manager integration to support credential management across all location types, including HDFS, Amazon FSx for Windows File Server, and Amazon FSx for NetApp ONTAP. Previously, Secrets Manager was only available for select location types, forcing users to input credentials directly through the DataSync API or console. This update enables centralized credential management for all DataSync locations through Secrets Manager.",
+      "category": "SECURITY",
+      "timestamp": "2026-03-20T10:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-datasync-secrets-manager/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "88059b8c0ec528462a8c70a9f57741a8a5f3f725",
+      "title": "AWS Firewall Manager launches in AWS Asia Pacific (New Zealand) Region",
+      "summary": "AWS Firewall Manager is now available in the AWS Asia Pacific (New Zealand) Region. The service helps cloud security administrators and site reliability engineers protect applications by automating the configuration and management of firewall rules, reducing manual operational overhead. It enables customers to implement comprehensive defense-in-depth security policies across AWS security services for their applications and workloads.",
+      "category": "SECURITY",
+      "timestamp": "2026-03-20T05:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-firewall-manager-launches-ap-nz/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "07961c012bbe8451fe94b701330ce6b5a48e6720",
       "title": "Amazon EC2 Fleet now supports interruptible Capacity Reservations",
       "summary": "Amazon EC2 Fleet now supports interruptible Capacity Reservations, allowing customers to specify interruptible Capacity Reservation IDs across Launch Templates when provisioning instances. This feature enables customers to make unused On-Demand Capacity Reservations temporarily available as interruptible reservations within their AWS Organization, improving overall capacity utilization.",
@@ -4112,20 +4152,20 @@
     }
   ],
   "stats": {
-    "total": 411,
+    "total": 415,
     "byCategory": {
+      "CONTAINERS": 14,
+      "SECURITY": 99,
       "COMPUTE": 73,
       "DATABASE": 45,
       "AI_ML": 66,
-      "SECURITY": 97,
       "STORAGE": 13,
       "ANALYTICS": 15,
       "OTHER": 78,
-      "CONTAINERS": 12,
       "SERVERLESS": 8,
       "NETWORKING": 4
     },
-    "lastUpdated": "2026-03-20T10:39:02.681Z"
+    "lastUpdated": "2026-03-20T22:30:46.207Z"
   },
-  "generatedAt": "2026-03-20T10:39:02.682Z"
+  "generatedAt": "2026-03-20T22:30:46.209Z"
 }
