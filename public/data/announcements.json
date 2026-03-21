@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "7af396d855455315b9eaafd1bb565eac4091c2d0",
+      "title": "Amazon Bedrock AgentCore Runtime adds WebRTC support for real-time bidirectional streaming",
+      "summary": "Amazon Bedrock AgentCore Runtime now supports WebRTC in addition to WebSocket protocols, enabling real-time bidirectional streaming between clients and AI agents. This enhancement allows developers to build voice agents for browser and mobile applications with low-latency audio and video streaming using peer-to-peer UDP transport. The WebRTC support enables more natural, real-time conversational experiences for users interacting with AI agents.",
+      "category": "AI_ML",
+      "timestamp": "2026-03-20T21:54:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-webrtc/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "fcafedd241443aeee151cfe36a65534608011c3c",
       "title": "Amazon EKS announces 99.99% Service Level Agreement and new 8XL scaling tier for Provisioned Control Plane clusters",
       "summary": "Amazon EKS has upgraded its Service Level Agreement for Provisioned Control Plane clusters from 99.95% to 99.99% uptime. The service is also introducing a new 8XL scaling tier, which is the largest available capacity option for Provisioned Control Plane clusters, allowing customers to select from pre-defined scaling tiers for their cluster's control plane capacity.",
@@ -4152,20 +4162,20 @@
     }
   ],
   "stats": {
-    "total": 415,
+    "total": 416,
     "byCategory": {
+      "AI_ML": 67,
       "CONTAINERS": 14,
       "SECURITY": 99,
       "COMPUTE": 73,
       "DATABASE": 45,
-      "AI_ML": 66,
       "STORAGE": 13,
       "ANALYTICS": 15,
       "OTHER": 78,
       "SERVERLESS": 8,
       "NETWORKING": 4
     },
-    "lastUpdated": "2026-03-20T22:30:46.207Z"
+    "lastUpdated": "2026-03-21T10:28:15.038Z"
   },
-  "generatedAt": "2026-03-20T22:30:46.209Z"
+  "generatedAt": "2026-03-21T10:28:15.039Z"
 }
