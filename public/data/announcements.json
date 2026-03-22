@@ -4059,103 +4059,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-redshift-mv-datasharing-features",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "c13da2036b64061eaf47475d640faab122cc35b8",
-      "title": "AWS Deadline Cloud now supports direct job submission from the Deadline Cloud Monitor",
-      "summary": "AWS Deadline Cloud has added direct job submission capabilities to its Monitor desktop application, eliminating the previous requirement to use the command line interface. This new feature expands compatibility with content creation tools that lack built-in Deadline Cloud plugins and makes it easier to submit rendering jobs directly through the desktop interface.",
-      "category": "OTHER",
-      "timestamp": "2025-12-22T22:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-deadline-cloud-direct-job-submission-from/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "0ddf3341ab08d389dc8cf78d8fd7d3971658b6da",
-      "title": "Oracle Database@AWS now supports sharing of AWS Marketplace entitlements across accounts",
-      "summary": "Oracle Database@AWS now allows customers to share AWS Marketplace entitlements across multiple accounts within an AWS Organization. This means organizations can purchase a single Oracle Database@AWS marketplace offer in one account and use it across all their AWS accounts within the organization. The feature simplifies license management and enables centralized purchasing while allowing distributed consumption of Oracle database services.",
-      "category": "OTHER",
-      "timestamp": "2025-12-22T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/oracle-database-aws-marketplace-entitlements-across-accounts/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f6f04e27d7bdbd0d1d42cdc153799e6305dda971",
-      "title": "Amazon ECS Service Connect enhances observability with Envoy Access Logs",
-      "summary": "Amazon ECS Service Connect now supports Envoy access logs, enabling deeper observability into request-level traffic patterns and service interactions within containerized applications. This enhancement provides detailed per-request telemetry that helps with end-to-end tracing, debugging, and compliance monitoring. The feature builds on Service Connect's existing capabilities for secure, resilient service-to-service communication across clusters, VPCs, and AWS accounts.",
-      "category": "CONTAINERS",
-      "timestamp": "2025-12-22T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ecs-service-connect-observability-envoy-access-logs",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "0eab103ffedb4f691729a5b283a0b4e45aa0c09c",
-      "title": "Amazon Kinesis Video Streams now supports IPv6 for WebRTC",
-      "summary": "Amazon Kinesis Video Streams now supports IPv6 addressing for WebRTC through dual-stack endpoint support, allowing developers to use both IPv4 and IPv6 addresses for video streaming from millions of devices. This update ensures existing IPv4 implementations continue working reliably while providing IPv6 connectivity benefits and simplifying the transition to IPv6 addresses.",
-      "category": "ANALYTICS",
-      "timestamp": "2025-12-22T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-kinesis-video-streams-webrtc-ipv6/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "2167f8531aa9f0e459b1cfe377fd6bc1c3b020eb",
-      "title": "Amazon GameLift Streams launches real-time performance stats and improved API error messaging ",
-      "summary": "Amazon GameLift Streams has launched new observability features that provide real-time performance statistics for individual streaming sessions, giving developers detailed insights into application performance issues. The update addresses developer requests for better visibility into session performance and resource utilization across different stream classes and GPUs. These enhanced stats enable developers to make more informed decisions about optimal GPU selection for their applications.",
-      "category": "OTHER",
-      "timestamp": "2025-12-22T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-gameliftstream-performance-stats-error-messaging",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "0b0758b8e67021bbe6d923c181b2944b5511a98f",
-      "title": "Amazon GameLift Streams launches Gen6-based stream classes and enhanced autoscaling for better performance and pricing",
-      "summary": "Amazon GameLift Streams has introduced Gen6 stream classes based on EC2 G6 instances with NVIDIA L4 Tensor Core GPUs, delivering up to 2x better performance than Gen4 classes. The update also includes enhanced autoscaling with warm buffer capabilities, allowing customers to dynamically manage capacity scaling for optimized performance and cost-effectiveness.",
-      "category": "OTHER",
-      "timestamp": "2025-12-22T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-gameliftstream-gen6-enhanced-autoscaling",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "be31bbccf68b0bd4b2da096477af3fcd9c5fdcf9",
-      "title": "Research and Engineering Studio on AWS Version 2025.12 now available",
-      "summary": "AWS has released Research and Engineering Studio (RES) version 2025.12, an open source web-based portal that helps administrators create and manage secure cloud-based research and engineering environments. The new version introduces key improvements including tag propagation for CloudFormation resources, enhanced Windows domain configuration options, default session scheduling, and security enhancements.",
-      "category": "SECURITY",
-      "timestamp": "2025-12-22T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/research-engineering-studio-aws-new-version-available/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "647276de59971a5e3453cc9eb10e175b338c9d56",
-      "title": "AWS Storage Gateway now supports Nutanix AHV hypervisor",
-      "summary": "AWS Storage Gateway now supports deployment on the Nutanix AHV hypervisor, enabling organizations using Nutanix's KVM-based virtualization platform to deploy S3 File, Tape, and Volume gateways in their on-premises environments. This integration allows Nutanix AHV users to seamlessly access AWS's virtually unlimited cloud storage through their existing hyper-converged infrastructure.",
-      "category": "COMPUTE",
-      "timestamp": "2025-12-22T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-storage-gateway-nutanix-avh-hypervisor",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 414,
+    "total": 406,
     "byCategory": {
       "AI_ML": 66,
-      "CONTAINERS": 14,
-      "SECURITY": 98,
-      "COMPUTE": 73,
+      "CONTAINERS": 13,
+      "SECURITY": 97,
+      "COMPUTE": 72,
       "DATABASE": 45,
       "STORAGE": 13,
-      "ANALYTICS": 15,
-      "OTHER": 78,
+      "ANALYTICS": 14,
+      "OTHER": 74,
       "SERVERLESS": 8,
       "NETWORKING": 4
     },
-    "lastUpdated": "2026-03-22T10:28:55.200Z"
+    "lastUpdated": "2026-03-22T22:27:11.317Z"
   },
-  "generatedAt": "2026-03-22T10:28:55.200Z"
+  "generatedAt": "2026-03-22T22:27:11.317Z"
 }
