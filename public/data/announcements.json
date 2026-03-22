@@ -4139,34 +4139,14 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-storage-gateway-nutanix-avh-hypervisor",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "8aeeb5084a461014b2a796164dab25fcd1dcd937",
-      "title": "AWS Wickr launches admin APIs for programmatic network management at scale",
-      "summary": "AWS Wickr has launched a suite of admin APIs that enable administrators to programmatically manage secure communication networks at scale. These APIs automate critical administrative workflows including user lifecycle management (creating/deactivating accounts and assigning security groups) and network configuration. The new functionality allows organizations to streamline administrative tasks and manage their Wickr networks more efficiently through automated processes.",
-      "category": "SECURITY",
-      "timestamp": "2025-12-22T08:00:00.000Z",
-      "link": "https://aws.amazon.comabout-aws/whats-new/2025/12/aws-wickr-admin-apis-generally-available/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "3a26dbbc2f1911d4313298f075f221136a4c0821",
-      "title": "Announcing AWS Neuron SDK 2.27.0",
-      "summary": "AWS has released Neuron SDK 2.27.0, which adds support for Trainium3 UltraServer and includes several new tools and features with expanded open source components. Key additions include the Neuron Explorer tools suite, Enhanced NKI with an open source compiler, native PyTorch support through TorchNeuron, and Kubernetes-native resource management via Neuron DRA. These updates are designed to enable standard machine learning frameworks to run seamlessly on AWS Trainium infrastructure without requiring code changes.",
-      "category": "AI_ML",
-      "timestamp": "2025-12-22T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/announcing-aws-neuron-2-27",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 416,
+    "total": 414,
     "byCategory": {
-      "AI_ML": 67,
+      "AI_ML": 66,
       "CONTAINERS": 14,
-      "SECURITY": 99,
+      "SECURITY": 98,
       "COMPUTE": 73,
       "DATABASE": 45,
       "STORAGE": 13,
@@ -4175,7 +4155,7 @@
       "SERVERLESS": 8,
       "NETWORKING": 4
     },
-    "lastUpdated": "2026-03-21T22:26:12.081Z"
+    "lastUpdated": "2026-03-22T10:28:55.200Z"
   },
-  "generatedAt": "2026-03-21T22:26:12.082Z"
+  "generatedAt": "2026-03-22T10:28:55.200Z"
 }
