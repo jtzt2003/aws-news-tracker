@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "4f0349621fcdad7242837fadd31b151c68834d1d",
+      "title": "AWS HealthImaging is now available in Europe (London)",
+      "summary": "AWS HealthImaging, a HIPAA-eligible service for storing, analyzing, and sharing medical images at petabyte scale, is now available in the AWS Europe (London) Region. The service provides fully managed infrastructure for healthcare providers, life sciences organizations, and software partners to handle medical imaging data. It offers both DICOMWeb APIs for integration with existing applications and AWS-native APIs for cloud-first implementations.",
+      "category": "SECURITY",
+      "timestamp": "2026-03-23T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-healthimaging-europe-london/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "7af396d855455315b9eaafd1bb565eac4091c2d0",
       "title": "Amazon Bedrock AgentCore Runtime adds WebRTC support for real-time bidirectional streaming",
       "summary": "Amazon Bedrock AgentCore Runtime now supports WebRTC in addition to WebSocket protocols, enabling real-time bidirectional streaming between clients and AI agents. This enhancement allows developers to build voice agents for browser and mobile applications with low-latency audio and video streaming using peer-to-peer UDP transport. The WebRTC support enables more natural, real-time conversational experiences for users interacting with AI agents.",
@@ -31,6 +41,16 @@
       "isNew": false
     },
     {
+      "id": "d1bae0385d5eae6d1be914e522b5d16459490bc5",
+      "title": "Amazon Polly expands Generative TTS engine with 10 new voices, 2 new regions, and Bidirectional Streaming API ",
+      "summary": "Amazon Polly has launched 10 new highly expressive Generative TTS voices across 8 locales, including American/British English, New Zealand English, Singapore English, French, Italian, German, and Swiss German options. The Generative engine is now also available in two additional AWS regions: Europe (London) and Canada (Central), alongside the introduction of a new Bidirectional Streaming API.",
+      "category": "AI_ML",
+      "timestamp": "2026-03-20T16:10:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-polly-expands-TTS-new-voices-and-bidirectional-streaming/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "13751f6aabdfdd995e6c9d3f1f73f9f0e6deb7fe",
       "title": "AWS DataSync now supports AWS Secrets Manager for all location types",
       "summary": "AWS DataSync has expanded its AWS Secrets Manager integration to support credential management across all location types, including HDFS, Amazon FSx for Windows File Server, and Amazon FSx for NetApp ONTAP. Previously, Secrets Manager was only available for select location types, forcing users to input credentials directly through the DataSync API or console. This update enables centralized credential management for all DataSync locations through Secrets Manager.",
@@ -47,6 +67,16 @@
       "category": "SECURITY",
       "timestamp": "2026-03-20T05:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-firewall-manager-launches-ap-nz/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "28481b09d644aa92e2a7da507a2173e254b7378e",
+      "title": "AWS MCP Server (Preview) now with enhanced monitoring and semantic search capability",
+      "summary": "AWS has announced enhancements to its MCP Server (preview) that now includes operational metrics publishing to Amazon CloudWatch and introduces semantic search for Agent SOPs (Standard Operating Procedures) discovery. Agent SOPs are pre-built workflows that help AI assistants navigate complex multi-step AWS tasks. These updates provide better visibility into MCP Server usage and offer guided pathways for agents to perform AWS operations, addressing previous limitations in monitoring agent-driven changes.",
+      "category": "OTHER",
+      "timestamp": "2026-03-19T23:36:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-mcp-server-preview-enhanced-monitoring/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -3959,103 +3989,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-connect-automated-performance-evaluations-additional-languages/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "6b42de05eea077f0dbca0c36070fc0044613f209",
-      "title": "Oracle Database@AWS is now available in three additional AWS Regions",
-      "summary": "Oracle Database@AWS has expanded to three new AWS Regions: US-East-2 (Ohio), EU-Central-1 (Frankfurt), and AP-Northeast-1 (Tokyo). This service allows customers to run Oracle database workloads on Oracle Cloud Infrastructure (OCI) managed Exadata systems located within AWS data centers. The expansion particularly benefits EU and Japanese customers with data residency requirements who want to migrate their on-premises Oracle Exadata applications to AWS.",
-      "category": "OTHER",
-      "timestamp": "2025-12-23T18:50:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/oracle-database-aws-available-three-additional-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "2a80c655e32eab2f352e567d501dc9d3348dc0ab",
-      "title": "NVIDIA Nemotron 3 Nano now available on Amazon Bedrock",
-      "summary": "AWS announced that NVIDIA Nemotron 3 Nano 30B A3B model is now available on Amazon Bedrock, featuring advanced capabilities including native tool calling, 256k token context window, and high reasoning performance. The model uses an efficient hybrid Mixture-of-Experts (MoE) architecture that delivers higher throughput than previous versions while maintaining the reasoning capabilities of larger models, making it particularly well-suited for agentic and coding workloads.",
-      "category": "AI_ML",
-      "timestamp": "2025-12-23T18:11:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/nvidia-nemotron-3-nano-amazon-bedrock",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6dab66dc993c175e05da200aac688fbbdbb90df7",
-      "title": "Amazon WorkSpaces Secure Browser now supports WebAuthn redirection for local Chromium browsers",
-      "summary": "Amazon WorkSpaces Secure Browser now supports WebAuthn redirection, enabling users to authenticate to websites using local FIDO2 security keys, biometric authenticators, and platform authenticators within their secure browser sessions. This feature works with Chromium-based browsers like Google Chrome 136+ and Microsoft Edge 137+, but is not supported on non-Chromium browsers such as Safari.",
-      "category": "SECURITY",
-      "timestamp": "2025-12-23T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-workspaces-secure-browser-webauthn-redirection-chromium-browsers",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d84c728b11a5c6ab55209d1539ed18e0803868dd",
-      "title": "Amazon MSK expands Standard Brokers and Express Brokers to Asia Pacific (New Zealand) Region",
-      "summary": "Amazon Managed Streaming for Apache Kafka (Amazon MSK) has expanded its availability to the Asia Pacific (New Zealand) region, allowing customers to create MSK Provisioned clusters there starting immediately. Amazon MSK is a fully managed service that simplifies building and running Apache Kafka applications while maintaining full compatibility with existing Apache Kafka workloads for easier migration.",
-      "category": "ANALYTICS",
-      "timestamp": "2025-12-23T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-msk-additional-aws-region/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "8df176efef6b49bd92273593fdbe76f811011aba",
-      "title": "Amazon RDS for MySQL announces Innovation Release 9.5 in Amazon RDS Database Preview Environment",
-      "summary": "Amazon RDS for MySQL now supports community MySQL Innovation Release 9.5 in the Amazon RDS Database Preview Environment. This allows users to evaluate the latest MySQL innovation features while benefiting from a fully managed database service that simplifies setup, operation, and monitoring. MySQL 9.5 represents the latest innovation release from the MySQL community with various improvements and bug fixes.",
-      "category": "SECURITY",
-      "timestamp": "2025-12-23T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-rds-mysql-innovation-release/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b0d5712d4e391490014eb059874aaf7bf41c1ee6",
-      "title": "AWS Secrets Manager announces improved secret sorting capabilities",
-      "summary": "AWS Secrets Manager has expanded its sorting capabilities, allowing users to sort secrets by name, last changed date, last accessed date, and creation date (previously only creation date was available). This enhancement is available in both the Secrets Manager console and the ListSecrets API. The improvement provides better secret management and organization within AWS's fully managed service for handling database credentials, API keys, and other sensitive information.",
-      "category": "SECURITY",
-      "timestamp": "2025-12-23T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-secrets-manager-secret-sorting-capabilities",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "faaa7170f242652a743169bee0753982d0626fe6",
-      "title": "MiniMax-M2 is now available on Amazon SageMaker JumpStart",
-      "summary": "AWS has made MiniMax-M2, an efficient open-source AI model, available on Amazon SageMaker JumpStart for quick deployment within minutes. The model is a compact Mixture of Experts (MoE) architecture with 230 billion total parameters but only 10 billion active parameters, designed to be fast and cost-effective for AI agents. Users can deploy MiniMax-M2 through either SageMaker Studio's interface or the SageMaker Python SDK.",
-      "category": "AI_ML",
-      "timestamp": "2025-12-23T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/minimax-m2-on-sagemaker-jumpstart",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "5b4c5ef6bd05bb28cf352863e38f578f5edfda34",
-      "title": "AWS Transform enables network conversion for hybrid data center migrations",
-      "summary": "AWS Transform now offers automatic network conversion capabilities for hybrid data center migrations, eliminating the need for manual network mapping in environments with both VMware and non-VMware workloads. The service automatically analyzes VLANs and IP ranges from source networks and maps them to corresponding AWS infrastructure like VPCs, subnets, and security groups. This enhancement is part of AWS Transform for VMware, an AI-powered service that automates VMware workload discovery, planning, and migration processes.",
-      "category": "SECURITY",
-      "timestamp": "2025-12-23T12:47:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-transform-hybrid-network-migration/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 404,
+    "total": 399,
     "byCategory": {
-      "AI_ML": 65,
+      "SECURITY": 94,
+      "AI_ML": 64,
       "CONTAINERS": 13,
-      "SECURITY": 97,
+      "OTHER": 74,
       "COMPUTE": 72,
       "DATABASE": 44,
       "STORAGE": 13,
-      "ANALYTICS": 14,
-      "OTHER": 74,
+      "ANALYTICS": 13,
       "SERVERLESS": 8,
       "NETWORKING": 4
     },
-    "lastUpdated": "2026-03-23T10:52:55.846Z"
+    "lastUpdated": "2026-03-23T22:33:53.294Z"
   },
-  "generatedAt": "2026-03-23T10:52:55.846Z"
+  "generatedAt": "2026-03-23T22:33:53.294Z"
 }
