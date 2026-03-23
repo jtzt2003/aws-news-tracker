@@ -4039,43 +4039,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-transform-hybrid-network-migration/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "740f1fdb564ca424cacddfa1ee83a0fca0b12d7d",
-      "title": "Amazon WorkSpaces Secure Browser enables branding customization",
-      "summary": "Amazon WorkSpaces Secure Browser now allows organizations to customize branding on sign-in and session loading screens to maintain consistent visual identity. Users can upload their organization's logos, modify visual elements, and customize text content across all user touchpoints. This feature helps create a branded experience that aligns with company branding standards.",
-      "category": "AI_ML",
-      "timestamp": "2025-12-23T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-workspaces-secure-browser-enables-branding/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "797f84a3adaf61451b22e3c2b9bf8205ef947f1a",
-      "title": "Amazon Redshift supports four new materialized view (MV) features on data shares",
-      "summary": "Amazon Redshift has introduced four new materialized view (MV) features for data shares, enabling users to run create and refresh MV commands across multiple data warehouses and create MVs on shared MVs. The update also adds concurrency scaling support for the create MV DDL command, allowing it to scale automatically when the main cluster or workgroup runs out of resources.",
-      "category": "DATABASE",
-      "timestamp": "2025-12-23T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-redshift-mv-datasharing-features",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 406,
+    "total": 404,
     "byCategory": {
-      "AI_ML": 66,
+      "AI_ML": 65,
       "CONTAINERS": 13,
       "SECURITY": 97,
       "COMPUTE": 72,
-      "DATABASE": 45,
+      "DATABASE": 44,
       "STORAGE": 13,
       "ANALYTICS": 14,
       "OTHER": 74,
       "SERVERLESS": 8,
       "NETWORKING": 4
     },
-    "lastUpdated": "2026-03-22T22:27:11.317Z"
+    "lastUpdated": "2026-03-23T10:52:55.846Z"
   },
-  "generatedAt": "2026-03-22T22:27:11.317Z"
+  "generatedAt": "2026-03-23T10:52:55.846Z"
 }
