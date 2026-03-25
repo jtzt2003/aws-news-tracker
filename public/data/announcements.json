@@ -1,6 +1,96 @@
 {
   "announcements": [
     {
+      "id": "059caba6a2ba5255e6be95b0299857ae4c0ad914",
+      "title": "AWS Batch now provides AMI status and supports AWS Health Planned Lifecycle Events",
+      "summary": "AWS Batch now offers enhanced visibility into compute environments by providing status information for Batch-provided default Amazon Machine Images (AMIs), showing when updates are available. Additionally, AWS Batch now publishes AWS Health Planned Lifecycle Events to help users prepare for and track changes that may affect their batch computing resources.",
+      "category": "SERVERLESS",
+      "timestamp": "2026-03-25T20:32:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-batch-ami-status-aws-health/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "457963b3311a2717c96c649ffae07e9e8ed94c6a",
+      "title": "Amazon SageMaker Unified Studio launches support for remote connection from Cursor IDE",
+      "summary": "AWS has launched support for remote connection from Cursor IDE to Amazon SageMaker Unified Studio through the AWS Toolkit extension. This integration allows data scientists, ML engineers, and developers to use Cursor's AI-powered features like code completion and natural language editing while accessing SageMaker's scalable compute resources. The connection helps streamline the development workflow by combining Cursor's advanced IDE capabilities with Amazon's cloud-based machine learning infrastructure.",
+      "category": "SECURITY",
+      "timestamp": "2026-03-25T20:21:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/sagemaker-unified-studio-cursor-ide/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "845148ea994a6383070a002463fe1610a3ff2892",
+      "title": "Amazon Bedrock AgentCore adds support for Chrome policies and custom root CA",
+      "summary": "Amazon Bedrock AgentCore has added support for Chrome Enterprise policies and custom root Certificate Authority (CA) certificates for both its Browser and Code Interpreter components. These enhancements allow AI agents to operate within organizations that have strict security requirements and use internal infrastructure with custom certificates. The update includes access to over 100 configurable Chrome policies to help meet enterprise security standards.",
+      "category": "SECURITY",
+      "timestamp": "2026-03-25T20:10:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/agentcore-browser-policies-root-ca/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "63683e1f61a08e84d9d79bec644ceea8704a935d",
+      "title": "AWS Batch now supports quota management and preemption for SageMaker Training jobs",
+      "summary": "AWS Batch now supports quota management and job preemption specifically for SageMaker Training jobs, allowing teams to efficiently allocate and share compute resources across projects. This feature enables intelligent prioritization of business-critical training jobs and automatic preemption of lower-priority workloads when urgent experiments need GPU capacity.",
+      "category": "AI_ML",
+      "timestamp": "2026-03-25T18:40:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-batch-quota-management-preemption-sagemaker/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "cc702efdd2dd4a82190f90be6e014ee11bb3aa08",
+      "title": "Amazon Route 53 Profiles now supports granular IAM permissions for resource and VPC associations",
+      "summary": "Amazon Route 53 Profiles now supports granular IAM permissions that allow administrators to control which users can manage specific resource types and VPC associations within their Profiles. Users can create IAM policies to restrict access to specific operations (associate, disassociate, or update) on individual resource types like private hosted zones, Resolver rules, or DNS Firewall rule groups. Permissions can also be defined based on resource ARNs for more precise access control.",
+      "category": "SECURITY",
+      "timestamp": "2026-03-25T18:34:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-route-53-profiles-granular-iam/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1135bcd3c1e8b01ed85feca2d7105da83cec428e",
+      "title": "Amazon Aurora PostgreSQL now available with the AWS Free Tier",
+      "summary": "Amazon Aurora PostgreSQL is now available on the AWS Free Tier, offering new customers $100 in initial AWS credits plus the opportunity to earn an additional $100 by using services like Amazon RDS. Users with a Free Plan account can quickly create an Aurora PostgreSQL serverless cluster through the RDS Console, CLI, or SDKs using express configuration, enabling database creation and querying within seconds.",
+      "category": "DATABASE",
+      "timestamp": "2026-03-25T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-aurora-postgresql-aws-free-tier/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "591c5158b0cfaa6f3e7606264f71718e57332433",
+      "title": "Amazon Aurora PostgreSQL now supports creating and connecting to a database in seconds",
+      "summary": "Amazon Aurora PostgreSQL has launched a new express configuration feature that allows users to create and connect to a serverless database cluster in seconds using pre-configured settings. This streamlined setup process significantly reduces the time to first query and accelerates initial database deployment. The express configuration creates clusters outside of a VPC network, with options to modify certain settings during creation and additional settings afterward.",
+      "category": "DATABASE",
+      "timestamp": "2026-03-25T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-aurora-postgresql-database/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c4e9641f882f2f2f936a716b64cd4fc674b92715",
+      "title": "Amazon SageMaker AI now supports serverless reinforcement fine-tuning for 12 additional models",
+      "summary": "Amazon SageMaker AI has expanded its serverless reinforcement fine-tuning capabilities to support 12 additional open-weight models, including various sizes of Qwen, DeepSeek-R1-Distill, and Meta Llama models. This enhancement allows users to customize and fine-tune these models without needing to provision or manage any underlying infrastructure, simplifying the AI model development process.",
+      "category": "AI_ML",
+      "timestamp": "2026-03-25T16:25:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-ai-serverless-additional-models/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "55b3bb20bdcc2e5528dd3fe4c985a1e86aa04532",
+      "title": "Amazon EC2 I7ie instances now available in additional AWS regions",
+      "summary": "Amazon EC2 I7ie instances are now available in seven additional AWS regions including Asia Pacific (Hong Kong, Seoul, Melbourne, Thailand), Europe (Zurich, Milan), and Mexico (Central). These instances are designed for storage-intensive workloads and feature 5th Gen Intel Xeon Processors running at 3.2 GHz all-core turbo frequency, delivering up to 40% better compute performance and 20% better price performance compared to I3en instances.",
+      "category": "COMPUTE",
+      "timestamp": "2026-03-25T15:24:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-i7ie-instances-additional-aws-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "4f0349621fcdad7242837fadd31b151c68834d1d",
       "title": "AWS HealthImaging is now available in Europe (London)",
       "summary": "AWS HealthImaging, a HIPAA-eligible service for storing, analyzing, and sharing medical images at petabyte scale, is now available in the AWS Europe (London) Region. The service provides fully managed infrastructure for healthcare providers, life sciences organizations, and software partners to handle medical imaging data. It offers both DICOMWeb APIs for integration with existing applications and AWS-native APIs for cloud-first implementations.",
@@ -3992,20 +4082,20 @@
     }
   ],
   "stats": {
-    "total": 399,
+    "total": 408,
     "byCategory": {
-      "SECURITY": 94,
-      "AI_ML": 64,
+      "SERVERLESS": 9,
+      "SECURITY": 97,
+      "AI_ML": 66,
+      "DATABASE": 46,
+      "COMPUTE": 73,
       "CONTAINERS": 13,
       "OTHER": 74,
-      "COMPUTE": 72,
-      "DATABASE": 44,
       "STORAGE": 13,
       "ANALYTICS": 13,
-      "SERVERLESS": 8,
       "NETWORKING": 4
     },
-    "lastUpdated": "2026-03-25T10:50:54.095Z"
+    "lastUpdated": "2026-03-25T22:37:07.754Z"
   },
-  "generatedAt": "2026-03-25T10:50:54.095Z"
+  "generatedAt": "2026-03-25T22:37:07.754Z"
 }
