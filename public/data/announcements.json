@@ -1,6 +1,96 @@
 {
   "announcements": [
     {
+      "id": "32032d9dcb82711e204cf6b1a89b9af1d96446c2",
+      "title": "Amazon SageMaker Studio launches support for Kiro and Cursor IDEs as remote IDEs ",
+      "summary": "Amazon SageMaker Studio now supports remote connections from Kiro and Cursor IDEs, enabling developers to use their preferred development environments while accessing SageMaker's scalable compute resources. This integration allows data scientists and ML engineers to leverage Kiro and Cursor's features like spec-driven development and conversational coding within the SageMaker ecosystem. The connection is facilitated through the AWS Toolkit extension.",
+      "category": "SECURITY",
+      "timestamp": "2026-03-26T19:53:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-studio-kiro-cursor/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f72cbe65d1cfd949716c001a92b563b85dfaa289",
+      "title": "Aurora DSQL launches connector that simplifies building Ruby applications",
+      "summary": "AWS has launched the Aurora DSQL Connector for Ruby that simplifies building Ruby applications on Aurora DSQL while maintaining full compatibility with the existing pg gem. The connector automatically handles IAM token generation and SSL configuration, eliminating security risks from traditional passwords by using auto-generated tokens for each connection.",
+      "category": "SECURITY",
+      "timestamp": "2026-03-26T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aurora-dsql-connector-for-ruby/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "16934c976879e636017f6ff75f607a68a2ac4b26",
+      "title": "AWS Lambda increases the file descriptor limit to 4,096 for functions running on Lambda Managed Instances",
+      "summary": "AWS Lambda has increased the file descriptor limit from 1,024 to 4,096 for functions running on Lambda Managed Instances (LMI), providing a 4x improvement. This enhancement allows customers to run I/O intensive workloads like high-concurrency web services and file-heavy data processing pipelines without hitting file descriptor constraints. LMI runs Lambda functions on managed EC2 instances with built-in routing, load-balancing, and auto-scaling capabilities.",
+      "category": "SERVERLESS",
+      "timestamp": "2026-03-26T16:15:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-Lambda-file-descriptors-increase-4096/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c67fe7d5bde55c76c03f55f96f7c2053c0d1d575",
+      "title": "AWS AppConfig adds enhanced targeting during feature flag rollout ",
+      "summary": "AWS AppConfig has introduced enhanced targeting controls that allow customers to direct feature flags and configuration changes to specific user segments or individual users during gradual rollouts. This new capability builds on AppConfig's existing safety feature of progressive delivery, which enables slow rollouts over minutes or hours to minimize the impact of unexpected issues. The enhancement provides more granular control over who receives changes during the deployment lifecycle.",
+      "category": "OTHER",
+      "timestamp": "2026-03-26T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/appconfig-enhanced-targeting-feature-flag-rollout/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3727a4611f3b5ed98f7eb9d6bb074596279e7b35",
+      "title": "The AWS Advanced JDBC Wrapper now supports automatic query caching with Valkey",
+      "summary": "The AWS Advanced JDBC Wrapper now supports automatic query caching with Valkey, including Amazon ElastiCache for Valkey. This eliminates the need for developers to manually write caching code for each JDBC query when working with Aurora and RDS databases (PostgreSQL, MySQL, MariaDB). The feature can be enabled by simply adding the wrapper dependency and configuring the query cache plugin.",
+      "category": "DATABASE",
+      "timestamp": "2026-03-26T15:57:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-jdbc-caching-with-valkey/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "48975baf198260259e359e87324304a4a98f8965",
+      "title": "Amazon EC2 R8gd instances are now available in additional AWS Regions",
+      "summary": "Amazon EC2 R8gd instances, powered by AWS Graviton4 processors, are now available in six additional AWS regions including US West (N. California), several Asia Pacific locations, Africa (Cape Town), and Canada West (Calgary). These instances offer up to 11.4 TB of local NVMe SSD storage and deliver up to 30% better performance than Graviton3-based instances, with particularly strong improvements for I/O intensive database workloads.",
+      "category": "COMPUTE",
+      "timestamp": "2026-03-26T15:39:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-r8gd-aws-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a9d821d3d6316483e038eda2a38f00e633060b78",
+      "title": "Amazon EC2 M8a instances now available in AWS Europe (Ireland) region",
+      "summary": "Amazon EC2 M8a instances are now available in the AWS Europe (Ireland) region, powered by 5th generation AMD EPYC processors with up to 4.5 GHz frequency. These new instances offer up to 30% higher performance and 19% better price-performance compared to M7a instances, along with 45% more memory bandwidth making them suitable for latency-sensitive workloads.",
+      "category": "COMPUTE",
+      "timestamp": "2026-03-26T15:00:12.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-m8a-instances-europe-ireland-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8bc2113920efc6cb778babecbee646b8704099e0",
+      "title": "Amazon EC2 M8a instances now available in AWS GovCloud (US-West) region",
+      "summary": "Amazon EC2 M8a instances are now available in the AWS GovCloud (US-West) region, powered by 5th generation AMD EPYC processors with frequencies up to 4.5 GHz. These instances offer up to 30% higher performance and 19% better price-performance compared to M7a instances, along with 45% more memory bandwidth, making them suitable for latency-sensitive workloads.",
+      "category": "COMPUTE",
+      "timestamp": "2026-03-26T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-m8a-instances-govcloud-us-west-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ce2e244cebe2a1afd36ac1d161aeec316b437efd",
+      "title": "AWS Storage Gateway Terraform modules now support Amazon Linux 2023",
+      "summary": "AWS Storage Gateway Terraform modules now support Amazon Linux 2023-based deployments, providing enhanced security, reliability, and operational simplicity for Infrastructure as Code provisioning. The updated modules support all gateway types (S3 File Gateway, Tape Gateway, and Volume Gateway) across both Amazon EC2 and VMware environments, with EC2 deployments enforcing IMDSv2 by default for improved security.",
+      "category": "SECURITY",
+      "timestamp": "2026-03-26T10:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/storage-gateway-terraform-al2023/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "32269cdce87473d7cf468cd0184a484a0dc1ffcf",
       "title": "Accelerate AI-assisted development with Agent Plugin for AWS Serverless ",
       "summary": "AWS has launched the Agent Plugin for AWS Serverless, which integrates with AI coding assistants like Kiro, Claude Code, and Cursor to help developers build, deploy, troubleshoot, and manage serverless applications more efficiently. The plugin packages skills, sub-agents, hooks, and Model Context Protocol (MCP) servers into a modular unit that dynamically provides relevant guidance and expertise for serverless development tasks.",
@@ -4089,33 +4179,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-opensearch-ui-cmk-metadata/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "fda8408dbd1ca2772828ad24802055d797a784ca",
-      "title": "Amazon Connect expands automated agent performance evaluations to 5 additional languages",
-      "summary": "Amazon Connect now offers automated agent performance evaluations in five additional languages (Portuguese, French, Italian, German, and Spanish) using generative AI technology. Managers can define custom evaluation criteria in natural language and receive AI-generated assessments with explanations in their preferred language. The system also supports cross-language evaluation, allowing assessments to be completed in English even when customer conversations occur in other languages, enabling standardized evaluations across multilingual contact centers.",
-      "category": "AI_ML",
-      "timestamp": "2025-12-26T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-connect-automated-performance-evaluations-additional-languages/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 410,
+    "total": 418,
     "byCategory": {
-      "SERVERLESS": 10,
-      "SECURITY": 97,
-      "AI_ML": 66,
-      "OTHER": 75,
-      "DATABASE": 46,
-      "COMPUTE": 73,
+      "SECURITY": 100,
+      "SERVERLESS": 11,
+      "OTHER": 76,
+      "DATABASE": 47,
+      "COMPUTE": 76,
+      "AI_ML": 65,
       "CONTAINERS": 13,
       "STORAGE": 13,
       "ANALYTICS": 13,
       "NETWORKING": 4
     },
-    "lastUpdated": "2026-03-26T10:53:03.585Z"
+    "lastUpdated": "2026-03-26T22:31:19.962Z"
   },
-  "generatedAt": "2026-03-26T10:53:03.585Z"
+  "generatedAt": "2026-03-26T22:31:19.962Z"
 }
