@@ -1,12 +1,32 @@
 {
   "announcements": [
     {
+      "id": "7db4e980d0a84d969bd43f5568160f4a8853121c",
+      "title": "Amazon EC2 High Memory U7i instances now available in Europe (Milan)",
+      "summary": "Amazon EC2 High Memory U7i instances are now available in the Europe (Milan) region, offering two configurations: U7i-8TB instances with 8TiB of DDR5 memory and U7i-12TB instances with 12TiB of DDR5 memory. These 7th generation instances are powered by custom fourth generation Intel Xeon Scalable Processors (Sapphire Rapids) and are designed to help customers scale transaction processing throughput in fast-growing data environments.",
+      "category": "COMPUTE",
+      "timestamp": "2026-03-26T22:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/ec2-u7i-europe-milan/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "32032d9dcb82711e204cf6b1a89b9af1d96446c2",
       "title": "Amazon SageMaker Studio launches support for Kiro and Cursor IDEs as remote IDEs ",
       "summary": "Amazon SageMaker Studio now supports remote connections from Kiro and Cursor IDEs, enabling developers to use their preferred development environments while accessing SageMaker's scalable compute resources. This integration allows data scientists and ML engineers to leverage Kiro and Cursor's features like spec-driven development and conversational coding within the SageMaker ecosystem. The connection is facilitated through the AWS Toolkit extension.",
       "category": "SECURITY",
       "timestamp": "2026-03-26T19:53:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-studio-kiro-cursor/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "dae2c8e0f73ba3e7b354224badaeb5fe8fc78cd9",
+      "title": "Amazon ECS Managed Instances now supports FIPS-certified workloads on Graviton and GPU accelerated instances in AWS GovCloud (US) Regions",
+      "summary": "Amazon ECS Managed Instances now supports FIPS-compliant deployment of Graviton-based and GPU-accelerated workloads in AWS GovCloud (US) Regions. This enhancement allows government and regulated customers to run containerized workloads that meet Federal Information Processing Standard (FIPS) cryptographic security requirements on these specialized instance types.",
+      "category": "SECURITY",
+      "timestamp": "2026-03-26T19:40:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ecs-mi-supports-fips-graviron-gpu/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -4182,20 +4202,20 @@
     }
   ],
   "stats": {
-    "total": 418,
+    "total": 420,
     "byCategory": {
-      "SECURITY": 100,
+      "COMPUTE": 77,
+      "SECURITY": 101,
       "SERVERLESS": 11,
       "OTHER": 76,
       "DATABASE": 47,
-      "COMPUTE": 76,
       "AI_ML": 65,
       "CONTAINERS": 13,
       "STORAGE": 13,
       "ANALYTICS": 13,
       "NETWORKING": 4
     },
-    "lastUpdated": "2026-03-26T22:31:19.962Z"
+    "lastUpdated": "2026-03-27T10:51:36.432Z"
   },
-  "generatedAt": "2026-03-26T22:31:19.962Z"
+  "generatedAt": "2026-03-27T10:51:36.432Z"
 }
