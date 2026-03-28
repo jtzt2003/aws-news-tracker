@@ -1,6 +1,26 @@
 {
   "announcements": [
     {
+      "id": "b1172f9294cea3c286f1457c674c0997a0589482",
+      "title": "Amazon Timestream for InfluxDB Now Supports Advanced Metrics",
+      "summary": "Amazon Timestream for InfluxDB has launched Advanced Metrics, which automatically publishes detailed operational metrics from InfluxDB 2 instances directly to Amazon CloudWatch for comprehensive database performance monitoring. This new feature enables real-time monitoring and alerting without requiring additional configuration, supporting both Single-AZ and Multi-AZ deployments.",
+      "category": "DATABASE",
+      "timestamp": "2026-03-27T22:48:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-timestream-for-influxdb-advanced-metrics/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "71eb960b626c4aeadbc88bbb01598ddb3692ffac",
+      "title": "Amazon CloudWatch Logs now supports data protection,  OpenSearch PPL and OpenSearch SQL for the Infrequent Access ingestion class",
+      "summary": "Amazon CloudWatch Logs has expanded its Infrequent Access (Logs IA) ingestion class with new capabilities including data protection features, OpenSearch PPL (Piped Processing Language), and OpenSearch SQL support. These enhancements enable customers to perform flexible analytics and protect sensitive data while cost-effectively consolidating logs natively on AWS. The improvements make Logs IA particularly well-suited for ad-hoc troubleshooting and forensic analysis of infrequently accessed log data.",
+      "category": "SECURITY",
+      "timestamp": "2026-03-27T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-cloudwatch-infrequent-access-log-class/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "91d4e1ae483e2c886ebf403688db907e1e31b8c6",
       "title": "AWS Lambda supports up to 32 GB of memory and 16 vCPUs for Lambda Managed Instances",
       "summary": "AWS Lambda has expanded its capabilities to support up to 32 GB of memory and 16 vCPUs for Lambda Managed Instances, allowing customers to run compute-intensive workloads like data processing, media transcoding, and scientific simulations without infrastructure management. Users can now configure customizable memory-to-vCPU ratios (2:1, 4:1, or 8:1) to optimize resource allocation for their specific workloads.",
@@ -57,6 +77,16 @@
       "category": "AI_ML",
       "timestamp": "2026-03-26T22:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-step-functions-sdk-integrations/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "98021c72a85a921f3021ea9b6d22492c6b307792",
+      "title": "Palmyra Vision 7B from Writer now available on Amazon Bedrock",
+      "summary": "AWS has made Palmyra Vision 7B from Writer available on Amazon Bedrock, enabling customers to build generative AI applications that can interpret and generate text from images. This addition allows users to create visual understanding applications through Bedrock's fully managed service without needing to handle inference infrastructure themselves.",
+      "category": "AI_ML",
+      "timestamp": "2026-03-26T20:38:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/palmyra-vision-7b-writer-bedrock/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -4272,20 +4302,20 @@
     }
   ],
   "stats": {
-    "total": 427,
+    "total": 430,
     "byCategory": {
+      "DATABASE": 48,
+      "SECURITY": 103,
       "SERVERLESS": 12,
       "OTHER": 79,
       "COMPUTE": 78,
-      "SECURITY": 102,
-      "AI_ML": 66,
-      "DATABASE": 47,
+      "AI_ML": 67,
       "CONTAINERS": 13,
       "STORAGE": 13,
       "ANALYTICS": 13,
       "NETWORKING": 4
     },
-    "lastUpdated": "2026-03-27T22:33:55.599Z"
+    "lastUpdated": "2026-03-28T10:33:32.468Z"
   },
-  "generatedAt": "2026-03-27T22:33:55.599Z"
+  "generatedAt": "2026-03-28T10:33:32.469Z"
 }
