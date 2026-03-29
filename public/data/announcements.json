@@ -4279,25 +4279,15 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-simplified-import-cloudtrail-lake-data-amazon-cloudwatch",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "9b4cf6b54b82fb0e9113112330bf48aa0f100886",
-      "title": "Amazon Connect dashboards now support filtering metrics based on custom business dimensions",
-      "summary": "Amazon Connect dashboards now allow users to filter metrics using custom business dimensions like divisions, product lines, or customer segments through predefined attributes. This enables organizations to customize their dashboards based on specific business needs, such as comparing handle times across different product lines to identify where agents may need additional training. The feature helps businesses gain more targeted insights from their contact center data.",
-      "category": "OTHER",
-      "timestamp": "2025-12-29T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-connect-dashboards-filtering-metrics-custom-business-dimensions",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 429,
+    "total": 428,
     "byCategory": {
       "DATABASE": 48,
       "SECURITY": 102,
       "SERVERLESS": 12,
-      "OTHER": 79,
+      "OTHER": 78,
       "COMPUTE": 78,
       "AI_ML": 67,
       "CONTAINERS": 13,
@@ -4305,7 +4295,7 @@
       "ANALYTICS": 13,
       "NETWORKING": 4
     },
-    "lastUpdated": "2026-03-29T10:34:46.986Z"
+    "lastUpdated": "2026-03-29T22:32:14.720Z"
   },
-  "generatedAt": "2026-03-29T10:34:46.986Z"
+  "generatedAt": "2026-03-29T22:32:14.720Z"
 }
