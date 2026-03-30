@@ -1,6 +1,46 @@
 {
   "announcements": [
     {
+      "id": "d987604e7c4c4d7c67186e5c86e5b5718802bbd2",
+      "title": "AWS Elemental MediaTailor now available in Europe (London)",
+      "summary": "AWS Elemental MediaTailor, a personalized ad insertion and channel assembly service, is now available in the Europe (London) AWS Region. The service enables video providers to deliver targeted ads in live and on-demand streams using server-side ad insertion, providing broadcast-quality viewing without buffering or ad blocker issues. This expansion helps customers better serve viewers in Europe with improved performance and reduced latency.",
+      "category": "OTHER",
+      "timestamp": "2026-03-30T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-elemental-mediatailor-london-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "055a060ba300429617015622da83cd22b956b888",
+      "title": "Access Cluster Insights through the Amazon OpenSearch Service Console and Amazon EventBridge events",
+      "summary": "Amazon OpenSearch Service now allows users to access Cluster Insights directly through the AWS Management Console, eliminating the need to switch between interfaces when reviewing performance and resilience recommendations. Additionally, Cluster Insights can now publish operational health insights as events to Amazon EventBridge for improved automation and monitoring capabilities.",
+      "category": "SERVERLESS",
+      "timestamp": "2026-03-30T14:51:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/access-cluster-insights-opensearch/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "966266a1e9c330d03ead8b04152f575c03f617cf",
+      "title": "Amazon SageMaker Data Agent is now available in the Amazon SageMaker Unified Studio Query Editor",
+      "summary": "Amazon SageMaker Data Agent is now available in the Query Editor within Amazon SageMaker Unified Studio, expanding beyond its previous notebook-only availability. The feature enables users to generate SQL queries from natural language prompts, debug failed queries, and explore data through a conversational interface. This brings the same AI-powered conversational experience from notebooks to SQL analytics workflows, allowing users to perform complex data analysis tasks using plain English commands.",
+      "category": "AI_ML",
+      "timestamp": "2026-03-30T09:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-data-agent-query-editor/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9adb4953caa36f10744718a9b4eb38b04a3fc5d9",
+      "title": "AWS Direct Connect adds CloudWatch metrics for BGP monitoring",
+      "summary": "AWS Direct Connect now offers three new CloudWatch metrics that provide native monitoring of BGP session health and route counts for virtual interfaces (VIFs). This eliminates the need for network engineers to build custom solutions or use Lambda functions to monitor BGP sessions in hybrid cloud environments. The new metrics give operations teams better visibility into their Direct Connect connectivity through AWS's standard monitoring service.",
+      "category": "SERVERLESS",
+      "timestamp": "2026-03-30T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-direct-connect-cloudwatch-bgp-monitoring/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "b1172f9294cea3c286f1457c674c0997a0589482",
       "title": "Amazon Timestream for InfluxDB Now Supports Advanced Metrics",
       "summary": "Amazon Timestream for InfluxDB has launched Advanced Metrics, which automatically publishes detailed operational metrics from InfluxDB 2 instances directly to Amazon CloudWatch for comprehensive database performance monitoring. This new feature enables real-time monitoring and alerting without requiring additional configuration, supporting both Single-AZ and Multi-AZ deployments.",
@@ -4259,43 +4299,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-nested-json-object-looping-arrays",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "4bea28a1fce11bdc03498ae5af654378e6f8b19f",
-      "title": "AWS WAF is now available in the AWS Asia Pacific (New Zealand) Region",
-      "summary": "AWS WAF (Web Application Firewall) is now available in the AWS Asia Pacific (New Zealand) Region. AWS WAF helps protect web applications from common exploits and bots that could impact availability, security, or resource consumption. The service allows users to control content access based on specified conditions like IP addresses and query string values.",
-      "category": "SECURITY",
-      "timestamp": "2025-12-30T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-waf-asia-pacific-new-zealand-region/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d158df4fa926d5967dcae464d383630eb3858f4c",
-      "title": "AWS launches simplified import of CloudTrail Lake data in Amazon CloudWatch",
-      "summary": "AWS has launched a simplified way to import CloudTrail Lake data directly into Amazon CloudWatch, allowing users to consolidate historical operational, security, and compliance data in just a few steps. This enhancement enables organizations to unify data from across their AWS environment and third-party sources within CloudWatch's data management and analytics service.",
-      "category": "SECURITY",
-      "timestamp": "2025-12-30T14:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-simplified-import-cloudtrail-lake-data-amazon-cloudwatch",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 428,
+    "total": 430,
     "byCategory": {
+      "OTHER": 79,
+      "SERVERLESS": 14,
+      "AI_ML": 68,
       "DATABASE": 48,
-      "SECURITY": 102,
-      "SERVERLESS": 12,
-      "OTHER": 78,
+      "SECURITY": 100,
       "COMPUTE": 78,
-      "AI_ML": 67,
       "CONTAINERS": 13,
       "STORAGE": 13,
       "ANALYTICS": 13,
       "NETWORKING": 4
     },
-    "lastUpdated": "2026-03-30T11:03:06.785Z"
+    "lastUpdated": "2026-03-30T22:37:03.062Z"
   },
-  "generatedAt": "2026-03-30T11:03:06.785Z"
+  "generatedAt": "2026-03-30T22:37:03.062Z"
 }
