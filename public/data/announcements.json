@@ -1,6 +1,56 @@
 {
   "announcements": [
     {
+      "id": "ab33759bd0cd816a138c75880efb9e69364e0b08",
+      "title": "AWS VPC Encryption Controls now available in AWS GovCloud (US) Regions",
+      "summary": "AWS has launched VPC Encryption Controls in AWS GovCloud (US) Regions, enabling organizations to easily audit and enforce encryption in transit within and across Virtual Private Clouds. This feature helps demonstrate compliance with encryption standards by monitoring traffic flows and identifying resources that may be allowing unencrypted plaintext traffic. The controls can be applied to existing VPCs and automatically enforce encryption across different network paths.",
+      "category": "SECURITY",
+      "timestamp": "2026-04-01T18:20:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-vpc-encryption-controls/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c31ad1e04885c36e8ac3ad37a60006fa9d72aeeb",
+      "title": "Amazon CloudFront now supports SHA-256 for signed URLs and signed cookies",
+      "summary": "Amazon CloudFront now supports SHA-256 as a hash algorithm for creating signed URLs and signed cookies, upgrading from the previous SHA-1-only option. This enhancement provides stronger cryptographic security with better collision detection and alignment with modern security standards. The new SHA-256 support helps customers meet stricter security and compliance requirements when restricting access to content.",
+      "category": "SECURITY",
+      "timestamp": "2026-04-01T17:38:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudfront-sha-256-signed-urls/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "77caadc934979d86f3d46d23129df7cb728d2fc6",
+      "title": "Amazon RDS for Oracle now supports cross-account snapshot sharing with additional storage volumes",
+      "summary": "Amazon RDS for Oracle now supports cross-account snapshot sharing for database instances that use additional storage volumes, which allow customers to scale storage up to 256 TiB total by adding up to three 64 TiB volumes beyond the primary storage. This enhancement enables customers to create, share, and copy database snapshots across different AWS accounts even when their Oracle instances are configured with these additional storage volumes.",
+      "category": "DATABASE",
+      "timestamp": "2026-04-01T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/rds-oracle-cross-account-snapshot-sharing-additional-storage-volume/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3c8a4722825bfba2d1d41c88d698983145dec8a3",
+      "title": "Oracle Database@AWS launches sub-millisecond network latency for high performance applications",
+      "summary": "Oracle Database@AWS has launched high performance networking that delivers consistent sub-millisecond roundtrip latency between AWS applications and Oracle databases. This enhancement specifically targets latency-sensitive applications like payment processing, securities trading, and high-volume transaction processing that require predictable, low-latency database connectivity. The service brings the performance benefits that customers previously achieved with on-premises Oracle Exadata systems to the AWS cloud environment.",
+      "category": "COMPUTE",
+      "timestamp": "2026-04-01T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/oracle-database-aws-launches-high-performance-networking/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "076f9073713276da432dee8ec4239fc55777a452",
+      "title": "AWS Managed Microsoft AD adds Multi-Region replication for Opt-In regions ",
+      "summary": "AWS Managed Microsoft AD now supports Multi-Region replication in AWS Opt-In regions, expanding this capability beyond the standard AWS regions. This eliminates the need to manually create and synchronize separate directories in each region, allowing domain-joined workloads to automatically connect to AWS Managed Microsoft AD across multiple regions.",
+      "category": "OTHER",
+      "timestamp": "2026-04-01T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/multi-region-opt-in-aws-microsoft-ad/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "7b2d5c40f41792f1d6078e0935e8d496127fc4ad",
       "title": "Amazon CloudWatch now supports ingesting Security Hub CSPM findings with organization-wide enablement",
       "summary": "Amazon CloudWatch now supports ingesting AWS Security Hub Cloud Security Posture Management (CSPM) findings, allowing customers to centrally analyze and monitor security data directly in CloudWatch Logs. The integration supports both AWS Security Finding Format (ASFF) and Open Cybersecurity Schema Framework (OCSF) formats through CloudWatch Pipelines. This enables customers to use CloudWatch Logs Insights for querying findings and creating metric filters for enhanced security monitoring across their organization.",
@@ -4502,20 +4552,20 @@
     }
   ],
   "stats": {
-    "total": 450,
+    "total": 455,
     "byCategory": {
-      "SECURITY": 105,
-      "OTHER": 85,
+      "SECURITY": 107,
+      "DATABASE": 49,
+      "COMPUTE": 79,
+      "OTHER": 86,
       "ANALYTICS": 15,
       "AI_ML": 73,
       "SERVERLESS": 15,
       "CONTAINERS": 14,
-      "DATABASE": 48,
-      "COMPUTE": 78,
       "STORAGE": 13,
       "NETWORKING": 4
     },
-    "lastUpdated": "2026-04-01T10:57:34.836Z"
+    "lastUpdated": "2026-04-01T22:38:29.147Z"
   },
-  "generatedAt": "2026-04-01T10:57:34.836Z"
+  "generatedAt": "2026-04-01T22:38:29.148Z"
 }
