@@ -1,12 +1,72 @@
 {
   "announcements": [
     {
+      "id": "7b2d5c40f41792f1d6078e0935e8d496127fc4ad",
+      "title": "Amazon CloudWatch now supports ingesting Security Hub CSPM findings with organization-wide enablement",
+      "summary": "Amazon CloudWatch now supports ingesting AWS Security Hub Cloud Security Posture Management (CSPM) findings, allowing customers to centrally analyze and monitor security data directly in CloudWatch Logs. The integration supports both AWS Security Finding Format (ASFF) and Open Cybersecurity Schema Framework (OCSF) formats through CloudWatch Pipelines. This enables customers to use CloudWatch Logs Insights for querying findings and creating metric filters for enhanced security monitoring across their organization.",
+      "category": "SECURITY",
+      "timestamp": "2026-03-31T23:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-cloudwatch-securityhub-findings/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f67e572f34eaec169706f81ba232081539169d4d",
+      "title": "AWS launches Sustainability console for carbon emissions tracking",
+      "summary": "AWS has launched the AWS Sustainability console, a free standalone service that allows customers to track their carbon emissions and environmental impact from AWS usage. This new service expands on the existing Customer Carbon Footprint Tool by removing access barriers, enabling sustainability professionals to view emissions data without needing billing permissions. The console ensures organizations can provide the appropriate teams with access to environmental data for better sustainability management.",
+      "category": "OTHER",
+      "timestamp": "2026-03-31T22:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-launches-sustainability-console/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d0a5dea2bd685007afad04f08e200b814db7aad6",
+      "title": "Amazon OpenSearch Service introduces agentic AI for log analytics",
+      "summary": "Amazon OpenSearch Service has launched agentic AI capabilities that allow engineering and support teams to analyze log data through natural language conversations. The new features simplify log querying and speed up incident investigations by enabling autonomous root cause analysis and maintaining persistent conversations within the OpenSearch UI. This enhancement transforms how teams interact with observability data by replacing complex queries with intuitive conversational interfaces.",
+      "category": "ANALYTICS",
+      "timestamp": "2026-03-31T21:17:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/opensearch-agentic-ai-log-analytics-observability/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "313edfe4a42b990eea57912e2827624e2248f621",
+      "title": "AWS IAM Identity Center is now available in AWS European Sovereign Cloud (Germany) Region",
+      "summary": "AWS IAM Identity Center is now available in the new AWS European Sovereign Cloud (Germany) Region, which is designed to help customers meet sovereignty requirements by being entirely located within the EU. IAM Identity Center is AWS's recommended service for managing workforce access to AWS applications, allowing organizations to connect their existing identity sources and provide users with single sign-on access.",
+      "category": "OTHER",
+      "timestamp": "2026-03-31T21:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-iam-identity-center-european-sovereign-cloud-germany-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "e47de81463b98d15248229194466adbc5df29311",
       "title": "Amazon Managed Service for Apache Flink now supports Apache Flink 2.2",
       "summary": "Amazon Managed Service for Apache Flink now supports Apache Flink version 2.2, which includes significant runtime improvements like Java 17 support, RocksDB 8.10.0 for enhanced I/O performance, and serialization enhancements. The update deprecates Dataset API and Scala APIs, while allowing users to either create new applications on Flink 2.2 or perform in-place version upgrades for existing compatible applications.",
       "category": "OTHER",
       "timestamp": "2026-03-31T20:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-managed-service-flink-2-2/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0c9845cbc17919e39c36a3bfeb73aceb4ed328f3",
+      "title": "Amazon SageMaker Unified Studio adds Observability for AWS Glue jobs via CloudWatch metrics",
+      "summary": "Amazon SageMaker Unified Studio now provides enhanced observability for AWS Glue jobs by displaying Amazon CloudWatch metrics directly alongside job logs in a single interface. This new feature enables data engineers and ETL developers to streamline troubleshooting by correlating resource utilization patterns like DPU utilization, memory consumption, and CPU load with job performance. The integration allows teams to diagnose performance issues more quickly and efficiently.",
+      "category": "AI_ML",
+      "timestamp": "2026-03-31T19:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/sagemaker-unified-studio-metrics/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "01b19d5b9d240557c3a05ea991a00dc5b98fcd57",
+      "title": "AWS Organizations now provides organization paths in API responses",
+      "summary": "AWS Organizations now includes complete organizational paths for accounts and organizational units (OUs) directly in API responses, eliminating the need for multiple API calls to navigate organizational hierarchies. This enhancement streamlines management for enterprise customers with complex, deeply nested AWS Organizations by providing full structural context in a single API call.",
+      "category": "SECURITY",
+      "timestamp": "2026-03-31T18:59:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-organizations-paths-api-responses/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -4442,20 +4502,20 @@
     }
   ],
   "stats": {
-    "total": 444,
+    "total": 450,
     "byCategory": {
-      "OTHER": 83,
+      "SECURITY": 105,
+      "OTHER": 85,
+      "ANALYTICS": 15,
+      "AI_ML": 73,
       "SERVERLESS": 15,
-      "SECURITY": 103,
-      "AI_ML": 72,
       "CONTAINERS": 14,
-      "ANALYTICS": 14,
       "DATABASE": 48,
       "COMPUTE": 78,
       "STORAGE": 13,
       "NETWORKING": 4
     },
-    "lastUpdated": "2026-03-31T22:35:14.213Z"
+    "lastUpdated": "2026-04-01T10:57:34.836Z"
   },
-  "generatedAt": "2026-03-31T22:35:14.213Z"
+  "generatedAt": "2026-04-01T10:57:34.836Z"
 }
