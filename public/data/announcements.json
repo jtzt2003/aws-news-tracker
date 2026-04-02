@@ -1,6 +1,86 @@
 {
   "announcements": [
     {
+      "id": "6b328ea82722dbe1c4a777cf0b58fb0645bab564",
+      "title": "Amazon ElastiCache Serverless now supports IPv6 and dual stack connectivity",
+      "summary": "Amazon ElastiCache Serverless has expanded its connectivity options to support IPv6 and dual stack configurations, in addition to the previously available IPv4-only connectivity. Users can now choose between IPv4, IPv6, or dual stack network types when creating a Serverless cache. The dual stack option allows caches to accept connections over both IPv4 and IPv6 simultaneously, providing greater flexibility for application connectivity and migration scenarios.",
+      "category": "DATABASE",
+      "timestamp": "2026-04-02T21:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-elasticache-serverless-ipv6-dual-stack/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "cfd6ae119d6740d66e18fedb478929b1bdb26ef7",
+      "title": "Amazon CloudWatch launches OTel Container Insights for Amazon EKS (Preview)",
+      "summary": "Amazon CloudWatch has launched a public preview of OTel Container Insights for Amazon EKS, which enhances the existing Container Insights by collecting metrics from open source and AWS collectors using the OpenTelemetry Protocol (OTLP). This new capability provides deeper visibility into EKS clusters and automatically enriches each metric with up to 150 descriptive labels, including Kubernetes metadata and custom information.",
+      "category": "CONTAINERS",
+      "timestamp": "2026-04-02T20:41:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/cloudwatch-otel-container-insights-eks/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f018e7158a0972638f81f8674456ec26c2b50178",
+      "title": "AWS Deadline Cloud now supports configurable job scheduling modes for queues",
+      "summary": "AWS Deadline Cloud now offers configurable job scheduling modes that give users control over how workers are distributed across jobs in a queue. Previously, all workers were automatically assigned to the highest-priority, earliest-submitted job first, which could cause delays for other jobs waiting in the queue. This update provides more flexibility in managing render workloads for 2D/3D graphics and visual effects production.",
+      "category": "OTHER",
+      "timestamp": "2026-04-02T20:11:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/deadline-cloud-job-scheduling/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b5b4d5b17b304cdf92c5744aa9f7c6d5bf4f636d",
+      "title": "Announcing compute-optimized instance bundles for Amazon Lightsail",
+      "summary": "Amazon Lightsail has launched new compute-optimized instance bundles offering up to 72 vCPUs in 7 different sizes, with support for both IPv6-only and dual-stack networking. These instances support all existing Lightsail blueprints, including popular applications like WordPress, cPanel & WHM, Plesk, Drupal, and Magento on both Linux and Windows operating systems.",
+      "category": "AI_ML",
+      "timestamp": "2026-04-02T20:03:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/lightsail-compute-optimized-instances/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c3ba3debe37ac8497ab103d44a44ad1dd9666e78",
+      "title": "Amazon CloudWatch expands auto-enablement to Amazon CloudFront logs and 3 additional resource types",
+      "summary": "Amazon CloudWatch has expanded its auto-enablement feature to support Amazon CloudFront Standard access logs, AWS Security Hub CSPM finding logs, and Amazon Bedrock AgentCore memory and gateway logs and traces. Customers can now create enablement rules that automatically configure telemetry for both existing and new resources, eliminating the need for manual setup and ensuring consistent monitoring coverage. These rules can be applied at the organization, account, or specific resource level for flexible deployment.",
+      "category": "SECURITY",
+      "timestamp": "2026-04-02T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-cloudfront-enablement/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3e464a21a4c7fc2a498bae8e6133ca1babf7d15d",
+      "title": "AWS Direct Connect announces 100G expansion in Auckland, New Zealand",
+      "summary": "AWS has expanded its Direct Connect service in Auckland, New Zealand to offer 100 Gbps dedicated connections at the Datacom Orbit DH6 data center. This location now provides private, direct network access to all public AWS Regions (excluding China), AWS GovCloud Regions, and AWS Local Zones. This marks the second AWS Direct Connect location in New Zealand to offer 100 Gbps connections with MACsec encryption capabilities.",
+      "category": "COMPUTE",
+      "timestamp": "2026-04-02T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-direct-connect-100g-auckland/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8e59acc70b67fe78b19fe522f4077dbff969c7bc",
+      "title": "Amazon CloudWatch now supports OpenTelemetry metrics in public preview",
+      "summary": "Amazon CloudWatch now supports native OpenTelemetry (OTel) metrics in public preview, allowing users to send metrics directly using the OpenTelemetry Protocol without custom conversion logic or additional tooling. Users can combine their custom OpenTelemetry metrics with AWS-provided metrics from over 70 services and query them using PromQL without requiring additional agents or code changes.",
+      "category": "CONTAINERS",
+      "timestamp": "2026-04-02T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-opentelemetry-metrics/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2f8b5581343aae50676d1a02fa1a21c350175031",
+      "title": "Amazon WorkSpaces Applications improves multi-session fleet management",
+      "summary": "Amazon WorkSpaces Applications has introduced a \"drain mode\" feature for multi-session fleets that allows instances to stop accepting new user sessions while keeping existing sessions running without interruption. This capability enables seamless maintenance, scaling, and system updates without disrupting active users. Multi-session fleets help organizations maximize infrastructure utilization by hosting multiple user sessions on a single instance.",
+      "category": "SECURITY",
+      "timestamp": "2026-04-02T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-workspaces-applications-drain-mode/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "ded663bf7739fee4c2c8db7747466b20c798f6e1",
       "title": "Amazon SES Mail Manager adds new features for enhanced security and email processing",
       "summary": "Amazon SES Mail Manager has introduced new security and processing features, including optional TLS and certificate-based authentication (mTLS) support for Ingress Endpoints, plus two new rule actions: Invoke Lambda function and Bounce. These enhancements help organizations maintain compatibility with legacy systems while implementing stronger security controls and simplifying email infrastructure migrations.",
@@ -4569,43 +4649,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/ec2-capacity-manager-spot-interruption-metrics/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "e6b819ca1d6d24e3e9a635774a4e3f864cc91fa8",
-      "title": "AWS Clean Rooms now supports detailed monitoring for collaboration queries",
-      "summary": "AWS Clean Rooms has launched detailed monitoring capabilities for SQL queries within collaborations, publishing comprehensive metrics to CloudWatch. This new feature enables monitoring of query performance and resource utilization, improving observability for workloads at scale. Collaboration creators can enable this detailed monitoring to gain better operational insights into their Clean Rooms deployments.",
-      "category": "OTHER",
-      "timestamp": "2026-01-02T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/clean-rooms-detailed-monitoring-collaboration-queries",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "06c4c64daed2ade2202de0a5a766955633e97d7f",
-      "title": "Amazon Connect now provides the capability to store nested JSON object and looping arrays",
-      "summary": "Amazon Connect now supports storing and working with complex data structures like nested JSON objects and arrays directly within contact flows. This enhancement allows developers to build more dynamic automated customer experiences by saving complete data records from business systems and referencing specific elements within them. The feature also includes automatic looping capabilities for processing lists of items in customer service workflows.",
-      "category": "OTHER",
-      "timestamp": "2026-01-02T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-nested-json-object-looping-arrays",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 459,
+    "total": 465,
     "byCategory": {
-      "SECURITY": 109,
-      "AI_ML": 75,
-      "DATABASE": 49,
-      "COMPUTE": 79,
-      "OTHER": 86,
+      "DATABASE": 50,
+      "CONTAINERS": 16,
+      "OTHER": 85,
+      "AI_ML": 76,
+      "SECURITY": 111,
+      "COMPUTE": 80,
       "ANALYTICS": 15,
       "SERVERLESS": 15,
-      "CONTAINERS": 14,
       "STORAGE": 13,
       "NETWORKING": 4
     },
-    "lastUpdated": "2026-04-02T10:51:57.500Z"
+    "lastUpdated": "2026-04-02T22:32:07.278Z"
   },
-  "generatedAt": "2026-04-02T10:51:57.501Z"
+  "generatedAt": "2026-04-02T22:32:07.278Z"
 }
