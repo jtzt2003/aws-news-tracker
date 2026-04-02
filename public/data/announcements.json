@@ -1,6 +1,36 @@
 {
   "announcements": [
     {
+      "id": "ded663bf7739fee4c2c8db7747466b20c798f6e1",
+      "title": "Amazon SES Mail Manager adds new features for enhanced security and email processing",
+      "summary": "Amazon SES Mail Manager has introduced new security and processing features, including optional TLS and certificate-based authentication (mTLS) support for Ingress Endpoints, plus two new rule actions: Invoke Lambda function and Bounce. These enhancements help organizations maintain compatibility with legacy systems while implementing stronger security controls and simplifying email infrastructure migrations.",
+      "category": "SECURITY",
+      "timestamp": "2026-04-01T21:13:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ses-mail-manager-introduces-new-features/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a9d3ffae33b5d26ccdf2d68f2c85830034dc66f3",
+      "title": "Amazon ECS announces Managed Daemons for ECS Managed Instances",
+      "summary": "Amazon ECS has introduced Managed Daemons for ECS Managed Instances, allowing organizations to centrally deploy and manage software agents (security, observability, and networking) across their container infrastructure independently from application deployments. This feature decouples daemon lifecycle management from application operations, ensuring reliable agent coverage across all workloads while simplifying deployments, version updates, and improving resource utilization.",
+      "category": "SECURITY",
+      "timestamp": "2026-04-01T21:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ecs-managed-daemons/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "82a66146e090419169bf39a4fd9ac34f723ec9f0",
+      "title": "Amazon SageMaker Data Agent now supports geo-specific inference for Japan and Australia",
+      "summary": "Amazon SageMaker Data Agent now supports geo-specific inference for Japan and Australia through Amazon Bedrock cross-region inference profiles. This enhancement ensures that inference requests from the Asia Pacific (Tokyo) and Asia Pacific (Sydney) regions are processed within their respective local geographies to meet data sovereignty requirements. The feature helps customers in these regions maintain compliance while using Data Agent's AI-powered conversational capabilities for data exploration and code generation.",
+      "category": "AI_ML",
+      "timestamp": "2026-04-01T20:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/sage-maker-da-infr-jp-au/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "ab33759bd0cd816a138c75880efb9e69364e0b08",
       "title": "AWS VPC Encryption Controls now available in AWS GovCloud (US) Regions",
       "summary": "AWS has launched VPC Encryption Controls in AWS GovCloud (US) Regions, enabling organizations to easily audit and enforce encryption in transit within and across Virtual Private Clouds. This feature helps demonstrate compliance with encryption standards by monitoring traffic flows and identifying resources that may be allowing unencrypted plaintext traffic. The controls can be applied to existing VPCs and automatically enforce encryption across different network paths.",
@@ -27,6 +57,16 @@
       "category": "DATABASE",
       "timestamp": "2026-04-01T15:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/rds-oracle-cross-account-snapshot-sharing-additional-storage-volume/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "49b55bc32219f273b7ee3c25c74f68633b83b2be",
+      "title": "Amazon Bedrock now supports structured outputs to AWS GovCloud (US) Regions",
+      "summary": "Amazon Bedrock has expanded its structured outputs feature to AWS GovCloud (US) Regions, enabling foundation models to return consistent, schema-compliant responses. This enhancement is specifically designed for government and regulated workloads that require strict compliance and data handling standards. The feature ensures machine-readable outputs that meet the rigorous requirements of federal and regulated environments.",
+      "category": "AI_ML",
+      "timestamp": "2026-04-01T10:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-bedrock-structured-outputs-govcloud/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -4552,20 +4592,20 @@
     }
   ],
   "stats": {
-    "total": 455,
+    "total": 459,
     "byCategory": {
-      "SECURITY": 107,
+      "SECURITY": 109,
+      "AI_ML": 75,
       "DATABASE": 49,
       "COMPUTE": 79,
       "OTHER": 86,
       "ANALYTICS": 15,
-      "AI_ML": 73,
       "SERVERLESS": 15,
       "CONTAINERS": 14,
       "STORAGE": 13,
       "NETWORKING": 4
     },
-    "lastUpdated": "2026-04-01T22:38:29.147Z"
+    "lastUpdated": "2026-04-02T10:51:57.500Z"
   },
-  "generatedAt": "2026-04-01T22:38:29.148Z"
+  "generatedAt": "2026-04-02T10:51:57.501Z"
 }
