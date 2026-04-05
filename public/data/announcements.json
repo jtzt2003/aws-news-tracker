@@ -4679,63 +4679,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-config-new-resource-types",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "42bce1e4670f69049d38bfe29b8feedd7d779939",
-      "title": "Amazon EC2 G5 instances are now available in Asia Pacific (Hong Kong) Region",
-      "summary": "Amazon EC2 G5 instances powered by NVIDIA A10G Tensor Core GPUs are now available in the Asia Pacific (Hong Kong) region. These instances support graphics-intensive applications like remote workstations, video rendering, and cloud gaming, as well as machine learning workloads that require high-performance GPU computing.",
-      "category": "AI_ML",
-      "timestamp": "2026-01-05T18:55:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-g5-now-available-asia-pacific-hong-kong",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "a6d2087d794463acd0ab1e2fce6ac55b715540fb",
-      "title": "Happy New Year! AWS Weekly Roundup: 10,000 AIdeas Competition, Amazon EC2, Amazon ECS Managed Instances and more (January 5, 2026)",
-      "summary": "This AWS Weekly Roundup welcomes 2026 and highlights several key announcements including a \"10,000 AIdeas Competition,\" updates to Amazon EC2, and new Amazon ECS Managed Instances features. The author mentions taking time off after AWS re:Invent to rest and is planning the next cohort for their \"Become a Solutions Architect (BeSA)\" program.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-01-05T17:10:37.000Z",
-      "link": "https://aws.amazon.com/blogs/aws/happy-new-year-aws-weekly-roundup-10000-aideas-competition-amazon-ec2-amazon-ecs-managed-instances-and-more-january-5-2026/",
-      "source": "AWS News Blog",
-      "isNew": false
-    },
-    {
-      "id": "b71e5563721db62bda7a2916d866b0d8f7654ecb",
-      "title": "AWS Resource Explorer is now available in AWS Asia Pacific (New Zealand) Region.",
-      "summary": "AWS Resource Explorer is now available in the Asia Pacific (New Zealand) Region, expanding the service's global reach. This tool allows users to search for and discover AWS resources across multiple regions and accounts within their organization through various interfaces including the console, CLI, SDKs, or the unified search bar in the AWS Management Console.",
-      "category": "OTHER",
-      "timestamp": "2026-01-05T15:15:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-resource-explorer-aws-asia-pacific-new-zealand/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "8918a3f4a50de040f63b837cca83fac9310fe2d6",
-      "title": "AWS Transfer Family is now available in AWS Asia Pacific (New Zealand) region",
-      "summary": "AWS Transfer Family is now available in the Asia Pacific (New Zealand) region, allowing customers to use fully managed file transfer services supporting SFTP, FTP, FTPS, and AS2 protocols. The service enables secure file transfers to Amazon S3 and Amazon EFS storage services, along with common file processing capabilities.",
-      "category": "STORAGE",
-      "timestamp": "2026-01-05T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-transfer-family-asia-pacific-new-zealand-region",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 472,
+    "total": 468,
     "byCategory": {
       "SECURITY": 114,
       "SERVERLESS": 16,
-      "AI_ML": 78,
-      "OTHER": 86,
+      "AI_ML": 77,
+      "OTHER": 85,
       "COMPUTE": 80,
       "DATABASE": 50,
-      "CONTAINERS": 16,
+      "CONTAINERS": 15,
       "ANALYTICS": 15,
-      "STORAGE": 13,
+      "STORAGE": 12,
       "NETWORKING": 4
     },
-    "lastUpdated": "2026-04-05T10:35:00.623Z"
+    "lastUpdated": "2026-04-05T22:32:34.376Z"
   },
-  "generatedAt": "2026-04-05T10:35:00.624Z"
+  "generatedAt": "2026-04-05T22:32:34.377Z"
 }
