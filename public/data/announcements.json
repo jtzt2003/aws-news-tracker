@@ -4719,33 +4719,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-transfer-family-asia-pacific-new-zealand-region",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "b3c4612aaeefa2ff34ef8bc022a2a5c689f18123",
-      "title": "EC2 Capacity Manager now includes Spot interruption metrics",
-      "summary": "AWS has added new Spot interruption metrics to Amazon EC2 Capacity Manager, enabling organizations to better monitor and analyze their Spot instance capacity. These metrics allow users to track running Spot instances, monitor interruption counts, and calculate interruption rates across regions, availability zones, and accounts from a centralized dashboard. This enhancement provides greater visibility into Spot capacity management alongside existing On-Demand and Capacity Reservation monitoring capabilities.",
-      "category": "COMPUTE",
-      "timestamp": "2026-01-05T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/ec2-capacity-manager-spot-interruption-metrics/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 473,
+    "total": 472,
     "byCategory": {
       "SECURITY": 114,
       "SERVERLESS": 16,
       "AI_ML": 78,
       "OTHER": 86,
-      "COMPUTE": 81,
+      "COMPUTE": 80,
       "DATABASE": 50,
       "CONTAINERS": 16,
       "ANALYTICS": 15,
       "STORAGE": 13,
       "NETWORKING": 4
     },
-    "lastUpdated": "2026-04-04T22:31:13.752Z"
+    "lastUpdated": "2026-04-05T10:35:00.623Z"
   },
-  "generatedAt": "2026-04-04T22:31:13.752Z"
+  "generatedAt": "2026-04-05T10:35:00.624Z"
 }
