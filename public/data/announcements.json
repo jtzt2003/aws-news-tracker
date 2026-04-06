@@ -1,6 +1,66 @@
 {
   "announcements": [
     {
+      "id": "f38429a79aaf82c22c22c197c6e0e750c5de4d6b",
+      "title": "Amazon Verified Permissions now supports policy store aliases and named policies and policy templates",
+      "summary": "Amazon Verified Permissions has added support for policy store aliases and named policies/templates to simplify multi-tenant deployments and policy management. These new features eliminate the need for separate mapping tables that associate tenant identifiers with policy store IDs. The enhancements streamline day-to-day operations for the fine-grained authorization service that uses Cedar policies to manage application permissions.",
+      "category": "OTHER",
+      "timestamp": "2026-04-06T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-verified-permissions-policy-store/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a4d201c39b321661cdbd5fbdd26dea9b09a61173",
+      "title": "Amazon WorkSpaces Personal now supports unique DNS names for PrivateLink",
+      "summary": "Amazon WorkSpaces Personal now assigns unique, publicly resolvable DNS names to each AWS PrivateLink VPC endpoint, replacing the previous shared generic DNS names. This enhancement allows enterprise customers to deploy WorkSpaces across multiple AWS VPCs and accounts without experiencing DNS resolution conflicts.",
+      "category": "SECURITY",
+      "timestamp": "2026-04-06T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-workspaces-personal-privatelink/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "365dc3b7a5bc4ae0d8fd7e584bfbc97c216d3324",
+      "title": "Amazon FSx for OpenZFS is now available in the AWS Asia Pacific (Melbourne) Region",
+      "summary": "Amazon FSx for OpenZFS is now available in the AWS Asia Pacific (Melbourne) Region, allowing customers to create fully managed shared file storage systems built on OpenZFS. This service provides a cost-effective, high-performance file system solution in the cloud with enhanced reliability, security, and scalability features.",
+      "category": "SECURITY",
+      "timestamp": "2026-04-06T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-fsx-openzfs-melbourne-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d7e19fb48b6e3843154a47f877bf6fd11fe72886",
+      "title": " AWS announces general availability of Smithy-Java client framework",
+      "summary": "AWS has announced the general availability of Smithy-Java, an open-source Java framework that generates type-safe clients and standalone classes from Smithy models. The framework addresses enterprise users' need for production-grade Java SDK generation and helps reduce cognitive load and maintenance burden for developers building modern Java applications.",
+      "category": "OTHER",
+      "timestamp": "2026-04-06T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/smithy-java-client-framework/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "56dd8c3d8f2cab6c902bd0c35df65de1489e7d84",
+      "title": "Amazon S3 starts rolling out new security best practice to new and existing buckets by default",
+      "summary": "Amazon S3 is implementing a new security default that automatically disables server-side encryption with customer-provided keys (SSE-C) for all new general purpose buckets. For existing buckets without SSE-C encrypted objects, S3 will also block new SSE-C write requests, while accounts currently using SSE-C will see no changes to their existing bucket configurations. This change rolled out starting November 19, 2025, as part of AWS's enhanced security best practices.",
+      "category": "SECURITY",
+      "timestamp": "2026-04-06T13:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/s3-default-bucket-security-setting/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c9aa5147072252b63c3d0422a4a566a4dfe9d7bb",
+      "title": "Amazon RDS for Oracle now supports Oracle Management Agent version 24.1.0.0.v1 for Oracle Enterprise Manager Cloud Control 24aiR1",
+      "summary": "Amazon RDS for Oracle now supports Oracle Management Agent (OMA) version 24.1.0.0.v1, enabling compatibility with Oracle Enterprise Manager Cloud Control 24ai Release 1. This update allows customers running OMS version 24.1 Release 1 or later to monitor and manage their RDS Oracle databases through OEM's web-based management tools.",
+      "category": "DATABASE",
+      "timestamp": "2026-04-06T07:50:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-rds-oracle-supports-oracle-management-agent-version-for-oracle-enterprise-manager=cloud-control/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "09ca757054b0eeb3dae52391786c0e5a3c927a9c",
       "title": "Apache Spark troubleshooting and upgrade agents now available as Kiro powers",
       "summary": "AWS has released Apache Spark troubleshooting and upgrade agents as Kiro powers, providing one-click AI-assisted Spark operations within the Kiro platform. These tools help data engineers dramatically reduce troubleshooting time from hours to minutes and accelerate Spark version upgrades from months to weeks by automatically analyzing logs, metrics, and configurations across EMR environments.",
@@ -4639,63 +4699,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-c8i-c8i-flex-instances-additional-aws-regions",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "dc23ef7d235df6ac9765ce2eb0e3fd576df6431e",
-      "title": "AWS Marketplace Seller Reporting now provides collections visibility",
-      "summary": "AWS Marketplace Seller Reporting now includes collection visibility, providing real-time payment collection status in the Billed Revenue Dashboard and Billing Event Data Feed. This new feature allows sellers to clearly distinguish between invoiced, collected, and disbursed amounts, eliminating the previous gap between invoice creation and payment disbursement. The enhancement enables sellers to make better business decisions and reduces the need for payment status follow-ups with customers.",
-      "category": "OTHER",
-      "timestamp": "2026-01-06T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-marketplace-seller-reporting-collections/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "cac4f35c637008a34840b85ee2625dc810d5bd1c",
-      "title": "Amazon ECS now supports tmpfs mounts on AWS Fargate and ECS Managed Instances",
-      "summary": "Amazon ECS now supports tmpfs mounts for Linux tasks on AWS Fargate and ECS Managed Instances, in addition to the existing EC2 launch type support. This feature enables memory-backed temporary file systems within containers, allowing performance-sensitive workloads to access fast, temporary storage without writing data to persistent task storage.",
-      "category": "SECURITY",
-      "timestamp": "2026-01-06T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ecs-tmpfs-mounts-aws-fargate-managed-instances",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "36bdedb94d7d42b7114da19b95b3ab809f570e27",
-      "title": "Amazon MQ now supports HTTP based authentication for RabbitMQ brokers",
-      "summary": "Amazon MQ now supports HTTP-based authentication and authorization for RabbitMQ brokers, allowing them to verify user login credentials and permissions by making requests to an HTTP server. This feature is available for RabbitMQ version 4.2 and above running on m7g instances, and can be configured through the broker's configuration file. Users can enable this functionality by simply selecting RabbitMQ 4.2 when creating a new Amazon MQ broker.",
-      "category": "COMPUTE",
-      "timestamp": "2026-01-06T17:35:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-mq-http-based-rabbitmq-brokers/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "7cd9086e1df9eba365491dd5c6f094aa4ea85d83",
-      "title": "AWS Config now supports 21 new resource types",
-      "summary": "AWS Config has expanded support to include 21 new resource types across Amazon EC2, SageMaker, and S3 Tables services. This expansion enhances monitoring coverage of AWS environments, allowing users to better discover, assess, audit, and remediate a wider range of resources. If recording is enabled for all resource types, AWS Config will automatically begin tracking these new additions.",
-      "category": "SECURITY",
-      "timestamp": "2026-01-06T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-config-new-resource-types",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 468,
+    "total": 470,
     "byCategory": {
-      "SECURITY": 114,
+      "OTHER": 86,
+      "SECURITY": 115,
+      "DATABASE": 51,
       "SERVERLESS": 16,
       "AI_ML": 77,
-      "OTHER": 85,
-      "COMPUTE": 80,
-      "DATABASE": 50,
+      "COMPUTE": 79,
       "CONTAINERS": 15,
       "ANALYTICS": 15,
       "STORAGE": 12,
       "NETWORKING": 4
     },
-    "lastUpdated": "2026-04-06T10:57:57.946Z"
+    "lastUpdated": "2026-04-06T22:37:48.648Z"
   },
-  "generatedAt": "2026-04-06T10:57:57.946Z"
+  "generatedAt": "2026-04-06T22:37:48.648Z"
 }
