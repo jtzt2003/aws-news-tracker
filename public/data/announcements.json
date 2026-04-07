@@ -1,6 +1,26 @@
 {
   "announcements": [
     {
+      "id": "121fb14603fe495e53101b2d9c9039991cb3827a",
+      "title": "AWS Cost Explorer launches Natural Language Query capabilities powered by Amazon Q",
+      "summary": "AWS Cost Explorer has integrated Amazon Q Developer's generative AI to enable natural language queries for analyzing AWS cost and usage data. Users can now ask questions in plain English and receive both answers and automatically updated visualizations, making cost analysis faster and more accessible to all team members. This feature reduces the time needed to gain cost insights and eliminates the need for complex query syntax.",
+      "category": "AI_ML",
+      "timestamp": "2026-04-07T02:50:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/AWS-Cost-Explorer-Natural-Language-Query/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8d765dbc7a08c813f8adc4df46e3c09ae7dfa3bb",
+      "title": "Amazon SageMaker Unified Studio adds notebook import/export and developer acceleration features",
+      "summary": "Amazon SageMaker Unified Studio has added notebook import/export capabilities that support .ipynb, .json, and .py formats, enabling easy migration from JupyterLab and other platforms. The release also introduces developer productivity features like cell reordering, keyboard shortcuts, cell renaming, and multi-line SQL support to streamline workflows for data engineers and scientists.",
+      "category": "AI_ML",
+      "timestamp": "2026-04-06T19:42:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-unified-studio/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "f38429a79aaf82c22c22c197c6e0e750c5de4d6b",
       "title": "Amazon Verified Permissions now supports policy store aliases and named policies and policy templates",
       "summary": "Amazon Verified Permissions has added support for policy store aliases and named policies/templates to simplify multi-tenant deployments and policy management. These new features eliminate the need for separate mapping tables that associate tenant identifiers with policy store IDs. The enhancements streamline day-to-day operations for the fine-grained authorization service that uses Cedar policies to manage application permissions.",
@@ -37,6 +57,16 @@
       "category": "OTHER",
       "timestamp": "2026-04-06T16:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/smithy-java-client-framework/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0b22b36a8894c7380761f656d02494aa98274f5b",
+      "title": "AWS IoT Greengrass component SDK for C, C++, and Rust applications",
+      "summary": "AWS has launched a new Greengrass component SDK designed for C, C++, and Rust applications running on AWS IoT Greengrass. The SDK enables deployment of sophisticated AI and ML workloads on resource-constrained edge devices, targeting industries like automotive, industrial IoT, robotics, and smart buildings. It maintains full compatibility with both AWS IoT Greengrass nucleus and nucleus lite capabilities.",
+      "category": "OTHER",
+      "timestamp": "2026-04-06T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/iot-greengrass-component-sdk/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -4702,20 +4732,20 @@
     }
   ],
   "stats": {
-    "total": 470,
+    "total": 473,
     "byCategory": {
-      "OTHER": 86,
+      "AI_ML": 79,
+      "OTHER": 87,
       "SECURITY": 115,
       "DATABASE": 51,
       "SERVERLESS": 16,
-      "AI_ML": 77,
       "COMPUTE": 79,
       "CONTAINERS": 15,
       "ANALYTICS": 15,
       "STORAGE": 12,
       "NETWORKING": 4
     },
-    "lastUpdated": "2026-04-06T22:37:48.648Z"
+    "lastUpdated": "2026-04-07T10:56:22.318Z"
   },
-  "generatedAt": "2026-04-06T22:37:48.648Z"
+  "generatedAt": "2026-04-07T10:56:22.318Z"
 }
