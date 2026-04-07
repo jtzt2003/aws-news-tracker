@@ -1,6 +1,86 @@
 {
   "announcements": [
     {
+      "id": "022469d6eb9b5112d9ce68ddb1a309e54ff459ed",
+      "title": "AWS Lambda expands response streaming support to all commercial AWS Regions",
+      "summary": "AWS Lambda response streaming is now available in all commercial AWS Regions, achieving full regional parity for this capability. This feature allows Lambda functions to send partial responses to clients incrementally using the InvokeWithResponseStream API, rather than waiting to buffer the complete response. Response streaming reduces time-to-first-byte (TTFB) latency by enabling progressive payload delivery as data becomes available.",
+      "category": "SERVERLESS",
+      "timestamp": "2026-04-07T21:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-lambda-response-streaming/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8ef199c2ca2b4091faeaee55e479fddf7a4db17e",
+      "title": "Amazon Lightsail is now available in the Asia Pacific (Malaysia) Region",
+      "summary": "Amazon Lightsail is now available in the Asia Pacific (Malaysia) Region, expanding the service's reach to Malaysian customers and surrounding areas. This new regional availability offers customers lower latency, improved performance, and the ability to meet local data residency requirements. The Malaysia region provides access to Lightsail's complete feature set, including various compute instances to meet different application needs.",
+      "category": "COMPUTE",
+      "timestamp": "2026-04-07T17:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-lightsail-malaysia/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "67b79a5dd839bc03cd8aa1d955a53e0437907c6d",
+      "title": "Amazon Bedrock now offers Claude Mythos Preview (Gated Research Preview)",
+      "summary": "Amazon Bedrock now provides access to Claude Mythos Preview, Anthropic's most advanced AI model, through a gated research preview as part of Project Glasswing. This new model class offers state-of-the-art capabilities in cybersecurity, software coding, and complex reasoning, with particular strength in identifying sophisticated security vulnerabilities in software.",
+      "category": "SECURITY",
+      "timestamp": "2026-04-07T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-bedrock-claude-mythos/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f8d7fe6c43744806a736f8c570e122dae535a364",
+      "title": "Amazon SageMaker adds serverless workflows to Identity Center domains",
+      "summary": "Amazon SageMaker Unified Studio has expanded Serverless Workflows support to Identity Center domains, allowing customers to orchestrate data processing tasks using Apache Airflow without managing infrastructure. This feature automatically provisions and releases compute resources as workflows run, and was previously only available in IAM-based domains. The enhancement enables organizations using Identity Center domains to leverage serverless Apache Airflow orchestration through Amazon's Managed Workflows for Apache Airflow service.",
+      "category": "SECURITY",
+      "timestamp": "2026-04-07T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-serverless-workflows/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b914546f3cd9beb4998bf3ff9f61b51666f308bd",
+      "title": "Announcing Amazon S3 Files, making S3 buckets accessible as file systems",
+      "summary": "Amazon S3 Files is a new feature that makes S3 buckets accessible as traditional file systems, allowing AWS compute resources to interact with S3 data using standard file system operations. This breakthrough makes Amazon S3 the first cloud object store to provide full file system semantics with high performance and low latency. The feature enables file-based applications and teams to work with S3 data using familiar file system tools without the data leaving the S3 environment.",
+      "category": "CONTAINERS",
+      "timestamp": "2026-04-07T14:15:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-s3-files/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "98acb9518e625d9b18cfbd613ff1bd5101b085c5",
+      "title": "Amazon RDS for Oracle now supports M8i and R8i instances",
+      "summary": "Amazon RDS for Oracle now supports M8i and R8i instances powered by custom Intel Xeon 6 processors exclusive to AWS. These new instances deliver up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generation Intel-based instances. The instances are currently available for Amazon RDS for Oracle under the Bring Your Own License model.",
+      "category": "DATABASE",
+      "timestamp": "2026-04-07T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-oracle-8th-gen-instances/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1459a344c7feab9a20b038042bd494d1e226f62c",
+      "title": "AWS Transfer Family now supports IPv6 for connectors and web apps",
+      "summary": "AWS Transfer Family has added IPv6 support for SFTP connectors, AS2 connectors, and web applications. This enhancement allows connectors to communicate with remote servers and trading partners over IPv6 networks, while also enabling end users to access Transfer Family web apps using IPv6 connections.",
+      "category": "OTHER",
+      "timestamp": "2026-04-07T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-transfer-family-ipv6-connectors-web-apps/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b27f3f22626392e12b85647f77b49fad52124fcc",
+      "title": "AWS Certificate Manager now supports native certificate search",
+      "summary": "AWS Certificate Manager (ACM) has introduced a native certificate search feature that allows users to find certificates using parameters like domain name, certificate ARN, and validity status through both a console search bar and a new SearchCertificates API. This enhancement is particularly useful for administrators managing multiple certificates who need to quickly locate specific certificates or identify those nearing expiration.",
+      "category": "SECURITY",
+      "timestamp": "2026-04-07T04:01:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-certificate-manager-search/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "121fb14603fe495e53101b2d9c9039991cb3827a",
       "title": "AWS Cost Explorer launches Natural Language Query capabilities powered by Amazon Q",
       "summary": "AWS Cost Explorer has integrated Amazon Q Developer's generative AI to enable natural language queries for analyzing AWS cost and usage data. Users can now ask questions in plain English and receive both answers and automatically updated visualizations, making cost analysis faster and more accessible to all team members. This feature reduces the time needed to gain cost insights and eliminates the need for complex query syntax.",
@@ -4689,63 +4769,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-lambda-dot-net-10/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "1964ff1bf897639ad0f10677ed44e710ff082024",
-      "title": "AWS simplifies Client VPN onboarding with Quickstart setup",
-      "summary": "AWS has launched a new Quickstart setup method for AWS Client VPN that simplifies the onboarding process by reducing configuration steps. The streamlined approach uses pre-defined default configurations to make it easier for users to create and set up Client VPN endpoints. This enhancement allows for quicker deployment of secure remote connections to AWS resources and on-premises networks.",
-      "category": "OTHER",
-      "timestamp": "2026-01-07T20:44:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-client-vpn-onboarding-quickstart-setup",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f6cdd2cdb4fe79fc81275cc3b9cdc26f0ba98e4d",
-      "title": "Amazon EC2 I7ie instances now available in additional AWS regions",
-      "summary": "Amazon EC2 I7ie instances are now available in three additional AWS regions: Asia Pacific (Mumbai), Canada West (Calgary), and Europe (Paris). These instances are designed for storage-intensive workloads and are powered by 5th Gen Intel Xeon Processors, delivering up to 40% better compute performance and 20% better price performance compared to I3en instances, with up to 120TB of local NVMe storage.",
-      "category": "COMPUTE",
-      "timestamp": "2026-01-07T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-i7ie-instances-additional-aws-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "167f4e69329442e0eafcae9c22b8480a82db6450",
-      "title": "Announcing Apache Airflow 2.11 Support in Amazon Managed Workflows for Apache Airflow",
-      "summary": "Amazon Managed Workflows for Apache Airflow (MWAA) now supports Apache Airflow version 2.11, which includes enhancements to help users prepare for the upcoming Apache Airflow 3 upgrade. The new version introduces features like trigger-based scheduling for delta intervals and other improvements to the managed orchestration service that simplifies setting up and operating data pipelines in the cloud.",
-      "category": "OTHER",
-      "timestamp": "2026-01-07T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/apache-airflow-2-11-support-amazon-managed-workflows/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "770ac59b7f073c6dc27c6daf06ae73558d12a56a",
-      "title": "Amazon EC2 C8i and C8i-flex instances are now available in additional AWS regions",
-      "summary": "Amazon EC2 C8i and C8i-flex instances are now available in three additional Asia Pacific regions: Mumbai, Seoul, and Tokyo. These instances are powered by custom Intel Xeon 6 processors exclusive to AWS, offering up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generations.",
-      "category": "COMPUTE",
-      "timestamp": "2026-01-07T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-c8i-c8i-flex-instances-additional-aws-regions",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 473,
+    "total": 477,
     "byCategory": {
+      "SERVERLESS": 17,
+      "COMPUTE": 78,
+      "SECURITY": 118,
+      "CONTAINERS": 16,
+      "DATABASE": 52,
+      "OTHER": 86,
       "AI_ML": 79,
-      "OTHER": 87,
-      "SECURITY": 115,
-      "DATABASE": 51,
-      "SERVERLESS": 16,
-      "COMPUTE": 79,
-      "CONTAINERS": 15,
       "ANALYTICS": 15,
       "STORAGE": 12,
       "NETWORKING": 4
     },
-    "lastUpdated": "2026-04-07T10:56:22.318Z"
+    "lastUpdated": "2026-04-07T22:38:51.020Z"
   },
-  "generatedAt": "2026-04-07T10:56:22.318Z"
+  "generatedAt": "2026-04-07T22:38:51.020Z"
 }
