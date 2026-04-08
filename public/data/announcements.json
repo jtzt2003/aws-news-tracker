@@ -61,12 +61,32 @@
       "isNew": false
     },
     {
+      "id": "e772e08d5ddf1b2ea2b73bcdfe08d7f6e57ba50c",
+      "title": "Amazon Braket adds support for Rigetti's 108-qubit Cepheus QPU",
+      "summary": "Amazon Braket now provides access to Rigetti's Cepheus-1-108Q, marking the first 100+ qubit superconducting quantum processing unit available on AWS's quantum computing service. The device features a modular multi-chip architecture with twelve 9-qubit chiplets arranged in a 3x4 array, connected by tunable and intermodule couplers, and introduces CZ (controlled phase) gates instead of the previously used iSWAP gates.",
+      "category": "AI_ML",
+      "timestamp": "2026-04-07T09:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-braket-rigetti-cepheus/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "1459a344c7feab9a20b038042bd494d1e226f62c",
       "title": "AWS Transfer Family now supports IPv6 for connectors and web apps",
       "summary": "AWS Transfer Family has added IPv6 support for SFTP connectors, AS2 connectors, and web applications. This enhancement allows connectors to communicate with remote servers and trading partners over IPv6 networks, while also enabling end users to access Transfer Family web apps using IPv6 connections.",
       "category": "OTHER",
       "timestamp": "2026-04-07T07:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-transfer-family-ipv6-connectors-web-apps/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "921e22e858b3dba5233641acc0e635dc298b007d",
+      "title": "Amazon Aurora now supports PostgreSQL 17.9, 16.13, 15.17, and 14.22",
+      "summary": "Amazon Aurora PostgreSQL-Compatible Edition now supports updated versions 17.9, 16.13, 15.17, and 14.22, which include community bug fixes and Aurora-specific enhancements. AWS recommends upgrading to these latest minor versions to address security vulnerabilities and benefit from performance improvements, with upgrades available during scheduled maintenance windows using automatic minor version upgrades.",
+      "category": "SECURITY",
+      "timestamp": "2026-04-07T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-aurora-postgresql-17-9-16-13-15-17-14-22/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -4772,20 +4792,20 @@
     }
   ],
   "stats": {
-    "total": 477,
+    "total": 479,
     "byCategory": {
       "SERVERLESS": 17,
       "COMPUTE": 78,
-      "SECURITY": 118,
+      "SECURITY": 119,
       "CONTAINERS": 16,
       "DATABASE": 52,
+      "AI_ML": 80,
       "OTHER": 86,
-      "AI_ML": 79,
       "ANALYTICS": 15,
       "STORAGE": 12,
       "NETWORKING": 4
     },
-    "lastUpdated": "2026-04-07T22:38:51.020Z"
+    "lastUpdated": "2026-04-08T10:57:13.493Z"
   },
-  "generatedAt": "2026-04-07T22:38:51.020Z"
+  "generatedAt": "2026-04-08T10:57:13.493Z"
 }
