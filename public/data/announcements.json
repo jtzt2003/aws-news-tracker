@@ -4789,20 +4789,10 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-emr-serverless-adds-job-run-level",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "ed4792275aea7e3e2e3be5e8527729ac2fc8b785",
-      "title": "Amazon RDS for SQL Server now supports cross-region read replica in additional AWS Regions",
-      "summary": "Amazon RDS for SQL Server has expanded cross-region read replica support to 16 additional AWS Regions, allowing customers to deploy read-only database replicas closer to users in different geographic locations. This enhancement enables better scaling of read workloads and improved disaster recovery capabilities, since read replicas can be promoted to standalone production databases during regional outages.",
-      "category": "DATABASE",
-      "timestamp": "2026-01-09T08:05:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-sql-server-cross-region-read-replica-in-additional-aws-regions/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 480,
+    "total": 479,
     "byCategory": {
       "AI_ML": 83,
       "OTHER": 87,
@@ -4810,12 +4800,12 @@
       "SECURITY": 119,
       "SERVERLESS": 17,
       "COMPUTE": 75,
-      "DATABASE": 51,
+      "DATABASE": 50,
       "ANALYTICS": 15,
       "STORAGE": 12,
       "NETWORKING": 4
     },
-    "lastUpdated": "2026-04-08T22:39:55.684Z"
+    "lastUpdated": "2026-04-09T10:59:32.211Z"
   },
-  "generatedAt": "2026-04-08T22:39:55.684Z"
+  "generatedAt": "2026-04-09T10:59:32.212Z"
 }
