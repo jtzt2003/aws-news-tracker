@@ -1,6 +1,76 @@
 {
   "announcements": [
     {
+      "id": "2760b1412465e00ec823aeb74bb1b22f4a49721f",
+      "title": "Amazon OpenSearch Service supports Managed Prometheus and agent tracing",
+      "summary": "Amazon OpenSearch Service now offers a unified observability platform that integrates metrics, logs, traces, and AI agent tracing in one interface. The service includes native integration with Amazon Managed Service for Prometheus and comprehensive agent tracing capabilities. This release aims to reduce costs from expensive observability platforms while simplifying operations by consolidating previously fragmented monitoring tools.",
+      "category": "ANALYTICS",
+      "timestamp": "2026-04-09T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/opensearch-managed-prometheus-agent-tracing/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1e46546405f24ad080e1de2188239df5eef523a3",
+      "title": "Amazon S3 Lifecycle pauses actions on objects that are unable to replicate",
+      "summary": "Amazon S3 Lifecycle now automatically pauses expiration and transition actions on objects that have failed to replicate due to configuration or permission issues. This enhancement helps prevent data loss by ensuring lifecycle rules don't act on objects until replication problems are resolved and the objects can be properly replicated to their destination.",
+      "category": "STORAGE",
+      "timestamp": "2026-04-09T17:33:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/s3-lifecycle-pauses-actions-on-objects/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1dd72a46be4073cc906af65c0c3743edd670f13e",
+      "title": "Amazon RDS Blue/Green Deployments now supports Amazon RDS Proxy",
+      "summary": "Amazon RDS Blue/Green Deployments now integrates with Amazon RDS Proxy to enable faster application recovery during database switchovers by eliminating DNS propagation delays. This feature allows developers to create a fully managed staging environment (Green) for testing production changes while keeping the current production database (Blue) safe. Applications can immediately access the new production environment after switchover without requiring any configuration changes.",
+      "category": "DATABASE",
+      "timestamp": "2026-04-09T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/rds-proxy-blue-green/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8f836d562fcf9f39a09ccdf0f3e5be7dfa184c65",
+      "title": "AWS Marketplace announces the Discovery API for programmatic access to catalog data",
+      "summary": "AWS Marketplace has launched the Discovery API, providing programmatic access to product and pricing information across their entire catalog, including SaaS, AI tools, AMIs, containers, and ML models. The API enables buyers to integrate marketplace data into internal systems and procurement tools, while allowing sellers and channel partners to surface their product listings and pricing information programmatically.",
+      "category": "AI_ML",
+      "timestamp": "2026-04-09T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-marketplace-discovery-api/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6fa7f14e404d5767bf8fdca079ea4312a6d20554",
+      "title": "AWS Agent Registry for centralized agent discovery and governance is now available in Preview",
+      "summary": "AWS has launched the AWS Agent Registry in preview, a centralized catalog accessible through Amazon Bedrock AgentCore that allows organizations to discover and govern AI agents, tools, skills, and other resources within their organization. The registry provides complete visibility into an organization's AI landscape, helping teams avoid rebuilding existing capabilities by enabling them to find and reuse existing agents and tools. Users can access the registry through the AgentCore Console UI, APIs (AWS CLI, AWS SDK), or as an MCP server.",
+      "category": "SECURITY",
+      "timestamp": "2026-04-09T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-agent-registry-in-agentcore-preview/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0cc3d722e96faeb4fc56c9e7d7a888d89c95d934",
+      "title": "Amazon OpenSearch Serverless now supports Zstandard (zstd) codec for index compression",
+      "summary": "Amazon OpenSearch Serverless now supports Zstandard (zstd) codec for index compression, allowing customers to reduce index size by up to 32% compared to the default LZ4 codec. This feature helps lower managed storage costs for data-intensive workloads while giving customers more control over the balance between storage expenses and query performance. The enhancement particularly benefits customers running large-scale log analytics, observability pipelines, and time-series workloads.",
+      "category": "ANALYTICS",
+      "timestamp": "2026-04-09T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-opensearch-serverless-supports-zstandard-index-compression/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "83bc80e1d94bec545f55dcd0a35f416c6f61ba9a",
+      "title": "Amazon EC2 Capacity Manager now supports tag-based dimensions",
+      "summary": "Amazon EC2 Capacity Manager now supports tag-based dimensions, allowing users to group and filter capacity metrics using up to five custom tag keys from their EC2 resources (such as environment, team, or cost-center). The service helps monitor and optimize capacity usage across On-Demand Instances, Spot Instances, and Capacity Reservations. This update also introduces Account Name as a new built-in dimension for better resource organization.",
+      "category": "CONTAINERS",
+      "timestamp": "2026-04-09T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-capacity-manager-tag-based-dimensions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "64d113f90c0c51a38eda256c33d34860ad4511fa",
       "title": "SageMaker HyperPod now supports gang scheduling for distributed training workloads",
       "summary": "Amazon SageMaker HyperPod now supports gang scheduling, which ensures all required pods for distributed training jobs are ready before training begins. This feature prevents wasted compute resources from partial job runs and helps administrators avoid deadlocks when jobs are waiting for resources. The capability is particularly beneficial for data scientists running distributed AI/ML training workloads that require multiple pods to work together across nodes.",
@@ -4769,43 +4839,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-inspector-java-gradle-ecosystem/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "02b03cb0c5b2f50be93033254f47339e0b48d0ec",
-      "title": "Announcing larger managed database bundles for Amazon Lightsail",
-      "summary": "Amazon Lightsail has introduced two new larger managed database bundles that offer up to 8 vCPUs, 32GB of memory, and 960GB of SSD storage for both MySQL and PostgreSQL databases. These enhanced bundles are available in standard and high-availability configurations, enabling users to scale their database workloads and run more data-intensive production applications within Lightsail.",
-      "category": "COMPUTE",
-      "timestamp": "2026-01-09T22:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/larger-managed-database-bundles-lightsail/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "715e258be9e80da1ab8ca76b677fe0590c879aff",
-      "title": "Amazon EMR Serverless adds support for job run level cost allocation",
-      "summary": "Amazon EMR Serverless now supports job run-level cost allocation, enabling users to track and analyze costs for individual job runs with granular billing attribution. This feature allows cost visibility through AWS Cost Explorer and Cost and Usage Reports by filtering on specific job run IDs and associated cost allocation tags.",
-      "category": "ANALYTICS",
-      "timestamp": "2026-01-09T20:29:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-emr-serverless-adds-job-run-level",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 479,
+    "total": 484,
     "byCategory": {
-      "AI_ML": 83,
+      "ANALYTICS": 16,
+      "STORAGE": 13,
+      "DATABASE": 51,
+      "AI_ML": 84,
+      "SECURITY": 120,
+      "CONTAINERS": 18,
       "OTHER": 87,
-      "CONTAINERS": 17,
-      "SECURITY": 119,
       "SERVERLESS": 17,
-      "COMPUTE": 75,
-      "DATABASE": 50,
-      "ANALYTICS": 15,
-      "STORAGE": 12,
+      "COMPUTE": 74,
       "NETWORKING": 4
     },
-    "lastUpdated": "2026-04-09T10:59:32.211Z"
+    "lastUpdated": "2026-04-09T22:41:19.765Z"
   },
-  "generatedAt": "2026-04-09T10:59:32.212Z"
+  "generatedAt": "2026-04-09T22:41:19.765Z"
 }
