@@ -1,6 +1,26 @@
 {
   "announcements": [
     {
+      "id": "f92904857f6b7a0d971697cdca3146cb4ba13bc4",
+      "title": "Amazon Timestream for InfluxDB Now Supports Customer-Defined Maintenance Windows",
+      "summary": "Amazon Timestream for InfluxDB now allows customers to define their own maintenance windows, giving them control over when routine database maintenance occurs. Users can specify a weekly maintenance window using day-and-time format in their preferred timezone with IANA timezone identifiers. This feature is available for both InfluxDB 2 instances and InfluxDB 3 clusters across all supported editions.",
+      "category": "DATABASE",
+      "timestamp": "2026-04-09T21:57:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/timestream-influxdb-maintenance-windows/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5f21a731551cfb9a4a55cfa1b6eca5c997930275",
+      "title": "Amazon Bedrock now supports cost allocation by IAM user and role",
+      "summary": "Amazon Bedrock now supports cost allocation tracking by IAM users and roles through AWS Cost and Usage Report 2.0 and Cost Explorer. This feature allows customers to attribute Bedrock model inference costs across different users, teams, projects, and applications by tagging IAM principals and analyzing costs through those tags.",
+      "category": "AI_ML",
+      "timestamp": "2026-04-09T21:50:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/bedrock-iam-cost-allocation/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "2760b1412465e00ec823aeb74bb1b22f4a49721f",
       "title": "Amazon OpenSearch Service supports Managed Prometheus and agent tracing",
       "summary": "Amazon OpenSearch Service now offers a unified observability platform that integrates metrics, logs, traces, and AI agent tracing in one interface. The service includes native integration with Amazon Managed Service for Prometheus and comprehensive agent tracing capabilities. This release aims to reduce costs from expensive observability platforms while simplifying operations by consolidating previously fragmented monitoring tools.",
@@ -4842,12 +4862,12 @@
     }
   ],
   "stats": {
-    "total": 484,
+    "total": 486,
     "byCategory": {
+      "DATABASE": 52,
+      "AI_ML": 85,
       "ANALYTICS": 16,
       "STORAGE": 13,
-      "DATABASE": 51,
-      "AI_ML": 84,
       "SECURITY": 120,
       "CONTAINERS": 18,
       "OTHER": 87,
@@ -4855,7 +4875,7 @@
       "COMPUTE": 74,
       "NETWORKING": 4
     },
-    "lastUpdated": "2026-04-09T22:41:19.765Z"
+    "lastUpdated": "2026-04-10T10:56:08.517Z"
   },
-  "generatedAt": "2026-04-09T22:41:19.765Z"
+  "generatedAt": "2026-04-10T10:56:08.518Z"
 }
