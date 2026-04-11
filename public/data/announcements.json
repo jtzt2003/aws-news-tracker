@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "f3cb4a9f9dbf0c12df4f16470c4077b3af50ab2d",
+      "title": "Amazon EC2 X8i instances are now available in Europe (Paris)",
+      "summary": "Amazon Web Services has launched EC2 X8i instances in Europe (Paris), which are next-generation memory optimized instances powered by custom Intel Xeon 6 processors exclusive to AWS. These SAP-certified instances deliver up to 43% higher performance, 1.5x more memory capacity (up to 6TB), and 3.3x more memory bandwidth compared to the previous generation X2i instances.",
+      "category": "COMPUTE",
+      "timestamp": "2026-04-10T23:54:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-x8i-instances-CDG-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "285b5c22e9680a5c8e1d3e15ac3fdd441482e863",
       "title": "Amazon CloudWatch pipelines now supports drop and conditional processing",
       "summary": "Amazon CloudWatch pipelines now supports conditional processing and a new drop events processor, allowing users to selectively transform and filter log data rather than applying processors uniformly to all entries. This enhancement provides more granular control over log data transformation by enabling rules that determine when processors run and which specific log entries they affect. The feature is part of CloudWatch's fully managed service for ingesting, transforming, and routing log data without infrastructure management overhead.",
@@ -47,6 +57,16 @@
       "category": "OTHER",
       "timestamp": "2026-04-10T15:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-billing-and-cost-management-dashboards-scheduled-email-delivery/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c2128443f5d1363c9e7660603a372b45c1a1e878",
+      "title": "AWS RTB Fabric supports health checks for real-time bidding workloads ",
+      "summary": "AWS RTB Fabric now includes health checks for real-time bidding workloads using EC2 Auto Scaling groups, which continuously monitor instances and automatically route traffic only to healthy ones. This feature helps eliminate failed bidding transactions caused by bootstrapping, draining, or failed instances, enabling AdTech companies to improve uptime and reduce error rates.",
+      "category": "OTHER",
+      "timestamp": "2026-04-10T12:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-rtb-fabric-health-checks/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -4932,10 +4952,10 @@
     }
   ],
   "stats": {
-    "total": 493,
+    "total": 495,
     "byCategory": {
-      "OTHER": 90,
-      "COMPUTE": 75,
+      "COMPUTE": 76,
+      "OTHER": 91,
       "STORAGE": 15,
       "DATABASE": 53,
       "AI_ML": 85,
@@ -4945,7 +4965,7 @@
       "SERVERLESS": 17,
       "NETWORKING": 4
     },
-    "lastUpdated": "2026-04-10T22:38:37.290Z"
+    "lastUpdated": "2026-04-11T10:34:41.918Z"
   },
-  "generatedAt": "2026-04-10T22:38:37.290Z"
+  "generatedAt": "2026-04-11T10:34:41.919Z"
 }
