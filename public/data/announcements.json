@@ -1,6 +1,76 @@
 {
   "announcements": [
     {
+      "id": "83b1320fc7c48712fca30dbc89340f849ca8ce24",
+      "title": "Amazon OpenSearch Serverless now supports Derived Source for storage optimization ",
+      "summary": "Amazon OpenSearch Serverless now supports Derived Source, a new feature that helps reduce storage requirements by eliminating the need to store original source documents separately. Instead of maintaining duplicate copies, the system dynamically reconstructs the _source field on-demand using values already stored in the index. This optimization can significantly decrease storage costs while maintaining full functionality for OpenSearch Service collections.",
+      "category": "ANALYTICS",
+      "timestamp": "2026-04-13T20:55:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-opensearch-serverless-supports-derived-source/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "83392d3079390ad2e0fcd2c9c99b11c888a23fd5",
+      "title": "Aurora DSQL launches connector that simplifies building PHP applications",
+      "summary": "AWS has launched the Aurora DSQL Connector for PHP (PDO_PGSQL) to simplify building PHP applications on Aurora DSQL. The connector enhances security by automatically generating authentication tokens for each connection, eliminating the need for traditional user-generated passwords while maintaining full compatibility with existing PDO_PGSQL features.",
+      "category": "SECURITY",
+      "timestamp": "2026-04-13T17:47:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aurora-dsql-connector-for-php/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0f5feb34418cbf2d841a009ae93f000920b2004e",
+      "title": "Amazon EC2 M8i and M8i-flex instances are now available in AWS GovCloud (US-West) Region",
+      "summary": "Amazon EC2 M8i and M8i-flex instances are now available in the AWS GovCloud (US-West) Region, powered by custom Intel Xeon 6 processors exclusive to AWS. These new instances offer up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generation Intel-based instances, along with up to 20% better performance overall.",
+      "category": "COMPUTE",
+      "timestamp": "2026-04-13T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-m8i-flex-govcloud-us-west/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f0dac777975765261fe09c5da76e73403377710e",
+      "title": "Amazon EC2 R8i and R8i-flex instances are now available in AWS GovCloud (US-West) Region",
+      "summary": "AWS has launched EC2 R8i and R8i-flex instances in the AWS GovCloud (US-West) Region, powered by custom Intel Xeon 6 processors exclusive to AWS. These new instances deliver up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generation Intel-based instances, offering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud.",
+      "category": "COMPUTE",
+      "timestamp": "2026-04-13T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-r8i-instances-govcloud-us-west/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9abfb632bc07a7f4565156cdad70e221a06ae82b",
+      "title": "AWS IoT is now available in Israel (Tel Aviv) and Europe (Milan) AWS Regions",
+      "summary": "AWS has expanded its IoT Core and IoT Device Management services to two new regions: Israel (Tel Aviv) and Europe (Milan). This expansion allows organizations in these regions to benefit from faster response times, improved data residency controls, and lower data transfer costs when connecting and managing their IoT devices through AWS's managed cloud platform.",
+      "category": "OTHER",
+      "timestamp": "2026-04-13T16:10:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-iot-israel-tel-aviv-europe-milan/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c2eb34b9a5069b67cf3c1afd6efaf625cb15c8e0",
+      "title": "Amazon FSx now supports copying file system backups across AWS opt-in Regions ",
+      "summary": "Amazon FSx now supports copying file system backups across AWS opt-in Regions (regions that are disabled by default) for Windows File Server, Lustre, and OpenZFS file systems. This enhancement extends cross-region and cross-account backup capabilities beyond default AWS regions, helping customers better meet their business continuity, disaster recovery, and compliance requirements.",
+      "category": "STORAGE",
+      "timestamp": "2026-04-13T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-fsx-copying-backups-opt-in-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e04d93c1d10867fa37f340ea04effda621fe483c",
+      "title": "AWS Elastic Disaster Recovery now supports IPv6 ",
+      "summary": "AWS Elastic Disaster Recovery (AWS DRS) now supports IPv6 for data replication and control plane connections, allowing customers in IPv6-only or dual-stack environments to set up disaster recovery without requiring IPv4 addresses. This enhancement enables organizations to maintain their preferred network configurations while still benefiting from AWS DRS's fast, reliable recovery capabilities with minimal downtime and data loss.",
+      "category": "COMPUTE",
+      "timestamp": "2026-04-13T15:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-elastic-disaster-recovery-ipv6/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "f3cb4a9f9dbf0c12df4f16470c4077b3af50ab2d",
       "title": "Amazon EC2 X8i instances are now available in Europe (Paris)",
       "summary": "Amazon Web Services has launched EC2 X8i instances in Europe (Paris), which are next-generation memory optimized instances powered by custom Intel Xeon 6 processors exclusive to AWS. These SAP-certified instances deliver up to 43% higher performance, 1.5x more memory capacity (up to 6TB), and 3.3x more memory bandwidth compared to the previous generation X2i instances.",
@@ -4849,73 +4919,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/enhanced-transactions-view-aws-billing-console",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "e6bc60b99ce6a5eb05ddb78493a03341ccef2405",
-      "title": "Amazon Neptune Database now supports R7g and R8g instances in 5 additional regions",
-      "summary": "Amazon Neptune Database now supports Graviton3-based R7g and Graviton4-based R8g instances in 5 additional regions (Asia Pacific Hong Kong, Osaka, and Singapore, Canada Central, and US West N. California) for engine versions 1.4.5+. These new instances are priced 16% lower than R6g instances and offer improved performance, with R7g featuring DDR5 memory for faster data access and up to 30Gbps enhanced networking.",
-      "category": "DATABASE",
-      "timestamp": "2026-01-13T19:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-neptune-database-r7g-r8g-additional-regions",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "12ef2e978c9cb5bbe6b6f35ef37194f8fafb841d",
-      "title": "Amazon EC2 X8aedz instances are now available in Asia Pacific (Mumbai, Seoul) regions",
-      "summary": "Amazon EC2 X8aedz instances are now available in the Asia Pacific (Mumbai) and Asia Pacific (Seoul) regions. These instances are powered by 5th Gen AMD EPYC processors and offer the highest maximum CPU frequency of 5GHz in the cloud, making them ideal for electronic design automation (EDA) workloads.",
-      "category": "COMPUTE",
-      "timestamp": "2026-01-13T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-x8aedz-instances-asia-pacific-mumbai-seoul-regions",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "5dc418585e96b12c91eaa908e3a5a72f95e9b6f7",
-      "title": "Amazon Connect Cases now supports AWS CloudFormation",
-      "summary": "Amazon Connect Cases now supports AWS CloudFormation, allowing administrators to manage case resources using infrastructure as code. This enables programmatic deployment and updates of Cases configurations (templates, fields, layouts) across Amazon Connect instances through CloudFormation templates. The feature reduces manual setup time and helps minimize configuration errors.",
-      "category": "OTHER",
-      "timestamp": "2026-01-13T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-cases-aws-cloudformation/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d96529b553e44c5914b5b2b1f294bd0845ac83f1",
-      "title": "Amazon MSK Connect is now available in three additional AWS Regions",
-      "summary": "Amazon MSK Connect, a fully managed service for running Kafka Connect clusters with Amazon MSK, has expanded to three new AWS Regions: Asia Pacific (New Zealand), AWS GovCloud (US-East), and AWS GovCloud (US-West). MSK Connect allows users to easily deploy, monitor, and scale connectors that transfer data between Apache Kafka clusters and external systems like databases and file systems with just a few clicks.",
-      "category": "ANALYTICS",
-      "timestamp": "2026-01-13T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-msk-connect-additional-aws-regions",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "420deba322c4c7d870e755a301259532e84336e7",
-      "title": "Amazon Lex launches improved speech recognition models for English",
-      "summary": "Amazon Lex has launched an improved neural automatic speech recognition (ASR) model for English that provides better accuracy for voice bots across diverse speaking styles, accents, and non-native speakers. The enhanced model reduces the need for customers to repeat themselves and improves self-service success rates. Users can enable this feature by selecting \"Neural\" as the ASR model option.",
-      "category": "AI_ML",
-      "timestamp": "2026-01-13T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-lex-improved-speech-recognition-models-english",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 490,
+    "total": 492,
     "byCategory": {
-      "COMPUTE": 76,
-      "OTHER": 91,
-      "STORAGE": 15,
-      "DATABASE": 52,
-      "AI_ML": 83,
       "ANALYTICS": 16,
-      "SECURITY": 119,
+      "SECURITY": 120,
+      "COMPUTE": 78,
+      "OTHER": 91,
+      "STORAGE": 16,
+      "DATABASE": 51,
+      "AI_ML": 82,
       "CONTAINERS": 18,
       "SERVERLESS": 16,
       "NETWORKING": 4
     },
-    "lastUpdated": "2026-04-13T11:17:46.980Z"
+    "lastUpdated": "2026-04-13T22:44:14.984Z"
   },
-  "generatedAt": "2026-04-13T11:17:46.981Z"
+  "generatedAt": "2026-04-13T22:44:14.984Z"
 }
