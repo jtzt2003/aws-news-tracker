@@ -11,6 +11,16 @@
       "isNew": false
     },
     {
+      "id": "9d79fdf634d215d56e760f890c32092d60b4129f",
+      "title": "Amazon Redshift introduces key  performance  optimization for Top-K queries",
+      "summary": "Amazon Redshift has introduced a new performance optimization for Top-K queries (those using ORDER BY and LIMIT clauses) that intelligently skips irrelevant data blocks and dramatically reduces the amount of data that needs to be processed. The optimization works by reordering data blocks based on the ORDER BY column's min/max values and keeping only the K most relevant rows in memory. This enhancement provides the greatest performance benefits when the ORDER BY column is sorted or partially sorted.",
+      "category": "DATABASE",
+      "timestamp": "2026-04-13T18:58:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-redshift-topk-optimization/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "83392d3079390ad2e0fcd2c9c99b11c888a23fd5",
       "title": "Aurora DSQL launches connector that simplifies building PHP applications",
       "summary": "AWS has launched the Aurora DSQL Connector for PHP (PDO_PGSQL) to simplify building PHP applications on Aurora DSQL. The connector enhances security by automatically generating authentication tokens for each connection, eliminating the need for traditional user-generated passwords while maintaining full compatibility with existing PDO_PGSQL features.",
@@ -37,6 +47,16 @@
       "category": "COMPUTE",
       "timestamp": "2026-04-13T17:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-r8i-instances-govcloud-us-west/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6bef5def1967495e640371ffdd3c0b9ac491d54c",
+      "title": "Amazon CloudWatch Logs Insights now supports saved queries with parameters",
+      "summary": "Amazon CloudWatch Logs Insights now supports parameterized saved queries, allowing you to create reusable query templates with placeholders for values like log levels, service names, or time intervals. This feature supports up to 20 parameters per query with optional default values, eliminating the need to maintain multiple copies of similar queries that only differ in specific values.",
+      "category": "OTHER",
+      "timestamp": "2026-04-13T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/cloudwatch-logs-insights-query-params/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -4922,20 +4942,20 @@
     }
   ],
   "stats": {
-    "total": 492,
+    "total": 494,
     "byCategory": {
       "ANALYTICS": 16,
+      "DATABASE": 52,
       "SECURITY": 120,
       "COMPUTE": 78,
-      "OTHER": 91,
+      "OTHER": 92,
       "STORAGE": 16,
-      "DATABASE": 51,
       "AI_ML": 82,
       "CONTAINERS": 18,
       "SERVERLESS": 16,
       "NETWORKING": 4
     },
-    "lastUpdated": "2026-04-13T22:44:14.984Z"
+    "lastUpdated": "2026-04-14T11:03:41.448Z"
   },
-  "generatedAt": "2026-04-13T22:44:14.984Z"
+  "generatedAt": "2026-04-14T11:03:41.448Z"
 }
