@@ -1,6 +1,46 @@
 {
   "announcements": [
     {
+      "id": "76bb85b8d06f2a14fcddf3c968fdcf3ffaf5aea6",
+      "title": "AWS Transform is now available in Kiro and VS Code",
+      "summary": "AWS Transform, an AI-powered migration and modernization tool that accelerates enterprise transformations from years to months, is now available in Kiro and VS Code developer environments. The service automates large-scale infrastructure migrations and tech debt reduction while eliminating manual handoffs that typically slow down transformation programs.",
+      "category": "OTHER",
+      "timestamp": "2026-04-14T19:15:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-transform-kiro-vscode/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "bae3c8ce58dc8c3028a8222e23c65712e5760c32",
+      "title": "AWS Secrets Manager now supports hybrid post-quantum TLS to protect secrets from quantum threats ",
+      "summary": "AWS Secrets Manager now supports hybrid post-quantum TLS using ML-KEM (Module-Lattice-based Key-Encapsulation Mechanism) to protect secrets from potential quantum computing threats. This quantum-resistant encryption is automatically enabled in Secrets Manager Agent, AWS Lambda Extension, and CSI Driver (all version 2.0.0+), and is also available through supported AWS SDKs. The enhancement provides an additional layer of security for retrieving and managing secrets without requiring any configuration changes from users.",
+      "category": "SECURITY",
+      "timestamp": "2026-04-14T18:31:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-secrets-manager-post-quantum-tls/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "583f52d43f41996622b24e06f629b438e8413e9c",
+      "title": "Amazon EC2 C8gn, M8gn, and R8gn instances now support higher Amazon EBS-optimized performance",
+      "summary": "AWS has doubled the Amazon EBS performance for its largest EC2 C8gn, M8gn, and R8gn instances (48xlarge and metal-48xl sizes), increasing from 60 Gbps bandwidth and 240,000 IOPS to 120 Gbps and 480,000 IOPS respectively. These network-optimized instances are powered by AWS Graviton4 processors and 6th generation AWS Nitro Cards, with the performance improvements enabled by enhancements to the AWS Nitro System.",
+      "category": "COMPUTE",
+      "timestamp": "2026-04-14T14:01:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-c8gn-m8gn-r8gn-ebs/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "fffa4c4c62028f408ce825aad1d431969405b72c",
+      "title": "NVIDIA Nemotron-3-Super-120B, Qwen3.5-9B, and Qwen3.5-27B models now available on Amazon SageMaker JumpStart",
+      "summary": "AWS has added three new foundation models to Amazon SageMaker JumpStart: NVIDIA's Nemotron-3-Super-120B and two Qwen models (3.5-9B and 3.5-27B). These models offer specialized capabilities including agentic reasoning, multilingual coding, and advanced instruction following, allowing AWS customers to deploy high-performance AI solutions for various enterprise challenges.",
+      "category": "AI_ML",
+      "timestamp": "2026-04-13T23:40:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/nemotron3super-120b-qwen3.5-9b-qwen3.5-27b-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "83b1320fc7c48712fca30dbc89340f849ca8ce24",
       "title": "Amazon OpenSearch Serverless now supports Derived Source for storage optimization ",
       "summary": "Amazon OpenSearch Serverless now supports Derived Source, a new feature that helps reduce storage requirements by eliminating the need to store original source documents separately. Instead of maintaining duplicate copies, the system dynamically reconstructs the _source field on-demand using values already stored in the index. This optimization can significantly decrease storage costs while maintaining full functionality for OpenSearch Service collections.",
@@ -17,6 +57,16 @@
       "category": "DATABASE",
       "timestamp": "2026-04-13T18:58:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-redshift-topk-optimization/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f45996015746d515e304adf38e53f3a26ecd91f2",
+      "title": "Amazon Quick now supports document-level access controls for Google Drive knowledge bases",
+      "summary": "Amazon QuickSight now supports document-level access controls (ACLs) for Google Drive knowledge bases, allowing organizations to preserve their existing Google Drive permissions when indexing content. The system uses a dual approach that combines efficient pre-retrieval filtering through ACL replication with real-time permission verification against Google Drive during queries. This ensures both high performance and accurate security by preventing access through stale or incorrectly mapped permissions.",
+      "category": "OTHER",
+      "timestamp": "2026-04-13T18:35:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-document-level-access-controls-google-drive/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -4869,93 +4919,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ebs-up-to-four-volume-modifications/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "44e6a38fe29e21a926f5b8dc6d25170b6b78bac6",
-      "title": "Amazon VPC Route Server now available in new regions",
-      "summary": "Amazon VPC Route Server has expanded to 16 new regions, bringing its total availability to 30 AWS regions worldwide. This service simplifies dynamic routing between virtual appliances in Amazon VPC by enabling BGP-based route advertisement and automatic updates to VPC route tables associated with subnets and internet gateways.",
-      "category": "NETWORKING",
-      "timestamp": "2026-01-14T18:41:00.000Z",
-      "link": "https://aws.amazon.comabout-aws/whats-new/2026/01/amazon-vpc-route-server-available-new-regions",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "894b7c282c886cc54a3ab42276ed52c49658be86",
-      "title": "Amazon VPC IPAM policies now support RDS and Application Load Balancers",
-      "summary": "Amazon VPC IPAM (IP Address Manager) has expanded its policy support to include Amazon RDS instances and Application Load Balancers. This enhancement allows IP administrators to centrally configure and enforce IP allocation strategies for these resources, streamlining network and security management across AWS environments.",
-      "category": "SECURITY",
-      "timestamp": "2026-01-14T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-vpc-ipam-policies-rds-alb/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d63224ec313803cf29066e4b3db7846bfb191191",
-      "title": "AWS IoT Device Management launches Wi-Fi Simple Setup for managed integrations",
-      "summary": "AWS IoT Device Management has launched Wi-Fi Simple Setup (WSS) for managed integrations, allowing developers to streamline Wi-Fi provisioning in IoT solutions. The feature enables end users to connect Wi-Fi devices through QR code scanning, significantly reducing setup time and technical support requirements compared to manual configuration methods.",
-      "category": "OTHER",
-      "timestamp": "2026-01-14T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-iot-device-management-wifi-simple-setup/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b3c78d9d59145881c414215e7423f6b4a80fa5ba",
-      "title": "Amazon Bedrock introduces API keys to streamline development in GovCloud regions",
-      "summary": "Amazon Bedrock has expanded API key support to AWS GovCloud (US) regions, bringing a feature that simplifies authentication for generative AI development to government cloud environments. API keys allow developers to quickly generate access credentials directly through the Bedrock console or AWS SDK, eliminating the need to manually configure IAM principals and policies. This streamlines the development process by providing a faster alternative to traditional IAM-based authentication setup.",
-      "category": "AI_ML",
-      "timestamp": "2026-01-14T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-bedrock-api-keys-streamline-development-govcloud/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "cd7d09cf4d4c8ad0270650765748a0b60fe1822e",
-      "title": "AWS Transform custom adds AWS PrivateLink support and expands to Europe (Frankfurt) Region",
-      "summary": "AWS Transform custom now supports AWS PrivateLink for enhanced network security and has expanded availability to the Europe (Frankfurt) Region alongside the existing US East (N. Virginia) Region. This service helps organizations automate repetitive code transformation tasks like language upgrades, API migrations, and framework updates to reduce technical debt. It's specifically designed for enterprise development teams and consulting partners managing large-scale, consistent code transformations.",
-      "category": "SECURITY",
-      "timestamp": "2026-01-14T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-transform-custom-privatelink-europe-frankfurt-region/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6b4b6b7417b43c4de8fe4d0577e0bd728c512424",
-      "title": "Amazon Connect makes it easier to manage recurring overrides for hours of operation",
-      "summary": "Amazon Connect has introduced a visual calendar interface that simplifies managing contact center operating hours for recurring events like holidays, maintenance windows, and promotional periods. The new feature allows users to set up automatic recurring overrides (weekly, monthly, or custom schedules) that provide personalized customer experiences without requiring manual configuration updates. This enhancement gives contact center managers at-a-glance visibility of operating hours across daily, monthly, and yearly views.",
-      "category": "OTHER",
-      "timestamp": "2026-01-14T15:00:00.000Z",
-      "link": "https://aws.amazon.comabout-aws/whats-new/2026/01/amazon-connect-recurring-hour-operation-overrides",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d472ff751b5ae283fa2214576e55d5a56ee417d9",
-      "title": "Enhanced Transactions view now available in AWS Billing Console",
-      "summary": "AWS has released an enhanced Transactions view in the AWS Billing and Cost Management Console that provides significantly faster performance, with page loading times reduced from minutes to milliseconds. The new unified interface improves payment reconciliation, data accuracy, and overall visibility into financial transactions. These enhancements help customers reduce time spent on payment tracking and financial management tasks.",
-      "category": "OTHER",
-      "timestamp": "2026-01-14T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/enhanced-transactions-view-aws-billing-console",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 494,
+    "total": 492,
     "byCategory": {
+      "OTHER": 91,
+      "SECURITY": 119,
+      "COMPUTE": 79,
+      "AI_ML": 82,
       "ANALYTICS": 16,
       "DATABASE": 52,
-      "SECURITY": 120,
-      "COMPUTE": 78,
-      "OTHER": 92,
       "STORAGE": 16,
-      "AI_ML": 82,
       "CONTAINERS": 18,
       "SERVERLESS": 16,
-      "NETWORKING": 4
+      "NETWORKING": 3
     },
-    "lastUpdated": "2026-04-14T11:03:41.448Z"
+    "lastUpdated": "2026-04-14T22:47:05.425Z"
   },
-  "generatedAt": "2026-04-14T11:03:41.448Z"
+  "generatedAt": "2026-04-14T22:47:05.425Z"
 }
