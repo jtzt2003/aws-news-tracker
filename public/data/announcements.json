@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "d6fbe209f8ae6c232db6f87ad2ddae699d32696c",
+      "title": "Amazon EC2 P6-B300 instances are now available in the AWS GovCloud (US-East) Region",
+      "summary": "Amazon EC2 P6-B300 instances are now available in the AWS GovCloud (US-East) Region, featuring 8x NVIDIA Blackwell Ultra GPUs with 2.1 TB of GPU memory and high-performance networking capabilities. These instances offer significant improvements over P6-B200 instances, including 2x networking bandwidth, 1.5x GPU memory, and 1.5x GPU TFLOPS, making them optimized for training workloads.",
+      "category": "COMPUTE",
+      "timestamp": "2026-04-14T21:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-p6-b300-govcloud-us-east/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "76bb85b8d06f2a14fcddf3c968fdcf3ffaf5aea6",
       "title": "AWS Transform is now available in Kiro and VS Code",
       "summary": "AWS Transform, an AI-powered migration and modernization tool that accelerates enterprise transformations from years to months, is now available in Kiro and VS Code developer environments. The service automates large-scale infrastructure migrations and tech debt reduction while eliminating manual handoffs that typically slow down transformation programs.",
@@ -4922,11 +4932,11 @@
     }
   ],
   "stats": {
-    "total": 492,
+    "total": 493,
     "byCategory": {
+      "COMPUTE": 80,
       "OTHER": 91,
       "SECURITY": 119,
-      "COMPUTE": 79,
       "AI_ML": 82,
       "ANALYTICS": 16,
       "DATABASE": 52,
@@ -4935,7 +4945,7 @@
       "SERVERLESS": 16,
       "NETWORKING": 3
     },
-    "lastUpdated": "2026-04-14T22:47:05.425Z"
+    "lastUpdated": "2026-04-15T10:59:25.068Z"
   },
-  "generatedAt": "2026-04-14T22:47:05.425Z"
+  "generatedAt": "2026-04-15T10:59:25.068Z"
 }
