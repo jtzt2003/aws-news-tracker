@@ -1,6 +1,26 @@
 {
   "announcements": [
     {
+      "id": "a226531a45ac3c13a26b24dc9492ed3048187947",
+      "title": "AWS Payment Cryptography now available in South America (São Paulo)",
+      "summary": "AWS Payment Cryptography is now available in the South America (São Paulo) region, expanding the service's global reach. This expansion allows customers with latency-sensitive payment applications to deploy locally without relying on cross-region support. AWS Payment Cryptography is a fully managed service that handles payment-specific cryptographic operations and key management for cloud-hosted payment applications.",
+      "category": "OTHER",
+      "timestamp": "2026-04-15T20:34:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-payment-cryptography-south/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "18757d4ef1e27fb2a4ead88038518ee4a4a567de",
+      "title": "Amazon Quick Introduces Sheet Tooltips for Rich, Contextual Data Exploration",
+      "summary": "Amazon QuickSight now supports sheet tooltips, allowing report authors to create rich, interactive tooltips that display when users hover over data points. These tooltips can contain custom visuals, text, and images in a flexible layout, and automatically inherit filters from the source visual while adding specific filters for the hovered data point. This feature enhances data exploration by providing contextual details without interrupting the user's analysis workflow.",
+      "category": "OTHER",
+      "timestamp": "2026-04-15T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/quick-sheet-tooltips/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "d6fbe209f8ae6c232db6f87ad2ddae699d32696c",
       "title": "Amazon EC2 P6-B300 instances are now available in the AWS GovCloud (US-East) Region",
       "summary": "Amazon EC2 P6-B300 instances are now available in the AWS GovCloud (US-East) Region, featuring 8x NVIDIA Blackwell Ultra GPUs with 2.1 TB of GPU memory and high-performance networking capabilities. These instances offer significant improvements over P6-B200 instances, including 2x networking bandwidth, 1.5x GPU memory, and 1.5x GPU TFLOPS, making them optimized for training workloads.",
@@ -27,6 +47,16 @@
       "category": "SECURITY",
       "timestamp": "2026-04-14T18:31:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-secrets-manager-post-quantum-tls/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "91c1b6b02da1b0259731d05e4e5d1d5fcd8e8e53",
+      "title": "AWS announces general availability of AWS Interconnect - multicloud",
+      "summary": "AWS has announced the general availability of AWS Interconnect - multicloud, which enables simple, resilient, high-speed private connections between AWS and other cloud service providers. Google Cloud is the first launch partner, with Microsoft Azure and Oracle Cloud Infrastructure planned to join in 2026. This service addresses the growing customer demand for multicloud strategies by providing secure connectivity options across different cloud platforms.",
+      "category": "NETWORKING",
+      "timestamp": "2026-04-14T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-announces-ga-AWS-interconnect-multicloud/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -4829,123 +4859,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/s3-storage-lens-aws-govcloud-us-regions/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "8a62879b5a878cfd5924dcfd6946c6a224b99a1d",
-      "title": "Amazon S3 on Outposts is now available on second-generation AWS Outposts racks",
-      "summary": "Amazon S3 on Outposts is now available on second-generation AWS Outposts racks, enabling customers to run S3 storage services on-premises for data residency, low latency, and local processing requirements. The service offers three storage tiers (196 TB, 490 TB, and 786 TB) to accommodate different workload needs including production, backups, and archival use cases. Customers can manage their on-premises data using the familiar S3 API for storing, securing, retrieving, and controlling access.",
-      "category": "COMPUTE",
-      "timestamp": "2026-01-15T20:23:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-s3-second-generation-aws-outposts-racks",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "e2afdecd9d55133474c5e073b32fe614bf0d851c",
-      "title": "AWS Clean Rooms now supports parameters in PySpark analysis templates",
-      "summary": "AWS Clean Rooms now supports parameters in PySpark analysis templates, enabling organizations to create more flexible and scalable privacy-enhanced data collaboration workflows. This feature allows collaborators to provide different input values when running jobs without needing to modify the underlying template code. The enhancement increases flexibility for data partnerships while maintaining privacy protections in multi-party analytics scenarios.",
-      "category": "OTHER",
-      "timestamp": "2026-01-15T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-clean-rooms-parameters-pyspark-analysis-templates/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f897e9439604674eb2c74b71525a459f07128384",
-      "title": "AWS Databases are now available on v0 by Vercel",
-      "summary": "AWS databases including Amazon Aurora PostgreSQL, Amazon Aurora DSQL, and Amazon DynamoDB are now integrated with v0 by Vercel, an AI-powered development tool. This integration allows developers to build full-stack web applications and connect to AWS databases using simple natural language prompts, streamlining the process from idea to production-ready application in minutes.",
-      "category": "SECURITY",
-      "timestamp": "2026-01-15T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-databases-available-vercel-v0/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "43c21cf9f510aafdc704f5c6396385eb07c285ca",
-      "title": "Amazon Connect now provides agent scheduling metrics in data lake",
-      "summary": "Amazon Connect now provides agent scheduling metrics in its data lake, enabling easier reporting and insights generation. The feature includes interval-level metrics (15 or 30 minutes) such as forecasted headcount, scheduled headcount, and projected service level that can be viewed at both business unit and demand segment levels. This enhancement allows organizations to better analyze their workforce planning data after publishing monthly schedules.",
-      "category": "AI_ML",
-      "timestamp": "2026-01-15T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-scheduling-metrics/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b2f0eb5f93257bab300772d7d0eeed4e01b11382",
-      "title": "Announcing Amazon EC2 Memory optimized X8i instances",
-      "summary": "AWS has announced the general availability of Amazon EC2 X8i instances, which are next-generation memory optimized instances powered by custom Intel Xeon 6 processors exclusive to AWS. These SAP-certified instances deliver up to 43% higher performance, 1.5x more memory capacity (up to 6TB), and 3.4x more memory bandwidth compared to the previous generation X2i instances. The X8i instances offer the highest performance and fastest memory bandwidth among comparable Intel processors available in the cloud.",
-      "category": "COMPUTE",
-      "timestamp": "2026-01-15T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-amazon-ec2-x8i-generally-available",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "2973e24efca02117e251fe8007ae6e1e22438ffc",
-      "title": "Amazon RDS now supports the latest CU and GDR updates for Microsoft SQL Server",
-      "summary": "Amazon RDS for SQL Server now supports the latest General Distribution Release (GDR) and Cumulative Update (CU) patches from Microsoft across SQL Server versions 2016, 2017, 2019, and 2022. These updates include important security fixes and improvements, with specific support for SQL Server 2016 SP3+GDR, SQL Server 2017 CU31+GDR, SQL Server 2019 CU32+GDR, and SQL Server 2022 CU22.",
-      "category": "DATABASE",
-      "timestamp": "2026-01-15T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-cu-gdr-updates-microsoft-sql-server",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f0142142732b1c17bdaceb21564b861eeae519e4",
-      "title": "Amazon RDS Custom now supports the latest GDR updates for Microsoft SQL Server",
-      "summary": "Amazon RDS Custom for SQL Server now supports the latest General Distribution Release (GDR) updates, including SQL Server 2019 CU32+GDR and SQL Server 2022 CU21+GDR. These updates address security vulnerabilities described in CVE-2025-59499, providing customers with enhanced security patches for their SQL Server databases running on RDS Custom.",
-      "category": "DATABASE",
-      "timestamp": "2026-01-15T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-custom-gdr-updates-microsoft-sql-server",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6316cc254b3d315f41ddd63ced9b886b19bb3d37",
-      "title": "AWS Lambda announces cross-account access for DynamoDB Streams",
-      "summary": "AWS Lambda now supports cross-account access for DynamoDB Streams event-source mappings, allowing Lambda functions in one AWS account to be triggered by DynamoDB Streams from another account. This enhancement enables organizations with multi-account architectures to centralize event processing or share events across accounts and with partners more effectively.",
-      "category": "DATABASE",
-      "timestamp": "2026-01-15T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-lambda-cross-account-access-dynamodb-streams",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "65cf78f9d44babd10a8b4ea2a3fda343a6f45e90",
-      "title": "Amazon Redshift Serverless adds queue-based query resource management",
-      "summary": "Amazon Redshift Serverless now offers queue-based query resource management, allowing users to create dedicated query queues with customized monitoring rules for different workloads. This feature provides granular control over resource usage through metrics-based predicates and automated responses, such as automatically aborting queries that exceed time or resource limits. The enhancement improves upon the previous Query Monitoring Rules (QMR) system by enabling more targeted workload management.",
-      "category": "DATABASE",
-      "timestamp": "2026-01-15T14:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-redshift-serverless-queue-based-query-resource-management",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ef763717e27b61f7846fa570b3fc0178b472b743",
-      "title": "Amazon EBS now supports up to four Elastic Volumes modifications in 24 hours",
-      "summary": "Amazon EBS has increased the limit for Elastic Volumes modifications from one to four per volume within a rolling 24-hour window. This allows users to more frequently adjust volume size, type, and performance characteristics as their needs change. The enhancement improves operational flexibility by enabling immediate modifications after previous ones complete, as long as the 24-hour limit hasn't been reached.",
-      "category": "STORAGE",
-      "timestamp": "2026-01-15T14:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ebs-up-to-four-volume-modifications/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 493,
+    "total": 486,
     "byCategory": {
-      "COMPUTE": 80,
-      "OTHER": 91,
-      "SECURITY": 119,
-      "AI_ML": 82,
+      "OTHER": 92,
+      "COMPUTE": 78,
+      "SECURITY": 118,
+      "NETWORKING": 4,
+      "AI_ML": 81,
       "ANALYTICS": 16,
-      "DATABASE": 52,
-      "STORAGE": 16,
+      "DATABASE": 48,
+      "STORAGE": 15,
       "CONTAINERS": 18,
-      "SERVERLESS": 16,
-      "NETWORKING": 3
+      "SERVERLESS": 16
     },
-    "lastUpdated": "2026-04-15T10:59:25.068Z"
+    "lastUpdated": "2026-04-15T22:41:45.717Z"
   },
-  "generatedAt": "2026-04-15T10:59:25.068Z"
+  "generatedAt": "2026-04-15T22:41:45.717Z"
 }
