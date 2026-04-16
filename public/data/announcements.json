@@ -1,6 +1,76 @@
 {
   "announcements": [
     {
+      "id": "73598b83b99fba151b1d043f733e404b031909a5",
+      "title": "Amazon CloudWatch now supports cross-region telemetry auditing and enablement rules",
+      "summary": "Amazon CloudWatch now supports cross-region telemetry auditing and enablement rules, allowing customers to audit telemetry configuration and enable telemetry from AWS services like EC2, VPC, and CloudTrail across multiple regions from a single location. Customers can enable this auditing feature for their entire account or organization across all supported regions simultaneously and create automated enablement rules that apply to selected or all available regions.",
+      "category": "SECURITY",
+      "timestamp": "2026-04-16T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-cross-region-enablement-rules/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "221d68136a16e7a643a854afe487f35d400cd29b",
+      "title": "AWS Elastic Disaster Recovery is now available in the AWS European Sovereign Cloud",
+      "summary": "AWS Elastic Disaster Recovery (AWS DRS) is now available in the AWS European Sovereign Cloud, allowing organizations with strict data sovereignty requirements to implement disaster recovery for their critical workloads. The service provides fast, reliable recovery of both on-premises and cloud-based applications with minimal downtime and data loss, offering RPOs in seconds and RTOs in minutes through cost-effective storage and compute resources.",
+      "category": "OTHER",
+      "timestamp": "2026-04-16T19:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/drs-thf/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c38b70fd5b16c7d71d8510f1059f6fa627d3dd2b",
+      "title": "Amazon WorkSpaces Personal and Amazon WorkSpaces Core are now available in two additional AWS Regions",
+      "summary": "Amazon has expanded the availability of WorkSpaces Personal and WorkSpaces Core to US East (Ohio) and Asia Pacific (Malaysia) AWS Regions. This expansion allows organizations to provision virtual desktops closer to their users, providing better performance, in-country data residency, and compliance with local regulations. The Ohio region additionally enables disaster recovery solutions and supports regional workforces with low-latency access to virtual desktop environments.",
+      "category": "OTHER",
+      "timestamp": "2026-04-16T17:38:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-workspaces-available-two-new-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8d56efa4a42f4395bcc4b4fad8f7306affbf9195",
+      "title": "Amazon FSx for Lustre Persistent-2 file systems are now available in four additional AWS Regions ",
+      "summary": "Amazon FSx for Lustre Persistent-2 file systems are now available in four additional AWS Regions: Asia Pacific (Hyderabad, Jakarta), Europe (Zurich), and South America (São Paulo). These file systems are built on AWS Graviton processors and offer higher throughput per terabyte (up to 1 GB/s per TB) at lower costs compared to previous generation FSx for Lustre systems.",
+      "category": "AI_ML",
+      "timestamp": "2026-04-16T16:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-fsx-lustre-persistent-2-aws/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a5f43b4c71008e58d394d63346c6331a69ccb32e",
+      "title": "Introducing Amazon EC2 C8in and C8ib instances ",
+      "summary": "AWS has launched Amazon EC2 C8in and C8ib instances powered by custom sixth-generation Intel Xeon Scalable processors and the latest AWS Nitro cards. These instances deliver up to 43% better performance than previous C6in instances and scale up to 384 vCPUs, with C8in instances offering 600 Gbps network bandwidth—the highest among enhanced networking instances.",
+      "category": "COMPUTE",
+      "timestamp": "2026-04-16T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-c8in-c8ib-instances-ga/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a3ba08a4379c7cf09478c8e8fc37421a5641cd0d",
+      "title": " Amazon Quick now supports multi-account sign-in within the same browser",
+      "summary": "AWS has announced multi-session support for Amazon QuickSight, allowing users to access up to five accounts simultaneously within the same browser. The feature includes account names in URLs for easier navigation between different assets like dashboards and reports. This enhancement helps customers who use multiple accounts for different environments such as development, testing, and production to more efficiently manage and compare insights across accounts.",
+      "category": "OTHER",
+      "timestamp": "2026-04-16T12:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-multi-account-sign-in/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "458a8f1e5268771ce9dd403692cfa1ca7e7a5a69",
+      "title": "Claude Opus 4.7 is now available in Amazon Bedrock ",
+      "summary": "Amazon Bedrock now offers Claude Opus 4.7, Anthropic's most advanced Opus model, which provides significant improvements in agentic coding, professional work, and long-running tasks for production AI applications. This upgrade from Claude Opus 4.6 delivers stronger performance across production workflows and better handles ambiguous situations for developers and enterprises building AI solutions.",
+      "category": "AI_ML",
+      "timestamp": "2026-04-16T12:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/claude-opus-4.7-amazon-bedrock/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "a226531a45ac3c13a26b24dc9492ed3048187947",
       "title": "AWS Payment Cryptography now available in South America (São Paulo)",
       "summary": "AWS Payment Cryptography is now available in the South America (São Paulo) region, expanding the service's global reach. This expansion allows customers with latency-sensitive payment applications to deploy locally without relying on cross-region support. AWS Payment Cryptography is a fully managed service that handles payment-specific cryptographic operations and key management for cloud-hosted payment applications.",
@@ -4809,73 +4879,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-evs-vcf-vmware-esx-software-version",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "53d570bc88d0672790b44a7701cf48f19db8440b",
-      "title": "Amazon Bedrock Reserved Tier available now for Claude Opus 4.5 and Haiku 4.5",
-      "summary": "Amazon Bedrock has expanded its Reserved service tier to include Claude Opus 4.5 and Haiku 4.5 models, offering customers guaranteed tokens-per-minute capacity and predictable performance for mission-critical applications. The Reserved tier allows users to reserve prioritized compute capacity with flexible allocation of input and output token limits to match specific workload requirements while controlling costs.",
-      "category": "AI_ML",
-      "timestamp": "2026-01-16T18:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-bedrock-reserved-tier-claude-opus-haiku/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "2fac5f6329257539dfc0067365a13f2044e0e616",
-      "title": "Amazon MWAA now available in additional Region",
-      "summary": "Amazon Managed Workflows for Apache Airflow (MWAA) has expanded its availability to the AWS Asia Pacific (Thailand) region. MWAA is a managed service that provides the familiar Apache Airflow platform for workflow orchestration while offering enhanced scalability, availability, and security without the need to manage underlying infrastructure.",
-      "category": "SECURITY",
-      "timestamp": "2026-01-16T18:01:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-mwaa-additional-region",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b50c950fc399393bd1efa1b754f5711fe93dd595",
-      "title": "AWS Outposts racks support multiple LGW routing domains",
-      "summary": "AWS Outposts racks now support up to 10 isolated local gateway (LGW) routing domains per Outpost, each with independent route tables and BGP sessions for enhanced network segmentation. This feature enables traffic separation between routing domains and allows both customer-owned IP (CoIP) and direct VPC routing (DVR) modes to operate simultaneously on the same Outpost. The capability facilitates network connectivity segmentation for different departments or use cases within an organization's on-premises infrastructure.",
-      "category": "COMPUTE",
-      "timestamp": "2026-01-16T17:00:00.000Z",
-      "link": "https://aws.amazon.comabout-aws/whats-new/2026/01/aws-outposts-multiple-lgw-routing-domain",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "2bdf321aef8544d5c26f42043caa60745395e46a",
-      "title": "Second-generation AWS Outposts racks are now supported in additional AWS Regions",
-      "summary": "AWS has expanded support for second-generation Outposts racks to the South America (São Paulo) and Europe (Stockholm) regions. Outposts racks allow organizations to extend AWS infrastructure and services to their on-premises data centers for consistent hybrid cloud experiences. This expansion enables organizations in and around Europe and South America to order Outposts racks connected to these newly supported regions.",
-      "category": "COMPUTE",
-      "timestamp": "2026-01-16T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/second-generation-aws-outposts-racks-additional-aws-regions",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "bf19d8829336e8883483e829505d051ec9f7dddc",
-      "title": "Amazon S3 Storage Lens is now available in AWS GovCloud (US) Regions",
-      "summary": "Amazon S3 Storage Lens is now available in AWS GovCloud (US) Regions, providing government customers with organization-wide visibility into their storage usage and activity. The service offers a centralized view across thousands of accounts and helps optimize storage costs, identify data protection opportunities, and improve application performance through detailed metrics and insights.",
-      "category": "STORAGE",
-      "timestamp": "2026-01-16T14:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/s3-storage-lens-aws-govcloud-us-regions/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 486,
+    "total": 488,
     "byCategory": {
-      "OTHER": 92,
-      "COMPUTE": 78,
       "SECURITY": 118,
+      "OTHER": 95,
+      "AI_ML": 82,
+      "COMPUTE": 77,
       "NETWORKING": 4,
-      "AI_ML": 81,
       "ANALYTICS": 16,
       "DATABASE": 48,
-      "STORAGE": 15,
+      "STORAGE": 14,
       "CONTAINERS": 18,
       "SERVERLESS": 16
     },
-    "lastUpdated": "2026-04-16T11:04:16.250Z"
+    "lastUpdated": "2026-04-16T22:40:51.754Z"
   },
-  "generatedAt": "2026-04-16T11:04:16.250Z"
+  "generatedAt": "2026-04-16T22:40:51.755Z"
 }
