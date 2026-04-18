@@ -11,6 +11,26 @@
       "isNew": false
     },
     {
+      "id": "d7bb6d1f004042a0b54b5d3eee93922d6fd36ded",
+      "title": "Amazon SageMaker HyperPod now supports flexible instance groups",
+      "summary": "Amazon SageMaker HyperPod now supports flexible instance groups, allowing customers to specify multiple instance types and subnets within a single instance group. This enhancement eliminates the previous requirement to create separate instance groups for each instance type and availability zone combination. The update helps customers improve capacity resilience, optimize costs, and better utilize subnets across their training and inference workloads.",
+      "category": "AI_ML",
+      "timestamp": "2026-04-17T20:03:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-hyperpod-flexible-instance-groups/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d5c7b95c36fca1fbe911da109a4f6214bd20d735",
+      "title": "Amazon ECR Pull Through Cache Now Supports Referrer Discovery and Sync",
+      "summary": "Amazon ECR's pull through cache feature now automatically discovers and syncs OCI referrers (including image signatures, SBOMs, and attestations) from upstream registries into private repositories. Previously, users had to manually list and fetch these referrers, as ECR would not automatically return or sync them from upstream repositories when listing referrers on repositories with pull through cache rules.",
+      "category": "CONTAINERS",
+      "timestamp": "2026-04-17T18:29:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ecr-pull-through-cache-referrers/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "754033951514f795d29ace096b45f6e7e6bd0544",
       "title": "AWS Deadline Cloud announces AI-powered troubleshooting assistant for render jobs",
       "summary": "AWS Deadline Cloud has launched an AI-powered troubleshooting assistant designed to help users quickly diagnose and resolve render job failures. AWS Deadline Cloud is a fully managed service that streamlines render management for computer-generated graphics and visual effects across films, TV, commercials, games, and industrial design. The AI assistant addresses common issues like missing assets, software errors, configuration problems, and resource constraints that can disrupt production pipelines.",
@@ -4942,20 +4962,20 @@
     }
   ],
   "stats": {
-    "total": 494,
+    "total": 496,
     "byCategory": {
       "COMPUTE": 79,
-      "AI_ML": 83,
+      "AI_ML": 84,
+      "CONTAINERS": 19,
       "OTHER": 97,
       "SECURITY": 119,
       "NETWORKING": 4,
       "ANALYTICS": 16,
       "DATABASE": 48,
       "STORAGE": 14,
-      "CONTAINERS": 18,
       "SERVERLESS": 16
     },
-    "lastUpdated": "2026-04-17T22:40:07.279Z"
+    "lastUpdated": "2026-04-18T10:41:17.783Z"
   },
-  "generatedAt": "2026-04-17T22:40:07.279Z"
+  "generatedAt": "2026-04-18T10:41:17.783Z"
 }
