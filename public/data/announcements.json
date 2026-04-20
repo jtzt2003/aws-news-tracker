@@ -1,6 +1,76 @@
 {
   "announcements": [
     {
+      "id": "53d6aaa033ebc019e22fa460053b05361b269fd0",
+      "title": "Amazon EBS expands volume modification enhancement to AWS European Sovereign Cloud Region",
+      "summary": "Amazon EBS has extended its Elastic Volumes modification enhancement to the AWS European Sovereign Cloud (Germany) Region, allowing up to four volume modifications per volume within a rolling 24-hour window. This feature enables users to increase volume size, change volume type, and adjust performance, with the ability to start new modifications immediately after previous ones complete. The enhancement provides greater flexibility for managing EBS volumes in the European sovereign cloud environment.",
+      "category": "STORAGE",
+      "timestamp": "2026-04-20T20:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ebs-four-volume-modifications-european-sovereign-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3a213dadc669c86f83c97846f961c6dd91aca4d5",
+      "title": "Amazon EVS now offers Microsoft Windows Server Licensing",
+      "summary": "Amazon Elastic VMware Service (Amazon EVS) now provides Microsoft Windows Server licensing entitlements, allowing customers to migrate or create new Windows Server VMs with licensing obtained directly from AWS. This service runs VMware Cloud Foundation within Amazon VPC on EC2 bare-metal instances powered by AWS Nitro, simplifying Windows Server deployment and licensing management for VMware workloads on AWS.",
+      "category": "OTHER",
+      "timestamp": "2026-04-20T20:05:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-evs-windows-server-licensing/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a7f3afc7873fdf4db87eddd59cb0d1676986a875",
+      "title": "AWS IoT Greengrass v2.17 now supports non-root installation and introduces new light weight components",
+      "summary": "AWS IoT Greengrass v2.17 has been released with two key enhancements: the ability to run the edge runtime as a non-root user on Linux systems for improved security compliance, and support for lightweight components that consume significantly less memory. This update makes it easier for enterprises to deploy and manage IoT device software at the edge while meeting stricter security requirements.",
+      "category": "SECURITY",
+      "timestamp": "2026-04-20T19:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-iot-greengrass-v217/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2affd5eab5284f89865234196c6820417a55fcb8",
+      "title": "Amazon DocumentDB (with MongoDB compatibility) now supports in-place upgrade from version 5.0 to 8.0",
+      "summary": "Amazon DocumentDB now supports direct in-place upgrades from version 5.0 to 8.0 through the AWS console, SDK, or CLI without requiring new clusters, endpoint changes, or index rebuilds. The upgrade to version 8.0 provides significant performance improvements with up to 7x better query latency and 5x improved storage compression, resulting in faster applications and reduced storage costs.",
+      "category": "DATABASE",
+      "timestamp": "2026-04-20T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-documentdb-mongodb-in-place-version-upgrade-5-0-to-8-0/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f6b43915514074d8c8e3f1ebd6929ddc6f17826d",
+      "title": "Amazon EKS enhances cluster governance with new IAM condition keys",
+      "summary": "Amazon EKS now supports seven additional IAM condition keys that provide enhanced governance controls for cluster creation and configuration through IAM policies and Service Control Policies (SCPs). This update enables organizations with multi-account environments to centrally enforce security and compliance requirements across all EKS clusters automatically. The new condition keys eliminate the need for manual processes or post-deployment security checks by allowing policy-based governance controls during cluster provisioning.",
+      "category": "SECURITY",
+      "timestamp": "2026-04-20T17:48:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-eks-iam-condition-keys/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "26c8d077d5e195c854206c29ced2adcc081c15a3",
+      "title": "Amazon S3 Express One Zone now supports S3 Inventory",
+      "summary": "Amazon S3 Express One Zone, a high-performance storage class designed for latency-sensitive applications, now supports S3 Inventory functionality. This feature allows users to generate scheduled daily or weekly reports listing stored objects and their metadata within S3 directory buckets, providing an alternative to synchronous List API calls. The addition helps simplify business workflows and accelerate big data jobs by offering more efficient object inventory management.",
+      "category": "STORAGE",
+      "timestamp": "2026-04-20T13:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/s3-express-one-zone-supports-s3-inventory/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "089bcdf57d83953747f8478f6a8dec052bac0065",
+      "title": "AWS Managed Microsoft AD is now available on Windows functional level 2016",
+      "summary": "AWS Directory Service for Microsoft AD (AWS Managed Microsoft AD) has been automatically upgraded to Windows functional level 2016 for all directories. The upgrade includes enhanced authentication mechanisms and improved security features for privileged access management, providing better protection for Active Directory infrastructure in the cloud.",
+      "category": "SECURITY",
+      "timestamp": "2026-04-20T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-managed-microsoft-ad-2016-functional-level/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "2fd3d00085679c86493b0b1db5ca5fa1b1aa6a78",
       "title": "Amazon EC2 High Memory U7i instances now available in AWS Asia Pacific (Singapore) region",
       "summary": "Amazon EC2 High Memory U7i instances are now available in the AWS Asia Pacific (Singapore) region, offering two configurations: U7i-8TB with 8TiB of DDR5 memory and U7i-12TB with 12TiB of DDR5 memory. These 7th generation instances are powered by custom fourth generation Intel Xeon Scalable Processors and designed to enhance transaction processing throughput for customers dealing with large-scale data environments.",
@@ -4839,133 +4909,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-transfer-family-terraform-webapps",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "5eb0f1307e9ae3be8cf1ad6f539804581951af9c",
-      "title": "Amazon ECR now supports cross-repository layer sharing to optimize storage and improve push performance",
-      "summary": "Amazon ECR has introduced blob mounting, a new feature that allows sharing of common image layers across repositories within a registry. This capability enables faster image pushes by reusing existing layers instead of re-uploading identical content, while also reducing storage costs by storing common layers only once. The feature is particularly beneficial for organizations managing multiple microservices or applications that share common base images.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-01-20T21:31:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ecr-cross-repository-layer-sharing/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "516bcaaff39000ee72fdbe31f346ea668963cbe2",
-      "title": "SageMaker Unified Studio adds support for cross-Region and IAM role-based subscriptions",
-      "summary": "Amazon SageMaker Unified Studio now supports cross-Region subscriptions, allowing users to subscribe to AWS Glue and Amazon Redshift tables/views from different AWS Regions than their current project. The platform also introduces IAM role-based subscriptions for enhanced data access and governance. These features help break down data silos and improve cross-organizational collaboration by enabling teams to access curated data assets from any AWS Region.",
-      "category": "SECURITY",
-      "timestamp": "2026-01-20T20:59:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/sagemaker-unified-studio-adds-cross-region-iam/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "674e71f8739b70c86e1e3cb6f731f99ca4a0ee4f",
-      "title": "AWS expands managed integrations for AWS IoT Device Management service coverage to the Middle East (UAE) region",
-      "summary": "AWS has expanded its IoT Device Management service's managed integrations feature to the Middle East (UAE) region. This expansion allows organizations in the UAE to better serve local customers by providing a unified interface for onboarding and managing diverse IoT devices, regardless of their connection type (direct, hub-based, or third-party cloud-based). The feature includes developer tools like unified interfaces and device SDKs to simplify IoT solution development.",
-      "category": "SECURITY",
-      "timestamp": "2026-01-20T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/managed-integrations-iot-device-coverage-uae/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "67461772c05b46c594ef7f6f3389e7fdcb88fd5c",
-      "title": "AWS Glue is now available in Asia Pacific (New Zealand) Region",
-      "summary": "AWS Glue, a serverless data integration service for ETL (extract, transform, load) workloads, is now available in the Asia Pacific (New Zealand) Region. This expansion allows customers in New Zealand to process and prepare their data for analytics, machine learning, and application development closer to their local data sources, potentially improving performance and reducing latency.",
-      "category": "AI_ML",
-      "timestamp": "2026-01-20T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-glue-available-new-zealand-region",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c97d51ca9fac14e7f7c888a4692da91b2206bc29",
-      "title": "Amazon Quick Suite launches expanded size, faster ingestion, and richer data type support for SPICE datasets",
-      "summary": "Amazon QuickSight's SPICE engine now supports datasets up to 2TB (double the previous 1TB limit) when using the new data preparation experience. The update includes faster data ingestion and loading capabilities, along with expanded data type support for advanced analytics and AI workloads. These improvements enable customers to handle larger datasets while maintaining strong performance and reducing time to insight.",
-      "category": "OTHER",
-      "timestamp": "2026-01-20T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-quick-suite-launches-expanded-spice",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "67a064a4499c6b7988dbd53323ddc08ff7e186a9",
-      "title": "Amazon RDS for Oracle extends support for bare metal instances to Standard Edition 2",
-      "summary": "Amazon RDS for Oracle now supports bare metal instances for Oracle Standard Edition 2 with Bring Your Own License (BYOL), offering access to various instance types including M7i, R7i, X2iedn, and others. These bare metal instances are available at 25% lower cost compared to equivalent virtualized instances and provide full visibility into CPU cores, potentially helping customers reduce commercial database licensing and support costs.",
-      "category": "DATABASE",
-      "timestamp": "2026-01-20T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-oracle-support-bare-metal-instances-standard-edition-2",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "0bd66d3dd4a970354a45e2e43291582eb0d2ad0f",
-      "title": "Amazon EC2 G7e instances are now generally available",
-      "summary": "Amazon EC2 G7e instances are now generally available, powered by NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs and delivering up to 2.3x better inference performance compared to G6e instances. These instances are designed for deploying large language models, agentic AI, multimodal generative AI, and physical AI models, while also providing top performance for spatial computing workloads.",
-      "category": "AI_ML",
-      "timestamp": "2026-01-20T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-g7e-instances-generally-available",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "3c8d508152c93cbe63b362894688e0e41cb15399",
-      "title": "Amazon Quick Sight expands dashboard customization in tables and pivot tables",
-      "summary": "Amazon QuickSight has expanded its dashboard customization capabilities, allowing readers to directly modify tables and pivot tables by adding/removing fields, changing aggregations, and adjusting formatting without needing dashboard author intervention. This enhancement gives end users greater flexibility to customize their data views for specific analytical requirements, such as sales managers adding revenue breakdowns by product category to identify growth opportunities.",
-      "category": "OTHER",
-      "timestamp": "2026-01-20T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-quicksight-expands-dashboard-customization-tables-pivot-tables",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c3e6335f077e9217df2725d052a7aae98024b9cf",
-      "title": "Amazon RDS Blue/Green Deployments reduces downtime to under five seconds",
-      "summary": "Amazon RDS has improved its Blue/Green Deployments feature to reduce database upgrade downtime to typically five seconds or less for single-Region configurations. The Blue/Green Deployment system creates a separate staging environment (Green) for testing changes while keeping production (Blue) running, then enables seamless switchover without requiring application endpoint modifications.",
-      "category": "DATABASE",
-      "timestamp": "2026-01-20T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-blue-green-deployments-reduces-downtime",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c5dd0b5d6b68f64ca55770edbd06556f106599ce",
-      "title": "Amazon Corretto January 2026 Quarterly Updates",
-      "summary": "Amazon released quarterly security and critical updates for its Corretto OpenJDK distribution on January 20, 2026, covering all Long-Term Supported (LTS) versions including 25.0.2, 21.0.10, 17.0.18, 11.0.30, and 8u482. Amazon Corretto is a free, multi-platform, production-ready distribution of OpenJDK that can be downloaded from the Corretto home page or installed via Linux package managers.",
-      "category": "SECURITY",
-      "timestamp": "2026-01-20T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-corretto-january-2026-quarterly-updates",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "71254182279decc782c8641a3af4fbafbbc782bf",
-      "title": "Amazon Aurora and RDS for PostgreSQL, MySQL and MariaDB now support r8g, r7g, and r7i database instances in additional AWS Regions",
-      "summary": "AWS has expanded availability of Graviton4-based R8g database instances for Amazon Aurora and RDS services to additional Asia Pacific regions including Hong Kong, Osaka, Jakarta, Seoul, and Singapore, as well as Canada Central. These R8g instances support PostgreSQL, MySQL, and MariaDB database engines across both Aurora and RDS platforms. This expansion builds upon AWS's previous R8g rollout, making the latest Graviton4 processor technology more widely accessible for database workloads.",
-      "category": "DATABASE",
-      "timestamp": "2026-01-20T15:00:00.000Z",
-      "link": "https://aws.amazon.comabout-aws/whats-new/2026/01/amazon-aurora-rds-r8g-r7g-r7i-instances-additional-regions/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 495,
+    "total": 491,
     "byCategory": {
-      "COMPUTE": 79,
-      "AI_ML": 84,
-      "CONTAINERS": 19,
-      "OTHER": 96,
+      "STORAGE": 16,
+      "OTHER": 95,
       "SECURITY": 119,
+      "DATABASE": 46,
+      "COMPUTE": 79,
+      "AI_ML": 82,
+      "CONTAINERS": 18,
       "NETWORKING": 4,
       "ANALYTICS": 16,
-      "DATABASE": 48,
-      "STORAGE": 14,
       "SERVERLESS": 16
     },
-    "lastUpdated": "2026-04-20T11:19:06.835Z"
+    "lastUpdated": "2026-04-20T22:43:24.153Z"
   },
-  "generatedAt": "2026-04-20T11:19:06.836Z"
+  "generatedAt": "2026-04-20T22:43:24.153Z"
 }
