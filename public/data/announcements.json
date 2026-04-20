@@ -4949,25 +4949,15 @@
       "link": "https://aws.amazon.comabout-aws/whats-new/2026/01/amazon-aurora-rds-r8g-r7g-r7i-instances-additional-regions/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "98a2b76f72a1909b706f4fec358784e95007577a",
-      "title": "Amazon EVS now supports VCF and VMware ESX software version selection",
-      "summary": "Amazon Elastic VMware Service (Amazon EVS) now allows customers to specify supported combinations of VMware Cloud Foundation (VCF) and ESX software versions when configuring their EVS environments and hosts. This service enables organizations to run VCF natively within their Amazon VPC using AWS Nitro EC2 bare-metal instances, with automated deployment that can set up a complete VCF environment in hours through either the AWS console or programmatic methods.",
-      "category": "OTHER",
-      "timestamp": "2026-01-20T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-evs-vcf-vmware-esx-software-version",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 496,
+    "total": 495,
     "byCategory": {
       "COMPUTE": 79,
       "AI_ML": 84,
       "CONTAINERS": 19,
-      "OTHER": 97,
+      "OTHER": 96,
       "SECURITY": 119,
       "NETWORKING": 4,
       "ANALYTICS": 16,
@@ -4975,7 +4965,7 @@
       "STORAGE": 14,
       "SERVERLESS": 16
     },
-    "lastUpdated": "2026-04-19T22:37:05.952Z"
+    "lastUpdated": "2026-04-20T11:19:06.835Z"
   },
-  "generatedAt": "2026-04-19T22:37:05.953Z"
+  "generatedAt": "2026-04-20T11:19:06.836Z"
 }
