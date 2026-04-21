@@ -1,6 +1,96 @@
 {
   "announcements": [
     {
+      "id": "bcfdbfe7f9f8290215c74ee0f57e0ef1cdf94518",
+      "title": "Amazon SageMaker now supports multi-region replication from IAM Identity Center",
+      "summary": "Amazon SageMaker now supports multi-region replication from IAM Identity Center, allowing SageMaker Unified Studio domains to be deployed in different regions from the IdC instance. This capability enables enterprise customers, especially in regulated industries like financial services and healthcare, to maintain compliance requirements while using centralized workforce identity management across multiple regions.",
+      "category": "AI_ML",
+      "timestamp": "2026-04-21T21:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/smus-identity-center/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ac4a40617e240d86ebf45bb298e25b54780ccef3",
+      "title": "AWS Marketplace streamlines VAT payment for deemed supply transactions",
+      "summary": "AWS Marketplace has introduced a streamlined self-service process that allows sellers to submit VAT invoices and receive automated VAT disbursements for deemed supply transactions involving digital services in the EU, Norway, and the UK. This addresses the legal requirement under these jurisdictions' VAT laws where AWS Marketplace's facilitation of digital service sales creates a deemed supply arrangement between sellers and the marketplace. The new process simplifies VAT compliance for sellers operating in these regions.",
+      "category": "OTHER",
+      "timestamp": "2026-04-21T19:03:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-marketplace-vat/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6036ef520dd7b5fe2544dd78f83f1107f21220de",
+      "title": "Amazon Athena Spark adds support for AWS PrivateLink",
+      "summary": "Amazon Athena Spark now supports AWS PrivateLink, enabling users to access Athena Spark APIs and endpoints directly from their Amazon VPC without routing traffic through the public internet. This enhancement helps organizations meet compliance requirements by keeping all communications within the AWS network infrastructure.",
+      "category": "ANALYTICS",
+      "timestamp": "2026-04-21T18:09:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-athena-spark-aws-privatelink/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7e2b84c5bfe9e97ff250b80e9518e1bfdcc0d8f4",
+      "title": "AWS Lambda functions can now mount Amazon S3 buckets as file systems with S3 Files ",
+      "summary": "AWS Lambda now supports S3 Files, a new feature that allows Lambda functions to mount S3 buckets as file systems and perform standard file operations without downloading data locally. Built on Amazon EFS, S3 Files combines file system performance and simplicity with S3's scalability, durability, and cost-effectiveness. Multiple Lambda functions can simultaneously connect to the same S3 Files system, enabling data sharing through a common workspace.",
+      "category": "AI_ML",
+      "timestamp": "2026-04-21T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-lambda-amazon-s3/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a8725450686a660d76a2e21255cd1c994a79f836",
+      "title": "AWS Transform custom is now available in six additional AWS Regions",
+      "summary": "AWS Transform custom has expanded to six new regions: Asia Pacific (Mumbai, Tokyo, Seoul, Sydney), Canada (Central), and Europe (London). This service helps organizations modernize and transform code at scale using AWS-managed and custom transformations for tasks like upgrading language versions, migrating frameworks, and optimizing performance.",
+      "category": "OTHER",
+      "timestamp": "2026-04-21T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-atx-custom-additional-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "17550720549e855b24032e2a749a7c2f4203ffb5",
+      "title": "Amazon EC2 G7e instances now available in AWS Local Zones in Los Angeles",
+      "summary": "AWS has launched Amazon EC2 G7e instances in AWS Local Zones in Los Angeles, featuring NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs and 5th generation Intel Xeon Scalable processors. These instances bring high-performance GPU compute closer to Los Angeles end users, enabling creative workloads like studio workstation applications with low-latency access to local storage.",
+      "category": "COMPUTE",
+      "timestamp": "2026-04-21T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-g7e-instances-local-zones/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "32bfe15e4655f0de28f51cf4df6d9396e86c3fdd",
+      "title": "Amazon Aurora serverless: Up to 30% better performance, smarter scaling, and still scales to zero",
+      "summary": "Amazon Aurora serverless has been updated with up to 30% better performance than the previous version and enhanced intelligent scaling capabilities that better understand workload patterns. The service automatically scales up for demanding workloads and down to zero during idle periods, making it particularly well-suited for agentic AI applications that have unpredictable usage patterns with bursts of activity and long idle windows.",
+      "category": "DATABASE",
+      "timestamp": "2026-04-21T13:53:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aurora-serverless-smarter-scaling/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "06a527e6f4dad2f428be2415cc0e9ddada3c6444",
+      "title": "AWS Backup adds Amazon Redshift Serverless and Aurora DSQL support for AWS Organizations backup policies ",
+      "summary": "AWS Backup now allows organization administrators to directly target Amazon Redshift Serverless namespaces and Amazon Aurora DSQL clusters in backup policies across member accounts. Previously, backing up these resources through organization policies required using tag-based selections or backing up all account resources, making this update more efficient and granular.",
+      "category": "DATABASE",
+      "timestamp": "2026-04-21T10:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/backup-policies-aurora-dsql-redshift-serverless/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c266bcbad8644b19d3ae2e136e338d35c368be50",
+      "title": "AWS Lambda Durable Execution SDK for Java GA",
+      "summary": "AWS has released the general availability of the Lambda Durable Execution SDK for Java, enabling Java developers to build resilient, long-running workflows using Lambda durable functions. The SDK allows developers to create multi-step applications such as order processing pipelines, AI agent orchestration, and human-in-the-loop approvals without needing custom progress tracking or external orchestration services.",
+      "category": "CONTAINERS",
+      "timestamp": "2026-04-21T06:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/lambda-durable-execution-java-ga/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "5624a58c62dc844b572c8fbd142d09ce6bb9e31a",
       "title": "Amazon Connect Outbound Campaigns now supports contact priority ordering  ",
       "summary": "Amazon Connect Outbound Campaigns now supports contact priority ordering, allowing you to dial contacts based on up to 10 configurable profile attributes for voice campaigns and journeys. This feature enables you to prioritize high-value customers or time-sensitive opportunities by sorting contacts based on attributes like customer lifetime value, account tier, or appointment date. The capability helps improve campaign effectiveness and conversion rates by ensuring agents focus their time on the most valuable prospects first.",
@@ -4859,123 +4949,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-mq-jms-spec-rabbitmq/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "b56fa6f0685f8e88567c15fea9fdcce4574590cc",
-      "title": "Amazon SageMaker HyperPod introduces enhanced lifecycle scripts debugging",
-      "summary": "Amazon SageMaker HyperPod has introduced enhanced debugging capabilities for lifecycle scripts to help users more easily identify and resolve issues during cluster node provisioning. This improvement provides more detailed troubleshooting information when lifecycle scripts encounter problems during cluster creation or node operations. SageMaker HyperPod is designed to provision resilient clusters for AI/ML workloads, including large language models, diffusion models, and foundation models.",
-      "category": "AI_ML",
-      "timestamp": "2026-01-21T19:15:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-sagemaker-hyperpod-lcs-enhanced-debug/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4eff3f6b9dd3dabbd9ae42a28fca8e95ee0f7ca5",
-      "title": "AWS Clean Rooms adds support for join and partition hints in SQL",
-      "summary": "AWS Clean Rooms now supports join and partition hints in SQL queries, allowing users to optimize join strategies and data partitioning for better performance and cost reduction. The feature enables SQL hints through comment-style syntax in both pre-approved analysis templates and ad hoc queries. Users can specifically leverage broadcast join hints for large table joins and partition hints to improve data distribution and parallel processing.",
-      "category": "OTHER",
-      "timestamp": "2026-01-21T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-clean-rooms-join-partition-hints-sql/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "566b38526c3aab155eb1f7a3510680d2fafcceb2",
-      "title": "Amazon Connect can now automatically select random samples of agent contacts for evaluation",
-      "summary": "Amazon Connect now offers automatic random sampling of agent contacts for evaluation, allowing managers to specify how many contacts they need to review per agent based on compliance requirements or internal policies. The system randomly selects the required number of contacts from a specified timeframe (e.g., 3 contacts per agent from the last week) to ensure fair coaching feedback. This feature includes new filtering capabilities to help managers customize their selection criteria.",
-      "category": "OTHER",
-      "timestamp": "2026-01-21T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-automatically-select-random-contacts-evaluation/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "e3f35cc95e0bc18d2376361a44415ddc1fb826d2",
-      "title": "Amazon EMR Serverless now supports AWS KMS customer managed keys for encrypting local disks",
-      "summary": "Amazon EMR Serverless now supports encrypting local disks using AWS KMS customer managed keys (CMKs), providing users with greater control over their encryption strategy beyond the default AWS-owned keys. This enhancement helps organizations meet stricter regulatory and compliance requirements for their big data analytics workloads.",
-      "category": "SECURITY",
-      "timestamp": "2026-01-21T17:37:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-emr-serverless-aws-kms-customer-managed",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "a71341ba7cba7419f694d2d99ae4994c347145f2",
-      "title": "Amazon Bedrock Reserved Tier available now for Claude Sonnet 4.5 in AWS GovCloud (US-West)",
-      "summary": "Amazon Bedrock has expanded its Reserved service tier to include Claude Sonnet 4.5 in AWS GovCloud (US-West), offering customers predictable performance and guaranteed tokens-per-minute capacity for mission-critical applications. The Reserved tier allows users to reserve prioritized compute capacity and provides flexible allocation of input and output token capacities to match specific workload requirements while controlling costs.",
-      "category": "AI_ML",
-      "timestamp": "2026-01-21T17:02:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-bedrock-reserved-tier-for-claude-sonnet-in-govcloud/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6d8895a35ceeb85149cbc8b314521c3bdd17089a",
-      "title": "Amazon EC2 C8gn instances are now available in additional regions",
-      "summary": "Amazon EC2 C8gn instances powered by AWS Graviton4 processors are now available in additional regions including Asia Pacific (Mumbai), Africa (Cape Town), Europe (Ireland, London), and Canada West (Calgary). These new instances deliver up to 30% better compute performance compared to the previous Graviton3-based C7gn instances and feature 6th generation AWS Nitro Cards with up to 600 Gbps network bandwidth.",
-      "category": "AI_ML",
-      "timestamp": "2026-01-21T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-c8gn-instances-additional-regions",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "51c4ec0eb5ef0e5614be5d873b3e071889d51d02",
-      "title": "AWS introduces additional policy details to access denied error messages",
-      "summary": "AWS now includes the specific IAM and AWS Organizations policy ARN in access denied error messages when access is denied within the same account or organization. This enhancement allows users to quickly identify the exact policy causing the denial, rather than having to troubleshoot based only on the policy type as before. The change significantly speeds up the troubleshooting process for access-related issues.",
-      "category": "OTHER",
-      "timestamp": "2026-01-21T16:17:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/additional-policy-details-access-denied-error/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f5aa902a2c42cb4fcfb46de2c1e59617ca483bf9",
-      "title": "Instance Scheduler on AWS adds enhanced scaling, reliability, and event-driven automation",
-      "summary": "AWS has enhanced its Instance Scheduler service with improved scaling, reliability, and event-driven automation capabilities. Key new features include tracking of AWS tagging events, self-service troubleshooting through resource tags, automatic retry flows for insufficient EC2 capacity using alternate instance types, and dedicated EventBridge integration. The service has been re-architected with better orchestration and fan-out mechanisms to enable more intelligent scheduling based on AWS resource tagging events.",
-      "category": "SERVERLESS",
-      "timestamp": "2026-01-21T15:48:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/instance-scheduler-adds-enhanced-scaling/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "e64e30610d9ab16bc2941817f76e4ab333e04570",
-      "title": "Announcing availability of second-generation AWS Outposts racks in 20 more countries",
-      "summary": "AWS has expanded availability of its second-generation Outposts racks to 20 additional countries across Latin America, Asia, Africa, and the Middle East, including India, South Korea, Mexico, and South Africa. These racks allow organizations to deploy AWS infrastructure, services, and tools directly in their own data centers and on-premises locations for a consistent hybrid cloud experience.",
-      "category": "COMPUTE",
-      "timestamp": "2026-01-21T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/availability-second-generation-aws-outposts-racks-more-countries",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c17fe6e42dcf2aed52c2ececce233ed94367f36d",
-      "title": "AWS Transfer Family Terraform module now supports web apps",
-      "summary": "AWS Transfer Family's Terraform module now supports deploying web apps that allow end users to transfer files to and from Amazon S3 through a web interface. This update enables centralized provisioning of branded web portals with federated authentication and user access controls using infrastructure as code. The enhancement allows for consistent and repeatable deployments of file transfer solutions for workforce use.",
-      "category": "SECURITY",
-      "timestamp": "2026-01-21T13:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-transfer-family-terraform-webapps",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 496,
+    "total": 495,
     "byCategory": {
-      "OTHER": 97,
-      "STORAGE": 18,
-      "SECURITY": 119,
-      "DATABASE": 46,
-      "ANALYTICS": 17,
+      "AI_ML": 81,
+      "OTHER": 96,
+      "ANALYTICS": 18,
       "COMPUTE": 79,
-      "AI_ML": 82,
-      "CONTAINERS": 18,
+      "DATABASE": 48,
+      "CONTAINERS": 19,
+      "STORAGE": 18,
+      "SECURITY": 117,
       "NETWORKING": 4,
-      "SERVERLESS": 16
+      "SERVERLESS": 15
     },
-    "lastUpdated": "2026-04-21T11:07:43.877Z"
+    "lastUpdated": "2026-04-21T22:38:49.099Z"
   },
-  "generatedAt": "2026-04-21T11:07:43.877Z"
+  "generatedAt": "2026-04-21T22:38:49.100Z"
 }
