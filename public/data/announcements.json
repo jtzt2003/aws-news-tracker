@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "5624a58c62dc844b572c8fbd142d09ce6bb9e31a",
+      "title": "Amazon Connect Outbound Campaigns now supports contact priority ordering  ",
+      "summary": "Amazon Connect Outbound Campaigns now supports contact priority ordering, allowing you to dial contacts based on up to 10 configurable profile attributes for voice campaigns and journeys. This feature enables you to prioritize high-value customers or time-sensitive opportunities by sorting contacts based on attributes like customer lifetime value, account tier, or appointment date. The capability helps improve campaign effectiveness and conversion rates by ensuring agents focus their time on the most valuable prospects first.",
+      "category": "OTHER",
+      "timestamp": "2026-04-21T02:03:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-priority-dialing/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "53d6aaa033ebc019e22fa460053b05361b269fd0",
       "title": "Amazon EBS expands volume modification enhancement to AWS European Sovereign Cloud Region",
       "summary": "Amazon EBS has extended its Elastic Volumes modification enhancement to the AWS European Sovereign Cloud (Germany) Region, allowing up to four volume modifications per volume within a rolling 24-hour window. This feature enables users to increase volume size, change volume type, and adjust performance, with the ability to start new modifications immediately after previous ones complete. The enhancement provides greater flexibility for managing EBS volumes in the European sovereign cloud environment.",
@@ -47,6 +57,46 @@
       "category": "SECURITY",
       "timestamp": "2026-04-20T17:48:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-eks-iam-condition-keys/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b2de1586fd57ebc45a96e7494c4ffeec29cee450",
+      "title": "Amazon Connect outbound campaigns now supports hourly segment refresh",
+      "summary": "Amazon Connect Outbound Campaigns now supports refreshing campaign segments every hour instead of the previous 24-hour minimum. This allows campaigns to reach newly eligible customers throughout the day and respond more quickly to changing business conditions, such as collections teams being able to contact newly delinquent accounts the same day they are identified.",
+      "category": "OTHER",
+      "timestamp": "2026-04-20T16:56:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-campaign-hourly-refresh/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "419342c2c7d01c1b1328adb03be3dd97081507b4",
+      "title": "Amazon MSK Replicator now supports log forwarding for replication visibility",
+      "summary": "Amazon MSK Replicator now provides log forwarding capabilities that deliver replicator logs for complete visibility into replication health and performance. These logs include critical replication events, errors, and troubleshooting guidance, allowing users to resolve issues independently without contacting AWS Support. This enhancement improves the monitoring and debugging experience for MSK's automated Kafka cluster replication feature.",
+      "category": "STORAGE",
+      "timestamp": "2026-04-20T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-msk-replicator-logs/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "cc2f94321788e38b46f48fd2abb210ae32138a3e",
+      "title": "Amazon MSK Replicator now supports enhanced consumer offset synchronization for bidirectional replication",
+      "summary": "Amazon MSK Replicator now offers enhanced consumer offset synchronization for bidirectional replication, allowing applications to resume processing from the correct position when switching between Kafka clusters. This new capability enables independent movement of producer and consumer applications between clusters in any order without risk of data loss. The feature eliminates the need for custom replication management by automating data replication between Kafka clusters.",
+      "category": "ANALYTICS",
+      "timestamp": "2026-04-20T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-msk-replicator-enhanced-consumer-offset-synchronization/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ad5e0ae1c0e26f672c81d151cb42596c681a3d52",
+      "title": "MSK Replicator now supports replication from external Apache Kafka clusters to MSK Express Brokers",
+      "summary": "Amazon MSK Replicator now enables data replication from external Apache Kafka clusters (on-premises, self-managed, or other cloud providers) to Amazon MSK Express brokers. This enhancement simplifies migration to MSK Express, supports disaster recovery scenarios, and facilitates data distribution across hybrid and multi-cloud environments.",
+      "category": "STORAGE",
+      "timestamp": "2026-04-20T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-msk-replicator-external-kafka-cluster-support/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -4912,20 +4962,20 @@
     }
   ],
   "stats": {
-    "total": 491,
+    "total": 496,
     "byCategory": {
-      "STORAGE": 16,
-      "OTHER": 95,
+      "OTHER": 97,
+      "STORAGE": 18,
       "SECURITY": 119,
       "DATABASE": 46,
+      "ANALYTICS": 17,
       "COMPUTE": 79,
       "AI_ML": 82,
       "CONTAINERS": 18,
       "NETWORKING": 4,
-      "ANALYTICS": 16,
       "SERVERLESS": 16
     },
-    "lastUpdated": "2026-04-20T22:43:24.153Z"
+    "lastUpdated": "2026-04-21T11:07:43.877Z"
   },
-  "generatedAt": "2026-04-20T22:43:24.153Z"
+  "generatedAt": "2026-04-21T11:07:43.877Z"
 }
