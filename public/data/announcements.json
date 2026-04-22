@@ -11,6 +11,26 @@
       "isNew": false
     },
     {
+      "id": "929bd4888194974f7240e4e5e9c3222ec22cca54",
+      "title": "Five new Qwen models for coding agents and efficient reasoning are now available in Amazon SageMaker JumpStart",
+      "summary": "AWS has announced the availability of five new Qwen models in Amazon SageMaker JumpStart, including Qwen3-Coder-Next, Qwen3-30B-A3B variants, and Qwen3.5-4B. These models offer specialized capabilities for coding agents, efficient reasoning, extended thinking, and multimodal understanding, allowing customers to build advanced AI applications on AWS infrastructure.",
+      "category": "AI_ML",
+      "timestamp": "2026-04-21T20:05:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/qwen-models-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4a0a4e1b1ed67cc420b18c050d6940fb58051a05",
+      "title": " Introducing the Amazon EKS Hybrid Nodes gateway for hybrid Kubernetes networking",
+      "summary": "Amazon EKS has launched the Hybrid Nodes gateway, a new feature that automatically manages networking between EKS cluster VPCs and Kubernetes pods running on hybrid nodes. This gateway simplifies hybrid Kubernetes networking by eliminating the need to make on-premises pod networks routable or coordinate complex network infrastructure changes.",
+      "category": "CONTAINERS",
+      "timestamp": "2026-04-21T19:51:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-eks-hybrid-nodes-gateway/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "ac4a40617e240d86ebf45bb298e25b54780ccef3",
       "title": "AWS Marketplace streamlines VAT payment for deemed supply transactions",
       "summary": "AWS Marketplace has introduced a streamlined self-service process that allows sellers to submit VAT invoices and receive automated VAT disbursements for deemed supply transactions involving digital services in the EU, Norway, and the UK. This addresses the legal requirement under these jurisdictions' VAT laws where AWS Marketplace's facilitation of digital service sales creates a deemed supply arrangement between sellers and the marketplace. The new process simplifies VAT compliance for sellers operating in these regions.",
@@ -37,6 +57,26 @@
       "category": "AI_ML",
       "timestamp": "2026-04-21T17:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-lambda-amazon-s3/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6912ac7b4809b4771d35daa008358bb0a268347a",
+      "title": "Amazon CloudWatch pipelines now supports configuration of processors via AI",
+      "summary": "Amazon CloudWatch pipelines now supports AI-powered configuration that allows users to set up log processors using natural language descriptions instead of manual configuration. This generative AI feature simplifies the traditionally time-consuming process of parsing and enriching complex log formats. The fully managed service continues to handle log ingestion, transformation, and routing to CloudWatch without requiring infrastructure management.",
+      "category": "AI_ML",
+      "timestamp": "2026-04-21T16:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-pipelines-ai-configuration/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "26d5308ce6bb6d3d15da4db730babdb329972570",
+      "title": "AWS Glue now supports OAuth 2.0 for Snowflake connectivity",
+      "summary": "AWS Glue now supports OAuth 2.0 authorization for native Snowflake connectivity, allowing customers to securely read from and write to Snowflake without sharing user credentials. This enhancement enables enterprises to maintain better security compliance while building data integration pipelines by using temporary token-based authorization instead of traditional credential sharing.",
+      "category": "SECURITY",
+      "timestamp": "2026-04-21T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-glue-oauth-snowflake-connectivity/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -4952,20 +4992,20 @@
     }
   ],
   "stats": {
-    "total": 495,
+    "total": 499,
     "byCategory": {
-      "AI_ML": 81,
+      "AI_ML": 83,
+      "CONTAINERS": 20,
       "OTHER": 96,
       "ANALYTICS": 18,
+      "SECURITY": 118,
       "COMPUTE": 79,
       "DATABASE": 48,
-      "CONTAINERS": 19,
       "STORAGE": 18,
-      "SECURITY": 117,
       "NETWORKING": 4,
       "SERVERLESS": 15
     },
-    "lastUpdated": "2026-04-21T22:38:49.099Z"
+    "lastUpdated": "2026-04-22T11:06:01.218Z"
   },
-  "generatedAt": "2026-04-21T22:38:49.100Z"
+  "generatedAt": "2026-04-22T11:06:01.218Z"
 }
