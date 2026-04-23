@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "49b4a821e8fe100d052e94b3976763ea3829aca0",
+      "title": "Amazon SageMaker Unified Studio now supports multiple code spaces within projects for IAM domains ",
+      "summary": "Amazon SageMaker Unified Studio has expanded its functionality for IAM domains by allowing data workers to create and manage multiple code spaces within a single project. Previously, projects were restricted to just one JupyterLab space and one Code Editor space. This enhancement enables parallel work on different workstreams or experiments with varying compute and storage requirements, providing developers greater flexibility for their diverse workloads.",
+      "category": "AI_ML",
+      "timestamp": "2026-04-22T20:31:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-code-spaces/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "7d12001495045fb1cb7c67cdd2090b24c5541aa6",
       "title": "Amazon EC2 C8i-flex instances are now available in Europe (Ireland, London), and Asia Pacific (New Zealand) regions",
       "summary": "Amazon EC2 C8i-flex instances are now available in Europe (Ireland, London) and Asia Pacific (New Zealand) regions. These instances are powered by custom Intel Xeon 6 processors exclusive to AWS, offering up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generation Intel-based instances.",
@@ -51,6 +61,16 @@
       "isNew": false
     },
     {
+      "id": "c895c7fb584f21a7ebee1106e35a1b854007fd16",
+      "title": "Introducing GPU Health Monitoring and Auto Repair for Amazon ECS Managed Instances",
+      "summary": "Amazon ECS now provides automated GPU health monitoring and auto repair for managed instances running NVIDIA GPUs. This new feature automatically detects critical GPU hardware failures and replaces faulty instances without manual intervention. The capability is designed to improve availability and reliability for GPU-accelerated containerized workloads like GenAI inference applications.",
+      "category": "CONTAINERS",
+      "timestamp": "2026-04-22T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ecs-gpu-auto-repair/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "17444119105b2fc28d878be08d9eba3ca5aded8c",
       "title": "AWS Secrets Manager extends managed external secrets to MongoDB Atlas and Confluent Cloud",
       "summary": "AWS Secrets Manager has expanded its managed external secrets capability to include MongoDB Atlas and Confluent Cloud, allowing users to centrally manage and automatically rotate credentials for these third-party services directly from AWS. This new feature eliminates the need to build or maintain custom Lambda rotation functions for these integrations.",
@@ -67,6 +87,16 @@
       "category": "AI_ML",
       "timestamp": "2026-04-22T16:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/agentcore-new-features-to-build-agents-faster/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "bd6e34edf6a121036ba43523d618d4bf25eb931e",
+      "title": "Amazon IVS Low-Latency Streaming now supports server-side ad insertion",
+      "summary": "Amazon IVS Low-Latency Streaming has added server-side ad insertion (SSAI) support, allowing content creators to monetize their live streams with seamlessly integrated video ads. The feature works with AWS Elemental MediaTailor to stitch ads directly into video streams on the server side, providing ad decisioning, audience targeting, and personalization capabilities. This enhancement gives streamers API-based control over ad break insertion while maintaining a smooth viewing experience.",
+      "category": "STORAGE",
+      "timestamp": "2026-04-22T15:29:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ivs-low-latency-streaming-server-side-ad-insertion/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -4992,20 +5022,20 @@
     }
   ],
   "stats": {
-    "total": 499,
+    "total": 502,
     "byCategory": {
+      "AI_ML": 85,
       "COMPUTE": 76,
       "OTHER": 96,
-      "AI_ML": 84,
-      "CONTAINERS": 21,
+      "CONTAINERS": 22,
       "SECURITY": 117,
+      "STORAGE": 19,
       "SERVERLESS": 16,
       "DATABASE": 49,
       "ANALYTICS": 18,
-      "STORAGE": 18,
       "NETWORKING": 4
     },
-    "lastUpdated": "2026-04-22T22:49:48.134Z"
+    "lastUpdated": "2026-04-23T11:10:16.151Z"
   },
-  "generatedAt": "2026-04-22T22:49:48.135Z"
+  "generatedAt": "2026-04-23T11:10:16.151Z"
 }
