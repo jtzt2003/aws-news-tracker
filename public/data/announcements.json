@@ -21,6 +21,16 @@
       "isNew": false
     },
     {
+      "id": "6286d79b9275e794c751c5d3e5843e09a966e89f",
+      "title": "Amazon SageMaker HyperPod now supports automatic Slurm topology management",
+      "summary": "Amazon SageMaker HyperPod now automatically manages network topology for Slurm clusters, optimizing GPU placement based on instance types to improve distributed training performance. The service dynamically selects the best topology configuration and continuously adapts it as clusters evolve, resulting in faster GPU-to-GPU communication and more efficient training throughput.",
+      "category": "AI_ML",
+      "timestamp": "2026-04-23T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-hyperpod-automatic-slurm-topology/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "7bb4b7165fc88f1d3a7cb340a92ff5934f7871ed",
       "title": "Amazon SageMaker supports notebooks and data agent for IdC domains",
       "summary": "Amazon SageMaker Unified Studio now supports serverless notebooks with a built-in data agent for AWS IAM Identity Center (IdC) domains, expanding beyond the previously available IAM domain support. This enables customers using IdC for authentication and access management to access high-performance, serverless notebook environments for analytics and machine learning workloads, providing data engineers, analysts, and data scientists with enhanced capabilities.",
@@ -5062,11 +5072,11 @@
     }
   ],
   "stats": {
-    "total": 506,
+    "total": 507,
     "byCategory": {
       "DATABASE": 50,
       "STORAGE": 20,
-      "AI_ML": 87,
+      "AI_ML": 88,
       "OTHER": 98,
       "COMPUTE": 76,
       "CONTAINERS": 22,
@@ -5075,7 +5085,7 @@
       "ANALYTICS": 18,
       "NETWORKING": 3
     },
-    "lastUpdated": "2026-04-23T22:46:13.987Z"
+    "lastUpdated": "2026-04-24T11:07:00.017Z"
   },
-  "generatedAt": "2026-04-23T22:46:13.988Z"
+  "generatedAt": "2026-04-24T11:07:00.017Z"
 }
