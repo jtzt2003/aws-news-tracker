@@ -1,12 +1,82 @@
 {
   "announcements": [
     {
+      "id": "617de0296916c633bd46da4109b432cb0e1722f8",
+      "title": "Amazon Quick now integrates with Visier’s Vee agent for workforce intelligence",
+      "summary": "Amazon QuickSight now integrates with Visier's Vee AI assistant through the Model Context Protocol (MCP), allowing HR, finance, and operations teams to access live workforce analytics directly within their QuickSight workspace. Users can ask natural language questions about headcount, attrition, tenure, and other HR metrics without switching between tools. This integration provides governed access to Visier's people analytics platform through a simple MCP server connection setup.",
+      "category": "OTHER",
+      "timestamp": "2026-04-24T21:03:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-visier-vee/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ba5c8f2b7a15390f8e69f272c309e758c86a9372",
+      "title": "Amazon Bedrock AgentCore Gateway and Identity support VPC egress",
+      "summary": "Amazon Bedrock AgentCore Gateway and Identity now support VPC egress, allowing secure and controlled traffic management between applications and VPC resources. This enables customers to directly invoke private resources like EKS-hosted MCP servers from their AgentCore Gateway. The feature is available in both managed and self-managed configurations for enhanced flexibility.",
+      "category": "AI_ML",
+      "timestamp": "2026-04-24T21:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/agentcore-gateway-identity-vpc/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "fe9ae25f32490fd6bafb5f0dc525761fcb03861a",
+      "title": "Amazon Connect now provides eight new metrics to measure and improve AI agent performance",
+      "summary": "Amazon Connect has introduced eight new metrics to help businesses measure and optimize their AI agent performance, including goal success rate, faithfulness score, and tool selection accuracy. These metrics provide visibility into AI-driven customer interactions and help detect issues like contextual hallucinations while enabling continuous improvement of AI agent outcomes.",
+      "category": "ANALYTICS",
+      "timestamp": "2026-04-24T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-ai-agent-metrics/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5b24d477cec102dbe6233d65407f4f1de4899e79",
+      "title": "Amazon EC2 High Memory U7i instances now available in additional regions",
+      "summary": "Amazon EC2 High Memory U7i instances are now available in additional AWS regions, with 8TB instances launching in Europe (Stockholm, Zurich), 16TB instances in US East (Ohio), and 24TB instances in Europe (Stockholm). These 7th generation instances are powered by custom Intel Xeon Scalable processors (Sapphire Rapids) and feature up to 8 TiB of DDR5 memory for memory-intensive workloads.",
+      "category": "COMPUTE",
+      "timestamp": "2026-04-24T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-high-memory-u7i/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "36dffa7810328eefed8a9eff0c473332c30f2e6d",
+      "title": "AWS Marketplace Management Portal now supports bank account deletion",
+      "summary": "AWS Marketplace sellers can now delete bank accounts directly from the Payment Settings page in the AWS Marketplace Management Portal, eliminating the need to contact customer service for this task. This new self-service feature supports both ACH-type and SWIFT-type bank accounts and addresses a significant gap in payment account management. The enhancement is especially beneficial for global enterprises and ISVs that manage multiple currencies and banking relationships.",
+      "category": "OTHER",
+      "timestamp": "2026-04-24T16:37:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-marketplace-management-portal/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6377f7fd38ee84ca8765ccaf894d6185bba6ad7a",
+      "title": "AWS Deadline Cloud now supports custom scripting for job submission workflows",
+      "summary": "AWS Deadline Cloud, a fully managed render management service for computer graphics and visual effects production, now supports custom scripting capabilities that run before and after job submissions. This new feature allows studios to directly integrate their existing pipelines into the submission workflow. The scripts can be configured to run automatically as part of every job submission process.",
+      "category": "OTHER",
+      "timestamp": "2026-04-24T15:42:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-deadline-cloud/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "05cb3cc7857c4b0151d76b9cbaf83d0d7cd30f62",
       "title": "Amazon Athena simplifies federated queries with managed connectors",
       "summary": "Amazon Athena has introduced managed connectors for 12 data sources including DynamoDB, PostgreSQL, MySQL, and Snowflake, which are automatically created and maintained by AWS on behalf of users. This feature enables federated queries across multiple data types (relational, non-relational, object, and custom) without requiring users to deploy or manage connector infrastructure in their AWS accounts or move data from its original location.",
       "category": "DATABASE",
       "timestamp": "2026-04-23T21:15:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-athena/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e2359faa7279ad50e5d4beb6781ba3a8621e3fad",
+      "title": "AWS Client VPN now supports native AWS Transit Gateway integration",
+      "summary": "AWS Client VPN now offers native integration with AWS Transit Gateway, enabling simplified centralized remote access for users across multiple VPCs and on-premises networks. This integration provides end-to-end source IP visibility and eliminates the previous requirement for complex configurations when connecting Client VPN to multiple VPCs.",
+      "category": "SECURITY",
+      "timestamp": "2026-04-23T21:11:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-client-vpn-transit-gateway/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5072,20 +5142,20 @@
     }
   ],
   "stats": {
-    "total": 507,
+    "total": 514,
     "byCategory": {
+      "OTHER": 101,
+      "AI_ML": 89,
+      "ANALYTICS": 19,
+      "COMPUTE": 77,
       "DATABASE": 50,
+      "SECURITY": 117,
       "STORAGE": 20,
-      "AI_ML": 88,
-      "OTHER": 98,
-      "COMPUTE": 76,
       "CONTAINERS": 22,
-      "SECURITY": 116,
       "SERVERLESS": 16,
-      "ANALYTICS": 18,
       "NETWORKING": 3
     },
-    "lastUpdated": "2026-04-24T11:07:00.017Z"
+    "lastUpdated": "2026-04-24T22:39:34.602Z"
   },
-  "generatedAt": "2026-04-24T11:07:00.017Z"
+  "generatedAt": "2026-04-24T22:39:34.602Z"
 }
