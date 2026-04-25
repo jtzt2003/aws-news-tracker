@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "6c82f42b21f8408cd696f52e305b96fcef2f1a8b",
+      "title": "AWS Lambda Provisioned Mode for Kafka event source mappings (ESMs) now available in AWS Asia Pacific (Taipei) and AWS GovCloud (US) Regions ",
+      "summary": "AWS Lambda has expanded Provisioned Mode support for Kafka event source mappings to three new regions: Asia Pacific (Taipei) and both AWS GovCloud (US-East and US-West) regions. This feature allows developers to pre-provision event polling resources that stay ready to handle traffic spikes, enabling more responsive and scalable Kafka-based applications with strict performance requirements.",
+      "category": "SERVERLESS",
+      "timestamp": "2026-04-24T21:13:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-Lambda-provisioned-esm-region-expansion/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "617de0296916c633bd46da4109b432cb0e1722f8",
       "title": "Amazon Quick now integrates with Visier’s Vee agent for workforce intelligence",
       "summary": "Amazon QuickSight now integrates with Visier's Vee AI assistant through the Model Context Protocol (MCP), allowing HR, finance, and operations teams to access live workforce analytics directly within their QuickSight workspace. Users can ask natural language questions about headcount, attrition, tenure, and other HR metrics without switching between tools. This integration provides governed access to Visier's people analytics platform through a simple MCP server connection setup.",
@@ -5142,8 +5152,9 @@
     }
   ],
   "stats": {
-    "total": 514,
+    "total": 515,
     "byCategory": {
+      "SERVERLESS": 17,
       "OTHER": 101,
       "AI_ML": 89,
       "ANALYTICS": 19,
@@ -5152,10 +5163,9 @@
       "SECURITY": 117,
       "STORAGE": 20,
       "CONTAINERS": 22,
-      "SERVERLESS": 16,
       "NETWORKING": 3
     },
-    "lastUpdated": "2026-04-24T22:39:34.602Z"
+    "lastUpdated": "2026-04-25T10:44:30.412Z"
   },
-  "generatedAt": "2026-04-24T22:39:34.602Z"
+  "generatedAt": "2026-04-25T10:44:30.412Z"
 }
