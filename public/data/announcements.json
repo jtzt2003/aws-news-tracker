@@ -5099,73 +5099,23 @@
       "link": "https://aws.amazon.comabout-aws/whats-new/2026/01/amazon-lightsail-nodejs-lamp-and-ruby-on-rails/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "61c7a87af109ab66f8e1a46e5af117317ac517d1",
-      "title": "Amazon Bedrock now supports 1-hour duration for prompt caching",
-      "summary": "Amazon Bedrock now offers a 1-hour time-to-live (TTL) option for prompt caching on select Anthropic Claude models, extending the default 5-minute cache duration. This enhancement improves cost efficiency and performance for long-running agentic workflows and multi-turn conversations by maintaining cached prompt prefixes for longer periods.",
-      "category": "AI_ML",
-      "timestamp": "2026-01-26T22:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-bedrock-one-hour-duration-prompt-caching/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "843b33d4ec940f392839f6e3ebbb020279652be3",
-      "title": "AWS IAM Identity Center now supports IPv6",
-      "summary": "AWS IAM Identity Center now supports IPv6 connectivity through new dual-stack endpoints, allowing customers to connect using IPv6, IPv4, or both protocols. The existing IPv4-only endpoints remain available to ensure backward compatibility with current implementations.",
-      "category": "OTHER",
-      "timestamp": "2026-01-26T18:02:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/iam-identity-center-ipv6-dualstack-support/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4fb5a131c3bde46e7748f41a7d9ba4621e7ab5b9",
-      "title": "Amazon WorkSpaces Core announces monthly pricing for managed instances ",
-      "summary": "AWS has introduced monthly flat-rate pricing for Amazon WorkSpaces Core managed instances, giving customers the option to choose between monthly or hourly billing based on their usage patterns. Monthly pricing is best suited for predictable full-time desktop usage, while hourly billing remains ideal for variable usage scenarios. Both pricing models operate on a pay-as-you-go basis without requiring long-term commitments.",
-      "category": "COMPUTE",
-      "timestamp": "2026-01-26T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/1/amazon-workspaces-core-managed-instances-flexible-billing/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d06644b0479dd17f555e3024a1aa1bc4f98970f4",
-      "title": "Amazon Managed Grafana now available in the AWS GovCloud (US) Regions",
-      "summary": "Amazon Managed Grafana is now available in both AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions, allowing government customers and regulated industries to visualize and analyze operational data while meeting strict compliance requirements. This fully managed service based on open-source Grafana supports all standard features in the GovCloud environment, making it easier to handle operational data visualization at scale for sensitive workloads.",
-      "category": "OTHER",
-      "timestamp": "2026-01-26T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-managed-grafana-aws-govcloud-us-regions",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "e9c47fd3de92fc8c53e042c8c03fa9a8dc938174",
-      "title": "AWS Transfer Family now supports Amazon FSx for NetApp ONTAP ",
-      "summary": "AWS Transfer Family now supports Amazon FSx for NetApp ONTAP, allowing customers to access their FSx for ONTAP file system data through SFTP, FTPS, and FTP protocols via S3 Access Points. This integration enables users to maintain their existing file system workflows while accessing data through both Transfer Family's managed file transfer protocols and native file protocols like NFS/SMB.",
-      "category": "SECURITY",
-      "timestamp": "2026-01-26T13:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-transfer-family-amazon-fsx-netapp-ontap",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 515,
+    "total": 510,
     "byCategory": {
       "SERVERLESS": 17,
-      "OTHER": 101,
-      "AI_ML": 89,
+      "OTHER": 99,
+      "AI_ML": 88,
       "ANALYTICS": 19,
-      "COMPUTE": 77,
+      "COMPUTE": 76,
       "DATABASE": 50,
-      "SECURITY": 117,
+      "SECURITY": 116,
       "STORAGE": 20,
       "CONTAINERS": 22,
       "NETWORKING": 3
     },
-    "lastUpdated": "2026-04-26T10:45:51.662Z"
+    "lastUpdated": "2026-04-26T22:39:40.558Z"
   },
-  "generatedAt": "2026-04-26T10:45:51.663Z"
+  "generatedAt": "2026-04-26T22:39:40.559Z"
 }
