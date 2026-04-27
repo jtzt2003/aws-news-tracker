@@ -5089,33 +5089,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-cases-granular-access-controls/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "523acd98da3a6314e8cbc0c7a210df956d6f7f59",
-      "title": "Amazon Lightsail expands blueprint selection with updated support for Node.js, LAMP, and Ruby on Rails blueprints",
-      "summary": "Amazon Lightsail has released updated Node.js, LAMP, and Ruby on Rails blueprints that now enforce Instance Metadata Service Version 2 (IMDSv2) by default and support IPv6-only instances. Users can quickly deploy virtual private servers with these popular development stacks preinstalled by simply selecting a blueprint and instance bundle. This update makes it easier for developers to get started building web applications on AWS cloud infrastructure.",
-      "category": "COMPUTE",
-      "timestamp": "2026-01-26T22:45:00.000Z",
-      "link": "https://aws.amazon.comabout-aws/whats-new/2026/01/amazon-lightsail-nodejs-lamp-and-ruby-on-rails/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 510,
+    "total": 509,
     "byCategory": {
       "SERVERLESS": 17,
       "OTHER": 99,
       "AI_ML": 88,
       "ANALYTICS": 19,
-      "COMPUTE": 76,
+      "COMPUTE": 75,
       "DATABASE": 50,
       "SECURITY": 116,
       "STORAGE": 20,
       "CONTAINERS": 22,
       "NETWORKING": 3
     },
-    "lastUpdated": "2026-04-26T22:39:40.558Z"
+    "lastUpdated": "2026-04-27T11:44:06.560Z"
   },
-  "generatedAt": "2026-04-26T22:39:40.559Z"
+  "generatedAt": "2026-04-27T11:44:06.560Z"
 }
