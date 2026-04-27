@@ -1,6 +1,56 @@
 {
   "announcements": [
     {
+      "id": "a821cdcdd1ef6acb29951f9cd536e6e1f70baf5a",
+      "title": "Amazon Redshift Serverless is now available in the AWS Asia Pacific (Melbourne) and Canada West (Calgary) regions",
+      "summary": "Amazon Redshift Serverless is now generally available in the AWS Asia Pacific (Melbourne) and Canada West (Calgary) regions. This service allows users to run and scale analytics workloads without needing to provision or manage data warehouse clusters, automatically handling capacity scaling. The service enables data analysts, developers, and data scientists to quickly gain insights from their data in seconds.",
+      "category": "DATABASE",
+      "timestamp": "2026-04-27T19:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-redshift-serverless-melbourne-calgary-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "cfffa14b341bfefa6cb85893a865a05e68896f40",
+      "title": "Amazon Connect increases attachment file sizes and adds custom file types",
+      "summary": "Amazon Connect has increased the maximum attachment file size from 20 MB to 100 MB for chat, cases, and tasks, while also allowing administrators to configure custom file extensions. This enhancement enables enterprise customers to share larger files like diagnostic bundles and log archives directly through chat, streamlining support processes and reducing communication overhead.",
+      "category": "OTHER",
+      "timestamp": "2026-04-27T18:45:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-increases-attachment/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b23a59b868d0bae86280a95807de33881246c52c",
+      "title": "Amazon FSx for OpenZFS Single-AZ (HA) file systems are now available in 17 additional AWS commercial and AWS GovCloud (US) Regions",
+      "summary": "Amazon FSx for OpenZFS Single-AZ (HA) file systems have expanded to 17 additional AWS Regions across South America, Europe, Africa, Asia Pacific, and AWS GovCloud (US). This fully managed service provides cost-effective shared file storage with sub-millisecond latencies, multi-GB/s throughput, and advanced ZFS features like snapshots, data cloning, and compression.",
+      "category": "AI_ML",
+      "timestamp": "2026-04-27T16:53:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-fsx-openzfs-single-az-ha/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "921514b62409929c9676c9347ae67059368dfb16",
+      "title": "Amazon SageMaker HyperPod now supports G7e and r5d.16xlarge instances",
+      "summary": "Amazon SageMaker HyperPod, AWS's purpose-built infrastructure for large-scale foundation model development and training, now supports G7e and r5d.16xlarge instances. G7e instances are powered by NVIDIA RTX PRO 6000 Blackwell GPUs, providing enhanced compute capabilities for AI/ML workloads. This expansion gives users more instance options within SageMaker HyperPod's resilient environment that features built-in fault tolerance and automated cluster recovery.",
+      "category": "AI_ML",
+      "timestamp": "2026-04-27T15:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-hyperpod-g7e-r5d/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "cec63328178e267062fb793a670b3ae42cbef2ce",
+      "title": "Amazon WorkSpaces Personal Supports Rocky 9, Red Hat Enterprise Linux 9, and Ubuntu 24.04",
+      "summary": "AWS has announced new Linux bundles for Amazon WorkSpaces Personal, adding support for Rocky Linux 9, Red Hat Enterprise Linux 9, and Ubuntu 24.04. These updated bundles provide customers access to the latest enterprise-grade Linux operating systems and modern Linux packages available in these newer releases, while previous versions (Rocky Linux 8, RHEL 8, and Ubuntu 22.04) remain available.",
+      "category": "SECURITY",
+      "timestamp": "2026-04-24T22:03:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-workspaces-rocky9-rhel9-ubuntu24/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "6c82f42b21f8408cd696f52e305b96fcef2f1a8b",
       "title": "AWS Lambda Provisioned Mode for Kafka event source mappings (ESMs) now available in AWS Asia Pacific (Taipei) and AWS GovCloud (US) Regions ",
       "summary": "AWS Lambda has expanded Provisioned Mode support for Kafka event source mappings to three new regions: Asia Pacific (Taipei) and both AWS GovCloud (US-East and US-West) regions. This feature allows developers to pre-provision event polling resources that stay ready to handle traffic spikes, enabling more responsive and scalable Kafka-based applications with strict performance requirements.",
@@ -5029,83 +5079,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-dynamodb-global-tables-with-mrsc-fis/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "5027b1b721aa64b572dada3be1d7ef60127dc466",
-      "title": "AWS Deadline Cloud now supports editing job name and description",
-      "summary": "AWS Deadline Cloud now allows users to edit job names and descriptions after job submission, whereas previously these could only be set during initial job creation. This enhancement improves job organization and identification by enabling users to update names or add tracking details like shot and sequence numbers after submission. The feature addresses a key workflow need for better job metadata management across users and projects.",
-      "category": "OTHER",
-      "timestamp": "2026-01-27T19:21:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-deadline-cloud-editing-job-name-description/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "80eff4b4070fa927fc8befe0d8142d94e14ec597",
-      "title": "AWS Network Firewall now supports GenAI traffic visibility and enforcement with Web category-based filtering",
-      "summary": "AWS Network Firewall has introduced new capabilities that provide visibility into generative AI application traffic and enable filtering based on web categories. This feature allows organizations to identify and control access to GenAI services, social media, streaming sites, and other web categories using pre-defined URL categories within firewall rules. The update simplifies governance and helps security teams enforce compliance policies more effectively.",
-      "category": "SECURITY",
-      "timestamp": "2026-01-27T19:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-network-firewall-web-category-based-filtering",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "51445502116b6c8c2f203b8836c5698e4c730a41",
-      "title": "AWS Marketplace expands AMI self-service listing experience to FPGA products",
-      "summary": "AWS Marketplace has introduced a self-service listing experience for sellers to list Amazon Machine Image (AMI) products that include FPGA (Field Programmable Gate Array) images. This new capability removes the need for manual Product Load Forms and speeds up time-to-market for AWS partners offering specialized hardware accelerators using FPGA technology on Amazon F2 instances. Sellers can now create and manage these AMIs with FPGA images through the new self-service interface.",
-      "category": "COMPUTE",
-      "timestamp": "2026-01-27T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-marketplace-expands-ami-self-service-listing-experience-to-fpga-products",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d44143c054e2b2c23915ddffa150d40661cc371c",
-      "title": "Amazon WorkSpaces announces advanced printer redirection",
-      "summary": "AWS has introduced advanced printer redirection for Amazon WorkSpaces Personal, allowing Windows users to access their full range of printer capabilities from virtual desktop environments. This feature enables users to utilize specialized printing functions like double-sided printing, paper tray selection, stapling, hole-punching, and color management directly from their WorkSpaces. The enhancement addresses the need for comprehensive printing functionality in virtual desktop scenarios.",
-      "category": "OTHER",
-      "timestamp": "2026-01-27T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-workspaces-advanced-printer-redirection/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "48a65aba2f63ad1325353cbb732078b80b80cb01",
-      "title": "Amazon RDS for PostgreSQL, MySQL and MariaDB now support r6id and r6gd database instances in additional AWS Regions ",
-      "summary": "AWS has expanded availability of memory-optimized database instances for Amazon RDS, with R6id instances now available in Tel Aviv and R6gd instances in Asia Pacific (Osaka) and EU (Spain, Zurich) regions for PostgreSQL, MySQL, and MariaDB. The AWS Graviton2-based instances offer up to 40% better performance compared to equivalent R5-based instances, depending on the specific database configuration and workload.",
-      "category": "DATABASE",
-      "timestamp": "2026-01-27T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-product-generally-available-rds-r6id-r6gd-expansion",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "fdb388804a2d44d980e6e3b717b0e4bfeb69cd30",
-      "title": "Amazon Connect now supports granular access controls for cases",
-      "summary": "Amazon Connect now supports tag-based access controls for cases, allowing administrators to restrict who can view and manage specific case data. Users can associate tags with case templates and configure security profiles to control access based on those tags. For example, fraud-related cases can be tagged and restricted so only users with fraud security profiles can access them, helping enforce internal controls.",
-      "category": "SECURITY",
-      "timestamp": "2026-01-27T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-cases-granular-access-controls/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 509,
+    "total": 508,
     "byCategory": {
-      "SERVERLESS": 17,
-      "OTHER": 99,
-      "AI_ML": 88,
-      "ANALYTICS": 19,
-      "COMPUTE": 75,
       "DATABASE": 50,
-      "SECURITY": 116,
+      "OTHER": 98,
+      "AI_ML": 90,
+      "SECURITY": 115,
+      "SERVERLESS": 17,
+      "ANALYTICS": 19,
+      "COMPUTE": 74,
       "STORAGE": 20,
       "CONTAINERS": 22,
       "NETWORKING": 3
     },
-    "lastUpdated": "2026-04-27T11:44:06.560Z"
+    "lastUpdated": "2026-04-27T22:53:29.851Z"
   },
-  "generatedAt": "2026-04-27T11:44:06.560Z"
+  "generatedAt": "2026-04-27T22:53:29.851Z"
 }
