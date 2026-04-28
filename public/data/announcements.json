@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "8ed43fcca58c3495a85b47502a44aab6be3bcba9",
+      "title": "AWS Glue 5.1 is now available in all AWS Commercial and AWS GovCloud (US) Regions",
+      "summary": "AWS Glue 5.1 is now available across all AWS Commercial and GovCloud regions, including the newly added Asia Pacific (New Zealand) region. The update upgrades core engines to Apache Spark 3.5.6, Python 3.11, and Scala 2.12.18, delivering performance and security improvements along with enhanced support for open table format libraries.",
+      "category": "SECURITY",
+      "timestamp": "2026-04-28T18:44:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-glue-5-1-all-govcloud-commercial-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d310eb5828bf39df76f8bffe2649d4660f1881b8",
+      "title": "AWS Cost Optimization Hub now supports CSV download",
+      "summary": "AWS Cost Optimization Hub now allows users to download cost optimization recommendations as CSV files directly from the console with a single click. This new feature exports recommendations based on your current console filters and settings, complementing the existing automated Data Export feature to Amazon S3. The capability enables quick local access to cost optimization data for further analysis and reporting.",
+      "category": "STORAGE",
+      "timestamp": "2026-04-28T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-cost-optimization-hub-csv-download/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "550348c36a7096921c7d6e06b4e072a51f9b98ad",
+      "title": "Amazon WorkSpaces Personal enhances PCoIP to DCV protocol migration",
+      "summary": "Amazon WorkSpaces Personal has improved its migration process from PCoIP to DCV protocol by adding a guided console interface, automatic checkpoint snapshots for rollback capability, and session blocking during the transition. The migration to DCV protocol provides customers with enhanced performance and expanded operating system support, including Windows 11 and Windows Server compatibility.",
+      "category": "SECURITY",
+      "timestamp": "2026-04-28T16:51:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-workspaces-personal-pcoip/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "360637ae91d50ad4edf4e18f97c95a94d4c4b6cb",
+      "title": "Amazon EC2 C8gn instances are now available in additional regions",
+      "summary": "Amazon EC2 C8gn instances powered by AWS Graviton4 processors are now available in the Europe (Milan) and Asia Pacific (Hong Kong) regions. These new instances deliver up to 30% better compute performance compared to the previous Graviton3-based C7gn instances and feature 6th generation AWS Nitro Cards with up to 600 Gbps network bandwidth, the highest among network-optimized EC2 instances.",
+      "category": "AI_ML",
+      "timestamp": "2026-04-28T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-c8gn-milan-hong-kong/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "301ead56ee94d7c85fdf7dae89a8078118b83e6e",
+      "title": "Amazon Connect Talent for AI-powered hiring (now available in Preview)",
+      "summary": "Amazon Connect Talent is now available in Preview as an AI-powered hiring solution that uses AI agents to conduct structured voice interviews, administer assessments, and score candidates consistently at scale. The service, built on Amazon's hiring expertise, allows candidates to interview 24/7 from any device while freeing recruiters to focus on strategic decisions rather than initial screening tasks.",
+      "category": "OTHER",
+      "timestamp": "2026-04-28T15:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-talent-ai-powered/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6a084e27a4116532f271bc2e2c7652129511514c",
+      "title": "Amazon Bedrock now offers OpenAI models, Codex, and Managed Agents (Limited Preview)",
+      "summary": "Amazon Bedrock is now offering OpenAI's latest models, Codex, and Managed Agents through a limited preview, marking an expansion of the AWS-OpenAI partnership. This integration brings OpenAI's advanced AI capabilities to AWS's trusted infrastructure, providing enterprises with powerful AI models while maintaining the security, operational maturity, and data governance required for production workloads. All three offerings are currently available in limited preview on the Amazon Bedrock platform.",
+      "category": "SECURITY",
+      "timestamp": "2026-04-28T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/bedrock-openai-models-codex-managed-agents/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7cc48dd0ebc64ba2a8907e84a91a990307ea349d",
+      "title": "AWS Announces Amazon Connect Decisions",
+      "summary": "AWS has launched Amazon Connect Decisions, an AI-powered solution that helps supply chain teams transition from reactive problem-solving to proactive operations management. The platform leverages Amazon's three decades of operational expertise and over 25 specialized supply chain tools, with AI teammates that adapt to businesses and learn from team decisions. The solution is designed for companies across retail, consumer packaged goods, automotive, and industrial manufacturing sectors.",
+      "category": "OTHER",
+      "timestamp": "2026-04-28T14:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-decisions-april/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "049836c27c3dac32d9d1dda3cd4f6555970b1502",
+      "title": "Build custom applications using natural language in Amazon Quick (Preview)",
+      "summary": "AWS has announced preview features for Amazon QuickSight that enable users to build custom web applications using natural language descriptions, eliminating the need for coding skills or developer resources. These applications can connect to live data sources, implement complex workflows, and include AI-powered features, allowing any user to create fully interactive tools in minutes simply by describing their requirements.",
+      "category": "OTHER",
+      "timestamp": "2026-04-28T14:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/custom-applications/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9f98317f565ea46b2f8519176c0ff0b1f5bc3694",
+      "title": "Amazon Quick now available as a desktop application for macOS and Windows (Preview)",
+      "summary": "Amazon Quick, AWS's AI assistant, is now available as a preview desktop application for macOS and Windows, extending beyond browser-based access. The desktop version provides enhanced capabilities including direct access to local files, OS-level notifications, and native desktop controls. This allows Quick to better understand users' complete work context across files, calendar, communications, and applications directly from the desktop environment.",
+      "category": "OTHER",
+      "timestamp": "2026-04-28T14:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-macos-windows-preview/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2edcaa4d3bc73ee2c4514174c16668ab21cc08ba",
+      "title": "Amazon Quick expands integrations to include Google Workspace, Zoom, Airtable, and more",
+      "summary": "Amazon Quick, AWS's AI assistant that transforms questions into actionable outcomes for teams, is expanding with 13 new built-in connectors including Google Workspace, Zoom, and Airtable. These integrations feature managed authentication for secure, one-click account connections without manual credential setup. Quick centralizes tools and data while learning team preferences to provide grounded, contextual answers and actions.",
+      "category": "OTHER",
+      "timestamp": "2026-04-28T11:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-google-workspace-zoom/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "3bcb573a14319df4eb44f2be405e58614996434b",
       "title": "Amazon Redshift Serverless AI-driven scaling is now the default for new workgroups",
       "summary": "Amazon Redshift Serverless now uses AI-driven scaling as the default for all new workgroups, leveraging machine learning to predict compute needs and automatically adjust resources before queries queue. This enhancement delivers better price-performance without manual tuning and expands support to workloads starting from 8 RPU (down from 32 RPU), reducing entry costs for smaller workloads.",
@@ -5099,43 +5199,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-eks-distro-kubernetes-version-1-35",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "f985ef301df2afe583b112199e1b05a5dbcc6dfa",
-      "title": "Amazon EC2 R7gd instances are now available in Europe (Paris) Region",
-      "summary": "Amazon EC2 R7gd instances are now available in the Europe (Paris) Region, featuring AWS Graviton3 processors, DDR5 memory, and up to 3.8 TB of local NVMe SSD storage. These instances are optimized for memory-intensive workloads like databases, in-memory caches, and real-time big data analytics that require high-speed, low-latency local storage.",
-      "category": "COMPUTE",
-      "timestamp": "2026-01-28T18:18:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/r7gd-instances-available-in-paris",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "50ef6b11eae7a2ab6501885b414e0a83c0719995",
-      "title": "Amazon MSK Replicator is now available in Asia Pacific (New Zealand)",
-      "summary": "Amazon MSK Replicator is now available in the Asia Pacific (New Zealand) region, allowing users to replicate streaming data across Amazon MSK clusters. This feature enables easy data replication between MSK clusters in different or same AWS regions with just a few clicks, helping build regionally resilient streaming applications for improved availability and business continuity.",
-      "category": "ANALYTICS",
-      "timestamp": "2026-01-28T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-msk-replicator-asia-pacific-new-zealand",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 512,
+    "total": 520,
     "byCategory": {
-      "AI_ML": 91,
+      "SECURITY": 120,
+      "STORAGE": 21,
+      "AI_ML": 92,
+      "OTHER": 103,
       "DATABASE": 49,
-      "SECURITY": 117,
-      "OTHER": 98,
-      "COMPUTE": 76,
+      "COMPUTE": 75,
       "SERVERLESS": 17,
-      "ANALYTICS": 19,
-      "STORAGE": 20,
+      "ANALYTICS": 18,
       "CONTAINERS": 22,
       "NETWORKING": 3
     },
-    "lastUpdated": "2026-04-28T11:45:18.776Z"
+    "lastUpdated": "2026-04-28T22:57:04.565Z"
   },
-  "generatedAt": "2026-04-28T11:45:18.776Z"
+  "generatedAt": "2026-04-28T22:57:04.566Z"
 }
