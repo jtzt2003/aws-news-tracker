@@ -1,12 +1,32 @@
 {
   "announcements": [
     {
+      "id": "3bcb573a14319df4eb44f2be405e58614996434b",
+      "title": "Amazon Redshift Serverless AI-driven scaling is now the default for new workgroups",
+      "summary": "Amazon Redshift Serverless now uses AI-driven scaling as the default for all new workgroups, leveraging machine learning to predict compute needs and automatically adjust resources before queries queue. This enhancement delivers better price-performance without manual tuning and expands support to workloads starting from 8 RPU (down from 32 RPU), reducing entry costs for smaller workloads.",
+      "category": "AI_ML",
+      "timestamp": "2026-04-27T22:03:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-redshift-serverless-ai-driven-scaling-default/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "a821cdcdd1ef6acb29951f9cd536e6e1f70baf5a",
       "title": "Amazon Redshift Serverless is now available in the AWS Asia Pacific (Melbourne) and Canada West (Calgary) regions",
       "summary": "Amazon Redshift Serverless is now generally available in the AWS Asia Pacific (Melbourne) and Canada West (Calgary) regions. This service allows users to run and scale analytics workloads without needing to provision or manage data warehouse clusters, automatically handling capacity scaling. The service enables data analysts, developers, and data scientists to quickly gain insights from their data in seconds.",
       "category": "DATABASE",
       "timestamp": "2026-04-27T19:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-redshift-serverless-melbourne-calgary-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "dc2bea75c077c63428b4d12b8400549ef62882fd",
+      "title": "AWS KMS now tracks last usage of all KMS keys",
+      "summary": "AWS Key Management Service (KMS) now automatically tracks and displays the last cryptographic operation performed with KMS keys, showing the timestamp, operation type, and CloudTrail event ID through the console or API. This eliminates the need for manual log analysis and helps security administrators and compliance teams quickly assess key usage for security and compliance purposes.",
+      "category": "SECURITY",
+      "timestamp": "2026-04-27T19:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-kms-tracks-last-usage-kms-keys/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -37,6 +57,36 @@
       "category": "AI_ML",
       "timestamp": "2026-04-27T15:30:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-hyperpod-g7e-r5d/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9fee438d254d6ee410d861726333cedf8dbea49c",
+      "title": "Introducing Amazon EC2 M8in and M8ib instances ",
+      "summary": "AWS has launched Amazon EC2 M8in and M8ib instances powered by custom sixth-generation Intel Xeon Scalable processors exclusive to AWS and featuring the latest AWS Nitro cards. These new instances deliver up to 43% higher performance compared to previous M6in and M6ib generations, with M8in instances providing 600 Gbps network bandwidth for network optimization and M8ib instances offering EBS optimization.",
+      "category": "COMPUTE",
+      "timestamp": "2026-04-27T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-m8in-m8ib/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "384dda837b5860dc90036faf3c44f563fad508bd",
+      "title": "Introducing Amazon EC2 R8in and R8ib instances ",
+      "summary": "AWS has launched new memory-optimized EC2 instances - R8in (network optimized) and R8ib (EBS optimized) - powered by custom sixth-generation Intel Xeon Scalable processors exclusive to AWS. These instances feature the latest AWS Nitro cards and deliver up to 43% better performance compared to previous generation instances, with R8in providing 600 Gbps network bandwidth.",
+      "category": "COMPUTE",
+      "timestamp": "2026-04-27T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-r8in-r8ib/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1d3dafef37831a83db74c71c563e271878aa694a",
+      "title": "Introducing Amazon EC2 C8ine and M8ine instances ",
+      "summary": "AWS has launched Amazon EC2 C8ine and M8ine instances powered by custom sixth-generation Intel Xeon Scalable processors and AWS Nitro cards, available exclusively on AWS. These new instances deliver up to 43% higher performance compared to previous generation C6in and M6in instances, with up to 2.5 times better packet performance per vCPU for network-optimized workloads.",
+      "category": "SECURITY",
+      "timestamp": "2026-04-27T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-c8ine-m8ine/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5069,33 +5119,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-msk-replicator-asia-pacific-new-zealand",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "5315cc73011c15a251c084e4bc03353c0116b0e0",
-      "title": "Amazon DynamoDB global tables with multi-Region strong consistency now supports application resiliency testing with AWS Fault Injection Service",
-      "summary": "Amazon DynamoDB global tables with multi-Region strong consistency (MRSC) now integrates with AWS Fault Injection Service (FIS) to enable controlled resiliency testing. This integration allows developers to simulate real-world failure scenarios, such as regional outages, to test how their applications handle disruptions. The feature helps improve application performance, observability, and resilience through controlled fault injection experiments.",
-      "category": "DATABASE",
-      "timestamp": "2026-01-28T11:38:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-dynamodb-global-tables-with-mrsc-fis/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 508,
+    "total": 512,
     "byCategory": {
-      "DATABASE": 50,
+      "AI_ML": 91,
+      "DATABASE": 49,
+      "SECURITY": 117,
       "OTHER": 98,
-      "AI_ML": 90,
-      "SECURITY": 115,
+      "COMPUTE": 76,
       "SERVERLESS": 17,
       "ANALYTICS": 19,
-      "COMPUTE": 74,
       "STORAGE": 20,
       "CONTAINERS": 22,
       "NETWORKING": 3
     },
-    "lastUpdated": "2026-04-27T22:53:29.851Z"
+    "lastUpdated": "2026-04-28T11:45:18.776Z"
   },
-  "generatedAt": "2026-04-27T22:53:29.851Z"
+  "generatedAt": "2026-04-28T11:45:18.776Z"
 }
