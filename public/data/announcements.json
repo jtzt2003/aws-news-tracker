@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "2a7ee5807e0225d717464bd78a15aac7e35dd5eb",
+      "title": "Amazon RDS for MySQL announces Innovation Release 9.6 in Amazon RDS Database Preview Environment",
+      "summary": "Amazon RDS for MySQL now supports MySQL Innovation Release 9.6 in the Amazon RDS Database Preview Environment, allowing users to evaluate the latest community MySQL release. This preview environment provides a fully managed database experience, simplifying setup, operation, and monitoring while users test the newest MySQL features and improvements.",
+      "category": "SECURITY",
+      "timestamp": "2026-04-29T20:37:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-rds-mysql-innovation/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "bf488ab509463f6d1eca80d0475ca5ee7a185ac1",
+      "title": "Amazon DocumentDB (with MongoDB compatibility) is Now Available in the Canada West (Calgary) Region",
+      "summary": "Amazon DocumentDB, a fully managed JSON database service with MongoDB compatibility, is now available in the Canada West (Calgary) region. This expansion adds another regional option for customers looking to run critical document workloads at scale without managing infrastructure. The service is designed to provide scalability and durability for mission-critical MongoDB applications.",
+      "category": "DATABASE",
+      "timestamp": "2026-04-29T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-documentdb-available-in-canada-west-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "186caf5189478f58ed1875e1abda817c7e169551",
+      "title": "Amazon CloudFront now supports invalidation by cache tag",
+      "summary": "Amazon CloudFront now supports cache tag invalidation, allowing users to remove groups of related cached content from edge locations with a single request instead of invalidating objects individually. This new feature simplifies operational workflows like updating product information across multiple pages, handling legal takedown requests, and managing content refreshes across multi-tenant platforms.",
+      "category": "NETWORKING",
+      "timestamp": "2026-04-29T17:06:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/cloudfront-invalidation-cache-tag/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ef3b9e3748d39649054ef95a0af3ac8b1431503c",
+      "title": "Paraphrase-multilingual-MiniLM-L12-v2, Table Transformer Detection, and Bielik-11B-v3.0-Instruct are now available in Amazon SageMaker JumpStart",
+      "summary": "AWS has added three new AI models to Amazon SageMaker JumpStart: paraphrase-multilingual-MiniLM-L12-v2 (a lightweight semantic similarity model supporting 50+ languages), Microsoft Table Transformer Detection, and Bielik-11B-v3.0-Instruct. The multilingual model is particularly useful for finding semantically similar content across different languages by mapping text to a 384-dimensional vector space.",
+      "category": "AI_ML",
+      "timestamp": "2026-04-29T17:05:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/paraphrase-multilingual-table-transformer-bielik-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e9375710989ba40f310de314aa18616cc1ff604a",
+      "title": "Gemma 4 models are now available in Amazon SageMaker JumpStart",
+      "summary": "AWS has announced the availability of three new Gemma 4 models (E4B, 26B-A4B, and 31B) in Amazon SageMaker JumpStart, expanding Google DeepMind's foundation model offerings for AWS customers. These instruction-tuned models feature multimodal capabilities, configurable reasoning, native function calling, and support for over 140 languages, enabling customers to build sophisticated AI applications on AWS infrastructure.",
+      "category": "AI_ML",
+      "timestamp": "2026-04-29T17:05:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/gemma-4-models-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b29d5a467429ccff2e0ac9a8da696d4b6d783849",
+      "title": "Amazon CloudWatch adds visual agent configuration to the EC2 console",
+      "summary": "Amazon CloudWatch now offers a visual configuration editor in the EC2 console that allows users to set up and manage the CloudWatch agent without manually editing JSON files. The CloudWatch agent collects metrics, logs, and traces from EC2 instances and sends them to CloudWatch and AWS X-Ray. This new graphical interface enables users to easily build agent configurations by visually selecting metrics, log sources, and deployment targets.",
+      "category": "COMPUTE",
+      "timestamp": "2026-04-29T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-agent-ec2/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6e10cd6123b99b0e98ad73473f5aa292d3e36a92",
+      "title": "OpenAI GPT OSS and NVIDIA Nemotron Models Available on Amazon Bedrock in AWS GovCloud (US)",
+      "summary": "Amazon Bedrock now offers OpenAI's open-weight GPT OSS models (120B and 20B parameters) and NVIDIA Nemotron models (ranging from 9B to 120B parameters) in AWS GovCloud (US). This expansion provides government and regulated industry customers access to diverse, high-performance foundation models through a single unified API, enabling them to select the most suitable model for specific generative AI use cases.",
+      "category": "SECURITY",
+      "timestamp": "2026-04-29T15:18:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/openai-gpt-oss-nvidia-nemotron-govcloud/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0e6af75fca4dba848bbaa6c6b01e888c8ea1c838",
+      "title": "AWS Transfer Family Terraform module now supports Okta and Microsoft Entra ID integration examples",
+      "summary": "AWS Transfer Family's Terraform module now includes complete examples for integrating with Okta and Microsoft Entra ID as custom identity providers for authentication and access control. This enables enterprises to automatically deploy Transfer Family servers that work seamlessly with their existing identity management systems through infrastructure-as-code.",
+      "category": "SECURITY",
+      "timestamp": "2026-04-29T10:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-transfer-family-terraform-okta-microsoft-entra-id/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "265563bae595223174aa4cbb939d1c744468cca0",
+      "title": "Amazon RDS for Db2 is now available in the AWS GovCloud (US-East, US-West) Regions",
+      "summary": "Amazon RDS for Db2 is now available in AWS GovCloud (US-East and US-West) regions, allowing government customers to easily deploy and manage Db2 databases in the cloud. The service enables quick database deployment with optimized configurations and offers Multi-AZ synchronous replication for high availability across different Availability Zones.",
+      "category": "DATABASE",
+      "timestamp": "2026-04-29T07:21:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-rds-db2-available-aws-govcloud-us-east-us-west-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "25a868b66dda8b03ac455c6390d921d06523bdbb",
+      "title": "Amazon EMR 7.13 now available with Python 3.11 ",
+      "summary": "Amazon EMR 7.13 is now available with Python 3.11 as the default for Apache Spark, along with updated versions of Apache HBase 2.6.3, Apache Hadoop 3.4.2, Apache Phoenix 5.3.0, and AWS SDK v2.41.11. The release is available in all AWS regions where Amazon EMR is supported.",
+      "category": "ANALYTICS",
+      "timestamp": "2026-04-29T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-emr-713-python-311/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "8ed43fcca58c3495a85b47502a44aab6be3bcba9",
       "title": "AWS Glue 5.1 is now available in all AWS Commercial and AWS GovCloud (US) Regions",
       "summary": "AWS Glue 5.1 is now available across all AWS Commercial and GovCloud regions, including the newly added Asia Pacific (New Zealand) region. The update upgrades core engines to Apache Spark 3.5.6, Python 3.11, and Scala 2.12.18, delivering performance and security improvements along with enhanced support for open table format libraries.",
@@ -5119,83 +5219,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/rds-for-oracle-cross-region-replicas-additional-storage-volumes",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "89e14b8ca02de705f1eb30723b8a5491a1e6eaf1",
-      "title": "Announcing increased 1 MB payload size support in Amazon EventBridge",
-      "summary": "Amazon EventBridge has increased its event payload size limit from 256 KB to 1 MB, allowing developers to handle richer and more complex data in their event-driven applications. This enhancement eliminates the need for developers to split, compress, or store large payloads externally when building scalable serverless applications that route events between various systems and AWS services.",
-      "category": "AI_ML",
-      "timestamp": "2026-01-29T18:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-eventbridge-increases-event-payload-size-256-kb-1-mb",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "29f3a26e52f43060c2eef9bb98a444db1984d163",
-      "title": "Amazon Bedrock now supports server-side custom tools using the Responses API ",
-      "summary": "Amazon Bedrock has added server-side tool support to its Responses API with OpenAI-compatible endpoints, allowing the service to call tools directly without requiring client-side processing. This enhancement enables AI applications to perform real-time, multi-step actions like web searches, code execution, and database updates automatically. The feature complements Bedrock's existing client-side tool capabilities across its Converse, Chat Completions, and Responses APIs.",
-      "category": "SECURITY",
-      "timestamp": "2026-01-29T18:09:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-bedrock-server-side-custom-tools-responses-api",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "0df984c93c71f4eac2aac37299126353e6ef1f4f",
-      "title": "Amazon Cognito introduces inbound federation Lambda triggers",
-      "summary": "Amazon Cognito has launched inbound federation Lambda triggers that allow you to transform and customize federated user attributes during authentication from external SAML and OIDC providers. This feature gives you complete programmatic control over the federation flow by enabling you to modify provider responses before they're stored in your user pool, without needing to change your identity provider configuration.",
-      "category": "SECURITY",
-      "timestamp": "2026-01-29T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-cognito-inbound-federation-lambda-trigger/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "bab5873a16f942ba1d2490008f49d49523f68481",
-      "title": "Amazon Keyspaces (for Apache Cassandra) introduces pre-warming with WarmThroughput for your tables",
-      "summary": "Amazon Keyspaces (for Apache Cassandra) has introduced a new pre-warming feature called WarmThroughput that allows users to proactively prepare tables to handle anticipated traffic increases. This capability works with both new and existing tables across all capacity modes (provisioned and on-demand) and supports multi-Region replicated tables. The feature helps ensure tables are ready to meet future traffic demands without performance issues during traffic spikes.",
-      "category": "OTHER",
-      "timestamp": "2026-01-29T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-keyspaces-apache-cassandra-pre-warming-warmthroughput-tables",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "3a8eb5fe257edff911ce38c3c6c06b463531fb76",
-      "title": "Change the server-side encryption type of Amazon S3 objects",
-      "summary": "AWS has introduced a new UpdateObjectEncryption API that allows users to change the server-side encryption type of Amazon S3 objects without moving any data, regardless of object size or storage class. This feature can be used at scale with S3 Batch Operations to standardize encryption across entire buckets while preserving object properties and lifecycle settings.",
-      "category": "SECURITY",
-      "timestamp": "2026-01-29T13:28:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/change-the-server-side-encryption-type-of-s3-objects",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "9c743f4565a371caf970d9b870f7aeb3751edb76",
-      "title": "AWS announces Deployment Agent SOPs in AWS MCP Server (preview)",
-      "summary": "AWS has launched deployment Standard Operating Procedures (SOPs) in its AWS MCP Server preview, which are structured natural language instructions that guide AI agents through complex, multi-step deployment tasks. This feature allows customers to deploy web applications to their AWS accounts using simple natural language prompts from MCP-compatible tools like Kiro, Cursor, and Claude Code. The SOPs ensure consistent, reliable, and efficient automated deployment processes.",
-      "category": "SECURITY",
-      "timestamp": "2026-01-29T12:01:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/01/aws-announces-deployment-agent-sops-in-aws-mcp-server-preview",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 518,
+    "total": 522,
     "byCategory": {
-      "SECURITY": 120,
+      "SECURITY": 119,
+      "DATABASE": 51,
+      "NETWORKING": 4,
+      "AI_ML": 93,
+      "COMPUTE": 76,
+      "ANALYTICS": 19,
       "STORAGE": 21,
-      "AI_ML": 92,
-      "OTHER": 102,
-      "DATABASE": 49,
-      "COMPUTE": 75,
+      "OTHER": 101,
       "SERVERLESS": 17,
-      "ANALYTICS": 18,
-      "CONTAINERS": 21,
-      "NETWORKING": 3
+      "CONTAINERS": 21
     },
-    "lastUpdated": "2026-04-29T11:28:34.193Z"
+    "lastUpdated": "2026-04-29T22:57:36.063Z"
   },
-  "generatedAt": "2026-04-29T11:28:34.193Z"
+  "generatedAt": "2026-04-29T22:57:36.063Z"
 }
