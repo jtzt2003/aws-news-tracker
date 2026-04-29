@@ -5179,43 +5179,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2025/01/aws-announces-deployment-agent-sops-in-aws-mcp-server-preview",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "44cf055438d7fce5c2eba09e77870637cdf639cb",
-      "title": "Amazon GameLift Servers now supports automatic scaling to and from zero instances",
-      "summary": "Amazon GameLift Servers now supports automatic scaling to zero instances, eliminating the need for developers to maintain running instances during periods of low or no gaming activity. This new feature addresses a key cost optimization challenge by allowing fleets to scale down completely during off-peak hours, rather than requiring continuously running instances to keep autoscaling active. The enhancement enables game developers to significantly reduce unnecessary infrastructure costs for their multiplayer games.",
-      "category": "OTHER",
-      "timestamp": "2026-01-29T09:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-gamelift-servers-automatic-scaling",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "2ff234ff5855140fd30bfc3d38dc35c995696310",
-      "title": "Amazon EKS and Amazon EKS Distro now supports Kubernetes version 1.35",
-      "summary": "AWS has announced support for Kubernetes version 1.35 in both Amazon EKS and Amazon EKS Distro. Users can now create new EKS clusters with version 1.35 or upgrade existing clusters using the EKS console, eksctl CLI, or infrastructure-as-code tools. This update brings the latest Kubernetes features and bug fixes to AWS's managed Kubernetes services.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-01-28T23:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-eks-distro-kubernetes-version-1-35",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 520,
+    "total": 518,
     "byCategory": {
       "SECURITY": 120,
       "STORAGE": 21,
       "AI_ML": 92,
-      "OTHER": 103,
+      "OTHER": 102,
       "DATABASE": 49,
       "COMPUTE": 75,
       "SERVERLESS": 17,
       "ANALYTICS": 18,
-      "CONTAINERS": 22,
+      "CONTAINERS": 21,
       "NETWORKING": 3
     },
-    "lastUpdated": "2026-04-28T22:57:04.565Z"
+    "lastUpdated": "2026-04-29T11:28:34.193Z"
   },
-  "generatedAt": "2026-04-28T22:57:04.566Z"
+  "generatedAt": "2026-04-29T11:28:34.193Z"
 }
