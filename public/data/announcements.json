@@ -1,6 +1,66 @@
 {
   "announcements": [
     {
+      "id": "003f6cb736ed448381e9bd789deca02a6f447921",
+      "title": "AWS Outposts racks now support LagStatus CloudWatch metric",
+      "summary": "AWS Outposts racks now support the LagStatus CloudWatch metric across all commercial AWS regions and GovCloud regions. This new metric allows customers to monitor their Outposts LAG connectivity status directly within the CloudWatch console, eliminating the need for external networking tools or cross-team coordination. Users can leverage this metric to set up alarms, troubleshoot connectivity issues, and ensure proper rack connectivity.",
+      "category": "COMPUTE",
+      "timestamp": "2026-04-30T20:17:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-outposts-lagstatus-cloudwatch/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "32252d5c46b7a163e7427667a08d0891a0d67a4e",
+      "title": "Amazon MQ for RabbitMQ now supports Prometheus metrics",
+      "summary": "Amazon MQ for RabbitMQ now includes native Prometheus plugin support on RabbitMQ 4.2 brokers, enabling direct metrics collection through dedicated endpoints. This integration allows users to scrape broker, queue, and connection metrics using any Prometheus-compatible monitoring tool, providing greater flexibility for monitoring and alerting on messaging infrastructure.",
+      "category": "OTHER",
+      "timestamp": "2026-04-30T18:10:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-mq-rabbitmq-prometheus-metrics/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "623d99e9ab4fc37caf0327bc18d95dd3649e5d01",
+      "title": "AWS Neuron SDK now available with Neuron Agentic Development for NKI kernel development on Trainium",
+      "summary": "AWS has launched Neuron Agentic Development, an open-source collection of agents and skills that enable AI coding assistants to accelerate development on AWS Trainium and Inferentia chips. The initial release focuses on Neuron Kernel Interface (NKI) kernel development, providing agentic coding capabilities that cover the complete workflow from code authoring to performance profiling and analysis. This gives developers low-level programming access to Trainium for creating custom compute kernels with AI-assisted development tools.",
+      "category": "OTHER",
+      "timestamp": "2026-04-30T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/announcing-neuron-agentic-development/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "88074e85ec3d0d51d2333ed32fd95c5d61560add",
+      "title": "AWS Lambda adds support for Ruby 4.0",
+      "summary": "AWS Lambda now supports Ruby 4.0 for building serverless applications, offering it as both a managed runtime and container base image with automatic updates. Ruby 4.0 is the latest long-term support (LTS) release that will receive security and bug fixes until March 2029. This addition gives developers access to the newest Ruby language features within the Lambda serverless environment.",
+      "category": "SECURITY",
+      "timestamp": "2026-04-30T13:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-lambda-adds-ruby/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e745401ef4efcfd3b3d6b167f048f9192c149dec",
+      "title": "Amazon Quick adds Microsoft Excel, PowerPoint extensions and updates the Word extension (Preview)",
+      "summary": "Amazon Quick has launched preview versions of new Microsoft 365 extensions for Excel, PowerPoint, and an updated Word extension, allowing users to leverage AI directly within their Microsoft Office applications. These extensions enable complex tasks like document redlining, financial modeling, presentation creation, spreadsheet analysis, pivot table generation, and data cleaning without leaving the Microsoft 365 environment.",
+      "category": "OTHER",
+      "timestamp": "2026-04-30T11:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-microsoft-excel/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "213a735b8700829e65145e3636364ff97f69b83c",
+      "title": "Amazon OpenSearch Service now supports index-level encryption",
+      "summary": "Amazon OpenSearch Service now offers index-level encryption, allowing you to encrypt data at rest on individual indexes using AWS KMS customer managed keys rather than just at the domain level. This enhancement enables you to use different encryption keys for different indexes within the same domain, providing more granular and tenant-specific encryption policies.",
+      "category": "SECURITY",
+      "timestamp": "2026-04-30T02:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-opensearch-service-supports-index-level-encryption/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "2a7ee5807e0225d717464bd78a15aac7e35dd5eb",
       "title": "Amazon RDS for MySQL announces Innovation Release 9.6 in Amazon RDS Database Preview Environment",
       "summary": "Amazon RDS for MySQL now supports MySQL Innovation Release 9.6 in the Amazon RDS Database Preview Environment, allowing users to evaluate the latest community MySQL release. This preview environment provides a fully managed database experience, simplifying setup, operation, and monitoring while users test the newest MySQL features and improvements.",
@@ -5139,113 +5199,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-healthimaging-adds-jpeg-xl",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "de370de0c76db222e9ec0605d28d0bebd992f607",
-      "title": "Amazon RDS now supports IPv6 for VPC endpoints of RDS Service APIs",
-      "summary": "Amazon RDS now supports IPv6 for VPC endpoints of RDS Service APIs, enabling dual-stack (IPv4 and IPv6) connectivity for accessing RDS APIs directly within your VPC without internet traversal. This expands on the existing IPv6 support for public endpoints and provides an expanded address space to help scale applications beyond IPv4 limitations.",
-      "category": "DATABASE",
-      "timestamp": "2026-01-30T20:55:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-ipv6-vpc-endpoints-service-apis",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "7c7827bb564ae46000a8c961159e5945d63b03f8",
-      "title": "Amazon Connect launches improved wait time estimates",
-      "summary": "Amazon Connect has launched improved wait time estimates that provide more accurate metrics for queues and enqueued contacts in contact centers. This enhancement enables organizations to set better customer expectations, offer callback options during long wait times, and make more strategic decisions about workload distribution across multiple queues. The improved metrics give contact centers enhanced visibility to optimize routing choices and resource allocation.",
-      "category": "OTHER",
-      "timestamp": "2026-01-30T19:40:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-launches-improved-wait-time/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "5c1ab0fbb1d8ce5b604ce80f79b62afa3307d76b",
-      "title": "Amazon SageMaker Unified Studio now supports AWS PrivateLink",
-      "summary": "Amazon SageMaker Unified Studio now supports AWS PrivateLink, enabling customers to establish secure connectivity between their VPC and the service without data traffic traversing the public internet. This enhancement allows network administrators to onboard AWS service endpoints directly to their VPC, keeping all data transfers within the AWS network for customers requiring security beyond standard HTTPS/TLS2 protocols.",
-      "category": "AI_ML",
-      "timestamp": "2026-01-30T19:08:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-sagemaker-unified-studio-aws-privatelink/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "efb219d34366efc97199533d368c465b94ecf18a",
-      "title": "Amazon ECS now publishes container health status as a CloudWatch metric",
-      "summary": "Amazon ECS now publishes container health status as a CloudWatch metric through Container Insights, providing enhanced observability for containerized applications. This new metric allows customers to monitor the operational health of their containers and set up CloudWatch alarms to proactively respond to unhealthy containers when health checks are configured in their ECS task definitions.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-01-30T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ecs-container-health-status-metric/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "19ba29f12add1c4d4e036b8ed7181a7eb388ef8e",
-      "title": "AWS Lambda launches enhanced observability for Kafka event source mappings",
-      "summary": "AWS Lambda has launched enhanced observability features for Kafka event source mappings that provide CloudWatch Logs and metrics to monitor event polling, scaling, and processing states. This new capability helps customers quickly identify and resolve setup issues to maintain reliable data streaming workloads. The feature is available for both Amazon MSK and self-managed Apache Kafka event source mappings.",
-      "category": "SERVERLESS",
-      "timestamp": "2026-01-30T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-Lambda-observability-for-kafka-esm/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b2dcc7916506e7c327cc2ecda1e6a44671c0b148",
-      "title": "New Partner Revenue Measurement gives visibility into AWS service consumption",
-      "summary": "AWS has launched Partner Revenue Measurement, a new capability that provides AWS Partners with visibility into how their solutions drive AWS service consumption across both partner-managed and customer-managed accounts. This tool enables partners to better understand their revenue impact and product consumption patterns by tagging AWS resources using their AWS Marketplace product codes with the tag key \"aws-apn-id.\"",
-      "category": "OTHER",
-      "timestamp": "2026-01-30T17:05:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/new-partner-revenue-measurement",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "0ab6e58318ab4bd895e5722c25bf0fc859b9d8fd",
-      "title": "Amazon GameLift Streams expands streaming capability to six new regions",
-      "summary": "Amazon GameLift Streams has expanded its streaming capabilities to six new regions: London, Stockholm, São Paulo, Mumbai, Seoul, and Sydney. This expansion enables customers to deliver low-latency streaming experiences to players across Europe, South America, India, and Asia while increasing overall GPU availability for better scalability.",
-      "category": "OTHER",
-      "timestamp": "2026-01-30T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/glstreams-new-regions",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "73524e0d2280ab6fc5f00d08bf6c698a1d4c4640",
-      "title": "Amazon EC2 R8a instances are now available in Europe (Spain) and Europe (Frankfurt) Regions",
-      "summary": "Amazon EC2 R8a instances are now available in the Europe (Spain) and Europe (Frankfurt) regions, featuring 5th generation AMD EPYC processors with up to 4.5 GHz frequency. These new instances offer up to 30% higher performance, 19% better price-performance, and 45% more memory bandwidth compared to the previous R7a instances, making them well-suited for latency-sensitive workloads.",
-      "category": "COMPUTE",
-      "timestamp": "2026-01-30T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-r8a-instances-are-available-europe",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "8263c566845ce99d8b1ba38bc1eb2200c32e9670",
-      "title": "Amazon RDS for Oracle now supports cross-Region replicas with additional storage volumes",
-      "summary": "Amazon RDS for Oracle now supports cross-Region replicas with additional storage volumes, allowing customers to add up to three extra storage volumes of up to 64 TiB each beyond the primary storage. This enhancement provides flexibility to scale storage up to 256 TiB total without application downtime as workload demands change. The feature enables customers to set up cross-Region replicas with this expanded storage capability for improved disaster recovery and geographic distribution.",
-      "category": "DATABASE",
-      "timestamp": "2026-01-30T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/rds-for-oracle-cross-region-replicas-additional-storage-volumes",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 523,
+    "total": 520,
     "byCategory": {
-      "SECURITY": 119,
-      "DATABASE": 51,
-      "NETWORKING": 4,
-      "AI_ML": 93,
       "COMPUTE": 76,
       "OTHER": 102,
+      "SECURITY": 121,
+      "DATABASE": 49,
+      "NETWORKING": 4,
+      "AI_ML": 92,
       "ANALYTICS": 19,
       "STORAGE": 21,
-      "SERVERLESS": 17,
-      "CONTAINERS": 21
+      "SERVERLESS": 16,
+      "CONTAINERS": 20
     },
-    "lastUpdated": "2026-04-30T11:28:24.847Z"
+    "lastUpdated": "2026-04-30T22:54:08.312Z"
   },
-  "generatedAt": "2026-04-30T11:28:24.848Z"
+  "generatedAt": "2026-04-30T22:54:08.312Z"
 }
