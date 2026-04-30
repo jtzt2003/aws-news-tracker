@@ -71,6 +71,16 @@
       "isNew": false
     },
     {
+      "id": "21094bab46b97a50914ebab986796b57e7b4b854",
+      "title": "Amazon Quick Adds Custom Sort for Filter Controls",
+      "summary": "Amazon QuickSight has introduced custom sort functionality for filter controls, allowing authors to control how values are displayed in dropdown and list controls instead of the previous alphabetical-only sorting. This feature enables authors to arrange filter values according to business logic or rank them by related metrics, ensuring the most relevant options appear first. The custom sort feature works with both single-select and multi-select dropdown and list controls, with ascending and descending sort options available.",
+      "category": "OTHER",
+      "timestamp": "2026-04-29T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/quick-filter-control-sort/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "0e6af75fca4dba848bbaa6c6b01e888c8ea1c838",
       "title": "AWS Transfer Family Terraform module now supports Okta and Microsoft Entra ID integration examples",
       "summary": "AWS Transfer Family's Terraform module now includes complete examples for integrating with Okta and Microsoft Entra ID as custom identity providers for authentication and access control. This enables enterprises to automatically deploy Transfer Family servers that work seamlessly with their existing identity management systems through infrastructure-as-code.",
@@ -5222,20 +5232,20 @@
     }
   ],
   "stats": {
-    "total": 522,
+    "total": 523,
     "byCategory": {
       "SECURITY": 119,
       "DATABASE": 51,
       "NETWORKING": 4,
       "AI_ML": 93,
       "COMPUTE": 76,
+      "OTHER": 102,
       "ANALYTICS": 19,
       "STORAGE": 21,
-      "OTHER": 101,
       "SERVERLESS": 17,
       "CONTAINERS": 21
     },
-    "lastUpdated": "2026-04-29T22:57:36.063Z"
+    "lastUpdated": "2026-04-30T11:28:24.847Z"
   },
-  "generatedAt": "2026-04-29T22:57:36.063Z"
+  "generatedAt": "2026-04-30T11:28:24.848Z"
 }
