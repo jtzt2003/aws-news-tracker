@@ -11,6 +11,16 @@
       "isNew": false
     },
     {
+      "id": "0504c223137377dbfee59ed33ea3ea8a061399f6",
+      "title": "Amazon ECS Managed Instances now supports NVIDIA GPU metrics",
+      "summary": "Amazon ECS Managed Instances now provides NVIDIA GPU metrics for containerized workloads, available through Amazon CloudWatch Container Insights. This enhancement gives customers visibility into GPU health, performance, capacity, utilization, and memory to help optimize and troubleshoot GPU-accelerated workloads running on Amazon ECS.",
+      "category": "CONTAINERS",
+      "timestamp": "2026-04-30T19:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ecs-mi-gpu-metrics/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "32252d5c46b7a163e7427667a08d0891a0d67a4e",
       "title": "Amazon MQ for RabbitMQ now supports Prometheus metrics",
       "summary": "Amazon MQ for RabbitMQ now includes native Prometheus plugin support on RabbitMQ 4.2 brokers, enabling direct metrics collection through dedicated endpoints. This integration allows users to scrape broker, queue, and connection metrics using any Prometheus-compatible monitoring tool, providing greater flexibility for monitoring and alerting on messaging infrastructure.",
@@ -21,12 +31,32 @@
       "isNew": false
     },
     {
+      "id": "2dfa614622d907c693f025c2f2fdaa156d978078",
+      "title": "Amazon Bedrock AgentCore Identity now supports On-Behalf-Of (OBO) token exchange",
+      "summary": "Amazon Bedrock AgentCore Identity now supports On-Behalf-Of (OBO) token exchange, allowing developers to build agents that can securely access protected resources on behalf of authenticated users without requiring multiple consent flows. This eliminates the previous need for developers to manage separate consent processes for each protected resource, reducing both user friction and development complexity.",
+      "category": "AI_ML",
+      "timestamp": "2026-04-30T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-bedrock-agentcore/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "623d99e9ab4fc37caf0327bc18d95dd3649e5d01",
       "title": "AWS Neuron SDK now available with Neuron Agentic Development for NKI kernel development on Trainium",
       "summary": "AWS has launched Neuron Agentic Development, an open-source collection of agents and skills that enable AI coding assistants to accelerate development on AWS Trainium and Inferentia chips. The initial release focuses on Neuron Kernel Interface (NKI) kernel development, providing agentic coding capabilities that cover the complete workflow from code authoring to performance profiling and analysis. This gives developers low-level programming access to Trainium for creating custom compute kernels with AI-assisted development tools.",
       "category": "OTHER",
       "timestamp": "2026-04-30T15:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/announcing-neuron-agentic-development/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b509a8fb2dbf6e4c28590b79ff450c1607ab3227",
+      "title": "Amazon Bedrock AgentCore launches capabilities for optimizing agent performance in preview",
+      "summary": "Amazon Bedrock AgentCore has launched new preview capabilities including recommendations, batch evaluations, and A/B testing to help developers systematically optimize AI agent performance. These tools complete the \"observe, evaluate, improve\" cycle for production AI agents, replacing manual developer intervention with a more systematic approach. The new features enable developers to translate evaluation findings into concrete, validated improvements for their AI agents.",
+      "category": "AI_ML",
+      "timestamp": "2026-04-30T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/bedrock-agentcore-optimization-preview/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5202,20 +5232,20 @@
     }
   ],
   "stats": {
-    "total": 520,
+    "total": 523,
     "byCategory": {
       "COMPUTE": 76,
+      "CONTAINERS": 21,
       "OTHER": 102,
+      "AI_ML": 94,
       "SECURITY": 121,
       "DATABASE": 49,
       "NETWORKING": 4,
-      "AI_ML": 92,
       "ANALYTICS": 19,
       "STORAGE": 21,
-      "SERVERLESS": 16,
-      "CONTAINERS": 20
+      "SERVERLESS": 16
     },
-    "lastUpdated": "2026-04-30T22:54:08.312Z"
+    "lastUpdated": "2026-05-01T11:06:29.055Z"
   },
-  "generatedAt": "2026-04-30T22:54:08.312Z"
+  "generatedAt": "2026-05-01T11:06:29.055Z"
 }
