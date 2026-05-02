@@ -1,6 +1,26 @@
 {
   "announcements": [
     {
+      "id": "f78c2c5df5bfab162c59d185b2682fb8e5fce1a8",
+      "title": "Amazon Bedrock AgentCore is now available in the South America (São Paulo) Region",
+      "summary": "Amazon Bedrock AgentCore, a platform for building, connecting, and optimizing AI agents, is now available in the AWS South America (São Paulo) Region. The service enables engineers to quickly develop agents using any framework and model, integrate them with enterprise systems, and continuously optimize them with built-in security. This regional expansion allows South American customers to deploy agents closer to their end users for improved performance.",
+      "category": "SECURITY",
+      "timestamp": "2026-05-01T22:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentcore-sao-paulo-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3ee03740db1eb593c2e63b534d354fa4b8b1ffca",
+      "title": "FreeRTOS 202604 LTS now available with enhanced security and MQTT v5.0",
+      "summary": "AWS has released FreeRTOS 202604 LTS, a new Long Term Support version of the open-source real-time operating system for embedded and IoT devices. This release provides two years of feature stability, security updates, and critical bug fixes, while addressing key embedded systems challenges including memory safety, code quality, and protocol support. The update includes FreeRTOS kernel v11.3.0 with new hardware ports and enhanced security features.",
+      "category": "SECURITY",
+      "timestamp": "2026-05-01T21:42:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/freertos-lts/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "223f752689226cc2ab6c99e3dc9a2bc93db156a0",
       "title": "OpenSearch UI supports cross-region data access to OpenSearch domains",
       "summary": "Amazon OpenSearch Service now enables cross-region data access through OpenSearch UI, allowing users to access OpenSearch domains hosted in different AWS regions from a single application interface. Combined with the previously launched cross-account access feature, users can now query and build dashboards across flexible combinations of accounts and regions without switching endpoints or duplicating data. This enhancement eliminates the need for data replication and simplifies multi-region OpenSearch management.",
@@ -5332,10 +5352,10 @@
     }
   ],
   "stats": {
-    "total": 533,
+    "total": 535,
     "byCategory": {
+      "SECURITY": 125,
       "ANALYTICS": 20,
-      "SECURITY": 123,
       "OTHER": 105,
       "DATABASE": 52,
       "AI_ML": 95,
@@ -5345,7 +5365,7 @@
       "STORAGE": 21,
       "SERVERLESS": 16
     },
-    "lastUpdated": "2026-05-01T22:51:33.522Z"
+    "lastUpdated": "2026-05-02T10:53:07.829Z"
   },
-  "generatedAt": "2026-05-01T22:51:33.522Z"
+  "generatedAt": "2026-05-02T10:53:07.830Z"
 }
