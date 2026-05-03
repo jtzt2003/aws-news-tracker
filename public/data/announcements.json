@@ -5279,93 +5279,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/oracle-database-aws-available-canada-central-sydney-aws-regions",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "66e8b1495d3c69e0c4e7093404833654fec85597",
-      "title": "DeepSeek OCR, MiniMax M2.1, and Qwen3-VL-8B-Instruct models are now available on SageMaker JumpStart ",
-      "summary": "AWS has announced the availability of three new foundation models on Amazon SageMaker JumpStart: DeepSeek OCR, MiniMax M2.1, and Qwen3-VL-8B-Instruct. These models provide specialized capabilities including document intelligence, multilingual coding, and advanced multimodal reasoning, allowing customers to build sophisticated AI applications across various use cases on AWS infrastructure.",
-      "category": "AI_ML",
-      "timestamp": "2026-02-02T21:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/new-models-on-sagemaker-jumpstart",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "569c12869761510756b105725bebc178059c5067",
-      "title": "Announcing memory-optimized instance bundles for Amazon Lightsail",
-      "summary": "Amazon Lightsail has launched new memory-optimized instance bundles offering up to 512 GB of memory across 7 different sizes. These instances support both Linux and Windows operating systems with various pre-configured application blueprints including WordPress, Drupal, Magento, and others. The bundles are available for both IPv6-only and dual-stack networking configurations.",
-      "category": "COMPUTE",
-      "timestamp": "2026-02-02T21:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-lightsail-memory-optimized-instances/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b0d05a3dcc58bf3ba70ed9c2599ac1687f0a226c",
-      "title": "AWS STS now supports validation of select identity provider specific claims from Google, GitHub, CircleCI and OCI",
-      "summary": "AWS Security Token Service (STS) now supports validation of identity provider-specific claims from Google, GitHub, CircleCI, and Oracle Cloud Infrastructure for OIDC federation. This enhancement allows you to use these custom claims as condition keys in IAM role trust policies and resource control policies when using the AssumeRoleWithWebIdentity API. The feature enables more fine-grained access control for federated identities from these popular identity providers.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-02T20:17:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-sts-supports-validation-identity-provider-claims",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4c932e39a56793ad7466b336eb317e483bee6a12",
-      "title": "Amazon CloudFront announces mutual TLS support for origins",
-      "summary": "Amazon CloudFront now supports mutual TLS authentication (mTLS) for origins, allowing customers to cryptographically verify that requests to their origin servers come only from authorized CloudFront distributions using TLS certificates. This certificate-based authentication eliminates the need for customers to manage custom security controls, providing a more secure and streamlined way to authenticate CloudFront's identity when accessing origin servers.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-02T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-cloudfront-mutual-tls-for-origins/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "32dab00b8a098d828ba9b1cb18cd058ac0522663",
-      "title": "AWS announces Flexible Cost Allocation in AWS GovCloud (US)",
-      "summary": "AWS Network Firewall in AWS GovCloud (US) now supports flexible cost allocation through Transit Gateway attachments, allowing organizations to automatically distribute data processing costs across multiple AWS accounts instead of consolidating all charges in the firewall owner account. Customers can create custom metering policies to allocate charges based on their specific organizational chargeback requirements. This feature helps security and network teams better manage centralized firewall costs across distributed account structures.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-02T17:40:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-flexible-cost-allocation-govcloud/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "7625d9fcf5336f75b2a9647b19324df8a64abdae",
-      "title": "Amazon Connect now provides APIs to test and simulate voice interactions",
-      "summary": "Amazon Connect has launched new APIs that allow developers to programmatically test and simulate contact center voice interactions. These APIs enable configuration of test parameters such as caller information, call reasons, expected responses, and business scenarios like after-hours conditions. This feature helps validate contact center workflows and self-service voice interactions before deployment.",
-      "category": "OTHER",
-      "timestamp": "2026-02-02T16:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-provides-apis-test-simulate-voice-interactions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "a80addd42eef51c932aeffaf5be11d7e499a28ed",
-      "title": "AWS HealthImaging adds JPEG XL support",
-      "summary": "AWS HealthImaging now supports storing and retrieving medical images in JPEG XL format without transcoding, maintaining data fidelity while reducing storage costs. This enhancement simplifies integration with applications that require JPEG XL encoded DICOM data, particularly benefiting digital pathology and whole slide imaging systems.",
-      "category": "OTHER",
-      "timestamp": "2026-02-02T16:29:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-healthimaging-adds-jpeg-xl",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 535,
+    "total": 528,
     "byCategory": {
-      "SECURITY": 125,
+      "SECURITY": 122,
       "ANALYTICS": 20,
-      "OTHER": 105,
+      "OTHER": 103,
       "DATABASE": 52,
-      "AI_ML": 95,
-      "COMPUTE": 76,
+      "AI_ML": 94,
+      "COMPUTE": 75,
       "CONTAINERS": 21,
       "NETWORKING": 4,
       "STORAGE": 21,
       "SERVERLESS": 16
     },
-    "lastUpdated": "2026-05-03T10:55:22.839Z"
+    "lastUpdated": "2026-05-03T22:42:23.928Z"
   },
-  "generatedAt": "2026-05-03T10:55:22.840Z"
+  "generatedAt": "2026-05-03T22:42:23.928Z"
 }
