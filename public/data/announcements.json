@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "adc8c269ccb765d4e7137972f05317e7ef32f657",
+      "title": "AWS Entity Resolution launches support for incremental Machine Learning based matching workflows",
+      "summary": "AWS Entity Resolution now supports incremental Machine Learning-based matching workflows, allowing customers to add new records without reprocessing entire datasets. This eliminates a major bottleneck that previously required up to 2 days and thousands of dollars to process even single record additions. The new capability fundamentally transforms how enterprises can efficiently scale their entity resolution processes.",
+      "category": "AI_ML",
+      "timestamp": "2026-05-04T17:43:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-entity-resolution-ml/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ac82fee436756d11b2ce4736578418eb7c180231",
+      "title": "Amazon Quick generates dashboards from natural language prompts",
+      "summary": "Amazon QuickSight now offers Generate Analysis, a feature that creates dashboards from natural language descriptions. Users can describe their desired dashboard, select up to three datasets, and QuickSight automatically generates organized sheets with appropriate visuals, filter controls, and calculated fields like year-over-year comparisons. This significantly reduces dashboard creation time from hours of manual configuration to a streamlined automated process.",
+      "category": "OTHER",
+      "timestamp": "2026-05-04T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-quick-generates-analyses-from-natural-language-prompts/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2559be668824d025bb533ccaca79b3794418b978",
+      "title": "Amazon Aurora DSQL now supports the JSON data type with compression",
+      "summary": "Amazon Aurora DSQL now supports the PostgreSQL JSON data type with optional compression, allowing developers to use existing PostgreSQL JSON-dependent code and tools without modification. This feature enables seamless storage of semi-structured data like API payloads, configuration objects, and event logs alongside traditional relational data in Aurora DSQL tables.",
+      "category": "DATABASE",
+      "timestamp": "2026-05-04T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aurora-dsql-json-support/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "da1727022249fd6041f6a47507d85bd2dc6846c0",
+      "title": "Amazon Quick introduces Dataset Q&A for conversational analytics against enterprise data",
+      "summary": "Amazon QuickSight has launched Dataset Q&A, a new conversational analytics feature that allows users to ask natural language questions directly against their enterprise data. This capability, along with the existing Dashboard Q&A, enables anyone with dataset access to explore data and gain insights using plain English while maintaining all security and governance policies. The feature democratizes data analysis by making it accessible through natural language rather than requiring technical query skills.",
+      "category": "SECURITY",
+      "timestamp": "2026-05-04T16:55:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-quick-dataset-qa/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ead501b1b482ac382ad6cb02500f025f7800eb81",
+      "title": "Amazon Quick now supports S3 tables bucket as a data source",
+      "summary": "Amazon QuickSight now supports S3 table buckets as a direct data source, allowing users to build dashboards and perform analytics on Apache Iceberg tables without requiring intermediate data warehouses or OLAP layers. This integration enables both AI-powered and traditional BI workloads through a simplified lakehouse architecture. The feature works alongside Zero-ETL integrations from sources like Salesforce, SAP, and Kinesis Data Firehose.",
+      "category": "STORAGE",
+      "timestamp": "2026-05-04T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/quick-direct-query-s3-tables/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c03aca2b12fa598c299a799c194b08660b28bb29",
+      "title": "Amazon EventBridge supports data plane logging to AWS CloudTrail",
+      "summary": "Amazon EventBridge now supports data plane API logging through AWS CloudTrail, giving customers enhanced visibility into event bus activity for improved security monitoring and operational troubleshooting. This new capability allows users to track API activities within their event-driven applications built on EventBridge's serverless event bus platform. The feature helps customers follow security best practices by providing detailed logging of events from AWS services, SaaS applications, and custom sources.",
+      "category": "SECURITY",
+      "timestamp": "2026-05-04T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-eventbridge-data-aws-cloudtrail/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "88e5f640b9d61d1d0f44b1a792c52930299c78be",
+      "title": " Amazon Quick upgrades the extension for Microsoft Outlook (Preview)",
+      "summary": "AWS has announced a preview of the Amazon Quick extension for Microsoft Outlook, which integrates generative AI-powered productivity tools directly into email and calendar workflows. The extension allows users to summarize unread messages, organize their inbox, schedule meetings, and draft responses using natural language commands without leaving Outlook. The tool aims to help users prioritize emails and focus on important tasks by leveraging AI capabilities within their existing email interface.",
+      "category": "AI_ML",
+      "timestamp": "2026-05-04T15:27:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-quick-microsoft-outlook/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d5ce74e1ec45c1c61d9d2167bef6f6b67ca50935",
+      "title": "Amazon SageMaker AI launches AI agent experience for model customization",
+      "summary": "Amazon SageMaker AI has launched a new AI agent experience that dramatically reduces model customization time from months to just days or hours. The agentic workflow streamlines the complex process of defining use cases, preparing data, selecting models, and running experiments with various fine-tuning techniques. This enhancement helps customers more efficiently identify suitable model candidates that meet their specific success criteria.",
+      "category": "AI_ML",
+      "timestamp": "2026-05-04T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-ai-ai/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ab849d4189d122139320bc39eed6d31541b17b92",
+      "title": "AWS Payment Cryptography announces support for cross account key sharing",
+      "summary": "AWS Payment Cryptography now supports cross-account key sharing through resource-based policies (RBP), enabling customers to manage cryptographic keys across multiple AWS accounts within or outside their organization. This enhancement provides greater flexibility for managing keys at scale and simplifies cryptography operations in cloud-hosted payment applications with elastic scalability.",
+      "category": "SECURITY",
+      "timestamp": "2026-05-04T14:58:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/payment-cryptography-resource/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a33a46459fcab6b26cdb13fce3d0cc92ba894bc9",
+      "title": "Amazon RDS for SQL Server now supports M8i and R8i instances",
+      "summary": "Amazon RDS for SQL Server now supports M8i and R8i instances powered by custom Intel Xeon 6 processors exclusive to AWS. These new instances deliver up to 15% better price-performance and 2.5x more memory bandwidth compared to equivalent 7th generation Intel-based instances, providing the highest performance among comparable Intel processors in the cloud.",
+      "category": "DATABASE",
+      "timestamp": "2026-05-04T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/rds-sqlserver-supports-m8i-r8i-instances/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "f78c2c5df5bfab162c59d185b2682fb8e5fce1a8",
       "title": "Amazon Bedrock AgentCore is now available in the South America (São Paulo) Region",
       "summary": "Amazon Bedrock AgentCore, a platform for building, connecting, and optimizing AI agents, is now available in the AWS South America (São Paulo) Region. The service enables engineers to quickly develop agents using any framework and model, integrate them with enterprise systems, and continuously optimize them with built-in security. This regional expansion allows South American customers to deploy agents closer to their end users for improved performance.",
@@ -5179,113 +5279,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-redshift-autonomics-for-multi-cluster",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "efcf1977befb3314b8cc0a28fdd118ebbdcd16f5",
-      "title": "Amazon DynamoDB global tables now support replication across multiple AWS accounts",
-      "summary": "Amazon DynamoDB global tables now support replication across multiple AWS accounts, allowing customers to replicate tables across both accounts and regions. This new capability enables improved resiliency, account-level workload isolation, and the ability to apply distinct security and governance controls across different AWS accounts.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-03T21:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/dynamodb-gt-multi-account/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "1cf42c201a658d46850dcbebf9af88f4c156185f",
-      "title": "AWS Marketplace introduces localized billing for Professional Services from AWS EMEA",
-      "summary": "AWS Marketplace has launched localized billing for Professional Services in the Europe, Middle East, and Africa (EMEA) region through the AWS EMEA Marketplace Operator. EMEA customers can now use local payment methods and receive invoices directly from AWS EMEA, eliminating previous procurement barriers caused by complex cross-entity payment processes. This change simplifies the purchasing experience for Professional Services in the EMEA region.",
-      "category": "OTHER",
-      "timestamp": "2026-02-03T21:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-marketplace-localized-billing-professional/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "e77c2e2ec1f9aaa64fc1c029fb725c2d1336687d",
-      "title": "Amazon RDS now provides an enhanced console experience to connect to a database",
-      "summary": "Amazon RDS has launched an enhanced console experience that consolidates all database connection information in one centralized location. The new interface provides ready-made, automatically-configured code snippets for multiple programming languages (Java, Python, Node.js) and command-line tools like psql, with snippets that adjust based on your database's specific authentication settings.",
-      "category": "DATABASE",
-      "timestamp": "2026-02-03T19:06:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-rds-provides-enhanced-console-experience",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "697402200cb9237a9a984d8f45466fd1567df242",
-      "title": "AWS Lake Formation is now available in Asia Pacific (New Zealand) Region",
-      "summary": "AWS Lake Formation has expanded to the Asia Pacific (New Zealand) Region, allowing organizations in that area to centrally manage fine-grained data access permissions and securely share data. The service enables users to define data locations and security policies while providing access to a centralized AWS Glue Data Catalog that describes available datasets and their usage guidelines.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-03T18:14:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/AWS-Lake-Formation-Asia-Pacific-New-Zealand-Region",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "eca6f315ebfe177eb5aeee7bbd6cff22b120c689",
-      "title": "Amazon Connect launches an appeals workflow for agent performance evaluations",
-      "summary": "Amazon Connect has introduced an integrated appeals workflow that allows agents to dispute performance evaluations directly within the Connect UI. When agents disagree with their evaluation scores, they can submit appeals with supporting reasoning, such as citing specific examples of good performance that may have been overlooked. This feature aims to improve evaluation fairness and boost agent engagement in the performance review process.",
-      "category": "OTHER",
-      "timestamp": "2026-02-03T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-appeals-workflow-agent-performance-evaluations/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "8d017876ef7e63e8759770d239f12a73cf9d6699",
-      "title": "Amazon Aurora DSQL now supports indexes on the NUMERIC data type",
-      "summary": "Amazon Aurora DSQL has added support for creating indexes on NUMERIC data types, allowing NUMERIC columns to be used in both primary keys and secondary indexes. This enhancement improves query performance for applications that work with high-precision numerical data like currency amounts, measurements, and statistical information.",
-      "category": "DATABASE",
-      "timestamp": "2026-02-03T17:39:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-dsql-indexes-numeric-data-type/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b105e5bd3b4c92641802ea6abfb286813ae7b005",
-      "title": "AWS Management Console now displays Account Name on the Navigation bar for easier account identification",
-      "summary": "AWS has made the account name visible in the AWS Management Console's navigation bar across all public regions, making it easier for users to identify which account they're currently working in. This feature helps customers who manage multiple AWS accounts (such as separate development and production environments) quickly distinguish between accounts at a glance. The account name is displayed for all authorized users within each account.",
-      "category": "OTHER",
-      "timestamp": "2026-02-03T17:18:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/console-displays-account-name-on-nav-bar",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "3b36ad4d739f092e6872ff3e7d363b168df9d89e",
-      "title": "AWS IAM Identity Center enables account access and application use in multiple AWS Regions",
-      "summary": "AWS IAM Identity Center now allows you to replicate your single sign-on configuration from your primary AWS Region to additional regions of your choice. This enhancement improves resilience for user access to AWS accounts and enables you to deploy applications in regions that better meet your business requirements, such as data residency and user proximity needs.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-03T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-iam-identity-center-multi-region-aws-account-access-and-application-deployment",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "778ea6dafbe0647f7daf49131c847b5542141753",
-      "title": "Amazon Quick Suite Enables Easy Resolution of Ambiguous Map Locations",
-      "summary": "Amazon QuickSight (part of AWS analytics services) has introduced a new feature that allows users to resolve ambiguous map locations directly within map visualizations. When location names appear in multiple regions—like \"Springfield\" which exists in several U.S. states—users can now explicitly define the correct geographical context through methods such as adding supporting geospatial fields or searching functionality. This enhancement improves the accuracy of geographical data visualization by eliminating location ambiguity.",
-      "category": "OTHER",
-      "timestamp": "2026-02-03T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/quick-ambiguous-locations-resolution",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 527,
+    "total": 528,
     "byCategory": {
-      "SECURITY": 121,
-      "ANALYTICS": 20,
-      "OTHER": 103,
+      "AI_ML": 97,
+      "OTHER": 100,
       "DATABASE": 52,
-      "AI_ML": 94,
+      "SECURITY": 121,
+      "STORAGE": 22,
+      "ANALYTICS": 20,
       "COMPUTE": 75,
       "CONTAINERS": 21,
       "NETWORKING": 4,
-      "STORAGE": 21,
       "SERVERLESS": 16
     },
-    "lastUpdated": "2026-05-04T11:49:21.366Z"
+    "lastUpdated": "2026-05-04T22:57:29.600Z"
   },
-  "generatedAt": "2026-05-04T11:49:21.367Z"
+  "generatedAt": "2026-05-04T22:57:29.600Z"
 }
