@@ -5269,22 +5269,12 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/quick-ambiguous-locations-resolution",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "803b6d134774c60f7325b50976285d4ad3df5c06",
-      "title": "Oracle Database@AWS is now available in the Canada Central and Sydney AWS Regions",
-      "summary": "Oracle Database@AWS has expanded to two new AWS Regions: Canada Central and Sydney, with one Availability Zone in each region initially. This service provides access to Oracle Cloud Infrastructure (OCI) managed Oracle Exadata systems located within AWS data centers. The expansion enables customers to more easily migrate their on-premises Oracle Exadata and Oracle RAC applications to a similar cloud environment.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-03T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/oracle-database-aws-available-canada-central-sydney-aws-regions",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 528,
+    "total": 527,
     "byCategory": {
-      "SECURITY": 122,
+      "SECURITY": 121,
       "ANALYTICS": 20,
       "OTHER": 103,
       "DATABASE": 52,
@@ -5295,7 +5285,7 @@
       "STORAGE": 21,
       "SERVERLESS": 16
     },
-    "lastUpdated": "2026-05-03T22:42:23.928Z"
+    "lastUpdated": "2026-05-04T11:49:21.366Z"
   },
-  "generatedAt": "2026-05-03T22:42:23.928Z"
+  "generatedAt": "2026-05-04T11:49:21.367Z"
 }
