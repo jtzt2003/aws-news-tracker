@@ -1,12 +1,42 @@
 {
   "announcements": [
     {
+      "id": "ae7430761c3658dac6b65221ddfea7b8d214259e",
+      "title": "Amazon CloudWatch Logs Insights supports querying by log group tags",
+      "summary": "Amazon CloudWatch Logs Insights now supports querying log groups using tags, allowing customers to analyze logs without explicitly listing log group names. This enhancement enables users to query logs using key-value tag pairs like Environment: Production or Application: PaymentService, making log analysis more flexible and organized.",
+      "category": "OTHER",
+      "timestamp": "2026-05-04T23:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-cloudwatch-logs-query-by-tags/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4b9f75bb008c63bdfe2bbc8ae61a62bd81b9a80b",
+      "title": "Amazon WorkSpaces Applications now supports host-to-client URL redirection",
+      "summary": "Amazon WorkSpaces Applications now supports host-to-client URL redirection, automatically opening URLs from streaming sessions in users' local browsers instead of within the remote session. Administrators can configure allow/deny URL patterns through the AWS Management Console to control which content gets redirected. This feature helps organizations keep sensitive applications secure in the streaming environment while offloading resource-heavy content like videos to local devices for better performance.",
+      "category": "OTHER",
+      "timestamp": "2026-05-04T20:56:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-workspaces-applications-url/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "adc8c269ccb765d4e7137972f05317e7ef32f657",
       "title": "AWS Entity Resolution launches support for incremental Machine Learning based matching workflows",
       "summary": "AWS Entity Resolution now supports incremental Machine Learning-based matching workflows, allowing customers to add new records without reprocessing entire datasets. This eliminates a major bottleneck that previously required up to 2 days and thousands of dollars to process even single record additions. The new capability fundamentally transforms how enterprises can efficiently scale their entity resolution processes.",
       "category": "AI_ML",
       "timestamp": "2026-05-04T17:43:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-entity-resolution-ml/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8ea90ad41e82a70cf9916cfc05a73aea159831a9",
+      "title": "Amazon FSx is now available in the AWS Asia Pacific (New Zealand) Region",
+      "summary": "Amazon FSx, AWS's fully-managed file system service, is now available in the Asia Pacific (New Zealand) Region. The service offers four file system options (NetApp ONTAP, Windows File Server, Lustre, and OpenZFS) and provides a cost-effective solution for launching and scaling high-performance file systems in the cloud.",
+      "category": "SECURITY",
+      "timestamp": "2026-05-04T17:37:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-fsx-aws-asia-pacific/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5269,25 +5299,15 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-eks-simplifies-iam-permissions-eks-addons",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "80b2b61b731a5b2d641d6542a8e3473346761738",
-      "title": "Amazon Redshift now supports autonomics for multi-cluster environments",
-      "summary": "Amazon Redshift has extended its autonomics capabilities to support multi-cluster environments, allowing automatic optimization features to work intelligently across multiple warehouses. This enhancement eliminates the need for manual performance tuning across consumer clusters, benefiting database administrators who manage distributed Redshift workloads. The autonomics features include Automatic Table Optimization, Automatic Table Sorting, Auto Vacuum, and Auto Analyze.",
-      "category": "DATABASE",
-      "timestamp": "2026-02-04T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-redshift-autonomics-for-multi-cluster",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 528,
+    "total": 530,
     "byCategory": {
+      "OTHER": 102,
       "AI_ML": 97,
-      "OTHER": 100,
-      "DATABASE": 52,
-      "SECURITY": 121,
+      "SECURITY": 122,
+      "DATABASE": 51,
       "STORAGE": 22,
       "ANALYTICS": 20,
       "COMPUTE": 75,
@@ -5295,7 +5315,7 @@
       "NETWORKING": 4,
       "SERVERLESS": 16
     },
-    "lastUpdated": "2026-05-04T22:57:29.600Z"
+    "lastUpdated": "2026-05-05T11:15:44.629Z"
   },
-  "generatedAt": "2026-05-04T22:57:29.600Z"
+  "generatedAt": "2026-05-05T11:15:44.629Z"
 }
