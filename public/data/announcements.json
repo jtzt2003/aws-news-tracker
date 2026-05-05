@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "89f5a738733c9971c60e9157588dbc270e52c606",
+      "title": "AWS Elemental MediaTailor now provides automatic secure server-to-server integration with Google's ad platforms",
+      "summary": "AWS Elemental MediaTailor now offers automatic authentication for server-to-server connections with Google's advertising platforms including Ad Manager, Campaign Manager, and Display & Video 360. This enhancement provides seamless integration for customers using Google's ad platforms with MediaTailor's server-side ad insertion (SSAI) service, which personalizes ads in video streams.",
+      "category": "AI_ML",
+      "timestamp": "2026-05-05T21:44:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/mediatailor-automatic-google-ad-platform-integration",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d9094c0f6767abd3a843084bbde73bb695ba1ea2",
+      "title": "AWS SAM CLI adds BuildKit support for AWS Lambda functions packaged as container images",
+      "summary": "AWS SAM CLI now supports BuildKit for building container images from Dockerfiles, enabling faster and more efficient builds for Lambda functions packaged as container images. This enhancement provides developers with advanced build features when creating containerized Lambda functions locally before deploying to AWS Cloud.",
+      "category": "CONTAINERS",
+      "timestamp": "2026-05-05T18:50:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-sam-cli-buildkit-aws-lambda/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7e378c72fd3ed4016b20ca683ea5b773a6dacdb5",
+      "title": "AWS SAM now supports WebSocket APIs for Amazon API Gateway",
+      "summary": "AWS Serverless Application Model (SAM) now supports WebSocket APIs for Amazon API Gateway, allowing developers to define complete WebSocket APIs with minimal configuration in their SAM templates. This new feature eliminates the need for manual setup when building real-time applications such as chat systems, live dashboards, AI/LLM streaming, and IoT applications. The enhancement makes it easier to build and manage serverless applications that require real-time communication capabilities.",
+      "category": "OTHER",
+      "timestamp": "2026-05-05T18:31:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-sam-websocket-apis-api-gateway/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "463a99aef39b4f5bfebedbca86fae7c6f898b9e3",
+      "title": "Amazon ElastiCache adds thirteen new Amazon CloudWatch metrics for network capacity planning and engine diagnostics",
+      "summary": "Amazon ElastiCache has introduced thirteen new CloudWatch metrics that enable customers to monitor network throttling, memory fragmentation, and connection exhaustion for node-based clusters. These metrics provide host-level and engine-level diagnostics directly through CloudWatch, eliminating the need to run INFO commands on individual nodes or manually calculate baselines from raw data. The new metrics cover network capacity monitoring, memory diagnostics, and connection tracking to improve cluster performance management.",
+      "category": "DATABASE",
+      "timestamp": "2026-05-05T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-elasticache-cloudwatch-metrics-network-engine-diagnostics/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "95fab86fa7ab680c0faa71f9e670c3d9b4aef990",
+      "title": "Amazon WorkSpaces now lets AI agents operate desktop applications (Preview)",
+      "summary": "Amazon WorkSpaces now supports AI agents operating desktop applications in a preview feature, allowing organizations to automate workflows involving legacy systems like mainframes and ERP tools that lack modern APIs. This addresses the \"last-mile challenge\" where AI agents previously couldn't interact with critical business applications that only have desktop interfaces. The solution maintains enterprise-grade security and governance while enabling large-scale automation of everyday business processes.",
+      "category": "OTHER",
+      "timestamp": "2026-05-05T17:25:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/workspaces-ai-agents/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0d6d72423c5fb31aa5594da42984036e486c6aca",
+      "title": "AWS IoT Core for Device Location adds Confidence Level Configuration and Measurement Type support",
+      "summary": "AWS IoT Core for Device Location has added two new enhancements for developers: the ability to specify confidence levels between 50-99% for location accuracy, and support for richer metadata in resolved device locations. The confidence level feature works with Cell ID, Wi-Fi, and Cell+Wi-Fi solvers and represents the statistical probability that a device's actual location falls within the reported accuracy radius. These updates provide developers with greater control over location resolution and more detailed location information.",
+      "category": "OTHER",
+      "timestamp": "2026-05-05T16:59:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iot-core-device-location/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9f84d6e193cf97f3daf5b37d004b8a4b53185d75",
+      "title": "Amazon MQ now supports in-place major version upgrades for RabbitMQ 4",
+      "summary": "Amazon MQ now supports in-place major version upgrades that allow users to upgrade RabbitMQ brokers from version 3.13 to 4.2 directly through the console, CLI, or API without creating new brokers or migrating data. The upgrade process preserves all broker configurations, queues, exchanges, bindings, users, and policies, though RabbitMQ 4.2 includes breaking changes such as the removal of classic mirrored queues.",
+      "category": "COMPUTE",
+      "timestamp": "2026-05-05T16:50:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-mq-inplace-upgrades-rabbitmq4/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "49bfb1e7a9ca8fef8dcc7c912f950abbae2403b9",
+      "title": "Amazon Quick now integrates with New Relic for observability-driven AI agents ",
+      "summary": "Amazon Quick has integrated with New Relic's AI agents through the Model Context Protocol (MCP) server, allowing engineers to perform incident investigation, root cause analysis, and task creation directly within their Quick workspace. This integration enables on-call engineers, SREs, and engineering leaders to access New Relic's observability tools—including alert insights, user impact analysis, and log analysis—through conversational prompts without switching platforms.",
+      "category": "OTHER",
+      "timestamp": "2026-05-05T16:35:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-quick-new-relic/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "41ba7e756346ba4dd18be104adc9f18104e1f531",
+      "title": "EC2 Instance Store CSI driver now generally available in EKS add-ons",
+      "summary": "AWS has made the EC2 Instance Store CSI driver generally available as an EKS add-on, allowing users to easily install and manage it through the EKS console or AWS CLI. This driver enables Kubernetes clusters to utilize EC2 instance store volumes, which provide ephemeral block-level storage directly attached to EC2 instances. The launch simplifies the process of integrating local instance storage with EKS clusters.",
+      "category": "CONTAINERS",
+      "timestamp": "2026-05-05T16:22:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/ec2-csi-eks/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "588490bd0237c3f97eaa4b960b920571692b10c5",
+      "title": "Amazon Connect Cases now supports customer profile identity resolution",
+      "summary": "Amazon Connect Cases now automatically consolidates case histories when duplicate customer profiles are merged through Identity Resolution. When customers have multiple profiles across different channels or contact details, the system detects duplicates, merges them, and brings all associated cases together under a single unified profile. This ensures agents can view complete case histories without manually searching for related cases across different customer profiles.",
+      "category": "OTHER",
+      "timestamp": "2026-05-05T15:25:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-cases-customer-profiles-id-res/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "ae7430761c3658dac6b65221ddfea7b8d214259e",
       "title": "Amazon CloudWatch Logs Insights supports querying by log group tags",
       "summary": "Amazon CloudWatch Logs Insights now supports querying log groups using tags, allowing customers to analyze logs without explicitly listing log group names. This enhancement enables users to query logs using key-value tag pairs like Environment: Production or Application: PaymentService, making log analysis more flexible and organized.",
@@ -5209,113 +5309,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/2/claude-opus-4.6-available-amazon-bedrock/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "73f2d4eba4137b7dc841268457b88d6156f9fe21",
-      "title": "AWS Batch now supports unmanaged compute environments for Amazon EKS",
-      "summary": "AWS Batch now supports unmanaged compute environments for Amazon EKS, allowing users to leverage AWS Batch's job scheduling and orchestration capabilities while maintaining full control over their Kubernetes infrastructure. This feature is particularly beneficial for organizations with specific security, compliance, or operational requirements that need direct management of their EKS clusters. Users can create these environments through the CreateComputeEnvironment API or AWS Batch console by selecting their existing EKS cluster.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-04T20:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-batch-on-eks-unmanaged-compute-environments",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b3cd16db3a347027a907df3c7e59146de8fd9af8",
-      "title": "Structured outputs now available in Amazon Bedrock",
-      "summary": "Amazon Bedrock now supports structured outputs, allowing foundation models to generate consistent, machine-readable responses that automatically adhere to predefined JSON schemas. This eliminates the need for manual JSON validation and additional application checks, making production workflows more reliable and predictable. The feature is particularly useful for tasks like data extraction and automated workflow processes.",
-      "category": "AI_ML",
-      "timestamp": "2026-02-04T19:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/structured-outputs-available-amazon-bedrock/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "7c8bcf897e5d50dfa512d06b4637f7a16338085f",
-      "title": "Amazon EC2 G7e instances now available in US West (Oregon) region",
-      "summary": "Amazon EC2 G7e instances powered by NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs are now available in the US West (Oregon) region. These instances deliver up to 2.3x better inference performance compared to G6e instances and are optimized for deploying large language models, agentic AI, multimodal generative AI, and physical AI models. G7e instances provide the highest performance for spatial computing and hybrid graphics workloads.",
-      "category": "AI_ML",
-      "timestamp": "2026-02-04T19:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-g7e-instances-oregon-region/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "211dbef1e98a5fd5543f490d8e522952d92e7c33",
-      "title": "Cartesia Sonic 3 text-to-speech model is now available on Amazon SageMaker JumpStart",
-      "summary": "Cartesia's Sonic 3, a state-of-the-art text-to-speech model, is now available on Amazon SageMaker JumpStart, offering AWS customers access to high-quality speech synthesis with industry-leading low latency. The model supports 42 languages and provides fine-grained control over speech characteristics including volume, speed, and emotion through API parameters and SSML tags.",
-      "category": "AI_ML",
-      "timestamp": "2026-02-04T19:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/cartesia-sonic-3-on-sagemaker-jumpstart",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c09720f06c4400b8a53421edc4f3e28a3a066965",
-      "title": "Amazon ECS adds Network Load Balancer support for Linear and Canary deployments",
-      "summary": "Amazon ECS now natively supports linear and canary deployment strategies for services using Network Load Balancers (NLB), enabling managed incremental traffic shifting during updates. This feature particularly benefits applications requiring TCP/UDP connections, low latency, long-lived connections, or static IP addresses. ECS customers using NLB can now perform controlled traffic shifting for safer application rollouts.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-02-04T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ecs-nlb-linear-canary-deployments",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d227d45efc8d9a004d4ec013df49df0814a6a045",
-      "title": "Apache Spark lineage now available in Amazon SageMaker Unified Studio for IDC based domains",
-      "summary": "Amazon SageMaker has made Data Lineage for Apache Spark jobs generally available in SageMaker Unified Studio for IDC-based domains. This feature tracks schema and data transformations across EMR (EC2, Serverless, EKS) and AWS Glue environments, helping users identify root causes of issues and understand the impact of data changes.",
-      "category": "AI_ML",
-      "timestamp": "2026-02-04T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/apache-spark-lineage-amazon-sageMaker-unified-studio",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "78b7f253fe3191f04377ac7e5819902ade75503b",
-      "title": "Introducing Amazon EC2 C8id, M8id, and R8id instances",
-      "summary": "AWS has launched new Amazon EC2 C8id, M8id, and R8id instances powered by custom Intel Xeon 6 processors, delivering up to 43% higher performance and 3.3x more memory bandwidth than previous generation instances. These new instances offer significantly expanded capacity with up to 384 vCPUs, 3TiB of memory, and 22.8TB of NVMe SSD storage—three times more than their predecessors.",
-      "category": "COMPUTE",
-      "timestamp": "2026-02-04T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8id-m8id-r8id-instances/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "3234b5b4c31c82706b8cce467529170be29140ec",
-      "title": "Amazon EC2 and VPC now display related resources for security groups",
-      "summary": "AWS has launched a new \"Related resources\" tab for security groups in the Amazon EC2 and VPC consoles, providing users with a consolidated view of all resources that depend on a specific security group. This feature eliminates the need to manually check multiple services before making security group configuration changes, helping customers better understand dependencies and avoid potential issues when modifying their virtual firewall rules.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-04T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-console-related-resources-generally-available",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "92b4d85f795336fb01763aa8653b82c0056d3482",
-      "title": "Amazon EKS simplifies providing IAM permissions to EKS add-ons in AWS GovCloud (US) Regions",
-      "summary": "Amazon EKS has introduced direct integration between EKS add-ons and EKS Pod Identity in AWS GovCloud (US) Regions, simplifying how cluster operational software obtains IAM permissions to interact with AWS services. This integration streamlines the lifecycle management process for critical add-ons that need to access AWS resources outside the Kubernetes cluster.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-02-04T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-eks-simplifies-iam-permissions-eks-addons",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 530,
+    "total": 531,
     "byCategory": {
-      "OTHER": 102,
-      "AI_ML": 97,
-      "SECURITY": 122,
-      "DATABASE": 51,
+      "AI_ML": 94,
+      "CONTAINERS": 21,
+      "OTHER": 107,
+      "DATABASE": 52,
+      "COMPUTE": 75,
+      "SECURITY": 120,
       "STORAGE": 22,
       "ANALYTICS": 20,
-      "COMPUTE": 75,
-      "CONTAINERS": 21,
       "NETWORKING": 4,
       "SERVERLESS": 16
     },
-    "lastUpdated": "2026-05-05T11:15:44.629Z"
+    "lastUpdated": "2026-05-05T22:56:07.385Z"
   },
-  "generatedAt": "2026-05-05T11:15:44.629Z"
+  "generatedAt": "2026-05-05T22:56:07.386Z"
 }
