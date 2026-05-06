@@ -5299,22 +5299,12 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-capacity-blocks-multiple-accounts",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "49edb37dd672f8277d5ce3578efa0db82fe67e85",
-      "title": "Claude Opus 4.6 now available in Amazon Bedrock",
-      "summary": "Amazon Bedrock now supports Claude Opus 4.6, which Anthropic describes as their most intelligent model and the world's best for coding, enterprise agents, and professional work. The model brings advanced capabilities to Bedrock customers, offering industry-leading performance for complex coding projects, agentic tasks, and enterprise workflows that require deep reasoning and reliability.",
-      "category": "AI_ML",
-      "timestamp": "2026-02-05T09:59:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/2/claude-opus-4.6-available-amazon-bedrock/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 531,
+    "total": 530,
     "byCategory": {
-      "AI_ML": 94,
+      "AI_ML": 93,
       "CONTAINERS": 21,
       "OTHER": 107,
       "DATABASE": 52,
@@ -5325,7 +5315,7 @@
       "NETWORKING": 4,
       "SERVERLESS": 16
     },
-    "lastUpdated": "2026-05-05T22:56:07.385Z"
+    "lastUpdated": "2026-05-06T11:47:48.113Z"
   },
-  "generatedAt": "2026-05-05T22:56:07.386Z"
+  "generatedAt": "2026-05-06T11:47:48.114Z"
 }
