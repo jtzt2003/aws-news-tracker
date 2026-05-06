@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "87ffed13bc80a140543f02490207b663c69d4e92",
+      "title": "AWS Site-to-Site VPN now supports modifying tunnel bandwidth on existing VPN connections",
+      "summary": "AWS Site-to-Site VPN now allows users to modify tunnel bandwidth between standard (up to 1.25 Gbps) and large (up to 5 Gbps) on existing connections without recreating them. Previously, bandwidth changes required deleting and recreating the entire connection, which generated new IP addresses and required updates to on-premises configurations. This enhancement simplifies bandwidth scaling while preserving existing tunnel configurations.",
+      "category": "OTHER",
+      "timestamp": "2026-05-06T21:09:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-site-to-site-vpn-modify-bandwidth/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5823b0927f44b55c5767a17e35abecf0942baf90",
+      "title": "Amazon EC2 P6-B300 instances are now available in the US East (N. Virginia) Region",
+      "summary": "Amazon EC2 P6-B300 instances are now available in the US East (N. Virginia) Region, featuring 8x NVIDIA Blackwell Ultra GPUs with 2.1 TB of GPU memory and high-performance networking capabilities. These instances offer significant improvements over P6-B200 instances, including 2x networking bandwidth, 1.5x GPU memory size, and 1.5x GPU TFLOPS performance, making them ideal for training and deploying AI models.",
+      "category": "COMPUTE",
+      "timestamp": "2026-05-06T19:24:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-p6-b300-us-east",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ea5af43fabc8a982d874bb15f2506ce0e31cef4e",
+      "title": "AWS Marketplace now supports programmatic procurement with Agreements API",
+      "summary": "AWS Marketplace has launched the Agreements API, which allows organizations to programmatically procure products and manage agreements through their existing tools and workflows. The API enables users to generate estimates, accept offers, track charges and entitlements, and update purchase orders automatically. When combined with the existing Discovery API, it provides a complete end-to-end procurement solution from product discovery through purchase.",
+      "category": "OTHER",
+      "timestamp": "2026-05-06T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-marketplace-agreements-api/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "53cb5753ab747f98a1f03748a9d565ce8a304fff",
+      "title": "Amazon Neptune now supports 1-click connect with CloudShell",
+      "summary": "Amazon Neptune has launched a 1-click connect feature that allows users to quickly connect to Neptune Database and Neptune Analytics directly through CloudShell. This eliminates the need for manual network configuration and access permission setup that previously required time-consuming effort from database administrators, developers, and data analysts. Users can now immediately start querying their graph databases without any manual network configuration steps.",
+      "category": "DATABASE",
+      "timestamp": "2026-05-06T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-neptune-cloudshell/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "bd34ed99a91ec01ac2cc73cc53fc244323c190a7",
+      "title": "Amazon Bedrock AgentCore Memory announces metadata for long-term memory",
+      "summary": "Amazon Bedrock AgentCore Memory has added metadata support for long-term memory records, allowing agents to tag, filter, and retrieve memories using structured attributes in addition to semantic search. Users can define up to ten indexed keys per memory resource (supporting STRING, NUMBER, and STRING_LIST types) and apply various operators to filter results. Metadata can be manually attached during ingestion or automatically extracted by the LLM based on provided instructions.",
+      "category": "AI_ML",
+      "timestamp": "2026-05-06T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentcore-longterm-memory-metadata",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3cebcf7a00613cef4a13eeb44ed445fc8ef10cab",
+      "title": "AWS Elastic Beanstalk now supports TLS listeners for Network Load Balancers",
+      "summary": "AWS Elastic Beanstalk now supports TLS listeners for Network Load Balancer environments, allowing you to configure SSL certificates and security policies directly through the console or CLI. This enables the load balancer to handle secure connections and forward decrypted traffic to instances. Previously, TLS listeners for NLB environments were not available as a managed configuration option in Elastic Beanstalk.",
+      "category": "SECURITY",
+      "timestamp": "2026-05-06T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/elastic-beanstalk-tls-support/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "32af36b0c90e96f1bfe34253d762ec1f81c47a8d",
+      "title": "AWS Elemental MediaTailor now supports ad trickplay personalization and compact DASH manifest optimization via dynamic transcoding ",
+      "summary": "AWS Elemental MediaTailor now natively supports ad trickplay personalization for HLS and DASH formats, as well as compact DASH manifest optimization, through dynamic transcoding. These enhancements eliminate the previous requirement for custom transcode profiles while improving streaming ad personalization and manifest delivery efficiency. The updates strengthen MediaTailor's server-side ad insertion capabilities for video streaming platforms.",
+      "category": "AI_ML",
+      "timestamp": "2026-05-06T14:24:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/mediatail-ad-trickplay-and-compact-dash-manifest-optimization",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e43a11d726c59e00a0c0ce41023a15a6f233aae4",
+      "title": "Announcing Agent Toolkit for AWS — help AI coding agents build effectively on AWS",
+      "summary": "AWS has launched the Agent Toolkit for AWS, a production-ready suite of tools designed to help AI coding agents build more effectively on AWS infrastructure with reduced errors, lower token costs, and enterprise-grade security. This toolkit replaces the previous MCP servers, plugins, and skills from AWS Labs. It addresses common challenges developers face when using coding agents for AWS development, particularly around complex multi-service workflows and outdated AWS service knowledge.",
+      "category": "SECURITY",
+      "timestamp": "2026-05-06T12:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/agent-toolkit/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "36ece50959068f10ee04b4ea5c96bd6c3a35d34b",
+      "title": "The AWS MCP Server is now generally available",
+      "summary": "AWS has announced the general availability of the AWS MCP Server, a managed server that enables AI coding agents to securely access AWS services through the Model Context Protocol (MCP). The server is part of the Agent Toolkit for AWS and provides organizations with visibility and control over AI agent interactions through IAM-based security guardrails and Amazon CloudWatch monitoring.",
+      "category": "OTHER",
+      "timestamp": "2026-05-06T12:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-mcp-server/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c56377d7796983c48f22623be46a1e0d9fe7ea53",
+      "title": "AWS Transfer Family web apps are now available in the AWS Asia Pacific (New Zealand) Region",
+      "summary": "AWS Transfer Family web apps are now available in the Asia Pacific (New Zealand) Region, allowing customers to provide their workforce with a fully managed, branded portal for accessing Amazon S3 data through a web browser. The service offers a simple interface for browsing, uploading, and downloading files securely without requiring technical expertise or additional infrastructure management.",
+      "category": "STORAGE",
+      "timestamp": "2026-05-06T10:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-transfer-family-asia-pacific/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "89f5a738733c9971c60e9157588dbc270e52c606",
       "title": "AWS Elemental MediaTailor now provides automatic secure server-to-server integration with Google's ad platforms",
       "summary": "AWS Elemental MediaTailor now offers automatic authentication for server-to-server connections with Google's advertising platforms including Ad Manager, Campaign Manager, and Display & Video 360. This enhancement provides seamless integration for customers using Google's ad platforms with MediaTailor's server-side ad insertion (SSAI) service, which personalizes ads in video streams.",
@@ -5229,93 +5329,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-network-firewall-new-price-reduction/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "18fc042f21db73c341f5300b063250e0ba57a31f",
-      "title": "Amazon EC2 G6e instances now available in Dubai region",
-      "summary": "Amazon EC2 G6e instances powered by NVIDIA L40S Tensor Core GPUs are now available in the Middle East (UAE) Region in Dubai. These instances support machine learning and spatial computing applications, including deployment of large language models, diffusion models for generating images/video/audio, and creating immersive 3D simulations and digital twins.",
-      "category": "AI_ML",
-      "timestamp": "2026-02-05T19:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-g6e-instances-dubai-region/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "9888fe1b3f23659b4855265197d6024383bc3600",
-      "title": "AWS Builder ID now supports Sign in with Apple ",
-      "summary": "AWS Builder ID has added Sign in with Apple as a new social login option, joining the existing Sign in with Google capability. This allows Apple users to access AWS applications like AWS Builder Center, Training and Certification, re:Post, Startups, and Kiro using their Apple credentials instead of managing separate AWS login information.",
-      "category": "OTHER",
-      "timestamp": "2026-02-05T19:20:00.000Z",
-      "link": "https://aws.amazon.comabout-aws/whats-new/2026/02/aws-builder-id-sign-in-apple",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f3edb04284f536c3ae749b83c4e28b1de6f03992",
-      "title": "Amazon WorkSpaces launches Graphics G6, Gr6, and G6f bundles",
-      "summary": "Amazon WorkSpaces has launched 12 new Graphics bundles (G6, Gr6, and G6f) built on the EC2 G6 family, designed to support graphics-intensive and GPU-accelerated workloads. These bundles are available on both WorkSpaces Personal and Core, offering various performance, memory, and cost configurations to meet different customer requirements.",
-      "category": "COMPUTE",
-      "timestamp": "2026-02-05T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-workspaces-personal-core-graphics-g6-gr6-g6f-bundles/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "00e9e08ad55b550e7f668ac9a801fa6be0fef3cb",
-      "title": "Amazon EC2 I7ie instances now available in AWS Canada (Central)",
-      "summary": "Amazon EC2 I7ie instances are now available in AWS Canada (Central), designed for large storage I/O intensive workloads with 5th Gen Intel Xeon Processors running at 3.2 GHz all-core turbo frequency. These instances deliver up to 40% better compute performance and 20% better price performance compared to I3en instances, while offering up to 120TB of local NVMe storage density—the highest available in the cloud for storage-optimized instances.",
-      "category": "COMPUTE",
-      "timestamp": "2026-02-05T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-i7ie-instances-available-aws-canada/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "2e8cd4fcaa6fa819ab4a0fe7d45db898b77a9c96",
-      "title": "AWS Glue launches native REST API connector for universal data integration",
-      "summary": "AWS Glue has launched a native REST API connector that allows customers to easily integrate data from any REST-enabled source into their ETL workflows. This new capability enables users to create custom connectors for REST-based data sources and seamlessly incorporate them into AWS Glue ETL jobs. The addition expands AWS Glue's connectivity options beyond its existing 60+ native connectors for 100+ non-AWS data sources.",
-      "category": "ANALYTICS",
-      "timestamp": "2026-02-05T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-glue-rest-api-connector",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f56b5989d60bd1770b2b625eb730a0eaaa431d62",
-      "title": "Amazon EC2 High Memory U7i-6TB instances now available in AWS GovCloud (US-West)",
-      "summary": "Amazon EC2 High Memory U7i-6TB instances (u7i-6tb.112xlarge) are now available in AWS GovCloud (US-West), featuring 6TiB of DDR5 memory and 448 vCPUs powered by custom fourth-generation Intel Xeon Scalable Processors. These 7th generation instances are designed to scale transaction processing throughput in fast-growing data environments and support up to 100Gbps Elastic Block Storage.",
-      "category": "COMPUTE",
-      "timestamp": "2026-02-05T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-u7i-6tb-instances-available/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "97f2cbc297ec2465b132dc2943b4bc8a91d00236",
-      "title": "Amazon EC2 capacity blocks for ML can be shared across multiple accounts",
-      "summary": "AWS has announced the general availability of cross-account sharing for Amazon EC2 Capacity Blocks for ML, enabling organizations to share reserved GPU capacity across multiple AWS accounts through AWS Resource Access Manager (RAM). This feature allows organizations to purchase Capacity Blocks once and provision them across different accounts and workloads at no additional cost, helping optimize GPU utilization and reduce overall expenses.",
-      "category": "COMPUTE",
-      "timestamp": "2026-02-05T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-capacity-blocks-multiple-accounts",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 530,
+    "total": 533,
     "byCategory": {
-      "AI_ML": 93,
+      "OTHER": 109,
+      "COMPUTE": 72,
+      "DATABASE": 53,
+      "AI_ML": 94,
+      "SECURITY": 122,
+      "STORAGE": 23,
       "CONTAINERS": 21,
-      "OTHER": 107,
-      "DATABASE": 52,
-      "COMPUTE": 75,
-      "SECURITY": 120,
-      "STORAGE": 22,
-      "ANALYTICS": 20,
+      "ANALYTICS": 19,
       "NETWORKING": 4,
       "SERVERLESS": 16
     },
-    "lastUpdated": "2026-05-06T11:47:48.113Z"
+    "lastUpdated": "2026-05-06T22:54:04.198Z"
   },
-  "generatedAt": "2026-05-06T11:47:48.114Z"
+  "generatedAt": "2026-05-06T22:54:04.198Z"
 }
