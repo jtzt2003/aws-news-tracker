@@ -5309,43 +5309,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-config-new-resource-types",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "1027e17ca00cecdb58eb16452ee86fb57e8b3c93",
-      "title": "Amazon Connect Cases now supports CSV uploads to map related field options",
-      "summary": "Amazon Connect Cases now allows administrators to use CSV file uploads to define complex field relationships in case templates, such as which defect types apply to specific product categories. This new feature replaces manual configuration with bulk uploads, significantly reducing setup time and onboarding effort for organizations managing large-scale field option mappings.",
-      "category": "OTHER",
-      "timestamp": "2026-02-06T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-cases-csv-related-field-options",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "e5c59992deac095183b0bdb0b92e7d3699eab9ed",
-      "title": "AWS Network Firewall announces new price reductions",
-      "summary": "AWS Network Firewall has announced two key pricing reductions to lower costs for customers. The service now extends existing hourly and data processing discounts to NAT Gateways that are service-chained with Network Firewall secondary endpoints, expanding beyond the previous limitation to primary endpoints only. Additionally, AWS has eliminated extra data processing charges for Advanced Inspection features, including TLS inspection of encrypted traffic.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-06T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-network-firewall-new-price-reduction/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 533,
+    "total": 531,
     "byCategory": {
-      "OTHER": 109,
+      "OTHER": 108,
       "COMPUTE": 72,
       "DATABASE": 53,
       "AI_ML": 94,
-      "SECURITY": 122,
+      "SECURITY": 121,
       "STORAGE": 23,
       "CONTAINERS": 21,
       "ANALYTICS": 19,
       "NETWORKING": 4,
       "SERVERLESS": 16
     },
-    "lastUpdated": "2026-05-06T22:54:04.198Z"
+    "lastUpdated": "2026-05-07T11:47:58.483Z"
   },
-  "generatedAt": "2026-05-06T22:54:04.198Z"
+  "generatedAt": "2026-05-07T11:47:58.484Z"
 }
