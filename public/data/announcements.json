@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "11eb46f12a11728fe9b9e7a3af69bf6a77953357",
+      "title": "Amazon EC2 X8i instances are now available in additional regions",
+      "summary": "Amazon EC2 X8i instances are now available in Europe (Ireland) and Asia Pacific (Mumbai) regions, powered by custom Intel Xeon 6 processors exclusive to AWS. These SAP-certified instances deliver up to 43% higher performance, 1.5x more memory capacity (up to 6TB), and 3.3x more memory bandwidth compared to previous generations, offering the highest performance among comparable Intel processors in the cloud.",
+      "category": "COMPUTE",
+      "timestamp": "2026-05-07T20:45:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-x8i-instances-BOM-DUB-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8ddee53f17d403a26eecaf438158b11091686f33",
+      "title": "Amazon SageMaker Unified Studio adds identity and user management features",
+      "summary": "Amazon SageMaker Unified Studio has introduced new administration features that give administrators enhanced control over identity configuration and user management for both IAM and Identity Center domains. In IAM domains, administrators can now onboard users through single sign-on by configuring AWS IAM Identity Center and can add various types of users (IAM roles, users, Identity Center users and groups) as project members. These updates improve team collaboration capabilities within the platform.",
+      "category": "SECURITY",
+      "timestamp": "2026-05-07T19:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/smus-identity-user-management/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0ff8b8fbdd11406697fc10fa437a0be801f1071f",
+      "title": "Amazon EC2 G7e instances now available in Europe (London) region",
+      "summary": "Amazon EC2 G7e instances powered by NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs are now available in the Europe (London) region. These instances deliver up to 2.3x better inference performance compared to G6e instances and are optimized for deploying large language models, agentic AI, multimodal generative AI, and physical AI models. G7e instances provide the highest performance for spatial computing and hybrid graphics-compute workloads.",
+      "category": "AI_ML",
+      "timestamp": "2026-05-07T18:04:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-g7e-london-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "47c23f3a42f8e1bca95cb55d32c4d7423583e00a",
+      "title": "   AWS Capabilities by Region now supports availability notifications ",
+      "summary": "AWS has launched availability notifications for AWS Capabilities by Region, a subscription-based system that automatically alerts developers when specific AWS services or features become available in their target regions. This new feature helps builders track the availability of over 1,500 services and features across 37 AWS regions, streamlining infrastructure planning and deployment decisions.",
+      "category": "AI_ML",
+      "timestamp": "2026-05-07T17:48:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-regional-planning-tool-notification",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f88fa7b205cdaa69deebfacf90c19068412f885f",
+      "title": "AWS Elemental MediaTailor launches Monetization Functions",
+      "summary": "AWS Elemental MediaTailor has introduced monetization functions, a new feature that allows customers to customize ad decision server (ADS) requests and manage session data during ad-personalized video playback. This capability enables customers to call external APIs and perform data transformations directly within the playback session, removing the need for middleware between the player and ADS. The feature streamlines ad monetization workflows by providing built-in customization points for common use cases like resolving hashed email addresses.",
+      "category": "OTHER",
+      "timestamp": "2026-05-07T17:20:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-elemental-mediatailor-monetization-functions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d45ffa52e8aba2f125ab77661d5290760199397c",
+      "title": "AWS Advanced JDBC Wrapper now provides client-side encryption",
+      "summary": "AWS has added client-side encryption capabilities to its Advanced JDBC Wrapper through a new KMS Encryption plugin, allowing Java applications to encrypt sensitive data at the column level before it reaches Amazon Aurora and RDS databases. This feature works without requiring application code changes and complements the wrapper's existing advanced capabilities like failover handling and AWS authentication integration. The client-side encryption provides an additional security layer beyond the standard database encryption at rest and TLS in transit protections.",
+      "category": "SECURITY",
+      "timestamp": "2026-05-07T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-advanced-jdbc-wrapper-encryption/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "129e15a679698cdfd68e10141f51462a6fb02aa6",
+      "title": "Amazon SageMaker HyperPod now supports AMI-based node lifecycle configuration for Slurm clusters",
+      "summary": "Amazon SageMaker HyperPod now supports AMI-based configuration for Slurm clusters, eliminating the need to manually download, configure, or upload lifecycle scripts to S3. This streamlined approach significantly reduces cluster creation time by provisioning nodes with pre-configured software and settings for production-ready AI/ML training environments.",
+      "category": "AI_ML",
+      "timestamp": "2026-05-07T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-hyperpod-ami-based-node/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2f4047c67d28ed04dfa090281ca4f9ac792c11f5",
+      "title": "Amazon EC2 M8gn and M8gb instances are now available in AWS Europe (Ireland) region",
+      "summary": "Amazon EC2 M8gn and M8gb instances powered by AWS Graviton4 processors are now available in the Europe (Ireland) region, delivering up to 30% better compute performance than Graviton3 processors. The M8gn instances offer up to 600 Gbps network bandwidth (the highest among network-optimized EC2 instances), while M8gb instances provide up to 300 Gbps of EBS bandwidth.",
+      "category": "COMPUTE",
+      "timestamp": "2026-05-07T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-m8gn-m8gb-aws-europe/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c6f5ea854fb0355879b9f4ba83abb824bb2dce32",
+      "title": "AWS India customers can now use UPI Scan and Pay for sign-up and payments",
+      "summary": "AWS now allows customers in India to use UPI (Unified Payments Interface) Scan and Pay for account sign-ups and invoice payments. The new feature enables customers to simply scan a QR code in the AWS Console with popular UPI mobile apps like Google Pay, PhonePe, Paytm, or Amazon Pay for instant bank-to-bank transfers.",
+      "category": "OTHER",
+      "timestamp": "2026-05-07T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-india-upi-scanandpay/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "dd54f9c0542767e7ab81757532f499319383fd64",
+      "title": "Introducing Amazon EC2 R8idn and R8idb instances ",
+      "summary": "AWS has launched Amazon EC2 R8idn and R8idb instances powered by custom sixth-generation Intel Xeon Scalable processors and AWS Nitro cards. These new instances deliver up to 43% better compute performance per vCPU compared to previous R6in generation instances, with R8idn instances offering up to 600 Gbps network bandwidth.",
+      "category": "COMPUTE",
+      "timestamp": "2026-05-07T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-r8idn-r8idb/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "87ffed13bc80a140543f02490207b663c69d4e92",
       "title": "AWS Site-to-Site VPN now supports modifying tunnel bandwidth on existing VPN connections",
       "summary": "AWS Site-to-Site VPN now allows users to modify tunnel bandwidth between standard (up to 1.25 Gbps) and large (up to 5 Gbps) on existing connections without recreating them. Previously, bandwidth changes required deleting and recreating the entire connection, which generated new IP addresses and required updates to on-premises configurations. This enhancement simplifies bandwidth scaling while preserving existing tunnel configurations.",
@@ -5269,63 +5369,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-redshift-allocate-extra-compute-for-automatic-optimizations",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "79242eec442bb04703f3a26bc7676ddc14d8197c",
-      "title": "Amazon WorkSpaces Secure Browser now supports custom domain",
-      "summary": "Amazon WorkSpaces Secure Browser now allows organizations to use custom domains for their portal access instead of the default AWS-provided URLs. This enhancement enables administrators to configure portal access through their own domain names, providing a more branded and integrated user experience. The setup requires adding the custom domain in the portal settings and configuring a reverse proxy.",
-      "category": "NETWORKING",
-      "timestamp": "2026-02-06T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-workspaces-secure-browser-custom-domains/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f2283e913d0560ad7e8efb83670ba82fe5790403",
-      "title": "Amazon ECS Managed Instances now available in AWS European Sovereign Cloud",
-      "summary": "Amazon ECS Managed Instances is now available in the AWS European Sovereign Cloud, providing a fully managed compute option that eliminates infrastructure management overhead while maintaining access to full EC2 capabilities. This service automatically handles infrastructure operations and scaling, allowing organizations to focus on applications while reducing total cost of ownership and operational complexity.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-06T17:10:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/ecs-mi-european-sovereign-cloud",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "59900e7bcf368c21be68b25914857a68eabab66f",
-      "title": "Amazon Bedrock AgentCore Browser now supports browser profiles",
-      "summary": "Amazon Bedrock AgentCore Browser now supports browser profiles, allowing users to maintain authentication state across multiple browser sessions without needing to log in repeatedly. This feature significantly reduces session setup time from minutes to tens of seconds by persisting browser data like cookies and local storage. The enhancement particularly benefits enterprise customers who run hundreds or thousands of automated browser sessions daily.",
-      "category": "AI_ML",
-      "timestamp": "2026-02-06T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-bedrock-agentcore-browser-profiles",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "250e5e3176cc8cd3ea667dd4edab3412dfcc288b",
-      "title": "AWS Config now supports 30 new resource types",
-      "summary": "AWS Config has added support for 30 new resource types across services including Amazon EKS, Amazon Q, and AWS IoT, expanding monitoring coverage of AWS environments. This enhancement allows users to better discover, assess, audit, and remediate a broader range of resources. If you have recording enabled for all resource types, AWS Config will automatically begin tracking these new additions.",
-      "category": "AI_ML",
-      "timestamp": "2026-02-06T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-config-new-resource-types",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 531,
+    "total": 537,
     "byCategory": {
-      "OTHER": 108,
-      "COMPUTE": 72,
+      "COMPUTE": 75,
+      "SECURITY": 122,
+      "AI_ML": 95,
+      "OTHER": 110,
       "DATABASE": 53,
-      "AI_ML": 94,
-      "SECURITY": 121,
       "STORAGE": 23,
       "CONTAINERS": 21,
       "ANALYTICS": 19,
-      "NETWORKING": 4,
+      "NETWORKING": 3,
       "SERVERLESS": 16
     },
-    "lastUpdated": "2026-05-07T11:47:58.483Z"
+    "lastUpdated": "2026-05-07T23:00:41.192Z"
   },
-  "generatedAt": "2026-05-07T11:47:58.484Z"
+  "generatedAt": "2026-05-07T23:00:41.193Z"
 }
