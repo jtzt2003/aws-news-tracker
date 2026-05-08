@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "6fc1528306d0acb7d2b60649f9aacf7da41a15df",
+      "title": "Amazon EC2 G6 instances now available in AWS European Sovereign Cloud (Germany)",
+      "summary": "AWS has launched Amazon EC2 G6 instances powered by NVIDIA L4 GPUs in the AWS European Sovereign Cloud (Germany). These instances are designed to handle graphics-intensive workloads and machine learning applications including natural language processing, computer vision, speech recognition, and graphics rendering. The availability expands AWS's GPU compute options for customers requiring data sovereignty in the European region.",
+      "category": "AI_ML",
+      "timestamp": "2026-05-07T21:07:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-g6-aws-european-sovereign-cloud/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "11eb46f12a11728fe9b9e7a3af69bf6a77953357",
       "title": "Amazon EC2 X8i instances are now available in additional regions",
       "summary": "Amazon EC2 X8i instances are now available in Europe (Ireland) and Asia Pacific (Mumbai) regions, powered by custom Intel Xeon 6 processors exclusive to AWS. These SAP-certified instances deliver up to 43% higher performance, 1.5x more memory capacity (up to 6TB), and 3.3x more memory bandwidth compared to previous generations, offering the highest performance among comparable Intel processors in the cloud.",
@@ -77,6 +87,16 @@
       "category": "COMPUTE",
       "timestamp": "2026-05-07T16:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-m8gn-m8gb-aws-europe/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d626d6cd980c6812fdabfb232b2a6ba53c83f60d",
+      "title": "Amazon Connect Outbound Campaigns adds multi-contact time zone detection ",
+      "summary": "Amazon Connect Outbound Campaigns has enhanced its time zone detection to analyze all phone numbers and addresses in a customer profile, rather than just the primary contact information. When multiple time zones are detected for a single customer, the system now only makes calls during hours that fall within the configured window for all detected time zones. This improvement helps ensure compliance with calling time restrictions for customers who have contact information spanning multiple geographic regions.",
+      "category": "OTHER",
+      "timestamp": "2026-05-07T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-campaign-multitimezone",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5372,12 +5392,12 @@
     }
   ],
   "stats": {
-    "total": 537,
+    "total": 539,
     "byCategory": {
+      "AI_ML": 96,
       "COMPUTE": 75,
       "SECURITY": 122,
-      "AI_ML": 95,
-      "OTHER": 110,
+      "OTHER": 111,
       "DATABASE": 53,
       "STORAGE": 23,
       "CONTAINERS": 21,
@@ -5385,7 +5405,7 @@
       "NETWORKING": 3,
       "SERVERLESS": 16
     },
-    "lastUpdated": "2026-05-07T23:00:41.192Z"
+    "lastUpdated": "2026-05-08T11:16:15.194Z"
   },
-  "generatedAt": "2026-05-07T23:00:41.193Z"
+  "generatedAt": "2026-05-08T11:16:15.194Z"
 }
