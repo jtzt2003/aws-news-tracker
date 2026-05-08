@@ -1,6 +1,56 @@
 {
   "announcements": [
     {
+      "id": "ac5e49574268b7bc4709ff1514ce41df759348da",
+      "title": "Amazon Route 53 Global Resolver now lets you add and remove AWS Regions for anycast DNS resolution",
+      "summary": "Amazon Route 53 Global Resolver now allows users to dynamically add and remove AWS Regions for anycast DNS resolution, providing flexible control over DNS query locations. This enhancement enables organizations to easily scale their DNS coverage as they grow and adjust regional deployments to meet compliance requirements. The feature maintains Global Resolver's core capabilities of anycast DNS resolution for both public and private domains, along with DNS filtering and centralized logging.",
+      "category": "NETWORKING",
+      "timestamp": "2026-05-08T17:43:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-route-global-resolver-aws/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "076bb0d82bdd81099df79b4b1c038387350beee6",
+      "title": "AWS Service Catalog is now available in the AWS Asia Pacific (New Zealand) and Canada West (Calgary) regions",
+      "summary": "AWS Service Catalog is now available in two new regions: Asia Pacific (New Zealand) and Canada West (Calgary). This service allows customers to create and manage catalogs of approved Infrastructure as Code (IaC) products that can be deployed on AWS using tools like CloudFormation or Terraform.",
+      "category": "COMPUTE",
+      "timestamp": "2026-05-08T16:43:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-service-catalog-calgary-new-zealand-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "891f94e590a96e443fc2e8627c49508e981bfa30",
+      "title": "IAM Policy Autopilot adds Java support and Terraform-aware policy generation",
+      "summary": "AWS has expanded its open-source IAM Policy Autopilot tool to support Java applications and Terraform-aware policy generation, adding to its existing language coverage. The tool, launched at re:Invent 2025, automatically generates baseline IAM policies from code to help developers create less permissive policies and reduce time spent on policy creation and access troubleshooting.",
+      "category": "SECURITY",
+      "timestamp": "2026-05-08T04:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/iam-policy-autopilot/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "23c889add84dbef019c4069a30b3ebca28f86658",
+      "title": "Amazon Route 53 Resolver endpoints now support additional capabilities for IPv6 query traffic",
+      "summary": "Amazon Route 53 Resolver endpoints now support DNS64 on inbound endpoints and IPv6 forwarding through internet gateways on outbound endpoints, simplifying hybrid DNS management across IPv4 and IPv6 networks. The DNS64 feature allows IPv6-only on-premises clients to access IPv4 AWS services by automatically synthesizing IPv6 responses for IPv4-only domains. These enhancements make it easier to integrate mixed IPv4/IPv6 environments without requiring changes to existing services.",
+      "category": "NETWORKING",
+      "timestamp": "2026-05-07T23:08:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-route-53-resolver-ipv6/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5482d91fa45853b37bc2971dc35f0f3750852ee2",
+      "title": "AWS Marketplace introduces Tax management portal for sellers",
+      "summary": "AWS Marketplace has launched a new Tax management portal that allows sellers to independently view and download invoices through a self-service process, eliminating the need to contact support. The portal is integrated into the AWS Partner Central console and provides centralized access to both seller listing fee invoices and buyer invoices for applicable regions. This streamlines invoice management and record-keeping for marketplace sellers.",
+      "category": "OTHER",
+      "timestamp": "2026-05-07T21:36:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-marketplace-tax/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "6fc1528306d0acb7d2b60649f9aacf7da41a15df",
       "title": "Amazon EC2 G6 instances now available in AWS European Sovereign Cloud (Germany)",
       "summary": "AWS has launched Amazon EC2 G6 instances powered by NVIDIA L4 GPUs in the AWS European Sovereign Cloud (Germany). These instances are designed to handle graphics-intensive workloads and machine learning applications including natural language processing, computer vision, speech recognition, and graphics rendering. The availability expands AWS's GPU compute options for customers requiring data sovereignty in the European region.",
@@ -5392,20 +5442,20 @@
     }
   ],
   "stats": {
-    "total": 539,
+    "total": 544,
     "byCategory": {
+      "NETWORKING": 5,
+      "COMPUTE": 76,
+      "SECURITY": 123,
+      "OTHER": 112,
       "AI_ML": 96,
-      "COMPUTE": 75,
-      "SECURITY": 122,
-      "OTHER": 111,
       "DATABASE": 53,
       "STORAGE": 23,
       "CONTAINERS": 21,
       "ANALYTICS": 19,
-      "NETWORKING": 3,
       "SERVERLESS": 16
     },
-    "lastUpdated": "2026-05-08T11:16:15.194Z"
+    "lastUpdated": "2026-05-08T22:55:27.787Z"
   },
-  "generatedAt": "2026-05-08T11:16:15.194Z"
+  "generatedAt": "2026-05-08T22:55:27.788Z"
 }
