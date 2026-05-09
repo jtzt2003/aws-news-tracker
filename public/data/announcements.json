@@ -1,6 +1,26 @@
 {
   "announcements": [
     {
+      "id": "5e77c277baf1ba68c3e31d7f7bdf788e6445b4bf",
+      "title": "AWS Client VPN now supports Ubuntu OS version 26.04 LTS ",
+      "summary": "AWS Client VPN now supports Ubuntu 26.04 LTS, expanding its Linux desktop client compatibility to include the latest Ubuntu version. The free desktop client allows secure connections for remote workforces to AWS or on-premises networks. AWS Client VPN already supports macOS, Windows, and other Ubuntu-Linux versions.",
+      "category": "OTHER",
+      "timestamp": "2026-05-08T22:39:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-client-vpn-ubuntu-26/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3a0e0fa06699086e1ab73d24e7a7d1da69a4dc50",
+      "title": "Amazon Connect adds default Step-by-Step Guides for After Contact Work",
+      "summary": "Amazon Connect now automatically launches Step-by-Step Guides when agents enter After Contact Work (ACW) state, eliminating the need for manual activation. This feature helps contact centers standardize post-contact workflows and reduce handle time by automatically guiding agents through required wrap-up tasks like logging disposition codes and updating cases.",
+      "category": "OTHER",
+      "timestamp": "2026-05-08T20:12:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-adds-default-step-by-step-guides-for-after-contact-work",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "ac5e49574268b7bc4709ff1514ce41df759348da",
       "title": "Amazon Route 53 Global Resolver now lets you add and remove AWS Regions for anycast DNS resolution",
       "summary": "Amazon Route 53 Global Resolver now allows users to dynamically add and remove AWS Regions for anycast DNS resolution, providing flexible control over DNS query locations. This enhancement enables organizations to easily scale their DNS coverage as they grow and adjust regional deployments to meet compliance requirements. The feature maintains Global Resolver's core capabilities of anycast DNS resolution for both public and private domains, along with DNS filtering and centralized logging.",
@@ -5442,12 +5462,12 @@
     }
   ],
   "stats": {
-    "total": 544,
+    "total": 546,
     "byCategory": {
+      "OTHER": 114,
       "NETWORKING": 5,
       "COMPUTE": 76,
       "SECURITY": 123,
-      "OTHER": 112,
       "AI_ML": 96,
       "DATABASE": 53,
       "STORAGE": 23,
@@ -5455,7 +5475,7 @@
       "ANALYTICS": 19,
       "SERVERLESS": 16
     },
-    "lastUpdated": "2026-05-08T22:55:27.787Z"
+    "lastUpdated": "2026-05-09T10:57:54.251Z"
   },
-  "generatedAt": "2026-05-08T22:55:27.788Z"
+  "generatedAt": "2026-05-09T10:57:54.251Z"
 }
