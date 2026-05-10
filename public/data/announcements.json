@@ -5429,53 +5429,23 @@
       "link": "https://aws.amazon.comabout-aws/whats-new/2026/02/amazon-documentdb-mongodb-compatibility-asia-pacific-melbourne-region",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "eb7785afa4f405d6bb74eb2a05f7eba5f9226907",
-      "title": "Amazon Neptune Analytics is now available in 7 additional regions",
-      "summary": "Amazon Neptune Analytics has expanded to 7 new regions including Middle East (Bahrain and UAE), Israel (Tel Aviv), Africa (Cape Town), Canada (Calgary), Asia Pacific (Malaysia), and Europe (Zurich). Users can now create and manage Neptune Analytics graphs in these regions to run advanced graph analytics. Neptune is a serverless graph database that enhances AI application accuracy while reducing operational costs and instantly scaling graph workloads.",
-      "category": "AI_ML",
-      "timestamp": "2026-02-09T21:45:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-neptune-analytics-in-seven-additional-regions",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "7440d901ef7bad7589b0a4af3e0ecea374668656",
-      "title": "AWS HealthOmics introduces a Kiro Power and Kiro IDE extension for bioinformatics workflow development",
-      "summary": "AWS HealthOmics has launched a Kiro Power and Kiro IDE extension that enables faster bioinformatics workflow development through AI agent-assisted tools. The extension allows users to create, run, debug, and optimize HealthOmics workflows in domain-specific languages like Nextflow and WDL directly within the Kiro interface. This integration enhances AWS HealthOmics' HIPAA-eligible platform for accelerating scientific breakthroughs through managed bioinformatics workflows.",
-      "category": "OTHER",
-      "timestamp": "2026-02-09T21:03:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-healthomics-introduces-kiro-plugin-for-bioinformatics-workflow-development/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "1d8c32ee208c3db06d38240067d8aed0e438aa71",
-      "title": "Amazon Redshift now supports allocating extra compute for automatic optimizations",
-      "summary": "Amazon Redshift now allows database administrators to allocate additional compute resources specifically for automatic optimization features (autonomics) during high-activity periods. This eliminates the need to manually schedule optimizations like Automatic Table Optimization, Automatic Table Sorting, Auto Vacuum, and Auto Analyze, allowing these processes to run continuously without impacting user workloads.",
-      "category": "DATABASE",
-      "timestamp": "2026-02-09T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-redshift-allocate-extra-compute-for-automatic-optimizations",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 546,
+    "total": 543,
     "byCategory": {
-      "OTHER": 114,
+      "OTHER": 113,
       "NETWORKING": 5,
       "COMPUTE": 76,
       "SECURITY": 123,
-      "AI_ML": 96,
-      "DATABASE": 53,
+      "AI_ML": 95,
+      "DATABASE": 52,
       "STORAGE": 23,
       "CONTAINERS": 21,
       "ANALYTICS": 19,
       "SERVERLESS": 16
     },
-    "lastUpdated": "2026-05-10T11:00:44.808Z"
+    "lastUpdated": "2026-05-10T22:49:53.110Z"
   },
-  "generatedAt": "2026-05-10T11:00:44.808Z"
+  "generatedAt": "2026-05-10T22:49:53.110Z"
 }
