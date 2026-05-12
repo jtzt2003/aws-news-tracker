@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "77ec79b4e6259fed0673dff65afa3abc522f716e",
+      "title": "Announcing Region Expansion of P6-B200 instances on SageMaker Studio notebooks",
+      "summary": "AWS has announced the general availability of Amazon EC2 P6-B200 instances in the US East (N. Virginia) region for SageMaker Studio notebooks. These instances are powered by 8 NVIDIA Blackwell GPUs with 1440 GB of GPU memory and 5th Generation Intel Xeon processors, delivering up to 2x better performance than P5en instances for AI training. Customers can use these high-performance instances to develop and fine-tune large foundation models interactively.",
+      "category": "AI_ML",
+      "timestamp": "2026-05-11T23:34:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/p6-b200-region-expansion-sagemaker-studio-notebooks/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "34d540e97b26d9b2786e0a5be5c7a50be57453e3",
       "title": "Announcing Region Expansion of G6e instances on SageMaker Studio notebooks",
       "summary": "AWS has announced the general availability of Amazon EC2 G6e instances on SageMaker Studio notebooks in six additional regions: Middle East (Dubai), Asia Pacific (Tokyo, Seoul), and Europe (Frankfurt, Stockholm, Spain). These instances feature up to 8 NVIDIA L40s Tensor Core GPUs with 48 GB memory per GPU and third-generation AMD EPYC processors, delivering up to 2.5x better performance than G5 instances. The G6e instances enable customers to interactively test model deployments with enhanced GPU capabilities.",
@@ -27,6 +37,16 @@
       "category": "AI_ML",
       "timestamp": "2026-05-11T20:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/p4de-region-expansion-sagemaker-studio-notebooks/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "213adc8dc8b64e984bce206a51c0a641f3128a51",
+      "title": "ENA Express for Amazon EC2 instances now supports traffic between Availability Zones",
+      "summary": "AWS has expanded ENA Express support to enable traffic between EC2 instances across different Availability Zones within a region, delivering up to 25 Gbps single-flow bandwidth. ENA Express uses AWS's Scalable Reliable Datagram (SRD) protocol to improve network performance through advanced congestion control and multi-pathing. This enhancement extends the high-performance networking capabilities beyond instances within the same Availability Zone to cross-AZ communications.",
+      "category": "AI_ML",
+      "timestamp": "2026-05-11T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/ena-express-availability-zones/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5512,9 +5532,9 @@
     }
   ],
   "stats": {
-    "total": 551,
+    "total": 553,
     "byCategory": {
-      "AI_ML": 98,
+      "AI_ML": 100,
       "DATABASE": 53,
       "OTHER": 114,
       "SECURITY": 126,
@@ -5525,7 +5545,7 @@
       "ANALYTICS": 19,
       "SERVERLESS": 16
     },
-    "lastUpdated": "2026-05-11T22:54:45.765Z"
+    "lastUpdated": "2026-05-12T11:57:11.186Z"
   },
-  "generatedAt": "2026-05-11T22:54:45.766Z"
+  "generatedAt": "2026-05-12T11:57:11.186Z"
 }
