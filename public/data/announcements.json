@@ -1,6 +1,26 @@
 {
   "announcements": [
     {
+      "id": "1132381a9df3fed0970a7903a735f9e11dab8fff",
+      "title": "Amazon FSx for OpenZFS now supports creating Multi-AZ file systems in shared VPCs  ",
+      "summary": "Amazon FSx for OpenZFS now supports creating Multi-AZ file systems in shared VPCs, enabling organizations to decentralize network and storage administration more effectively. This enhancement allows participant accounts in an AWS organization to create and manage FSx file systems in VPC subnets that have been shared by owner accounts.",
+      "category": "STORAGE",
+      "timestamp": "2026-05-13T19:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-fsx-openzfs-multi-az-vpcs/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7931266bd126abffe16a08218f5f827e64466ec1",
+      "title": "Amazon RDS for Oracle now supports M8i and R8i instances with Oracle SE2 License Included",
+      "summary": "Amazon RDS for Oracle now supports M8i and R8i instances with Oracle Database Standard Edition 2 (SE2) License Included, powered by custom Intel Xeon 6 processors exclusive to AWS. These new instances deliver up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generation Intel-based instances.",
+      "category": "DATABASE",
+      "timestamp": "2026-05-13T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/amazon-oracle-m8i-r8i-license-included",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "ae7f7a0073e560de1752de598135c280b8966aa4",
       "title": " AWS Lambda supports scheduled scaling for functions on Lambda Managed Instances",
       "summary": "AWS Lambda now supports scheduled scaling for functions running on Lambda Managed Instances through Amazon EventBridge Scheduler. This feature enables you to set up one-time or recurring schedules that automatically adjust your function's capacity limits before anticipated traffic spikes. The capability helps optimize both performance during peak periods and costs during low-traffic times.",
@@ -5399,113 +5419,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-dsql-adds-identity-columns-sequence/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "2f63bbb3684d1904116eaae7eb687f134f6dadaa",
-      "title": "Announcing Amazon EC2 C8i, M8i, and R8i instances on second-generation AWS Outposts racks",
-      "summary": "AWS has launched its latest generation of EC2 instances (C8i, M8i, and R8i) on second-generation AWS Outposts racks, offering compute-optimized, general-purpose, and memory-optimized configurations respectively. These new x86-powered instances deliver 20% better performance and 2.5x more memory bandwidth compared to their predecessors (C7i, M7i, and R7i instances) on the same Outposts infrastructure.",
-      "category": "AI_ML",
-      "timestamp": "2026-02-12T22:34:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8i-m8i-and-r8i-instances-on-aws-outposts/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "811b072bff2d2d271d3971e539e7c3628374bd11",
-      "title": "Amazon Bedrock adds support for the latest open-weight models in Asia Pacific (Sydney)",
-      "summary": "Amazon Bedrock has expanded support for the latest open-weight foundation models to the Asia Pacific (Sydney) region through the bedrock-mantle endpoint. The newly supported models come from major AI providers including DeepSeek, Google, MiniMax, Mistral, Moonshot AI, Nvidia, and OpenAI. This expansion gives customers in the Sydney region access to more diverse AI models through AWS's fully managed generative AI service.",
-      "category": "AI_ML",
-      "timestamp": "2026-02-12T22:14:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-bedrock-support-latest-open-weight-models-asia-pacific-sydney/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b33f797397d2844e0df1727c9242382dc3e3e1e6",
-      "title": "Amazon S3 Access Grants are now available in the AWS Asia Pacific (Taipei) Region",
-      "summary": "Amazon S3 Access Grants is now available in the AWS Asia Pacific (Taipei) Region. This feature allows you to map identities from directories like Microsoft Entra ID or AWS IAM principals to S3 datasets, enabling automatic access management based on corporate identity. It helps organizations manage data permissions at scale by streamlining S3 access for end users.",
-      "category": "STORAGE",
-      "timestamp": "2026-02-12T21:47:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-s3-access-grants-are-available-in-taipei",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "2954cc8ee1840c767b377f1fd909c11c5e68cf1d",
-      "title": "Amazon Bedrock expands support for AWS PrivateLink",
-      "summary": "Amazon Bedrock, AWS's fully managed service for accessing foundation models and building generative AI applications, has expanded its AWS PrivateLink support to include the bedrock-mantle endpoint. This addition allows customers to privately access their applications through the new endpoint, which is powered by Project Mantle, complementing the existing PrivateLink support for the bedrock-runtime endpoint.",
-      "category": "AI_ML",
-      "timestamp": "2026-02-12T21:40:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-bedrock-expands-aws-privatelink-support-openai-api-endpoints/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "cfec9f9aa630676213de07724cf32cf19e8e0f64",
-      "title": "AWS expands Resource Control Policies support to Amazon DynamoDB ",
-      "summary": "AWS has extended Resource Control Policies (RCPs) support to Amazon DynamoDB, allowing organizations to centrally manage and limit the maximum permissions for DynamoDB resources. This enhancement enables administrators to create policies that restrict access to DynamoDB from identities outside their organization, helping to establish stronger data perimeter controls.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-12T20:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-expands-resource-control-policies-amazon",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "eb1cd4bec581e652d5adfa97455a2cdea2431797",
-      "title": "Amazon Bedrock increases default quotas for Anthropic’s Claude Sonnet 4.5 model in AWS GovCloud (US)",
-      "summary": "Amazon Bedrock has increased the default quotas for Anthropic's Claude Sonnet 4.5 model in AWS GovCloud regions by 25x, raising limits to 5,000,000 tokens per minute and 1,000 requests per minute to match commercial AWS regions. This enhancement allows customers in regulated environments to better scale their AI workloads using Claude Sonnet 4.5, which is optimized for complex agents, coding, and long-horizon tasks.",
-      "category": "AI_ML",
-      "timestamp": "2026-02-12T19:52:00.000Z",
-      "link": "https://aws.amazon.comabout-aws/whats-new/2026/02/amazon-bedrock-increases-default-sonnet-4.5-quotas-aws-govcloud-us",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d4dbee7b3d5470b6947238af6b96e722a5b74280",
-      "title": "AI Troubleshooting in the AWS Support Center Console now supports 7 additional languages",
-      "summary": "AWS has expanded AI troubleshooting capabilities in the AWS Support Center Console to support seven additional languages beyond English: Japanese, Korean, Simplified and Traditional Mandarin, Spanish, Portuguese, and French. This update removes language barriers that previously existed when the feature was only available in English, allowing customers to access AI-powered support assistance in their preferred language. The AWS Support Center Console serves as the main platform where customers manage their support experience and track support cases.",
-      "category": "OTHER",
-      "timestamp": "2026-02-12T18:39:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/ai-troubleshooting-in-aws-support-center/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "68eac9e2301ff38dbfe62069cc4ba494ae4048df",
-      "title": "Amazon RDS for PostgreSQL supports minor versions  18.2, 17.8, 16.12, 15.16 and 14.21 ",
-      "summary": "Amazon RDS for PostgreSQL now supports minor versions 18.2, 17.8, 16.12, 15.16, and 14.21, which include security vulnerability fixes and bug fixes from the PostgreSQL community. The release also introduces the new pg_stat_monitor extension that provides unified performance metrics and query performance insights. AWS recommends upgrading to these latest minor versions for improved security and functionality.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-12T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/rds-minor-version-18-2-17-8-16-12-15-16-14-21",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "cc3265260f3198fa84acb76e40b14ed5f274d636",
-      "title": "Announcing new Amazon EC2 general purpose M8azn instances",
-      "summary": "AWS has announced the general availability of Amazon EC2 M8azn instances, which are general purpose instances powered by fifth generation AMD EPYC processors with the highest maximum CPU frequency of 5GHz in the cloud. These new instances offer up to 2x compute performance compared to previous generation M5zn instances and up to 24% higher performance than M8a instances, while also delivering significantly improved memory bandwidth.",
-      "category": "COMPUTE",
-      "timestamp": "2026-02-12T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-m8azn-instances-generally-available",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 549,
+    "total": 542,
     "byCategory": {
-      "SERVERLESS": 18,
-      "SECURITY": 126,
-      "AI_ML": 101,
-      "CONTAINERS": 22,
-      "DATABASE": 51,
-      "OTHER": 112,
-      "NETWORKING": 5,
-      "COMPUTE": 75,
       "STORAGE": 21,
+      "DATABASE": 52,
+      "SERVERLESS": 18,
+      "SECURITY": 124,
+      "AI_ML": 97,
+      "CONTAINERS": 22,
+      "OTHER": 111,
+      "NETWORKING": 5,
+      "COMPUTE": 74,
       "ANALYTICS": 18
     },
-    "lastUpdated": "2026-05-13T12:04:44.005Z"
+    "lastUpdated": "2026-05-13T23:05:22.518Z"
   },
-  "generatedAt": "2026-05-13T12:04:44.005Z"
+  "generatedAt": "2026-05-13T23:05:22.518Z"
 }
