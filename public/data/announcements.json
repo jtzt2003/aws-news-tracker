@@ -21,6 +21,16 @@
       "isNew": false
     },
     {
+      "id": "966432da765df2bb9fdc88fd17c248abe4bdaf4e",
+      "title": "AWS Security Agent now supports full repository code reviews",
+      "summary": "AWS has released a new full repository code review capability for AWS Security Agent that performs comprehensive, context-aware security analysis of entire codebases. Unlike traditional static analysis tools that rely on pattern matching, this feature analyzes application architecture, trust boundaries, and data flows to identify systemic vulnerabilities that other tools might miss. The scanner provides detailed vulnerability reports when issues are detected.",
+      "category": "SECURITY",
+      "timestamp": "2026-05-12T17:37:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-security-agent-full-repository-code-review/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "2c4f663070b73a81b6a6a7db02f3d44b90dc66b1",
       "title": "Amazon SageMaker Feature Store now supports SageMaker Python SDK V3",
       "summary": "Amazon SageMaker Feature Store now supports the SageMaker Python SDK v3, bringing new capabilities for Lake Formation access controls and Apache Iceberg table properties configuration. The updated SDK provides data scientists with modern, modular interfaces to manage feature groups with fine-grained access control and optimized offline storage. This enhancement improves the management of the fully managed repository used for storing, sharing, and managing machine learning model features.",
@@ -57,6 +67,16 @@
       "category": "SECURITY",
       "timestamp": "2026-05-12T16:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/cloudfront-configurable-premium-flat-rate-plans/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "aba259e7b635902bebed9bb02d62bd2fa50599b1",
+      "title": "Amazon Connect Customer now supports embedding Cases and Customer Profiles in custom agent applications",
+      "summary": "Amazon Connect now allows developers to embed Cases and Customer Profiles directly into custom agent applications using the Amazon Connect SDK. This integration enables agents to access customer context and case information within their existing tools, streamlining issue resolution workflows. The SDK is available in all AWS Regions where Amazon Connect Customer operates, eliminating the need for developers to build these capabilities from scratch.",
+      "category": "OTHER",
+      "timestamp": "2026-05-12T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-sdk-cases-customer-profiles/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5469,43 +5489,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-m8azn-instances-generally-available",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "6af5ffb9c91740424821b66ac1792bedcdc7ec2a",
-      "title": "Amazon S3 Tables add partition and sort order definition in the CreateTable API",
-      "summary": "Amazon S3 Tables now supports defining partition and sort order properties directly in the CreateTable API, simplifying programmatic table management and optimization. This enhancement allows developers to specify these properties when creating tables through the API, AWS CLI, or AWS SDK, eliminating the need for separate configuration steps after table creation.",
-      "category": "STORAGE",
-      "timestamp": "2026-02-12T11:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/s3-tables-partition-and-sort-order-createtable-api/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "649b5bfedc938d0800f65a966361eddd2537d13c",
-      "title": "AWS Backup adds cross-Region database snapshot copy to logically air-gapped vaults",
-      "summary": "AWS Backup now enables direct cross-Region database snapshot copying to logically air-gapped vaults for Amazon Aurora, Neptune, and DocumentDB, eliminating the need for intermediate copying steps. This single-action capability helps protect against ransomware attacks and regional outages by allowing cross-Region and cross-account snapshot copies directly to secure, isolated storage locations.",
-      "category": "DATABASE",
-      "timestamp": "2026-02-12T11:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-backup-adds-cross-region-database-snapshot-logically-air-gapped-vaults/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
     "total": 549,
     "byCategory": {
       "SERVERLESS": 18,
+      "SECURITY": 126,
       "AI_ML": 101,
       "CONTAINERS": 22,
-      "DATABASE": 52,
-      "SECURITY": 125,
-      "OTHER": 111,
+      "DATABASE": 51,
+      "OTHER": 112,
       "NETWORKING": 5,
       "COMPUTE": 75,
-      "STORAGE": 22,
+      "STORAGE": 21,
       "ANALYTICS": 18
     },
-    "lastUpdated": "2026-05-12T23:02:40.237Z"
+    "lastUpdated": "2026-05-13T12:04:44.005Z"
   },
-  "generatedAt": "2026-05-12T23:02:40.238Z"
+  "generatedAt": "2026-05-13T12:04:44.005Z"
 }
