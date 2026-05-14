@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "88cbbd3014856abd2f0c0d8e02c12e220d7edc6c",
+      "title": "Amazon Bedrock Introduces Advanced Prompt Optimization and Migration Tool ",
+      "summary": "Amazon Bedrock has launched Advanced Prompt Optimization, a new tool designed to help customers quickly optimize and migrate prompts between models without spending days or weeks on manual testing. The tool includes built-in evaluations to prevent regressions and improve performance on underperforming tasks. This addresses a key pain point for customers who previously struggled with efficiently testing and refining prompts when switching models or seeking better performance.",
+      "category": "AI_ML",
+      "timestamp": "2026-05-14T21:50:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-advanced-prompt-optimization-migration-tool/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ff9f6b20cd91febe022a029dc55f4608e0dc1bd7",
+      "title": "Amazon CloudFront announces Passthrough Mode for mutual TLS (Viewer)",
+      "summary": "Amazon CloudFront has introduced a new \"passthrough mode\" for mutual TLS (mTLS) authentication that allows client certificates to be forwarded directly to origin servers for validation, bypassing CloudFront's certificate verification. This feature enables customers with existing mTLS implementations at their origins to use CloudFront without needing to redesign their certificate validation logic for edge processing. The passthrough mode joins the existing required and optional mTLS modes already available in CloudFront.",
+      "category": "NETWORKING",
+      "timestamp": "2026-05-14T21:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-cloudfront-mtls-passthrough/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f9ef78874f78ecd0069b0633767ad6c3d5820f0c",
+      "title": "Announcing general availability of Amazon EC2 M3 Ultra Mac instances ",
+      "summary": "AWS has announced the general availability of Amazon EC2 M3 Ultra Mac instances, which are powered by the latest Mac Studio hardware and represent the next generation of EC2 Mac instances. These instances are specifically designed for Apple developers to run demanding build and test workloads on AWS for applications across Apple platforms including iOS, macOS, iPadOS, tvOS, watchOS, visionOS, and Safari.",
+      "category": "COMPUTE",
+      "timestamp": "2026-05-14T21:23:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-m3-ultra-mac-instances-generally-available/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "50fc4ab71ff1d5ca0f5cebfe9274247401f244fb",
+      "title": "SageMaker AI now supports serverless model customization for Qwen3.6",
+      "summary": "Amazon SageMaker AI has added serverless model customization support for Alibaba Cloud's Qwen3.6 27B parameter model, allowing users to fine-tune it using supervised fine-tuning (SFT) and reinforcement fine-tuning (RFT). This builds on existing support for Qwen3.5 and other models, expanding beyond just deployment to enable customization for specific domains and workflows.",
+      "category": "AI_ML",
+      "timestamp": "2026-05-14T19:18:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-ft-qwen3-6/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e0bf63c69486fa3f023b1fa539aa23d1b863e9b2",
+      "title": "AWS Transform agents now available in Kiro, Claude, Cursor, and Codex",
+      "summary": "AWS has announced that its Transform agents, which leverage AWS's extensive migration and modernization expertise, are now available through multiple platforms including Kiro, agent plugins, and the AWS Transform MCP server. This integration allows developers to access AWS Transform capabilities directly from their preferred development environments, whether through agentic IDEs, web consoles, or programmatic integration. The launch aims to provide developers with greater flexibility in how they consume AWS Transform services.",
+      "category": "SECURITY",
+      "timestamp": "2026-05-14T19:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-transform-developer-tools/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "41744758147de3637d5c7673957da7e3e086143c",
+      "title": "AWS Transform introduces the agent builder toolkit Kiro power for building customized transformation agents",
+      "summary": "AWS has announced the general availability of Kiro power, an agent builder toolkit that is part of the AWS Transform composability initiative. The toolkit allows AWS Partners and customers to build customized transformation agents tailored to their specific modernization needs that integrate seamlessly with AWS Transform. This enables Migration and Modernization Competency Partners, ISVs, and customers to create differentiated transformation solutions for their unique requirements.",
+      "category": "OTHER",
+      "timestamp": "2026-05-14T19:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-transform-agent-builder-toolkit/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0d1f78542dee5b71a3db540686fcb6e3b5a2ea00",
+      "title": "AWS Transform now supports customer-owned artifact stores",
+      "summary": "AWS Transform, an AI-powered platform for enterprise assessment, migration, and modernization, now supports customer-owned Amazon S3 buckets for storing transformation artifacts. This new feature gives customers complete control over artifact storage location and security, including the ability to use their own AWS KMS keys for encryption and manage custom access policies.",
+      "category": "SECURITY",
+      "timestamp": "2026-05-14T19:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-transform-customer-owned-artifact/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c7e71bb92002e6f877293ccabde32bcc82eac009",
+      "title": "New models for image generation and text embeddings are now available in Amazon SageMaker JumpStart",
+      "summary": "AWS has announced the availability of two new foundation models in Amazon SageMaker JumpStart: FLUX.2-klein-base-4B for image generation from Black Forest Labs, and Qwen3-Embedding-0.6B for multilingual text embeddings from Qwen. These models enable AWS customers to build creative AI applications and intelligent search systems with state-of-the-art capabilities on AWS infrastructure.",
+      "category": "AI_ML",
+      "timestamp": "2026-05-14T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/image-embeddings-models-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "030b46cea0f0aeaecbe339c1da3c8d9a50e743a6",
+      "title": "ARC Region switch adds Lambda event source mapping execution block for event handling during failover",
+      "summary": "AWS has announced a new Lambda event source mapping execution block feature for Amazon Application Recovery Controller (ARC) Region Switch. This feature automates the coordinated failover of event streams for multi-Region workloads, helping customers running event-driven architectures achieve faster recovery times during regional outages. The enhancement specifically helps orchestrate Lambda function failovers that process event streams from services like Kinesis during disaster recovery scenarios.",
+      "category": "DATABASE",
+      "timestamp": "2026-05-14T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/region-switch-lambda-esm-execution-block/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1e1b9ba4549ecc1232de95abc8c013064001e9d6",
+      "title": "Amazon Aurora DSQL now supports change data capture (Preview)",
+      "summary": "Amazon Aurora DSQL now offers change data capture (CDC) in preview, allowing real-time streaming of database changes directly to Amazon Kinesis Data Streams. This fully managed feature automatically captures insert, update, and delete operations as change events, eliminating the need for custom streaming pipelines and simplifying the development of event-driven applications and real-time analytics.",
+      "category": "DATABASE",
+      "timestamp": "2026-05-14T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-dsql-change-data-capture-preview/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "f16f629faf80c5e455cff6b8de39d228eade69c9",
       "title": "Amazon SageMaker Data Agent now available for IAM Identity Center domains",
       "summary": "Amazon SageMaker Data Agent is now available for SageMaker Unified Studio domains configured with IAM Identity Center, extending AI-powered capabilities to data analysts and engineers. The tool allows users to describe analysis goals in plain English and automatically generates working Python or SQL code, eliminating the need to manually write complex queries, joins, and aggregations across SageMaker notebooks and Query Editor environments.",
@@ -5379,63 +5479,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-highmem-instances-available/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "f02372cc00c1e03262bdcb9475aff8b913f222cd",
-      "title": "AWS Batch now provides Job Queue and Share Utilization Visibility",
-      "summary": "AWS Batch has introduced new visibility features that provide insights into queue and share utilization, showing how workloads are distributed across compute resources. The update includes queue utilization data in job queue snapshots for both FIFO and fair share queues, plus individual fair share allocation capacity consumption details. The ListServiceJobs API has also been enhanced with a scheduledAt timestamp for better job tracking.",
-      "category": "COMPUTE",
-      "timestamp": "2026-02-13T17:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-batch-provides-job-queue-share-utilization",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "a5ea667336185eed94e609bd3df9b656b82d3962",
-      "title": "Amazon Connect launches in-app notifications to surface critical operational alerts to business users",
-      "summary": "Amazon Connect has introduced in-app notifications that appear in the workspace header across all pages, allowing teams to stay informed of critical operational alerts without disrupting their current workflow. The feature includes a notification icon with an unread message badge, and users can view messages, access embedded links, and manage read/unread status directly from the header without leaving their current task.",
-      "category": "OTHER",
-      "timestamp": "2026-02-13T17:20:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-in-app-notifications",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "9b4f0ce1380cbe7bb9eb7a2ed40aa728546fa501",
-      "title": "Amazon Connect now provides real time AI-powered overviews and recommended next actions for Tasks",
-      "summary": "Amazon Connect has launched a new AI-powered feature that automatically generates task overviews and suggests next actions to help agents process work items more efficiently. The system summarizes previous activities (like order verification or eligibility checks) and provides recommended steps to complete tasks such as processing refunds. This enhancement is designed to help customer service agents understand context faster and resolve issues more quickly.",
-      "category": "AI_ML",
-      "timestamp": "2026-02-13T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/connect-tasks-ai-assistance",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "7e3c5a6cb64a47641ca01dac09d12658087555e5",
-      "title": "Amazon RDS now supports backup configuration when restoring snapshots",
-      "summary": "Amazon RDS and Aurora now allow users to view and modify backup settings (retention period and backup window) when restoring database snapshots, providing greater flexibility during restore operations. Previously, restored databases automatically inherited backup configurations from the original snapshot without the ability to customize these settings. This enhancement gives users more control over their backup policies immediately upon restoration.",
-      "category": "DATABASE",
-      "timestamp": "2026-02-13T13:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/rds-aurora-backup-configuration-restoring-snapshots/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 542,
+    "total": 548,
     "byCategory": {
-      "AI_ML": 98,
-      "STORAGE": 21,
-      "DATABASE": 51,
-      "SERVERLESS": 18,
-      "SECURITY": 124,
-      "CONTAINERS": 22,
-      "OTHER": 111,
-      "NETWORKING": 5,
+      "AI_ML": 100,
+      "NETWORKING": 6,
       "COMPUTE": 74,
+      "SECURITY": 126,
+      "OTHER": 111,
+      "DATABASE": 52,
+      "STORAGE": 21,
+      "SERVERLESS": 18,
+      "CONTAINERS": 22,
       "ANALYTICS": 18
     },
-    "lastUpdated": "2026-05-14T11:53:14.856Z"
+    "lastUpdated": "2026-05-14T22:56:59.416Z"
   },
-  "generatedAt": "2026-05-14T11:53:14.856Z"
+  "generatedAt": "2026-05-14T22:56:59.417Z"
 }
