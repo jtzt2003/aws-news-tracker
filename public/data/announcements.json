@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "f16f629faf80c5e455cff6b8de39d228eade69c9",
+      "title": "Amazon SageMaker Data Agent now available for IAM Identity Center domains",
+      "summary": "Amazon SageMaker Data Agent is now available for SageMaker Unified Studio domains configured with IAM Identity Center, extending AI-powered capabilities to data analysts and engineers. The tool allows users to describe analysis goals in plain English and automatically generates working Python or SQL code, eliminating the need to manually write complex queries, joins, and aggregations across SageMaker notebooks and Query Editor environments.",
+      "category": "AI_ML",
+      "timestamp": "2026-05-13T21:53:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-data-agent-idc/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "1132381a9df3fed0970a7903a735f9e11dab8fff",
       "title": "Amazon FSx for OpenZFS now supports creating Multi-AZ file systems in shared VPCs  ",
       "summary": "Amazon FSx for OpenZFS now supports creating Multi-AZ file systems in shared VPCs, enabling organizations to decentralize network and storage administration more effectively. This enhancement allows participant accounts in an AWS organization to create and manage FSx file systems in VPC subnets that have been shared by owner accounts.",
@@ -5409,33 +5419,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/rds-aurora-backup-configuration-restoring-snapshots/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "a275ec085d9c11885330cb3f74878f3e683c3c3e",
-      "title": "Amazon Aurora DSQL adds support for identity columns and sequence objects ",
-      "summary": "Amazon Aurora DSQL now supports identity columns and sequence objects, allowing developers to generate auto-incrementing integer IDs directly in the database using standard SQL patterns. This feature simplifies PostgreSQL application migrations and enables creation of compact, human-readable identifiers like order numbers and account IDs without requiring custom ID generation logic.",
-      "category": "DATABASE",
-      "timestamp": "2026-02-13T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-dsql-adds-identity-columns-sequence/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
     "total": 542,
     "byCategory": {
+      "AI_ML": 98,
       "STORAGE": 21,
-      "DATABASE": 52,
+      "DATABASE": 51,
       "SERVERLESS": 18,
       "SECURITY": 124,
-      "AI_ML": 97,
       "CONTAINERS": 22,
       "OTHER": 111,
       "NETWORKING": 5,
       "COMPUTE": 74,
       "ANALYTICS": 18
     },
-    "lastUpdated": "2026-05-13T23:05:22.518Z"
+    "lastUpdated": "2026-05-14T11:53:14.856Z"
   },
-  "generatedAt": "2026-05-13T23:05:22.518Z"
+  "generatedAt": "2026-05-14T11:53:14.856Z"
 }
