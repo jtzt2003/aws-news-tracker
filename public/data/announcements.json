@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "e53d30c07b0a902868581b727b0ba76592191023",
+      "title": "Amazon CloudFront announces support for OCSP Revocation for Mutual TLS (Viewer)",
+      "summary": "Amazon CloudFront now supports Online Certificate Status Protocol (OCSP) revocation checking for mutual TLS (mTLS), allowing real-time validation of client certificate revocation status during connection establishment. This enhancement enables customers to verify that client certificates haven't been revoked before accepting connections, addressing key security requirements for regulated industries and zero-trust architectures.",
+      "category": "NETWORKING",
+      "timestamp": "2026-05-14T22:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-cloudfront-mtls-ocsp/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "88cbbd3014856abd2f0c0d8e02c12e220d7edc6c",
       "title": "Amazon Bedrock Introduces Advanced Prompt Optimization and Migration Tool ",
       "summary": "Amazon Bedrock has launched Advanced Prompt Optimization, a new tool designed to help customers quickly optimize and migrate prompts between models without spending days or weeks on manual testing. The tool includes built-in evaluations to prevent regressions and improve performance on underperforming tasks. This addresses a key pain point for customers who previously struggled with efficiently testing and refining prompts when switching models or seeking better performance.",
@@ -5469,24 +5479,14 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-nested-virtualization-on-virtual",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "828a354b1e945daba740f7b3c4385989d598fb1f",
-      "title": "Amazon EC2 High Memory U7i instances now available in additional regions",
-      "summary": "Amazon has expanded the regional availability of its EC2 High Memory U7i instances, bringing 6TB instances to South America (São Paulo) and Europe (Milan), 12TB instances to AWS GovCloud (US-East), and 16TB instances to Europe (London). These 7th generation instances are powered by custom Intel Xeon Scalable Processors (Sapphire Rapids) and feature DDR5 memory ranging from 6TiB to 16TiB depending on the instance type.",
-      "category": "COMPUTE",
-      "timestamp": "2026-02-13T23:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-highmem-instances-available/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
     "total": 548,
     "byCategory": {
+      "NETWORKING": 7,
       "AI_ML": 100,
-      "NETWORKING": 6,
-      "COMPUTE": 74,
+      "COMPUTE": 73,
       "SECURITY": 126,
       "OTHER": 111,
       "DATABASE": 52,
@@ -5495,7 +5495,7 @@
       "CONTAINERS": 22,
       "ANALYTICS": 18
     },
-    "lastUpdated": "2026-05-14T22:56:59.416Z"
+    "lastUpdated": "2026-05-15T11:56:58.803Z"
   },
-  "generatedAt": "2026-05-14T22:56:59.417Z"
+  "generatedAt": "2026-05-15T11:56:58.803Z"
 }
