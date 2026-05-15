@@ -1,6 +1,66 @@
 {
   "announcements": [
     {
+      "id": "2d0fd426ba5e8609d4436dba0b044961b8af7f16",
+      "title": "Amazon EMR Serverless is now available in additional AWS Regions",
+      "summary": "Amazon EMR Serverless has expanded its availability to six additional AWS Regions across Asia Pacific (Hyderabad, Malaysia, New Zealand, Taipei, and Thailand) and Mexico (Central). EMR Serverless is a deployment option that enables data engineers and analysts to run petabyte-scale data analytics using Apache Spark and Apache Hive applications in a simple and cost-effective manner without managing infrastructure.",
+      "category": "ANALYTICS",
+      "timestamp": "2026-05-15T19:50:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-emr-serverless-aws-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "996067fbd2f9ff3fcbe7dc0a3f9c089088112007",
+      "title": "Amazon Connect Cases now lets you edit related items and delete cases from the agent workspace",
+      "summary": "Amazon Connect Cases now allows agents to directly edit and delete related items and cases from their workspace without requiring administrator assistance. Agents can update comments, unlink incorrectly associated contacts, delete erroneous cases, and manage custom related items like orders and returns. This feature is available in US East (N. Virginia) and US West (Oregon) AWS regions.",
+      "category": "OTHER",
+      "timestamp": "2026-05-15T17:25:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-cases-related-item/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1f20af5592a542174303f8a67dd0903b274b7b6f",
+      "title": "Amazon RDS for PostgreSQL announces Extended Support minor versions 11.22-rds.20260224, 12.22-rds.20260224, and 13.23-rds.20260224",
+      "summary": "Amazon RDS for PostgreSQL has released new Extended Support minor versions (11.22-rds.20260224, 12.22-rds.20260224, and 13.23-rds.20260224) that include critical security and bug fixes. AWS recommends upgrading to these versions to address known vulnerabilities in previous PostgreSQL versions. Amazon RDS Extended Support provides up to three additional years of security updates beyond the standard support end date for major versions.",
+      "category": "SECURITY",
+      "timestamp": "2026-05-15T16:08:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-rds-postgresql-extended-support/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "584e17f8e02825ca6711bfe955ea369941f8665e",
+      "title": "Amazon Managed Grafana now supports in-place upgrade to Grafana version 12.4 ",
+      "summary": "Amazon Managed Grafana now supports easy in-place upgrades from version 10.4 to 12.4 through the AWS Console, SDK, or CLI. The upgrade introduces native Grafana Scenes-powered dashboards for improved performance, queryless Drilldown apps for exploring Prometheus metrics and other observability data, and enhanced CloudWatch plugin capabilities with PPL/SQL query support.",
+      "category": "OTHER",
+      "timestamp": "2026-05-15T16:06:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-managed-grafana-v12-update/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3ab786558b1086c593b8de7b93cedef1c6374332",
+      "title": "AWS Organizations now supports higher quotas for service control policies (SCPs)",
+      "summary": "AWS Organizations has increased service control policy (SCP) quotas, doubling both the maximum number of SCPs that can be attached to a single node (from 5 to 10) and the maximum SCP size (from 5,120 to 10,240 characters). These enhanced limits enable organizations to create more detailed permissions and comprehensive security controls across their AWS infrastructure.",
+      "category": "SECURITY",
+      "timestamp": "2026-05-15T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-organizations-increased-scp-quotas/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2e3330b45113d7a07c9ca413da2fd0a606eb13e0",
+      "title": "AWS announces AWS Interconnect - multicloud connectivity with Oracle Cloud Infrastructure in preview",
+      "summary": "AWS has announced the public preview of AWS Interconnect, a new service that provides multicloud connectivity with Oracle Cloud Infrastructure (OCI). This service addresses the growing customer demand for multicloud strategies by enabling easier interconnection of workloads across multiple cloud environments. The solution aims to give customers greater flexibility in choosing technologies and deploying applications across different cloud platforms with improved interoperability.",
+      "category": "OTHER",
+      "timestamp": "2026-05-15T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-announces-AWS-interconnect-multicloud-oci-preview/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "e53d30c07b0a902868581b727b0ba76592191023",
       "title": "Amazon CloudFront announces support for OCSP Revocation for Mutual TLS (Viewer)",
       "summary": "Amazon CloudFront now supports Online Certificate Status Protocol (OCSP) revocation checking for mutual TLS (mTLS), allowing real-time validation of client certificate revocation status during connection establishment. This enhancement enables customers to verify that client certificates haven't been revoked before accepting connections, addressing key security requirements for regulated industries and zero-trust architectures.",
@@ -5482,20 +5542,20 @@
     }
   ],
   "stats": {
-    "total": 548,
+    "total": 554,
     "byCategory": {
+      "ANALYTICS": 19,
+      "OTHER": 114,
+      "SECURITY": 128,
       "NETWORKING": 7,
       "AI_ML": 100,
       "COMPUTE": 73,
-      "SECURITY": 126,
-      "OTHER": 111,
       "DATABASE": 52,
       "STORAGE": 21,
       "SERVERLESS": 18,
-      "CONTAINERS": 22,
-      "ANALYTICS": 18
+      "CONTAINERS": 22
     },
-    "lastUpdated": "2026-05-15T11:56:58.803Z"
+    "lastUpdated": "2026-05-15T22:54:59.797Z"
   },
-  "generatedAt": "2026-05-15T11:56:58.803Z"
+  "generatedAt": "2026-05-15T22:54:59.797Z"
 }
