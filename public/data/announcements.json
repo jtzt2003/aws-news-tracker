@@ -1,12 +1,32 @@
 {
   "announcements": [
     {
+      "id": "754b092ea7f79ac87d89eef258bf1068b98c9e7b",
+      "title": "Amazon CloudWatch Logs announces increased query result limits",
+      "summary": "Amazon CloudWatch Logs has increased its query result limits from 10,000 to 100,000 results for Logs Insights queries. This enhancement eliminates the need for customers to split queries into smaller time ranges and allows them to use features like patterns, visualization, and export on the expanded result set.",
+      "category": "OTHER",
+      "timestamp": "2026-05-15T21:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/cloudwatch-logs-query-results/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "2d0fd426ba5e8609d4436dba0b044961b8af7f16",
       "title": "Amazon EMR Serverless is now available in additional AWS Regions",
       "summary": "Amazon EMR Serverless has expanded its availability to six additional AWS Regions across Asia Pacific (Hyderabad, Malaysia, New Zealand, Taipei, and Thailand) and Mexico (Central). EMR Serverless is a deployment option that enables data engineers and analysts to run petabyte-scale data analytics using Apache Spark and Apache Hive applications in a simple and cost-effective manner without managing infrastructure.",
       "category": "ANALYTICS",
       "timestamp": "2026-05-15T19:50:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-emr-serverless-aws-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b733e8dadb5ccaa9b91ff7c3a010b13d0aa42c05",
+      "title": "AWS Partner Central agents now accelerates opportunity creation",
+      "summary": "AWS has announced that AWS Partner Central agents now enable partners to create opportunities through natural language conversations instead of filling out complex multi-step forms. These AI-powered agents, built on Amazon Bedrock AgentCore, help partners identify pipeline insights, advance deals with recommendations, and find funding opportunities. The update streamlines the opportunity creation process by allowing partners to simply have a conversation with the AI agent.",
+      "category": "AI_ML",
+      "timestamp": "2026-05-15T18:41:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-partner-central-agents-oppo",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5542,20 +5562,20 @@
     }
   ],
   "stats": {
-    "total": 554,
+    "total": 556,
     "byCategory": {
+      "OTHER": 115,
       "ANALYTICS": 19,
-      "OTHER": 114,
+      "AI_ML": 101,
       "SECURITY": 128,
       "NETWORKING": 7,
-      "AI_ML": 100,
       "COMPUTE": 73,
       "DATABASE": 52,
       "STORAGE": 21,
       "SERVERLESS": 18,
       "CONTAINERS": 22
     },
-    "lastUpdated": "2026-05-15T22:54:59.797Z"
+    "lastUpdated": "2026-05-16T11:02:42.226Z"
   },
-  "generatedAt": "2026-05-15T22:54:59.797Z"
+  "generatedAt": "2026-05-16T11:02:42.227Z"
 }
