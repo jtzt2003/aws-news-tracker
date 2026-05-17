@@ -5549,33 +5549,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-server-side-encryption-at-rest",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "d591f64cde4d27f634c5b84784942d1184ffe3e9",
-      "title": "Amazon EC2 supports nested virtualization on virtual Amazon EC2 instances",
-      "summary": "AWS now supports nested virtualization on virtual Amazon EC2 instances, allowing customers to run virtual machines within virtual machines using KVM or Hyper-V hypervisors. Previously, this capability was only available on bare metal EC2 instances. This enhancement enables use cases like mobile app emulation, automotive hardware simulation, and running Windows Subsystem for Linux within virtualized environments.",
-      "category": "COMPUTE",
-      "timestamp": "2026-02-16T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-nested-virtualization-on-virtual",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 556,
+    "total": 555,
     "byCategory": {
       "OTHER": 115,
       "ANALYTICS": 19,
       "AI_ML": 101,
       "SECURITY": 128,
       "NETWORKING": 7,
-      "COMPUTE": 73,
+      "COMPUTE": 72,
       "DATABASE": 52,
       "STORAGE": 21,
       "SERVERLESS": 18,
       "CONTAINERS": 22
     },
-    "lastUpdated": "2026-05-16T22:45:37.508Z"
+    "lastUpdated": "2026-05-17T11:06:54.622Z"
   },
-  "generatedAt": "2026-05-16T22:45:37.509Z"
+  "generatedAt": "2026-05-17T11:06:54.623Z"
 }
