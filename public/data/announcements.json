@@ -5479,93 +5479,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/claude-sonnet-4.6-available-in-amazon-bedrock/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "a7dacc3a859810d84fa25ed45e43a86f9c97c6e8",
-      "title": "AWS HealthImaging launches additional metrics for monitoring data stores",
-      "summary": "AWS HealthImaging has launched new CloudWatch metrics that allow customers to monitor medical imaging storage at both account and data store levels. The metrics provide granular tracking of storage volume, image sets, and DICOM studies, series, and instances. This enhancement helps customers better understand their medical imaging storage usage and growth patterns over time.",
-      "category": "OTHER",
-      "timestamp": "2026-02-16T22:38:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-healthimaging-additional-metrics/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "235d84dc506fce44d6ac45847bd5d18ab40b560d",
-      "title": "Announcing new high performance computing Amazon EC2 Hpc8a instances ",
-      "summary": "AWS has launched Amazon EC2 Hpc8a instances, a new generation of high-performance computing instances powered by 5th Gen AMD EPYC processors with frequencies up to 4.5GHz. These instances deliver up to 40% higher performance and 25% better price performance compared to the previous Hpc7a generation, built on sixth-generation AWS Nitro Cards. The new instances are designed to accelerate compute-intensive workloads while providing better cost optimization for customers.",
-      "category": "COMPUTE",
-      "timestamp": "2026-02-16T21:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/announcing-amazon-ec2-hpc8a-instances/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6aa30a95fbae65e0498c0d786833683927579cd0",
-      "title": "Announcing Amazon DocumentDB long-term support (LTS) on 5.0",
-      "summary": "Amazon DocumentDB now offers Long-Term Support (LTS) for version 5.0, allowing customers to reduce database upgrade frequency and maintenance overhead. LTS versions will only receive critical stability and security patches without new features, helping organizations maintain stable database environments with less frequent updates.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-16T19:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/announcing-amazon-documentdb-5-0-long-term-support",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "0f62540c28474476662272f22283b929e13f63a9",
-      "title": "AWS Backup announces PrivateLink support for SAP HANA on AWS",
-      "summary": "AWS Backup now supports AWS PrivateLink for SAP HANA systems on Amazon EC2, allowing backup traffic to flow through private network connections instead of the public internet. This enhancement helps organizations in regulated industries like financial services, healthcare, and government meet strict security and compliance requirements for their SAP HANA workloads.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-16T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-backup-announces-privatelink-sap-hana-aws/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "72d8a180fe9c5960c1cfde8f632a6984d5914a76",
-      "title": "AWS Glue 5.1 is now available in 18 additional regions",
-      "summary": "AWS Glue 5.1 is now available in 18 additional regions across Africa, Asia Pacific, Canada, Europe, Israel, Mexico, Middle East, and the US West. This expansion significantly increases global availability of AWS's serverless data integration service, which helps organizations discover, prepare, and integrate data from multiple sources.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-16T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-glue-5-1-eighteen-additional-regions",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "8d7e05a15df6b7c0932f697c307ebfff803150df",
-      "title": "Amazon EC2 M7i instances are now available in the Israel (Tel Aviv) Region",
-      "summary": "Amazon EC2 M7i instances, powered by custom 4th generation Intel Xeon Scalable processors (Sapphire Rapids), are now available in the Israel (Tel Aviv) region. These AWS-exclusive processors deliver up to 15% better performance than comparable Intel processors used by other cloud providers and offer up to 15% better price-performance compared to the previous generation M6i instances.",
-      "category": "AI_ML",
-      "timestamp": "2026-02-16T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-m7i-israel-tel-aviv-regions",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "314d6fd9706b1f4f57fbd954d1e122ece0fc5b7c",
-      "title": "Amazon Aurora now supports Server-Side Encryption at Rest",
-      "summary": "Amazon Aurora now automatically applies server-side encryption at rest to all new database clusters by default using AWS-owned keys, with no additional cost or performance impact. This enhancement strengthens security posture while remaining fully managed and transparent to users. Existing database clusters are not affected by this change and will continue operating with their current encryption settings.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-16T13:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-server-side-encryption-at-rest",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 555,
+    "total": 548,
     "byCategory": {
-      "OTHER": 115,
+      "OTHER": 114,
       "ANALYTICS": 19,
-      "AI_ML": 101,
-      "SECURITY": 128,
+      "AI_ML": 100,
+      "SECURITY": 124,
       "NETWORKING": 7,
-      "COMPUTE": 72,
+      "COMPUTE": 71,
       "DATABASE": 52,
       "STORAGE": 21,
       "SERVERLESS": 18,
       "CONTAINERS": 22
     },
-    "lastUpdated": "2026-05-17T11:06:54.622Z"
+    "lastUpdated": "2026-05-17T22:54:35.164Z"
   },
-  "generatedAt": "2026-05-17T11:06:54.623Z"
+  "generatedAt": "2026-05-17T22:54:35.165Z"
 }
