@@ -1,6 +1,76 @@
 {
   "announcements": [
     {
+      "id": "95a3fe593de39247d21d35003b73705ab60acdbc",
+      "title": "AWS Management Console now displays AWS Local Zones in the Region Selector",
+      "summary": "AWS has updated the Management Console to include AWS Local Zones in the Region selector, providing a unified experience for managing both Regions and Local Zones from the top navigation. Customers can now access a dedicated Local Zones tab that displays all their opted-in Local Zones in one place, making it easier to navigate and manage resources across AWS's global infrastructure.",
+      "category": "COMPUTE",
+      "timestamp": "2026-05-18T21:50:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-local-zones-region-selector/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "757b7532ea2f0cdd71640c7f4056dd7d8cfb3247",
+      "title": "AWS Glue zero-ETL is now available in Asia Pacific (Mumbai) region",
+      "summary": "AWS Glue zero-ETL integrations are now available in the Asia Pacific (Mumbai) region, allowing customers to simplify data pipelines and reduce latency for analytics and machine learning workloads. These fully managed integrations minimize the need to build traditional ETL data pipelines for common data ingestion and replication tasks, helping customers accelerate time-to-insight.",
+      "category": "AI_ML",
+      "timestamp": "2026-05-18T21:10:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-glue-zero-etl-mumbai-region",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0b41ea5fe34a431468bf6ec966c56931e12528e8",
+      "title": "Amazon Lightsail CDN distributions now support IPv6-only instances as origins",
+      "summary": "Amazon Lightsail CDN distributions now support using IPv6-only instances as origin servers, enabling customers to deliver content globally with low latency and high transfer speeds. This allows customers to run cost-effective IPv6-only instances for their websites and applications while still serving content to all end users, including those on networks without IPv6 support.",
+      "category": "COMPUTE",
+      "timestamp": "2026-05-18T18:49:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-lightsail-cdn-ipv6/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9181e5e61ffc6b72a868a13d7243615e9c01e46a",
+      "title": "Amazon EVS enables support for 32 hosts per environment  ",
+      "summary": "Amazon Elastic VMware Service (Amazon EVS) has doubled its capacity limit, now supporting up to 32 ESXi hosts per environment compared to the previous 16-host limit. This enhancement provides greater flexibility for configuring VMware Cloud Foundation domains and clusters, allowing users to organize hosts across single large clusters, multiple smaller clusters, or custom combinations. Users can access this increased capacity by submitting a service quota increase request.",
+      "category": "OTHER",
+      "timestamp": "2026-05-18T17:55:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-evs-32-hosts",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6c7504a272bf2c64027864297650081ff611ac99",
+      "title": "AWS SAM CLI adds AWS CloudFormation Language Extensions support to accelerate local serverless development ",
+      "summary": "AWS SAM CLI now supports AWS CloudFormation Language Extensions, allowing developers to reduce template duplication by defining similar resources (like Lambda functions, DynamoDB tables, or SNS topics) once and reusing them throughout their infrastructure as code templates. This enhancement maintains the full local development workflow, enabling faster serverless development by allowing local iteration without waiting for cloud deployments.",
+      "category": "DATABASE",
+      "timestamp": "2026-05-18T16:31:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-sam-cli-cloudformation/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "243b703840d1357f3bd6a0101b2a03e6081e3b06",
+      "title": "Amazon Redshift adds ALTER TABLE for Iceberg tables and writes via the AWS Glue Data Catalog mount",
+      "summary": "Amazon Redshift now supports direct writes to Apache Iceberg tables through the AWS Glue Data Catalog mount and adds ALTER TABLE functionality for modifying Iceberg table schemas, partitioning, and properties. This enhancement allows users to write Redshift transformations directly to their data lake without creating external schemas, making the data accessible to any query engine. The feature is particularly beneficial for Iceberg tables integrated with AWS Lake Formation.",
+      "category": "DATABASE",
+      "timestamp": "2026-05-18T16:25:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-redshift-alter-table-iceberg/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "14bea67a8da308393b57b2b44a3a8780015549ff",
+      "title": "Amazon SageMaker Studio now supports GPU capacity reservation through SageMaker Flexible Training Plans",
+      "summary": "Amazon SageMaker Studio IDEs (JupyterLab and Code Editor) now support GPU capacity reservations through SageMaker Flexible Training Plans (FTP), providing predictable access to high-performance computing resources. This new feature offers up to 65% cost savings compared to On-Demand instances while ensuring reliable GPU availability for ML workflows within budget constraints.",
+      "category": "AI_ML",
+      "timestamp": "2026-05-18T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-training-plan-support-for-studio/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "754b092ea7f79ac87d89eef258bf1068b98c9e7b",
       "title": "Amazon CloudWatch Logs announces increased query result limits",
       "summary": "Amazon CloudWatch Logs has increased its query result limits from 10,000 to 100,000 results for Logs Insights queries. This enhancement eliminates the need for customers to split queries into smaller time ranges and allows them to use features like patterns, visualization, and export on the expanded result set.",
@@ -5409,93 +5479,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-r8i-r8i-flex-instances-DUB-region/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "8a7daeb8208993e28f5c30bc0b7b02276f2750f1",
-      "title": "Amazon Bedrock reinforcement fine-tuning adds support for open-weight models with OpenAI-compatible APIs",
-      "summary": "Amazon Bedrock has expanded its reinforcement fine-tuning (RFT) capabilities to support popular open-weight models like OpenAI GPT-OSS and Qwen, while adding OpenAI-compatible fine-tuning APIs. This enhancement allows developers to improve model accuracy without needing extensive machine learning expertise or large datasets, as the service automates the entire customization workflow and enables models to learn from feedback.",
-      "category": "AI_ML",
-      "timestamp": "2026-02-17T21:17:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-bedrock-reinforcement-fine-tuning-openai",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f84d404d4a60f2f719b15354d97581ec2767178a",
-      "title": "Amazon Aurora MySQL 3.12 (compatible with MySQL 8.0.44) is now generally available",
-      "summary": "Amazon Aurora MySQL 3.12, which is compatible with MySQL 8.0.44, is now generally available. This release includes security enhancements, bug fixes, and several availability improvements. Users can upgrade manually by modifying their DB cluster or enable automatic minor version upgrades.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-17T20:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-mysql-312-available/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d003881b98091310276c0367229990215a5b3a18",
-      "title": "Amazon Connect now includes agent time-off requests in draft schedules",
-      "summary": "Amazon Connect now automatically includes agent time-off requests when generating draft schedules, providing clear visibility into why agents aren't scheduled for specific days or periods. This enhancement eliminates the need for schedulers to check published schedules or troubleshoot configurations to understand scheduling gaps. The feature helps streamline workforce management by making time-off information readily visible during the schedule planning process.",
-      "category": "OTHER",
-      "timestamp": "2026-02-17T18:50:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/02/amazon-connect-time-off-draft-schedules",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "a79fa5ee7f8bf10acbcf8c36c24df20e72df499b",
-      "title": "Amazon EC2 C8a instances now available in the Europe (Frankfurt) and Europe (Ireland) region",
-      "summary": "Amazon EC2 C8a instances, powered by 5th Gen AMD EPYC processors, are now available in the Europe (Frankfurt) and Europe (Ireland) regions. These compute-optimized instances deliver up to 30% higher performance and 19% better price-performance compared to C7a instances, with 33% more memory bandwidth making them ideal for latency-sensitive workloads.",
-      "category": "COMPUTE",
-      "timestamp": "2026-02-17T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8a-instances-europe-frankfurt-europe-ireland-regions",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "a8a7e55f96a7a747e2ce76961725cbd29a6783d5",
-      "title": "Amazon Connect now supports multi-line text fields on case templates",
-      "summary": "Amazon Connect now supports multi-line text fields on case templates, enabling agents to capture detailed notes and structured data with expanded vertical space for multiple paragraphs. These enhanced fields are designed to better accommodate comprehensive documentation such as root cause analysis, transaction details, and investigation findings. The feature is available through Amazon Connect Cases in multiple AWS regions including US East, US West, Canada Central, and Europe.",
-      "category": "OTHER",
-      "timestamp": "2026-02-17T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-cases-multiline-text-fields/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "311a8162d460603417928c98842731a347d2991f",
-      "title": "Amazon MSK now supports dual-stack (IPv4 and IPv6) connectivity for existing clusters",
-      "summary": "Amazon Managed Streaming for Apache Kafka (Amazon MSK) now supports dual-stack connectivity, allowing both IPv4 and IPv6 protocols for existing MSK Provisioned and MSK Serverless clusters. This enhancement enables customers to modernize their applications for IPv6 environments while maintaining backward compatibility with IPv4. The feature helps organizations meet compliance requirements and prepare for future network architecture changes.",
-      "category": "ANALYTICS",
-      "timestamp": "2026-02-17T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-msk-dual-stack-ipv4-and-ipv6",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "5819b9c0cc1c73843db540f79da4c8d7c231d0be",
-      "title": "Claude Sonnet 4.6 now available in Amazon Bedrock ",
-      "summary": "Amazon Bedrock now supports Claude Sonnet 4.6, Anthropic's latest AI model that delivers frontier performance in coding, agents, and professional work while approaching Opus 4.6 intelligence at a lower cost. The model excels at computer use tasks, enabling organizations to deploy browser-based automation across business tools with near-human reliability. This makes it ideal for high-volume coding and knowledge work that requires faster, high-quality task completion.",
-      "category": "AI_ML",
-      "timestamp": "2026-02-17T15:43:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/claude-sonnet-4.6-available-in-amazon-bedrock/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
     "total": 548,
     "byCategory": {
-      "OTHER": 114,
-      "ANALYTICS": 19,
+      "COMPUTE": 72,
       "AI_ML": 100,
-      "SECURITY": 124,
+      "OTHER": 113,
+      "DATABASE": 54,
+      "ANALYTICS": 18,
+      "SECURITY": 123,
       "NETWORKING": 7,
-      "COMPUTE": 71,
-      "DATABASE": 52,
       "STORAGE": 21,
       "SERVERLESS": 18,
       "CONTAINERS": 22
     },
-    "lastUpdated": "2026-05-18T13:45:22.848Z"
+    "lastUpdated": "2026-05-18T23:01:45.201Z"
   },
-  "generatedAt": "2026-05-18T13:45:22.848Z"
+  "generatedAt": "2026-05-18T23:01:45.201Z"
 }
