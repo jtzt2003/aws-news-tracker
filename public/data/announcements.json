@@ -1,6 +1,46 @@
 {
   "announcements": [
     {
+      "id": "407d77440d663e5d5555ed4e9526ed6afb78f669",
+      "title": "Amazon MWAA now supports Apache Airflow 3.2",
+      "summary": "Amazon Managed Workflows for Apache Airflow (MWAA) now supports Apache Airflow version 3.2, the latest major release of the open-source workflow orchestration framework. This update introduces new data-aware scheduling capabilities and developer productivity improvements for teams building and operating data pipelines on AWS. MWAA continues to provide a managed service that allows users to run Apache Airflow at scale without managing the underlying infrastructure.",
+      "category": "OTHER",
+      "timestamp": "2026-05-19T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-mwaa-now-supports-apache-airflow-3-2/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e1953dfc470b51013a7b486a2e3faf4a051e49e4",
+      "title": "Amazon Inspector is now available in the AWS Asia Pacific (Taipei) Region",
+      "summary": "Amazon Inspector, AWS's automated vulnerability management service, is now available in the AWS Asia Pacific (Taipei) Region. The service continuously scans AWS workloads including EC2 instances, container images, and Lambda functions for software vulnerabilities and unintended network exposure. This regional expansion extends Amazon Inspector's security coverage to help customers in the Taipei region better protect their AWS infrastructure.",
+      "category": "SECURITY",
+      "timestamp": "2026-05-19T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-inspector-taipei/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4f2e910931460e150ba0a55ed945a5f0d1ecb3fb",
+      "title": "Amazon ECS introduces pause and continue controls for service deployments",
+      "summary": "Amazon ECS now offers pause and continue controls for service deployments, allowing users to halt deployments at critical stages and resume them when ready. This feature enables manual approval workflows, operational checks, integration tests, and custom automation while maintaining native ECS deployment strategies with managed traffic shifting. The controls provide interactive decision points during the deployment process for better operational control and validation.",
+      "category": "CONTAINERS",
+      "timestamp": "2026-05-19T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ecs-pause-continue-deployments/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3019a8646183feeebfe12b11d7f68cf3d3a74138",
+      "title": "Amazon Managed Grafana now supports dual-stack connectivity (IPv6 and IPv4)",
+      "summary": "Amazon Managed Grafana now supports dual-stack connectivity, allowing workspaces to communicate over both IPv4 and IPv6 protocols for Grafana version 10.4 or later. This feature simplifies network management by eliminating the need to handle overlapping address spaces in VPCs and enables customers to migrate to IPv6 while maintaining connectivity to their Grafana workspaces.",
+      "category": "OTHER",
+      "timestamp": "2026-05-19T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-managed-grafana-ipv6/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "95a3fe593de39247d21d35003b73705ab60acdbc",
       "title": "AWS Management Console now displays AWS Local Zones in the Region Selector",
       "summary": "AWS has updated the Management Console to include AWS Local Zones in the Region selector, providing a unified experience for managing both Regions and Local Zones from the top navigation. Customers can now access a dedicated Local Zones tab that displays all their opted-in Local Zones in one place, making it easier to navigate and manage resources across AWS's global infrastructure.",
@@ -5409,53 +5449,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-certificate-manager-updates-default/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "acdcc00a0585ac5d5b2725a07346ab8732c2e00b",
-      "title": "Amazon Aurora DSQL now integrates with Kiro powers and AI agent skills",
-      "summary": "AWS has announced that Amazon Aurora DSQL now integrates with Kiro powers and AI agent skills, allowing developers to build Aurora DSQL-backed applications more quickly through AI-assisted development. The integration includes a bundled Aurora DSQL Model Context Protocol (MCP) server with development best practices, enabling AI agents to assist with database schema design, performance optimization, and operations out of the box.",
-      "category": "DATABASE",
-      "timestamp": "2026-02-18T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-dsql-integrates-with-kiro-powers-and-agent-skills",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "a721cde9e8a114279014b9c901f9a5b46496fab1",
-      "title": "Amazon Connect Cases now supports AWS Service Quotas",
-      "summary": "Amazon Connect Cases now integrates with AWS Service Quotas, allowing administrators to centrally monitor limits and usage while scaling case workloads more effectively. Administrators can request quota increases directly through the Service Quotas console, with eligible requests receiving automatic approval. This enhancement helps prevent service disruptions from unexpected quota constraints.",
-      "category": "OTHER",
-      "timestamp": "2026-02-18T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-cases-aws-service-quotas",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c27b637d8a63b8e68683889769fc87e1ab33016a",
-      "title": "Amazon Managed Grafana now supports AWS KMS customer managed keys",
-      "summary": "Amazon Managed Grafana now supports AWS KMS customer managed keys (CMK), allowing users to encrypt data in their Grafana workspaces using their own encryption keys instead of the default AWS owned keys. This enhancement provides greater control over data encryption for the fully managed Grafana service that helps visualize and analyze operational data at scale.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-18T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-managed-grafana-customer-managed-keys",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 544,
+    "total": 545,
     "byCategory": {
+      "OTHER": 114,
+      "SECURITY": 122,
+      "CONTAINERS": 23,
       "COMPUTE": 70,
       "AI_ML": 100,
-      "OTHER": 113,
-      "DATABASE": 54,
+      "DATABASE": 53,
       "ANALYTICS": 18,
-      "SECURITY": 122,
       "NETWORKING": 7,
       "STORAGE": 20,
-      "SERVERLESS": 18,
-      "CONTAINERS": 22
+      "SERVERLESS": 18
     },
-    "lastUpdated": "2026-05-19T12:39:27.069Z"
+    "lastUpdated": "2026-05-19T23:02:17.723Z"
   },
-  "generatedAt": "2026-05-19T12:39:27.070Z"
+  "generatedAt": "2026-05-19T23:02:17.724Z"
 }
