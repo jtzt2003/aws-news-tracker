@@ -5439,63 +5439,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-managed-grafana-customer-managed-keys",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "95efee2d660d3a73b48ccfde03ac3e25468a1a40",
-      "title": "AWS Clean Rooms announces support for remote Apache Iceberg REST catalogs",
-      "summary": "AWS Clean Rooms now supports catalog federation for remote Apache Iceberg REST catalogs, allowing direct and secure access to Iceberg tables stored in Amazon S3 without requiring table metadata replication. This new capability simplifies clean room setup by enabling organizations to use AWS Glue catalog federation to connect their existing Iceberg REST catalogs directly in Clean Rooms collaborations.",
-      "category": "STORAGE",
-      "timestamp": "2026-02-18T12:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-clean-rooms-remote-iceberg-catalogs",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "05da6f71bcf5cbd57213efd7ad914e8f817317f1",
-      "title": "Amazon OpenSearch Service expands support for Graviton4 (c8g,m8g & r8g ) instances",
-      "summary": "Amazon OpenSearch Service now supports AWS Graviton4-based EC2 instances, including compute optimized (c8g), general purpose (m8g), and memory optimized (r8g, r8gd) instance types. These new Graviton4 processors deliver up to 30% better performance compared to Graviton3 processors while offering the best price-performance ratio for their respective workload types.",
-      "category": "COMPUTE",
-      "timestamp": "2026-02-18T05:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-opensearch-service-expands-support-graviton4-based-instances",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f41690fa9522a3b24ea87376cb909b9f0ca8261a",
-      "title": "Amazon OpenSearch Service now supports storage optimized  i7i  instances",
-      "summary": "Amazon OpenSearch Service now supports the latest generation i7i storage optimized instances powered by 5th generation Intel Xeon Scalable processors. These new instances deliver up to 23% better compute performance and over 10% better price performance compared to previous generation i4i instances. The i7i instances feature 3rd generation AWS Nitro SSDs that provide up to 50% better real-time storage performance and significantly lower storage I/O latency.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-18T04:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-opensearch-service-supports-i7i-instances",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ee04baf9351f869a6b6839f1f6855e38403563c5",
-      "title": "Amazon EC2 R8i and R8i-flex instances are now available in Europe (Ireland) region",
-      "summary": "Amazon EC2 R8i and R8i-flex instances are now available in the Europe (Ireland) region, powered by custom Intel Xeon 6 processors exclusive to AWS. These new instances provide up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generation Intel-based instances, delivering the highest performance among comparable Intel processors in the cloud.",
-      "category": "COMPUTE",
-      "timestamp": "2026-02-17T23:45:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-r8i-r8i-flex-instances-DUB-region/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 548,
+    "total": 544,
     "byCategory": {
-      "COMPUTE": 72,
+      "COMPUTE": 70,
       "AI_ML": 100,
       "OTHER": 113,
       "DATABASE": 54,
       "ANALYTICS": 18,
-      "SECURITY": 123,
+      "SECURITY": 122,
       "NETWORKING": 7,
-      "STORAGE": 21,
+      "STORAGE": 20,
       "SERVERLESS": 18,
       "CONTAINERS": 22
     },
-    "lastUpdated": "2026-05-18T23:01:45.201Z"
+    "lastUpdated": "2026-05-19T12:39:27.069Z"
   },
-  "generatedAt": "2026-05-18T23:01:45.201Z"
+  "generatedAt": "2026-05-19T12:39:27.070Z"
 }
