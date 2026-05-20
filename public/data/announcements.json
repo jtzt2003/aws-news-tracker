@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "69083c6e6854d9275804cb634af4a88624789382",
+      "title": "Amazon SageMaker HyperPod now supports data capture for inference workloads",
+      "summary": "Amazon SageMaker HyperPod now includes data capture functionality for inference workloads, allowing customers to automatically record both input requests and output responses from their deployed models. This capability enables organizations to monitor model performance, meet compliance requirements, debug production issues, and conduct offline analysis of their generative AI and machine learning models.",
+      "category": "SECURITY",
+      "timestamp": "2026-05-20T01:08:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-hyperpod-data-capture",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "407d77440d663e5d5555ed4e9526ed6afb78f669",
       "title": "Amazon MWAA now supports Apache Airflow 3.2",
       "summary": "Amazon Managed Workflows for Apache Airflow (MWAA) now supports Apache Airflow version 3.2, the latest major release of the open-source workflow orchestration framework. This update introduces new data-aware scheduling capabilities and developer productivity improvements for teams building and operating data pipelines on AWS. MWAA continues to provide a managed service that allows users to run Apache Airflow at scale without managing the underlying infrastructure.",
@@ -5429,35 +5439,15 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-sns-sms-region-expansion",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "53a89871ec59aaddd689dc61a6bcbd80f9cd6e0b",
-      "title": "Amazon EC2 M8i-flex instances are now available in additional AWS regions",
-      "summary": "Amazon EC2 M8i-flex instances are now available in six additional AWS regions across Asia Pacific, Europe, and Canada. These instances are powered by exclusive custom Intel Xeon 6 processors that deliver up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generation Intel-based instances.",
-      "category": "COMPUTE",
-      "timestamp": "2026-02-19T02:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-m8i-flex-instances-FRA-ICN-KUL-NRT-SIN-YUL-region/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b2ce72bcf6eb13f58cd30dfd71538844adb0fab3",
-      "title": "AWS Certificate Manager updates default certificate validity to comply with new guidelines ",
-      "summary": "AWS Certificate Manager (ACM) has reduced the maximum validity period for public certificates from 395 days to 198 days, effective immediately. This change ensures compliance with the new Certification Authority Browser Forum mandate requiring certificates to be no longer than 200 days, which takes effect March 15, 2026. No customer action is required, as all new and renewed public certificates will automatically use the shorter validity period.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-18T23:46:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-certificate-manager-updates-default/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 545,
+    "total": 544,
     "byCategory": {
-      "OTHER": 114,
       "SECURITY": 122,
+      "OTHER": 114,
       "CONTAINERS": 23,
-      "COMPUTE": 70,
+      "COMPUTE": 69,
       "AI_ML": 100,
       "DATABASE": 53,
       "ANALYTICS": 18,
@@ -5465,7 +5455,7 @@
       "STORAGE": 20,
       "SERVERLESS": 18
     },
-    "lastUpdated": "2026-05-19T23:02:17.723Z"
+    "lastUpdated": "2026-05-20T12:25:30.167Z"
   },
-  "generatedAt": "2026-05-19T23:02:17.724Z"
+  "generatedAt": "2026-05-20T12:25:30.168Z"
 }
