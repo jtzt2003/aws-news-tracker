@@ -1,6 +1,76 @@
 {
   "announcements": [
     {
+      "id": "c3ad301b14684ecf309985a379799f2e1b546f7a",
+      "title": "AWS Security Hub now uncovers identity risks from unused access",
+      "summary": "AWS Security Hub now integrates identity risk management into its unified security console, allowing central security teams to detect unused IAM permissions, roles, and credentials across their entire AWS organization. This new capability eliminates the need to toggle between multiple tools to manage identity risks across hundreds of accounts. The feature helps security teams identify and reduce identity-related security risks at scale from a single, centralized location.",
+      "category": "SECURITY",
+      "timestamp": "2026-05-20T20:20:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-security-hub-unused-access/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "996844be3cffa4633fdbde68c647a9b98415fdf8",
+      "title": "Security Hub Extended expands to 21 curated partner solutions across 9 categories",
+      "summary": "AWS Security Hub Extended has expanded to include 21 curated partner security solutions across 9 categories, adding new vendors like SentinelOne, CyberArk, Sublime, Varonis, LayerX, Native Security, and Zenity. The expansion provides enterprises with greater flexibility in selecting security solutions that meet their specific requirements, all with pay-as-you-go pricing and consolidated AWS billing.",
+      "category": "SECURITY",
+      "timestamp": "2026-05-20T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-security-hub-extended/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "72ad3906bda1589ac79db11580ddd867c773e75d",
+      "title": "AWS announces ExtendDB, an open source DynamoDB-compatible adapter",
+      "summary": "AWS has announced ExtendDB version 0.1, an open source project that provides a DynamoDB-compatible API with pluggable storage backends. This tool allows developers to use DynamoDB's programming model in environments where the managed DynamoDB service isn't available, such as on local developer laptops. ExtendDB essentially brings DynamoDB's NoSQL database interface to self-hosted and offline development scenarios.",
+      "category": "DATABASE",
+      "timestamp": "2026-05-20T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-extenddb-dynamodb/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "abcbba2400409a7c0ccf0cd2c5e7f30b2ac7ac90",
+      "title": "AWS Billing Conductor Improves Account Visibility with Billing Transfer Inventory ",
+      "summary": "AWS Billing Conductor Console now provides a new billing transfer inventory feature that helps customers identify accounts that have accepted billing transfer invitations but still don't have access to pro forma billing data. This enhancement improves account billing visibility by helping customers detect and close gaps in their billing coverage. The feature works in conjunction with billing groups configured through AWS Billing Conductor to ensure accounts can properly access cost data across billing and cost management tools.",
+      "category": "AI_ML",
+      "timestamp": "2026-05-20T16:28:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-billing-conductor-billing-transfer/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8166910fdbea47cc4b62b6d0c5d36f31327d5502",
+      "title": "ECS supports native integration with Amazon EBS volumes in GovCloud Regions",
+      "summary": "Amazon ECS now supports native integration with Amazon EBS volumes in AWS GovCloud Regions, allowing containers to mount EBS storage for data-intensive applications like ETL jobs, media transcoding, and ML inference workloads. This feature enables ECS to automatically provision, manage, and de-provision EBS volumes with each task launch, simplifying storage management for serverless container deployments.",
+      "category": "CONTAINERS",
+      "timestamp": "2026-05-20T15:53:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/ecs-amazon-ebs-govcloud/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9c455a7128b522b99b73daa1e144441a991f6b17",
+      "title": "Announcing the general availability of a new AWS Local Zone in Istanbul, Türkiye",
+      "summary": "AWS has launched a new Local Zone in Istanbul, Turkey, bringing AWS infrastructure closer to end users in the region. This deployment enables organizations to achieve single-digit millisecond latency and meet local data residency requirements by storing and backing up data within Turkey. The Local Zone extends core AWS services including compute, storage, and networking to the Istanbul metropolitan area.",
+      "category": "CONTAINERS",
+      "timestamp": "2026-05-20T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-local-zones-istanbul-turkiye/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "58ea0cd7da312dfddf4dc4ec09a8c00f8e74490d",
+      "title": "AWS Transfer Family web apps now support federated permissions with IAM Identity Center across AWS Regions ",
+      "summary": "AWS Transfer Family web apps now support federated permissions with IAM Identity Center across multiple AWS Regions, whereas previously they were limited to the Region where IAM Identity Center was enabled. This enhancement leverages IAM Identity Center's multi-Region replication capability, allowing users to create Transfer Family web apps in additional Regions to reduce latency and improve reliability.",
+      "category": "COMPUTE",
+      "timestamp": "2026-05-20T10:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-transfer-family-federated-permissions-across-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "69083c6e6854d9275804cb634af4a88624789382",
       "title": "Amazon SageMaker HyperPod now supports data capture for inference workloads",
       "summary": "Amazon SageMaker HyperPod now includes data capture functionality for inference workloads, allowing customers to automatically record both input requests and output responses from their deployed models. This capability enables organizations to monitor model performance, meet compliance requirements, debug production issues, and conduct offline analysis of their generative AI and machine learning models.",
@@ -5389,73 +5459,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-rd-for-oracle-jan-release-update-spatial-patch-bundle/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "b6346ff783adbf4dc05c29c7b81ba4c43316a53f",
-      "title": "AWS IAM Identity Center is now available in the Asia Pacific (New Zealand) AWS Region",
-      "summary": "AWS IAM Identity Center is now available in the Asia Pacific (New Zealand) region, expanding availability to 38 total AWS regions. This service provides single sign-on capabilities for workforce access to AWS applications by connecting existing identity sources, and powers personalized experiences in AWS applications like Amazon Q while enabling user-aware access control and auditing.",
-      "category": "AI_ML",
-      "timestamp": "2026-02-19T22:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-iam-identity-center-asia-pacific-new-zealand-region/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "163a461c25f02c070b8b83e6fffbb58ab7830e8b",
-      "title": "Amazon EC2 G7e instances now available in Asia Pacific (Tokyo) region",
-      "summary": "Amazon EC2 G7e instances, powered by NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs, are now available in the Asia Pacific (Tokyo) region. These instances deliver up to 2.3x better inference performance compared to G6e instances and are optimized for deploying large language models, agentic AI, multimodal generative AI, and physical AI models. G7e instances provide the highest performance for spatial computing and graphics-intensive workloads.",
-      "category": "AI_ML",
-      "timestamp": "2026-02-19T19:11:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-g7e-instances-tokyo-region/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "1d2a239c818b623531decddab3f5587b308ec180",
-      "title": "Aurora DSQL launches new Go, Python, and Node.js connectors that simplify IAM authentication ",
-      "summary": "AWS has launched new Aurora DSQL Connectors for Go, Python, and Node.js that simplify IAM authentication when connecting to Aurora DSQL clusters using standard PostgreSQL drivers. These connectors automatically handle IAM token generation and act as transparent authentication layers, eliminating the need for developers to manually write token generation code or supply IAM tokens.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-19T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aurora-dsql-launches-go-python-nodejs-connectors",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "8a78cddfc84df4e464a56377793c0e864c9d65e5",
-      "title": "Amazon MQ now supports ActiveMQ minor version 5.19",
-      "summary": "Amazon MQ now supports ActiveMQ minor version 5.19, which includes various improvements and fixes over previous versions. The service automatically manages patch version upgrades during scheduled maintenance windows for brokers running version 5.19. AWS strongly recommends users upgrade from earlier ActiveMQ versions like 5.18 to take advantage of the latest enhancements.",
-      "category": "OTHER",
-      "timestamp": "2026-02-19T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-mq-activemq-5-19/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "87a72f22860bd764169d667688fc70761b0b5968",
-      "title": "Amazon SNS now supports sending SMS in additional AWS Regions",
-      "summary": "Amazon SNS has expanded SMS messaging capabilities to the Asia Pacific (New Zealand) and Asia Pacific (Taipei) regions, allowing customers to send text messages to subscribers in over 200 countries and territories. This enhancement extends SNS's fully managed pub/sub messaging service, which already supports multiple endpoints including AWS Lambda, Amazon SQS, and mobile devices, to include SMS functionality in these additional regions.",
-      "category": "SERVERLESS",
-      "timestamp": "2026-02-19T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-sns-sms-region-expansion",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 544,
+    "total": 546,
     "byCategory": {
-      "SECURITY": 122,
-      "OTHER": 114,
-      "CONTAINERS": 23,
-      "COMPUTE": 69,
-      "AI_ML": 100,
-      "DATABASE": 53,
+      "SECURITY": 123,
+      "DATABASE": 54,
+      "AI_ML": 99,
+      "CONTAINERS": 25,
+      "COMPUTE": 70,
+      "OTHER": 113,
       "ANALYTICS": 18,
       "NETWORKING": 7,
       "STORAGE": 20,
-      "SERVERLESS": 18
+      "SERVERLESS": 17
     },
-    "lastUpdated": "2026-05-20T12:25:30.167Z"
+    "lastUpdated": "2026-05-20T23:14:03.398Z"
   },
-  "generatedAt": "2026-05-20T12:25:30.168Z"
+  "generatedAt": "2026-05-20T23:14:03.399Z"
 }
