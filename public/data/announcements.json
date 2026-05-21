@@ -1,6 +1,56 @@
 {
   "announcements": [
     {
+      "id": "facd5fc3f1434dd9bb734519a5407300cd1e7a2a",
+      "title": "Amazon EC2 C7i-flex, M7i-flex & M7i instances now available in Asia Pacific (Hyderabad) region",
+      "summary": "AWS has launched Amazon EC2 C7i-flex, M7i-flex, and M7i instances in the Asia Pacific (Hyderabad) region, powered by custom 4th Gen Intel Xeon Scalable processors (Sapphire Rapids). These AWS-exclusive custom processors deliver up to 15% better performance compared to similar x86-based Intel processors used by other cloud providers, with the flex instances offering improved price-performance benefits for most workloads.",
+      "category": "AI_ML",
+      "timestamp": "2026-05-21T19:39:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-c7i-flex-m7i-flex-m7i-instances-HYD-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "dd2081f6e694eba5bd13259226671f6a4b2b51bd",
+      "title": "Amazon SageMaker AI now supports OpenAI-compatible APIs for inference endpoints",
+      "summary": "Amazon SageMaker Inference now supports OpenAI-compatible APIs, allowing developers to use familiar tools like OpenAI SDK, LangChain, and Strands Agents with their SageMaker endpoints. The integration requires only changing the endpoint URL with no need for custom code, SDK wrappers, or rewrites, making it seamless to switch between OpenAI and SageMaker services.",
+      "category": "AI_ML",
+      "timestamp": "2026-05-21T17:55:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-ai-openai-apis/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7b828339cebc75a17a1460438c33ad652791119c",
+      "title": "Amazon Aurora MySQL 8.4  is now generally available",
+      "summary": "Amazon Aurora MySQL-Compatible Edition now supports MySQL 8.4, a Long Term Support (LTS) version, with compatibility for community MySQL 8.4.7. The release introduces aligned version numbering so Aurora versions now match their corresponding community MySQL versions, and Aurora automatically manages underlying patches to simplify operations. Aurora MySQL now commits to supporting major versions within 12 months of their community MySQL release.",
+      "category": "SECURITY",
+      "timestamp": "2026-05-21T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-mysql/8-4/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "43a4b94dc38196156b1ed552cb519d332bc1118e",
+      "title": "Amazon RDS Custom now supports the latest GDR updates for Microsoft SQL Server",
+      "summary": "Amazon RDS Custom for SQL Server now supports the latest General Distribution Release (GDR) updates, including SQL Server 2019 CU32+GDR and SQL Server 2022 CU24+GDR. These updates address security vulnerabilities CVE-2026-32167 and CVE-2026-32176.",
+      "category": "DATABASE",
+      "timestamp": "2026-05-21T07:22:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-custom-sql-server-latest-gdr-updates-microsoft-sql-server",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8d61a46d77b72e3139d4953a64796f307b0672c8",
+      "title": "Amazon Bedrock expands support for request-level usage attribution",
+      "summary": "Amazon Bedrock now supports request-level usage attribution, allowing customers to track model inference usage for specific teams, applications, environments, and experiments through the InvokeModel and InvokeModelWithResponseStream APIs. This feature provides detailed visibility into organizational usage patterns, enabling better cost optimization and internal reporting. The capability requires no additional resource provisioning.",
+      "category": "AI_ML",
+      "timestamp": "2026-05-20T23:34:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-request-level-usage-attribution/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "c3ad301b14684ecf309985a379799f2e1b546f7a",
       "title": "AWS Security Hub now uncovers identity risks from unused access",
       "summary": "AWS Security Hub now integrates identity risk management into its unified security console, allowing central security teams to detect unused IAM permissions, roles, and credentials across their entire AWS organization. This new capability eliminates the need to toggle between multiple tools to manage identity risks across hundreds of accounts. The feature helps security teams identify and reduce identity-related security risks at scale from a single, centralized location.",
@@ -11,12 +61,32 @@
       "isNew": false
     },
     {
+      "id": "54cc6f33eeb707c4d61295c2a7c2c7fdce8c90d9",
+      "title": "Amazon DocumentDB (with MongoDB compatibility) Serverless is now available on DocumentDB 8.0",
+      "summary": "Amazon DocumentDB Serverless is now available on version 8.0, offering automatic scaling that adjusts capacity based on application demand and can provide up to 90% cost savings compared to peak capacity provisioning. DocumentDB 8.0 delivers significant performance improvements with up to 7x better query latency and 5x improved compression ratios, while adding compatibility with MongoDB API version 6.",
+      "category": "DATABASE",
+      "timestamp": "2026-05-20T18:17:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/5/docdb8-serverless",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "996844be3cffa4633fdbde68c647a9b98415fdf8",
       "title": "Security Hub Extended expands to 21 curated partner solutions across 9 categories",
       "summary": "AWS Security Hub Extended has expanded to include 21 curated partner security solutions across 9 categories, adding new vendors like SentinelOne, CyberArk, Sublime, Varonis, LayerX, Native Security, and Zenity. The expansion provides enterprises with greater flexibility in selecting security solutions that meet their specific requirements, all with pay-as-you-go pricing and consolidated AWS billing.",
       "category": "SECURITY",
       "timestamp": "2026-05-20T18:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-security-hub-extended/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "87e8ea8e8161d0c8409c13fedb86511fa944cdec",
+      "title": "Amazon SageMaker Unified Studio now supports data quality rule authoring and evaluation",
+      "summary": "Amazon SageMaker Unified Studio now includes data quality rule authoring and evaluation capabilities powered by AWS Glue Data Quality. Users can define quality rules, run evaluations, and view results directly within the platform for both stored catalog data and data moving through Visual ETL jobs. This feature helps detect data quality issues early to prevent bad data from impacting data lakes and downstream analytics or machine learning processes.",
+      "category": "AI_ML",
+      "timestamp": "2026-05-20T17:42:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/smus-data-quality",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5452,11 +5522,11 @@
     }
   ],
   "stats": {
-    "total": 545,
+    "total": 552,
     "byCategory": {
-      "SECURITY": 122,
-      "DATABASE": 54,
-      "AI_ML": 99,
+      "AI_ML": 103,
+      "SECURITY": 123,
+      "DATABASE": 56,
       "CONTAINERS": 25,
       "COMPUTE": 70,
       "OTHER": 113,
@@ -5465,7 +5535,7 @@
       "STORAGE": 20,
       "SERVERLESS": 17
     },
-    "lastUpdated": "2026-05-21T12:44:59.383Z"
+    "lastUpdated": "2026-05-21T23:03:36.284Z"
   },
-  "generatedAt": "2026-05-21T12:44:59.383Z"
+  "generatedAt": "2026-05-21T23:03:36.284Z"
 }
