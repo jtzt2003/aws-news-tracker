@@ -5449,22 +5449,12 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-s3-tables-aws-govcloud-us/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "40c059696cb594cf1c59ae636af265cb8748c2ba",
-      "title": "Amazon RDS for Oracle now supports January 2026 Release Update and Spatial Patch Bundle",
-      "summary": "Amazon RDS for Oracle now supports the January 2026 Release Update for Oracle Database versions 19c and 21c, which includes important security updates. Additionally, Oracle Database 19c receives the corresponding Spatial Patch Bundle that provides fixes for Oracle Spatial and Graph functionality. AWS recommends upgrading to the January 2026 RU to ensure security and optimal performance.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-20T08:38:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-rd-for-oracle-jan-release-update-spatial-patch-bundle/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 546,
+    "total": 545,
     "byCategory": {
-      "SECURITY": 123,
+      "SECURITY": 122,
       "DATABASE": 54,
       "AI_ML": 99,
       "CONTAINERS": 25,
@@ -5475,7 +5465,7 @@
       "STORAGE": 20,
       "SERVERLESS": 17
     },
-    "lastUpdated": "2026-05-20T23:14:03.398Z"
+    "lastUpdated": "2026-05-21T12:44:59.383Z"
   },
-  "generatedAt": "2026-05-20T23:14:03.399Z"
+  "generatedAt": "2026-05-21T12:44:59.383Z"
 }
