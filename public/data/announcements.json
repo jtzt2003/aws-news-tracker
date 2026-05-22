@@ -1,6 +1,86 @@
 {
   "announcements": [
     {
+      "id": "c784cfe74a3c2e144393292f030d6b6884554c7b",
+      "title": "Amazon SageMaker expands domain management across domain types",
+      "summary": "Amazon SageMaker Unified Studio has expanded its domain management capabilities to support both Identity Center-based and IAM-based domains outside of the AWS console. This allows administrators to create and manage projects, configure workforce identity, manage users and permissions, and set networking properties across all domain types. Previously, these domain management features were only available for IAM-based domains.",
+      "category": "SECURITY",
+      "timestamp": "2026-05-22T19:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/domain-management-iam-idc/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8e05965dfb1a5f243998ffbddd7ac648fa9f0b12",
+      "title": "New agentic migration assessment capabilities now available with AWS Transform",
+      "summary": "AWS Transform has launched new agentic migration assessment capabilities that enable users to perform what-if scenarios, customize assumptions, and conduct comprehensive TCO assessments. The enhanced features support flexible file formats including RVTools exports, CMDB data, and AWS Transform discovery tool exports to help build migration business cases more efficiently. These capabilities are designed to accelerate migration decision-making processes for organizations planning their cloud transitions.",
+      "category": "OTHER",
+      "timestamp": "2026-05-22T18:58:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/assessment-capabilities-transform",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f41d21c9a3d221a23f1c7b728f089118c00007f2",
+      "title": "Amazon SageMaker adds business metadata and governance in IAM-based domains",
+      "summary": "Amazon SageMaker Unified Studio now enables customers to add business context and metadata to their AWS Glue Data Catalog tables within IAM-based domains, including business names, descriptions, and documentation. The service includes AI-generated metadata capabilities that automatically produce business names and descriptions, significantly reducing the manual effort required to catalog large numbers of tables. This enhancement brings improved data governance and business context management to SageMaker's IAM-based domain users.",
+      "category": "AI_ML",
+      "timestamp": "2026-05-22T18:24:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/sagemaker-catalog-iam-domains/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d8c4aebe04a0ccdf8130b52d84ba4755cbc6fe33",
+      "title": "AWS Security Agent adds verification scripts for pentest findings",
+      "summary": "AWS Security Agent now automatically generates verification scripts for penetration test findings, allowing security teams to independently reproduce and validate discovered vulnerabilities. This replaces the previous manual process of following reproduction steps from finding details. Teams can simply download the generated scripts, configure environment variables, and execute them against target systems to streamline vulnerability verification.",
+      "category": "SECURITY",
+      "timestamp": "2026-05-22T17:21:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-security-agent/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e3859899c5fff1e41359e8c05c56e5de6bb284dd",
+      "title": "Amazon WorkSpaces Personal now supports WorkSpace Migration for Linux WorkSpaces",
+      "summary": "Amazon WorkSpaces Personal now supports WorkSpace Migration for all Linux operating systems, enabling customers to seamlessly migrate between different Linux distributions or upgrade to newer OS versions. The migration process is automated and preserves user data from the home directory during the transition.",
+      "category": "OTHER",
+      "timestamp": "2026-05-22T16:24:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/workspaces-linux-migration",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7cdfdc6c61dfd35cedde1f4d98fc6c01a9c47d8a",
+      "title": "Amazon Keyspaces (for Apache Cassandra) expands to Asia Pacific (Malaysia) and Asia Pacific (Thailand) Regions",
+      "summary": "Amazon Keyspaces (for Apache Cassandra) has expanded its availability to the Asia Pacific (Malaysia) and Asia Pacific (Thailand) regions. This expansion enables customers in these regions to build Cassandra-compatible applications with reduced latency while maintaining data residency compliance by keeping their data within the local region.",
+      "category": "OTHER",
+      "timestamp": "2026-05-22T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-keyspaces-malaysia-thailand/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "23083a5647e47fb70be30c516db9175463278364",
+      "title": "AWS Clean Rooms now supports mutable payment configurations for collaborations",
+      "summary": "AWS Clean Rooms now allows customers to modify payment configurations for collaboration members after a collaboration has been created, providing greater flexibility in managing payment responsibilities. Customers can now specify which partners are authorized to pay for different types of costs, including SQL queries, PySpark jobs, ML model training and inference, and synthetic data generation. This feature gives organizations more control and adaptability when developing new use cases with their collaboration partners.",
+      "category": "OTHER",
+      "timestamp": "2026-05-22T12:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-clean-rooms-mutable-payments",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "fd964371ee960e60ff3d653a248b712eb3db4cb5",
+      "title": "AWS Secrets Manager adds managed external secrets support for Datadog vended keys and Snowflake Programmatic Access Tokens",
+      "summary": "AWS Secrets Manager now supports automatic rotation of Datadog keys (API keys, Application keys, and admin credentials) and Snowflake Programmatic Access Tokens through its managed external secrets feature. This capability allows customers to automatically rotate third-party credentials directly from AWS Secrets Manager with native integration to these services.",
+      "category": "SECURITY",
+      "timestamp": "2026-05-22T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/secrets-manager-managed-external-secrets-datadog-snowflake/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "aed6be80b8a70cc9cc10aecec0f72fbcf0f8a727",
       "title": "Amazon CloudWatch Logs Insights adds new query commands and functions",
       "summary": "Amazon CloudWatch Logs Insights has added 13 new query commands and functions that enhance log analysis capabilities. These new tools enable users to perform advanced operations like string manipulation, field encoding/decoding, parsing non-JSON formats, and calculating geographic distances. The update provides more powerful ways to query, transform, and analyze logs to derive deeper insights from log data.",
@@ -5542,11 +5622,11 @@
     }
   ],
   "stats": {
-    "total": 554,
+    "total": 562,
     "byCategory": {
-      "OTHER": 114,
-      "AI_ML": 104,
-      "SECURITY": 123,
+      "SECURITY": 126,
+      "OTHER": 118,
+      "AI_ML": 105,
       "DATABASE": 56,
       "CONTAINERS": 25,
       "COMPUTE": 70,
@@ -5555,7 +5635,7 @@
       "STORAGE": 20,
       "SERVERLESS": 17
     },
-    "lastUpdated": "2026-05-22T12:19:24.825Z"
+    "lastUpdated": "2026-05-22T22:59:44.122Z"
   },
-  "generatedAt": "2026-05-22T12:19:24.825Z"
+  "generatedAt": "2026-05-22T22:59:44.122Z"
 }
