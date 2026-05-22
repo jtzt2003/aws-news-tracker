@@ -1,12 +1,32 @@
 {
   "announcements": [
     {
+      "id": "aed6be80b8a70cc9cc10aecec0f72fbcf0f8a727",
+      "title": "Amazon CloudWatch Logs Insights adds new query commands and functions",
+      "summary": "Amazon CloudWatch Logs Insights has added 13 new query commands and functions that enhance log analysis capabilities. These new tools enable users to perform advanced operations like string manipulation, field encoding/decoding, parsing non-JSON formats, and calculating geographic distances. The update provides more powerful ways to query, transform, and analyze logs to derive deeper insights from log data.",
+      "category": "OTHER",
+      "timestamp": "2026-05-21T23:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-logs-insights/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "facd5fc3f1434dd9bb734519a5407300cd1e7a2a",
       "title": "Amazon EC2 C7i-flex, M7i-flex & M7i instances now available in Asia Pacific (Hyderabad) region",
       "summary": "AWS has launched Amazon EC2 C7i-flex, M7i-flex, and M7i instances in the Asia Pacific (Hyderabad) region, powered by custom 4th Gen Intel Xeon Scalable processors (Sapphire Rapids). These AWS-exclusive custom processors deliver up to 15% better performance compared to similar x86-based Intel processors used by other cloud providers, with the flex instances offering improved price-performance benefits for most workloads.",
       "category": "AI_ML",
       "timestamp": "2026-05-21T19:39:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-c7i-flex-m7i-flex-m7i-instances-HYD-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f782f9eec2f00f9ec2714e5384b5224fad57a552",
+      "title": "SageMaker Unified Studio automates Glue connector provisioning for cross-subnet job retries",
+      "summary": "Amazon SageMaker Unified Studio now automatically creates Glue connections for job retries across different subnets, enhancing data pipeline resilience and reducing unplanned downtime. This automation eliminates the need for manual configuration of backup connectors or engineer intervention during subnet failures. The feature helps organizations maintain business-critical data pipelines and meet their service level agreements more reliably.",
+      "category": "AI_ML",
+      "timestamp": "2026-05-21T19:27:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/sagemaker-unified-studio-glue/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5522,20 +5542,20 @@
     }
   ],
   "stats": {
-    "total": 552,
+    "total": 554,
     "byCategory": {
-      "AI_ML": 103,
+      "OTHER": 114,
+      "AI_ML": 104,
       "SECURITY": 123,
       "DATABASE": 56,
       "CONTAINERS": 25,
       "COMPUTE": 70,
-      "OTHER": 113,
       "ANALYTICS": 18,
       "NETWORKING": 7,
       "STORAGE": 20,
       "SERVERLESS": 17
     },
-    "lastUpdated": "2026-05-21T23:03:36.284Z"
+    "lastUpdated": "2026-05-22T12:19:24.825Z"
   },
-  "generatedAt": "2026-05-21T23:03:36.284Z"
+  "generatedAt": "2026-05-22T12:19:24.825Z"
 }
