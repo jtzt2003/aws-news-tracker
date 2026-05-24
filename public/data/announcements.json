@@ -5569,55 +5569,15 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/trusted-advisor-unused-nat-gateway-check/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "e3db231e6063efc7260aad1b51ca1064920e7f02",
-      "title": "Amazon announces generative AI-based artifacts in Amazon Q Developer for visualizing resource and cost data",
-      "summary": "AWS has launched Amazon Q Developer artifacts, a generative AI feature that allows customers to visualize AWS resource data in tables and cost data in charts directly within the AWS Management Console. The update also relocates the Q icon to the navigation bar and moves the chat panel to the left side for easier access throughout the console. Customers can access these AI-powered visualization tools by clicking the Amazon Q icon and making requests.",
-      "category": "AI_ML",
-      "timestamp": "2026-02-23T20:05:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/generative-ai-based-Amazon-Q-artifacts/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "0a27ac204ad576e2887ab4ddd0ed6d2bbd6b09ad",
-      "title": "AWS IAM Policy Autopilot is now available as a Kiro Power",
-      "summary": "AWS has released IAM Policy Autopilot as a Kiro power, making the open source static code analysis tool available for agentic AI development with one-click installation. The tool automatically generates baseline AWS IAM policies for developers, eliminating manual policy creation and allowing policies to be refined as applications evolve. This integration brings IAM policy expertise directly into the Kiro IDE and web interface.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-23T18:49:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-iam-policy-autopilot-kiro-power/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "be32da9b52a3a2b30cfaea3a2157a34a0d16a89f",
-      "title": "AWS Elemental Media Services Now Available in Asia Pacific (Malaysia) Region",
-      "summary": "AWS has expanded its Elemental Media Services suite to the Asia Pacific (Malaysia) Region, bringing cloud-based video workflow capabilities closer to Southeast Asian audiences. The comprehensive suite includes MediaConnect, MediaLive, MediaPackage, MediaConvert, and MediaTailor, enabling businesses to ingest, transport, transcode, package, and deliver high-quality video content with reduced latency and better performance for viewers in Malaysia and the broader Southeast Asian region.",
-      "category": "OTHER",
-      "timestamp": "2026-02-23T18:49:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/elemental-Malaysia/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "597d436c1b70909785ba2b7665ca038e4fbec07f",
-      "title": "Amazon Redshift Serverless introduces 3-year Serverless Reservations",
-      "summary": "Amazon Redshift Serverless now offers 3-year Serverless Reservations that provide up to 45% cost savings and improved cost predictability for analytics workloads. Customers can commit to a specific number of Redshift Processing Units (RPUs) for three years with no upfront payment required. This new pricing option enhances the serverless analytics platform that automatically scales without requiring cluster provisioning or management.",
-      "category": "DATABASE",
-      "timestamp": "2026-02-23T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-redshift-serverless-three-year-reservations/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 561,
+    "total": 557,
     "byCategory": {
-      "SECURITY": 126,
-      "OTHER": 118,
-      "AI_ML": 105,
-      "DATABASE": 56,
+      "SECURITY": 125,
+      "OTHER": 117,
+      "AI_ML": 104,
+      "DATABASE": 55,
       "CONTAINERS": 25,
       "COMPUTE": 70,
       "ANALYTICS": 18,
@@ -5625,7 +5585,7 @@
       "STORAGE": 19,
       "SERVERLESS": 17
     },
-    "lastUpdated": "2026-05-24T11:17:41.959Z"
+    "lastUpdated": "2026-05-24T22:58:19.139Z"
   },
-  "generatedAt": "2026-05-24T11:17:41.959Z"
+  "generatedAt": "2026-05-24T22:58:19.139Z"
 }
