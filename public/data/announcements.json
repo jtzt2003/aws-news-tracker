@@ -5609,20 +5609,10 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-redshift-serverless-three-year-reservations/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "e1884080285e5b111f3831e7b97ebe0ca9dfb50d",
-      "title": "Amazon S3 Tables are now available in AWS GovCloud (US) Regions",
-      "summary": "Amazon S3 Tables, AWS's first cloud object store with built-in Apache Iceberg support, are now available in AWS GovCloud (US-East) and (US-West) regions. This service provides optimized tabular data storage at scale with automatic table maintenance that continuously optimizes query performance and storage costs as data lakes grow. S3 Tables support the Apache Iceberg standard, enabling easy querying of tabular data.",
-      "category": "STORAGE",
-      "timestamp": "2026-02-23T05:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-s3-tables-aws-govcloud-us/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 562,
+    "total": 561,
     "byCategory": {
       "SECURITY": 126,
       "OTHER": 118,
@@ -5632,10 +5622,10 @@
       "COMPUTE": 70,
       "ANALYTICS": 18,
       "NETWORKING": 7,
-      "STORAGE": 20,
+      "STORAGE": 19,
       "SERVERLESS": 17
     },
-    "lastUpdated": "2026-05-23T22:54:51.579Z"
+    "lastUpdated": "2026-05-24T11:17:41.959Z"
   },
-  "generatedAt": "2026-05-23T22:54:51.580Z"
+  "generatedAt": "2026-05-24T11:17:41.959Z"
 }
