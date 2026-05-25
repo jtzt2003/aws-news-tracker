@@ -5439,133 +5439,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-workspaces-applications-4K-resolution/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "1ccf77305bff78c063363cf3a6c87ffd54be42fe",
-      "title": "Amazon Bedrock now supports server-side tool execution with AgentCore Gateway",
-      "summary": "Amazon Bedrock now supports server-side tool execution through integration with AgentCore Gateway and the Responses API. Customers can connect their AgentCore Gateway tools to Bedrock models by specifying a gateway ARN, eliminating the need for client-side orchestration. This enables automatic tool discovery and presentation to models during execution.",
-      "category": "AI_ML",
-      "timestamp": "2026-02-24T23:02:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-bedrock-server-side-tool-execution-agentcore-gateway/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "8ed28ecde417d9644cb023ab4259438579b38e15",
-      "title": "AWS Compute Optimizer now applies AWS-generated tags to EBS snapshots created during automation",
-      "summary": "AWS Compute Optimizer now automatically applies AWS-generated tags to EBS snapshots that are created when the service snapshots and deletes unattached EBS volumes. This enhancement improves visibility and tracking by making it easier to identify which snapshots were created through Compute Optimizer's automation processes, whether initiated manually or through automated rules.",
-      "category": "STORAGE",
-      "timestamp": "2026-02-24T19:58:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-compute-optimizer-applies-tags-ebs-snapshots/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "9265879b477a7edc584d31ca38c80200f0dc0058",
-      "title": "AWS Observability now available as a Kiro power",
-      "summary": "AWS has launched AWS Observability as a Kiro power, which uses AI agent-assisted workflows to help developers and operators diagnose infrastructure and application health issues more quickly. Kiro Powers is a repository of pre-built Model Context Protocol (MCP) servers and tools validated by partners to streamline specialized software development and deployment scenarios. The AWS Observability power includes four specialized MCP servers designed for targeted observability tasks.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-24T19:05:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-observability-kiro-power/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "582c9d37d767536d94a42b4be893d32c2b016477",
-      "title": "Announcing AWS Elemental Inference",
-      "summary": "AWS Elemental Inference is a new fully managed AI service that automatically generates vertical content and highlight clips from live and on-demand video for mobile and social platforms in real time. The service works in parallel with video encoding and enables broadcasters and streamers to reach audiences across multiple formats without requiring AI expertise or dedicated production teams. This allows content creators to efficiently repurpose their video content for different platforms and viewing preferences.",
-      "category": "OTHER",
-      "timestamp": "2026-02-24T19:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-elemental-inference-generally-avail/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c234c95a6d5e849ea34f4d15fdd8ec89245ec580",
-      "title": "Amazon RDS Snapshot Export to S3 now available in AWS GovCloud (US) Regions",
-      "summary": "Amazon RDS Snapshot Export to S3 is now available in AWS GovCloud (US) regions, allowing users to export database snapshot data in Apache Parquet format for analytics, data retention, and machine learning purposes. The feature supports all snapshot types and runs without impacting database performance, with exported data accessible through AWS analytics services like Amazon Athena.",
-      "category": "AI_ML",
-      "timestamp": "2026-02-24T18:26:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/rds-exports-s3-available-gov-cloud/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f324034d505eac0f0663ebdf440579fa6625375e",
-      "title": "AWS Deadline Cloud now supports running tasks together in chunks",
-      "summary": "AWS Deadline Cloud, a fully managed render management service for 2D/3D graphics and visual effects, now supports grouping tasks into \"chunks\" for more efficient execution. This new chunking feature is particularly beneficial for short tasks or tasks requiring long startup times, as it reduces overall completion time and costs by running multiple tasks together rather than individually.",
-      "category": "OTHER",
-      "timestamp": "2026-02-24T18:13:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-deadline-cloud-running-tasks-together-in/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "266254b6649bdec50da4ac00a29cb25e9bdfc05b",
-      "title": "Amazon EC2 R7a instances are now available in the Asia Pacific (Hyderabad) Region",
-      "summary": "Amazon EC2 R7a instances are now available in the AWS Asia Pacific (Hyderabad) Region. These instances are powered by 4th Gen AMD EPYC processors and deliver up to 50% higher performance compared to R6a instances, with availability across all purchasing options including On-Demand, Reserved, Spot, and Savings Plans.",
-      "category": "COMPUTE",
-      "timestamp": "2026-02-24T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-r7a-instances-asia-pacific-hyderabad-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ee879c711a00eeb45ba9bd39be37960debcd524f",
-      "title": "Amazon EC2 C8i and C8i-flex instances are now available in Asia Pacific (Malaysia) and South America (Sao Paulo) regions",
-      "summary": "Amazon EC2 C8i and C8i-flex instances are now available in Asia Pacific (Malaysia) and South America (São Paulo) regions. These instances are powered by custom Intel Xeon 6 processors exclusive to AWS, offering up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generations. The new instances deliver the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud.",
-      "category": "COMPUTE",
-      "timestamp": "2026-02-24T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8i-c8i-flex-instances-asia-pacific-malaysia-south-america-sao--paulo-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "e3fa7948e43cbcff159aa03f5e69fe5e48986be0",
-      "title": "AWS AppConfig integrates with New Relic for automated rollbacks",
-      "summary": "AWS AppConfig has launched a new integration with New Relic Workflow Automation that enables automated rollbacks during feature flag and dynamic configuration deployments. The integration automatically detects degraded application health and triggers rollbacks within seconds, eliminating the need for manual intervention. This builds on AWS AppConfig's existing third-party alert capabilities to provide New Relic users with intelligent, automated deployment protection.",
-      "category": "OTHER",
-      "timestamp": "2026-02-24T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-appconfig-new-relic-for-automated-rollback/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4330aa8dd90ad54db2b837bc270d667add7d75bd",
-      "title": "Amazon EC2 M8a instances now available in AWS Europe (Frankfurt) region",
-      "summary": "Amazon EC2 M8a instances are now available in the AWS Europe (Frankfurt) region, powered by 5th generation AMD EPYC processors with frequencies up to 4.5 GHz. These new instances offer up to 30% higher performance, 19% better price-performance, and 45% more memory bandwidth compared to the previous M7a instances, making them well-suited for latency-sensitive workloads.",
-      "category": "COMPUTE",
-      "timestamp": "2026-02-24T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-m8a-instances-europe-frankfurt/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f3f3ad60f2d6f0a95e703acfa910fab63f2a9bf8",
-      "title": "Amazon EKS Node Monitoring Agent is now open source",
-      "summary": "Amazon EKS has open-sourced its Node Monitoring Agent, making the source code available on GitHub for community contributions. The agent addresses the challenge of maintaining reliable Kubernetes workloads by automatically monitoring and managing degraded cluster nodes, eliminating the need for manual intervention by cluster administrators.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-02-24T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-eks-node-monitoring-agent-open-source/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 555,
+    "total": 544,
     "byCategory": {
-      "SECURITY": 125,
-      "OTHER": 117,
-      "AI_ML": 104,
+      "SECURITY": 124,
+      "OTHER": 114,
+      "AI_ML": 102,
       "DATABASE": 55,
-      "CONTAINERS": 24,
-      "COMPUTE": 70,
+      "CONTAINERS": 23,
+      "COMPUTE": 67,
       "ANALYTICS": 18,
       "NETWORKING": 7,
-      "STORAGE": 18,
+      "STORAGE": 17,
       "SERVERLESS": 17
     },
-    "lastUpdated": "2026-05-25T13:29:39.262Z"
+    "lastUpdated": "2026-05-25T23:02:59.054Z"
   },
-  "generatedAt": "2026-05-25T13:29:39.263Z"
+  "generatedAt": "2026-05-25T23:02:59.054Z"
 }
