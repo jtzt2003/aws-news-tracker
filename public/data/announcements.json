@@ -5549,43 +5549,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-eks-node-monitoring-agent-open-source/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "dd028ac3f057329837bc08593bd99f08e88e7454",
-      "title": "MediaConvert Introduces new video probe API and UI",
-      "summary": "AWS Elemental MediaConvert has launched a new Probe API, a free metadata analysis tool that quickly extracts essential information about media files including codec specifications, pixel formats, color space details, and container information by reading header metadata. The tool is designed for efficiency, providing this analysis without needing to process the actual video content. This makes it particularly valuable for content creators, developers, and media professionals who need rapid media file insights.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-02-24T00:01:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-mediaconvert-introduces-video-probe/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "0f312b6aaaacdbaef0ac057e369026b37d189555",
-      "title": "AWS Trusted Advisor now delivers more accurate unused NAT Gateway checks powered by AWS Compute Optimizer",
-      "summary": "AWS Trusted Advisor has improved its unused NAT Gateway detection by integrating AWS Compute Optimizer capabilities, which analyze additional CloudWatch metrics over a 32-day period and verify route table associations. This enhancement significantly reduces false positives by avoiding flagging critical backup resources, enabling cost optimization teams and DevOps engineers to more confidently identify and remove truly unused NAT Gateways that generate unnecessary charges.",
-      "category": "STORAGE",
-      "timestamp": "2026-02-23T23:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/trusted-advisor-unused-nat-gateway-check/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 557,
+    "total": 555,
     "byCategory": {
       "SECURITY": 125,
       "OTHER": 117,
       "AI_ML": 104,
       "DATABASE": 55,
-      "CONTAINERS": 25,
+      "CONTAINERS": 24,
       "COMPUTE": 70,
       "ANALYTICS": 18,
       "NETWORKING": 7,
-      "STORAGE": 19,
+      "STORAGE": 18,
       "SERVERLESS": 17
     },
-    "lastUpdated": "2026-05-24T22:58:19.139Z"
+    "lastUpdated": "2026-05-25T13:29:39.262Z"
   },
-  "generatedAt": "2026-05-24T22:58:19.139Z"
+  "generatedAt": "2026-05-25T13:29:39.263Z"
 }
