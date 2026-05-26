@@ -1,6 +1,66 @@
 {
   "announcements": [
     {
+      "id": "5a3c5e12ec6b863a7076770f5de9aebac255bec5",
+      "title": "Amazon RDS now supports ENA Express for Multi-AZ replication",
+      "summary": "Amazon RDS Multi-AZ instances now support ENA Express, which uses AWS's Scalable Reliable Datagram (SRD) protocol to enhance cross-Availability Zone replication performance. This improvement delivers up to 25 Gbps single-flow bandwidth and reduces latency variability through advanced congestion control and multi-pathing capabilities for Multi-AZ deployments.",
+      "category": "DATABASE",
+      "timestamp": "2026-05-26T19:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-rds-ena-express-multiAZ/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6761b00b7032e78eca3e723c2994a85287558d56",
+      "title": "Amazon EC2 M8i and M8i-flex instances are now available in AWS GovCloud (US-East) Region",
+      "summary": "Amazon EC2 M8i and M8i-flex instances are now available in the AWS GovCloud (US-East) Region, powered by custom Intel Xeon 6 processors exclusive to AWS. These instances provide up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generation Intel-based instances, along with up to 20% better overall performance.",
+      "category": "COMPUTE",
+      "timestamp": "2026-05-26T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-m8i-m8i-flex-govcloud-east/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7e85bfe72fbd386f0769b5b7f5f30a2ecf51d751",
+      "title": "Amazon EC2 R8i and R8i-flex instances are now available in AWS GovCloud (US-East) Region",
+      "summary": "Amazon EC2 R8i and R8i-flex instances are now available in the AWS GovCloud (US-East) Region, powered by custom Intel Xeon 6 processors exclusive to AWS. These instances deliver up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generation Intel-based instances, offering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud.",
+      "category": "COMPUTE",
+      "timestamp": "2026-05-26T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-r8i-r8i-flex-govcloud-east/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "fa89a8e6e3ce26489fc24b97cdd814eb0e6f3087",
+      "title": "Amazon VPC IPAM now supports tags on IPAM pool allocations ",
+      "summary": "Amazon VPC IP Address Manager (IPAM) now supports adding tags to IPAM pool allocations, allowing customers to organize and manage individual IP address allocations using consistent tagging workflows. This enhancement enables better governance and access control for IP allocations across AWS environments, with tags applicable to both new and existing allocations.",
+      "category": "SECURITY",
+      "timestamp": "2026-05-26T13:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-vpc-ipam-tags/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "24fbb305b1895c3ecff2a7efd05f97b805d83867",
+      "title": "Amazon GuardDuty Malware Protection for AWS Backup supports Amazon S3 continuous backups",
+      "summary": "Amazon GuardDuty Malware Protection now supports scanning Amazon S3 continuous backups for malware, allowing users to identify clean recovery points across their entire backup timeline. The service offers both full and incremental scanning options within backup plans, plus on-demand scans for any restorable point in time. Users can query malware scan status at any point within their continuous backup timeline to ensure safe data recovery.",
+      "category": "SECURITY",
+      "timestamp": "2026-05-26T10:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-guardduty-aws-backup-s3-continuous/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "39e6fb347b56a18f3cb14258a065e772c10ec7bd",
+      "title": "Amazon SageMaker Unified Studio adds interactive interface for managing Feature Store in IAM Domains ",
+      "summary": "Amazon SageMaker Unified Studio now provides an interactive, code-free interface for managing Feature Store within IAM domains, making feature group creation and management accessible without programming requirements. This update enables data scientists, ML engineers, and business analysts to collaborate on feature management tasks from a unified environment, streamlining the process of handling ML model inputs used for training and inference.",
+      "category": "SECURITY",
+      "timestamp": "2026-05-22T20:07:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-feature-store/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "c784cfe74a3c2e144393292f030d6b6884554c7b",
       "title": "Amazon SageMaker expands domain management across domain types",
       "summary": "Amazon SageMaker Unified Studio has expanded its domain management capabilities to support both Identity Center-based and IAM-based domains outside of the AWS console. This allows administrators to create and manage projects, configure workforce identity, manage users and permissions, and set networking properties across all domain types. Previously, these domain management features were only available for IAM-based domains.",
@@ -5339,123 +5399,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/lambda-durable-execution-java-preview/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "e1b3e5cbfec62d6c0dd98100e0b720cd9662f32f",
-      "title": "AWS Outposts racks now support additional Amazon CloudWatch metrics in AWS GovCloud (US) Regions",
-      "summary": "AWS Outposts racks in AWS GovCloud (US) Regions now support two additional Amazon CloudWatch metrics: VifConnectionStatus and VifBgpSessionState. These metrics enable customers to monitor the connectivity status of their Outposts racks' Local Gateway and Service Link Virtual Interfaces directly within the CloudWatch console, eliminating the need for external networking tools.",
-      "category": "COMPUTE",
-      "timestamp": "2026-02-25T21:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-outposts-racks-cloudwatch-metrics-govcloud-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "85d7566c332ee2c0dc1df72c6ae1fa9019635b7c",
-      "title": "AWS Security Agent adds support for penetration tests on shared VPCs across AWS accounts",
-      "summary": "AWS Security Agent now supports penetration testing on VPC resources that are shared across different AWS accounts within the same organization. This enhancement enables security teams to conduct comprehensive security assessments across multi-account environments from a centralized location. The feature utilizes AWS Resource Access Manager (RAM) to securely share VPC resources from sub-accounts to a central AWS account for testing purposes.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-25T19:07:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-security-agent-adds-penetration-tests-shared/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "eb69cc38ca649c31f97a5401b49b1ea8fe124d43",
-      "title": "Amazon Aurora DSQL launches Playground for interactive database exploration",
-      "summary": "AWS has launched Amazon Aurora DSQL Playground, a browser-based interactive environment that allows developers to explore and experiment with Aurora DSQL without needing an AWS account. The playground enables users to write and execute SQL queries, test schema designs, and experience Aurora DSQL's PostgreSQL-compatible distributed SQL capabilities directly in their browser with no setup required.",
-      "category": "DATABASE",
-      "timestamp": "2026-02-25T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-dsql-launches-playground/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "78f520968a148f1bd8e62ba92e9355ee8f34c9e5",
-      "title": "Aurora DSQL launches new support for Tortoise, Flyway, and Prisma",
-      "summary": "AWS has announced new Aurora DSQL integrations for three popular developer tools: Tortoise (Python ORM), Flyway (schema management), and Prisma (Node.js ORM). These integrations allow developers to use their preferred frameworks with Aurora DSQL while automatically managing IAM authentication and compatibility requirements, making it easier for Python and Node.js developers to work with Aurora DSQL databases.",
-      "category": "DATABASE",
-      "timestamp": "2026-02-25T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aurora-dsql-launches-tortoise-flyway-prisma/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "016be69329c2e78c61267fd6c498b3286b729afd",
-      "title": "Aurora DSQL launches new integrations for Visual Studio Code SQLTools and DBeaver",
-      "summary": "AWS has launched new integrations for Aurora DSQL with Visual Studio Code SQLTools and DBeaver Community Edition, providing dedicated driver and plugin support for these popular database tools. These integrations enable users to run queries, explore schemas, and manage data in Aurora DSQL clusters while automatically handling IAM authentication and access token management. The new tools eliminate the need for manual token generation code, simplifying database connectivity for developers.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-25T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aurora-dsql-visual-studio-code-sqltools-dbeaver/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "fcfc44e0f02e34013ba963859bcac6c33377f591",
-      "title": "Amazon EC2 R8a instances now available in the Europe (Ireland) region",
-      "summary": "Amazon EC2 R8a instances are now available in the Europe (Ireland) region, featuring 5th Gen AMD EPYC processors with up to 4.5 GHz frequency. These instances deliver up to 30% higher performance, 19% better price-performance, and 45% more memory bandwidth compared to the previous R7a instances, making them ideal for latency-sensitive workloads.",
-      "category": "COMPUTE",
-      "timestamp": "2026-02-25T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-r8a-instances-europe-ireland-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "17d5e45182788cd30502644d8b70edb5e13fb00e",
-      "title": "Amazon EC2 M8i and M8i-flex instances are now available in Africa (Cape Town) region",
-      "summary": "Amazon EC2 M8i and M8i-flex instances are now available in the Africa (Cape Town) region, powered by custom Intel Xeon 6 processors exclusive to AWS. These new instances offer up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generation Intel-based instances, while delivering up to 20% better performance overall.",
-      "category": "COMPUTE",
-      "timestamp": "2026-02-25T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-m8i-m8i-flex-instances-africa-cape-town-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "df3dd315e6d17653c72eace6ee2f9ed048e4e64b",
-      "title": "Amazon Location Service introduces LLM Context as a Kiro power and Claude Code plugin to improve AI performance",
-      "summary": "Amazon Location Service has launched curated AI Agent context that works as a Kiro power, Claude Code plugin, and open Agent Skills format to help developers integrate location services more effectively. This new feature allows developers to use generative AI tools like Kiro, Claude Code, and Cursor to improve code accuracy and accelerate development when adding Amazon Location capabilities to their applications. The enhancement is designed to reduce iteration time and streamline the implementation of geospatial features.",
-      "category": "AI_ML",
-      "timestamp": "2026-02-25T16:26:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-location-service-introduces-kiro-power-claude-skill-llm-context/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "95cfface01d794142d475a4a0599fb5456b7f1f5",
-      "title": "Announcing new metal sizes for Amazon EC2 M8gn and M8gb instances ",
-      "summary": "AWS has announced the general availability of new metal-24xl and metal-48xl sizes for Amazon EC2 M8gn and M8gb instances, powered by AWS Graviton4 processors that deliver up to 30% better compute performance than Graviton3. M8gn instances feature 6th generation AWS Nitro Cards with up to 600 Gbps network bandwidth (the highest among network optimized EC2 instances), while M8gb instances offer up to 300 Gbps of EBS bandwidth.",
-      "category": "COMPUTE",
-      "timestamp": "2026-02-25T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-m8gn-m8gb-new-metal-sizes/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b6867235bef668e97f10a1a6ae1b54686671af46",
-      "title": "Amazon WorkSpaces Applications extends support for 4K resolution ",
-      "summary": "Amazon WorkSpaces Applications now supports 4K resolution (4096 x 2160) on all non-accelerated instance types and client connection modes, expanding beyond the previous limitation to graphics-accelerated instances only. This enhancement allows customers greater flexibility in choosing appropriate instance types while delivering improved visual quality that matches their existing high-resolution hardware investments.",
-      "category": "COMPUTE",
-      "timestamp": "2026-02-25T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-workspaces-applications-4K-resolution/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 544,
+    "total": 540,
     "byCategory": {
-      "SECURITY": 124,
+      "DATABASE": 54,
+      "COMPUTE": 64,
+      "SECURITY": 125,
       "OTHER": 114,
-      "AI_ML": 102,
-      "DATABASE": 55,
+      "AI_ML": 101,
       "CONTAINERS": 23,
-      "COMPUTE": 67,
       "ANALYTICS": 18,
       "NETWORKING": 7,
       "STORAGE": 17,
       "SERVERLESS": 17
     },
-    "lastUpdated": "2026-05-25T23:02:59.054Z"
+    "lastUpdated": "2026-05-26T23:11:02.825Z"
   },
-  "generatedAt": "2026-05-25T23:02:59.054Z"
+  "generatedAt": "2026-05-26T23:11:02.826Z"
 }
