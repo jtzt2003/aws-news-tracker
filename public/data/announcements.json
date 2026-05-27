@@ -1,6 +1,86 @@
 {
   "announcements": [
     {
+      "id": "44b0dd269f53f56c4e6433f2a7ace75ad8809400",
+      "title": "SageMaker Notebook Instances now support P5.4xl instance types",
+      "summary": "AWS has announced general availability of Amazon EC2 P5.4xl instances for SageMaker notebook instances, powered by NVIDIA H100 Tensor Core GPUs. These instances deliver up to 4x faster performance compared to previous-generation GPU instances and can reduce ML model training costs by up to 40%. The P5.4xl instances are optimized for deep learning and high performance computing applications.",
+      "category": "AI_ML",
+      "timestamp": "2026-05-27T20:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/p5-4xl-new-instance-launch-sagemaker-notebook-instances/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ffdcbcdbfd11f67732f1dbbebd1aa6ac4f6b5dc1",
+      "title": "SageMaker Notebook Instances now support P5en.48xl instance types",
+      "summary": "Amazon SageMaker Notebook Instances now support P5en.48xl instance types, which feature 8 H200 GPUs that offer 1.7x more GPU memory and 1.4x higher memory bandwidth compared to H100 GPUs in P5 instances. These instances are paired with custom 4th Generation Intel Xeon Scalable processors and Gen5 PCIe connectivity, providing up to 4x the bandwidth between CPU and GPU to enhance AI training performance.",
+      "category": "AI_ML",
+      "timestamp": "2026-05-27T20:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/p5en-new-instance-launch-sagemaker-notebook-instances/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "53e4768593ab2e5983d2c7855c5fcd7fbe1eef16",
+      "title": "Amazon EMR now supports Apache Spark 4.0.2 in general availability",
+      "summary": "Amazon EMR now offers general availability support for Apache Spark 4.0.2 across all deployment models. The update introduces enhanced data pipeline capabilities with ANSI SQL and VARIANT data types, fine-grained access control at row and column levels, improved compliance through Apache Iceberg v3 table format, and faster deployment of real-time streaming applications.",
+      "category": "SECURITY",
+      "timestamp": "2026-05-27T20:17:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-emr-apache-spark/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "268e79c4f34852a87db06e30dfad6d4b55fd0dac",
+      "title": "AWS Glue large and memory optimized workers now available in Europe (Spain) Region",
+      "summary": "AWS Glue has expanded its worker options in the Europe (Spain) Region by introducing large and memory-optimized workers to handle more complex data processing workloads. The new offerings include two general compute workers (G.12X and G.16X) and four memory-optimized workers (R.1X, R.2X, R.4X, and R.8X). These enhanced worker types enable customers to perform more complex data transforms, aggregations, joins, and queries while processing larger data volumes more efficiently.",
+      "category": "ANALYTICS",
+      "timestamp": "2026-05-27T20:10:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-glue-larger-memory-intensive-workers-spain",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "fd44b2f378f3f2bb9b50b0817e25b2ed71c45328",
+      "title": "Amazon Connect Customer now uses generative AI to automatically evaluate self-service interactions ",
+      "summary": "Amazon Connect Customer now uses generative AI to automatically evaluate self-service interactions, allowing managers to define custom evaluation criteria in natural language. The system can assess interaction quality based on criteria like whether customer issues were resolved by the AI agent, and provides detailed reasoning for its evaluations. This feature gives managers aggregated insights to help improve overall customer experience through automated quality assessment.",
+      "category": "AI_ML",
+      "timestamp": "2026-05-27T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-customer-gen-AI-evaluations-self-service",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e99faf4b20c8d3d3b405bede8d00b2a634f11577",
+      "title": "Amazon SageMaker HyperPod Slurm clusters now support specifying minimum capacity requirements with continuous provisioning",
+      "summary": "Amazon SageMaker HyperPod now allows users to specify minimum capacity requirements (MinCount) for Slurm-orchestrated clusters with continuous provisioning. This feature ensures that training workloads have a guaranteed minimum number of nodes available before starting, while still allowing the cluster to provision additional capacity asynchronously in the background. This provides both the flexibility of quick job starts and the reliability needed for workloads that require specific minimum resource thresholds.",
+      "category": "AI_ML",
+      "timestamp": "2026-05-27T15:06:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-hyperpod-mincount/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1b6b4e9b82989059ac16342ed55c00aa69135abb",
+      "title": "AWS Backup adds OTP verification for Multi-party approval on logically air-gapped vaults",
+      "summary": "AWS Backup has enhanced security for logically air-gapped vaults by requiring one-time password (OTP) verification for Multi-party approval actions. Approvers must now enter a six-digit code sent to their registered email address in AWS IAM Identity Center when voting on approval requests. This additional security layer ensures only verified approvers can authorize protected vault operations and applies automatically to all existing vaults.",
+      "category": "SECURITY",
+      "timestamp": "2026-05-27T10:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-backup-otp-multi-party-approval-lag/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3a0a95897e5fdb6b1cf97519c7f56ae33485c635",
+      "title": "Amazon EC2 X8i instances are now available in additional regions",
+      "summary": "Amazon EC2 X8i instances, powered by custom Intel Xeon 6 processors exclusive to AWS, are now available in Asia Pacific (Singapore), Asia Pacific (Sydney), and AWS GovCloud (US-West) regions. These SAP-certified instances deliver up to 43% higher performance, 1.5x more memory capacity (up to 6TB), and 3.3x more memory bandwidth compared to similar Intel processors in the cloud, offering the highest performance among comparable Intel-based cloud instances.",
+      "category": "COMPUTE",
+      "timestamp": "2026-05-26T21:58:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-x8i-instances-SIN-SYD-PDT-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "5a3c5e12ec6b863a7076770f5de9aebac255bec5",
       "title": "Amazon RDS now supports ENA Express for Multi-AZ replication",
       "summary": "Amazon RDS Multi-AZ instances now support ENA Express, which uses AWS's Scalable Reliable Datagram (SRD) protocol to enhance cross-Availability Zone replication performance. This improvement delivers up to 25 Gbps single-flow bandwidth and reduces latency variability through advanced congestion control and multi-pathing capabilities for Multi-AZ deployments.",
@@ -5289,133 +5369,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/rds-minor-version-18-3-17-9-16-13-15-17-14-22/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "68fb1f98fa410d4b614fdcc6d4980b82cf19a4cb",
-      "title": "Amazon Bedrock announces OpenAI-compatible Projects API ",
-      "summary": "Amazon Bedrock has added support for OpenAI-compatible Projects API within its Mantle inference engine. This enhancement allows developers to use familiar OpenAI API formats while accessing Bedrock's fully managed service that offers foundation models from companies like Anthropic, Meta, and OpenAI. The integration aims to simplify the development and scaling of generative AI applications through Bedrock's distributed inference capabilities.",
-      "category": "AI_ML",
-      "timestamp": "2026-02-26T23:06:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-projects-api-mantle-inference-engine/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "67b0a147b62c2b783c639bb6efabda09dc911d88",
-      "title": "Amazon ECS Managed Instances now integrates with Amazon EC2 Capacity Reservations",
-      "summary": "Amazon ECS Managed Instances now integrates with Amazon EC2 Capacity Reservations, allowing users to utilize their reserved capacity for predictable workload availability while ECS manages the underlying infrastructure. This integration helps balance reliable capacity scaling with cost efficiency, particularly benefiting mission-critical workloads that require high availability.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-02-26T22:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/ecs-mi-ec2-capacity-reservations/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "3d4fb4051085b6b939687251e49aa205ee44c917",
-      "title": "AWS Marketplace now supports multiple purchases of SaaS and Professional Services products",
-      "summary": "AWS Marketplace now supports Concurrent Agreements, allowing buyers to make multiple purchases of the same SaaS or Professional Services product within a single AWS account. This removes the previous limitation of one active agreement per product per account, eliminating the need for seller workarounds. Different business units can now procure independently with their own customized terms and pricing arrangements.",
-      "category": "SERVERLESS",
-      "timestamp": "2026-02-26T21:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/concurrent-agreements-february/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "3edc7f04a246b424d9b3a67960d1f76b93e965b0",
-      "title": "Amazon Connect now supports dynamic dialing mode switching for outbound campaigns",
-      "summary": "Amazon Connect now allows contact center administrators to dynamically switch between preview and non-preview dialing modes during active outbound campaigns, eliminating the need to stop and restart campaigns to change strategies. This update replaces the previous rigid system where campaigns were locked into their initial dialing mode once started. The feature enables more flexible and adaptive dialing strategies for outbound campaign management.",
-      "category": "OTHER",
-      "timestamp": "2026-02-26T19:32:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/connect-dynamic-dialing-modes/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ce65c6a974123c7cd94fd6219add30f78576f0f5",
-      "title": "Amazon CloudWatch now provides lock contention diagnostics for Amazon RDS for PostgreSQL",
-      "summary": "Amazon CloudWatch Database Insights now offers lock contention diagnostics for Amazon RDS for PostgreSQL instances, helping users quickly identify root causes of both current and past locking issues. This feature is available exclusively in Advanced mode and provides visualization of blocking relationships in the Database Insights console. The capability enables faster troubleshooting of PostgreSQL database performance problems related to lock contention.",
-      "category": "DATABASE",
-      "timestamp": "2026-02-26T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-cloudwatch-lock-contention-diagnostics-rds-postgresql/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "837cba85e289bc7c8bb9df0d12c78358f371a7c4",
-      "title": "AWS Security Hub launches Extended plan for pay-as-you-go partner solutions",
-      "summary": "AWS Security Hub has launched its Extended plan, offering a pay-as-you-go model that combines AWS detection services with curated partner security solutions through a single-vendor experience. This new plan aims to simplify enterprise security operations by reducing the complexity of managing multiple vendor relationships and lengthy procurement cycles. The Extended plan provides streamlined procurement and unified security management across enterprise environments.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-26T17:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/sec-hub-extended/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "69a40e060dff3c1b805bf44d86e0ecbdd73bc49a",
-      "title": "Amazon Cognito enhances client secret management with secret rotation and custom secrets",
-      "summary": "Amazon Cognito has enhanced client secret management for user pool app clients by introducing client secret rotation capabilities and support for custom client secrets. Previously, Cognito only supported automatically generated client secrets, but this update gives developers more control over secret lifecycle management. These improvements help strengthen security for applications, AI agents, and microservices that authenticate through Cognito.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-26T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-cognito-client-secret-lifecycle/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "e8d8b8e2160024c5764c23e99f818fd0b428444b",
-      "title": "Amazon EC2 M8i and M8i-flex instances are available in additional regions",
-      "summary": "Amazon EC2 M8i and M8i-flex instances are now available in four additional regions: US West (N. California), Europe (Paris), Asia Pacific (Hyderabad), and South America (Sao Paulo). These instances feature custom Intel Xeon 6 processors exclusive to AWS and deliver up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generations.",
-      "category": "COMPUTE",
-      "timestamp": "2026-02-26T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-m8i-m8i-flex-instances-additional-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "85de40c1d586eee8cef72cc944d5130198da5eee",
-      "title": "Introducing Amazon EC2 I8g.metal-48xl instances",
-      "summary": "AWS has launched Amazon EC2 I8g.metal-48xl instances, new storage-optimized instances powered by AWS Graviton4 processors that deliver up to 60% better compute performance than previous I4g instances. These instances feature third-generation AWS Nitro SSDs with local NVMe storage, providing up to 65% better real-time storage performance per TB, 50% lower storage I/O latency, and 60% lower latency variability.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-26T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/ec2-i8g-metal-48xl-generally-available/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f37ff34905497188e4acf23510118276a0b8fbad",
-      "title": "Amazon SNS now supports push notifications in the Europe (Spain) Region ",
-      "summary": "Amazon SNS now supports push notifications in the AWS Europe (Spain) Region, expanding the fully managed pub/sub service's capabilities to this geographic area. This enables customers in Spain to use Amazon SNS to send push notifications to supported platforms alongside its existing message delivery options to endpoints like Lambda, SQS, HTTP, SMS, and email.",
-      "category": "SERVERLESS",
-      "timestamp": "2026-02-26T15:32:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-sns-push-expansion-spain/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4d8863e786d07d1a510fdfe19d0148a5191cfa42",
-      "title": "AWS Lambda Durable Execution SDK for Java now available in Developer Preview",
-      "summary": "AWS has released a developer preview of the Lambda Durable Execution SDK for Java, which enables developers to build resilient multi-step applications without needing custom progress tracking or external orchestration services. The SDK supports use cases like order processing pipelines, AI workflows, and human-in-the-loop approvals through Lambda durable functions that automatically checkpoint progress.",
-      "category": "SERVERLESS",
-      "timestamp": "2026-02-26T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/lambda-durable-execution-java-preview/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 540,
+    "total": 537,
     "byCategory": {
-      "DATABASE": 54,
+      "AI_ML": 104,
+      "SECURITY": 124,
+      "ANALYTICS": 19,
       "COMPUTE": 64,
-      "SECURITY": 125,
-      "OTHER": 114,
-      "AI_ML": 101,
-      "CONTAINERS": 23,
-      "ANALYTICS": 18,
+      "DATABASE": 53,
+      "OTHER": 113,
+      "CONTAINERS": 22,
       "NETWORKING": 7,
       "STORAGE": 17,
-      "SERVERLESS": 17
+      "SERVERLESS": 14
     },
-    "lastUpdated": "2026-05-26T23:11:02.825Z"
+    "lastUpdated": "2026-05-27T23:18:01.266Z"
   },
-  "generatedAt": "2026-05-26T23:11:02.826Z"
+  "generatedAt": "2026-05-27T23:18:01.266Z"
 }
