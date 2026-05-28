@@ -1,6 +1,26 @@
 {
   "announcements": [
     {
+      "id": "0932cdf1fde1c10a808103c7a6e2b1cafb4f252b",
+      "title": "Announcing Region Expansion of P6-B200 instances on SageMaker Notebook Instances",
+      "summary": "AWS has announced the general availability of Amazon EC2 P6-B200 instances on SageMaker Notebook Instances in the US East (N. Virginia) region. These instances feature 8 NVIDIA Blackwell GPUs with 1440 GB of high-bandwidth memory and 5th Generation Intel Xeon processors, delivering up to 2x better AI training performance compared to P5en instances. The P6-B200 instances are designed for interactive development and fine-tuning of large foundation models.",
+      "category": "AI_ML",
+      "timestamp": "2026-05-27T23:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/p6-b200-region-expansion-sagemaker-notebook-instances/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a2ad9a76e28eeef2fe4d8de5ee47098cbba8c2ad",
+      "title": "Amazon Bedrock expands support for Service Quotas",
+      "summary": "Amazon Bedrock now supports viewing inference quotas for the bedrock-mantle endpoint through AWS Service Quotas, providing customers with a consistent way to monitor service limits. This enhancement allows users to track quotas for the bedrock-mantle endpoint using the same familiar interface they already use for other AWS services and the bedrock-runtime endpoint.",
+      "category": "AI_ML",
+      "timestamp": "2026-05-27T21:41:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/5/amazon-bedrock-service-quotas/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "44b0dd269f53f56c4e6433f2a7ace75ad8809400",
       "title": "SageMaker Notebook Instances now support P5.4xl instance types",
       "summary": "AWS has announced general availability of Amazon EC2 P5.4xl instances for SageMaker notebook instances, powered by NVIDIA H100 Tensor Core GPUs. These instances deliver up to 4x faster performance compared to previous-generation GPU instances and can reduce ML model training costs by up to 40%. The P5.4xl instances are optimized for deep learning and high performance computing applications.",
@@ -57,6 +77,16 @@
       "category": "AI_ML",
       "timestamp": "2026-05-27T15:06:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-hyperpod-mincount/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "841bd7c6abdb76d46e66a6b3ab9b7eaf475858ca",
+      "title": "Amazon Aurora MySQL now supports integration with Kiro Powers",
+      "summary": "Amazon Aurora MySQL-Compatible Edition now integrates with Kiro Powers, a repository of curated Model Context Protocol (MCP) servers and development tools that provide AI agent assistance for faster application development. This integration combines direct database connectivity with Aurora MySQL and pre-validated development resources from Kiro partners to accelerate specialized software development and deployment.",
+      "category": "SECURITY",
+      "timestamp": "2026-05-27T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-mysql-kiro-powers/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5339,44 +5369,14 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/aws-supports-bacs-direct-debit-payment-method/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "6c38e43119b9533c98f2d3ef6969a84ab4cd3299",
-      "title": "Amazon OpenSearch Service adds new insights for improved cluster stability",
-      "summary": "Amazon OpenSearch Service has introduced two new Cluster Insights features: Cluster Overload and Suboptimal Sharding Strategy. These insights help identify resource utilization issues and shard imbalances that can cause performance problems, providing visibility into affected resources along with actionable recommendations for remediation.",
-      "category": "ANALYTICS",
-      "timestamp": "2026-02-27T10:49:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-opensearch-service-adds-new-insights-improved-cluster-stability/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "112d6698f4c06178e57d5de3d25215e207268a74",
-      "title": "Oracle Database@AWS is now available in the Dublin AWS Region",
-      "summary": "Oracle Database@AWS, which provides Oracle Cloud Infrastructure (OCI) managed Oracle Exadata systems within AWS data centers, is now available in the Dublin AWS Region (EU-West-1). This service allows customers to migrate their on-premises Oracle Exadata and Oracle Real Application Clusters (RAC) applications to AWS while maintaining a similar environment and integrating with AWS services like AWS Key Management Service.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-27T08:31:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/oracle-database-aws-available-dublin-aws-region/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "7d7203878665d58ff99e01cd5856f5872ecdfd28",
-      "title": "Amazon RDS for PostgreSQL supports minor versions 18.3, 17.9, 16.13, 15.17, and 14.22",
-      "summary": "Amazon RDS for PostgreSQL now supports new minor versions 18.3, 17.9, 16.13, 15.17, and 14.22, which address a regression from the February 2026 PostgreSQL community release. AWS recommends upgrading to these latest versions to fix known security vulnerabilities and benefit from bug fixes provided by the PostgreSQL community.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-27T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/rds-minor-version-18-3-17-9-16-13-15-17-14-22/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
     "total": 537,
     "byCategory": {
-      "AI_ML": 104,
-      "SECURITY": 124,
-      "ANALYTICS": 19,
+      "AI_ML": 106,
+      "SECURITY": 123,
+      "ANALYTICS": 18,
       "COMPUTE": 64,
       "DATABASE": 53,
       "OTHER": 113,
@@ -5385,7 +5385,7 @@
       "STORAGE": 17,
       "SERVERLESS": 14
     },
-    "lastUpdated": "2026-05-27T23:18:01.266Z"
+    "lastUpdated": "2026-05-28T13:52:37.415Z"
   },
-  "generatedAt": "2026-05-27T23:18:01.266Z"
+  "generatedAt": "2026-05-28T13:52:37.415Z"
 }
