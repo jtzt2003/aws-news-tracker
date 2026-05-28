@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "053c3e89b791bf7f7ae9e5e88a68dcf7452043fd",
+      "title": "Monitor AWS Budgets directly in Billing and Cost Management Dashboards with new Budgets widget",
+      "summary": "AWS Billing and Cost Management now supports Budgets widgets that can be added directly to BCM Dashboards, allowing users to monitor AWS Budgets alongside other cost reports in a single customized view. This eliminates the need to navigate to separate console pages to review budget performance, streamlining cost management workflows.",
+      "category": "COMPUTE",
+      "timestamp": "2026-05-28T20:57:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/monitor-aws-budgets-using-dashboards",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e6f09f07c2cea1d105775b05f99533e765cce4cb",
+      "title": "AWS IoT Core adds APIs for MQTT connection management",
+      "summary": "AWS IoT Core has introduced two new APIs - GetConnection and ListSubscriptions - that provide visibility into MQTT client connection and subscription information for IoT devices. These APIs enable developers to troubleshoot connectivity issues, monitor client behavior, and audit connection patterns across their device fleets. The GetConnection API specifically retrieves detailed connection information to help with device connection management.",
+      "category": "OTHER",
+      "timestamp": "2026-05-28T20:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iot-core-apis-mqtt/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c61e5973b0fd6510c44cdff842cca19db843af20",
+      "title": "AWS Organizations emits CloudTrail events for account membership changes ",
+      "summary": "AWS Organizations now automatically logs CloudTrail events (AccountJoinedOrganization and AccountDepartedOrganization) to the management account whenever accounts join or leave an organization. This enhancement provides security teams and cloud administrators with better visibility into organizational membership changes, helping them detect unauthorized activities and potential security incidents that could previously go unnoticed.",
+      "category": "SECURITY",
+      "timestamp": "2026-05-28T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-organizations-cloudtrail/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "138fb77a12ebe85a8ea4a21f148d3fc45ec83813",
+      "title": "AWS announces general availability of the next generation of AWS Resilience Hub ",
+      "summary": "AWS has announced the general availability of the next-generation AWS Resilience Hub, a centralized console tool designed to help platform engineering and site reliability teams assess and improve the resilience of critical workloads on AWS. The updated version introduces new features including an enhanced application model, dependency discovery capabilities, and AI-powered failure mode analysis to better help organizations meet their resilience objectives.",
+      "category": "AI_ML",
+      "timestamp": "2026-05-28T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-announces-next-gen-aws-resilience-hub/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a7bcd0fb2b0f4af546a499c76ae774874a22482b",
+      "title": "Amazon Connect Customer expands generative AI-powered post-contact summaries to eight new languages",
+      "summary": "Amazon Connect Customer has expanded its generative AI-powered post-contact summaries to support eight new language families (Portuguese, French, Italian, German, Spanish, Chinese, Japanese, and Korean) plus non-US English variations. This enhancement allows the AI to automatically generate concise summaries of customer interactions in multiple languages with locally appropriate spelling and terminology. The feature helps agents and managers by providing quick, accessible summaries of customer contacts across diverse linguistic markets.",
+      "category": "AI_ML",
+      "timestamp": "2026-05-28T15:21:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-summary-languages/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c61e859f30157997f56ab70a0958003508b3ae60",
+      "title": "Claude Opus 4.8 is now available on AWS",
+      "summary": "AWS has launched Claude Opus 4.8, Anthropic's most advanced publicly available AI model, designed for developers and enterprises building production AI applications. The model offers significant improvements in autonomous coding, professional knowledge work, and long-running tasks with enhanced reasoning capabilities and consistency. Claude Opus 4.8 can perform extended autonomous operations and approaches coding tasks like an engineer by reading codebases comprehensively and planning before making edits.",
+      "category": "AI_ML",
+      "timestamp": "2026-05-28T15:16:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/claude-opus-4.8-aws/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "150a0a87cd90b4dfec8268bd02e8b85062ff7c01",
+      "title": "DynamoDB Streams now supports AWS PrivateLink for FIPS endpoints in AWS GovCloud (US) Regions",
+      "summary": "Amazon DynamoDB Streams now supports AWS PrivateLink for FIPS endpoints in AWS GovCloud (US) Regions, enabling government agencies and organizations with federal compliance requirements to establish secure, private connectivity. This enhancement allows these organizations to access DynamoDB Streams' real-time data processing capabilities while maintaining strict security and compliance standards required for federal workloads.",
+      "category": "SECURITY",
+      "timestamp": "2026-05-28T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-dynamodb-streams-privatelink-fips-govcloud/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4c40f1934b0d52d34f9eab1c6497cf5063cb63d7",
+      "title": "Amazon WorkSpaces Applications adds support for Windows Desktop OS",
+      "summary": "Amazon WorkSpaces Applications now supports Windows Desktop operating systems through a Bring Your Own License (BYOL) model. This allows customers to use their existing Windows Desktop licenses to run Microsoft 365 Apps for enterprise in the cloud, providing a consistent desktop experience across on-premises and virtual environments.",
+      "category": "OTHER",
+      "timestamp": "2026-05-28T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-workspaces-applications-windows-desktop-OS/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d6196138e7216a597350f18b3fcc2c0c7819bf7b",
+      "title": "The next generation of Amazon OpenSearch Serverless is now generally available",
+      "summary": "AWS has announced the general availability of the next generation of Amazon OpenSearch Serverless, a fully managed search and vector engine specifically designed for building AI agents. The new version auto-scales 20x faster than its predecessor and can provision resources in seconds to handle unpredictable agentic workflows. With scale-to-zero capabilities and pay-per-usage pricing, customers can save up to 60% compared to traditional provisioned OpenSearch costs.",
+      "category": "ANALYTICS",
+      "timestamp": "2026-05-28T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-opensearch-serverless-next-generation-generally-available/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c3221debcb2d466eb27b15836f1eb97250677c0b",
+      "title": "AWS IoT Core now supports direct messaging for point-to-point communication",
+      "summary": "AWS IoT Core has introduced direct messaging capabilities that allow point-to-point communication with any connected IoT device, eliminating the need to publish messages through topics. This new feature provides improved visibility into message delivery status and reduces messaging costs compared to the previous topic-based approach.",
+      "category": "OTHER",
+      "timestamp": "2026-05-28T14:56:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iot-core-direct-messaging/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "0932cdf1fde1c10a808103c7a6e2b1cafb4f252b",
       "title": "Announcing Region Expansion of P6-B200 instances on SageMaker Notebook Instances",
       "summary": "AWS has announced the general availability of Amazon EC2 P6-B200 instances on SageMaker Notebook Instances in the US East (N. Virginia) region. These instances feature 8 NVIDIA Blackwell GPUs with 1440 GB of high-bandwidth memory and 5th Generation Intel Xeon processors, delivering up to 2x better AI training performance compared to P5en instances. The P6-B200 instances are designed for interactive development and fine-tuning of large foundation models.",
@@ -5299,93 +5399,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/wordpress-blueprint-lightsail/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "1ab3f610b515f1158b404a475974dba6c57f5e87",
-      "title": "EC2 Image Builder enhances lifecycle policies with wildcard support and simplified IAM",
-      "summary": "AWS EC2 Image Builder now supports wildcard patterns in lifecycle policies, allowing you to manage images from multiple recipes within a single policy instead of creating separate policies for each recipe. The service has also simplified IAM role creation by enabling users to create roles with pre-populated default permissions directly from the console.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-27T22:10:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/ec2-image-builder-lifecycle-enhancements/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "da2b94faa66ce2c31619253f2e0f8b2acd36bca7",
-      "title": "ARC Region switch adds three new capabilities: post-recovery workflows, RDS orchestration and AWS provider support for Terraform",
-      "summary": "Amazon Application Recovery Controller (ARC) Region switch has added three new capabilities to enhance multi-Region disaster recovery automation. The new features include post-recovery workflows for additional recovery steps, native RDS execution blocks for database orchestration, and AWS provider support for Terraform infrastructure management. These enhancements help customers achieve more comprehensive and streamlined disaster recovery across multiple AWS accounts and Regions with reduced engineering effort.",
-      "category": "DATABASE",
-      "timestamp": "2026-02-27T22:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/arc-region-switch-post-recovery-rdsblock/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c89460c59e8fafc9cf05d157725e995afa6b4a88",
-      "title": "AWS Network Firewall now supports firewall state change notifications through Amazon EventBridge",
-      "summary": "AWS Network Firewall now integrates with Amazon EventBridge to deliver real-time notifications when firewall states change or configurations are updated. This integration provides immediate visibility into critical firewall operations, including changes to AWS Managed Rules, Partner Managed Rules, and endpoint status modifications. The feature enables enhanced monitoring and faster response to changes across network security infrastructure.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-27T19:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/firewall-state-change-notifications/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4671de0092064df6bf62f5d07f5d7b485049696e",
-      "title": "Amazon Bedrock batch inference now supports the Converse API format",
-      "summary": "Amazon Bedrock batch inference now supports the Converse API format, allowing users to process batch workloads with a consistent, model-agnostic input structure. Previously, batch inference jobs required model-specific request formats through the InvokeModel API, but users can now select Converse as the invocation type for standardized formatting across different models.",
-      "category": "AI_ML",
-      "timestamp": "2026-02-27T19:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-bedrock-batch-inference-supports-converse-api-format/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "555f54145fb2206da73a7d169816243427c9ad72",
-      "title": "Amazon CloudWatch logs centralization rules now support customizable destination log group structure",
-      "summary": "Amazon CloudWatch now allows organizations to customize destination log group names when creating log centralization rules, enabling them to organize logs from multiple accounts into meaningful hierarchies. Users can structure log groups using attributes like account ID, region, or organizational unit to match their operational needs and compliance requirements. This feature provides more flexibility in how centralized logs are organized and managed across AWS Organizations.",
-      "category": "STORAGE",
-      "timestamp": "2026-02-27T18:50:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/cloudwatch-centralization-custom-groups/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ff729ef5406c21ab858785fc1dd4786302f0fcf8",
-      "title": "AWS Resource Access Manager now supports maintaining shares when accounts change organizations",
-      "summary": "AWS Resource Access Manager (RAM) now allows organizations to maintain resource sharing when AWS accounts move between different organizations. This is enabled through a new RetainSharingOnAccountLeaveOrganization parameter that prevents resource access disruption during account transfers. The feature helps security administrators ensure sharing continuity and enforce consistent policies across organizational changes.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-27T17:35:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-resource-access-manager/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "23b60ac9d2e1fdae17efd39fe076330524d74a32",
-      "title": "AWS now supports Bacs Direct Debit as a payment method for UK customers",
-      "summary": "AWS now supports Bacs Direct Debit as a payment method for UK customers, allowing them to pay for AWS services directly from their GBP-based bank accounts. This provides a more convenient and automated way to manage cloud spending compared to the previous options of only credit/debit cards or EUR-based bank accounts. The feature supports both personal and business bank accounts that use the Bacs standard.",
-      "category": "OTHER",
-      "timestamp": "2026-02-27T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/aws-supports-bacs-direct-debit-payment-method/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 537,
+    "total": 540,
     "byCategory": {
-      "AI_ML": 106,
-      "SECURITY": 123,
-      "ANALYTICS": 18,
-      "COMPUTE": 64,
-      "DATABASE": 53,
-      "OTHER": 113,
+      "COMPUTE": 65,
+      "OTHER": 115,
+      "SECURITY": 122,
+      "AI_ML": 108,
+      "ANALYTICS": 19,
+      "DATABASE": 52,
       "CONTAINERS": 22,
       "NETWORKING": 7,
-      "STORAGE": 17,
+      "STORAGE": 16,
       "SERVERLESS": 14
     },
-    "lastUpdated": "2026-05-28T13:52:37.415Z"
+    "lastUpdated": "2026-05-28T23:17:44.884Z"
   },
-  "generatedAt": "2026-05-28T13:52:37.415Z"
+  "generatedAt": "2026-05-28T23:17:44.884Z"
 }
