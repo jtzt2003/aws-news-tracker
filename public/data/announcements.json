@@ -1,6 +1,96 @@
 {
   "announcements": [
     {
+      "id": "7a25e7f23c18a1dc30c266027e656c7e07df5103",
+      "title": "Amazon SES now offers inbox placement metrics and blocklist monitoring",
+      "summary": "Amazon SES has launched new deliverability features that provide customers with inbox placement metrics and blocklist monitoring capabilities. The service now shows the percentage of messages landing in spam folders using industry data samples and alerts users when their domains or IP addresses appear on public email sender blocklists. These features help customers better understand their email deliverability performance and optimize their sending practices to improve inbox placement rates.",
+      "category": "OTHER",
+      "timestamp": "2026-05-29T21:48:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ses-global-deliverability/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2a3adbb988b460a86cb00cda3752f387ab6d7ff2",
+      "title": "AWS End User Messaging RCS for Business now available in 20 additional countries",
+      "summary": "AWS has expanded its End User Messaging RCS for Business service to 20 additional countries, bringing the total supported countries to 22. Businesses can now send verified, branded RCS messages to customers across Europe, Latin America, and Asia-Pacific regions including major markets like Germany, France, UK, Brazil, and Mexico. The service integrates with the existing SendTextMessage API for easy implementation.",
+      "category": "OTHER",
+      "timestamp": "2026-05-29T20:23:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-rcs-countries/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c2d9fe6ed5f70e4495e4b6afbc735dab65f0ffc0",
+      "title": "Amazon Connect Customer now supports scheduling tasks up to 90 days in advance ",
+      "summary": "Amazon Connect Customer now allows users to schedule tasks up to 90 days in advance, enabling better planning and tracking of long-term follow-up work. This feature helps organizations automatically route tasks to appropriate teams at scheduled times with relevant context, such as scheduling insurance claim follow-ups or repair visits. Tasks can be scheduled through the StartTaskContact API, flows, or the agent workspace.",
+      "category": "OTHER",
+      "timestamp": "2026-05-29T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-customer-tasks-90day-schedule",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c8f12e091b9d887f47c912e2208787ad29c82137",
+      "title": "AWS Shield Advanced introduces DDoS attack flow logs",
+      "summary": "AWS Shield Advanced now provides DDoS attack flow logs that offer packet-level visibility into traffic targeting protected resources during distributed denial-of-service attacks. These logs capture detailed information such as source/destination IP addresses, ports, protocols, and packet counts, and can be published to Amazon S3, CloudWatch Logs, or Data Firehose for forensic analysis and compliance purposes.",
+      "category": "SECURITY",
+      "timestamp": "2026-05-29T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-shield-ddos/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "34dabbd7d83bd241ec9ef358c7a23c4c5bc11e0c",
+      "title": "Amazon Redshift Serverless now offers 4-RPU Minimum Capacity in 7 additional AWS Regions",
+      "summary": "Amazon Redshift Serverless now supports a reduced minimum capacity configuration of 4 Redshift Processing Units (RPUs) in seven additional AWS regions, including Asia Pacific (Hong Kong and Seoul), Canada (Central), Europe (London), South America (Sao Paulo), and both AWS GovCloud regions. This lower entry point (with each RPU providing 16 GB of memory) allows customers to start with smaller data warehouse configurations and pay only for actual workload duration.",
+      "category": "DATABASE",
+      "timestamp": "2026-05-29T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-redshift-serverless-4-rpu-seven-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c51a92c7726a3942090d95ff379257d08dc0d242",
+      "title": "AWS Interconnect - multicloud now offers a free 500 Mbps tier",
+      "summary": "AWS has launched AWS Interconnect - multicloud, which now includes a free 500 Mbps tier for private connectivity between AWS and other public cloud providers. This service is designed to support customers adopting multicloud strategies by simplifying how cloud service providers offer managed, resilient private connections. The offering uses an open specification to enable seamless multicloud workload connectivity.",
+      "category": "NETWORKING",
+      "timestamp": "2026-05-29T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-interconnect-multicloud-offers-free-500-mbps-tier",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "03c5ca2c8ca14f4479150c66cb777daaaabd9cb8",
+      "title": "Amazon RDS for Oracle now supports April 2026 Release Update and Supplemental Patch Bundle",
+      "summary": "Amazon RDS for Oracle now supports the April 2026 Release Update for Oracle Database versions 19c and 21c, as well as the corresponding Supplemental Patch Bundle for version 19c. AWS recommends upgrading to this release as it includes important security updates for Oracle database products. Additionally, Oracle has renamed the Oracle Spatial Patch Bundle to Supplemental Patch Bundle (SPB) starting with the April 2026 releases.",
+      "category": "SECURITY",
+      "timestamp": "2026-05-29T07:49:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-rds-oracle-supports-april-2026-release-update-supplemental-patch-bundle",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7467fdeda2e00d3d4d07f9c57fb6a5805a11ec67",
+      "title": "Oracle Database@AWS is now available in twenty AWS Regions",
+      "summary": "Oracle Database@AWS has expanded to eight additional AWS Regions, bringing the total availability to twenty regions worldwide. The service provides customers access to Oracle Cloud Infrastructure (OCI) managed Oracle Exadata systems directly within AWS data centers. This expansion particularly benefits customers in Europe, South America, and Asia Pacific who require in-region data residency compliance.",
+      "category": "OTHER",
+      "timestamp": "2026-05-29T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/oracle-database-aws-available-twenty-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "cdca1ba46b1c09d915cd5a3c2f94de2a31af1292",
+      "title": "Amazon S3 Tables are now available in two additional AWS Regions",
+      "summary": "Amazon S3 Tables, which provide built-in Apache Iceberg support for streamlined tabular data storage, are now available in the Asia Pacific (Taipei) and Asia Pacific (New Zealand) regions. This service offers the first cloud object store with integrated Apache Iceberg capabilities and automatically performs table maintenance to optimize query performance and reduce storage costs. The Apache Iceberg standard ensures compatibility with both AWS and third-party analytics tools.",
+      "category": "STORAGE",
+      "timestamp": "2026-05-29T04:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-s3-tables-aws-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "053c3e89b791bf7f7ae9e5e88a68dcf7452043fd",
       "title": "Monitor AWS Budgets directly in Billing and Cost Management Dashboards with new Budgets widget",
       "summary": "AWS Billing and Cost Management now supports Budgets widgets that can be added directly to BCM Dashboards, allowing users to monitor AWS Budgets alongside other cost reports in a single customized view. This eliminates the need to navigate to separate console pages to review budget performance, streamlining cost management workflows.",
@@ -5382,20 +5472,20 @@
     }
   ],
   "stats": {
-    "total": 538,
+    "total": 547,
     "byCategory": {
+      "OTHER": 119,
+      "SECURITY": 123,
+      "DATABASE": 53,
+      "NETWORKING": 8,
+      "STORAGE": 17,
       "COMPUTE": 64,
-      "OTHER": 115,
-      "SECURITY": 121,
       "AI_ML": 108,
       "ANALYTICS": 19,
-      "DATABASE": 52,
       "CONTAINERS": 22,
-      "NETWORKING": 7,
-      "STORAGE": 16,
       "SERVERLESS": 14
     },
-    "lastUpdated": "2026-05-29T12:47:21.490Z"
+    "lastUpdated": "2026-05-29T23:13:04.337Z"
   },
-  "generatedAt": "2026-05-29T12:47:21.490Z"
+  "generatedAt": "2026-05-29T23:13:04.338Z"
 }
