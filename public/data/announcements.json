@@ -5379,34 +5379,14 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/vpc-encryption-controls-pricing/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "a54aac5803ae22e81cf30a222cc16afc7f30a7b8",
-      "title": "AWS Elemental MediaLive Now Supports SRT Listener Mode ",
-      "summary": "AWS Elemental MediaLive now supports SRT (Secure Reliable Transport) Listener mode for both inputs and outputs, allowing MediaLive to wait for connections instead of initiating them. This enables upstream sources to push live video directly to MediaLive while downstream systems pull encoded streams on demand. The feature simplifies network setup by eliminating the need for complex firewall configurations or static public IP addresses.",
-      "category": "SECURITY",
-      "timestamp": "2026-02-28T00:14:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-medialive-introduces-srt-listener/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6328291297ebb2863b61182411bf36a0e7668e8c",
-      "title": "Amazon Lightsail expands blueprint selection with a new WordPress blueprint",
-      "summary": "Amazon Lightsail has introduced a new WordPress blueprint that allows users to launch a WordPress website with just a few clicks through a preinstalled VPS and guided setup wizard. The new blueprint includes Instance Metadata Service Version 2 (IMDSv2) enforced by default for enhanced security. This addition makes it easier for users to quickly deploy and manage WordPress sites on AWS cloud infrastructure within minutes.",
-      "category": "COMPUTE",
-      "timestamp": "2026-02-27T23:28:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/wordpress-blueprint-lightsail/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 540,
+    "total": 538,
     "byCategory": {
-      "COMPUTE": 65,
+      "COMPUTE": 64,
       "OTHER": 115,
-      "SECURITY": 122,
+      "SECURITY": 121,
       "AI_ML": 108,
       "ANALYTICS": 19,
       "DATABASE": 52,
@@ -5415,7 +5395,7 @@
       "STORAGE": 16,
       "SERVERLESS": 14
     },
-    "lastUpdated": "2026-05-28T23:17:44.884Z"
+    "lastUpdated": "2026-05-29T12:47:21.490Z"
   },
-  "generatedAt": "2026-05-28T23:17:44.884Z"
+  "generatedAt": "2026-05-29T12:47:21.490Z"
 }
