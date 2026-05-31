@@ -5459,23 +5459,13 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-config-new-resource-types/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "49b8cb66c2df4bc947fa3d95bef43c2755a41183",
-      "title": "AWS announces pricing for VPC Encryption Controls",
-      "summary": "AWS has announced pricing for VPC Encryption Controls, a new security feature that allows customers to audit and enforce encryption-in-transit for all traffic within and across VPCs in a region. The feature offers two modes: Monitor mode for detecting unencrypted traffic, and Enforce mode for ensuring all data-in-transit is encrypted and blocking resources that permit unencrypted traffic.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-01T23:41:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/vpc-encryption-controls-pricing/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 547,
+    "total": 546,
     "byCategory": {
       "OTHER": 119,
-      "SECURITY": 123,
+      "SECURITY": 122,
       "DATABASE": 53,
       "NETWORKING": 8,
       "STORAGE": 17,
@@ -5485,7 +5475,7 @@
       "CONTAINERS": 22,
       "SERVERLESS": 14
     },
-    "lastUpdated": "2026-05-30T22:58:05.405Z"
+    "lastUpdated": "2026-05-31T11:41:05.443Z"
   },
-  "generatedAt": "2026-05-30T22:58:05.405Z"
+  "generatedAt": "2026-05-31T11:41:05.443Z"
 }
