@@ -5439,43 +5439,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/policy-amazon-bedrock-agentcore-generally-available/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "6dcdbde82b4d00da7a389a0c7303bf9a3784ba3c",
-      "title": "AWS Batch now supports configurable scale down delay",
-      "summary": "AWS Batch now supports a configurable scale down delay feature through the new minScaleDownDelayMinutes parameter, which allows you to keep instances running for 20 minutes to 1 week after job completion. This enhancement helps reduce processing delays for intermittent and periodic workloads by preventing unnecessary instance terminations and relaunches that would otherwise slow down subsequent job processing.",
-      "category": "COMPUTE",
-      "timestamp": "2026-03-02T19:05:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-batch-configurable-scale-down-delay/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "876cd532feaae1b709668d1e2fd50ab1db38b487",
-      "title": "AWS Config now supports 30 new resource types",
-      "summary": "AWS Config has added support for 30 new resource types across various AWS services, including Amazon Bedrock AgentCore and Amazon Cognito. This expansion enhances your ability to discover, assess, audit, and remediate a broader range of AWS resources within your environment. If you have recording enabled for all resource types, AWS Config will automatically begin tracking these new additions.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-02T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-config-new-resource-types/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 546,
+    "total": 544,
     "byCategory": {
       "OTHER": 119,
-      "SECURITY": 122,
+      "SECURITY": 121,
       "DATABASE": 53,
       "NETWORKING": 8,
       "STORAGE": 17,
-      "COMPUTE": 64,
+      "COMPUTE": 63,
       "AI_ML": 108,
       "ANALYTICS": 19,
       "CONTAINERS": 22,
       "SERVERLESS": 14
     },
-    "lastUpdated": "2026-05-31T11:41:05.443Z"
+    "lastUpdated": "2026-05-31T23:00:22.902Z"
   },
-  "generatedAt": "2026-05-31T11:41:05.443Z"
+  "generatedAt": "2026-05-31T23:00:22.902Z"
 }
