@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "0ee5230d97f0af9294db634a1e5ebad40e1661d3",
+      "title": "Quick Research now supports customer managed keys",
+      "summary": "Amazon QuickSight now supports customer-managed keys (CMK) through AWS Key Management Service (KMS), allowing organizations to encrypt their data using their own encryption keys. This enhancement provides greater security control and compliance capabilities for organizations with strict data protection requirements. The feature includes comprehensive audit capabilities through AWS CloudTrail integration, enabling customers to trace all data access for security monitoring.",
+      "category": "SECURITY",
+      "timestamp": "2026-06-01T18:27:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick-research-cm-keys",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "435ca5031d0afa10f322481b8b0a05d937e78beb",
+      "title": "Amazon Quick now supports VPC connectivity for MCP connections",
+      "summary": "Amazon QuickSight now supports VPC connectivity, allowing enterprise customers to connect their privately hosted Model Context Protocol (MCP) servers through Amazon Virtual Private Cloud instead of only through public internet connections. This enhancement enables organizations with MCP servers on private networks to securely integrate with QuickSight's AI assistant capabilities. The update expands QuickSight's enterprise functionality by supporting private network architectures that many organizations require for security and compliance reasons.",
+      "category": "COMPUTE",
+      "timestamp": "2026-06-01T17:26:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick-vpc-mcp/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a9b26efcedac6bcf6d0aeec33404916752676b5c",
+      "title": "Amazon SageMaker adds permissions boundaries for SCP compliance ",
+      "summary": "Amazon SageMaker Unified Studio now supports custom IAM permissions boundaries to help organizations comply with Service Control Policies (SCPs) that require permissions boundaries on all IAM roles. When users create projects, SageMaker automatically provisions three IAM roles (project user, Bedrock service, and Bedrock Lambda execution roles) that can now incorporate these administrator-specified permissions boundaries, allowing organizations to adopt the service without compromising their existing security requirements.",
+      "category": "SECURITY",
+      "timestamp": "2026-06-01T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-scp/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8478227ca113f95796fb17a83454148b12fb7372",
+      "title": "Amazon Bedrock AgentCore Identity now allows you to bring your own secrets with AWS Secrets Manager",
+      "summary": "Amazon Bedrock AgentCore Identity now supports customer-managed secrets through direct integration with AWS Secrets Manager, allowing users to reference existing secret ARNs in Credential Providers. This replaces the previous service-managed approach and enables customers to apply resource tags, use customer-managed encryption keys (CMK), and implement organization-specific governance policies on their secrets.",
+      "category": "SECURITY",
+      "timestamp": "2026-06-01T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-identity-secrets-manager/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "abf6065f241ece0907d35e21e629cc62888b7038",
+      "title": "Amazon EC2 M8i and M8i-flex instances are now available in Asia Pacific (New Zealand) Region",
+      "summary": "Amazon EC2 M8i and M8i-flex instances are now available in the Asia Pacific (New Zealand) Region, powered by custom Intel Xeon 6 processors exclusive to AWS. These new instances offer up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generation Intel-based instances, delivering the highest performance among comparable Intel processors in the cloud.",
+      "category": "COMPUTE",
+      "timestamp": "2026-06-01T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-m8i-m8i-flex-new-zealand/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3b92e9ce3772ceb987b6c56820a97ac434844ef5",
+      "title": "Amazon EC2 M8azn instances are now available in Europe (Ireland) Region",
+      "summary": "Amazon EC2 M8azn instances are now available in the Europe (Ireland) Region, featuring fifth-generation AMD EPYC processors with the highest maximum CPU frequency of 5GHz in the cloud. These general-purpose instances offer up to 2x better compute performance compared to M5zn instances and 24% higher performance than M8a instances.",
+      "category": "COMPUTE",
+      "timestamp": "2026-06-01T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-m8azn-europe-ireland/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6cd1d936a0dfa15df46c1d33ed87788bc4600f02",
+      "title": "Amazon SageMaker HyperPod now supports EFA-only network interfaces",
+      "summary": "Amazon SageMaker HyperPod now supports EFA-only network interfaces, allowing users to configure dedicated Elastic Fabric Adapter (EFA) devices without traditional Elastic Network Adapter (ENA) for IP networking. This enhancement enables better scaling of AI/ML clusters on SageMaker HyperPod's resilient, high-performance infrastructure designed for model development with built-in fault tolerance and automated recovery.",
+      "category": "AI_ML",
+      "timestamp": "2026-06-01T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-hyperpod-efa-only/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b26191ad4ff9ce59104cecb4a7faf1c1b8a54b32",
+      "title": "Amazon SageMaker HyperPod now offers troubleshooting skills for AI coding assistants",
+      "summary": "Amazon SageMaker HyperPod has introduced new troubleshooting skills that integrate expert-level AI/ML cluster diagnostics directly into popular AI coding assistants like Claude Code, Cursor, and Kiro. This enhancement builds on SageMaker HyperPod's existing capabilities as a purpose-built infrastructure platform for developing, training, and deploying foundation models at scale with built-in fault tolerance and automated recovery features.",
+      "category": "AI_ML",
+      "timestamp": "2026-06-01T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-hyperpod-troubleshooting-skills/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "47358a69d042d95a2f01f7f07fc7564486e89430",
+      "title": "AWS Direct Connect now supports VIF Rate Limiters to help prevent network congestion",
+      "summary": "AWS Direct Connect has introduced VIF Rate Limiters for dedicated connections, allowing customers to set maximum bandwidth allocations for up to 10 Virtual Interfaces (VIFs) to prevent network congestion. This feature helps protect against unexpected traffic spikes on one VIF from consuming all available bandwidth and impacting other workloads on the same connection. Bandwidth limits can be configured in increments ranging from 50 Mbps to 1.6 Tbps.",
+      "category": "NETWORKING",
+      "timestamp": "2026-06-01T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-direct-connect-now-supports-vif-rate-limiters/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "30aabcb0cdb2a173606b134b03c0060bf74e7b69",
+      "title": "Amazon Bedrock adds Amazon CloudWatch metrics for OpenAI- and Anthropic-compatible APIs",
+      "summary": "Amazon Bedrock now supports Amazon CloudWatch metrics for monitoring inference traffic to the bedrock-mantle endpoint, which provides OpenAI- and Anthropic-compatible APIs. This extends the same monitoring capabilities that customers already have for the bedrock-runtime endpoint to these additional API formats. The enhancement allows customers to maintain consistent observability across their generative AI applications regardless of which API format they're using.",
+      "category": "AI_ML",
+      "timestamp": "2026-06-01T13:38:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-supports-cloudwatch-metrics-bedrock-mantle-endpoint/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "7a25e7f23c18a1dc30c266027e656c7e07df5103",
       "title": "Amazon SES now offers inbox placement metrics and blocklist monitoring",
       "summary": "Amazon SES has launched new deliverability features that provide customers with inbox placement metrics and blocklist monitoring capabilities. The service now shows the percentage of messages landing in spam folders using industry data samples and alerts users when their domains or IP addresses appear on public email sender blocklists. These features help customers better understand their email deliverability performance and optimize their sending practices to improve inbox placement rates.",
@@ -5399,63 +5499,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-gamelift-servers-ddos-protection/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "73911556cdcf873332e91b014158ad6c78bb3f45",
-      "title": "Amazon SageMaker Unified Studio adds metadata sync with third-party catalogs",
-      "summary": "Amazon SageMaker Unified Studio now supports automatic metadata synchronization with third-party data catalog platforms including Atlan, Collibra, and Alation. This integration ensures consistent views of data and AI assets across platforms by automatically aligning glossary terms, asset descriptions, and ownership information. Organizations can now maintain unified metadata management without manual reconciliation between their SageMaker Catalog and these partner platforms.",
-      "category": "AI_ML",
-      "timestamp": "2026-03-03T23:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-unified-studio-3p-catalogs/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "000e9b3643f730a45411cea1297439f095047987",
-      "title": " Amazon SageMaker Unified Studio now supports AWS Glue 5.1 for data processing jobs",
-      "summary": "Amazon SageMaker Unified Studio now supports AWS Glue 5.1, enabling data engineers and scientists to run Visual ETL, notebook, and code-based data processing jobs on Apache Spark 3.5.6 with Python 3.11 and Scala 2.12.18. The update also includes support for newer open table format libraries such as Apache Iceberg 1.10.0, Apache Hudi 1.0.2, and Delta Lake 3.3.2.",
-      "category": "AI_ML",
-      "timestamp": "2026-03-03T23:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-unified-studio-aws-glue-5-1/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "aebc3637726f07be6a9ace9a5220daacf74b0fbc",
-      "title": " Amazon SageMaker Unified Studio launches support for remote connection from Kiro IDE",
-      "summary": "AWS has launched support for remote connection between Kiro IDE and Amazon SageMaker Unified Studio, enabling data scientists and ML engineers to use Kiro's development features while accessing SageMaker's scalable compute resources. This integration allows users to leverage Kiro's spec-driven development, conversational coding, and automated feature generation capabilities without switching between different environments. The connection is established through the AWS toolkit extension, streamlining the development workflow.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-03T19:39:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-unified-studio-kiro-ide/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c26f218480be86ded222cac548e03466f5adaa30",
-      "title": " Policy in Amazon Bedrock AgentCore is now generally available ",
-      "summary": "Amazon Bedrock AgentCore's Policy feature is now generally available, offering centralized, fine-grained controls for agent-tool interactions that operate independently of agent code. The feature allows security, compliance, and operations teams to define tool access and input validation rules using natural language, which automatically converts to Cedar policy language. This enables policy management without requiring modifications to existing agent code.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-03T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/policy-amazon-bedrock-agentcore-generally-available/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 544,
+    "total": 550,
     "byCategory": {
+      "SECURITY": 122,
+      "COMPUTE": 66,
+      "AI_ML": 109,
+      "NETWORKING": 9,
       "OTHER": 119,
-      "SECURITY": 121,
       "DATABASE": 53,
-      "NETWORKING": 8,
       "STORAGE": 17,
-      "COMPUTE": 63,
-      "AI_ML": 108,
       "ANALYTICS": 19,
       "CONTAINERS": 22,
       "SERVERLESS": 14
     },
-    "lastUpdated": "2026-06-01T15:56:37.302Z"
+    "lastUpdated": "2026-06-01T23:27:22.576Z"
   },
-  "generatedAt": "2026-06-01T15:56:37.303Z"
+  "generatedAt": "2026-06-01T23:27:22.576Z"
 }
