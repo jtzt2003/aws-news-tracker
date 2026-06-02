@@ -1,6 +1,26 @@
 {
   "announcements": [
     {
+      "id": "80526905f4c7d46e47baa9a8fa4e2d96e70aca28",
+      "title": "AWS HealthOmics now supports Nextflow version pinning at run time",
+      "summary": "AWS HealthOmics now allows customers to specify and pin specific Nextflow engine versions (22.04, 23.10, 24.10, 25.10, 26.04) at run time through the StartRun API's new engine-settings parameter. This feature enables controlled migration by giving customers explicit control over which Nextflow version their workflows use at execution time. AWS HealthOmics is a HIPAA-eligible service designed for healthcare and life sciences customers.",
+      "category": "OTHER",
+      "timestamp": "2026-06-01T23:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-healthomics-nextflow-version-pinning-at-runtime/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "baa1eddd60e0813d13446b2d82e60d386554447f",
+      "title": "AWS HealthOmics now supports Nextflow version 26.04",
+      "summary": "AWS HealthOmics now supports Nextflow version 26.04, bringing new features including record types, strict syntax parser, workflow output summaries, and agent logging mode to help healthcare and life sciences customers accelerate scientific breakthroughs. AWS HealthOmics is a HIPAA-eligible service that provides fully managed bioinformatics workflows at scale. The strict syntax parser is now enabled by default in this version to help customers save time and improve workflow reliability.",
+      "category": "OTHER",
+      "timestamp": "2026-06-01T23:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-healthomics-nextflow-version-26-04/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "0ee5230d97f0af9294db634a1e5ebad40e1661d3",
       "title": "Quick Research now supports customer managed keys",
       "summary": "Amazon QuickSight now supports customer-managed keys (CMK) through AWS Key Management Service (KMS), allowing organizations to encrypt their data using their own encryption keys. This enhancement provides greater security control and compliance capabilities for organizations with strict data protection requirements. The feature includes comprehensive audit capabilities through AWS CloudTrail integration, enabling customers to trace all data access for security monitoring.",
@@ -5489,33 +5509,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-opensearch-ingestion-unified-ingestion-endpoint-opentelemetry",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "a0f67cce194d48d0b75e3db5ff6faf3f0a64f351",
-      "title": "Amazon GameLift Servers launches DDoS Protection",
-      "summary": "Amazon GameLift Servers has launched a new DDoS Protection feature designed to help game developers defend their session-based multiplayer games against denial-of-service and distributed denial-of-service attacks. The protection provides proactive, UDP-based traffic filtering that operates automatically without requiring manual configuration or causing significant latency increases, ultimately improving overall game session resilience.",
-      "category": "OTHER",
-      "timestamp": "2026-03-04T13:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-gamelift-servers-ddos-protection/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 550,
+    "total": 551,
     "byCategory": {
+      "OTHER": 120,
       "SECURITY": 122,
       "COMPUTE": 66,
       "AI_ML": 109,
       "NETWORKING": 9,
-      "OTHER": 119,
       "DATABASE": 53,
       "STORAGE": 17,
       "ANALYTICS": 19,
       "CONTAINERS": 22,
       "SERVERLESS": 14
     },
-    "lastUpdated": "2026-06-01T23:27:22.576Z"
+    "lastUpdated": "2026-06-02T14:03:33.836Z"
   },
-  "generatedAt": "2026-06-01T23:27:22.576Z"
+  "generatedAt": "2026-06-02T14:03:33.836Z"
 }
