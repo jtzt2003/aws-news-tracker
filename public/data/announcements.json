@@ -1,6 +1,86 @@
 {
   "announcements": [
     {
+      "id": "04abf03ddeb9c2110399e67c978612f47fbb0594",
+      "title": "Amazon EKS and Amazon EKS Distro now supports Kubernetes version 1.36",
+      "summary": "Amazon EKS and Amazon EKS Distro now support Kubernetes version 1.36, which includes new features and bug fixes. Starting today, users can create new EKS clusters with version 1.36 or upgrade existing clusters using the EKS console, eksctl CLI, or infrastructure-as-code tools.",
+      "category": "CONTAINERS",
+      "timestamp": "2026-06-02T21:48:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-distro-kubernetes-version-1-36",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "26c6fc4965a6203e6a8dc719bce3deda9b3e6a6a",
+      "title": "AWS Config now supports internal service linked rules",
+      "summary": "AWS Config now supports internal service linked rules, which allow AWS services to automatically evaluate resource configurations using AWS Config managed rules. This feature enables services like AWS Security Hub CSPM to deploy and manage their own rule evaluations for service-specific functionality. The capability extends AWS Config's existing service linked recorder functionality to provide integrated security and compliance capabilities across AWS services.",
+      "category": "SECURITY",
+      "timestamp": "2026-06-02T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-config-supports-internal-service-linked-rules",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ce24021a8a6efb02977c06cce37ce36ab5fe05a0",
+      "title": "AWS Deadline Cloud now supports persistent storage for Service Managed Fleets",
+      "summary": "AWS Deadline Cloud now supports persistent storage for Service-Managed Fleets, enabling data to be maintained across worker lifecycle events rather than relying solely on ephemeral storage. This enhancement eliminates the need to reinstall software and assets each time a worker is recycled, improving efficiency for compute-intensive workloads in visual effects, animation, gaming, and other industries.",
+      "category": "STORAGE",
+      "timestamp": "2026-06-02T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/deadline-cloud/persistent-storage",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a73a0bd3b4b58726833a8aa2254225e482455aad",
+      "title": "Amazon SageMaker Studio now sets up in seconds with model customization ready from the start",
+      "summary": "Amazon SageMaker Studio has significantly improved its setup time, now launching in under 20 seconds compared to the previous 2+ minutes. New Studio environments automatically include pre-configured serverless model customization permissions, allowing users to immediately begin ML tasks like building pipelines, data exploration, notebook development, and foundation model fine-tuning without additional setup steps.",
+      "category": "AI_ML",
+      "timestamp": "2026-06-02T16:23:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/quick-setup-model-customization-sagemaker-studio/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "05e5d619b27b5a9963969d701c06edcacf3e71bd",
+      "title": "Amazon ElastiCache for Valkey now supports durability",
+      "summary": "AWS has announced durability support for Amazon ElastiCache for Valkey, enabling the service to handle workloads that require microsecond read latency while preventing data loss. The feature stores data durably across multiple Availability Zones using a Multi-AZ transactional log, providing fast failover, database recovery, and node restart capabilities to protect against data loss during failures.",
+      "category": "DATABASE",
+      "timestamp": "2026-06-02T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/durability-amazon-elasticache",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "68a863686a1506eee7630685ae88b8f014127086",
+      "title": "Amazon Location Service announces public transit and intermodal routing",
+      "summary": "Amazon Location Service has added public transit and intermodal routing capabilities to its Routes API, allowing developers to use the CalculateRoutes operation with new Transit and Intermodal travel modes. These features enable applications to plan comprehensive journeys that combine various transportation methods including buses, subways, trains, ferries, walking, driving, taxi, and rental segments.",
+      "category": "OTHER",
+      "timestamp": "2026-06-02T14:51:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-location-service/amazon-location-new-public-transit-intermodal-routing",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "055132c2502f0a9a552bd43b3fc2b718e4ffb2f9",
+      "title": "AWS Cost and Usage Report 2.0 now supports Athena and Redshift integration",
+      "summary": "AWS has announced that Cost and Usage Report 2.0 (CUR 2.0) now supports integration with Amazon Athena and Redshift, bringing it to feature parity with CUR 1.0. This new capability enables customers to analyze their AWS cost and usage data stored in S3 using standard SQL queries without needing to build custom data warehouse solutions.",
+      "category": "DATABASE",
+      "timestamp": "2026-06-02T13:40:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cur2.0-athena-redshift/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b176e271eea84a06a08e7f02ad636814f94f9c8c",
+      "title": "Amazon RDS for SQL Server supports Bring Your Own Media",
+      "summary": "Amazon RDS for SQL Server now supports Bring Your Own Media (BYOM), allowing customers to use their existing Microsoft SQL Server licenses when migrating from on-premises environments to AWS. This feature enables customers to leverage Microsoft's License Mobility program and Software Assurance benefits while using Amazon's managed database service. The capability helps reduce costs for organizations transitioning their SQL Server workloads to the cloud.",
+      "category": "DATABASE",
+      "timestamp": "2026-06-02T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/rds-sqlserver-supports-bring-your-own-media/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "80526905f4c7d46e47baa9a8fa4e2d96e70aca28",
       "title": "AWS HealthOmics now supports Nextflow version pinning at run time",
       "summary": "AWS HealthOmics now allows customers to specify and pin specific Nextflow engine versions (22.04, 23.10, 24.10, 25.10, 26.04) at run time through the StartRun API's new engine-settings parameter. This feature enables controlled migration by giving customers explicit control over which Nextflow version their workflows use at execution time. AWS HealthOmics is a HIPAA-eligible service designed for healthcare and life sciences customers.",
@@ -5449,83 +5529,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/lambda-durable-kiro-power/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "f21d34e3f1bb97c5a83e6e1c89f8fd62f727e5d6",
-      "title": "Amazon EC2 M8g instances now available in additional regions",
-      "summary": "Amazon EC2 M8g instances, powered by AWS Graviton4 processors, are now available in five additional regions: Africa (Cape Town), Asia Pacific (Malaysia), Europe (Milan, Zurich), and Canada West (Calgary). These general-purpose instances deliver up to 30% better performance compared to Graviton3-based instances and are designed for workloads like application servers, microservices, gaming servers, and caching fleets.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-04T22:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-m8g-instances-africa-cape-town-asia-pacific-malaysia-europe-milan-zurich-canada-west-calgary-regions",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "7f3c3ccfda240b3c637ca48ad97f49aca7356b8a",
-      "title": "AWS simplifies IAM role creation and setup in service workflows",
-      "summary": "AWS has introduced a streamlined IAM role creation feature that allows users to create and configure IAM roles directly within service workflows through a new panel, eliminating the need to switch between browser tabs. This enhancement simplifies the process of setting up secure cross-service connections that use temporary credentials instead of hardcoded access keys. The feature is integrated into console tasks that require role configuration, making IAM role setup more efficient and user-friendly.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-04T20:50:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-simplifies-iam-role-creation-and-setup/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "af4066d48b2e5c747763ac742f10b5396bd541e3",
-      "title": "Amazon SageMaker HyperPod now provides comprehensive observability for Restricted Instance Groups",
-      "summary": "Amazon SageMaker HyperPod has introduced comprehensive observability features for Restricted Instance Groups (RIG), specifically designed for teams training foundation models with Nova Forge. This new capability provides automated monitoring and a unified view of GPU performance, system health, network throughput, and Kubernetes cluster state, eliminating the need for manual metric collection and correlation across the infrastructure stack.",
-      "category": "AI_ML",
-      "timestamp": "2026-03-04T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-hyperpod-observability-rig/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d7d9086398871c4231eb0d76b38785859b1f8f30",
-      "title": "Amazon Lightsail now offers OpenClaw, a private self-hosted AI assistant",
-      "summary": "Amazon Lightsail now offers OpenClaw, a private self-hosted AI assistant that can be deployed on your own cloud infrastructure with built-in security features. The service includes pre-configured security controls, sandboxed agent sessions, one-click HTTPS access, and device pairing authentication for secure deployment. This allows users to run their own AI assistant privately without complex manual configuration.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-04T17:11:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-lightsail-openclaw/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "be2adc907ff6ad2c3a7b23deee1523bf2408d8e1",
-      "title": "Amazon OpenSearch Ingestion now supports Amazon Managed Service for Prometheus as a sink",
-      "summary": "Amazon OpenSearch Ingestion now supports Amazon Managed Service for Prometheus as a sink, enabling customers to build fully managed, end-to-end metrics ingestion pipelines without custom forwarding infrastructure. This allows customers to manage their entire metrics ingestion workflow using the same pipeline infrastructure they already use for logs and traces, providing flexibility to route different observability signals to their optimal destinations.",
-      "category": "ANALYTICS",
-      "timestamp": "2026-03-04T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-opensearch-ingestion-supports-amazon-managed-service-prometheus-sink",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "e3415d38f61693b9da189bb7d25619e63394cd0a",
-      "title": "Amazon OpenSearch Ingestion now supports unified ingestion endpoint for OpenTelemetry data",
-      "summary": "Amazon OpenSearch Ingestion now offers a unified ingestion endpoint that can accept all three OpenTelemetry observability signals (logs, metrics, and traces) through a single pipeline. This eliminates the previous requirement for customers to create and manage three separate pipelines for each signal type. The new capability simplifies pipeline architecture and reduces operational overhead for organizations using OpenTelemetry data.",
-      "category": "ANALYTICS",
-      "timestamp": "2026-03-04T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-opensearch-ingestion-unified-ingestion-endpoint-opentelemetry",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 551,
+    "total": 553,
     "byCategory": {
-      "OTHER": 120,
-      "SECURITY": 122,
-      "COMPUTE": 66,
+      "CONTAINERS": 23,
+      "SECURITY": 120,
+      "STORAGE": 18,
       "AI_ML": 109,
+      "DATABASE": 56,
+      "OTHER": 121,
+      "COMPUTE": 66,
       "NETWORKING": 9,
-      "DATABASE": 53,
-      "STORAGE": 17,
-      "ANALYTICS": 19,
-      "CONTAINERS": 22,
+      "ANALYTICS": 17,
       "SERVERLESS": 14
     },
-    "lastUpdated": "2026-06-02T14:03:33.836Z"
+    "lastUpdated": "2026-06-02T23:45:40.450Z"
   },
-  "generatedAt": "2026-06-02T14:03:33.836Z"
+  "generatedAt": "2026-06-02T23:45:40.450Z"
 }
