@@ -5489,63 +5489,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-I8ge-expansion-ireland/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "2c402445eec6d43996d0dda34c9c0547fa2d499e",
-      "title": "Amazon OpenSearch Service introduces capacity optimized blue/green deployments",
-      "summary": "Amazon OpenSearch Service has introduced a Capacity Optimized option for blue/green deployments that allows domain updates to proceed even when there isn't enough available instance capacity for a full parallel environment. The new approach performs updates in incremental batches rather than creating a complete duplicate environment, significantly reducing the number of additional instances required during the deployment process.",
-      "category": "COMPUTE",
-      "timestamp": "2026-03-05T09:54:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-opensearch-service-bg/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "431f32bbf985e4dda7e8f378bd569efdca932600",
-      "title": "Introducing Amazon Connect Health, Agentic AI Built for Healthcare",
-      "summary": "Amazon Connect Health is now generally available, offering specialized AI agents designed to streamline healthcare workflows and reduce administrative burden for medical organizations. The platform includes five AI agents that help patients access care faster while freeing up clinicians from paperwork to focus more on patient care. This purpose-built healthcare solution integrates with existing systems to improve both patient engagement and point-of-care processes across the healthcare continuum.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-05T08:42:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-health-agentic-ai-healthcare/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "0d48a3a754f9688f3f782ae1cc3cd8a4aed13050",
-      "title": "AWS HealthLake announces data transformation agent for automated CCDA-to-FHIR data conversion (Preview)",
-      "summary": "AWS HealthLake has launched a preview of its data transformation agent, an AI-powered tool that automatically converts legacy CCDA clinical documents into FHIR R4 format in days rather than months. This capability enables healthcare organizations to quickly transform their clinical data into queryable FHIR resources within AWS HealthLake, supporting use cases like longitudinal patient records, population health analytics, and clinical data exchange.",
-      "category": "OTHER",
-      "timestamp": "2026-03-05T08:23:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-healthlake-data-transformation-agent/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "eb8f9ea7e7dbfa7117b75815db35b8f5dde8e862",
-      "title": "Accelerate Lambda durable functions development with new Kiro power",
-      "summary": "AWS has announced the Lambda durable functions Kiro power, which integrates Lambda durable function development capabilities into Kiro's agentic AI development platform. This new feature enables developers to build resilient, long-running multi-step applications and AI workflows more efficiently through AI agent-assisted development in their local environment. The AI agent provides dynamic guidance and development expertise, including best practices for replay models and other durable function concepts.",
-      "category": "OTHER",
-      "timestamp": "2026-03-05T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/lambda-durable-kiro-power/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 553,
+    "total": 549,
     "byCategory": {
       "CONTAINERS": 23,
-      "SECURITY": 120,
+      "SECURITY": 119,
       "STORAGE": 18,
       "AI_ML": 109,
       "DATABASE": 56,
-      "OTHER": 121,
-      "COMPUTE": 66,
+      "OTHER": 119,
+      "COMPUTE": 65,
       "NETWORKING": 9,
       "ANALYTICS": 17,
       "SERVERLESS": 14
     },
-    "lastUpdated": "2026-06-02T23:45:40.450Z"
+    "lastUpdated": "2026-06-03T14:39:42.498Z"
   },
-  "generatedAt": "2026-06-02T23:45:40.450Z"
+  "generatedAt": "2026-06-03T14:39:42.499Z"
 }
