@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "cd17ba8528435627c99dc987f5c22a2ff7ba963d",
+      "title": "AWS IoT Device Management adds MQTT session data to connectivity status API",
+      "summary": "AWS IoT Device Management has enhanced its connectivity status API by adding MQTT session data, allowing users to troubleshoot connectivity issues and audit connection patterns across their IoT device fleets. This update brings the service to full parity with AWS IoT Core's GetConnection API, enabling retrieval of detailed connection and MQTT session information using a device's thing name.",
+      "category": "OTHER",
+      "timestamp": "2026-06-03T21:15:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iot-device-management-mqtt/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "36c64aca79208a4056e73deeb1656bf3441ac4bb",
+      "title": "Amazon SageMaker Data Agent now supports conversation history",
+      "summary": "Amazon SageMaker Data Agent in SageMaker Unified Studio now supports conversation history, allowing data practitioners to maintain continuity across analytical sessions. This feature enables users to reference previous agent-generated code, resume multi-step analyses, and review past troubleshooting interactions within their notebooks and Query Editor workflows. Data analysts and scientists can now pick up exactly where they left off with access to a scrollable conversation history.",
+      "category": "AI_ML",
+      "timestamp": "2026-06-03T20:26:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-data-agent/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "28e84cab7882f8cdc406dc6cdea146f073159b92",
+      "title": "Amazon SageMaker Unified Studio now supports notebook scheduling",
+      "summary": "Amazon SageMaker Unified Studio now allows users to schedule, parameterize, and orchestrate notebook runs directly from the notebook interface without requiring external infrastructure management. This new capability enables data scientists to easily transition notebooks from experimentation to production by automating recurring tasks like daily reports, data quality checks, and model retraining. Users can also trigger background runs on dedicated compute while maintaining uninterrupted interactive sessions.",
+      "category": "AI_ML",
+      "timestamp": "2026-06-03T20:13:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-unified-studio/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4c2447029b21f105ed65d172e916cb26d6ed668b",
+      "title": "AWS Step Functions adds AgentCore-powered agentic reasoning step ",
+      "summary": "AWS Step Functions has introduced a new feature that allows you to integrate AI agent reasoning steps into workflows through Amazon Bedrock AgentCore's managed harness (currently in preview). This integration enables users to configure AI agents by specifying the model, tools, and behavior within Step Functions' visual workflow service. The feature combines Step Functions' built-in error handling and orchestration capabilities with AgentCore's AI agent management to create more intelligent automated workflows.",
+      "category": "AI_ML",
+      "timestamp": "2026-06-03T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-step-functions-agentcore/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "016ce03feb8ab552a8e36e6304b6e07c040b7b20",
+      "title": "OpenAI GPT-5.4 generally available on Amazon Bedrock in AWS GovCloud (US-West)",
+      "summary": "Amazon Bedrock now offers OpenAI's GPT-5.4 model in AWS GovCloud (US-West), providing government and regulated industry customers access to OpenAI's most advanced AI model with enterprise-grade security and compliance. GPT-5.4 features native computer-use capabilities and advanced reasoning for coding, document processing, and multi-step tasks, all powered by Bedrock's high-performance inference engine with isolated queues.",
+      "category": "SECURITY",
+      "timestamp": "2026-06-03T19:58:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/GPT54-available-in-aws-govcloud-us-west/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b73ef9e8ebbdb19d9afaf23a369b31fd0eb45b4d",
+      "title": "AWS Compute Optimizer now supports 32-day lookback for EBS volume and ECS service rightsizing recommendations",
+      "summary": "AWS Compute Optimizer now offers an extended 32-day lookback period (up from 14 days) for Amazon EBS volume and ECS service rightsizing recommendations at no extra cost. This longer analysis window captures monthly utilization patterns like month-end processing, enabling more accurate optimization decisions that can improve both cost savings and performance outcomes.",
+      "category": "CONTAINERS",
+      "timestamp": "2026-06-03T18:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-ebs-ecs-32-day-lookback/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d6abbfac40df93536e912ebeb74f914728a37727",
+      "title": "ARC Region switch adds Amazon Aurora scaling and Amazon Neptune global database failover",
+      "summary": "Amazon Application Recovery Controller (ARC) has added three new execution blocks to help automate database operations during multi-Region application failovers. The new blocks include Amazon Aurora serverless scaling, Amazon Aurora provisioned scaling, and Amazon Neptune global database failover capabilities. These additions enable customers to better orchestrate database scaling and failover processes when recovering from Regional impairments with bounded recovery times.",
+      "category": "DATABASE",
+      "timestamp": "2026-06-03T17:44:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/region-switch-aurora-scaling-neptune-failover/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "894035a696e000fec8ae4a670aa145150a946239",
+      "title": "Amazon Keyspaces (for Apache Cassandra) now provides CDC iterator position ",
+      "summary": "Amazon Keyspaces (for Apache Cassandra) now includes an iterator position feature in CDC (Change Data Capture) streams that tells consumers whether they've reached the end of the stream or if more records are available. This enhancement improves the CDC functionality for Amazon's managed, serverless Cassandra-compatible database service. The feature helps customers better track and process row-level changes captured from their Keyspaces tables.",
+      "category": "OTHER",
+      "timestamp": "2026-06-03T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/keyspaces-cdc-iterator-position/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "90167945c443c3ac2faa10e4728bc60cadfc2a08",
+      "title": "Amazon SageMaker Unified Studio now supports a localized experience in twelve languages",
+      "summary": "Amazon SageMaker Unified Studio now supports twelve languages including English, Chinese (Simplified and Traditional), French, German, Indonesian, Italian, Japanese, Korean, Portuguese (Brazilian), Spanish, and Turkish. This enhancement allows data engineers, analysts, and data scientists from global teams to work in their preferred language, improving accessibility and collaboration across international organizations.",
+      "category": "AI_ML",
+      "timestamp": "2026-06-03T15:26:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/sagemaker-localization",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f35fc262a32f2cbbb21ba6a504a01af787facfcd",
+      "title": "Amazon SageMaker AI launches multi-turn reinforcement learning for AI agent model customization ",
+      "summary": "Amazon SageMaker AI has introduced multi-turn reinforcement learning (RL), a new serverless model customization technique that allows users to fine-tune AI models for complex, multi-step agent tasks. This feature joins existing customization options like supervised fine-tuning, RLVR, and RLAIF, eliminating the need for users to build and manage their own training infrastructure. The capability enables more sophisticated AI agent development through improved model adaptation for sequential decision-making scenarios.",
+      "category": "AI_ML",
+      "timestamp": "2026-06-03T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/multi-turn-reinforcement-learning-on-sagemaker-ai/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "04abf03ddeb9c2110399e67c978612f47fbb0594",
       "title": "Amazon EKS and Amazon EKS Distro now supports Kubernetes version 1.36",
       "summary": "Amazon EKS and Amazon EKS Distro now support Kubernetes version 1.36, which includes new features and bug fixes. Starting today, users can create new EKS clusters with version 1.36 or upgrade existing clusters using the EKS console, eksctl CLI, or infrastructure-as-code tools.",
@@ -5419,93 +5519,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-r8g-instances-additional-regions/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "3e098b6eabe8b5127b683d3b76eb502ee6f15813",
-      "title": "Amazon Redshift Serverless now maintains datashare permissions during restore",
-      "summary": "Amazon Redshift Serverless now automatically preserves datashare permissions when restoring a snapshot to the same namespace, eliminating the need for manual re-configuration. This enhancement streamlines data sharing workflows by removing the previous requirement for administrators to manually re-grant permissions to consumer clusters and recreate consumer databases after a restore operation.",
-      "category": "DATABASE",
-      "timestamp": "2026-03-05T22:45:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-redshift-serverless-maintains-datashare-permissions-on-restore/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "18a9268e16cd155831509e5dede5fb24db664471",
-      "title": "Multi-party approval now supports approval team baselining",
-      "summary": "AWS Multi-party approval (MPA) now includes approval team baselining, which allows MPA administrators to run test approvals to verify their approval teams are properly configured and responsive. This new feature helps prevent approval teams from becoming unresponsive due to issues like staff turnover, incorrect approver selection, or reduced engagement. The capability enables administrators and security teams to proactively validate their approval configurations before using them for critical operations.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-05T19:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/multi-party-approval-team-baselining/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f8150a182803ef73c9d484e383a95d32063a972c",
-      "title": " Amazon SageMaker Unified Studio adds light mode support for IAM-based domains",
-      "summary": "Amazon SageMaker Unified Studio now supports light mode for IAM-based domains, allowing customers to choose between dark and light visual themes based on their preferences. This update improves readability in bright environments and gives users full control over their development environment's appearance.",
-      "category": "AI_ML",
-      "timestamp": "2026-03-05T18:22:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/sagemaker-unified-studio-light-mode/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4e6e44064d8ede49041c483485407c94bdef0417",
-      "title": "Database Savings Plans now supports Amazon OpenSearch Service and Amazon Neptune Analytics",
-      "summary": "AWS has expanded Database Savings Plans to include Amazon OpenSearch Service and Amazon Neptune Analytics, allowing customers to save up to 35% on these services. The savings plans require a one-year commitment to consistent usage (measured in $/hour) with no upfront payment and automatically apply to eligible serverless and provisioned instances across different configurations.",
-      "category": "DATABASE",
-      "timestamp": "2026-03-05T17:29:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/dbsp-opensearch-service-neptune-analytics/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6172562ef69b29e26ae9f5591d9374c089a1b84e",
-      "title": "AWS Elastic Beanstalk now offers AI-powered environment analysis",
-      "summary": "AWS Elastic Beanstalk has introduced AI-powered environment analysis that automatically identifies root causes and provides recommended solutions for environment health issues. The feature leverages Amazon Bedrock to analyze recent events, instance health data, and logs when problems occur. This enhancement helps developers and operations teams diagnose and resolve issues more quickly without manual log review.",
-      "category": "AI_ML",
-      "timestamp": "2026-03-05T16:55:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/elastic-beanstalk-ai-analysis/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ba15706da4e6cb51d36caef1b0f97c5fa88eb775",
-      "title": "AWS Shield network security director findings are now available in AWS Security Hub",
-      "summary": "AWS Shield's network security director (currently in preview) now integrates with AWS Security Hub to surface its findings. The network security director identifies missing or misconfigured network security services like AWS WAF, VPC security groups, and VPC network ACLs across AWS Organizations and provides remediation recommendations. These findings are now accessible within Security Hub's console, including in the Inventory section.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-05T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/network-security-director-findings/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6cfb6a6c7204ccd4ca4fbd9adbb6b019b6d09290",
-      "title": "Amazon EC2 I8ge instances now generally available in Europe (Ireland) AWS region.",
-      "summary": "AWS has launched Amazon EC2 I8ge instances in the Europe (Ireland) region, designed for storage-intensive workloads. These instances feature 5th generation Intel Xeon Scalable processors (3.2 GHz all-core turbo) and provide up to 40% better compute performance and 20% better price performance compared to I3en instances. The I8ge instances offer up to 120TB of local NVMe storage density, which is the highest available in the cloud.",
-      "category": "COMPUTE",
-      "timestamp": "2026-03-05T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-I8ge-expansion-ireland/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 549,
+    "total": 552,
     "byCategory": {
-      "CONTAINERS": 23,
-      "SECURITY": 119,
+      "OTHER": 121,
+      "AI_ML": 112,
+      "SECURITY": 118,
+      "CONTAINERS": 24,
+      "DATABASE": 55,
       "STORAGE": 18,
-      "AI_ML": 109,
-      "DATABASE": 56,
-      "OTHER": 119,
-      "COMPUTE": 65,
+      "COMPUTE": 64,
       "NETWORKING": 9,
       "ANALYTICS": 17,
       "SERVERLESS": 14
     },
-    "lastUpdated": "2026-06-03T14:39:42.498Z"
+    "lastUpdated": "2026-06-03T23:43:53.641Z"
   },
-  "generatedAt": "2026-06-03T14:39:42.499Z"
+  "generatedAt": "2026-06-03T23:43:53.642Z"
 }
