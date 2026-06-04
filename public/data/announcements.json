@@ -1,6 +1,56 @@
 {
   "announcements": [
     {
+      "id": "0f0688d15928760902551cdea664e4d5cf8bee2c",
+      "title": "Amazon Cognito now supports multi-Region replication",
+      "summary": "Amazon Cognito now offers multi-Region replication, allowing users to synchronize identity data, credentials, and configurations to a secondary user pool in a standby region in near real-time. This feature enhances authentication system resilience by providing a backup replica that can handle traffic during regional service disruptions, improving overall system reliability and disaster recovery capabilities.",
+      "category": "SECURITY",
+      "timestamp": "2026-06-04T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6c03b893b9935705dc2cafd9523010c73a6079a1",
+      "title": "AWS Databases on Vercel now available in additional AWS Regions",
+      "summary": "AWS has expanded the regional availability of Amazon Aurora PostgreSQL, Amazon Aurora DSQL, and Amazon DynamoDB serverless databases on Vercel Marketplace and v0 by Vercel. This expansion gives developers more flexibility to build applications using Vercel and AWS databases from their preferred AWS Regions. Developers can get started by describing their application ideas in natural language through v0, which automatically generates designs, deploys infrastructure, and integrates with AWS databases.",
+      "category": "SECURITY",
+      "timestamp": "2026-06-04T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-databases-vercel-aws-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f2b03453b55db83c497c6a738cccdf875b84028b",
+      "title": "Amazon EKS Capabilities now supports Amazon CloudWatch Vended Logs  ",
+      "summary": "Amazon EKS Capabilities now supports Amazon CloudWatch Vended Logs, allowing customers to configure log delivery for monitoring and troubleshooting EKS add-ons like Argo CD, AWS Controllers for Kubernetes (ACK), and kro. This integration enables customers to collect and analyze logs from managed controllers running in AWS infrastructure through CloudWatch APIs or the AWS Console.",
+      "category": "CONTAINERS",
+      "timestamp": "2026-06-04T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-capabilities-logging",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "03a140efcb93e98fc6515fdc1afa26770b1a5108",
+      "title": "Amazon MQ is now available in the AWS European Sovereign Cloud (Germany) Region",
+      "summary": "Amazon MQ for RabbitMQ is now available in the AWS European Sovereign Cloud (Germany) Region, which is located entirely within the EU to help regulated industries and public sector organizations meet sovereignty requirements. Amazon MQ is a managed message broker service that simplifies the setup and operation of message brokers in the cloud by handling provisioning, patching, and maintenance tasks.",
+      "category": "COMPUTE",
+      "timestamp": "2026-06-04T08:05:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mq-eur-sov-cloud",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "138564c992cb8b5db4acac27cdfba5210227c1f6",
+      "title": "Amazon Bedrock launches a redesigned console optimized for OpenAI- and Anthropic-compatible APIs",
+      "summary": "Amazon Bedrock has launched a redesigned console that optimizes the user experience for building with foundation models, particularly focusing on compatibility with OpenAI and Anthropic APIs. The new console is designed around the typical developer workflow of experimenting, iterating, and scaling generative AI applications. This update maintains the same fully managed service capabilities while improving the interface for the bedrock-mantle endpoint to better serve how customers actually work with foundation models.",
+      "category": "AI_ML",
+      "timestamp": "2026-06-04T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-redesigned-console-optimized-openai-anthropic-compatible-apis/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "cd17ba8528435627c99dc987f5c22a2ff7ba963d",
       "title": "AWS IoT Device Management adds MQTT session data to connectivity status API",
       "summary": "AWS IoT Device Management has enhanced its connectivity status API by adding MQTT session data, allowing users to troubleshoot connectivity issues and audit connection patterns across their IoT device fleets. This update brings the service to full parity with AWS IoT Core's GetConnection API, enabling retrieval of detailed connection and MQTT session information using a device's thing name.",
@@ -5489,43 +5539,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-g7e-seoul-spain-regions/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "7b9a0608c228332eb36d459d9f07f915223bd647",
-      "title": "Amazon Redshift introduces reusable templates for COPY operations",
-      "summary": "Amazon Redshift has introduced reusable templates for COPY operations that allow users to store and reuse frequently used COPY parameters. This feature eliminates the need to manually specify formatting parameters for each operation, maintaining consistency across data ingestion processes. The templates reduce time and effort required for executing COPY commands by streamlining repetitive data loading tasks.",
-      "category": "DATABASE",
-      "timestamp": "2026-03-06T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-redshift-reusable-templates-copy/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "3a566ae59e2ed3f9d155c2a8469c56b504a82d2a",
-      "title": "Amazon Redshift introduces new array functions for semi-structured data processing",
-      "summary": "Amazon Redshift has introduced nine new array functions (including ARRAY_CONTAINS, ARRAY_DISTINCT, ARRAY_SORT, and others) that enable users to efficiently search, compare, sort, and transform semi-structured data stored in the SUPER data type. These functions allow developers to perform complex array operations directly within SQL queries, eliminating the need to write custom PartiQL SQL logic that was previously required for such tasks.",
-      "category": "DATABASE",
-      "timestamp": "2026-03-06T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-redshift-nine-new-array-functions/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 551,
+    "total": 554,
     "byCategory": {
+      "SECURITY": 119,
+      "CONTAINERS": 25,
+      "COMPUTE": 65,
+      "AI_ML": 113,
       "OTHER": 121,
-      "AI_ML": 112,
-      "SECURITY": 117,
-      "CONTAINERS": 24,
-      "DATABASE": 55,
+      "DATABASE": 53,
       "STORAGE": 18,
-      "COMPUTE": 64,
       "NETWORKING": 9,
       "ANALYTICS": 17,
       "SERVERLESS": 14
     },
-    "lastUpdated": "2026-06-04T12:44:31.276Z"
+    "lastUpdated": "2026-06-04T23:09:18.143Z"
   },
-  "generatedAt": "2026-06-04T12:44:31.276Z"
+  "generatedAt": "2026-06-04T23:09:18.143Z"
 }
