@@ -5509,24 +5509,14 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-redshift-nine-new-array-functions/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "292aec51bdadcab844451b08e71aad6600fb8beb",
-      "title": "Amazon EC2 R8g instances now available in additional regions",
-      "summary": "Amazon EC2 R8g instances are now available in three additional AWS regions: Middle East (UAE), Mexico (Central), and Europe (Zurich). These instances are powered by AWS Graviton4 processors and deliver up to 30% better performance compared to Graviton3-based instances. The R8g instances are optimized for memory-intensive workloads like databases, in-memory caches, and real-time big data analytics.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-06T01:12:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-r8g-instances-additional-regions/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 552,
+    "total": 551,
     "byCategory": {
       "OTHER": 121,
       "AI_ML": 112,
-      "SECURITY": 118,
+      "SECURITY": 117,
       "CONTAINERS": 24,
       "DATABASE": 55,
       "STORAGE": 18,
@@ -5535,7 +5525,7 @@
       "ANALYTICS": 17,
       "SERVERLESS": 14
     },
-    "lastUpdated": "2026-06-03T23:43:53.641Z"
+    "lastUpdated": "2026-06-04T12:44:31.276Z"
   },
-  "generatedAt": "2026-06-03T23:43:53.642Z"
+  "generatedAt": "2026-06-04T12:44:31.276Z"
 }
