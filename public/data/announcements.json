@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "5cec0422f88d467c77151276bf446b751f86f69a",
+      "title": "Amazon SageMaker Data Agent integrates business context into conversations",
+      "summary": "Amazon SageMaker Data Agent now integrates with SageMaker Catalog to leverage business context and metadata, allowing data practitioners to use natural business terminology instead of technical table names when discovering datasets and generating SQL/Python code. This integration utilizes the business context that organizations have curated in their SageMaker Catalog, including metadata synced from third-party tools like Collibra, Atlan, and Alation, to improve the accuracy of data discovery and code generation.",
+      "category": "AI_ML",
+      "timestamp": "2026-06-04T21:51:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-data-agent-bdc/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "0f0688d15928760902551cdea664e4d5cf8bee2c",
       "title": "Amazon Cognito now supports multi-Region replication",
       "summary": "Amazon Cognito now offers multi-Region replication, allowing users to synchronize identity data, credentials, and configurations to a secondary user pool in a standby region in near real-time. This feature enhances authentication system resilience by providing a backup replica that can handle traffic during regional service disruptions, improving overall system reliability and disaster recovery capabilities.",
@@ -5542,12 +5552,12 @@
     }
   ],
   "stats": {
-    "total": 554,
+    "total": 555,
     "byCategory": {
+      "AI_ML": 114,
       "SECURITY": 119,
       "CONTAINERS": 25,
       "COMPUTE": 65,
-      "AI_ML": 113,
       "OTHER": 121,
       "DATABASE": 53,
       "STORAGE": 18,
@@ -5555,7 +5565,7 @@
       "ANALYTICS": 17,
       "SERVERLESS": 14
     },
-    "lastUpdated": "2026-06-04T23:09:18.143Z"
+    "lastUpdated": "2026-06-05T12:38:14.502Z"
   },
-  "generatedAt": "2026-06-04T23:09:18.143Z"
+  "generatedAt": "2026-06-05T12:38:14.502Z"
 }
