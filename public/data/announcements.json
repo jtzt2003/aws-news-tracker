@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "6b24283695c6e6d173bcbaccc9a953fba7caf253",
+      "title": "AWS Cost Explorer launches intelligent cost explanations powered by Amazon Q ",
+      "summary": "AWS Cost Explorer has launched a new \"Analyze with Amazon Q\" feature that provides intelligent, automated cost analysis with a single click. The AI-powered capability delivers comprehensive explanations of cost trends, drivers, and anomalies based on your specific filters and timeframes, eliminating the need for manual cost analysis. Amazon Q Developer also suggests optimization opportunities through interactive follow-up questions.",
+      "category": "AI_ML",
+      "timestamp": "2026-06-09T03:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cost-explorer-intelligent-cost-explanations",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "e9f8ab041c2167fd9ed8c89c5afdbab78361a022",
       "title": "AWS Compute Optimizer now supports idle recommendations for six additional resource types",
       "summary": "AWS Compute Optimizer has expanded its idle resource detection capabilities to include six additional services: Amazon DynamoDB provisioned tables, Amazon ElastiCache (Redis and Valkey), Amazon MemoryDB, Amazon DocumentDB, Amazon WorkSpaces, and Amazon SageMaker endpoints. This enhancement allows customers to identify unused resources across a broader range of their AWS infrastructure and discover potential cost savings opportunities.",
@@ -27,6 +37,16 @@
       "category": "DATABASE",
       "timestamp": "2026-06-08T18:59:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-documentdb-engine-minor-version-5-0-1/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f49607a2a578806c32313b60c3d8eb54c8737f9a",
+      "title": "Amazon CloudWatch Logs Insights adds 23 new query commands and functions",
+      "summary": "Amazon CloudWatch Logs Insights has expanded its query language with 23 new commands and functions designed to enhance log analysis capabilities. These additions include hash functions (md5, sha256), string functions, and tools for conditional processing, IP address handling, and complex statistical operations. The update addresses common customer needs for more sophisticated log parsing, transformation, and analysis within the CloudWatch Logs Insights platform.",
+      "category": "OTHER",
+      "timestamp": "2026-06-08T17:50:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-logs-insights-new/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5569,26 +5589,6 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-cases-data-lake",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "f4d3213c4c0f5a7dda6bf15e2848fcc464b47973",
-      "title": "AWS Backup expands support for Amazon RDS Multi-AZ clusters to 17 Regions",
-      "summary": "AWS Backup has expanded its support for Amazon RDS Multi-AZ clusters to 17 additional regions across Asia Pacific, Europe, South America, Africa, and Canada. This expansion provides comprehensive data protection capabilities including automated lifecycle management and immutable backups with AWS Backup Vault Lock for RDS Multi-AZ clusters in these new regions.",
-      "category": "DATABASE",
-      "timestamp": "2026-03-11T10:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-backup-expands-amazon-rds-multi-az-clusters-17-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4909381a59b8dcae4168df6c7a7d4bc14fe187f6",
-      "title": "Amazon Bedrock AgentCore Runtime now supports stateful MCP server features ",
-      "summary": "Amazon Bedrock AgentCore Runtime has expanded its Model Context Protocol (MCP) server support to include stateful features like elicitation, sampling, and progress notifications, in addition to existing resources, prompts, and tools capabilities. These new features enable MCP servers to interactively collect user input during tool execution, request LLM-generated content from clients, and provide real-time updates for long-running operations.",
-      "category": "AI_ML",
-      "timestamp": "2026-03-10T23:53:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-agentcore-runtime-stateful-mcp/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
@@ -5596,8 +5596,8 @@
     "byCategory": {
       "AI_ML": 114,
       "ANALYTICS": 17,
-      "DATABASE": 56,
-      "OTHER": 119,
+      "DATABASE": 55,
+      "OTHER": 120,
       "SERVERLESS": 15,
       "SECURITY": 121,
       "CONTAINERS": 25,
@@ -5605,7 +5605,7 @@
       "COMPUTE": 65,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-06-08T23:12:14.238Z"
+    "lastUpdated": "2026-06-09T12:37:50.059Z"
   },
-  "generatedAt": "2026-06-08T23:12:14.238Z"
+  "generatedAt": "2026-06-09T12:37:50.059Z"
 }
