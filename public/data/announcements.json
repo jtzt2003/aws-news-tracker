@@ -1,6 +1,56 @@
 {
   "announcements": [
     {
+      "id": "e48876eb847b007296f3f6b48a716dacb3e95df7",
+      "title": " Amazon ECS Managed Daemons now support inter-task visibility and communication",
+      "summary": "Amazon ECS Managed Daemons now support inter-task visibility and communication through two new configuration settings: pidMode (for process visibility) and ipcMode (for shared IPC namespace access). This enhancement enables customers to deploy monitoring, tracing, profiling, and security agents that need to access application processes and shared resources on ECS Managed Instances.",
+      "category": "SECURITY",
+      "timestamp": "2026-06-10T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ecs-managed-daemons-pid-ipc-modes/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d1a56f657173e24dac1f2deeadc74300d16eb57f",
+      "title": "Amazon EC2 M9g and M9gd general purpose instances are now available",
+      "summary": "Amazon EC2 M9g and M9gd general purpose instances are now generally available, powered by the new fifth-generation AWS Graviton5 processors. These instances deliver improved price-performance for general purpose workloads including application servers, microservices, gaming, caching, and containers.",
+      "category": "SECURITY",
+      "timestamp": "2026-06-10T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-m9g-m9gd-instances-graviton5-processors-available",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "84e6d9cb8235a26ea31b246b96dcd6a9a6b8cd09",
+      "title": "Amazon EC2 P6-B200 instances are now available in the AWS GovCloud (US-East) Region",
+      "summary": "Amazon EC2 P6-B200 instances powered by NVIDIA Blackwell GPUs are now available in the AWS GovCloud (US-East) Region, offering up to 2x better performance than P5en instances for AI training and inference. These instances feature 8 Blackwell GPUs with 1440 GB of high-bandwidth GPU memory, 60% more GPU memory bandwidth than P5en, and 5th Generation Intel Xeon processors.",
+      "category": "COMPUTE",
+      "timestamp": "2026-06-10T14:32:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-p6-b200-aws-govcloud/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "fc9b218dce4ff6dd6fc99818af0e6ca5b1ac5576",
+      "title": "AWS Cost and Usage Report 2.0 now supports table configurations update",
+      "summary": "AWS Cost and Usage Report 2.0 (CUR 2.0) now allows customers to update their existing data table configurations through the AWS Management Console and SDK/CLI. This new capability enables users to modify export settings like content, time granularity, and format without having to delete and recreate their entire exports. The update provides greater flexibility for customers to adapt their cost reporting configurations as their needs evolve.",
+      "category": "OTHER",
+      "timestamp": "2026-06-10T13:33:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cost-usage-report/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7a4c6fa3f6deca131be1e0d4f9e0a05b484b375e",
+      "title": "Amazon FSx for OpenZFS Intelligent-Tiering storage class is now available in 8 additional AWS Regions",
+      "summary": "Amazon FSx for OpenZFS Intelligent-Tiering storage class is now available in 8 additional AWS Regions spanning the US, Europe, Asia Pacific, and South America. This storage class automatically moves data across three tiers (Frequent Access, Infrequent Access, and Archive) based on usage patterns, making it ideal for general-purpose workloads like file shares, archives, media libraries, and on-premises HDD migrations.",
+      "category": "STORAGE",
+      "timestamp": "2026-06-09T20:52:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-fsx-openzfs/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "737c887025e1fc5b541889713d74e066265d3f3b",
       "title": "Amazon SageMaker Unified Studio Notebooks now support EMR Serverless",
       "summary": "Amazon SageMaker Unified Studio Notebooks now support Amazon EMR Serverless with Apache Spark Connect, providing data engineers and analysts with additional flexibility for interactive analytics and data engineering workloads. Users can now choose between Amazon Athena Spark and EMR Serverless as their Spark runtime, allowing them to run PySpark and Spark SQL on EMR Serverless Spark Applications based on their specific requirements.",
@@ -27,6 +77,16 @@
       "category": "OTHER",
       "timestamp": "2026-06-09T15:28:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-finops-agent-preview/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7c5abce4bbcf9259b30286424182e8cb3a06d224",
+      "title": "Announcing metal-48xl and metal-96xl for Amazon EC2 network/EBS instances ",
+      "summary": "AWS has announced the general availability of metal-48xl and metal-96xl sizes for Amazon EC2's M8in, M8ib, M8idn, M8idb, R8in, R8ib, R8idn, and R8idb instances. These instances are powered by custom sixth-generation Intel Xeon Scalable processors exclusive to AWS and feature the latest sixth-generation AWS Nitro cards. The new instances deliver up to 43% better compute performance per vCPU compared to previous generation instances.",
+      "category": "COMPUTE",
+      "timestamp": "2026-06-09T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-metal-sizes-network-EBS/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5449,123 +5509,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-lambda-managed-instances-rust/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "0f4c548dce92ed1ab592c899153fff22505322b7",
-      "title": "OpenSearch UI supports Cross Account Data Access to OpenSearch domains",
-      "summary": "Amazon OpenSearch Service now enables cross-account data access, allowing users to query and build dashboards using data from OpenSearch domains across different AWS accounts within a single UI application. This eliminates the need to switch endpoints or replicate data when working with domains in the same region. The feature is available for both public and VPC-hosted OpenSearch domains.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-12T20:40:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/opensearch-ui-cross-account-data-access-domains/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "64cc2eab586209401ba5b5126f9adccb0e441007",
-      "title": "New LZA MCP Server for AI-assisted configuration management ",
-      "summary": "AWS has released an open source LZA MCP Server that allows organizations to manage Landing Zone Accelerator deployments through natural language conversations with AI assistants. The server includes 20 specialized tools designed to streamline previously manual configuration tasks such as searching documentation, managing configurations, and monitoring pipelines. This innovation enables AI-assisted configuration management, making LZA deployments more accessible and efficient through conversational interfaces.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-12T19:23:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/new-lza-mcp-server-ai-assisted/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c36a2b31865178f821f59ff258bf621b3326c9e5",
-      "title": "AWS Elastic Beanstalk launches Deployments tab with in-progress deployment logs",
-      "summary": "AWS Elastic Beanstalk has launched a new Deployments tab that provides customers with a consolidated view of deployment history and real-time progress tracking through step-by-step logs. Previously, users had to wait for deployments to complete and correlate information across multiple sources to understand deployment status. This new feature centralizes deployment status, events, and detailed logs in a single interface within the environment dashboard.",
-      "category": "OTHER",
-      "timestamp": "2026-03-12T18:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/elastic-beanstalk-deployments-tab/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ecd88b5eabbe72c1094612686cb52e9693c5bde3",
-      "title": "AWS Private CA Connector for SCEP now supports AWS PrivateLink",
-      "summary": "AWS Private CA Connector for SCEP now supports AWS PrivateLink, enabling clients to request certificates directly within their VPC without using the public internet. This enhancement allows users to create VPC endpoints for private connectivity to their SCEP connector, keeping all certificate enrollment traffic securely within the AWS network.",
-      "category": "OTHER",
-      "timestamp": "2026-03-12T17:10:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-private-ca-connector-scep-privatelink/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4af611eec4f0f18546fe7681e3f762ab920c1429",
-      "title": "AWS CDK Mixins is now generally available",
-      "summary": "AWS CDK Mixins is now generally available, allowing developers to add composable and reusable abstractions to any AWS construct (L1, L2, or custom) without rebuilding existing infrastructure code. This new feature is included in the aws-cdk-lib package and works across all construct types, providing flexibility to apply abstractions as needed. CDK Mixins eliminates the previous limitation where teams had to choose between immediate access to new AWS services and higher-level abstractions.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-12T16:15:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-cdk-mixins/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "eb835c4d1f3532408e280531d5ac7416ca05f38a",
-      "title": "Amazon Bedrock AgentCore Memory announces streaming notifications for long-term memory",
-      "summary": "Amazon Bedrock AgentCore Memory now provides streaming notifications for long-term memory updates, eliminating the need for developers to poll for changes. The service streams updates directly to Amazon Kinesis whenever memory records are created or modified, enabling real-time triggering of downstream workflows. This enhancement allows AI agents to better leverage extracted insights from past interactions to deliver more personalized user experiences.",
-      "category": "AI_ML",
-      "timestamp": "2026-03-12T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/agentcore-memory-streaming-ltm/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "21b77a7b36bb0274c73cd0c81a1a384c3634f540",
-      "title": "Amazon EC2 M8i and M8i-flex instances are now available in additional AWS Regions",
-      "summary": "Amazon EC2 M8i and M8i-flex instances are now available in Europe (Ireland) and Europe (London) regions, powered by custom Intel Xeon 6 processors exclusive to AWS. These instances offer up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generation Intel-based instances, delivering the highest performance among comparable Intel processors in the cloud.",
-      "category": "COMPUTE",
-      "timestamp": "2026-03-12T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-m8i-m8i-flex-additional-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4605ca4b9947ef4f7bd4b3bc3b7704bd6e24a55b",
-      "title": "AWS Glue zero-ETL integrations with Amazon DynamoDB as the source support new configurations",
-      "summary": "AWS Glue zero-ETL integrations with Amazon DynamoDB now support configurable change data capture (CDC) refresh intervals ranging from 15 minutes to 6 days, allowing users to customize how frequently data changes are captured. The enhancement also includes on-demand data ingestion capability, enabling immediate data ingestion when needed. These new features bring DynamoDB zero-ETL integrations to feature parity with other AWS data source integrations.",
-      "category": "DATABASE",
-      "timestamp": "2026-03-12T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-glue-zetl-dynamodb-configurations/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "2dc1b6e40a50f5640cefc39b84f914d8c5330996",
-      "title": "Amazon WorkSpaces now supports Microsoft Windows Server 2025",
-      "summary": "AWS has announced new Amazon WorkSpaces bundles powered by Microsoft Windows Server 2025, available for both WorkSpaces Personal and WorkSpaces Core. These new bundles allow customers to access the latest Windows server features and run applications like Microsoft 365 Apps for enterprise that require newer Windows versions. Previous Windows Server versions (2016, 2019, and 2022) continue to be available alongside the new 2025 option.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-12T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-workspaces-windows-server-2025/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "a4f34b7179b6244f73397e5036a2eb8869a7da31",
-      "title": "Amazon S3 introduces account regional namespaces for general purpose buckets",
-      "summary": "Amazon S3 now offers account regional namespaces for general purpose buckets, allowing users to create buckets in their own reserved namespace without needing globally unique names. This feature enables predictable bucket naming across multiple AWS Regions and simplifies workloads that require dedicated buckets per customer, team, or dataset. The change eliminates the common challenge of finding available bucket names and ensures desired names are always available within your account's namespace.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-12T13:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-s3-account-regional-namespaces/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 555,
+    "total": 551,
     "byCategory": {
-      "AI_ML": 116,
-      "STORAGE": 20,
-      "OTHER": 120,
+      "SECURITY": 118,
+      "COMPUTE": 61,
+      "OTHER": 119,
+      "STORAGE": 21,
+      "AI_ML": 115,
       "CONTAINERS": 25,
       "ANALYTICS": 16,
-      "DATABASE": 54,
+      "DATABASE": 53,
       "SERVERLESS": 15,
-      "SECURITY": 121,
-      "COMPUTE": 60,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-06-10T12:56:49.310Z"
+    "lastUpdated": "2026-06-10T23:25:39.551Z"
   },
-  "generatedAt": "2026-06-10T12:56:49.310Z"
+  "generatedAt": "2026-06-10T23:25:39.551Z"
 }
