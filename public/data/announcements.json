@@ -5549,25 +5549,15 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-s3-account-regional-namespaces/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "5efe2d415d43ce5b054245e887cf173036521489",
-      "title": "AWS Backup adds logically air-gapped vault support for Amazon EKS",
-      "summary": "AWS Backup has extended logically air-gapped vault support to Amazon EKS clusters, allowing organizations to store immutable, encrypted backup copies that are isolated and locked by default. These vaults enable secure cross-account backup sharing within AWS Organizations and support direct restore capabilities to minimize recovery time during data loss events.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-03-12T10:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-backup-logically-air-gapped-vault-amazon-eks/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 556,
+    "total": 555,
     "byCategory": {
       "AI_ML": 116,
       "STORAGE": 20,
       "OTHER": 120,
-      "CONTAINERS": 26,
+      "CONTAINERS": 25,
       "ANALYTICS": 16,
       "DATABASE": 54,
       "SERVERLESS": 15,
@@ -5575,7 +5565,7 @@
       "COMPUTE": 60,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-06-09T23:17:11.207Z"
+    "lastUpdated": "2026-06-10T12:56:49.310Z"
   },
-  "generatedAt": "2026-06-09T23:17:11.207Z"
+  "generatedAt": "2026-06-10T12:56:49.310Z"
 }
