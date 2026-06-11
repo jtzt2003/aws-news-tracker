@@ -1,6 +1,76 @@
 {
   "announcements": [
     {
+      "id": "bfe1f6aaeab64155f93c7d8e15093cd2723b9867",
+      "title": "Amazon CloudWatch Application Signals now supports infrastructure, logs, and traces context for faster troubleshooting",
+      "summary": "Amazon CloudWatch Application Signals has added service health ranking on application maps and new infrastructure, logs, and traces tabs on service overview pages. These enhancements allow operators to triage unhealthy services and investigate underlying compute environments, log data, and trace details from a single location, streamlining root cause analysis without needing to switch between multiple tools.",
+      "category": "CONTAINERS",
+      "timestamp": "2026-06-11T20:10:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/cloudwatch-application-signals-supports infrastructure-logs-traces-context-for-faster troubleshooting/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c19f4970ddd3ee597a7e3d46cca6a89dfb0e2cc1",
+      "title": "Amazon Aurora now supports PostgreSQL major version 18",
+      "summary": "Amazon Aurora PostgreSQL-Compatible Edition now supports PostgreSQL major version 18, starting with version 18.3, which includes community improvements to query performance and database management. The release introduces support for the pg_roaringbitmap extension, enabling fast, memory-efficient set operations on large integer collections directly in the database. This enhancement supports use cases like audience segmentation, tag-based filtering, and permission checks without requiring application-layer processing.",
+      "category": "SECURITY",
+      "timestamp": "2026-06-11T18:59:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-aurora-postgresql-major-version-18/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "119ecd7d0fcc08f058c0ad687e1e4f3b0d39ff87",
+      "title": "AWS Elastic Beanstalk console now integrates CloudWatch Logs in the Logs tab",
+      "summary": "AWS Elastic Beanstalk has integrated CloudWatch Logs directly into the environment Logs tab of its console, eliminating the need for customers to navigate to the separate CloudWatch console to view logs. This new feature allows users to view CloudWatch log events and access relevant log groups and streams without leaving the Elastic Beanstalk interface, streamlining the log monitoring experience.",
+      "category": "OTHER",
+      "timestamp": "2026-06-11T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/elastic-beanstalk-cloudwatch-logs/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "059c9264ec98f7a277ae0158318cda2a0cdb68d5",
+      "title": "Amazon MWAA Serverless now supports Amazon EventBridge notifications",
+      "summary": "Amazon MWAA Serverless now integrates with Amazon EventBridge to automatically emit notifications when Apache Airflow workflows and tasks change states (started, running, succeeded, failed, etc.). This eliminates the need for custom polling logic or manual monitoring, enabling data engineering teams to build event-driven automation around their workflow executions.",
+      "category": "SERVERLESS",
+      "timestamp": "2026-06-11T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mwaa-serverless-eventbridge/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "05330631898dada2f015322c2b2f515f0c619b8b",
+      "title": "Amazon Managed Service for Prometheus now supports Native Histograms",
+      "summary": "Amazon Managed Service for Prometheus has added support for Prometheus native histograms, allowing customers to ingest, store, and query high-resolution metric distributions with improved precision and reduced cardinality compared to traditional histograms. This enhancement enables DevOps and site reliability engineers to obtain more accurate percentile calculations for metrics like latency and request durations without needing to predefine bucket boundaries or handle high-cardinality data management.",
+      "category": "OTHER",
+      "timestamp": "2026-06-11T13:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-managed-service-prometheus-native-histograms/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "168e28187659fccc0a05c2abb9df0989534a96ae",
+      "title": "Amazon Managed Service for Prometheus now supports out of order sample ingestion",
+      "summary": "Amazon Managed Service for Prometheus now supports out-of-order sample ingestion, allowing workspaces to accept metric samples that don't arrive in strict chronological order within a configurable time window (default 1 minute). The service also introduces a workspace-level rule query offset feature that adds a delay before rule execution. Users can adjust the out-of-order time window to match their ingestion patterns or disable it entirely by setting it to 0.",
+      "category": "OTHER",
+      "timestamp": "2026-06-11T13:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-managed-service-prometheus-outoforder-ingestion/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d46d7f4142f50b352e7bb98af887778fd8572d08",
+      "title": "AWS announces AWS Workload Credentials Provider",
+      "summary": "AWS has launched the AWS Workload Credentials Provider, a lightweight client-side tool that automatically deploys exported certificates from AWS Certificate Manager (ACM) and caches secrets from AWS Secrets Manager for both AWS and non-AWS workloads. This new service eliminates the need for customers to build custom automation using Amazon EventBridge to detect certificate renewals and deploy updates. The provider streamlines credential management as certificate lifetimes continue to decrease industry-wide.",
+      "category": "SECURITY",
+      "timestamp": "2026-06-11T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-workload-credentials-provider/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "33bbf8bf6395887d1df70f3d4eada8150bfbb1f8",
       "title": "  OpenAI GPT-5.4 and GPT-5.5 models now available in US East (N. Virginia) on Amazon Bedrock",
       "summary": "AWS has announced that OpenAI's GPT-5.4 and GPT-5.5 models are now available in the US East (N. Virginia) region through Amazon Bedrock. These models enable developers to build generative AI applications for various use cases including reasoning, coding, computer use, document workflows, and long-running agentic tasks. GPT-5.5 is positioned as OpenAI's most capable model, particularly designed for advanced coding, research, analysis, and software operation tasks.",
@@ -5439,113 +5509,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-forward-email-contacts/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "f8e33d427fda7f8683c48237e8f194f446476503",
-      "title": "Amazon Bedrock AgentCore Runtime now supports the AG-UI protocol",
-      "summary": "Amazon Bedrock AgentCore Runtime now supports the Agent-User Interaction (AG-UI) protocol, an open, event-based standard for AI agent communication. This enables developers to deploy AG-UI servers that provide real-time, responsive agent experiences while AgentCore Runtime manages authentication, session isolation, and scaling automatically. The integration allows developers to focus on building interactive frontends rather than handling infrastructure concerns.",
-      "category": "AI_ML",
-      "timestamp": "2026-03-13T21:51:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-agentcore-runtime-ag-ui-protocol/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "2b2c2bc54e583fa0ef631ff0ee39c426c2c3497f",
-      "title": "Amazon CloudWatch Application Signals adds new SLO capabilities",
-      "summary": "Amazon CloudWatch Application Signals has introduced three new Service Level Objective (SLO) capabilities: SLO Recommendations, Service-Level SLOs, and SLO Performance Report. These console-based features help customers monitor and improve application performance across AWS services like EC2, ECS, and Lambda by automatically collecting application data. The new capabilities address the previous challenge where customers had to manually set SLO thresholds without data-driven guidance.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-03-13T20:52:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/cloudwatch-application-signals-adds-slo-capabilities/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "bd0563450053a77ece7fc087f937848f655045ea",
-      "title": "Accelerate serverless application development with new SAM Kiro power ",
-      "summary": "AWS has announced the SAM Kiro power, which integrates AWS Serverless Application Model (SAM) capabilities with AI agent-assisted development in the Kiro platform. This new tool allows developers to build, deploy, and manage serverless applications directly in their local environment with AI assistance. The SAM Kiro power dynamically provides relevant guidance and development expertise to AI agents for building serverless applications more efficiently.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-13T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-sam-kiro-power/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "99edc11d4b71201ba1b81811e51b2d6efd27dda7",
-      "title": "Amazon EC2 R8a instances are now available in Asia Pacific (Tokyo) Region",
-      "summary": "Amazon EC2 R8a instances are now available in the Asia Pacific (Tokyo) Region, featuring 5th Gen AMD EPYC processors with up to 4.5 GHz frequency. These instances deliver up to 30% higher performance and 19% better price-performance compared to R7a instances, along with 45% more memory bandwidth, making them ideal for latency-sensitive workloads.",
-      "category": "COMPUTE",
-      "timestamp": "2026-03-13T17:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-r8a-instances-tokyo/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "771ee05b50752626a59f9ffbdf3752d03ced562a",
-      "title": "Amazon EC2 M8azn instances are now available in US East (Ohio) Region",
-      "summary": "Amazon EC2 M8azn instances are now available in the US East (Ohio) Region, featuring fifth-generation AMD EPYC processors with the highest maximum CPU frequency of 5GHz available in the cloud. These general-purpose instances deliver up to 2x compute performance compared to M5zn instances and 24% higher performance than M8a instances, while also providing significantly higher memory bandwidth.",
-      "category": "COMPUTE",
-      "timestamp": "2026-03-13T17:15:46.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-m8azn-instances-ohio/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "0c6ec86598da8155c5d9e27f7b8eb875f372899a",
-      "title": "Amazon MSK announces support for Standard brokers Graviton-3 instance in Africa (Cape Town) region",
-      "summary": "Amazon MSK now supports Standard brokers using AWS Graviton3-based M7g instances in the Africa (Cape Town) region. These M7g instances provide up to 24% compute cost savings and up to 29% higher read/write throughput compared to M5 instances. Users can create new clusters with M7g brokers or upgrade existing M5 clusters through the Amazon MSK console.",
-      "category": "COMPUTE",
-      "timestamp": "2026-03-13T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-msk-standardm7g-cpt-region/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "a5af426a6f8629e177ab7f938b6dc6d6a13b931e",
-      "title": "AWS Network Firewall Launch in the AWS European Sovereign Cloud ",
-      "summary": "AWS Network Firewall is now available in the AWS European Sovereign Cloud, enabling European customers in highly regulated industries and government agencies to protect sensitive workloads while maintaining compliance with EU data protection regulations. This launch specifically targets organizations with strict data sovereignty requirements who need advanced network security capabilities within Europe's regulatory framework.",
-      "category": "OTHER",
-      "timestamp": "2026-03-13T16:15:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/network-firewall-european-sovereign-cloud-region/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4ddbb235ae5716d331b81648708d92a379731b92",
-      "title": "Amazon EC2 Hpc8a instances are now available in Asia Pacific (Tokyo) and AWS GovCloud (US-West)",
-      "summary": "Amazon EC2 Hpc8a instances are now available in the Asia Pacific (Tokyo) and AWS GovCloud (US-West) regions. These new instances are powered by 5th generation AMD EPYC processors with up to 4.5GHz frequency, delivering up to 40% higher performance and 25% better price performance compared to the previous Hpc7a instances. The Hpc8a instances are designed to accelerate compute-intensive workloads while helping customers optimize costs.",
-      "category": "COMPUTE",
-      "timestamp": "2026-03-13T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-hpc8a-additional-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "7d3c81e2963f494af5f6d91edfa02545a56606ac",
-      "title": "AWS Lambda Managed Instances now supports Rust",
-      "summary": "AWS Lambda Managed Instances now supports Rust, allowing developers to run high-performance Rust functions on Lambda-managed EC2 instances while retaining Lambda's operational simplicity. This enables performance-critical applications to run without the complexity of server management. Lambda Managed Instances provides access to specialized compute configurations with latest-generation processors and high-bandwidth networking.",
-      "category": "SERVERLESS",
-      "timestamp": "2026-03-13T14:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-lambda-managed-instances-rust/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 553,
+    "total": 551,
     "byCategory": {
-      "AI_ML": 116,
-      "ANALYTICS": 17,
-      "SECURITY": 118,
-      "COMPUTE": 61,
-      "OTHER": 119,
-      "STORAGE": 21,
       "CONTAINERS": 25,
-      "DATABASE": 53,
+      "SECURITY": 119,
+      "OTHER": 121,
       "SERVERLESS": 15,
+      "AI_ML": 115,
+      "ANALYTICS": 17,
+      "COMPUTE": 57,
+      "STORAGE": 21,
+      "DATABASE": 53,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-06-11T13:59:51.032Z"
+    "lastUpdated": "2026-06-11T23:22:14.493Z"
   },
-  "generatedAt": "2026-06-11T13:59:51.033Z"
+  "generatedAt": "2026-06-11T23:22:14.493Z"
 }
