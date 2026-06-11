@@ -1,6 +1,26 @@
 {
   "announcements": [
     {
+      "id": "33bbf8bf6395887d1df70f3d4eada8150bfbb1f8",
+      "title": "  OpenAI GPT-5.4 and GPT-5.5 models now available in US East (N. Virginia) on Amazon Bedrock",
+      "summary": "AWS has announced that OpenAI's GPT-5.4 and GPT-5.5 models are now available in the US East (N. Virginia) region through Amazon Bedrock. These models enable developers to build generative AI applications for various use cases including reasoning, coding, computer use, document workflows, and long-running agentic tasks. GPT-5.5 is positioned as OpenAI's most capable model, particularly designed for advanced coding, research, analysis, and software operation tasks.",
+      "category": "AI_ML",
+      "timestamp": "2026-06-11T00:12:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/openai-gpt-us-east-virginia-amazon/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4b7ea90057c8f89e1a4ba4eb39ce7abdb06254f9",
+      "title": "Amazon OpenSearch Service launches MCP Apps for agentic observability",
+      "summary": "Amazon OpenSearch Service has launched MCP Apps that enable AI agents in local IDEs like Claude Desktop and VS Code to directly access and investigate observability data including logs, traces, metrics, and alerts from OpenSearch domains and Amazon Managed Service for Prometheus. This integration allows developers to perform incident investigation and review results through interactive visualizations without leaving their local development environment.",
+      "category": "ANALYTICS",
+      "timestamp": "2026-06-10T22:58:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/opensearch-agentic-observability-mcp-app",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "e48876eb847b007296f3f6b48a716dacb3e95df7",
       "title": " Amazon ECS Managed Daemons now support inter-task visibility and communication",
       "summary": "Amazon ECS Managed Daemons now support inter-task visibility and communication through two new configuration settings: pidMode (for process visibility) and ipcMode (for shared IPC namespace access). This enhancement enables customers to deploy monitoring, tracing, profiling, and security agents that need to access application processes and shared resources on ECS Managed Instances.",
@@ -5512,20 +5532,20 @@
     }
   ],
   "stats": {
-    "total": 551,
+    "total": 553,
     "byCategory": {
+      "AI_ML": 116,
+      "ANALYTICS": 17,
       "SECURITY": 118,
       "COMPUTE": 61,
       "OTHER": 119,
       "STORAGE": 21,
-      "AI_ML": 115,
       "CONTAINERS": 25,
-      "ANALYTICS": 16,
       "DATABASE": 53,
       "SERVERLESS": 15,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-06-10T23:25:39.551Z"
+    "lastUpdated": "2026-06-11T13:59:51.032Z"
   },
-  "generatedAt": "2026-06-10T23:25:39.551Z"
+  "generatedAt": "2026-06-11T13:59:51.033Z"
 }
