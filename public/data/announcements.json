@@ -1,6 +1,76 @@
 {
   "announcements": [
     {
+      "id": "6108a3e54e9171ad9db8395520cc9587140daebb",
+      "title": "Amazon Lightsail is now available in three additional AWS Regions",
+      "summary": "Amazon Lightsail has expanded to three new AWS Regions: Asia Pacific (Hong Kong), South America (São Paulo), and Europe (Spain). This expansion allows customers in these regions to benefit from lower latency, improved performance, and compliance with local data residency requirements.",
+      "category": "CONTAINERS",
+      "timestamp": "2026-06-12T20:43:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-lightsail-aws-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "66d8d028d7b981563e570fee4cff163145eca6e5",
+      "title": "SageMaker AI now supports serverless fine-tuning for NVIDIA Nemotron models",
+      "summary": "Amazon SageMaker AI now offers serverless fine-tuning capabilities for NVIDIA's Nemotron 3 Nano model, a 30 billion parameter open-weight foundation model. Users can customize this model using supervised fine-tuning (SFT) and reinforcement fine-tuning (RFT) with their proprietary data to improve performance for domain-specific use cases and workflows.",
+      "category": "AI_ML",
+      "timestamp": "2026-06-12T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-ft-nemotron-3/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d889aa465890b64983b2b8ae2c197ba4597d9a61",
+      "title": "Amazon EC2 I7i instances now available in AWS Europe (Paris) Region",
+      "summary": "AWS has launched Amazon EC2 I7i instances in the Europe (Paris) region, featuring 5th Gen Intel Xeon Processors with 3.2 GHz all-core turbo frequency. These storage-optimized instances deliver up to 23% better compute performance and 10% better price performance compared to previous I4i instances, while offering up to 45TB of NVMe storage with up to 50% better real-time storage performance through 3rd generation AWS Nitro SSDs.",
+      "category": "COMPUTE",
+      "timestamp": "2026-06-12T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-i7i-instances-europe-paris-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b05608f1cb628397e7886592faca0b22ed59eb04",
+      "title": "Amazon EC2 Capacity Blocks for ML is now available in AWS GovCloud (US) Regions",
+      "summary": "Amazon EC2 Capacity Blocks for ML is now available in AWS GovCloud (US-West) and (US-East) regions, allowing government and regulated-industry customers to reserve GPU capacity for machine learning workloads. This service enables users to reserve GPU instances in advance for a defined duration, ensuring guaranteed access to accelerated compute for tasks like pre-training, fine-tuning, prototyping, and handling inference demand spikes.",
+      "category": "AI_ML",
+      "timestamp": "2026-06-12T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-capacity-blocks-ml-govcloud/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "83df7e30e7d5572575943d9b152e37e05d658e36",
+      "title": "Amazon EC2 High Memory U7i-8TB instances now available in AWS Europe (Paris) region",
+      "summary": "Amazon EC2 High Memory U7i-8TB instances are now available in the AWS Europe (Paris) region, featuring 8 TiB of DDR5 memory and custom fourth-generation Intel Xeon Scalable processors. These 7th generation instances offer up to 45% better price performance compared to existing U-1 instances and are designed to enhance transaction processing throughput in rapidly growing data environments.",
+      "category": "COMPUTE",
+      "timestamp": "2026-06-11T23:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-u7i-8tb-europe-paris/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1d9abeb0033b4107be3b97f24d3b9a701bbf513c",
+      "title": "Amazon Quick now integrates with Snowflake Cortex AI",
+      "summary": "Amazon Quick now integrates with Snowflake Cortex AI through the Model Context Protocol (MCP), allowing teams to query both structured Snowflake data and unstructured documents using natural language directly within their Quick workspace. The integration enables automated multi-step workflows and uses OAuth authentication through Snowflake's managed MCP server. Users can leverage Cortex Analyst for structured data queries and Cortex Search for document insights.",
+      "category": "OTHER",
+      "timestamp": "2026-06-11T22:02:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick-snowflake-cortex-ai/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b32489c79bb3408013f5ed90c8caeb227d876759",
+      "title": "Amazon EKS now supports local clusters on AWS Outposts with Amazon EC2 instance store",
+      "summary": "Amazon EKS local clusters are now supported on AWS Outposts racks (first and second-generation) that run EC2 instances booting from EC2 instance store. This expansion provides static stability for EC2 instance store-backed instances and allows the entire Kubernetes control plane to run locally on AWS Outposts infrastructure.",
+      "category": "CONTAINERS",
+      "timestamp": "2026-06-11T20:52:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-aws-outposts-ec2-instance-store/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "bfe1f6aaeab64155f93c7d8e15093cd2723b9867",
       "title": "Amazon CloudWatch Application Signals now supports infrastructure, logs, and traces context for faster troubleshooting",
       "summary": "Amazon CloudWatch Application Signals has added service health ranking on application maps and new infrastructure, logs, and traces tabs on service overview pages. These enhancements allow operators to triage unhealthy services and investigate underlying compute environments, log data, and trace details from a single location, streamlining root cause analysis without needing to switch between multiple tools.",
@@ -5512,20 +5582,20 @@
     }
   ],
   "stats": {
-    "total": 551,
+    "total": 558,
     "byCategory": {
-      "CONTAINERS": 25,
+      "CONTAINERS": 27,
+      "AI_ML": 117,
+      "COMPUTE": 59,
+      "OTHER": 122,
       "SECURITY": 119,
-      "OTHER": 121,
       "SERVERLESS": 15,
-      "AI_ML": 115,
       "ANALYTICS": 17,
-      "COMPUTE": 57,
       "STORAGE": 21,
       "DATABASE": 53,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-06-12T12:54:06.752Z"
+    "lastUpdated": "2026-06-12T23:17:30.662Z"
   },
-  "generatedAt": "2026-06-12T12:54:06.752Z"
+  "generatedAt": "2026-06-12T23:17:30.662Z"
 }
