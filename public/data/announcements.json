@@ -5509,93 +5509,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/cloudwatch-org-enablement-ec2-metrics/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "1faefdf74c11e8492faa49da16e009a2c42da39d",
-      "title": "Amazon CloudWatch Logs now supports log ingestion using HTTP-based protocol",
-      "summary": "Amazon CloudWatch Logs now supports HTTP-based log ingestion through multiple protocols including HTTP Log Collector (HLC), ND-JSON, Structured JSON, and OpenTelemetry (OTEL) with bearer token authentication. This enhancement enables customers to send logs from third-party or packaged software where AWS SDK integration isn't possible, providing greater flexibility for diverse logging environments.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-16T22:04:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/cloudwatch-http-log-collector/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4e148cee537d14864ce40b0801378738daf9fd4b",
-      "title": "SageMaker HyperPod now supports idle resource sharing for dynamic cluster utilization",
-      "summary": "Amazon SageMaker HyperPod has introduced dynamic resource sharing that allows teams to borrow unused compute capacity from shared clusters beyond their guaranteed quotas. Administrators can set borrowing limits for specific resources like accelerators, vCPU, or memory to ensure fair distribution across teams. This feature addresses underutilization challenges commonly faced in shared compute clusters for generative AI workloads.",
-      "category": "AI_ML",
-      "timestamp": "2026-03-16T19:38:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/sagemaker-hyperpod-idle-resource-sharing/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "941f434ed05de55963a694379489ccbe7fb71c9a",
-      "title": "Amazon Neptune now supports reading S3 data using openCyper",
-      "summary": "Amazon Neptune now supports reading data directly from Amazon S3 within openCypher queries through the new `neptune.read()` procedure. This feature allows customers to federate with external S3 data without needing to load it into Neptune first, eliminating traditional multi-step workflow requirements. Organizations can now perform real-time graph analytics by dynamically combining S3-stored data with their existing Neptune graphs.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-16T19:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/neptune-read-s3-opencypher/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "40c2d36f36115d9f53dcc62d5e12a3906803e19c",
-      "title": "Amazon Timestream for InfluxDB 3 Now Supports Expanded Multi-Node Cluster Configurations",
-      "summary": "Amazon Timestream for InfluxDB 3 Enterprise edition now supports expanded multi-node cluster configurations with up to 15 total nodes, including 1-4 writer/reader nodes and up to 13 dedicated reader-only nodes. This enhancement enables organizations to scale their time-series databases for demanding production workloads that require high read throughput and high availability.",
-      "category": "DATABASE",
-      "timestamp": "2026-03-16T18:20:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-timestream-for-influxdb-3-multi-node-cluster/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4b61259ed0f160dbfdd58a5d8589966b51f6ff5e",
-      "title": "Announcing AWS Partner Central agents to accelerate co-sell",
-      "summary": "AWS has announced the general availability of AWS Partner Central agents, AI-powered capabilities built on Amazon Bedrock AgentCore that help accelerate co-selling between AWS and its partners. These agents work alongside partner sales teams to shorten sales cycles and simplify funding access. Partners can access these capabilities through the AWS console or programmatically via Model Context Protocol (MCP) to integrate them into their existing systems.",
-      "category": "AI_ML",
-      "timestamp": "2026-03-16T17:04:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-partner-central-agents-accelerate-co-sell/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "e87d6b725045b3375c2faa01fe481f10b73aafcc",
-      "title": "Amazon SimpleDB now supports exporting domain data to Amazon S3",
-      "summary": "Amazon SimpleDB now supports direct export of domain data to Amazon S3 buckets in JSON format, with exports running in the background without affecting database performance. The export tool includes cross-region and cross-account capabilities, multiple encryption options, and flexible S3 configuration to support data migration, archival, and compliance requirements.",
-      "category": "STORAGE",
-      "timestamp": "2026-03-16T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-simpledb-domain-export-to-amazon-s3/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "a9c0f848c7a01fe8a6fab6b10847cc257d897daf",
-      "title": "Amazon Connect now enables agents to forward email contacts to external email addresses",
-      "summary": "Amazon Connect now allows agents to forward email contacts to external email addresses and distribution lists directly from their workspace while maintaining ownership and full communication history of the original contact. This feature enables agents to easily involve back-office teams, experts, and partners in customer communications while serving as the primary point of contact for customers.",
-      "category": "OTHER",
-      "timestamp": "2026-03-16T15:45:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-forward-email-contacts/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 558,
+    "total": 551,
     "byCategory": {
       "CONTAINERS": 27,
-      "AI_ML": 117,
+      "AI_ML": 115,
       "COMPUTE": 59,
-      "OTHER": 122,
-      "SECURITY": 119,
+      "OTHER": 121,
+      "SECURITY": 117,
       "SERVERLESS": 15,
       "ANALYTICS": 17,
-      "STORAGE": 21,
-      "DATABASE": 53,
+      "STORAGE": 20,
+      "DATABASE": 52,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-06-14T11:58:08.740Z"
+    "lastUpdated": "2026-06-14T23:09:48.366Z"
   },
-  "generatedAt": "2026-06-14T11:58:08.740Z"
+  "generatedAt": "2026-06-14T23:09:48.366Z"
 }
