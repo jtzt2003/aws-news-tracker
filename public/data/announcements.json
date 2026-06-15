@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "743c6e523b255b3e49a9019f6d85a4bdd8ee3b4d",
+      "title": "Amazon Bedrock AgentCore Memory now supports strictly consistent metadata for long-term memory ",
+      "summary": "Amazon Bedrock AgentCore Memory extracts useful information from short-term memory and stores it as long-term memory records. Metadata on these records helps organize, filter, and route them for retri...",
+      "category": "AI_ML",
+      "timestamp": "2026-06-15T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentcore-memory-scmetadata",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3f501ff25bbd83de9b12c83d1911aa30c7dc1821",
+      "title": "Amazon FSx for OpenZFS now supports on-demand data replication across AWS opt-in Regions ",
+      "summary": "Amazon FSx for OpenZFS now supports on-demand data replication across AWS opt-in Regions, enabling you to easily and efficiently transfer incremental point-in-time snapshots of your volumes beyond AWS...",
+      "category": "STORAGE",
+      "timestamp": "2026-06-15T18:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/on-demand-cross-region-replication/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4ba24a992194577c6b84fb1122a8956f79ccddca",
+      "title": "Amazon CloudWatch introduces Log Analytics for unified log analysis",
+      "summary": "Amazon CloudWatch now offers Log Analytics, a unified console experience that brings together CloudWatch Logs Insights for querying and analyzing log data, Live Tail for real-time log streaming, and C...",
+      "category": "OTHER",
+      "timestamp": "2026-06-15T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-log-analytics/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b1f9ee7aa2011db457d01d0da5244c54d14f269f",
+      "title": "Amazon Route 53 Resolver DNS Firewall now supports Palo Alto Networks Advanced DNS Security (Preview)",
+      "summary": "Amazon Web Services announces the preview of Palo Alto Networks (PANW) Advanced DNS Security on Amazon Route 53 Resolver DNS Firewall. Security administrators can now enforce DNS threat protections fr...",
+      "category": "SECURITY",
+      "timestamp": "2026-06-15T17:06:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-route-53-resolver-dns/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a41b91de99af898c717526282acd409b9f87c58d",
+      "title": "Amazon ECS Express Mode is now available in AWS GovCloud (US) Regions",
+      "summary": "Amazon Elastic Container Service (Amazon ECS) Express Mode is now available in the AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. ECS Express Mode empowers developers to rapidly launch con...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-06-15T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-express-mode-govcloud/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "fd90220924f121697a0412b0b1cd5c3168fee8a6",
+      "title": "AWS launches Cost Explorer historical data retention for accounts in billing groups",
+      "summary": "Today, AWS announces Cost Explorer historical data retention for accounts in billing groups.  \n \nCustomers can use AWS Billing Conductor and Billing Transfer to map accounts to billing groups, enablin...",
+      "category": "OTHER",
+      "timestamp": "2026-06-15T16:07:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cost-explorer/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b0726f6bb9f5ec306c2e3f50f9aa2a1a787447cc",
+      "title": "AWS Lambda Managed Instances now supports Tag Propagation for Managed Resources",
+      "summary": "AWS Lambda Managed Instances (LMI) now supports tag propagation, enabling you to automatically apply tags to managed resources such as Amazon EC2 instances, Amazon EBS volumes, and Amazon ENIs. This h...",
+      "category": "SECURITY",
+      "timestamp": "2026-06-15T15:55:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-managed-instances-tag-propagation/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "fd61bf9b451c0ab0a7b7d1d0272bd9ffd5ae437a",
+      "title": "AWS DevOps Agent expands with custom SRE agents and MCP/A2A protocols",
+      "summary": "AWS DevOps Agent now supports custom SRE agents, bring-your-own sub-agents, and headless access via MCP and A2A protocols. These capabilities enable teams to automate recurring SRE workflows, extend D...",
+      "category": "AI_ML",
+      "timestamp": "2026-06-15T15:47:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-devops-agent-custom-agents/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "fe260734f66ff89f6793206b4146aede305a6142",
+      "title": "Amazon EC2 C7i instances are now available in the Israel (Tel Aviv) region",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C7i instances powered by custom 4th Gen Intel Xeon Scalable processors (code-named Sapphire Rapids) are available in the Israel (Tel Aviv) Reg...",
+      "category": "COMPUTE",
+      "timestamp": "2026-06-15T13:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c7i-instances-israel-tel-aviv-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b90288449d638d46082cbecbb8ef1ce4501650a0",
+      "title": "Amazon EC2 C8i instances are now available in Europe (Stockholm) region",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i instances are available in the Europe (Stockholm) region. These instances are powered by custom Intel Xeon 6 processors, available only on...",
+      "category": "COMPUTE",
+      "timestamp": "2026-06-15T13:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c8i-instances-europe-stockholm-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "6108a3e54e9171ad9db8395520cc9587140daebb",
       "title": "Amazon Lightsail is now available in three additional AWS Regions",
       "summary": "Amazon Lightsail has expanded to three new AWS Regions: Asia Pacific (Hong Kong), South America (São Paulo), and Europe (Spain). This expansion allows customers in these regions to benefit from lower latency, improved performance, and compliance with local data residency requirements.",
@@ -5399,83 +5499,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-london-europe-region/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "1fa30940fc19ec3ff1dde567731e44cf592e9a0a",
-      "title": "Amazon Connect voice AI agents now supports 13 new languages",
-      "summary": "Amazon Connect has expanded its voice AI agent language support by adding 13 new languages, bringing the total to 40 language locales. The new languages include Arabic, Czech, Danish, Dutch (Belgium), various English dialects, German (Switzerland), Icelandic, Romanian, Spanish (Mexico), Turkish, and Welsh. These AI agents can automate routine tasks and handle complex interactions across voice and digital channels using advanced reasoning capabilities.",
-      "category": "OTHER",
-      "timestamp": "2026-03-17T21:52:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-voice-ai-agents-13-languages/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "0fb8a9ba58bda25213f2ce859b917e662e7f900c",
-      "title": "Amazon SageMaker Unified Studio supports aggregated view of data lineage  ",
-      "summary": "Amazon SageMaker Unified Studio now offers an aggregated view of data lineage that displays all jobs contributing to datasets, providing a complete picture of data transformations and dependencies across the entire lineage graph. This enhancement allows users to quickly identify all upstream sources and downstream consumers of their datasets. Previously, the platform only showed lineage graphs at specific points in time, making this aggregated view a significant improvement for understanding data flow comprehensively.",
-      "category": "AI_ML",
-      "timestamp": "2026-03-17T21:10:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sageMaker-unified-studio-aggregated-view -data-lineage/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "04f216e800f72444ad0e728b177c0715702e2698",
-      "title": "SageMaker Training Plans now enables extending of existing capacity commitments without workload reconfiguration",
-      "summary": "Amazon SageMaker Training Plans now allows users to extend their existing GPU capacity reservations when AI workloads run longer than expected, preventing interruptions to training jobs. Users can extend plans in 1-day increments (up to 14 days) or 7-day increments (up to 182 days/26 weeks) through the API or SageMaker console. This feature eliminates the need to reconfigure workloads when additional training time is required for reserved capacity clusters of up to 64 instances.",
-      "category": "AI_ML",
-      "timestamp": "2026-03-17T18:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-training-plan-extension/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "7359a9662acefdfac4a433c8527b0109cff0ced1",
-      "title": "AWS Blu Insights is now AWS Transform for mainframe refactor",
-      "summary": "AWS has rebranded and integrated AWS Blu Insights into AWS Transform, creating a unified platform that supports all three mainframe modernization approaches: refactor, replatform, and reimagine. The service now offers code transformation at no cost, eliminating the previous pricing model based on lines of code. Customers can now launch and manage mainframe refactoring projects directly through the AWS Transform console.",
-      "category": "OTHER",
-      "timestamp": "2026-03-17T18:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-transform-mainframe-refactor/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b135303db45f1a2f35709e1574acd17548fc2cca",
-      "title": "Amazon MSK expands Express brokers to Africa (Cape Town) and Asia Pacific (Taipei) regions",
-      "summary": "Amazon MSK has expanded Express brokers availability to two new regions: Africa (Cape Town) and Asia Pacific (Taipei). Express brokers are a new broker type that delivers up to 3x more throughput per broker, scales up to 20x faster, and reduces recovery time by 90% compared to standard Apache Kafka brokers. These brokers come pre-configured with Kafka best practices and support all Kafka APIs.",
-      "category": "ANALYTICS",
-      "timestamp": "2026-03-17T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-msk-express-2-new-aws-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "5efd2318d2da346db1b2b8a9ee750ce36b65a725",
-      "title": "Amazon Bedrock AgentCore Runtime now supports shell command execution",
-      "summary": "Amazon Bedrock AgentCore Runtime has introduced a new InvokeAgentRuntimeCommand API that enables direct execution of shell commands within running AgentCore Runtime sessions. The feature allows developers to send commands, stream real-time output over HTTP/2, and receive exit codes without needing custom command execution logic in their containers. This enhancement is particularly useful for AI agents that need to perform deterministic operations like running tests, installing dependencies, or executing git commands.",
-      "category": "AI_ML",
-      "timestamp": "2026-03-17T16:34:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/bedrock-agentcore-runtime-shell-command/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 546,
+    "total": 550,
     "byCategory": {
-      "CONTAINERS": 27,
-      "AI_ML": 115,
-      "COMPUTE": 58,
+      "AI_ML": 114,
+      "STORAGE": 21,
       "OTHER": 120,
-      "SECURITY": 115,
+      "SECURITY": 117,
+      "CONTAINERS": 28,
+      "COMPUTE": 60,
       "SERVERLESS": 15,
-      "ANALYTICS": 17,
-      "STORAGE": 20,
+      "ANALYTICS": 16,
       "DATABASE": 51,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-06-15T15:46:24.258Z"
+    "lastUpdated": "2026-06-15T23:45:14.176Z"
   },
-  "generatedAt": "2026-06-15T15:46:24.258Z"
+  "generatedAt": "2026-06-15T23:45:14.177Z"
 }
