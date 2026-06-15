@@ -5459,73 +5459,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/bedrock-agentcore-runtime-shell-command/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "c702f46881cfc10051db6ee2ee717da6c1e54837",
-      "title": "Amazon Corretto 26 is now generally available",
-      "summary": "Amazon Corretto 26, a free production-ready OpenJDK distribution, is now generally available for download on Linux, Windows, and macOS with support through October 2026. This Feature Release includes HTTP/3 protocol support for faster and more efficient networking in Java applications, along with ahead-of-time object caching capabilities.",
-      "category": "OTHER",
-      "timestamp": "2026-03-17T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-corretto-26-generally-available/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "1d228aaff512101212b003dcfdc6bc6a458657a6",
-      "title": "Amazon RDS enhancements for SQL Server Developer Edition",
-      "summary": "Amazon RDS for SQL Server Developer Edition now supports Additional Storage Volumes, Resource Governor, and SQL Server 2019. SQL Server Developer Edition provides all Enterprise edition functionality without license charges, making it ideal for development and testing environments. This enhancement expands storage and resource management capabilities for non-production SQL Server workloads on AWS.",
-      "category": "DATABASE",
-      "timestamp": "2026-03-17T07:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-rds-enhancements-for-sql-server-developer-edition/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "268191a5eb37566bfef70cf2a76bc8206c8c1049",
-      "title": "Simplified permissions for Amazon S3 Tables and Iceberg materialized views",
-      "summary": "AWS Glue Data Catalog now supports IAM-based authorization for Amazon S3 Tables and Apache Iceberg materialized views, allowing you to define all necessary permissions across storage, catalog, and query engines in a single IAM policy. This simplifies integration with AWS Analytics services like Amazon Athena, Amazon EMR, Amazon Redshift, and AWS Glue, while maintaining the option to upgrade to AWS Lake Formation when needed.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-17T04:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/gdc-simplified-permissions-s3tables-iceberg-views/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d740bddf18f1a822c61a8fadd443459cfd337302",
-      "title": "Amazon Bedrock is now available in Asia Pacific (New Zealand)",
-      "summary": "Amazon Bedrock, AWS's fully managed generative AI service, is now available in the Asia Pacific (New Zealand) region. The service allows customers to easily build and scale AI applications using foundation models from leading companies including AI21 Labs, Anthropic, Cohere, Meta, Mistral AI, OpenAI, Stability AI, and Amazon. This regional expansion gives New Zealand-based customers local access to high-performing large language models and AI development tools.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-17T01:35:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-asia-pacific-new-zealand/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f676dc412ffdfbe47d0dc330ea2fbbff00b73a0f",
-      "title": "Amazon CloudWatch introduces organization-wide EC2 detailed monitoring enablement",
-      "summary": "Amazon CloudWatch now enables customers to automatically activate EC2 detailed monitoring across their entire AWS Organization through new enablement rules in CloudWatch Ingestion. These rules can automatically enable 1-minute interval metrics collection for both existing and newly launched EC2 instances that match the specified criteria. This feature ensures consistent and comprehensive monitoring coverage across all EC2 instances within an organization without manual configuration.",
-      "category": "COMPUTE",
-      "timestamp": "2026-03-16T23:10:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/cloudwatch-org-enablement-ec2-metrics/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 551,
+    "total": 546,
     "byCategory": {
       "CONTAINERS": 27,
       "AI_ML": 115,
-      "COMPUTE": 59,
-      "OTHER": 121,
-      "SECURITY": 117,
+      "COMPUTE": 58,
+      "OTHER": 120,
+      "SECURITY": 115,
       "SERVERLESS": 15,
       "ANALYTICS": 17,
       "STORAGE": 20,
-      "DATABASE": 52,
+      "DATABASE": 51,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-06-14T23:09:48.366Z"
+    "lastUpdated": "2026-06-15T15:46:24.258Z"
   },
-  "generatedAt": "2026-06-14T23:09:48.366Z"
+  "generatedAt": "2026-06-15T15:46:24.258Z"
 }
