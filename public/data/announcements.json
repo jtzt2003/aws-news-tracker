@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "60b16487435878deb66abe064b76ac6752d1004b",
+      "title": "AWS Partner Central agents now accelerate co-selling on every deal",
+      "summary": "Starting today, AWS Partner Central agents qualify every co-sell opportunity in real time and make recommendations that drive AWS engagement and accelerate deal progression. Building on the AWS Partne...",
+      "category": "OTHER",
+      "timestamp": "2026-06-16T13:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/accelerate-co-selling-with-agents/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7a3960ee86e2ea86da36667bf2b563059b24b749",
+      "title": "Amazon CloudWatch introduces native OpenTelemetry metrics with PromQL querying and per-GB pricing",
+      "summary": "Amazon CloudWatch now natively supports OpenTelemetry metrics. You can send metrics via the OpenTelemetry Protocol (OTLP) and query them using Prometheus Query Language (PromQL), with per-GB ingestion...",
+      "category": "OTHER",
+      "timestamp": "2026-06-16T12:44:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-otel-metrics/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "704ae1f1c19d8b1d5db0aec9c5d261c8fa1e3a89",
+      "title": "AWS Marketplace announces AI-assisted product listing ",
+      "summary": "Today, AWS Marketplace announces AI-assisted product listing in Partner Assistant chat, helping Independent Software Vendors (ISVs) and Consulting Partners create high-quality product listings on AWS ...",
+      "category": "OTHER",
+      "timestamp": "2026-06-16T12:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ai-assisted-product-listing/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d670ef531eeb5a75d403a8ba619d4508a5a72de4",
+      "title": "AWS Partner Central launches new funding benefits for Business Value Realization",
+      "summary": "AWS Partner Central now supports the Business Value Realization (BVR) motion, a new experience and funding motion for partners who drive customer adoption and business outcomes after deploying strateg...",
+      "category": "OTHER",
+      "timestamp": "2026-06-16T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partner-business-value-realization/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f8a602ec973699ea758b8e304125f4311849330a",
+      "title": "AWS Marketplace reduces listing fee for professional services to 0.5%",
+      "summary": "AWS Marketplace now offers a 0.5% listing fee for professional services private offers, reduced from 2.5%. This makes it more cost-effective for consulting partners, systems integrators, managed servi...",
+      "category": "OTHER",
+      "timestamp": "2026-06-16T05:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/reduce-listing-fee-professional-services-aws-marketplace",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "148f4e0fc139ff2d3c8c4ea7b3d12a7edbf6b321",
+      "title": "AWS Partners can now accelerate co-sell deals with express private offers",
+      "summary": "AWS Partners co-selling with AWS can now use express private offers to automate pricing within co-sell workflows. Partners configure their pricing rules, discount boundaries, and eligible products onc...",
+      "category": "OTHER",
+      "timestamp": "2026-06-16T05:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partners-express-private-offers",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "fda4693b2f8b2e01985332e587f200e775bf47e3",
+      "title": "AWS announces Amazon Connect Customer Services Competency",
+      "summary": "AWS announces the Amazon Connect Customer Competency, a new AWS Specialization that helps customers identify Services Partners with proven expertise in transforming enterprise-wide customer experience...",
+      "category": "OTHER",
+      "timestamp": "2026-06-16T04:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-announces-amazon-connect-customer-services-competency",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8a3fc5c09964ca8b7698626c6abb644069b62132",
+      "title": "AWS Marketplace Storefront is now generally available",
+      "summary": "AWS Marketplace Storefront is now generally available, enabling AWS Partners to create and deploy their own branded catalog of solutions and services on their website or application in hours. Channel ...",
+      "category": "OTHER",
+      "timestamp": "2026-06-16T04:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-marketplace-storefront/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a91905dde5a6c8433909db2de912cdca9e6ecbee",
+      "title": "AWS Partner Central agents now guide new partners from registration to ready-to-sell",
+      "summary": "Today, AWS announces the general availability of onboarding capabilities for AWS Partner Central agents. The agent acts as an always-available advisor that guides new partners through every step requi...",
+      "category": "OTHER",
+      "timestamp": "2026-06-16T04:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partner-central/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a1fcd4abb7c65ec5bb6a982825d20b6b8a974e58",
+      "title": "AWS Transform now supports Amazon FSx for NetApp ONTAP (Public Preview)",
+      "summary": "Today, AWS announced the public preview of a new storage migration capability for AWS Transform that enables customers to migrate block storage workloads from any on-premises or cloud source to Amazon...",
+      "category": "STORAGE",
+      "timestamp": "2026-06-16T04:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-vmware-fsx-for-ontap-preview",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "743c6e523b255b3e49a9019f6d85a4bdd8ee3b4d",
       "title": "Amazon Bedrock AgentCore Memory now supports strictly consistent metadata for long-term memory ",
       "summary": "Amazon Bedrock AgentCore Memory extracts useful information from short-term memory and stores it as long-term memory records. Metadata on these records helps organize, filter, and route them for retri...",
@@ -5459,63 +5559,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-inspector-agentless-ec2-scanning-windows/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "989939c45220825486a66460d28f0c82d0451c60",
-      "title": "AWS Config launches 75 new managed rules",
-      "summary": "AWS Config has launched 75 new managed rules that help organizations govern security, durability, and operational use cases across their AWS environments. These rules can be easily searched, discovered, and enabled directly through AWS Config, and can be applied at both the account and organization level. The new rules extend governance capabilities to services like AWS Amplify, Amazon SageMaker, and Amazon Route 53.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-18T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-config-launches-new-rules/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "2dc0cee0d4229a53e045bfeeabec444e4d649280",
-      "title": "Amazon Redshift increases performance for new queries in dashboards and ETL workloads by up to 7x",
-      "summary": "Amazon Redshift has announced performance improvements that accelerate new queries by up to 7x, significantly enhancing response times for BI dashboards and ETL workloads. The enhancement specifically speeds up the SQL query preparation process, benefiting low-latency applications including near real-time analytics, BI dashboards, ETL pipelines, and AI agents. This improvement allows queries to start faster and return results more quickly for better overall performance.",
-      "category": "DATABASE",
-      "timestamp": "2026-03-18T13:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-redshift-increases-performance-for-new-queries/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b8eed77b72c94e42427c07c1b643324d2b0f5776",
-      "title": "Amazon OpenSearch Service now supports OpenSearch version 3.5",
-      "summary": "Amazon OpenSearch Service now supports OpenSearch version 3.5, which introduces enhanced agentic AI capabilities, improved search relevance tooling, and better observability features. The update includes agentic conversation memory that captures conversation context and tool reasoning in persistent storage, allowing AI agents to maintain coherent responses across multi-turn conversations.",
-      "category": "ANALYTICS",
-      "timestamp": "2026-03-18T03:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-opensearch-service-version-3-5/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c1e08799dfed87e2ef8b580aab6f798c95ae951f",
-      "title": "Amazon Connect expands agentic speech-to-speech voice experiences to the London (Europe) region and adds three new voices ",
-      "summary": "Amazon Connect has expanded its agentic speech-to-speech voice experiences to the London (Europe) region and added three new voices: Pedro (US Spanish), Amy (UK English), and Brian (UK English). These AI agents can understand, reason, and take action across voice and messaging channels to automate both routine and complex customer service tasks.",
-      "category": "OTHER",
-      "timestamp": "2026-03-18T00:42:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-london-europe-region/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 550,
+    "total": 556,
     "byCategory": {
+      "OTHER": 128,
+      "STORAGE": 22,
       "AI_ML": 114,
-      "STORAGE": 21,
-      "OTHER": 120,
-      "SECURITY": 117,
+      "SECURITY": 116,
       "CONTAINERS": 28,
       "COMPUTE": 60,
       "SERVERLESS": 15,
-      "ANALYTICS": 16,
-      "DATABASE": 51,
+      "ANALYTICS": 15,
+      "DATABASE": 50,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-06-15T23:45:14.176Z"
+    "lastUpdated": "2026-06-16T15:09:58.104Z"
   },
-  "generatedAt": "2026-06-15T23:45:14.177Z"
+  "generatedAt": "2026-06-16T15:09:58.105Z"
 }
