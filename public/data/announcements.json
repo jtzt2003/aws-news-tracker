@@ -1,6 +1,56 @@
 {
   "announcements": [
     {
+      "id": "8752f25733c056b00773dfc47c79f9ca7aa1ace8",
+      "title": "AWS Transform now supports model-to-model migration assessment for generative AI workloads",
+      "summary": "AWS Transform now offers a model-to-model migration custom transformation that assesses your generative AI workloads and produces a comprehensive migration plan for moving from third-party providers t...",
+      "category": "SECURITY",
+      "timestamp": "2026-06-16T21:55:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-model-to-model-assessments",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9e147bcffd58da8bb4396045e30ce5283c61f2b1",
+      "title": "AWS Transform for mainframe now delivers a traceable reimagine workflow",
+      "summary": "AWS Transform for mainframe now delivers a connected, traceable reimagine experience from assessment through code generation. Previously, modernizing mainframe applications required months of analysis...",
+      "category": "OTHER",
+      "timestamp": "2026-06-16T18:29:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-mainframe-traceable-reimagine-workflow/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "eb4bd07b510925c3490c8320d090f077c5cd2489",
+      "title": "AWS Sign-in now supports resource-based policies and resource control policies",
+      "summary": "AWS Sign-in now supports resource-based policies and resource control policies (RCPs) for the AWS Management Console. You can use these policies to restrict console sign-in to expected networks. Polic...",
+      "category": "OTHER",
+      "timestamp": "2026-06-16T16:20:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-sign-in/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "203310f0cca442a732ab780f2bc7c2d03bb50051",
+      "title": "Amazon Redshift RG instances powered by AWS Graviton now available in additional regions",
+      "summary": "Amazon Redshift is expanding the general availability of RG instances — powered by AWS Graviton processors — to three additional AWS Regions: Africa (Cape Town), Asia Pacific (Bangkok), and Mexico (Ce...",
+      "category": "DATABASE",
+      "timestamp": "2026-06-16T16:10:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-redshift-rg-instances-3-additional-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "24a7ca3e119ef46dba7932d6d32639f1bb06891b",
+      "title": "AWS announces AWS Blocks, an open-source framework for composing application backends on AWS (Preview)",
+      "summary": "Today, AWS announces the public preview of AWS Blocks, an open-source TypeScript framework for application developers who want backend capabilities on AWS removing the need to learn infrastructure too...",
+      "category": "OTHER",
+      "timestamp": "2026-06-16T15:49:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-blocks-preview",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "60b16487435878deb66abe064b76ac6752d1004b",
       "title": "AWS Partner Central agents now accelerate co-selling on every deal",
       "summary": "Starting today, AWS Partner Central agents qualify every co-sell opportunity in real time and make recommendations that drive AWS engagement and accelerate deal progression. Building on the AWS Partne...",
@@ -37,6 +87,16 @@
       "category": "OTHER",
       "timestamp": "2026-06-16T07:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partner-business-value-realization/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e12b832f8aee7b74f0b02021c64cb3edab63d919",
+      "title": "AWS Partner Central now validates Foundational Technical Review in minutes ",
+      "summary": "AWS Partner Central now accepts SOC 2 Type II audit reports or AWS Well-Architected Framework Reviews (WAFR) reports to complete Foundational Technical Review (FTR) in minutes. This streamlined proces...",
+      "category": "OTHER",
+      "timestamp": "2026-06-16T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partner-central-foundational-technical-review/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5479,103 +5539,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-rds-custom-sql-server-operating-system-updates/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "73ff045711690789d689b3e7f311693cff405d60",
-      "title": "Minimax M2.5 and GLM 5 models now available on Amazon Bedrock",
-      "summary": "Amazon Bedrock has added two new AI models to its platform: GLM 5 and Minimax M2.5. GLM 5 is a frontier-class large language model specifically designed for complex systems engineering and long-term agentic tasks, featuring capabilities in multi-step reasoning, mathematics, advanced coding, and tool-augmented workflows with long context support for enterprise applications.",
-      "category": "AI_ML",
-      "timestamp": "2026-03-18T21:07:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-minimax-glm/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "aaa58318ecba57cd6a40e1797979e583567fe7f5",
-      "title": "Amazon EC2 High Memory U7i-6TB instances now available in Asia Pacific (Malaysia)",
-      "summary": "Amazon EC2 High Memory U7i instances with 6TB of memory (u7i-6tb.112xlarge) are now available in the Asia Pacific (Malaysia) region. These 7th generation instances feature custom Intel Xeon Scalable Processors, 6TiB of DDR5 memory, 448 vCPUs, and up to 100 Gbps EBS bandwidth. They are designed to help customers scale transaction processing throughput in fast-growing data environments.",
-      "category": "COMPUTE",
-      "timestamp": "2026-03-18T19:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/ec2-high-memory-u7i-6tb-asia-pacific/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4caa55bd172f598825b0adb4c3b4956171eca5e6",
-      "title": "Amazon ECR now supports pull through cache for Chainguard",
-      "summary": "Amazon ECR now supports Chainguard as an upstream source for its pull through cache feature, allowing customers to automatically synchronize private Chainguard images with improved security and availability. This enhancement helps customers scale their use of Chainguard images while keeping them in sync with Chainguard's registry without additional manual effort.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-18T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ecr-pull-through-cache-chainguard/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b384eb50ec60652f8a96066b45fa0f89d666bc28",
-      "title": "NVIDIA Nemotron 3 Super now available on Amazon Bedrock ",
-      "summary": "Amazon Bedrock now offers NVIDIA Nemotron 3 Super, an open hybrid Mixture-of-Experts (MoE) model specifically designed for complex multi-agent AI applications. The model provides fast, cost-efficient inference while maintaining context and accuracy across long, multi-step tasks. Being fully open with accessible weights, datasets, and recipes, it enables easy customization and secure deployment for enterprises and startups.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-18T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-nemotron-3-super/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b763d50cee9a356cf4adffa6dd043a2e4a2cfaff",
-      "title": "Amazon S3 Access Grants are now available in the AWS Asia Pacific (New Zealand) Region",
-      "summary": "Amazon S3 Access Grants are now available in the AWS Asia Pacific (New Zealand) Region, allowing organizations to map corporate identities from directories like Microsoft Entra ID or AWS IAM to S3 datasets. This feature enables automated, scalable management of S3 data permissions by granting access based on users' corporate identities.",
-      "category": "STORAGE",
-      "timestamp": "2026-03-18T17:17:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-s3-access-grants-new-zealand/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "012af049b39c7cd40ec3cc121de3cc1c1979e5cf",
-      "title": "Amazon EC2 M6in and M6idn instances are now available in Europe (London) Region",
-      "summary": "Amazon EC2 M6in and M6idn instances are now available in the AWS London Region, offering sixth-generation network-optimized computing powered by 3rd Generation Intel Xeon Scalable processors. These instances deliver up to 200 Gbps network bandwidth, providing 2x more network performance than comparable fifth-generation instances, making them ideal for network-intensive workloads.",
-      "category": "COMPUTE",
-      "timestamp": "2026-03-18T16:39:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-m6in-m6idn-instances-london/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6fdd15312ac07ef06fd1f859da4f7bb2e7e3e2c6",
-      "title": "Amazon EC2 C8a instances now available in the Asia Pacific (Tokyo) region",
-      "summary": "Amazon EC2 C8a instances are now available in the Asia Pacific (Tokyo) region, powered by 5th Gen AMD EPYC processors with up to 4.5 GHz frequency. These compute-optimized instances deliver up to 30% higher performance and 19% better price-performance compared to C7a instances, with 33% more memory bandwidth making them ideal for latency-sensitive workloads.",
-      "category": "COMPUTE",
-      "timestamp": "2026-03-18T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-r8a-instances-asia-pacific-tokyo-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "fbbe242cf669ccf290597daa494acd3159ac13d6",
-      "title": "Amazon Inspector expands agentless EC2 scanning and introduces Windows KB-based findings ",
-      "summary": "Amazon Inspector has expanded its agentless EC2 scanning capabilities to include Windows operating system vulnerability detection, eliminating the need for agents on Windows instances. The enhanced service now provides broader vulnerability detection coverage across various software and applications including WordPress, Apache HTTP Server, Python packages, and Ruby gems. This expansion enables security teams and IT administrators to identify vulnerabilities across a wider range of systems and software without deploying additional agents.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-18T15:44:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-inspector-agentless-ec2-scanning-windows/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 556,
+    "total": 554,
     "byCategory": {
-      "OTHER": 128,
-      "STORAGE": 22,
-      "AI_ML": 114,
-      "SECURITY": 116,
+      "SECURITY": 114,
+      "OTHER": 132,
+      "DATABASE": 51,
+      "STORAGE": 21,
+      "AI_ML": 113,
       "CONTAINERS": 28,
-      "COMPUTE": 60,
+      "COMPUTE": 57,
       "SERVERLESS": 15,
       "ANALYTICS": 15,
-      "DATABASE": 50,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-06-16T15:09:58.104Z"
+    "lastUpdated": "2026-06-16T23:23:30.341Z"
   },
-  "generatedAt": "2026-06-16T15:09:58.105Z"
+  "generatedAt": "2026-06-16T23:23:30.341Z"
 }
