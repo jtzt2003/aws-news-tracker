@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "05f7edd55118313fb83abebe922c5b08ac22dc47",
+      "title": "AWS Glue Interactive Sessions now support Spark Connect for interactive workloads",
+      "summary": "AWS Glue Interactive Sessions now support Apache Spark Connect, using which you can now develop and run Apache Spark applications from your preferred environment, including managed notebooks in Amazon...",
+      "category": "AI_ML",
+      "timestamp": "2026-06-17T19:15:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-glue-interactive-sessions-spark-connect-smus-notebooks",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "521ea419d12fad69a38b4dfcc51933b11c97bae8",
+      "title": "AWS HealthOmics now streams workflow engine logs to Amazon CloudWatch in real time",
+      "summary": "AWS HealthOmics now streams workflow engine logs to Amazon CloudWatch in real time, enabling customers to monitor workflow execution progress as it happens. AWS HealthOmics is a HIPAA-eligible service...",
+      "category": "OTHER",
+      "timestamp": "2026-06-17T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-healthomics-real-time-engine-log-streaming/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "de490ff449e7e626d317da02cd28f4570bebc637",
+      "title": "AWS DevOps Agent adds release management capability (preview)",
+      "summary": "AWS DevOps Agent now offers a release management capability in preview, reviewing code changes for release readiness and running autonomous release testing to help you ship code to production safely a...",
+      "category": "OTHER",
+      "timestamp": "2026-06-17T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-devops-agent-release-management/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f4be4a2738d834b3f2eef9a7259086bc4a28f9e9",
+      "title": "Amazon RDS for PostgreSQL, MySQL, and MariaDB now supports M9g database instances",
+      "summary": "AWS Graviton5-based M9g database (DB) instances are now generally available for Amazon Relational Database Service (RDS) for PostgreSQL, MySQL, and MariaDB. Graviton5-based instances provide up to a 3...",
+      "category": "DATABASE",
+      "timestamp": "2026-06-17T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-postgresql-mysql-mariadb-m9g-instances/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "832d032779b67b0180a25ac87c6f33e444e495d5",
+      "title": "Amazon Aurora and RDS for MySQL expand Extended Support for MySQL 5.7 through June 2029",
+      "summary": "Amazon Aurora MySQL-Compatible Edition and Amazon Relational Database Service (RDS) for MySQL now offer Amazon RDS Extended Support for MySQL 5.7 through June 30, 2029, from the previous end date of F...",
+      "category": "SECURITY",
+      "timestamp": "2026-06-17T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/rds-mysql-es-extension/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "07b58fb68e5a6d504b3bd78cd050d906793eb221",
+      "title": "AWS Outposts racks now support bmn-cx3a instances, the first AMD-based instances with accelerated networking on Outposts",
+      "summary": "AWS announces the availability of bmn-cx3a instances on second-generation AWS Outposts racks. Bmn-cx3a instances feature 5th Gen AMD EPYC processors with a maximum frequency of 4.1 GHz and NVIDIA Conn...",
+      "category": "COMPUTE",
+      "timestamp": "2026-06-17T14:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-outposts-amd-bmn-cx3a/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a54628365561e67040f5767b6e8060ed68e5436e",
+      "title": "Amazon Quick announces autonomous agents, multi-dataset analytics, and redesigned activity feed",
+      "summary": "Today, AWS announces multiple new features for Amazon Quick, including autonomous agents, multi-dataset analytics capabilities, and a redesigned activity feed. Amazon Quick is the AI assistant that co...",
+      "category": "SECURITY",
+      "timestamp": "2026-06-17T13:40:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4a2c70f9d7d18665b0c3c02cb3f0b6f9051d9117",
+      "title": "Amazon Bedrock AgentCore introduces new optimization capabilities to continuously improve agents in production",
+      "summary": "Today, AWS announces new optimization capabilities in AgentCore that turn production traces into continuous improvement for agents. The most dangerous agent failures are not the ones that throw errors...",
+      "category": "AI_ML",
+      "timestamp": "2026-06-17T12:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-new-optimization-capabilities",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d7ab45dfacd15bd3efe8a4f52a814493ced30a3b",
+      "title": "AgentCore harness in now generally available",
+      "summary": "Today, AWS announces the general availability of the managed agent harness in Amazon Bedrock AgentCore, taking teams from idea to working agents in minutes. An agent is more than a model. If the model...",
+      "category": "SECURITY",
+      "timestamp": "2026-06-17T12:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-harness-generally-available",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4ddd9d1bf88e2d57d06bf989f4039cd595626ce6",
+      "title": "Amazon Bedrock AgentCore now supports Bedrock Guardrails in policy",
+      "summary": "Today, AWS announces that Amazon Bedrock AgentCore now supports Bedrock Guardrails in policy, giving enterprises deeper safety and security controls as they scale AI agents in production. AgentCore po...",
+      "category": "SECURITY",
+      "timestamp": "2026-06-17T12:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-policy-guardrails-generally-available",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "4912fee7db71ec3c0634e8962041b12d70062560",
       "title": "Amazon Bedrock Guardrails announces a new API targeting agentic AI workflows",
       "summary": "Amazon Bedrock Guardrails now offers the InvokeGuardrailChecks API, a new resourceless API that lets you apply individual safeguards at any point in your agentic AI applications without creating guard...",
@@ -5489,83 +5589,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-mcp-server-preview-enhanced-monitoring/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "07961c012bbe8451fe94b701330ce6b5a48e6720",
-      "title": "Amazon EC2 Fleet now supports interruptible Capacity Reservations",
-      "summary": "Amazon EC2 Fleet now supports interruptible Capacity Reservations, allowing customers to specify interruptible Capacity Reservation IDs across Launch Templates when provisioning instances. This feature enables customers to make unused On-Demand Capacity Reservations temporarily available as interruptible reservations within their AWS Organization, improving overall capacity utilization.",
-      "category": "COMPUTE",
-      "timestamp": "2026-03-19T20:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-fleet-interruptible-capacity-reservations/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c4ae7c1baa60906beaf380ec699d90878eca0099",
-      "title": "AWS adds support for NIXL with EFA to accelerate LLM inference at scale",
-      "summary": "AWS has announced support for NVIDIA Inference Xfer Library (NIXL) with Elastic Fabric Adapter (EFA) to accelerate large language model (LLM) inference on Amazon EC2. This integration improves disaggregated inference serving by increasing KV-cache throughput, reducing inter-token latency, and optimizing memory utilization. The combination enables high-performance, low-latency KV-cache transfer between prefill and decode nodes for more efficient LLM inference at scale.",
-      "category": "COMPUTE",
-      "timestamp": "2026-03-19T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-support-nixl-with-efa/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "126367f16e78ad4a3c1a5034217a3175a59d2ce0",
-      "title": "Amazon Redshift supports federated permissions with IAM Identity Center in multiple AWS Regions",
-      "summary": "Amazon Redshift now supports federated permissions with AWS IAM Identity Center across multiple AWS Regions, allowing you to extend IdC beyond your primary region for better performance and reliability. This enables simplified administration of fine-grained access controls at the table and column level using existing workforce identities across multiple regions.",
-      "category": "DATABASE",
-      "timestamp": "2026-03-19T17:13:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/redshift-federated-permissions-idc-mrr/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b044ea687eac15de8f276b0d18dfe809e87093e1",
-      "title": "Amazon EC2 C8gn instances are now available in additional regions",
-      "summary": "Amazon EC2 C8gn instances powered by AWS Graviton4 processors are now available in additional regions including Asia Pacific (Jakarta, Hyderabad, Tokyo), South America (Sao Paulo), and Europe (Zurich). These new instances deliver up to 30% better compute performance compared to the previous Graviton3-based C7gn instances and feature 6th generation AWS Nitro Cards with up to 600 Gbps network bandwidth.",
-      "category": "AI_ML",
-      "timestamp": "2026-03-19T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-c8gn-instances-additional-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "25f5b7f2b732ef7e9f5300f64b19c399fd9a6dcf",
-      "title": "AWS Lambda now supports Availability Zone metadata ",
-      "summary": "AWS Lambda now provides Availability Zone (AZ) metadata through a new endpoint in the Lambda execution environment, allowing developers to identify which specific AZ their function is running in (e.g., use1-az1). This enables developers to build AZ-aware applications that can make intelligent routing decisions, such as preferring same-AZ endpoints to reduce latency and implement resilience patterns.",
-      "category": "DATABASE",
-      "timestamp": "2026-03-19T16:36:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/lambda-availability-zone-metadata/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "9a9a84d8d6b230296f1cc453bb91de29f4c30671",
-      "title": "AWS Direct Connect announces new location in Sydney, Australia",
-      "summary": "AWS has opened a new Direct Connect location at Equinix SY5 in Sydney, Australia, marking the fourth such facility in Sydney and tenth in Australia overall. The location enables private, direct network access to all public AWS Regions (excluding China), AWS GovCloud Regions, and AWS Local Zones. The facility offers dedicated connections at 10 Gbps and 100 Gbps speeds with MACsec encryption.",
-      "category": "COMPUTE",
-      "timestamp": "2026-03-19T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-direct-connect-sydney-sy5/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 555,
+    "total": 559,
     "byCategory": {
-      "AI_ML": 114,
-      "SECURITY": 114,
+      "AI_ML": 115,
+      "OTHER": 134,
+      "DATABASE": 49,
+      "SECURITY": 118,
+      "COMPUTE": 55,
       "STORAGE": 22,
-      "OTHER": 132,
-      "DATABASE": 50,
       "CONTAINERS": 28,
-      "COMPUTE": 57,
       "SERVERLESS": 15,
       "ANALYTICS": 15,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-06-17T13:41:16.638Z"
+    "lastUpdated": "2026-06-17T23:24:32.423Z"
   },
-  "generatedAt": "2026-06-17T13:41:16.639Z"
+  "generatedAt": "2026-06-17T23:24:32.423Z"
 }
