@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "be44d8832d6a92672ae215edde39ae0925f92819",
+      "title": "Amazon ECS announces faster service auto scaling ",
+      "summary": "Amazon ECS service auto scaling now detects and responds to load changes faster with support for high resolution (20-second) metrics and metric publishing optimizations. In AWS benchmarking tests, tim...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-06-18T21:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-faster-autoscaling/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5272f736dda7779a78dee79147c591110ebea7b2",
+      "title": "Amazon EC2 G7 instances are now generally available",
+      "summary": "Today, AWS announces the general availability of Amazon Elastic Compute Cloud (Amazon EC2) G7 instances, accelerated by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs. G7 instances deliver up to 4....",
+      "category": "COMPUTE",
+      "timestamp": "2026-06-18T20:59:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-g7-generally-available",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "38982f645f0a76099aab808dce7bbd28f0fff1dd",
+      "title": "Amazon MQ for RabbitMQ now supports private networking connectivity",
+      "summary": "Amazon MQ for RabbitMQ now supports private networking, enabling your brokers to connect to private resources in your VPC without exposing those resources publicly.. This helps you meet your security ...",
+      "category": "SECURITY",
+      "timestamp": "2026-06-18T20:20:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-mq-private-network-connectivity/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3bd178e148b98c3f53716035465d136c558db450",
+      "title": "Nested virtualization is now available on additional Intel platforms and US Gov Cloud regions",
+      "summary": "Starting today, Nested virtualization is now available on additional Intel platforms and additional Regions. Nested virtualization is now available on C7i,R7i, M7i, C7id,R7id, M7id, C7i-flex,R7i-flex,...",
+      "category": "OTHER",
+      "timestamp": "2026-06-18T18:47:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/nested-virtualization-intel-us-gov-cloud/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d4428a2e0792acb559d2e0f96283d60781c83e27",
+      "title": "Amazon Connect Customer launches the ability to interrupt an agent with an urgent contact",
+      "summary": "Amazon Connect Customer now supports the ability to interrupt an agent with a contact, overriding their usual routing configuration in case of urgent or time-sensitive work. For example, an agent may ...",
+      "category": "OTHER",
+      "timestamp": "2026-06-18T18:35:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect-interrupt-agent-with-urgent-contact/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "438a6191f6f64eb3ac9911a34b40e6cf6f028917",
+      "title": "all-MiniLM-L12-v2 for semantic search and sentence similarity is now available in Amazon SageMaker JumpStart",
+      "summary": "Today, AWS announced the availability of all-MiniLM-L12-v2 in Amazon SageMaker JumpStart, expanding the portfolio of models available to AWS customers. This model from Sentence Transformers maps sente...",
+      "category": "AI_ML",
+      "timestamp": "2026-06-18T18:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/all-minilm-l12-v2-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "834bb412596586b9d422344e453cc373a1741586",
+      "title": "Ministral-3-14B-Instruct for multimodal reasoning and agentic AI is now available in Amazon SageMaker JumpStart",
+      "summary": "Today, AWS announced the availability of Ministral-3-14B-Instruct-2512 in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from Mistral A...",
+      "category": "AI_ML",
+      "timestamp": "2026-06-18T18:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ministral-3-14b-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "da1234e25ec2308f96e795f4d926513471d206c2",
+      "title": "Amazon EKS now supports customer-routed control plane egress",
+      "summary": "Today, Amazon Elastic Kubernetes Service (Amazon EKS) introduces customer-routed control plane egress, a capability that lets you route outbound Kubernetes API server traffic through your own Amazon V...",
+      "category": "SECURITY",
+      "timestamp": "2026-06-18T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-customer-routed-control-plane-egress",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "15de362d5e8d511eb82e58b02664b286c1fb6893",
+      "title": "Amazon SageMaker AI Announces New observability capability For Inference Endpoints     ",
+      "summary": "Amazon SageMaker AI's new observability capability allows customers to operate production generative AI inference workloads with confidence by providing comprehensive visibility into token performance...",
+      "category": "AI_ML",
+      "timestamp": "2026-06-18T15:13:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-ai-inference/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "cb07692363abca23432de2c47cf6bb30aca08ef2",
+      "title": "Amazon SNS now supports sending SMS in the Asia Pacific (Seoul) Region",
+      "summary": "Customers that use Amazon Simple Notification Service (Amazon SNS) in the Asia Pacific (Seoul) Region can now send text messages (SMS) to subscribers in more than 200 countries and territories.\n \nAmaz...",
+      "category": "SERVERLESS",
+      "timestamp": "2026-06-18T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sns-supports-sending-sms-seoul-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "05f7edd55118313fb83abebe922c5b08ac22dc47",
       "title": "AWS Glue Interactive Sessions now support Spark Connect for interactive workloads",
       "summary": "AWS Glue Interactive Sessions now support Apache Spark Connect, using which you can now develop and run Apache Spark applications from your preferred environment, including managed notebooks in Amazon...",
@@ -5519,63 +5619,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-healthimaging-europe-london/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "7af396d855455315b9eaafd1bb565eac4091c2d0",
-      "title": "Amazon Bedrock AgentCore Runtime adds WebRTC support for real-time bidirectional streaming",
-      "summary": "Amazon Bedrock AgentCore Runtime now supports WebRTC in addition to WebSocket protocols, enabling real-time bidirectional streaming between clients and AI agents. This enhancement allows developers to build voice agents for browser and mobile applications with low-latency audio and video streaming using peer-to-peer UDP transport. The WebRTC support enables more natural, real-time conversational experiences for users interacting with AI agents.",
-      "category": "AI_ML",
-      "timestamp": "2026-03-20T21:54:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-webrtc/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "fcafedd241443aeee151cfe36a65534608011c3c",
-      "title": "Amazon EKS announces 99.99% Service Level Agreement and new 8XL scaling tier for Provisioned Control Plane clusters",
-      "summary": "Amazon EKS has upgraded its Service Level Agreement for Provisioned Control Plane clusters from 99.95% to 99.99% uptime. The service is also introducing a new 8XL scaling tier, which is the largest available capacity option for Provisioned Control Plane clusters, allowing customers to select from pre-defined scaling tiers for their cluster's control plane capacity.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-03-20T20:48:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-eks-announces-sla-8xl-scaling-tier/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c09c5cab2ed94a8af11646e51da9d6a5356b9fbc",
-      "title": "AWS Neuron announces support for Dynamic Resource Allocation with Amazon EKS",
-      "summary": "AWS has launched the Neuron Dynamic Resource Allocation (DRA) driver for Amazon EKS, which enables Kubernetes-native hardware-aware scheduling for AWS Trainium-based instances. The driver publishes detailed device attributes directly to the Kubernetes scheduler, allowing for topology-aware placement decisions without requiring custom scheduler extensions. This development simplifies the deployment of AI workloads on Kubernetes by reducing the infrastructure complexity that ML engineers typically need to manage.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-03-20T18:38:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/neuron-eks-dra-support/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d1bae0385d5eae6d1be914e522b5d16459490bc5",
-      "title": "Amazon Polly expands Generative TTS engine with 10 new voices, 2 new regions, and Bidirectional Streaming API ",
-      "summary": "Amazon Polly has launched 10 new highly expressive Generative TTS voices across 8 locales, including American/British English, New Zealand English, Singapore English, French, Italian, German, and Swiss German options. The Generative engine is now also available in two additional AWS regions: Europe (London) and Canada (Central), alongside the introduction of a new Bidirectional Streaming API.",
-      "category": "AI_ML",
-      "timestamp": "2026-03-20T16:10:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-polly-expands-TTS-new-voices-and-bidirectional-streaming/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 556,
+    "total": 562,
     "byCategory": {
-      "AI_ML": 115,
-      "OTHER": 133,
+      "CONTAINERS": 27,
+      "COMPUTE": 56,
+      "SECURITY": 118,
+      "OTHER": 135,
+      "AI_ML": 116,
+      "SERVERLESS": 16,
       "DATABASE": 49,
-      "SECURITY": 116,
-      "COMPUTE": 55,
       "STORAGE": 22,
-      "CONTAINERS": 28,
-      "SERVERLESS": 15,
       "ANALYTICS": 15,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-06-18T12:52:30.279Z"
+    "lastUpdated": "2026-06-18T23:45:30.125Z"
   },
-  "generatedAt": "2026-06-18T12:52:30.280Z"
+  "generatedAt": "2026-06-18T23:45:30.125Z"
 }
