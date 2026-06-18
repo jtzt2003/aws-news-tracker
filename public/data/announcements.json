@@ -5559,45 +5559,15 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-polly-expands-TTS-new-voices-and-bidirectional-streaming/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "13751f6aabdfdd995e6c9d3f1f73f9f0e6deb7fe",
-      "title": "AWS DataSync now supports AWS Secrets Manager for all location types",
-      "summary": "AWS DataSync has expanded its AWS Secrets Manager integration to support credential management across all location types, including HDFS, Amazon FSx for Windows File Server, and Amazon FSx for NetApp ONTAP. Previously, Secrets Manager was only available for select location types, forcing users to input credentials directly through the DataSync API or console. This update enables centralized credential management for all DataSync locations through Secrets Manager.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-20T10:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-datasync-secrets-manager/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "88059b8c0ec528462a8c70a9f57741a8a5f3f725",
-      "title": "AWS Firewall Manager launches in AWS Asia Pacific (New Zealand) Region",
-      "summary": "AWS Firewall Manager is now available in the AWS Asia Pacific (New Zealand) Region. The service helps cloud security administrators and site reliability engineers protect applications by automating the configuration and management of firewall rules, reducing manual operational overhead. It enables customers to implement comprehensive defense-in-depth security policies across AWS security services for their applications and workloads.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-20T05:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-firewall-manager-launches-ap-nz/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "28481b09d644aa92e2a7da507a2173e254b7378e",
-      "title": "AWS MCP Server (Preview) now with enhanced monitoring and semantic search capability",
-      "summary": "AWS has announced enhancements to its MCP Server (preview) that now includes operational metrics publishing to Amazon CloudWatch and introduces semantic search for Agent SOPs (Standard Operating Procedures) discovery. Agent SOPs are pre-built workflows that help AI assistants navigate complex multi-step AWS tasks. These updates provide better visibility into MCP Server usage and offer guided pathways for agents to perform AWS operations, addressing previous limitations in monitoring agent-driven changes.",
-      "category": "OTHER",
-      "timestamp": "2026-03-19T23:36:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-mcp-server-preview-enhanced-monitoring/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 559,
+    "total": 556,
     "byCategory": {
       "AI_ML": 115,
-      "OTHER": 134,
+      "OTHER": 133,
       "DATABASE": 49,
-      "SECURITY": 118,
+      "SECURITY": 116,
       "COMPUTE": 55,
       "STORAGE": 22,
       "CONTAINERS": 28,
@@ -5605,7 +5575,7 @@
       "ANALYTICS": 15,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-06-17T23:24:32.423Z"
+    "lastUpdated": "2026-06-18T12:52:30.279Z"
   },
-  "generatedAt": "2026-06-17T23:24:32.423Z"
+  "generatedAt": "2026-06-18T12:52:30.280Z"
 }
