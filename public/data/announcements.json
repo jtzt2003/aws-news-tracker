@@ -11,6 +11,16 @@
       "isNew": false
     },
     {
+      "id": "91cc46010ad1d88f8bc1371948c5f0049cf4b019",
+      "title": "Amazon CloudWatch Synthetics now supports multilocation canaries",
+      "summary": "Today, Amazon CloudWatch Synthetics announces support for multilocation canaries, allowing developers and site reliability engineers to run the same canary across multiple AWS Regions simultaneously f...",
+      "category": "OTHER",
+      "timestamp": "2026-06-18T22:41:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-synthetics-multilocation/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "9c0bbbb091b2bcc3aa371905a341234476e2e9af",
       "title": "Amazon MSK Express brokers now support Intelligent Rebalancing on existing clusters",
       "summary": "Amazon MSK Provisioned clusters with Express brokers now support Intelligent Rebalancing on all existing clusters, at no additional cost. Previously available only on newly created clusters, Intellige...",
@@ -5652,20 +5662,20 @@
     }
   ],
   "stats": {
-    "total": 565,
+    "total": 566,
     "byCategory": {
       "CONTAINERS": 28,
+      "OTHER": 136,
       "ANALYTICS": 16,
       "COMPUTE": 56,
       "SECURITY": 118,
-      "OTHER": 135,
       "AI_ML": 116,
       "STORAGE": 23,
       "SERVERLESS": 16,
       "DATABASE": 49,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-06-19T13:34:17.239Z"
+    "lastUpdated": "2026-06-19T22:58:10.519Z"
   },
-  "generatedAt": "2026-06-19T13:34:17.240Z"
+  "generatedAt": "2026-06-19T22:58:10.520Z"
 }
