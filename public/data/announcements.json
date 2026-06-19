@@ -1,6 +1,26 @@
 {
   "announcements": [
     {
+      "id": "fc53f3d306859319581ba1f0b3bd4235ef081212",
+      "title": "Announcing the general availability of a new AWS Local Zone in Hanoi, Vietnam  ",
+      "summary": "Today, AWS announces the general availability of a new Local Zone in Hanoi, Vietnam, bringing AWS infrastructure closer to end users. This new Local Zone is one of the first AWS Local Zones in the Asi...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-06-19T01:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-local-zones-hanoi-vietnam/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9c0bbbb091b2bcc3aa371905a341234476e2e9af",
+      "title": "Amazon MSK Express brokers now support Intelligent Rebalancing on existing clusters",
+      "summary": "Amazon MSK Provisioned clusters with Express brokers now support Intelligent Rebalancing on all existing clusters, at no additional cost. Previously available only on newly created clusters, Intellige...",
+      "category": "ANALYTICS",
+      "timestamp": "2026-06-18T22:36:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-msk-express-intelligent/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "be44d8832d6a92672ae215edde39ae0925f92819",
       "title": "Amazon ECS announces faster service auto scaling ",
       "summary": "Amazon ECS service auto scaling now detects and responds to load changes faster with support for high resolution (20-second) metrics and metric publishing optimizations. In AWS benchmarking tests, tim...",
@@ -67,6 +87,16 @@
       "category": "AI_ML",
       "timestamp": "2026-06-18T18:30:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ministral-3-14b-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1d0943ef1b879b272950177aa8f4811b13b02910",
+      "title": "AWS Compute Optimizer enhances EBS volume recommendations with additional performance metrics ",
+      "summary": "AWS Compute Optimizer now includes improved visibility into IOPS and throughput spikes when deliverings Amazon EBS volume rightsizing recommendations. Compute Optimizer analyzes two additional Amazon ...",
+      "category": "STORAGE",
+      "timestamp": "2026-06-18T18:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-enhances-ebs-recommendations/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5622,20 +5652,20 @@
     }
   ],
   "stats": {
-    "total": 562,
+    "total": 565,
     "byCategory": {
-      "CONTAINERS": 27,
+      "CONTAINERS": 28,
+      "ANALYTICS": 16,
       "COMPUTE": 56,
       "SECURITY": 118,
       "OTHER": 135,
       "AI_ML": 116,
+      "STORAGE": 23,
       "SERVERLESS": 16,
       "DATABASE": 49,
-      "STORAGE": 22,
-      "ANALYTICS": 15,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-06-18T23:45:30.125Z"
+    "lastUpdated": "2026-06-19T13:34:17.239Z"
   },
-  "generatedAt": "2026-06-18T23:45:30.125Z"
+  "generatedAt": "2026-06-19T13:34:17.240Z"
 }
