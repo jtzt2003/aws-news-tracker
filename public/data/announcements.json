@@ -5649,33 +5649,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-i7ie-instances-additional-aws-regions/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "4f0349621fcdad7242837fadd31b151c68834d1d",
-      "title": "AWS HealthImaging is now available in Europe (London)",
-      "summary": "AWS HealthImaging, a HIPAA-eligible service for storing, analyzing, and sharing medical images at petabyte scale, is now available in the AWS Europe (London) Region. The service provides fully managed infrastructure for healthcare providers, life sciences organizations, and software partners to handle medical imaging data. It offers both DICOMWeb APIs for integration with existing applications and AWS-native APIs for cloud-first implementations.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-23T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-healthimaging-europe-london/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 566,
+    "total": 565,
     "byCategory": {
       "CONTAINERS": 28,
       "OTHER": 136,
       "ANALYTICS": 16,
       "COMPUTE": 56,
-      "SECURITY": 118,
+      "SECURITY": 117,
       "AI_ML": 116,
       "STORAGE": 23,
       "SERVERLESS": 16,
       "DATABASE": 49,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-06-20T23:09:03.763Z"
+    "lastUpdated": "2026-06-21T12:10:29.231Z"
   },
-  "generatedAt": "2026-06-20T23:09:03.764Z"
+  "generatedAt": "2026-06-21T12:10:29.231Z"
 }
