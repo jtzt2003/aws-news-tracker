@@ -1,6 +1,76 @@
 {
   "announcements": [
     {
+      "id": "1539fb81085f473dbab598e290f081b15a403239",
+      "title": "AWS HealthOmics now supports Nextflow profiles",
+      "summary": "AWS HealthOmics now supports Nextflow profiles, enabling customers to activate predefined execution settings at run time. Nextflow profiles allow customers to define reusable settings and select them ...",
+      "category": "OTHER",
+      "timestamp": "2026-06-22T22:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-healthomics-nextflow-profiles/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7f9a42bee0b962dcfbf1328a9bd3cf937d378126",
+      "title": "AWS introduces Lambda MicroVMs for isolated execution of user and AI-generated code ",
+      "summary": "AWS introduces Lambda MicroVMs, a new serverless compute primitive that provides VM-level isolation, near-instant launch and resume speeds, and state preservation for executing user or AI-generated co...",
+      "category": "SERVERLESS",
+      "timestamp": "2026-06-22T20:37:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-microvms/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d6a9c9f3123dbc22ff672bd953a60b107fe13167",
+      "title": "AWS Network Firewall updates default drop action for improved connection reliability",
+      "summary": "AWS Network Firewall now uses \"Application drop established (server-directed only)\" as the default stateful action for all newly created firewall policies, replacing the previous default of \"Applicati...",
+      "category": "OTHER",
+      "timestamp": "2026-06-22T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-network-firewall-updates-default-drop-action",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "00bb454b774fe60855bf678146d4ff4885569684",
+      "title": "AWS Batch now supports customer-ordered instance allocation strategies",
+      "summary": "AWS Batch now offers the Best Fit Progressive Ordered (BFPO) and Spot Capacity Optimized Prioritized (SCOP) allocation strategies, giving you more control over instance type prioritization in your com...",
+      "category": "COMPUTE",
+      "timestamp": "2026-06-22T16:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/batch-ordered-allocation-strategies/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "dd6e7e729e4b38330eafb0b719e09ea7798ef90f",
+      "title": "AWS IAM Identity Center now supports separate quotas for AWS accounts and applications",
+      "summary": "AWS IAM Identity Center now supports separate quotas for the number of AWS accounts and applications that can be configured in an IAM Identity Center instance. By default, you can configure up to 7,00...",
+      "category": "COMPUTE",
+      "timestamp": "2026-06-22T16:07:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-identity-center-separate-quotas/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f958620a6b72a88c4649088f268b5c7df3f1a442",
+      "title": "Amazon MSK now offers AI Agent Skills to help developers operate MSK efficiently and accelerate migrations to MSK",
+      "summary": "Amazon MSK now offers AI Agent Skills that give AI coding assistants expert, up-to-date guidance for operating Amazon MSK. The skills provide expert guidance for common operational tasks such as troub...",
+      "category": "ANALYTICS",
+      "timestamp": "2026-06-22T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-msk-ai-agent-skills",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ffa77ccbdcb78f87f9d73959a6162b753ccd7d2b",
+      "title": "Introducing self-service lifecycle management capabilities for AWS Outposts",
+      "summary": "AWS Outposts now provides self-service capabilities for configuration, quoting, ordering, subscription management, renewal, and decommissioning directly from the AWS Management Console, CLI, and API. ...",
+      "category": "COMPUTE",
+      "timestamp": "2026-06-22T10:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-outposts-self-service-lifecycle-management",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "fc53f3d306859319581ba1f0b3bd4235ef081212",
       "title": "Announcing the general availability of a new AWS Local Zone in Hanoi, Vietnam  ",
       "summary": "Today, AWS announces the general availability of a new Local Zone in Hanoi, Vietnam, bringing AWS infrastructure closer to end users. This new Local Zone is one of the first AWS Local Zones in the Asi...",
@@ -5652,20 +5722,20 @@
     }
   ],
   "stats": {
-    "total": 565,
+    "total": 572,
     "byCategory": {
+      "OTHER": 138,
+      "SERVERLESS": 17,
+      "COMPUTE": 59,
+      "ANALYTICS": 17,
       "CONTAINERS": 28,
-      "OTHER": 136,
-      "ANALYTICS": 16,
-      "COMPUTE": 56,
       "SECURITY": 117,
       "AI_ML": 116,
       "STORAGE": 23,
-      "SERVERLESS": 16,
       "DATABASE": 49,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-06-22T15:23:23.237Z"
+    "lastUpdated": "2026-06-22T23:19:29.276Z"
   },
-  "generatedAt": "2026-06-22T15:23:23.237Z"
+  "generatedAt": "2026-06-22T23:19:29.277Z"
 }
