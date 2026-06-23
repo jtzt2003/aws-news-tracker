@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "140388b89214d550ef629476380b715f04665ec5",
+      "title": "Amazon CloudWatch Logs supports managed syslog ingestion ",
+      "summary": "Amazon CloudWatch Logs supports managed syslog ingestion, enabling customers to send syslog messages from firewalls, routers, switches, and Linux servers directly into CloudWatch Logs.\n  With today's ...",
+      "category": "SECURITY",
+      "timestamp": "2026-06-23T20:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-syslog-ingestion/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b31aa22e490db2887af62c37463ea8245b9f6038",
+      "title": "SageMaker Notebook Instances now support G6e instance types",
+      "summary": "We are pleased to announce general availability of Amazon EC2 G6e instances on SageMaker notebook instances.\n \nAmazon EC2 G6e instances are powered by up to 8 NVIDIA L40s Tensor Core GPUs with 48 GB o...",
+      "category": "AI_ML",
+      "timestamp": "2026-06-23T18:14:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/g6e-new-launch-sagemaker-notebook-instances/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "98f5ab1e03f8b8aa732bc6aa4b5d57ad78bf62ad",
+      "title": "Amazon Bedrock AgentCore Memory now supports cross-account access",
+      "summary": "Amazon Bedrock AgentCore Memory now enables cross-account access, allowing you to build multi-account architectures where memory resources and consuming agents span multiple AWS accounts. You can gran...",
+      "category": "AI_ML",
+      "timestamp": "2026-06-23T17:20:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-memory-cross-account-access",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7c9c9f6a75c8f7b1a3147cf73ffea1a021668b3e",
+      "title": "AWS HealthOmics now supports ephemeral storage for private workflows ",
+      "summary": "AWS HealthOmics adds ephemeral storage for private workflows, giving bioinformatics workloads dedicated scratch space that delivers more consistent run performance and lower costs. Each workflow task ...",
+      "category": "OTHER",
+      "timestamp": "2026-06-23T17:15:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/healthomics-scratch-storage/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e3acbc3c34bbcb53483139e2b6295f85bcbd0f73",
+      "title": "Amazon Cognito now supports customer managed key for encryption at rest",
+      "summary": "Amazon Cognito now supports customer managed keys in AWS Key Management Service (KMS) for encrypting user pool data at rest. While AWS owned keys are used by default to protect your data, customer man...",
+      "category": "SECURITY",
+      "timestamp": "2026-06-23T17:00:46.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-customer-managed-key",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "318de8d8d15bf2a8a9ccf5d7ad053c0c7d659baf",
+      "title": "Automated Reasoning checks in Amazon Bedrock Guardrails add new policy refinement workflows",
+      "summary": "Today, AWS announces new automated refinement workflows for Automated Reasoning checks in Amazon Bedrock Guardrails. Automated Reasoning checks use formal logic to mathematically validate the accuracy...",
+      "category": "AI_ML",
+      "timestamp": "2026-06-23T16:20:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-guardrails/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d4b2e74ee5d2c526dbe4c1b8dcf55abe7c09d56c",
+      "title": "Amazon CloudWatch launches OTel Container Insights for Amazon EKS",
+      "summary": "CloudWatch OTel Container Insights for Amazon EKS collects infrastructure metrics at 30-second granularity using open-source receivers including cAdvisor, Kube State Metrics, and NVIDIA DCGM. Each met...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-06-23T15:12:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-otel-amazon-eks/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "105acf8ce978f602330ea4a697065d8cd07298b8",
+      "title": "Claude Tag is now available in beta via Claude Enterprise in AWS Marketplace",
+      "summary": "Anthropic is launching Claude Tag — bringing Claude directly into the channels where your team already works, starting with Slack. Claude Tag is available today in beta to AWS customers who access Cla...",
+      "category": "SECURITY",
+      "timestamp": "2026-06-23T05:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/claude-tag-aws-marketplace/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "054eec494ab0b040519083d9e9eac244a2c01f74",
+      "title": "Amazon OpenSearch Service now offers AI-assisted migrations",
+      "summary": "Migration Assistant for Amazon OpenSearch Service now includes an AI-assisted experience that simplifies moving your self-managed Apache Solr, Elasticsearch, or OpenSearch deployments to OpenSearch Se...",
+      "category": "ANALYTICS",
+      "timestamp": "2026-06-23T03:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-opensearch-service-ai-migrations",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2d1e80220562b9bd82737748fab31a87dd21e722",
+      "title": "Amazon SageMaker Studio notebooks now support G7e instance types",
+      "summary": "Amazon G7e instances feature up to 8 NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs, with 96 GB of memory per GPU, and 5th Generation Intel Xeon processors. They support up to 192 virtual CPUs (vCP...",
+      "category": "AI_ML",
+      "timestamp": "2026-06-23T01:02:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/g7e-new-launch-sagemaker-studio-notebooks/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "1539fb81085f473dbab598e290f081b15a403239",
       "title": "AWS HealthOmics now supports Nextflow profiles",
       "summary": "AWS HealthOmics now supports Nextflow profiles, enabling customers to activate predefined execution settings at run time. Nextflow profiles allow customers to define reusable settings and select them ...",
@@ -5619,133 +5719,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/storage-gateway-terraform-al2023/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "32269cdce87473d7cf468cd0184a484a0dc1ffcf",
-      "title": "Accelerate AI-assisted development with Agent Plugin for AWS Serverless ",
-      "summary": "AWS has launched the Agent Plugin for AWS Serverless, which integrates with AI coding assistants like Kiro, Claude Code, and Cursor to help developers build, deploy, troubleshoot, and manage serverless applications more efficiently. The plugin packages skills, sub-agents, hooks, and Model Context Protocol (MCP) servers into a modular unit that dynamically provides relevant guidance and expertise for serverless development tasks.",
-      "category": "SERVERLESS",
-      "timestamp": "2026-03-25T21:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/agent-plugin-aws-serverless/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "059caba6a2ba5255e6be95b0299857ae4c0ad914",
-      "title": "AWS Batch now provides AMI status and supports AWS Health Planned Lifecycle Events",
-      "summary": "AWS Batch now offers enhanced visibility into compute environments by providing status information for Batch-provided default Amazon Machine Images (AMIs), showing when updates are available. Additionally, AWS Batch now publishes AWS Health Planned Lifecycle Events to help users prepare for and track changes that may affect their batch computing resources.",
-      "category": "SERVERLESS",
-      "timestamp": "2026-03-25T20:32:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-batch-ami-status-aws-health/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "457963b3311a2717c96c649ffae07e9e8ed94c6a",
-      "title": "Amazon SageMaker Unified Studio launches support for remote connection from Cursor IDE",
-      "summary": "AWS has launched support for remote connection from Cursor IDE to Amazon SageMaker Unified Studio through the AWS Toolkit extension. This integration allows data scientists, ML engineers, and developers to use Cursor's AI-powered features like code completion and natural language editing while accessing SageMaker's scalable compute resources. The connection helps streamline the development workflow by combining Cursor's advanced IDE capabilities with Amazon's cloud-based machine learning infrastructure.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-25T20:21:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/sagemaker-unified-studio-cursor-ide/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "845148ea994a6383070a002463fe1610a3ff2892",
-      "title": "Amazon Bedrock AgentCore adds support for Chrome policies and custom root CA",
-      "summary": "Amazon Bedrock AgentCore has added support for Chrome Enterprise policies and custom root Certificate Authority (CA) certificates for both its Browser and Code Interpreter components. These enhancements allow AI agents to operate within organizations that have strict security requirements and use internal infrastructure with custom certificates. The update includes access to over 100 configurable Chrome policies to help meet enterprise security standards.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-25T20:10:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/agentcore-browser-policies-root-ca/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "63683e1f61a08e84d9d79bec644ceea8704a935d",
-      "title": "AWS Batch now supports quota management and preemption for SageMaker Training jobs",
-      "summary": "AWS Batch now supports quota management and job preemption specifically for SageMaker Training jobs, allowing teams to efficiently allocate and share compute resources across projects. This feature enables intelligent prioritization of business-critical training jobs and automatic preemption of lower-priority workloads when urgent experiments need GPU capacity.",
-      "category": "AI_ML",
-      "timestamp": "2026-03-25T18:40:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-batch-quota-management-preemption-sagemaker/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "cc702efdd2dd4a82190f90be6e014ee11bb3aa08",
-      "title": "Amazon Route 53 Profiles now supports granular IAM permissions for resource and VPC associations",
-      "summary": "Amazon Route 53 Profiles now supports granular IAM permissions that allow administrators to control which users can manage specific resource types and VPC associations within their Profiles. Users can create IAM policies to restrict access to specific operations (associate, disassociate, or update) on individual resource types like private hosted zones, Resolver rules, or DNS Firewall rule groups. Permissions can also be defined based on resource ARNs for more precise access control.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-25T18:34:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-route-53-profiles-granular-iam/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "e01c386113b2d1e2d1bada56a07aa02e0298ba58",
-      "title": "Amazon Quick Now Available in the AWS Tokyo Region",
-      "summary": "Amazon Quick, an AI-powered business assistant that helps users quickly answer work questions and take actions without switching applications, is now available in the AWS Tokyo region (ap-northeast-1). This expansion allows Japanese customers to access Amazon Quick's full capabilities while meeting local data sovereignty requirements.",
-      "category": "OTHER",
-      "timestamp": "2026-03-25T17:02:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-quick-now-available-in-the-aws-tokyo-region/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "1135bcd3c1e8b01ed85feca2d7105da83cec428e",
-      "title": "Amazon Aurora PostgreSQL now available with the AWS Free Tier",
-      "summary": "Amazon Aurora PostgreSQL is now available on the AWS Free Tier, offering new customers $100 in initial AWS credits plus the opportunity to earn an additional $100 by using services like Amazon RDS. Users with a Free Plan account can quickly create an Aurora PostgreSQL serverless cluster through the RDS Console, CLI, or SDKs using express configuration, enabling database creation and querying within seconds.",
-      "category": "DATABASE",
-      "timestamp": "2026-03-25T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-aurora-postgresql-aws-free-tier/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "591c5158b0cfaa6f3e7606264f71718e57332433",
-      "title": "Amazon Aurora PostgreSQL now supports creating and connecting to a database in seconds",
-      "summary": "Amazon Aurora PostgreSQL has launched a new express configuration feature that allows users to create and connect to a serverless database cluster in seconds using pre-configured settings. This streamlined setup process significantly reduces the time to first query and accelerates initial database deployment. The express configuration creates clusters outside of a VPC network, with options to modify certain settings during creation and additional settings afterward.",
-      "category": "DATABASE",
-      "timestamp": "2026-03-25T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-aurora-postgresql-database/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c4e9641f882f2f2f936a716b64cd4fc674b92715",
-      "title": "Amazon SageMaker AI now supports serverless reinforcement fine-tuning for 12 additional models",
-      "summary": "Amazon SageMaker AI has expanded its serverless reinforcement fine-tuning capabilities to support 12 additional open-weight models, including various sizes of Qwen, DeepSeek-R1-Distill, and Meta Llama models. This enhancement allows users to customize and fine-tune these models without needing to provision or manage any underlying infrastructure, simplifying the AI model development process.",
-      "category": "AI_ML",
-      "timestamp": "2026-03-25T16:25:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-ai-serverless-additional-models/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "55b3bb20bdcc2e5528dd3fe4c985a1e86aa04532",
-      "title": "Amazon EC2 I7ie instances now available in additional AWS regions",
-      "summary": "Amazon EC2 I7ie instances are now available in seven additional AWS regions including Asia Pacific (Hong Kong, Seoul, Melbourne, Thailand), Europe (Zurich, Milan), and Mexico (Central). These instances are designed for storage-intensive workloads and feature 5th Gen Intel Xeon Processors running at 3.2 GHz all-core turbo frequency, delivering up to 40% better compute performance and 20% better price performance compared to I3en instances.",
-      "category": "COMPUTE",
-      "timestamp": "2026-03-25T15:24:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-i7ie-instances-additional-aws-regions/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 573,
+    "total": 572,
     "byCategory": {
-      "OTHER": 139,
-      "SERVERLESS": 17,
-      "COMPUTE": 59,
-      "ANALYTICS": 17,
-      "CONTAINERS": 28,
       "SECURITY": 117,
-      "AI_ML": 116,
+      "AI_ML": 118,
+      "OTHER": 139,
+      "CONTAINERS": 29,
+      "ANALYTICS": 18,
+      "SERVERLESS": 15,
+      "COMPUTE": 58,
       "STORAGE": 23,
-      "DATABASE": 49,
+      "DATABASE": 47,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-06-23T12:32:35.715Z"
+    "lastUpdated": "2026-06-23T23:08:19.585Z"
   },
-  "generatedAt": "2026-06-23T12:32:35.715Z"
+  "generatedAt": "2026-06-23T23:08:19.585Z"
 }
