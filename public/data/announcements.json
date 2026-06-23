@@ -21,6 +21,16 @@
       "isNew": false
     },
     {
+      "id": "1d21ef0ff9b5014daa831ca16c77e51817b7e691",
+      "title": "AWS Transform for migrations now supports all AWS commercial regions as migration targets",
+      "summary": "AWS Transform for migrations now supports all AWS commercial regions as migration targets. A migration target region is the AWS region where migrated resources are deployed, including landing zones, n...",
+      "category": "OTHER",
+      "timestamp": "2026-06-22T17:30:40.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-migrations-region-expansion/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "d6a9c9f3123dbc22ff672bd953a60b107fe13167",
       "title": "AWS Network Firewall updates default drop action for improved connection reliability",
       "summary": "AWS Network Firewall now uses \"Application drop established (server-directed only)\" as the default stateful action for all newly created firewall policies, replacing the previous default of \"Applicati...",
@@ -5722,9 +5732,9 @@
     }
   ],
   "stats": {
-    "total": 572,
+    "total": 573,
     "byCategory": {
-      "OTHER": 138,
+      "OTHER": 139,
       "SERVERLESS": 17,
       "COMPUTE": 59,
       "ANALYTICS": 17,
@@ -5735,7 +5745,7 @@
       "DATABASE": 49,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-06-22T23:19:29.276Z"
+    "lastUpdated": "2026-06-23T12:32:35.715Z"
   },
-  "generatedAt": "2026-06-22T23:19:29.277Z"
+  "generatedAt": "2026-06-23T12:32:35.715Z"
 }
