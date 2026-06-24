@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "1d35e0b60051e0ebb02ab64d5bf9b1f73b7e8ad6",
+      "title": "Amazon CloudWatch now supports tags on dashboards ",
+      "summary": "Amazon CloudWatch now supports tagging for CloudWatch dashboards, enabling you to organize, categorize, and control access to your dashboards using tags. Tags are key-value pairs that help you identif...",
+      "category": "OTHER",
+      "timestamp": "2026-06-24T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-tags-on-dashboards",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "140388b89214d550ef629476380b715f04665ec5",
       "title": "Amazon CloudWatch Logs supports managed syslog ingestion ",
       "summary": "Amazon CloudWatch Logs supports managed syslog ingestion, enabling customers to send syslog messages from firewalls, routers, switches, and Linux servers directly into CloudWatch Logs.\n  With today's ...",
@@ -5709,24 +5719,14 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-m8a-instances-govcloud-us-west-region/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "ce2e244cebe2a1afd36ac1d161aeec316b437efd",
-      "title": "AWS Storage Gateway Terraform modules now support Amazon Linux 2023",
-      "summary": "AWS Storage Gateway Terraform modules now support Amazon Linux 2023-based deployments, providing enhanced security, reliability, and operational simplicity for Infrastructure as Code provisioning. The updated modules support all gateway types (S3 File Gateway, Tape Gateway, and Volume Gateway) across both Amazon EC2 and VMware environments, with EC2 deployments enforcing IMDSv2 by default for improved security.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-26T10:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/storage-gateway-terraform-al2023/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
     "total": 572,
     "byCategory": {
-      "SECURITY": 117,
+      "OTHER": 140,
+      "SECURITY": 116,
       "AI_ML": 118,
-      "OTHER": 139,
       "CONTAINERS": 29,
       "ANALYTICS": 18,
       "SERVERLESS": 15,
@@ -5735,7 +5735,7 @@
       "DATABASE": 47,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-06-23T23:08:19.585Z"
+    "lastUpdated": "2026-06-24T12:18:55.106Z"
   },
-  "generatedAt": "2026-06-23T23:08:19.585Z"
+  "generatedAt": "2026-06-24T12:18:55.106Z"
 }
