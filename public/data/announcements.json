@@ -1,6 +1,46 @@
 {
   "announcements": [
     {
+      "id": "f4bdeb48b66a4c3cd89b6d35864038efcfe7aec8",
+      "title": "Amazon EC2 announces AMI Watermarks for improved AMI governance",
+      "summary": "Amazon EC2 introduces AMI watermarks, letting you embed custom identifiers in your private AMIs. Once applied, a watermark automatically carries forward to every AMI derived from the original, whether...",
+      "category": "COMPUTE",
+      "timestamp": "2026-06-24T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-image-watermarks-allowed-images",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b6d3c84196505f6966f5c2cd4a7a4bd304ca0617",
+      "title": "Amazon EMR Serverless now supports live configuration updates without application restarts",
+      "summary": "Amazon EMR Serverless now supports updates to key application configurations such as maximum capacity, and custom image settings — without stopping and restarting the application. New workloads submit...",
+      "category": "ANALYTICS",
+      "timestamp": "2026-06-24T19:21:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-emr-serverless/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "af28ee6f7e84a076ac08215adccb5b5d5db8497f",
+      "title": "AWS IoT Device SDK for Swift is now generally available",
+      "summary": "The AWS IoT Device SDK for Swift is now generally available, enabling Swift developers to build secure, scalable IoT applications natively on Apple platforms including macOS, iOS, and tvOS, as well as...",
+      "category": "SECURITY",
+      "timestamp": "2026-06-24T18:48:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-iot-device-sdk-swift/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a429b1e95896e720e32d469be1f1358905c6fd50",
+      "title": "Amazon Neptune now supports AWS CloudFormation for global databases",
+      "summary": "Amazon Neptune now supports AWS CloudFormation for provisioning and managing Neptune global databases. Using the new AWS::Neptune::GlobalCluster resource type, you can define your multi-region graph d...",
+      "category": "DATABASE",
+      "timestamp": "2026-06-24T13:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-neptune-aws-cloudformation/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "1d35e0b60051e0ebb02ab64d5bf9b1f73b7e8ad6",
       "title": "Amazon CloudWatch now supports tags on dashboards ",
       "summary": "Amazon CloudWatch now supports tagging for CloudWatch dashboards, enabling you to organize, categorize, and control access to your dashboards using tags. Tags are key-value pairs that help you identif...",
@@ -11,12 +51,32 @@
       "isNew": false
     },
     {
+      "id": "24b5bc36775d3ec73f8c474e1e94ae36c48ec18a",
+      "title": "Amazon EC2 High Memory U7in-24TB instances now available in AWS Asia Pacific (Seoul) region",
+      "summary": "Amazon EC2 High Memory U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS Asia Pacific (Seoul) region. U7i instances are part of the AWS 7th generation and are powered by custom fourth...",
+      "category": "COMPUTE",
+      "timestamp": "2026-06-24T01:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-u7in-24tb-aws-seoul/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "140388b89214d550ef629476380b715f04665ec5",
       "title": "Amazon CloudWatch Logs supports managed syslog ingestion ",
       "summary": "Amazon CloudWatch Logs supports managed syslog ingestion, enabling customers to send syslog messages from firewalls, routers, switches, and Linux servers directly into CloudWatch Logs.\n  With today's ...",
       "category": "SECURITY",
       "timestamp": "2026-06-23T20:30:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-syslog-ingestion/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6079a11459f7e9512972894ef5d39e4b5e0fcc1c",
+      "title": "Amazon GuardDuty AI-powered investigations accelerate threat response (Preview)",
+      "summary": "AWS announces the preview of AI-powered investigations in Amazon GuardDuty, a new capability that automatically analyzes GuardDuty findings and accounts to help you quickly distinguish true threats fr...",
+      "category": "SECURITY",
+      "timestamp": "2026-06-23T19:49:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-guardduty/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5579,163 +5639,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-healthimaging-study-level-access-control/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "7db4e980d0a84d969bd43f5568160f4a8853121c",
-      "title": "Amazon EC2 High Memory U7i instances now available in Europe (Milan)",
-      "summary": "Amazon EC2 High Memory U7i instances are now available in the Europe (Milan) region, offering two configurations: U7i-8TB instances with 8TiB of DDR5 memory and U7i-12TB instances with 12TiB of DDR5 memory. These 7th generation instances are powered by custom fourth generation Intel Xeon Scalable Processors (Sapphire Rapids) and are designed to help customers scale transaction processing throughput in fast-growing data environments.",
-      "category": "COMPUTE",
-      "timestamp": "2026-03-26T22:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/ec2-u7i-europe-milan/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "5f14935fc650493b3b4bc558e310836b454a5c80",
-      "title": "AWS Step Functions adds 28 new service integrations, including Amazon Bedrock AgentCore",
-      "summary": "AWS Step Functions has added 28 new service integrations and over 1,100 new API actions, including support for Amazon Bedrock AgentCore and Amazon S3 Vectors. This expansion allows users to orchestrate a broader range of AWS services directly within their workflows without needing to write custom integration code.",
-      "category": "AI_ML",
-      "timestamp": "2026-03-26T22:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-step-functions-sdk-integrations/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "98021c72a85a921f3021ea9b6d22492c6b307792",
-      "title": "Palmyra Vision 7B from Writer now available on Amazon Bedrock",
-      "summary": "AWS has made Palmyra Vision 7B from Writer available on Amazon Bedrock, enabling customers to build generative AI applications that can interpret and generate text from images. This addition allows users to create visual understanding applications through Bedrock's fully managed service without needing to handle inference infrastructure themselves.",
-      "category": "AI_ML",
-      "timestamp": "2026-03-26T20:38:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/palmyra-vision-7b-writer-bedrock/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "32032d9dcb82711e204cf6b1a89b9af1d96446c2",
-      "title": "Amazon SageMaker Studio launches support for Kiro and Cursor IDEs as remote IDEs ",
-      "summary": "Amazon SageMaker Studio now supports remote connections from Kiro and Cursor IDEs, enabling developers to use their preferred development environments while accessing SageMaker's scalable compute resources. This integration allows data scientists and ML engineers to leverage Kiro and Cursor's features like spec-driven development and conversational coding within the SageMaker ecosystem. The connection is facilitated through the AWS Toolkit extension.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-26T19:53:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-studio-kiro-cursor/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "dae2c8e0f73ba3e7b354224badaeb5fe8fc78cd9",
-      "title": "Amazon ECS Managed Instances now supports FIPS-certified workloads on Graviton and GPU accelerated instances in AWS GovCloud (US) Regions",
-      "summary": "Amazon ECS Managed Instances now supports FIPS-compliant deployment of Graviton-based and GPU-accelerated workloads in AWS GovCloud (US) Regions. This enhancement allows government and regulated customers to run containerized workloads that meet Federal Information Processing Standard (FIPS) cryptographic security requirements on these specialized instance types.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-26T19:40:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ecs-mi-supports-fips-graviron-gpu/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c40e0c7410571a6958688cec91098bd837333ef0",
-      "title": "Research and Engineering Studio on AWS 2026.03 is now available",
-      "summary": "AWS has released Research and Engineering Studio (RES) on AWS version 2026.03, featuring new administrator controls, expanded filesystem support, and improved session management. RES is an open-source web portal that enables administrators to create and manage secure cloud-based research environments for scientists and engineers to visualize data and run interactive applications without requiring cloud expertise.",
-      "category": "OTHER",
-      "timestamp": "2026-03-26T18:52:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/res-2026-03-is-now-available/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "571b432b658e9830f372a98ba56889ae94b12c6f",
-      "title": "AWS Parallel Computing Service supports slurmdbd and cgroups settings",
-      "summary": "AWS Parallel Computing Service (AWS PCS) now supports additional Slurm configuration settings for slurmdbd and cgroups, allowing users to fine-tune accounting behavior and resource isolation through AWS management interfaces. This enhancement enables the implementation of production-ready HPC environments with better privacy controls, flexible data retention policies, and improved resource management capabilities.",
-      "category": "OTHER",
-      "timestamp": "2026-03-26T18:29:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-pcs-manages-slurmdbd-cgroups-settings/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f72cbe65d1cfd949716c001a92b563b85dfaa289",
-      "title": "Aurora DSQL launches connector that simplifies building Ruby applications",
-      "summary": "AWS has launched the Aurora DSQL Connector for Ruby that simplifies building Ruby applications on Aurora DSQL while maintaining full compatibility with the existing pg gem. The connector automatically handles IAM token generation and SSL configuration, eliminating security risks from traditional passwords by using auto-generated tokens for each connection.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-26T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aurora-dsql-connector-for-ruby/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "16934c976879e636017f6ff75f607a68a2ac4b26",
-      "title": "AWS Lambda increases the file descriptor limit to 4,096 for functions running on Lambda Managed Instances",
-      "summary": "AWS Lambda has increased the file descriptor limit from 1,024 to 4,096 for functions running on Lambda Managed Instances (LMI), providing a 4x improvement. This enhancement allows customers to run I/O intensive workloads like high-concurrency web services and file-heavy data processing pipelines without hitting file descriptor constraints. LMI runs Lambda functions on managed EC2 instances with built-in routing, load-balancing, and auto-scaling capabilities.",
-      "category": "SERVERLESS",
-      "timestamp": "2026-03-26T16:15:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-Lambda-file-descriptors-increase-4096/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c67fe7d5bde55c76c03f55f96f7c2053c0d1d575",
-      "title": "AWS AppConfig adds enhanced targeting during feature flag rollout ",
-      "summary": "AWS AppConfig has introduced enhanced targeting controls that allow customers to direct feature flags and configuration changes to specific user segments or individual users during gradual rollouts. This new capability builds on AppConfig's existing safety feature of progressive delivery, which enables slow rollouts over minutes or hours to minimize the impact of unexpected issues. The enhancement provides more granular control over who receives changes during the deployment lifecycle.",
-      "category": "OTHER",
-      "timestamp": "2026-03-26T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/appconfig-enhanced-targeting-feature-flag-rollout/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "3727a4611f3b5ed98f7eb9d6bb074596279e7b35",
-      "title": "The AWS Advanced JDBC Wrapper now supports automatic query caching with Valkey",
-      "summary": "The AWS Advanced JDBC Wrapper now supports automatic query caching with Valkey, including Amazon ElastiCache for Valkey. This eliminates the need for developers to manually write caching code for each JDBC query when working with Aurora and RDS databases (PostgreSQL, MySQL, MariaDB). The feature can be enabled by simply adding the wrapper dependency and configuring the query cache plugin.",
-      "category": "DATABASE",
-      "timestamp": "2026-03-26T15:57:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-jdbc-caching-with-valkey/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "48975baf198260259e359e87324304a4a98f8965",
-      "title": "Amazon EC2 R8gd instances are now available in additional AWS Regions",
-      "summary": "Amazon EC2 R8gd instances, powered by AWS Graviton4 processors, are now available in six additional AWS regions including US West (N. California), several Asia Pacific locations, Africa (Cape Town), and Canada West (Calgary). These instances offer up to 11.4 TB of local NVMe SSD storage and deliver up to 30% better performance than Graviton3-based instances, with particularly strong improvements for I/O intensive database workloads.",
-      "category": "COMPUTE",
-      "timestamp": "2026-03-26T15:39:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-r8gd-aws-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "a9d821d3d6316483e038eda2a38f00e633060b78",
-      "title": "Amazon EC2 M8a instances now available in AWS Europe (Ireland) region",
-      "summary": "Amazon EC2 M8a instances are now available in the AWS Europe (Ireland) region, powered by 5th generation AMD EPYC processors with up to 4.5 GHz frequency. These new instances offer up to 30% higher performance and 19% better price-performance compared to M7a instances, along with 45% more memory bandwidth making them suitable for latency-sensitive workloads.",
-      "category": "COMPUTE",
-      "timestamp": "2026-03-26T15:00:12.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-m8a-instances-europe-ireland-region/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "8bc2113920efc6cb778babecbee646b8704099e0",
-      "title": "Amazon EC2 M8a instances now available in AWS GovCloud (US-West) region",
-      "summary": "Amazon EC2 M8a instances are now available in the AWS GovCloud (US-West) region, powered by 5th generation AMD EPYC processors with frequencies up to 4.5 GHz. These instances offer up to 30% higher performance and 19% better price-performance compared to M7a instances, along with 45% more memory bandwidth, making them suitable for latency-sensitive workloads.",
-      "category": "COMPUTE",
-      "timestamp": "2026-03-26T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-m8a-instances-govcloud-us-west-region/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 572,
+    "total": 564,
     "byCategory": {
-      "OTHER": 140,
-      "SECURITY": 116,
-      "AI_ML": 118,
-      "CONTAINERS": 29,
-      "ANALYTICS": 18,
-      "SERVERLESS": 15,
-      "COMPUTE": 58,
-      "STORAGE": 23,
+      "COMPUTE": 56,
+      "ANALYTICS": 19,
+      "SECURITY": 115,
       "DATABASE": 47,
+      "OTHER": 137,
+      "AI_ML": 116,
+      "CONTAINERS": 29,
+      "SERVERLESS": 14,
+      "STORAGE": 23,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-06-24T12:18:55.106Z"
+    "lastUpdated": "2026-06-24T23:03:17.768Z"
   },
-  "generatedAt": "2026-06-24T12:18:55.106Z"
+  "generatedAt": "2026-06-24T23:03:17.768Z"
 }
