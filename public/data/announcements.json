@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "51d3f13cb5ad5749c0f1e2fce0c4d777f8793437",
+      "title": "Amazon EC2 C7a instances are now available in the Asia Pacific (Singapore) Region",
+      "summary": "Starting today, the compute optimized Amazon EC2 C7a instances are now available in AWS Asia Pacific (Singapore) Region. C7a instances, powered by 4th Gen AMD EPYC processors (code-named Genoa) with a...",
+      "category": "COMPUTE",
+      "timestamp": "2026-06-25T22:24:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c7a-instances-asia-pacific-singapore-region/",
+      "source": "AWS What's New",
+      "isNew": true
+    },
+    {
+      "id": "ceaeacf3195f281574f47bb04c417f02b3eee482",
+      "title": "Amazon EC2 M8a instances now available in the Asia Pacific (Mumbai) region",
+      "summary": "Starting today, the general-purpose Amazon EC2 M8a instances are available in AWS Asia Pacific (Mumbai) region. M8a instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin) wit...",
+      "category": "COMPUTE",
+      "timestamp": "2026-06-25T22:15:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-m8a-instances-asia-pacific-mumbai-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "bc61f40c3e48ce491fd8b9af265269e1ea3014d6",
+      "title": "OpenAI GPT, OpenAI GPT OSS, and NVIDIA Nemotron models on Amazon Bedrock receive FedRAMP High and DoD IL-4/5 approval in AWS GovCloud (US)",
+      "summary": "OpenAI GPT, OpenAI GPT OSS, and NVIDIA Nemotron models are now FedRAMP High and Department of Defense Cloud Computing Security Requirements Guide (DoD CC SRG) Impact Level (IL) 4 and 5 approved within...",
+      "category": "SECURITY",
+      "timestamp": "2026-06-25T21:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/addl-bedrock-model-fedramp-il-5-govcloud",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "fea6a3951d2d7f821e44bc61ff29f748afa4a28b",
+      "title": "AWS Network Firewall now supports managed threat intelligence rules from VisionHeight",
+      "summary": "AWS Network Firewall now supports two new managed rule groups from VisionHeight, available through AWS Marketplace: Zero-Day Threat Protection, and Noisy Scanners and Tor Protection. These rule groups...",
+      "category": "OTHER",
+      "timestamp": "2026-06-25T20:18:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/network-firewall-visionheight-managed-rules",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4cfe09892c5b286a821bd8c769b85ddd6270ac28",
+      "title": "Kiro achieves FedRAMP High and DoD IL-4/5 authorization in AWS GovCloud (US)",
+      "summary": "Kiro is now FedRAMP High and Department of Defense Cloud Computing Security Requirements Guide (DoD CC SRG) Impact Level (IL) 4 and 5 authorized in the AWS GovCloud (US) Regions.\n  Federal agencies, p...",
+      "category": "SECURITY",
+      "timestamp": "2026-06-25T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/kiro-fedramp-high-dod-il-4-5-govcloud-us/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "fe53e4c4d4a0f0a0666f2b046307553304df1e8b",
+      "title": "Amazon Redshift adds Reserved Instance upfront pricing options for RG instances",
+      "summary": "Amazon Redshift announces the availability of All Upfront and Partial Upfront payment options for 1-year and 3-year reserved instances for RG instances. Reserved instances allow customers to benefit f...",
+      "category": "DATABASE",
+      "timestamp": "2026-06-25T16:39:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-redshift-ri-upfront-pricing-rg-instances",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b7e585254824391cda4ee68b574b2cc2a42c3a48",
+      "title": "AWS GovCloud (US) now offers US-based, US citizen 24/7 technical support for all customers by default",
+      "summary": "AWS GovCloud (US) customers now have their technical support cases routed to US-based, US-citizen cloud support engineers by default with no opt-in or special request required. This enhancement ensure...",
+      "category": "OTHER",
+      "timestamp": "2026-06-25T12:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/default-govcloud-us-based-support/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9e4bf9d07a11e3f290f7be3f297e14b5cacd342d",
+      "title": "AWS Backup enhances Amazon S3 backup copy performance",
+      "summary": "AWS Backup now executes S3 backup copy operations up to 8x faster for buckets with millions of objects and low change rates between backup copies through enhanced change tracking. This improvement red...",
+      "category": "STORAGE",
+      "timestamp": "2026-06-25T10:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-backup-amazon-s3-copy-enhancement/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d0894b15f8baaffb343abb0357d897d8fe44b11a",
+      "title": "Amazon RDS Custom now supports the latest CU and GDR updates for Microsoft SQL Server",
+      "summary": "Amazon Relational Database Service (Amazon RDS) Custom for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This rele...",
+      "category": "DATABASE",
+      "timestamp": "2026-06-25T07:44:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-custom-supports-latest-cu-gdr-updates-microsoft-sql-server",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e9270bc1630ccaa3448c4f6ca402a093b22140d6",
+      "title": "Amazon RDS now supports the latest GDR updates for Microsoft SQL Server",
+      "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for Microsoft ...",
+      "category": "DATABASE",
+      "timestamp": "2026-06-25T07:03:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-supports-latest-gdr-updates-microsoft-sql-server",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "f4bdeb48b66a4c3cd89b6d35864038efcfe7aec8",
       "title": "Amazon EC2 announces AMI Watermarks for improved AMI governance",
       "summary": "Amazon EC2 introduces AMI watermarks, letting you embed custom identifiers in your private AMIs. Once applied, a watermark automatically carries forward to every AMI derived from the original, whether...",
@@ -5579,63 +5679,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-direct-connect-cloudwatch-bgp-monitoring/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "b1172f9294cea3c286f1457c674c0997a0589482",
-      "title": "Amazon Timestream for InfluxDB Now Supports Advanced Metrics",
-      "summary": "Amazon Timestream for InfluxDB has launched Advanced Metrics, which automatically publishes detailed operational metrics from InfluxDB 2 instances directly to Amazon CloudWatch for comprehensive database performance monitoring. This new feature enables real-time monitoring and alerting without requiring additional configuration, supporting both Single-AZ and Multi-AZ deployments.",
-      "category": "DATABASE",
-      "timestamp": "2026-03-27T22:48:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-timestream-for-influxdb-advanced-metrics/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "71eb960b626c4aeadbc88bbb01598ddb3692ffac",
-      "title": "Amazon CloudWatch Logs now supports data protection,  OpenSearch PPL and OpenSearch SQL for the Infrequent Access ingestion class",
-      "summary": "Amazon CloudWatch Logs has expanded its Infrequent Access (Logs IA) ingestion class with new capabilities including data protection features, OpenSearch PPL (Piped Processing Language), and OpenSearch SQL support. These enhancements enable customers to perform flexible analytics and protect sensitive data while cost-effectively consolidating logs natively on AWS. The improvements make Logs IA particularly well-suited for ad-hoc troubleshooting and forensic analysis of infrequently accessed log data.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-27T20:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-cloudwatch-infrequent-access-log-class/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "91d4e1ae483e2c886ebf403688db907e1e31b8c6",
-      "title": "AWS Lambda supports up to 32 GB of memory and 16 vCPUs for Lambda Managed Instances",
-      "summary": "AWS Lambda has expanded its capabilities to support up to 32 GB of memory and 16 vCPUs for Lambda Managed Instances, allowing customers to run compute-intensive workloads like data processing, media transcoding, and scientific simulations without infrastructure management. Users can now configure customizable memory-to-vCPU ratios (2:1, 4:1, or 8:1) to optimize resource allocation for their specific workloads.",
-      "category": "SERVERLESS",
-      "timestamp": "2026-03-27T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/lambda-32-gb-memory-16-vcpus/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f3f39d8e938acc8b5e3f7ec8edc2443967e440e5",
-      "title": "AWS Management Console now supports settings to control service and Region visibility",
-      "summary": "AWS has launched new account settings for the AWS Management Console that allow administrators to control which services and regions are visible to users within their account. These \"Visible services\" and \"Visible Regions\" settings help simplify navigation and make it easier for users to identify what resources are available to them. The settings can be configured through the Unified Settings section in the Account Settings tab of the AWS Management Console.",
-      "category": "OTHER",
-      "timestamp": "2026-03-27T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/account-customizations-console/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 562,
+    "total": 568,
     "byCategory": {
-      "COMPUTE": 55,
+      "COMPUTE": 57,
+      "SECURITY": 115,
+      "OTHER": 138,
+      "DATABASE": 49,
+      "STORAGE": 24,
       "ANALYTICS": 19,
-      "SECURITY": 114,
-      "DATABASE": 47,
-      "OTHER": 137,
       "AI_ML": 116,
       "CONTAINERS": 29,
-      "SERVERLESS": 14,
-      "STORAGE": 23,
+      "SERVERLESS": 13,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-06-25T12:21:34.162Z"
+    "lastUpdated": "2026-06-25T23:17:58.302Z"
   },
-  "generatedAt": "2026-06-25T12:21:34.162Z"
+  "generatedAt": "2026-06-25T23:17:58.302Z"
 }
