@@ -5619,34 +5619,14 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/account-customizations-console/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "779e4a8de152ebcc9c5bc95db031108ee2c34fb4",
-      "title": "Amazon GameLift Servers expands instance support with next-generation EC2 instance families",
-      "summary": "Amazon GameLift Servers now supports next-generation EC2 instances (5th-8th generation), providing improved price-performance, efficiency, and flexibility for game server hosting. The update includes support for General Purpose (M-series) instances with balanced resources and Compute Optimized (C-series) instances with high-performance compute capabilities for various game workloads.",
-      "category": "COMPUTE",
-      "timestamp": "2026-03-27T09:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-gamelift-servers-expands-instance-support/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "3a0adc09fb3bd334645bdd6369476d8358662655",
-      "title": "AWS HealthImaging announces study-level fine-grained access control",
-      "summary": "AWS HealthImaging has introduced fine-grained access control that allows organizations to manage access to medical imaging data at the DICOM study and series levels. This new feature enables customers to grant users access to specific image sets through easy-to-maintain IAM policies, improving security and workflow management for medical imaging data stored in AWS HealthImaging.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-27T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-healthimaging-study-level-access-control/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 564,
+    "total": 562,
     "byCategory": {
-      "COMPUTE": 56,
+      "COMPUTE": 55,
       "ANALYTICS": 19,
-      "SECURITY": 115,
+      "SECURITY": 114,
       "DATABASE": 47,
       "OTHER": 137,
       "AI_ML": 116,
@@ -5655,7 +5635,7 @@
       "STORAGE": 23,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-06-24T23:03:17.768Z"
+    "lastUpdated": "2026-06-25T12:21:34.162Z"
   },
-  "generatedAt": "2026-06-24T23:03:17.768Z"
+  "generatedAt": "2026-06-25T12:21:34.162Z"
 }
