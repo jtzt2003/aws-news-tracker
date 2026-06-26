@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "6cf20cdc8aafd08ce1a7432b37e7fdb4ec45208d",
+      "title": "Amazon EC2 R8g instances now available in additional regions",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8g instances are available in AWS Asia Pacific (Thailand, New Zealand), AWS Africa (Cape Town), AWS Europe (Milan), and AWS Canada West (Calg...",
+      "category": "SECURITY",
+      "timestamp": "2026-06-26T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-r8g-instances-additional-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "51d3f13cb5ad5749c0f1e2fce0c4d777f8793437",
       "title": "Amazon EC2 C7a instances are now available in the Asia Pacific (Singapore) Region",
       "summary": "Starting today, the compute optimized Amazon EC2 C7a instances are now available in AWS Asia Pacific (Singapore) Region. C7a instances, powered by 4th Gen AMD EPYC processors (code-named Genoa) with a...",
@@ -47,6 +57,16 @@
       "category": "SECURITY",
       "timestamp": "2026-06-25T17:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/kiro-fedramp-high-dod-il-4-5-govcloud-us/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "37478c699094c6ae2dbf267a395b77bef7d62fb4",
+      "title": "Amazon EC2 C8in instances are now available in additional regions",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8in instances are available in the AWS US East (Ohio) and Europe (Ireland) regions. C8in instances are powered by custom, sixth generation In...",
+      "category": "COMPUTE",
+      "timestamp": "2026-06-25T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c8in-ireland-ohio/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5682,10 +5702,10 @@
     }
   ],
   "stats": {
-    "total": 568,
+    "total": 570,
     "byCategory": {
-      "COMPUTE": 57,
-      "SECURITY": 115,
+      "SECURITY": 116,
+      "COMPUTE": 58,
       "OTHER": 138,
       "DATABASE": 49,
       "STORAGE": 24,
@@ -5695,7 +5715,7 @@
       "SERVERLESS": 13,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-06-26T12:11:10.133Z"
+    "lastUpdated": "2026-06-26T23:06:05.250Z"
   },
-  "generatedAt": "2026-06-26T12:11:10.134Z"
+  "generatedAt": "2026-06-26T23:06:05.250Z"
 }
