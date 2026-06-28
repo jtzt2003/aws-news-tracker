@@ -5679,30 +5679,10 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/access-cluster-insights-opensearch/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "966266a1e9c330d03ead8b04152f575c03f617cf",
-      "title": "Amazon SageMaker Data Agent is now available in the Amazon SageMaker Unified Studio Query Editor",
-      "summary": "Amazon SageMaker Data Agent is now available in the Query Editor within Amazon SageMaker Unified Studio, expanding beyond its previous notebook-only availability. The feature enables users to generate SQL queries from natural language prompts, debug failed queries, and explore data through a conversational interface. This brings the same AI-powered conversational experience from notebooks to SQL analytics workflows, allowing users to perform complex data analysis tasks using plain English commands.",
-      "category": "AI_ML",
-      "timestamp": "2026-03-30T09:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-data-agent-query-editor/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "9adb4953caa36f10744718a9b4eb38b04a3fc5d9",
-      "title": "AWS Direct Connect adds CloudWatch metrics for BGP monitoring",
-      "summary": "AWS Direct Connect now offers three new CloudWatch metrics that provide native monitoring of BGP session health and route counts for virtual interfaces (VIFs). This eliminates the need for network engineers to build custom solutions or use Lambda functions to monitor BGP sessions in hybrid cloud environments. The new metrics give operations teams better visibility into their Direct Connect connectivity through AWS's standard monitoring service.",
-      "category": "SERVERLESS",
-      "timestamp": "2026-03-30T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-direct-connect-cloudwatch-bgp-monitoring/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 570,
+    "total": 568,
     "byCategory": {
       "SECURITY": 116,
       "COMPUTE": 58,
@@ -5710,12 +5690,12 @@
       "DATABASE": 49,
       "STORAGE": 24,
       "ANALYTICS": 19,
-      "AI_ML": 116,
+      "AI_ML": 115,
       "CONTAINERS": 29,
-      "SERVERLESS": 13,
+      "SERVERLESS": 12,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-06-27T23:02:31.751Z"
+    "lastUpdated": "2026-06-28T11:46:31.032Z"
   },
-  "generatedAt": "2026-06-27T23:02:31.751Z"
+  "generatedAt": "2026-06-28T11:46:31.032Z"
 }
