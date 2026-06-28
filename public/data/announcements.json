@@ -5619,83 +5619,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/rcs-business-messaging/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "3f7b7951d22b0899919ff30c852d14efa488aec0",
-      "title": "Amazon CloudWatch now supports multi-account and region log centralization based on data source",
-      "summary": "Amazon CloudWatch now supports centralizing logs from multiple AWS accounts and regions based on data source name and type, rather than just log group names. Customers can create centralization rules that target specific data sources like VPC Flow Logs, EKS Audit Logs, and CloudTrail Logs to copy them into a single destination account. This enhancement provides more flexible and intuitive log management across multi-account AWS environments.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-30T23:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/cloudwatch-centralization-datasource/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "33fe0a3c947c299ccb0f2f2a2eb2ab1c76b919a8",
-      "title": "AWS Security Hub is now available in AWS GovCloud (US) Regions",
-      "summary": "AWS Security Hub is now available in both AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. This unified cloud security solution helps organizations prioritize critical security issues and respond at scale by correlating security signals from services like Amazon GuardDuty and Amazon Inspector. The expansion enables government and regulated organizations to improve their security posture and team productivity within the GovCloud environment.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-30T22:40:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-security-hub-govcloud-us-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ba97c6b40b83c7d8d593486323ebb5042122bae6",
-      "title": "AWS HealthOmics introduces VPC-connected workflows",
-      "summary": "AWS HealthOmics has launched VPC-connected workflows, allowing life sciences customers to run bioinformatics pipelines that can access AWS resources across different regions and public internet resources through their Virtual Private Cloud. This eliminates the need for customers to migrate their data and dependencies to the same AWS Region as their workflow before running analyses. The HIPAA-eligible service is designed to help accelerate scientific breakthroughs at scale.",
-      "category": "OTHER",
-      "timestamp": "2026-03-30T21:58:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-healthomics-vpc-connected-workflows/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d987604e7c4c4d7c67186e5c86e5b5718802bbd2",
-      "title": "AWS Elemental MediaTailor now available in Europe (London)",
-      "summary": "AWS Elemental MediaTailor, a personalized ad insertion and channel assembly service, is now available in the Europe (London) AWS Region. The service enables video providers to deliver targeted ads in live and on-demand streams using server-side ad insertion, providing broadcast-quality viewing without buffering or ad blocker issues. This expansion helps customers better serve viewers in Europe with improved performance and reduced latency.",
-      "category": "OTHER",
-      "timestamp": "2026-03-30T20:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-elemental-mediatailor-london-region/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d44cbe486b9e50e8d37b68dd8bfe82fe4f9059f2",
-      "title": "Amazon Athena launches Capacity Reservations in additional regions",
-      "summary": "Amazon Athena has expanded Capacity Reservations to additional AWS regions including US West (N. California), Africa (Cape Town), and several Asia Pacific locations. Capacity Reservations provide dedicated serverless capacity that allows your most critical workloads to run in isolation with controlled query concurrency, separate from other workloads in your account.",
-      "category": "ANALYTICS",
-      "timestamp": "2026-03-30T19:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-athena-adding-cap-reservation-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "055a060ba300429617015622da83cd22b956b888",
-      "title": "Access Cluster Insights through the Amazon OpenSearch Service Console and Amazon EventBridge events",
-      "summary": "Amazon OpenSearch Service now allows users to access Cluster Insights directly through the AWS Management Console, eliminating the need to switch between interfaces when reviewing performance and resilience recommendations. Additionally, Cluster Insights can now publish operational health insights as events to Amazon EventBridge for improved automation and monitoring capabilities.",
-      "category": "SERVERLESS",
-      "timestamp": "2026-03-30T14:51:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/access-cluster-insights-opensearch/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 568,
+    "total": 562,
     "byCategory": {
-      "SECURITY": 116,
+      "SECURITY": 114,
       "COMPUTE": 58,
-      "OTHER": 138,
+      "OTHER": 136,
       "DATABASE": 49,
       "STORAGE": 24,
-      "ANALYTICS": 19,
+      "ANALYTICS": 18,
       "AI_ML": 115,
       "CONTAINERS": 29,
-      "SERVERLESS": 12,
+      "SERVERLESS": 11,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-06-28T11:46:31.032Z"
+    "lastUpdated": "2026-06-28T23:01:57.930Z"
   },
-  "generatedAt": "2026-06-28T11:46:31.032Z"
+  "generatedAt": "2026-06-28T23:01:57.930Z"
 }
