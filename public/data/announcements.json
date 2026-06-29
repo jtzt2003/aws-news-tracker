@@ -1,6 +1,26 @@
 {
   "announcements": [
     {
+      "id": "b184281dc8e279c56cc8937674d2812563878832",
+      "title": "Amazon MWAA Serverless now supports shared VPC configurations",
+      "summary": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) Serverless now supports shared VPC subnets. Previously, customers using subnets shared via AWS Resource Access Manager (AWS RAM) received a va...",
+      "category": "AI_ML",
+      "timestamp": "2026-06-29T17:19:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mwaa-serverless-vpc/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7ae408d8f9843ec7576da93a5ad5ebee7fe13e06",
+      "title": "Amazon S3 server access logs now deliver to Amazon CloudWatch Logs and Amazon S3 Tables",
+      "summary": "Amazon S3 now supports delivering server access logs to Amazon CloudWatch Logs, giving you instant querying, alarms, cross-account and cross-Region aggregation, and AWS Key Management Service (KMS) en...",
+      "category": "SECURITY",
+      "timestamp": "2026-06-29T04:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-s3-cloudwatch-logs-tables/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "6cf20cdc8aafd08ce1a7432b37e7fdb4ec45208d",
       "title": "Amazon EC2 R8g instances now available in additional regions",
       "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8g instances are available in AWS Asia Pacific (Thailand, New Zealand), AWS Africa (Cape Town), AWS Europe (Milan), and AWS Canada West (Calg...",
@@ -5469,173 +5489,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-cloudwatch-securityhub-findings/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "f67e572f34eaec169706f81ba232081539169d4d",
-      "title": "AWS launches Sustainability console for carbon emissions tracking",
-      "summary": "AWS has launched the AWS Sustainability console, a free standalone service that allows customers to track their carbon emissions and environmental impact from AWS usage. This new service expands on the existing Customer Carbon Footprint Tool by removing access barriers, enabling sustainability professionals to view emissions data without needing billing permissions. The console ensures organizations can provide the appropriate teams with access to environmental data for better sustainability management.",
-      "category": "OTHER",
-      "timestamp": "2026-03-31T22:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-launches-sustainability-console/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d0a5dea2bd685007afad04f08e200b814db7aad6",
-      "title": "Amazon OpenSearch Service introduces agentic AI for log analytics",
-      "summary": "Amazon OpenSearch Service has launched agentic AI capabilities that allow engineering and support teams to analyze log data through natural language conversations. The new features simplify log querying and speed up incident investigations by enabling autonomous root cause analysis and maintaining persistent conversations within the OpenSearch UI. This enhancement transforms how teams interact with observability data by replacing complex queries with intuitive conversational interfaces.",
-      "category": "ANALYTICS",
-      "timestamp": "2026-03-31T21:17:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/opensearch-agentic-ai-log-analytics-observability/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "313edfe4a42b990eea57912e2827624e2248f621",
-      "title": "AWS IAM Identity Center is now available in AWS European Sovereign Cloud (Germany) Region",
-      "summary": "AWS IAM Identity Center is now available in the new AWS European Sovereign Cloud (Germany) Region, which is designed to help customers meet sovereignty requirements by being entirely located within the EU. IAM Identity Center is AWS's recommended service for managing workforce access to AWS applications, allowing organizations to connect their existing identity sources and provide users with single sign-on access.",
-      "category": "OTHER",
-      "timestamp": "2026-03-31T21:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-iam-identity-center-european-sovereign-cloud-germany-region/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "e47de81463b98d15248229194466adbc5df29311",
-      "title": "Amazon Managed Service for Apache Flink now supports Apache Flink 2.2",
-      "summary": "Amazon Managed Service for Apache Flink now supports Apache Flink version 2.2, which includes significant runtime improvements like Java 17 support, RocksDB 8.10.0 for enhanced I/O performance, and serialization enhancements. The update deprecates Dataset API and Scala APIs, while allowing users to either create new applications on Flink 2.2 or perform in-place version upgrades for existing compatible applications.",
-      "category": "OTHER",
-      "timestamp": "2026-03-31T20:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-managed-service-flink-2-2/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "0c9845cbc17919e39c36a3bfeb73aceb4ed328f3",
-      "title": "Amazon SageMaker Unified Studio adds Observability for AWS Glue jobs via CloudWatch metrics",
-      "summary": "Amazon SageMaker Unified Studio now provides enhanced observability for AWS Glue jobs by displaying Amazon CloudWatch metrics directly alongside job logs in a single interface. This new feature enables data engineers and ETL developers to streamline troubleshooting by correlating resource utilization patterns like DPU utilization, memory consumption, and CPU load with job performance. The integration allows teams to diagnose performance issues more quickly and efficiently.",
-      "category": "AI_ML",
-      "timestamp": "2026-03-31T19:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/sagemaker-unified-studio-metrics/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "01b19d5b9d240557c3a05ea991a00dc5b98fcd57",
-      "title": "AWS Organizations now provides organization paths in API responses",
-      "summary": "AWS Organizations now includes complete organizational paths for accounts and organizational units (OUs) directly in API responses, eliminating the need for multiple API calls to navigate organizational hierarchies. This enhancement streamlines management for enterprise customers with complex, deeply nested AWS Organizations by providing full structural context in a single API call.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-31T18:59:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-organizations-paths-api-responses/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "93677df90459efb9466c2d08a9da0319b300c1b2",
-      "title": "AWS Deadline Cloud now supports new fleet scaling configurations for render farms ",
-      "summary": "AWS Deadline Cloud has introduced three new fleet scaling configurations - worker idle duration, standby worker count, and scale out rate - that provide greater flexibility for managing render farm capacity and performance. These new options allow creative teams to directly control the balance between rendering speed and cost efficiency in their cloud-based rendering workloads. AWS Deadline Cloud is a fully managed service designed to help teams efficiently scale their rendering operations.",
-      "category": "OTHER",
-      "timestamp": "2026-03-31T18:29:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/deadline-cloud-fleet-scaling/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "e62ab27969c79e8968e253229a87955afb06dc6a",
-      "title": "AWS Marketplace sellers can now self-serve refunds and agreement cancellations",
-      "summary": "AWS Marketplace has launched a new self-service feature that allows sellers to process refunds and cancel agreements directly without filing support tickets. The streamlined process provides full visibility for both sellers and buyers, with buyers able to review and approve cancellation requests through the AWS Marketplace console and see refunds on their charge summary.",
-      "category": "SERVERLESS",
-      "timestamp": "2026-03-31T18:28:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-marketplace-seller-self-service-refund-cancel/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ff215a44e1c0a304c407d5a754cb630c3a15e5dc",
-      "title": "Aurora DSQL launches new connectors that simplify building .NET and Rust applications",
-      "summary": "AWS has released new connectors for Aurora DSQL that simplify building applications in .NET (Npgsql) and Rust (SQLx). These connectors automatically handle authentication by generating tokens for each connection, eliminating the need for traditional passwords while maintaining full compatibility with existing Npgsql and SQLx features.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-31T17:34:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aurora-dsql-rust-npgsql-connectors/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4210db5a21240a92d9af89756eebada3cacfc44f",
-      "title": "Amazon S3 Vectors expands to 17 additional AWS Regions",
-      "summary": "Amazon S3 Vectors has expanded its availability to 17 additional AWS Regions across Africa, Asia Pacific, Europe, North America, and South America. This expansion includes regions such as Cape Town, Hong Kong, Hyderabad, Jakarta, Melbourne, Zurich, Mexico Central, and others. The service is described as the first cloud object storage solution for vector data, making it more globally accessible for customers worldwide.",
-      "category": "AI_ML",
-      "timestamp": "2026-03-31T17:28:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/s3-vectors-expands-17-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b4e65bb3d8e56843f7286fc077317cc5d1d8a46f",
-      "title": "AWS announces End User Messaging Notify",
-      "summary": "AWS has launched End User Messaging Notify, a new service that allows developers to send one-time passcodes (OTPs) within minutes using AWS-owned phone numbers and sender IDs. This eliminates the typical weeks or months businesses usually spend obtaining phone numbers, completing carrier registrations, and setting up sender IDs for customer verification systems.",
-      "category": "OTHER",
-      "timestamp": "2026-03-31T17:24:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-end-user-messaging-notify/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ce20b24f65f5b547b8f5413c1300a670e12e002b",
-      "title": "AWS Service Availability Updates",
-      "summary": "AWS is announcing that Amazon Application Recovery Controller will be moving to maintenance mode starting April 30, 2026. New customers will no longer be able to access this service after that date, but existing customers can continue using it with ongoing AWS support and operations. AWS recommends that customers review the changes in the product documentation to understand the implications.",
-      "category": "AI_ML",
-      "timestamp": "2026-03-31T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-service-availability/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "451564802bd1ca7f61cffbe97316000a475a9173",
-      "title": "Amazon ECS Managed Instances now supports Amazon EC2 instance store",
-      "summary": "Amazon ECS Managed Instances now supports Amazon EC2 instance store volumes as a data volume option for container workloads. This enhancement allows users to leverage instance store volumes instead of provisioning Amazon EBS data volumes, resulting in reduced storage costs and improved I/O performance for latency-sensitive applications.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-03-31T16:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ecs-mi-local-storage/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "158aa1210be7b0821a0ec593d7ef552f726ed450",
-      "title": "Amazon Bedrock AgentCore Evaluations is now generally available",
-      "summary": "Amazon Bedrock AgentCore Evaluations is now generally available, offering automated quality assessment tools for AI agents. The service provides two evaluation types: online evaluation that continuously monitors agent performance in production by sampling live traffic, and on-demand evaluation for testing workflows and validating changes. This enables developers to measure agent performance against defined expectations and maintain quality standards through continuous monitoring.",
-      "category": "AI_ML",
-      "timestamp": "2026-03-31T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/agentcore-evaluations-generally-available/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "e6ba6d658f7226978a212e94e3e5d3b7b53956b2",
-      "title": "AWS End User Messaging now supports RCS for Business",
-      "summary": "AWS End User Messaging has added support for Rich Communication Services (RCS) for Business, allowing companies to send messages that display their verified business name and logo instead of generic phone numbers. This enhancement helps businesses build greater trust with customers by delivering branded messages through the messaging apps customers already use. The service provides a scalable and cost-effective solution for integrating RCS capabilities into business applications.",
-      "category": "AI_ML",
-      "timestamp": "2026-03-31T15:57:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/rcs-business-messaging/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 562,
+    "total": 549,
     "byCategory": {
-      "SECURITY": 114,
+      "AI_ML": 111,
+      "SECURITY": 113,
       "COMPUTE": 58,
-      "OTHER": 136,
+      "OTHER": 131,
       "DATABASE": 49,
       "STORAGE": 24,
-      "ANALYTICS": 18,
-      "AI_ML": 115,
-      "CONTAINERS": 29,
-      "SERVERLESS": 11,
+      "ANALYTICS": 17,
+      "CONTAINERS": 28,
+      "SERVERLESS": 10,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-06-29T14:03:35.818Z"
+    "lastUpdated": "2026-06-29T22:58:14.583Z"
   },
-  "generatedAt": "2026-06-29T14:03:35.818Z"
+  "generatedAt": "2026-06-29T22:58:14.583Z"
 }
