@@ -1,6 +1,26 @@
 {
   "announcements": [
     {
+      "id": "8dcd02c146c55a39d18f9e0c4fda7a3fa23e00a3",
+      "title": "OpenAI GPT-5.4 and NVIDIA Nemotron 3 Super 120B now available on Kiro in AWS GovCloud (US-West) Region",
+      "summary": "Two new models are now available in the Kiro IDE and CLI for the AWS GovCloud (US-West) Region.\n  OpenAI GPT-5.4 is now available in Kiro for complex reasoning, coding, document analysis, and multi-st...",
+      "category": "AI_ML",
+      "timestamp": "2026-06-30T09:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/kiro-gpt-nemotron-launch-aws-govcloud-us/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "41ba3bb913a29423624f41b03fda36a9572f9f12",
+      "title": "AWS WAF adds support for Amazon Bedrock AgentCore Gateway",
+      "summary": "Today, AWS announces general availability of AWS Web Application Firewall (AWS WAF) protection for Amazon Bedrock AgentCore Gateway, enabling you to protect your agentic AI workloads from common web e...",
+      "category": "SECURITY",
+      "timestamp": "2026-06-29T22:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-waf-amazon-bedrock-agentcore/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "b184281dc8e279c56cc8937674d2812563878832",
       "title": "Amazon MWAA Serverless now supports shared VPC configurations",
       "summary": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) Serverless now supports shared VPC subnets. Previously, customers using subnets shared via AWS Resource Access Manager (AWS RAM) received a va...",
@@ -5449,55 +5469,15 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/rds-oracle-cross-account-snapshot-sharing-additional-storage-volume/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "49b55bc32219f273b7ee3c25c74f68633b83b2be",
-      "title": "Amazon Bedrock now supports structured outputs to AWS GovCloud (US) Regions",
-      "summary": "Amazon Bedrock has expanded its structured outputs feature to AWS GovCloud (US) Regions, enabling foundation models to return consistent, schema-compliant responses. This enhancement is specifically designed for government and regulated workloads that require strict compliance and data handling standards. The feature ensures machine-readable outputs that meet the rigorous requirements of federal and regulated environments.",
-      "category": "AI_ML",
-      "timestamp": "2026-04-01T10:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-bedrock-structured-outputs-govcloud/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "3c8a4722825bfba2d1d41c88d698983145dec8a3",
-      "title": "Oracle Database@AWS launches sub-millisecond network latency for high performance applications",
-      "summary": "Oracle Database@AWS has launched high performance networking that delivers consistent sub-millisecond roundtrip latency between AWS applications and Oracle databases. This enhancement specifically targets latency-sensitive applications like payment processing, securities trading, and high-volume transaction processing that require predictable, low-latency database connectivity. The service brings the performance benefits that customers previously achieved with on-premises Oracle Exadata systems to the AWS cloud environment.",
-      "category": "COMPUTE",
-      "timestamp": "2026-04-01T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/oracle-database-aws-launches-high-performance-networking/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "076f9073713276da432dee8ec4239fc55777a452",
-      "title": "AWS Managed Microsoft AD adds Multi-Region replication for Opt-In regions ",
-      "summary": "AWS Managed Microsoft AD now supports Multi-Region replication in AWS Opt-In regions, expanding this capability beyond the standard AWS regions. This eliminates the need to manually create and synchronize separate directories in each region, allowing domain-joined workloads to automatically connect to AWS Managed Microsoft AD across multiple regions.",
-      "category": "OTHER",
-      "timestamp": "2026-04-01T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/multi-region-opt-in-aws-microsoft-ad/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "7b2d5c40f41792f1d6078e0935e8d496127fc4ad",
-      "title": "Amazon CloudWatch now supports ingesting Security Hub CSPM findings with organization-wide enablement",
-      "summary": "Amazon CloudWatch now supports ingesting AWS Security Hub Cloud Security Posture Management (CSPM) findings, allowing customers to centrally analyze and monitor security data directly in CloudWatch Logs. The integration supports both AWS Security Finding Format (ASFF) and Open Cybersecurity Schema Framework (OCSF) formats through CloudWatch Pipelines. This enables customers to use CloudWatch Logs Insights for querying findings and creating metric filters for enhanced security monitoring across their organization.",
-      "category": "SECURITY",
-      "timestamp": "2026-03-31T23:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-cloudwatch-securityhub-findings/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 549,
+    "total": 547,
     "byCategory": {
       "AI_ML": 111,
       "SECURITY": 113,
-      "COMPUTE": 58,
-      "OTHER": 131,
+      "COMPUTE": 57,
+      "OTHER": 130,
       "DATABASE": 49,
       "STORAGE": 24,
       "ANALYTICS": 17,
@@ -5505,7 +5485,7 @@
       "SERVERLESS": 10,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-06-29T22:58:14.583Z"
+    "lastUpdated": "2026-06-30T12:08:32.953Z"
   },
-  "generatedAt": "2026-06-29T22:58:14.583Z"
+  "generatedAt": "2026-06-30T12:08:32.953Z"
 }
