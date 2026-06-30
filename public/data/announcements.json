@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "b87e302fb66860381af94b2f50976738202d779d",
+      "title": "Amazon CloudWatch Logs enriches log events with AWS resource tags",
+      "summary": "Amazon CloudWatch Logs now enriches log events with resource tags, making it easier to filter, search, and analyze logs by the metadata that matters most to your organization, such as  team ownership,...",
+      "category": "OTHER",
+      "timestamp": "2026-06-30T21:15:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-logs-resource-tags/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7600036bc74c7427ee294a17031f502c988719c4",
+      "title": "AWS CloudFormation and CDK accelerate development feedback loops with pre-deployment validation on all stack operations",
+      "summary": "AWS CloudFormation customers can now get immediate feedback on deployment errors in seconds, eliminating the need to wait through a full provision-and-rollback cycle to discover preventable failures. ...",
+      "category": "OTHER",
+      "timestamp": "2026-06-30T21:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cloudformation/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "42446797a614c9509fbe726dc22de022ce84ff4a",
+      "title": "AWS CloudFormation and CDK express mode speeds up infrastructure deployments by up to 4x",
+      "summary": "AWS CloudFormation and CDK express mode reduces deployment time by up to 4x for developers and AI agents building infrastructure, based on internal benchmarks. Express mode completes stack operations ...",
+      "category": "NETWORKING",
+      "timestamp": "2026-06-30T21:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cloudformation-cdk/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "482fb69fcd74179c396245cca3a93cbee02fa79d",
+      "title": " Amazon RDS Enhances IAM Database Authentication with Connection Rate Scaling",
+      "summary": "Amazon Relational Database Service (Amazon RDS) now offers dynamic connection scaling for IAM database authentication, allowing connection rates to scale with instance resources.\n  IAM database authen...",
+      "category": "DATABASE",
+      "timestamp": "2026-06-30T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-iam/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "dae167c9c142d3b07f44db70b289984435a32ee9",
+      "title": "AWS Parallel Computing Service supports in-place Slurm major version upgrades",
+      "summary": "AWS Parallel Computing Service (PCS) now supports managed in-place Slurm version upgrades for existing clusters. You can move your clusters up to three Slurm major versions ahead with no disruption to...",
+      "category": "OTHER",
+      "timestamp": "2026-06-30T19:12:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-parallel-computing-service-upgrade/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ff17ddcaa6ed7417a796f7556ba7d96dcff60702",
+      "title": "Amazon ElastiCache T4g nodes now available in additional AWS Regions",
+      "summary": "Amazon ElastiCache now supports T4g node types in the following AWS Regions: Africa (Cape Town), Asia Pacific (Jakarta), Asia Pacific (Osaka), AWS GovCloud (US-East), and AWS GovCloud (US-West). T4g n...",
+      "category": "DATABASE",
+      "timestamp": "2026-06-30T19:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-elasticache-t4g-additional-aws-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b32a050bdd315a4a56f6b8377f7f8d943f280706",
+      "title": "Amazon Neptune announces dual stack support with IPv6",
+      "summary": "Amazon Neptune now supports dual-stack mode, enabling database clusters to accept connections over IPv4, IPv6, or both protocols simultaneously. This allows organizations to adopt IPv6 while maintaini...",
+      "category": "DATABASE",
+      "timestamp": "2026-06-30T19:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-neptune-ipv6/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ad8056d10c1199562ca28f30b3e1d269f2539616",
+      "title": "AWS End User Messaging RCS now supports rich media and interactive messaging",
+      "summary": "AWS End User Messaging now supports rich media and interactive messaging for RCS across all 22 supported countries. With the new SendRcsMessage API, you can send rich cards, carousels, images, videos,...",
+      "category": "OTHER",
+      "timestamp": "2026-06-30T18:21:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-end-user-messaging-rcs/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0be7ffb21ac297793e7d1574d9a62f6ac3c07dc7",
+      "title": "Amazon Time Sync Service adds support for Microsecond accurate time on 26 additional EC2 instance types in all commercial regions ",
+      "summary": "Amazon Time Sync Service introduces support for microsecond accurate time on 26 additional EC2 instance types in all commercial regions. Built on Amazon's proven network infrastructure and the AWS Nit...",
+      "category": "COMPUTE",
+      "timestamp": "2026-06-30T17:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-time-sync-precision-time-placement-group",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "41450c931cd8a81a35e5449c51e673b644da4f7b",
+      "title": "Announcing general availability of Amazon WorkSpaces for AI agents",
+      "summary": "Amazon WorkSpaces for agents is now generally available, enabling AI agents to securely access and operate desktop applications through managed WorkSpaces environments. Enterprises run critical busine...",
+      "category": "OTHER",
+      "timestamp": "2026-06-30T17:28:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-workspaces-ai/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "8dcd02c146c55a39d18f9e0c4fda7a3fa23e00a3",
       "title": "OpenAI GPT-5.4 and NVIDIA Nemotron 3 Super 120B now available on Kiro in AWS GovCloud (US-West) Region",
       "summary": "Two new models are now available in the Kiro IDE and CLI for the AWS GovCloud (US-West) Region.\n  OpenAI GPT-5.4 is now available in Kiro for complex reasoning, coding, document analysis, and multi-st...",
@@ -5409,83 +5509,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-workspaces-applications-drain-mode/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "ded663bf7739fee4c2c8db7747466b20c798f6e1",
-      "title": "Amazon SES Mail Manager adds new features for enhanced security and email processing",
-      "summary": "Amazon SES Mail Manager has introduced new security and processing features, including optional TLS and certificate-based authentication (mTLS) support for Ingress Endpoints, plus two new rule actions: Invoke Lambda function and Bounce. These enhancements help organizations maintain compatibility with legacy systems while implementing stronger security controls and simplifying email infrastructure migrations.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-01T21:13:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ses-mail-manager-introduces-new-features/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "a9d3ffae33b5d26ccdf2d68f2c85830034dc66f3",
-      "title": "Amazon ECS announces Managed Daemons for ECS Managed Instances",
-      "summary": "Amazon ECS has introduced Managed Daemons for ECS Managed Instances, allowing organizations to centrally deploy and manage software agents (security, observability, and networking) across their container infrastructure independently from application deployments. This feature decouples daemon lifecycle management from application operations, ensuring reliable agent coverage across all workloads while simplifying deployments, version updates, and improving resource utilization.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-01T21:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ecs-managed-daemons/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "82a66146e090419169bf39a4fd9ac34f723ec9f0",
-      "title": "Amazon SageMaker Data Agent now supports geo-specific inference for Japan and Australia",
-      "summary": "Amazon SageMaker Data Agent now supports geo-specific inference for Japan and Australia through Amazon Bedrock cross-region inference profiles. This enhancement ensures that inference requests from the Asia Pacific (Tokyo) and Asia Pacific (Sydney) regions are processed within their respective local geographies to meet data sovereignty requirements. The feature helps customers in these regions maintain compliance while using Data Agent's AI-powered conversational capabilities for data exploration and code generation.",
-      "category": "AI_ML",
-      "timestamp": "2026-04-01T20:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/sage-maker-da-infr-jp-au/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ab33759bd0cd816a138c75880efb9e69364e0b08",
-      "title": "AWS VPC Encryption Controls now available in AWS GovCloud (US) Regions",
-      "summary": "AWS has launched VPC Encryption Controls in AWS GovCloud (US) Regions, enabling organizations to easily audit and enforce encryption in transit within and across Virtual Private Clouds. This feature helps demonstrate compliance with encryption standards by monitoring traffic flows and identifying resources that may be allowing unencrypted plaintext traffic. The controls can be applied to existing VPCs and automatically enforce encryption across different network paths.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-01T18:20:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-vpc-encryption-controls/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c31ad1e04885c36e8ac3ad37a60006fa9d72aeeb",
-      "title": "Amazon CloudFront now supports SHA-256 for signed URLs and signed cookies",
-      "summary": "Amazon CloudFront now supports SHA-256 as a hash algorithm for creating signed URLs and signed cookies, upgrading from the previous SHA-1-only option. This enhancement provides stronger cryptographic security with better collision detection and alignment with modern security standards. The new SHA-256 support helps customers meet stricter security and compliance requirements when restricting access to content.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-01T17:38:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudfront-sha-256-signed-urls/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "77caadc934979d86f3d46d23129df7cb728d2fc6",
-      "title": "Amazon RDS for Oracle now supports cross-account snapshot sharing with additional storage volumes",
-      "summary": "Amazon RDS for Oracle now supports cross-account snapshot sharing for database instances that use additional storage volumes, which allow customers to scale storage up to 256 TiB total by adding up to three 64 TiB volumes beyond the primary storage. This enhancement enables customers to create, share, and copy database snapshots across different AWS accounts even when their Oracle instances are configured with these additional storage volumes.",
-      "category": "DATABASE",
-      "timestamp": "2026-04-01T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/rds-oracle-cross-account-snapshot-sharing-additional-storage-volume/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 547,
+    "total": 551,
     "byCategory": {
-      "AI_ML": 111,
-      "SECURITY": 113,
-      "COMPUTE": 57,
-      "OTHER": 130,
-      "DATABASE": 49,
+      "OTHER": 135,
+      "NETWORKING": 9,
+      "DATABASE": 51,
+      "COMPUTE": 58,
+      "AI_ML": 110,
+      "SECURITY": 109,
       "STORAGE": 24,
       "ANALYTICS": 17,
       "CONTAINERS": 28,
-      "SERVERLESS": 10,
-      "NETWORKING": 8
+      "SERVERLESS": 10
     },
-    "lastUpdated": "2026-06-30T12:08:32.953Z"
+    "lastUpdated": "2026-06-30T23:13:21.265Z"
   },
-  "generatedAt": "2026-06-30T12:08:32.953Z"
+  "generatedAt": "2026-06-30T23:13:21.266Z"
 }
