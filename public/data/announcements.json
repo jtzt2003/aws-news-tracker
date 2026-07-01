@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "513e93fd74ac0006f37bdc7901a1885ee74317b6",
+      "title": "Amazon Bedrock AgentCore increases default runtime quota limits",
+      "summary": "Amazon Bedrock AgentCore has increased the default runtime quota limits, giving customers greater capacity to scale their agent-based workloads. AgentCore is the platform for developers to build, conn...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-01T22:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-bedrock-agentcore-increases-default-runtime-quota-limits/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4c9a60129323d7e086cd369e0b4b050e4995e065",
+      "title": "Amazon CloudWatch supports creating alarms from log queries",
+      "summary": "Amazon CloudWatch allows you to create alarms on log data using log queries, and get alerted on anomalies without leaving your log analysis workflow.\n \nWith today's launch, you can configure an alarm ...",
+      "category": "SERVERLESS",
+      "timestamp": "2026-07-01T21:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cloudwatch-log-alarms/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "fd7493b7b724b4e6312684880174bfc5f73efa4b",
+      "title": "AWS Artifact now includes Assurance Assistant for compliance inquiries",
+      "summary": "AWS Artifact now includes Assurance Assistant, an AI-powered capability that generates citation-backed responses to security and compliance questions about AWS services. AWS Artifact is the service th...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-01T20:01:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-artifact-assurance-assistant/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5c7ee12c82c53e083e1da8b3e391c20b055d60c8",
+      "title": "AWS Partner Central now supports AWS Marketplace listings for co-selling",
+      "summary": "Today, AWS announces that partners can associate one or more AWS Marketplace solutions and product listings from their AWS Marketplace catalog directly to co-sell opportunities in AWS Partner Central....",
+      "category": "OTHER",
+      "timestamp": "2026-07-01T19:06:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-marketplace-co-selling-support/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c1559065d0c564e8c21773b473e9cd5fd262e7a2",
+      "title": "Amazon RDS announces Cross-Region Automated Backups in four additional AWS Regions",
+      "summary": "Cross-Region Automated Backup replication for Amazon RDS is now available in four additional AWS Regions. This launch allows you to setup automated backup replication between Mexico (Central) and Euro...",
+      "category": "DATABASE",
+      "timestamp": "2026-07-01T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-cross-region-automated-backups-additional-aws-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3213d5d65af18262cbc4bda8e798e13e09aa68ac",
+      "title": " Amazon Bedrock AgentCore now available in four additional AWS Regions",
+      "summary": "Amazon Bedrock AgentCore is now available in four additional AWS Regions: Asia Pacific (Bangkok), Asia Pacific (Malaysia), Europe (Milan), and Europe (Spain). Amazon Bedrock AgentCore is the platform ...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-01T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-four-additional-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "36123ebc486bdc57492193e404b6fd435fd7ac60",
+      "title": "Amazon ECS now supports configurable deployment circuit breaker settings",
+      "summary": "Amazon Elastic Container Service (Amazon ECS) now gives you more control over when a service deployment is considered failed and automatically rolled back. You can now customize deployment circuit bre...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-07-01T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-circuit-breaker-settings/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "921492b9329752b15ea3e26aacd9056a230e339c",
+      "title": "Amazon GuardDuty adds sensitive file modification threat detections",
+      "summary": "Amazon GuardDuty Runtime Monitoring now includes three new threat detections that alert security teams when sensitive files are modified on Amazon EC2 instances and container workloads running on Amaz...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-01T16:58:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-guardduty-sfm/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "11dfe8fc7880b5cd9666b81034f6b0a44481669c",
+      "title": "AWS AppConfig launches managed experimentation tools for A/B testing",
+      "summary": "Today, AWS announces the general availability of experimentation tools in AWS AppConfig, a new capability that enables you to run A/B tests and feature experiments without building or managing separat...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-07-01T16:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/6/aws-appconfig-experimentation/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "fcd5eb723961ffc7d9c379dfefd439e16e706b51",
+      "title": "Amazon ECS Express Mode now supports custom task definitions",
+      "summary": "Amazon Elastic Container Service (Amazon ECS) Express Mode now supports custom task definitions, giving you the flexibility to use existing ECS application configurations and advanced task-level custo...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-01T16:05:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-express-mode-custom-task-def/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "b87e302fb66860381af94b2f50976738202d779d",
       "title": "Amazon CloudWatch Logs enriches log events with AWS resource tags",
       "summary": "Amazon CloudWatch Logs now enriches log events with resource tags, making it easier to filter, search, and analyze logs by the metadata that matters most to your organization, such as  team ownership,...",
@@ -5429,103 +5529,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-query-studio-preview/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "6b328ea82722dbe1c4a777cf0b58fb0645bab564",
-      "title": "Amazon ElastiCache Serverless now supports IPv6 and dual stack connectivity",
-      "summary": "Amazon ElastiCache Serverless has expanded its connectivity options to support IPv6 and dual stack configurations, in addition to the previously available IPv4-only connectivity. Users can now choose between IPv4, IPv6, or dual stack network types when creating a Serverless cache. The dual stack option allows caches to accept connections over both IPv4 and IPv6 simultaneously, providing greater flexibility for application connectivity and migration scenarios.",
-      "category": "DATABASE",
-      "timestamp": "2026-04-02T21:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-elasticache-serverless-ipv6-dual-stack/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "cfd6ae119d6740d66e18fedb478929b1bdb26ef7",
-      "title": "Amazon CloudWatch launches OTel Container Insights for Amazon EKS (Preview)",
-      "summary": "Amazon CloudWatch has launched a public preview of OTel Container Insights for Amazon EKS, which enhances the existing Container Insights by collecting metrics from open source and AWS collectors using the OpenTelemetry Protocol (OTLP). This new capability provides deeper visibility into EKS clusters and automatically enriches each metric with up to 150 descriptive labels, including Kubernetes metadata and custom information.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-04-02T20:41:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/cloudwatch-otel-container-insights-eks/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f018e7158a0972638f81f8674456ec26c2b50178",
-      "title": "AWS Deadline Cloud now supports configurable job scheduling modes for queues",
-      "summary": "AWS Deadline Cloud now offers configurable job scheduling modes that give users control over how workers are distributed across jobs in a queue. Previously, all workers were automatically assigned to the highest-priority, earliest-submitted job first, which could cause delays for other jobs waiting in the queue. This update provides more flexibility in managing render workloads for 2D/3D graphics and visual effects production.",
-      "category": "OTHER",
-      "timestamp": "2026-04-02T20:11:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/deadline-cloud-job-scheduling/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b5b4d5b17b304cdf92c5744aa9f7c6d5bf4f636d",
-      "title": "Announcing compute-optimized instance bundles for Amazon Lightsail",
-      "summary": "Amazon Lightsail has launched new compute-optimized instance bundles offering up to 72 vCPUs in 7 different sizes, with support for both IPv6-only and dual-stack networking. These instances support all existing Lightsail blueprints, including popular applications like WordPress, cPanel & WHM, Plesk, Drupal, and Magento on both Linux and Windows operating systems.",
-      "category": "AI_ML",
-      "timestamp": "2026-04-02T20:03:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/lightsail-compute-optimized-instances/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c3ba3debe37ac8497ab103d44a44ad1dd9666e78",
-      "title": "Amazon CloudWatch expands auto-enablement to Amazon CloudFront logs and 3 additional resource types",
-      "summary": "Amazon CloudWatch has expanded its auto-enablement feature to support Amazon CloudFront Standard access logs, AWS Security Hub CSPM finding logs, and Amazon Bedrock AgentCore memory and gateway logs and traces. Customers can now create enablement rules that automatically configure telemetry for both existing and new resources, eliminating the need for manual setup and ensuring consistent monitoring coverage. These rules can be applied at the organization, account, or specific resource level for flexible deployment.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-02T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-cloudfront-enablement/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "3e464a21a4c7fc2a498bae8e6133ca1babf7d15d",
-      "title": "AWS Direct Connect announces 100G expansion in Auckland, New Zealand",
-      "summary": "AWS has expanded its Direct Connect service in Auckland, New Zealand to offer 100 Gbps dedicated connections at the Datacom Orbit DH6 data center. This location now provides private, direct network access to all public AWS Regions (excluding China), AWS GovCloud Regions, and AWS Local Zones. This marks the second AWS Direct Connect location in New Zealand to offer 100 Gbps connections with MACsec encryption capabilities.",
-      "category": "COMPUTE",
-      "timestamp": "2026-04-02T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-direct-connect-100g-auckland/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "8e59acc70b67fe78b19fe522f4077dbff969c7bc",
-      "title": "Amazon CloudWatch now supports OpenTelemetry metrics in public preview",
-      "summary": "Amazon CloudWatch now supports native OpenTelemetry (OTel) metrics in public preview, allowing users to send metrics directly using the OpenTelemetry Protocol without custom conversion logic or additional tooling. Users can combine their custom OpenTelemetry metrics with AWS-provided metrics from over 70 services and query them using PromQL without requiring additional agents or code changes.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-04-02T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-opentelemetry-metrics/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "2f8b5581343aae50676d1a02fa1a21c350175031",
-      "title": "Amazon WorkSpaces Applications improves multi-session fleet management",
-      "summary": "Amazon WorkSpaces Applications has introduced a \"drain mode\" feature for multi-session fleets that allows instances to stop accepting new user sessions while keeping existing sessions running without interruption. This capability enables seamless maintenance, scaling, and system updates without disrupting active users. Multi-session fleets help organizations maximize infrastructure utilization by hosting multiple user sessions on a single instance.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-02T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-workspaces-applications-drain-mode/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 551,
+    "total": 553,
     "byCategory": {
-      "OTHER": 135,
-      "NETWORKING": 9,
-      "DATABASE": 51,
-      "COMPUTE": 58,
       "AI_ML": 110,
-      "SECURITY": 109,
-      "STORAGE": 24,
-      "ANALYTICS": 17,
+      "SERVERLESS": 11,
+      "SECURITY": 111,
+      "OTHER": 135,
+      "DATABASE": 51,
       "CONTAINERS": 28,
-      "SERVERLESS": 10
+      "NETWORKING": 9,
+      "COMPUTE": 57,
+      "STORAGE": 24,
+      "ANALYTICS": 17
     },
-    "lastUpdated": "2026-07-01T12:32:59.412Z"
+    "lastUpdated": "2026-07-01T23:16:05.158Z"
   },
-  "generatedAt": "2026-07-01T12:32:59.413Z"
+  "generatedAt": "2026-07-01T23:16:05.159Z"
 }
