@@ -1,6 +1,46 @@
 {
   "announcements": [
     {
+      "id": "f1e003a8a2e5e86c3c3769843c5dbfb4e1edd82b",
+      "title": "Amazon SageMaker Unified Studio now supports Terraform for provisioning",
+      "summary": "Amazon SageMaker Unified Studio now supports Terraform for provisioning. Customers can use the open-source terraform-aws-sagemaker-unified-studio module to deploy a SageMaker Unified Studio domain thr...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-02T21:49:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified-studio-terraform/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b38e53ac46fcf6f59e2736318ea7e228de7fc8ee",
+      "title": "Amazon EC2 X8i instances are now available in additional regions  ",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the Asia Pacific (Seoul), Asia Pacific (Malaysia) and Asia Pacific (Tokyo) regions. These instances are powered...",
+      "category": "COMPUTE",
+      "timestamp": "2026-07-02T20:48:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-x8i-instances-ICN-KUL-NRT-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "26c12eb566f07645eb4cc2a92856b8f53a375211",
+      "title": "Amazon EC2 Dedicated Hosts now support AMD SEV-SNP",
+      "summary": "Amazon EC2 is announcing support for AMD Secure Encrypted Virtualization-Secure Nested Paging (SEV-SNP) on Dedicated Hosts, enabling customers to run their confidential computing workloads on physical...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-02T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-amd-sev-snp-dedicated-hosts",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "401710a6f2bbe01531e5f01e8bd5289c66a9afc0",
+      "title": "AWS Config now supports 8 new resource types",
+      "summary": "AWS Config now supports 8 additional AWS resource types across key services including Amazon API Gateway, Amazon EC2, and Amazon S3 Vectors. This expansion provides greater coverage over your AWS envi...",
+      "category": "COMPUTE",
+      "timestamp": "2026-07-02T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-config-new-resource-types",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "513e93fd74ac0006f37bdc7901a1885ee74317b6",
       "title": "Amazon Bedrock AgentCore increases default runtime quota limits",
       "summary": "Amazon Bedrock AgentCore has increased the default runtime quota limits, giving customers greater capacity to scale their agent-based workloads. AgentCore is the platform for developers to build, conn...",
@@ -5469,93 +5509,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-rds-oracle-supports-oracle-management-agent-version-for-oracle-enterprise-manager=cloud-control/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "09ca757054b0eeb3dae52391786c0e5a3c927a9c",
-      "title": "Apache Spark troubleshooting and upgrade agents now available as Kiro powers",
-      "summary": "AWS has released Apache Spark troubleshooting and upgrade agents as Kiro powers, providing one-click AI-assisted Spark operations within the Kiro platform. These tools help data engineers dramatically reduce troubleshooting time from hours to minutes and accelerate Spark version upgrades from months to weeks by automatically analyzing logs, metrics, and configurations across EMR environments.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-03T21:49:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-emr-spark-troubleshooting-upgrade-kiro-power/",
-      "source": "AWS What's New",
-      "isNew": true
-    },
-    {
-      "id": "65091c3f4524109535104a3a01bebe71973c46fe",
-      "title": "AWS Glue Schema Registry is now available in three more AWS regions",
-      "summary": "AWS Glue Schema Registry, a serverless and free feature, is now available in three additional regions: Asia Pacific (Jakarta), Europe (Spain), and Europe (Zurich). This service provides centralized management and validation of streaming data schemas in Apache Avro, JSON, and Protobuf formats, helping eliminate data validation complexity between decoupled applications in data streaming systems.",
-      "category": "SERVERLESS",
-      "timestamp": "2026-04-03T21:04:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-gsr-3-more-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "35ac30c6b6b58881a4282902fd2e527182d3d781",
-      "title": "Amazon SageMaker Data Agent introduces charting capabilities and support for materialized views",
-      "summary": "Amazon SageMaker Data Agent has expanded its capabilities to include interactive charting, SQL analytics on Snowflake data sources, and materialized view management within SageMaker Unified Studio notebooks. The enhanced service now offers a complete analytics workflow that allows users to explore data sources, visualize results, and optimize query performance using natural language prompts. Users can simply ask questions like \"plot monthly revenue trends by region for 2025\" and Data Agent will automatically generate the appropriate visualizations and analysis.",
-      "category": "AI_ML",
-      "timestamp": "2026-04-03T20:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sgmkr-dataagent-chart-mv/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "1e2d65c744063ed3661ab33fcf9822261ba1a418",
-      "title": "Amazon Bedrock Guardrails announces general availability of cross-account safeguards",
-      "summary": "Amazon Bedrock Guardrails has launched cross-account safeguards in general availability, allowing organizations to centrally enforce safety controls across all AWS accounts from a single location. The feature helps block up to 88% of harmful multimodal content in both input prompts and model responses, while also filtering hallucinated outputs from foundation models. This enables central security teams to automatically implement consistent safety controls across all foundation model interactions throughout their organization.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-03T19:15:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/bedrock-guardrails-cross-account-safeguards/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "24338fef85f42ac81da8714352080cf749465875",
-      "title": "Partner Revenue Measurement now supports User Agent string for certain AWS services",
-      "summary": "AWS has announced the general availability of Partner Revenue Measurement User Agent string, a new feature that allows AWS Partners to track AWS service consumption generated by their solutions through APIs and SDKs. Partners can embed a unique product code from their AWS Marketplace listing as a user agent to measure their revenue impact and understand product consumption patterns. This capability helps Partners better quantify how their solutions drive AWS service usage and revenue.",
-      "category": "OTHER",
-      "timestamp": "2026-04-03T18:55:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/partner-revenue-measurement-user-agent-support/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "a320b18a86315633f577e6c568b6587c88f7627f",
-      "title": "Partner Revenue Measurement now supports AWS Marketplace Metering for certain AWS Marketplace products",
-      "summary": "AWS has launched Partner Revenue Measurement integration with AWS Marketplace Metering for Amazon Machine Image (AMI) and Machine Learning (ML) products. This integration allows partners to better understand their AWS revenue impact and product consumption patterns by automatically measuring AWS service consumption when customers purchase and use these marketplace products. The feature helps partners gain clearer visibility into how their marketplace offerings drive AWS service usage and revenue.",
-      "category": "AI_ML",
-      "timestamp": "2026-04-03T18:55:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/partner-revenue-supports-mp-metering/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "de49584126e53ea79ede9f5364971870f13dd2b9",
-      "title": "AWS Secrets Manager console now supports custom input for AWS KMS keys ",
-      "summary": "AWS Secrets Manager console now supports custom input for AWS KMS keys when creating secrets, allowing users to directly enter a KMS key Amazon Resource Name (ARN) in addition to selecting from the existing dropdown list. This enhancement provides more flexibility beyond the previous limitation of only choosing from pre-populated KMS keys within the same AWS account.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-03T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-secrets-manager-console-custom-kms-key-input/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 554,
+    "total": 551,
     "byCategory": {
-      "AI_ML": 110,
-      "SERVERLESS": 11,
+      "AI_ML": 109,
+      "COMPUTE": 58,
+      "SECURITY": 109,
+      "SERVERLESS": 10,
       "CONTAINERS": 30,
-      "SECURITY": 111,
-      "OTHER": 135,
+      "OTHER": 134,
       "DATABASE": 51,
       "NETWORKING": 9,
-      "COMPUTE": 56,
       "STORAGE": 24,
       "ANALYTICS": 17
     },
-    "lastUpdated": "2026-07-02T12:08:35.500Z"
+    "lastUpdated": "2026-07-02T23:07:32.735Z"
   },
-  "generatedAt": "2026-07-02T12:08:35.500Z"
+  "generatedAt": "2026-07-02T23:07:32.735Z"
 }
