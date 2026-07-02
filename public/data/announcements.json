@@ -21,6 +21,26 @@
       "isNew": false
     },
     {
+      "id": "e675992fc90c818cddbdc1a4116b782d3c09819b",
+      "title": "ECS Service Connect now supports Zone-Aware routing",
+      "summary": "Amazon Elastic Container Service (Amazon ECS) introduces zone-aware routing for ECS Service Connect, enabling customers to reduce cross Availability Zone (AZ) data transfer costs and latency by automa...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-07-01T21:28:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-service-connect-zone-aware/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "42e163bd32d462553f9a56c4b248b7bafe577526",
+      "title": "Amazon ECS now provides real-time deployment observability in the AWS Management Console",
+      "summary": "Amazon Elastic Container Service (Amazon ECS) now provides real-time deployment observability in the Amazon ECS Console. With this launch, customers can track deployment progress, monitor deployment h...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-07-01T20:48:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-aws-management-console/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "fd7493b7b724b4e6312684880174bfc5f73efa4b",
       "title": "AWS Artifact now includes Assurance Assistant for compliance inquiries",
       "summary": "AWS Artifact now includes Assurance Assistant, an AI-powered capability that generates citation-backed responses to security and compliance questions about AWS services. AWS Artifact is the service th...",
@@ -5519,33 +5539,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-secrets-manager-console-custom-kms-key-input/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "7362ddc5259dc38ad034e001eabb6aa6f89784e8",
-      "title": "Amazon CloudWatch introduces PromQL querying with Query Studio Preview",
-      "summary": "Amazon CloudWatch has launched Query Studio in public preview, which introduces native PromQL querying capabilities to CloudWatch for the first time. The unified interface allows users to query both AWS metrics and OpenTelemetry metrics using either PromQL or CloudWatch Metric Insights without switching between consoles. Query Studio includes helpful features like a visual form builder with autocomplete and a code editor with syntax highlighting.",
-      "category": "COMPUTE",
-      "timestamp": "2026-04-03T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-query-studio-preview/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 553,
+    "total": 554,
     "byCategory": {
       "AI_ML": 110,
       "SERVERLESS": 11,
+      "CONTAINERS": 30,
       "SECURITY": 111,
       "OTHER": 135,
       "DATABASE": 51,
-      "CONTAINERS": 28,
       "NETWORKING": 9,
-      "COMPUTE": 57,
+      "COMPUTE": 56,
       "STORAGE": 24,
       "ANALYTICS": 17
     },
-    "lastUpdated": "2026-07-01T23:16:05.158Z"
+    "lastUpdated": "2026-07-02T12:08:35.500Z"
   },
-  "generatedAt": "2026-07-01T23:16:05.159Z"
+  "generatedAt": "2026-07-02T12:08:35.500Z"
 }
