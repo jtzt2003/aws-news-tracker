@@ -5439,93 +5439,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/AWS-Cost-Explorer-Natural-Language-Query/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "8d765dbc7a08c813f8adc4df46e3c09ae7dfa3bb",
-      "title": "Amazon SageMaker Unified Studio adds notebook import/export and developer acceleration features",
-      "summary": "Amazon SageMaker Unified Studio has added notebook import/export capabilities that support .ipynb, .json, and .py formats, enabling easy migration from JupyterLab and other platforms. The release also introduces developer productivity features like cell reordering, keyboard shortcuts, cell renaming, and multi-line SQL support to streamline workflows for data engineers and scientists.",
-      "category": "AI_ML",
-      "timestamp": "2026-04-06T19:42:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-unified-studio/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f38429a79aaf82c22c22c197c6e0e750c5de4d6b",
-      "title": "Amazon Verified Permissions now supports policy store aliases and named policies and policy templates",
-      "summary": "Amazon Verified Permissions has added support for policy store aliases and named policies/templates to simplify multi-tenant deployments and policy management. These new features eliminate the need for separate mapping tables that associate tenant identifiers with policy store IDs. The enhancements streamline day-to-day operations for the fine-grained authorization service that uses Cedar policies to manage application permissions.",
-      "category": "OTHER",
-      "timestamp": "2026-04-06T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-verified-permissions-policy-store/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "a4d201c39b321661cdbd5fbdd26dea9b09a61173",
-      "title": "Amazon WorkSpaces Personal now supports unique DNS names for PrivateLink",
-      "summary": "Amazon WorkSpaces Personal now assigns unique, publicly resolvable DNS names to each AWS PrivateLink VPC endpoint, replacing the previous shared generic DNS names. This enhancement allows enterprise customers to deploy WorkSpaces across multiple AWS VPCs and accounts without experiencing DNS resolution conflicts.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-06T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-workspaces-personal-privatelink/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "365dc3b7a5bc4ae0d8fd7e584bfbc97c216d3324",
-      "title": "Amazon FSx for OpenZFS is now available in the AWS Asia Pacific (Melbourne) Region",
-      "summary": "Amazon FSx for OpenZFS is now available in the AWS Asia Pacific (Melbourne) Region, allowing customers to create fully managed shared file storage systems built on OpenZFS. This service provides a cost-effective, high-performance file system solution in the cloud with enhanced reliability, security, and scalability features.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-06T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-fsx-openzfs-melbourne-region/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d7e19fb48b6e3843154a47f877bf6fd11fe72886",
-      "title": " AWS announces general availability of Smithy-Java client framework",
-      "summary": "AWS has announced the general availability of Smithy-Java, an open-source Java framework that generates type-safe clients and standalone classes from Smithy models. The framework addresses enterprise users' need for production-grade Java SDK generation and helps reduce cognitive load and maintenance burden for developers building modern Java applications.",
-      "category": "OTHER",
-      "timestamp": "2026-04-06T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/smithy-java-client-framework/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "0b22b36a8894c7380761f656d02494aa98274f5b",
-      "title": "AWS IoT Greengrass component SDK for C, C++, and Rust applications",
-      "summary": "AWS has launched a new Greengrass component SDK designed for C, C++, and Rust applications running on AWS IoT Greengrass. The SDK enables deployment of sophisticated AI and ML workloads on resource-constrained edge devices, targeting industries like automotive, industrial IoT, robotics, and smart buildings. It maintains full compatibility with both AWS IoT Greengrass nucleus and nucleus lite capabilities.",
-      "category": "OTHER",
-      "timestamp": "2026-04-06T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/iot-greengrass-component-sdk/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "56dd8c3d8f2cab6c902bd0c35df65de1489e7d84",
-      "title": "Amazon S3 starts rolling out new security best practice to new and existing buckets by default",
-      "summary": "Amazon S3 is implementing a new security default that automatically disables server-side encryption with customer-provided keys (SSE-C) for all new general purpose buckets. For existing buckets without SSE-C encrypted objects, S3 will also block new SSE-C write requests, while accounts currently using SSE-C will see no changes to their existing bucket configurations. This change rolled out starting November 19, 2025, as part of AWS's enhanced security best practices.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-06T13:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/s3-default-bucket-security-setting/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 551,
+    "total": 544,
     "byCategory": {
-      "AI_ML": 109,
+      "AI_ML": 108,
       "COMPUTE": 58,
-      "SECURITY": 110,
+      "SECURITY": 107,
       "SERVERLESS": 10,
       "CONTAINERS": 30,
-      "OTHER": 134,
+      "OTHER": 131,
       "DATABASE": 50,
       "NETWORKING": 9,
       "STORAGE": 24,
       "ANALYTICS": 17
     },
-    "lastUpdated": "2026-07-05T11:34:51.051Z"
+    "lastUpdated": "2026-07-05T23:00:46.480Z"
   },
-  "generatedAt": "2026-07-05T11:34:51.051Z"
+  "generatedAt": "2026-07-05T23:00:46.480Z"
 }
