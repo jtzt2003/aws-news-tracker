@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "649a335732e81d85d21311fe5e989ee9ff126160",
+      "title": "AWS CodePipeline now available in Asia Pacific (New Zealand) region",
+      "summary": "Starting today, AWS CodePipeline is now available in Asia Pacific (New Zealand) Region (ap-southeast-6). AWS CodePipeline is a continuous delivery service that enables you to model, visualize, and aut...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-06T09:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-codepipeline-new-zealand/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "f1e003a8a2e5e86c3c3769843c5dbfb4e1edd82b",
       "title": "Amazon SageMaker Unified Studio now supports Terraform for provisioning",
       "summary": "Amazon SageMaker Unified Studio now supports Terraform for provisioning. Customers can use the open-source terraform-aws-sagemaker-unified-studio module to deploy a SageMaker Unified Studio domain thr...",
@@ -5389,73 +5399,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-oracle-8th-gen-instances/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "e772e08d5ddf1b2ea2b73bcdfe08d7f6e57ba50c",
-      "title": "Amazon Braket adds support for Rigetti's 108-qubit Cepheus QPU",
-      "summary": "Amazon Braket now provides access to Rigetti's Cepheus-1-108Q, marking the first 100+ qubit superconducting quantum processing unit available on AWS's quantum computing service. The device features a modular multi-chip architecture with twelve 9-qubit chiplets arranged in a 3x4 array, connected by tunable and intermodule couplers, and introduces CZ (controlled phase) gates instead of the previously used iSWAP gates.",
-      "category": "AI_ML",
-      "timestamp": "2026-04-07T09:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-braket-rigetti-cepheus/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "1459a344c7feab9a20b038042bd494d1e226f62c",
-      "title": "AWS Transfer Family now supports IPv6 for connectors and web apps",
-      "summary": "AWS Transfer Family has added IPv6 support for SFTP connectors, AS2 connectors, and web applications. This enhancement allows connectors to communicate with remote servers and trading partners over IPv6 networks, while also enabling end users to access Transfer Family web apps using IPv6 connections.",
-      "category": "OTHER",
-      "timestamp": "2026-04-07T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-transfer-family-ipv6-connectors-web-apps/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "921e22e858b3dba5233641acc0e635dc298b007d",
-      "title": "Amazon Aurora now supports PostgreSQL 17.9, 16.13, 15.17, and 14.22",
-      "summary": "Amazon Aurora PostgreSQL-Compatible Edition now supports updated versions 17.9, 16.13, 15.17, and 14.22, which include community bug fixes and Aurora-specific enhancements. AWS recommends upgrading to these latest minor versions to address security vulnerabilities and benefit from performance improvements, with upgrades available during scheduled maintenance windows using automatic minor version upgrades.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-07T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-aurora-postgresql-17-9-16-13-15-17-14-22/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b27f3f22626392e12b85647f77b49fad52124fcc",
-      "title": "AWS Certificate Manager now supports native certificate search",
-      "summary": "AWS Certificate Manager (ACM) has introduced a native certificate search feature that allows users to find certificates using parameters like domain name, certificate ARN, and validity status through both a console search bar and a new SearchCertificates API. This enhancement is particularly useful for administrators managing multiple certificates who need to quickly locate specific certificates or identify those nearing expiration.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-07T04:01:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-certificate-manager-search/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "121fb14603fe495e53101b2d9c9039991cb3827a",
-      "title": "AWS Cost Explorer launches Natural Language Query capabilities powered by Amazon Q",
-      "summary": "AWS Cost Explorer has integrated Amazon Q Developer's generative AI to enable natural language queries for analyzing AWS cost and usage data. Users can now ask questions in plain English and receive both answers and automatically updated visualizations, making cost analysis faster and more accessible to all team members. This feature reduces the time needed to gain cost insights and eliminates the need for complex query syntax.",
-      "category": "AI_ML",
-      "timestamp": "2026-04-07T02:50:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/AWS-Cost-Explorer-Natural-Language-Query/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 544,
+    "total": 540,
     "byCategory": {
-      "AI_ML": 108,
+      "SECURITY": 106,
+      "AI_ML": 106,
       "COMPUTE": 58,
-      "SECURITY": 107,
       "SERVERLESS": 10,
       "CONTAINERS": 30,
-      "OTHER": 131,
+      "OTHER": 130,
       "DATABASE": 50,
       "NETWORKING": 9,
       "STORAGE": 24,
       "ANALYTICS": 17
     },
-    "lastUpdated": "2026-07-05T23:00:46.480Z"
+    "lastUpdated": "2026-07-06T13:44:26.686Z"
   },
-  "generatedAt": "2026-07-05T23:00:46.480Z"
+  "generatedAt": "2026-07-06T13:44:26.686Z"
 }
