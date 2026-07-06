@@ -1,12 +1,82 @@
 {
   "announcements": [
     {
+      "id": "9e46a177a51c96086b70286997d37f606c8971c5",
+      "title": "Amazon SageMaker HyperPod now supports disaggregated prefill and decode",
+      "summary": "Amazon SageMaker HyperPod now supports Disaggregated Prefill and Decode (DPD), an inference optimization that separates the two phases of large language model (LLM) inference — prefill and decode — on...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-06T21:29:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-sagemaker-hyperpod-dpd/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3a4d0ad872089d1ec2f225e2163c5dd1b502d689",
+      "title": "Amazon Cognito now supports self-service provisioned API rate limits",
+      "summary": "Amazon Cognito now allows you to increase or decrease your provisioned API rate limits on demand. Cognito has default rate limits for the maximum number of operations per second that you can perform i...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-06T21:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/cognito-provisioned-limits",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9af3cf53010984efab2211063cce7cf09c8041b6",
+      "title": "Amazon SageMaker Studio now integrates with Hugging Face for one-click model deployment and customization ",
+      "summary": "Amazon SageMaker Studio now supports direct integration from Hugging Face, letting you go from discovering a model to working with it inside a fully configured Studio environment in a single click. Se...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-06T20:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/sagemaker-studio-hugging-face-integration/ ",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "22febee947f67711416b4143ab327c1ccfd4e227",
+      "title": "Amazon EVS VCF 9.0 and 9.1 support",
+      "summary": "Today, we are announcing that Amazon Elastic VMware Service (EVS) now supports VMware Cloud Foundation (VCF) 9.0 and 9.1.\n \nAmazon EVS lets you run the latest VCF software directly within your Amazon ...",
+      "category": "OTHER",
+      "timestamp": "2026-07-06T17:29:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-evs-vcf9",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a031a26a6a0af2302a3711a6524ea0d5e4e6fd83",
+      "title": "AWS Certificate Manager now supports the ACME protocol for public certificates",
+      "summary": "AWS Certificate Manager (ACM) now allows you to provision a fully managed ACME server endpoint that issues public TLS certificates with a 45 day validity from Amazon Trust Services using any ACMEv2-co...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-06T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-certificate-manager-acme/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "35020386b56e4b5fc65dbfe62b6d49ae7d66a77e",
+      "title": "CloudWatch Application Signals now automatically captures errors, performance anomalies, and deployment events",
+      "summary": "Today, AWS announces Service Events for Amazon CloudWatch Application Signals, which automatically captures exception and latency event snapshots, function-level performance data, and deployment event...",
+      "category": "OTHER",
+      "timestamp": "2026-07-06T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/cloudwatch-service-events/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "649a335732e81d85d21311fe5e989ee9ff126160",
       "title": "AWS CodePipeline now available in Asia Pacific (New Zealand) region",
       "summary": "Starting today, AWS CodePipeline is now available in Asia Pacific (New Zealand) Region (ap-southeast-6). AWS CodePipeline is a continuous delivery service that enables you to model, visualize, and aut...",
       "category": "SECURITY",
       "timestamp": "2026-07-06T09:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-codepipeline-new-zealand/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "afe3f8098c0536dfa21088b62e825239f9cd7f41",
+      "title": "AWS Secrets Manager adds managed external secrets support for Paddle and GitLab",
+      "summary": "AWS Secrets Manager now extends its managed external secrets capability to include Paddle API Keys and GitLab Access Tokens. Managed external secrets enable customers to automatically rotate third-par...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-06T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/secrets-manager-managed-external-secrets-paddle-gitlab/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5339,83 +5409,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/oracle-database-aws-available-twelve-regions/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "022469d6eb9b5112d9ce68ddb1a309e54ff459ed",
-      "title": "AWS Lambda expands response streaming support to all commercial AWS Regions",
-      "summary": "AWS Lambda response streaming is now available in all commercial AWS Regions, achieving full regional parity for this capability. This feature allows Lambda functions to send partial responses to clients incrementally using the InvokeWithResponseStream API, rather than waiting to buffer the complete response. Response streaming reduces time-to-first-byte (TTFB) latency by enabling progressive payload delivery as data becomes available.",
-      "category": "SERVERLESS",
-      "timestamp": "2026-04-07T21:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-lambda-response-streaming/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "8ef199c2ca2b4091faeaee55e479fddf7a4db17e",
-      "title": "Amazon Lightsail is now available in the Asia Pacific (Malaysia) Region",
-      "summary": "Amazon Lightsail is now available in the Asia Pacific (Malaysia) Region, expanding the service's reach to Malaysian customers and surrounding areas. This new regional availability offers customers lower latency, improved performance, and the ability to meet local data residency requirements. The Malaysia region provides access to Lightsail's complete feature set, including various compute instances to meet different application needs.",
-      "category": "COMPUTE",
-      "timestamp": "2026-04-07T17:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-lightsail-malaysia/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "67b79a5dd839bc03cd8aa1d955a53e0437907c6d",
-      "title": "Amazon Bedrock now offers Claude Mythos Preview (Gated Research Preview)",
-      "summary": "Amazon Bedrock now provides access to Claude Mythos Preview, Anthropic's most advanced AI model, through a gated research preview as part of Project Glasswing. This new model class offers state-of-the-art capabilities in cybersecurity, software coding, and complex reasoning, with particular strength in identifying sophisticated security vulnerabilities in software.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-07T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-bedrock-claude-mythos/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f8d7fe6c43744806a736f8c570e122dae535a364",
-      "title": "Amazon SageMaker adds serverless workflows to Identity Center domains",
-      "summary": "Amazon SageMaker Unified Studio has expanded Serverless Workflows support to Identity Center domains, allowing customers to orchestrate data processing tasks using Apache Airflow without managing infrastructure. This feature automatically provisions and releases compute resources as workflows run, and was previously only available in IAM-based domains. The enhancement enables organizations using Identity Center domains to leverage serverless Apache Airflow orchestration through Amazon's Managed Workflows for Apache Airflow service.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-07T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-serverless-workflows/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b914546f3cd9beb4998bf3ff9f61b51666f308bd",
-      "title": "Announcing Amazon S3 Files, making S3 buckets accessible as file systems",
-      "summary": "Amazon S3 Files is a new feature that makes S3 buckets accessible as traditional file systems, allowing AWS compute resources to interact with S3 data using standard file system operations. This breakthrough makes Amazon S3 the first cloud object store to provide full file system semantics with high performance and low latency. The feature enables file-based applications and teams to work with S3 data using familiar file system tools without the data leaving the S3 environment.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-04-07T14:15:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-s3-files/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "98acb9518e625d9b18cfbd613ff1bd5101b085c5",
-      "title": "Amazon RDS for Oracle now supports M8i and R8i instances",
-      "summary": "Amazon RDS for Oracle now supports M8i and R8i instances powered by custom Intel Xeon 6 processors exclusive to AWS. These new instances deliver up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generation Intel-based instances. The instances are currently available for Amazon RDS for Oracle under the Bring Your Own License model.",
-      "category": "DATABASE",
-      "timestamp": "2026-04-07T14:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-oracle-8th-gen-instances/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 540,
+    "total": 541,
     "byCategory": {
-      "SECURITY": 106,
-      "AI_ML": 106,
-      "COMPUTE": 58,
-      "SERVERLESS": 10,
-      "CONTAINERS": 30,
-      "OTHER": 130,
-      "DATABASE": 50,
+      "AI_ML": 108,
+      "SECURITY": 107,
+      "OTHER": 132,
+      "COMPUTE": 57,
+      "SERVERLESS": 9,
+      "CONTAINERS": 29,
+      "DATABASE": 49,
       "NETWORKING": 9,
       "STORAGE": 24,
       "ANALYTICS": 17
     },
-    "lastUpdated": "2026-07-06T13:44:26.686Z"
+    "lastUpdated": "2026-07-06T23:07:56.187Z"
   },
-  "generatedAt": "2026-07-06T13:44:26.686Z"
+  "generatedAt": "2026-07-06T23:07:56.187Z"
 }
