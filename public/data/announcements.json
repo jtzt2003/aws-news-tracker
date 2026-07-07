@@ -1,6 +1,76 @@
 {
   "announcements": [
     {
+      "id": "6fe75666774a3f44ed651574e8a082504e4799b8",
+      "title": "Amazon ECS Managed Instances reduces GPU management fees by up to 60%",
+      "summary": "Amazon Elastic Container Service (Amazon ECS) Managed Instances now offers significantly reduced management fees for GPU and accelerated instance types. Beginning July 1, 2026, G-series ECS management...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-07-07T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-managed-instances-gpu-price/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ae94a9a4271ae9e078fe967b0882a3b246abcb22",
+      "title": "Amazon EMR Serverless now supports larger worker sizes to run more compute and memory intensive workloads",
+      "summary": "Amazon EMR Serverless now offers larger worker configurations of 32 vCPUs with up to 244 GB of memory, allowing you to run more compute and memory-intensive workloads. Previously, the largest worker c...",
+      "category": "ANALYTICS",
+      "timestamp": "2026-07-07T17:06:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-emr-serverless/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "625836d8acc0664b54003e83bb99b80c69e84351",
+      "title": "Amazon EC2 C8ine instances are now available in AWS Europe (Frankfurt) region",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8ine instances are available in the AWS Europe (Frankfurt) region. C8ine instances are powered by custom sixth generation Intel Xeon Scalable...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-07T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c8ine-aws-frankfurt/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6e4996d28250fb8d950ca27b5e791edf398e769b",
+      "title": "Amazon Redshift RG instances now available in AWS GovCloud (US) Regions",
+      "summary": "Amazon Redshift RG instances, powered by AWS Graviton processors, are now available in the AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions. RG instances deliver better performance, running d...",
+      "category": "DATABASE",
+      "timestamp": "2026-07-07T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-rg-instances-aws-govcloud",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3c5ba9d5567cd3b159e0edcd949ca2ba01b56aef",
+      "title": "Amazon RDS for Oracle now supports Oracle Database 26ai",
+      "summary": "Amazon RDS for Oracle now supports Oracle Database 26ai, Oracle's latest Long Term Support Release, with Amazon Bedrock integration which provides access to foundation models such as Anthropic Claude,...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-07T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-oracle-database-26ai/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "63f11a29511ad33cdc4e14b0855b83c296741320",
+      "title": "Amazon EKS Auto Mode reduces GPU management fees by up to 60%",
+      "summary": "Amazon Elastic Kubernetes Service (Amazon EKS) Auto Mode now offers significantly reduced management fees for GPU and accelerated instance types. Beginning July 1, 2026, G-series Auto Mode management ...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-07T12:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-auto-mode-gpu-price",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ea627137f3146491dd448ffa6d7393dee1a666b3",
+      "title": "AWS Security Hub adds impact analysis for exposure findings",
+      "summary": "Today, AWS Security Hub adds impact analysis to exposure findings, helping security teams understand the full scope of what an attacker could reach if an exposure is exploited. Impact analysis extends...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-06T21:45:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/impact-analysis-aws-security-hub/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "9e46a177a51c96086b70286997d37f606c8971c5",
       "title": "Amazon SageMaker HyperPod now supports disaggregated prefill and decode",
       "summary": "Amazon SageMaker HyperPod now supports Disaggregated Prefill and Decode (DPD), an inference optimization that separates the two phases of large language model (LLM) inference — prefill and decode — on...",
@@ -5339,83 +5409,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-capacity-manager-tag-based-dimensions/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "64d113f90c0c51a38eda256c33d34860ad4511fa",
-      "title": "SageMaker HyperPod now supports gang scheduling for distributed training workloads",
-      "summary": "Amazon SageMaker HyperPod now supports gang scheduling, which ensures all required pods for distributed training jobs are ready before training begins. This feature prevents wasted compute resources from partial job runs and helps administrators avoid deadlocks when jobs are waiting for resources. The capability is particularly beneficial for data scientists running distributed AI/ML training workloads that require multiple pods to work together across nodes.",
-      "category": "AI_ML",
-      "timestamp": "2026-04-08T19:26:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-hyperpod-gang-scheduling/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "362abaeb2112a7182108b59760ed89d835061666",
-      "title": "Amazon IVS Real-Time Streaming now supports redundant ingest ",
-      "summary": "Amazon IVS Real-Time Streaming has introduced redundant ingest functionality, allowing users to stream from two encoders simultaneously to a single stage with automatic failover protection. This feature helps prevent stream interruptions caused by encoder failures or network issues, ensuring continuous delivery to viewers. The capability is particularly valuable for critical live events, 24/7 streaming, or any scenario requiring uninterrupted broadcast reliability.",
-      "category": "OTHER",
-      "timestamp": "2026-04-08T19:25:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ivs-real-time-streaming-redundant-ingest/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "3aff5482ac3722812f7617e47e404c380f855cbc",
-      "title": "Amazon EKS managed node groups now support EC2 Auto Scaling warm pools",
-      "summary": "Amazon EKS managed node groups now support EC2 Auto Scaling warm pools, which maintain pre-initialized instances ready for immediate deployment. This feature significantly reduces node provisioning latency, making it ideal for applications with burst traffic patterns, time-sensitive workloads, or complex initialization requirements.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-04-08T19:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-eks-managed-node-groups-ec2-warm-pools/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "80572a67fba3008dfefe6ef968920c56b738b236",
-      "title": "Amazon Bedrock AgentCore Browser adds OS-level interaction capabilities",
-      "summary": "Amazon Bedrock AgentCore Browser has added OS-level interaction capabilities that enable automation beyond the standard Chrome DevTools Protocol (CDP). This enhancement allows the system to handle tasks requiring direct operating system control, such as mouse operations, print dialogs, native system alerts, and keyboard shortcuts. The feature is designed for AI agent developers, test automation engineers, and organizations building LLM-powered web interactions.",
-      "category": "AI_ML",
-      "timestamp": "2026-04-08T17:03:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/agentcore-browser-os-actions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "66d0607c6b711c97f450fe0bb544158ba040485b",
-      "title": "Amazon WorkSpaces Advisor now available for AI-powered troubleshooting",
-      "summary": "Amazon WorkSpaces Advisor is a new AI-powered troubleshooting tool that helps administrators quickly identify and resolve issues with Amazon WorkSpaces Personal by analyzing configurations and providing actionable recommendations. The tool uses generative AI capabilities to streamline administrative workflows and reduce the time needed to investigate and fix common WorkSpace problems. This enables faster service restoration and performance optimization for virtual desktop environments.",
-      "category": "AI_ML",
-      "timestamp": "2026-04-08T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/workspaces-advisor-ai-troubleshooting/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c97b9cfb76bf5c525d181c74a5b2f3ac8d262bc0",
-      "title": "Amazon OpenSearch Service now supports Graviton4 based i8ge instances",
-      "summary": "Amazon OpenSearch Service now supports i8ge instances, the latest generation of storage-optimized instances powered by AWS Graviton4 processors. These instances deliver up to 60% better compute performance compared to previous generation Graviton2-based Im4gn instances and up to 55% better real-time storage performance using third-generation AWS Nitro SSDs. The i8ge instances are designed to provide optimal performance for storage-intensive workloads.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-08T16:30:24.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/4/amazon-opensearch-service-supports-i8ge/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 540,
+    "total": 541,
     "byCategory": {
-      "AI_ML": 108,
-      "SECURITY": 107,
-      "OTHER": 131,
+      "CONTAINERS": 29,
+      "ANALYTICS": 18,
+      "SECURITY": 108,
+      "DATABASE": 50,
+      "AI_ML": 107,
+      "OTHER": 130,
       "COMPUTE": 57,
       "SERVERLESS": 9,
-      "CONTAINERS": 29,
-      "DATABASE": 49,
       "NETWORKING": 9,
-      "STORAGE": 24,
-      "ANALYTICS": 17
+      "STORAGE": 24
     },
-    "lastUpdated": "2026-07-07T12:26:53.871Z"
+    "lastUpdated": "2026-07-07T23:01:05.883Z"
   },
-  "generatedAt": "2026-07-07T12:26:53.872Z"
+  "generatedAt": "2026-07-07T23:01:05.884Z"
 }
