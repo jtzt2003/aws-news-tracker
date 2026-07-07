@@ -5399,24 +5399,14 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/4/amazon-opensearch-service-supports-i8ge/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "148ce8a019088e44537ea88486d444fa6b0a1720",
-      "title": "Oracle Database@AWS is now available in twelve AWS Regions",
-      "summary": "Oracle Database@AWS has expanded to five additional regions (Dublin, London, Mumbai, Hyderabad, and Seoul), bringing the total to twelve AWS regions. This service provides Oracle Cloud Infrastructure managed Oracle Exadata systems directly within AWS data centers. The expansion particularly benefits customers in Europe and Asia Pacific who have data residency requirements and need to migrate from on-premises Oracle systems.",
-      "category": "OTHER",
-      "timestamp": "2026-04-08T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/oracle-database-aws-available-twelve-regions/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 541,
+    "total": 540,
     "byCategory": {
       "AI_ML": 108,
       "SECURITY": 107,
-      "OTHER": 132,
+      "OTHER": 131,
       "COMPUTE": 57,
       "SERVERLESS": 9,
       "CONTAINERS": 29,
@@ -5425,7 +5415,7 @@
       "STORAGE": 24,
       "ANALYTICS": 17
     },
-    "lastUpdated": "2026-07-06T23:07:56.187Z"
+    "lastUpdated": "2026-07-07T12:26:53.871Z"
   },
-  "generatedAt": "2026-07-06T23:07:56.187Z"
+  "generatedAt": "2026-07-07T12:26:53.872Z"
 }
