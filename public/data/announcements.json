@@ -1,6 +1,36 @@
 {
   "announcements": [
     {
+      "id": "ded8e83097b9aa1c662c588c6853145964b21fe1",
+      "title": "Amazon GameLift Streams introduces secure terminal access for stream sessions",
+      "summary": "Amazon GameLift Streams now supports Stream Session Admin Shell, a secure terminal connection to the live runtime environment of a stream session for real-time troubleshooting. You can inspect logs, q...",
+      "category": "OTHER",
+      "timestamp": "2026-07-07T21:26:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-gamelift-streams-terminal-access/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "287773fc6d77bf16aac8dbfe3f3e5cf656aa2056",
+      "title": "Amazon S3 Vectors is now available in AWS GovCloud (US) Regions",
+      "summary": "Amazon S3 Vectors is now available in AWS GovCloud (US-East) and AWS GovCloud (US-West).\n \nAmazon S3 Vectors is purpose-built vector storage for AI agents, inference, Retrieval Augmented Generation (R...",
+      "category": "STORAGE",
+      "timestamp": "2026-07-07T19:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/s3-vectors-available-aws-govcloud-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "468c6a1d841ccdca147b24b0630b115930de7069",
+      "title": "AWS Security Hub extends unified security management to Microsoft Azure",
+      "summary": "Today, AWS announces that AWS Security Hub now monitors Microsoft Azure resources, extending risk analytics, cloud security posture management, vulnerability management, and security response manageme...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-07T18:21:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-security-hub-supports-monitoring-microsoft-azure/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "6fe75666774a3f44ed651574e8a082504e4799b8",
       "title": "Amazon ECS Managed Instances reduces GPU management fees by up to 60%",
       "summary": "Amazon Elastic Container Service (Amazon ECS) Managed Instances now offers significantly reduced management fees for GPU and accelerated instance types. Beginning July 1, 2026, G-series ECS management...",
@@ -31,6 +61,16 @@
       "isNew": false
     },
     {
+      "id": "21c6c214e605f49a1554d6228e8d115b72260d67",
+      "title": "Amazon SageMaker now supports data lineage in IAM-based domains",
+      "summary": "Amazon SageMaker Unified Studio now supports OpenLineage compatible data lineage in IAM-based domains, capturing lineage events from Apache Spark jobs run on Amazon EMR, AWS Glue, SageMaker Visual ETL...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-07T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-data-lineage-iam-domain",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "6e4996d28250fb8d950ca27b5e791edf398e769b",
       "title": "Amazon Redshift RG instances now available in AWS GovCloud (US) Regions",
       "summary": "Amazon Redshift RG instances, powered by AWS Graviton processors, are now available in the AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions. RG instances deliver better performance, running d...",
@@ -47,6 +87,16 @@
       "category": "AI_ML",
       "timestamp": "2026-07-07T15:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-oracle-database-26ai/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "71bde382653c3f0fb9e7edb8978707241bc2b5c1",
+      "title": "Amazon S3 Express One Zone is now available in the AWS Europe (Frankfurt) Region",
+      "summary": "The Amazon S3 Express One Zone storage class is now available in the AWS Europe (Frankfurt) Region.\n \nAmazon S3 Express One Zone is a high-performance, single-Availability Zone storage class purpose-b...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-07T13:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/s3-express-one-zone-europe-frankfurt/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5399,33 +5449,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-opensearch-serverless-supports-zstandard-index-compression/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "83bc80e1d94bec545f55dcd0a35f416c6f61ba9a",
-      "title": "Amazon EC2 Capacity Manager now supports tag-based dimensions",
-      "summary": "Amazon EC2 Capacity Manager now supports tag-based dimensions, allowing users to group and filter capacity metrics using up to five custom tag keys from their EC2 resources (such as environment, team, or cost-center). The service helps monitor and optimize capacity usage across On-Demand Instances, Spot Instances, and Capacity Reservations. This update also introduces Account Name as a new built-in dimension for better resource organization.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-04-09T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-capacity-manager-tag-based-dimensions/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 541,
+    "total": 545,
     "byCategory": {
-      "CONTAINERS": 29,
+      "OTHER": 131,
+      "STORAGE": 25,
+      "SECURITY": 109,
+      "CONTAINERS": 28,
       "ANALYTICS": 18,
-      "SECURITY": 108,
+      "AI_ML": 109,
       "DATABASE": 50,
-      "AI_ML": 107,
-      "OTHER": 130,
       "COMPUTE": 57,
       "SERVERLESS": 9,
-      "NETWORKING": 9,
-      "STORAGE": 24
+      "NETWORKING": 9
     },
-    "lastUpdated": "2026-07-07T23:01:05.883Z"
+    "lastUpdated": "2026-07-08T11:45:58.705Z"
   },
-  "generatedAt": "2026-07-07T23:01:05.884Z"
+  "generatedAt": "2026-07-08T11:45:58.705Z"
 }
