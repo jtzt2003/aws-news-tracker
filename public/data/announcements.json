@@ -1,6 +1,66 @@
 {
   "announcements": [
     {
+      "id": "1bcab43e8d0ab8e80e3ec1aaae158ded0bf2f5cb",
+      "title": "Amazon Timestream for InfluxDB now publishes database state change events to Amazon EventBridge",
+      "summary": "Amazon Timestream for InfluxDB now publishes events to Amazon EventBridge when your database instances or clusters undergo state changes. Events are emitted for lifecycle operations including creation...",
+      "category": "DATABASE",
+      "timestamp": "2026-07-09T17:24:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/timestream-influxdb-eventbridge/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9b27887073aca295763bc3ae234b2be22c79e281",
+      "title": " AWS Client VPN extends availability to four additional AWS Regions",
+      "summary": "AWS Client VPN is now available in four new regions: Canada West (Calgary), Mexico (Central) and two in Asia Pacific - New Zealand and Taipei. This fully managed service enables customers to securely ...",
+      "category": "OTHER",
+      "timestamp": "2026-07-09T17:08:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-client-vpn-four-additional-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8724403acb93088d47fc317dfb9cff00d8ea8646",
+      "title": "Amazon SageMaker Unified Studio adds custom asset types to the catalog in IAM-based domains",
+      "summary": "Amazon SageMaker Unified Studio now supports custom asset types for IAM-based domains. With custom asset types, domain administrators can catalog any format of asset within the SageMaker Unified Studi...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-09T16:04:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/smus-custom-asset-types-iam/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9166153d882013c698522db31745130a39c421f5",
+      "title": "Amazon SageMaker HyperPod now supports deep health checks for Slurm clusters with continuous provisioning",
+      "summary": "Amazon SageMaker HyperPod now supports deep health checks for Slurm-orchestrated clusters created with continuous provisioning, enabling you to proactively verify GPU accelerator health on running ins...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-09T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/deep-health-check-continuous-slurm/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e82167ad87f7e3919c29782fb17924ccbbdb29da",
+      "title": "Amazon SageMaker Feature Store now supports batch feature writes and record listing",
+      "summary": "Amazon SageMaker Feature Store is a fully managed capability that makes it easy to compute, store, and retrieve features for training and deploying AI models. SageMaker Feature Store now supports new ...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-09T15:35:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amzn-sgm-feature-store-batch-write-list/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b6242797524e45e7c769d59767c51dcac743fdb9",
+      "title": "Amazon MSK Replicator now supports replication from external Apache Kafka clusters to MSK Standard brokers",
+      "summary": "Amazon MSK Replicator now supports data replication from external Apache Kafka clusters - including on-premises, self-managed on AWS, or other cloud providers to Amazon MSK Standard brokers. This capa...",
+      "category": "STORAGE",
+      "timestamp": "2026-07-09T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-msk-replicator-external-kafka-standard-broker-support",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "7ab8badb56779fee11cd7ede22102741cf9a215d",
       "title": "AWS Builder Center Now Offers Free Sandbox Environments",
       "summary": "AWS Builder Center now lets builders request free, time-limited sandbox environments directly from eligible workshops, eliminating the need for a personal AWS account, credit card, or concerns about u...",
@@ -9,6 +69,16 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-builder-center-sandbox/",
       "source": "AWS What's New",
       "isNew": true
+    },
+    {
+      "id": "4843118df9bb940e79118539c7aa2f334e4da8ec",
+      "title": "Amazon SageMaker Unified Studio Workflows now supports operators for Amazon Bedrock, S3 Tables, S3 Vectors, and Glue Catalog",
+      "summary": "Amazon SageMaker Unified Studio Workflows now supports 19 new operators for Amazon Bedrock, Amazon S3 Tables, Amazon S3 Vectors, AWS Glue Data Catalog, and Amazon MWAA Serverless. With these operators...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-08T22:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/apache-airflow-operators-amazon-sagemaker-unified-studio-workflows/",
+      "source": "AWS What's New",
+      "isNew": false
     },
     {
       "id": "83dd46f595f34d94f70586f16082ff0dbe458269",
@@ -5349,103 +5419,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-x8i-instances-CDG-region/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "285b5c22e9680a5c8e1d3e15ac3fdd441482e863",
-      "title": "Amazon CloudWatch pipelines now supports drop and conditional processing",
-      "summary": "Amazon CloudWatch pipelines now supports conditional processing and a new drop events processor, allowing users to selectively transform and filter log data rather than applying processors uniformly to all entries. This enhancement provides more granular control over log data transformation by enabling rules that determine when processors run and which specific log entries they affect. The feature is part of CloudWatch's fully managed service for ingesting, transforming, and routing log data without infrastructure management overhead.",
-      "category": "OTHER",
-      "timestamp": "2026-04-10T20:53:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-pipelines-conditional/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "66f2413fbbb9e7ca968eb93eac303848002cc652",
-      "title": "AWS Deadline Cloud supports monitor creation in multiple regions",
-      "summary": "AWS Deadline Cloud now supports creating monitors across multiple AWS Regions without requiring additional IAM Identity Center configuration. This enhancement allows creative teams to deploy render farms with monitors in multiple regions while operating more efficiently by strategically placing rendering resources. The fully managed service helps teams manage and scale their cloud-based rendering workloads more effectively across different geographic locations.",
-      "category": "COMPUTE",
-      "timestamp": "2026-04-10T16:44:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/deadline-cloud-monitor-creation/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "89fa4e874568191c5f6af53c7ea49a9cc9ea59ec",
-      "title": "Amazon CloudWatch pipelines introduces new compliance and governance capabilities",
-      "summary": "Amazon CloudWatch pipelines has introduced new compliance and governance features designed to help organizations maintain data integrity and control access during log processing. These capabilities address the needs of organizations with audit or regulatory requirements by providing ways to preserve original data and track modifications made during log transformations. CloudWatch pipelines remains a fully managed service that handles log ingestion, transformation, and routing without requiring infrastructure management.",
-      "category": "OTHER",
-      "timestamp": "2026-04-10T16:12:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/cloudwatch-pipelines-compliance-governance/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "82edf78d4cd4d7f481c5b16d3fa54053f918f515",
-      "title": "Second-generation Amazon FSx for NetApp ONTAP is now available in four additional AWS commercial and AWS GovCloud (US) Regions",
-      "summary": "AWS has expanded the availability of second-generation Amazon FSx for NetApp ONTAP file systems to four additional regions: Europe (London), Asia Pacific (Hyderabad), South America (Sao Paulo), and AWS GovCloud (US-West). The second-generation FSx for ONTAP offers improved performance scalability and flexibility compared to first-generation systems, making it easier and more cost-effective to run high-performance file systems in the cloud.",
-      "category": "STORAGE",
-      "timestamp": "2026-04-10T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/second-gen-amazon-fsx-ontap-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "681648985ce7741a8ba702e4c2dc084de0fa6cf8",
-      "title": "AWS Billing and Cost Management Dashboards Now Supports Scheduled Email Delivery",
-      "summary": "AWS Billing and Cost Management Dashboards now offers automated email delivery of financial reports on daily, weekly, or monthly schedules. This feature eliminates the need for manual report compilation and allows decision-makers to receive financial insights via secure, password-protected PDF links without requiring direct console access. The scheduled delivery system ensures consistent distribution of cost management reports to relevant stakeholders.",
-      "category": "OTHER",
-      "timestamp": "2026-04-10T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-billing-and-cost-management-dashboards-scheduled-email-delivery/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c2128443f5d1363c9e7660603a372b45c1a1e878",
-      "title": "AWS RTB Fabric supports health checks for real-time bidding workloads ",
-      "summary": "AWS RTB Fabric now includes health checks for real-time bidding workloads using EC2 Auto Scaling groups, which continuously monitor instances and automatically route traffic only to healthy ones. This feature helps eliminate failed bidding transactions caused by bootstrapping, draining, or failed instances, enabling AdTech companies to improve uptime and reduce error rates.",
-      "category": "OTHER",
-      "timestamp": "2026-04-10T12:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-rtb-fabric-health-checks/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "661920abf0b670606d1de7aa16564e717868aa0d",
-      "title": "AWS Backup extends Amazon FSx support to 5 additional AWS Regions and expands cross-Region and cross-account copy to 14 AWS Regions",
-      "summary": "AWS Backup has expanded support for Amazon FSx file systems (Windows File Server, OpenZFS, and Lustre) to 5 additional AWS Regions including Asia Pacific locations, Canada West, and Mexico Central. The service also now offers cross-Region and cross-account copy capabilities across 14 AWS Regions, allowing customers to centrally manage backup policies, automate schedules, and monitor backup activities in these new locations.",
-      "category": "STORAGE",
-      "timestamp": "2026-04-10T10:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/backup-extends-fsx-support/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4713085b38e105ec43ee563630a4577d11c9ad8c",
-      "title": "Amazon RDS now supports the latest CU and GDR updates for Microsoft SQL Server",
-      "summary": "Amazon RDS for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server versions 2016, 2017, 2019, and 2022. These updates include critical security patches and bug fixes to keep SQL Server databases running securely and efficiently on AWS.",
-      "category": "DATABASE",
-      "timestamp": "2026-04-10T07:34:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-rds-supports-latest-cu-gdr-updates-microsoft-sq-server/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 543,
+    "total": 542,
     "byCategory": {
-      "OTHER": 132,
-      "SECURITY": 109,
       "DATABASE": 50,
-      "AI_ML": 108,
-      "COMPUTE": 58,
-      "STORAGE": 24,
+      "OTHER": 129,
+      "AI_ML": 112,
+      "STORAGE": 23,
+      "SECURITY": 109,
+      "COMPUTE": 57,
       "CONTAINERS": 28,
       "ANALYTICS": 16,
       "SERVERLESS": 9,
       "NETWORKING": 9
     },
-    "lastUpdated": "2026-07-08T23:07:54.927Z"
+    "lastUpdated": "2026-07-09T23:11:42.000Z"
   },
-  "generatedAt": "2026-07-08T23:07:54.927Z"
+  "generatedAt": "2026-07-09T23:11:42.001Z"
 }
