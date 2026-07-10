@@ -1,6 +1,96 @@
 {
   "announcements": [
     {
+      "id": "c6479f0087bed55379be122cc166b163cf7f192a",
+      "title": "Amazon EC2 network/EBS instances now available in additional regions",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8in, R8ib, R8idn, and R8idb instances are available in the AWS Asia Pacific (Tokyo) and Europe (Frankfurt, Ireland) regions. These instances ...",
+      "category": "COMPUTE",
+      "timestamp": "2026-07-10T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-r8in-r8ib-r8idn-r8idb",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ff94fee405fc8b988f7c76527f229195867c7605",
+      "title": "Amazon EMR on EKS now supports Apache Spark troubleshooting agent",
+      "summary": "Amazon EMR on EKS now supports the Apache Spark troubleshooting agent. Data engineers can now diagnose EMR on EKS job failures through natural language, receiving automated root cause analysis and PyS...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-10T18:16:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-emr-eks-spark-troubleshooting/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "377f11d00b4a77b2e5f26b1daf7382aab7338fae",
+      "title": "Amazon Location Service enhances Places APIs with new address and search options",
+      "summary": "Today, Amazon Location Service announced new enhancements to its Places APIs that give developers greater control over address name formatting, multilingual address, travel-optimized POI search, and d...",
+      "category": "OTHER",
+      "timestamp": "2026-07-10T17:26:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-enhanced-address-search",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "65dae23dafba57fc9f315357beeb66d9d296cfc4",
+      "title": "Amazon EC2 G7 instances are now available in the AWS US East (N. Virginia) Region",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) G7 instances powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs are now available in US East (N. Virginia) Region. G7 instances deli...",
+      "category": "COMPUTE",
+      "timestamp": "2026-07-10T15:14:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-g7-available-North-Virginia",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b3eb280e66a8df92553191ba661e5b672e30eb4a",
+      "title": "AWS DMS Schema Conversion now supports offline SQL Server conversion",
+      "summary": "AWS Database Migration Service (DMS) Schema Conversion now supports offline source conversion for Microsoft SQL Server, enabling you to convert SQL Server schemas and code without direct connectivity ...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-10T15:09:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-dms-schema-conversion-offline-source/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8a1fb92a06e318a16cb5571c55422c4444378ddc",
+      "title": "Amazon EC2 I7ie instances now available in AWS Asia Pacific (Hyderabad) region",
+      "summary": "AWS is announcing starting today, Amazon EC2 I7ie instances are now available in AWS Asia Pacific (Hyderabad) region. Designed for large storage I/O intensive workloads, I7ie instances are powered by ...",
+      "category": "COMPUTE",
+      "timestamp": "2026-07-10T14:55:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-i7ie-instances-aws-hyd-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "19e17065fd1f06e96b7004b8968aec1afb26bf80",
+      "title": "Amazon DocumentDB (with MongoDB compatibility) now supports R8g.24xlarge and R8g.48xlarge instances",
+      "summary": "Amazon DocumentDB (with MongoDB compatibility) now supports R8g.24xlarge and R8g.48xlarge database instances. R8g instances are powered by AWS Graviton4 processors and feature DDR5 memory, enabling cu...",
+      "category": "DATABASE",
+      "timestamp": "2026-07-10T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-documentdb-r8g-24xl-48xl/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c21d5b77582010dd20fe6dc04c7e91d876719aea",
+      "title": "AWS DMS Schema Conversion now supports AI agent automation",
+      "summary": "AWS Database Migration Service (DMS) Schema Conversion now supports AI agent automation through the AWS MCP Server. You can connect AI coding agents, including Kiro, Claude Code, and Cursor, to DMS Sc...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-10T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-dms-sc-ai-agent-automation-mcp-server/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4346ae40c686ba836843c4bb40f9dfe5a30956d5",
+      "title": "AWS Organizations now applies account departure security controls by default for new organizations created via AWS Organizations console",
+      "summary": "AWS Organizations now automatically applies security controls by default when you create a new organization via AWS Organizations console, simplifying initial security configuration by automatically a...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-10T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-organizations-security-controls-new-orgs-console",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "4b1f34a70159de14be134bdcfff04a49d15da905",
       "title": "OAuth support for the AWS MCP Server",
       "summary": "You can now connect AI agents directly to the AWS MCP Server using AWS Sign-In. Agents connect using industry-standard OAuth without requiring additional authentication software. Existing AWS identiti...",
@@ -5432,20 +5522,20 @@
     }
   ],
   "stats": {
-    "total": 543,
+    "total": 552,
     "byCategory": {
-      "OTHER": 130,
-      "DATABASE": 50,
-      "AI_ML": 112,
+      "COMPUTE": 59,
+      "AI_ML": 114,
+      "OTHER": 131,
+      "SECURITY": 112,
+      "DATABASE": 51,
       "STORAGE": 23,
-      "SECURITY": 110,
-      "COMPUTE": 56,
       "CONTAINERS": 28,
       "ANALYTICS": 16,
       "SERVERLESS": 9,
       "NETWORKING": 9
     },
-    "lastUpdated": "2026-07-10T12:24:52.805Z"
+    "lastUpdated": "2026-07-10T22:58:55.817Z"
   },
-  "generatedAt": "2026-07-10T12:24:52.805Z"
+  "generatedAt": "2026-07-10T22:58:55.818Z"
 }
