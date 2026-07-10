@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "4b1f34a70159de14be134bdcfff04a49d15da905",
+      "title": "OAuth support for the AWS MCP Server",
+      "summary": "You can now connect AI agents directly to the AWS MCP Server using AWS Sign-In. Agents connect using industry-standard OAuth without requiring additional authentication software. Existing AWS identiti...",
+      "category": "OTHER",
+      "timestamp": "2026-07-09T23:03:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/oauth-aws-mcp-server/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "1bcab43e8d0ab8e80e3ec1aaae158ded0bf2f5cb",
       "title": "Amazon Timestream for InfluxDB now publishes database state change events to Amazon EventBridge",
       "summary": "Amazon Timestream for InfluxDB now publishes events to Amazon EventBridge when your database instances or clusters undergo state changes. Events are emitted for lifecycle operations including creation...",
@@ -57,6 +67,16 @@
       "category": "STORAGE",
       "timestamp": "2026-07-09T15:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-msk-replicator-external-kafka-standard-broker-support",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1947017ed4f71651449a3ccbae5278eaccf756ef",
+      "title": "AWS Config now supports 191 additional managed rules",
+      "summary": "AWS Config now supports 191 additional managed rules across key services including Amazon Bedrock, Amazon SageMaker, Amazon ECS, Amazon EKS, Amazon RDS, Amazon Redshift, Amazon S3, and Amazon CloudTra...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-09T12:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-config-additional-managed-rules",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5409,33 +5429,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-elastic-disaster-recovery-ipv6/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "f3cb4a9f9dbf0c12df4f16470c4077b3af50ab2d",
-      "title": "Amazon EC2 X8i instances are now available in Europe (Paris)",
-      "summary": "Amazon Web Services has launched EC2 X8i instances in Europe (Paris), which are next-generation memory optimized instances powered by custom Intel Xeon 6 processors exclusive to AWS. These SAP-certified instances deliver up to 43% higher performance, 1.5x more memory capacity (up to 6TB), and 3.3x more memory bandwidth compared to the previous generation X2i instances.",
-      "category": "COMPUTE",
-      "timestamp": "2026-04-10T23:54:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-x8i-instances-CDG-region/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 542,
+    "total": 543,
     "byCategory": {
+      "OTHER": 130,
       "DATABASE": 50,
-      "OTHER": 129,
       "AI_ML": 112,
       "STORAGE": 23,
-      "SECURITY": 109,
-      "COMPUTE": 57,
+      "SECURITY": 110,
+      "COMPUTE": 56,
       "CONTAINERS": 28,
       "ANALYTICS": 16,
       "SERVERLESS": 9,
       "NETWORKING": 9
     },
-    "lastUpdated": "2026-07-09T23:11:42.000Z"
+    "lastUpdated": "2026-07-10T12:24:52.805Z"
   },
-  "generatedAt": "2026-07-09T23:11:42.001Z"
+  "generatedAt": "2026-07-10T12:24:52.805Z"
 }
