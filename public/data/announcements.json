@@ -31,6 +31,16 @@
       "isNew": false
     },
     {
+      "id": "ac3360bf5d55268f9779f04016902027ad608dab",
+      "title": "Amazon SageMaker HyperPod now supports AMI-based node lifecycle configuration for Slurm clusters using continuous provisioning",
+      "summary": "Amazon SageMaker HyperPod now supports AMI-based configuration for Slurm clusters that use continuous provisioning. Continuous provisioning adds nodes to the cluster as capacity becomes available, and...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-10T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/06/ami-configuration-continuous-slurm/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "65dae23dafba57fc9f315357beeb66d9d296cfc4",
       "title": "Amazon EC2 G7 instances are now available in the AWS US East (N. Virginia) Region",
       "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) G7 instances powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs are now available in US East (N. Virginia) Region. G7 instances deli...",
@@ -5522,10 +5532,10 @@
     }
   ],
   "stats": {
-    "total": 552,
+    "total": 553,
     "byCategory": {
       "COMPUTE": 59,
-      "AI_ML": 114,
+      "AI_ML": 115,
       "OTHER": 131,
       "SECURITY": 112,
       "DATABASE": 51,
@@ -5535,7 +5545,7 @@
       "SERVERLESS": 9,
       "NETWORKING": 9
     },
-    "lastUpdated": "2026-07-10T22:58:55.817Z"
+    "lastUpdated": "2026-07-11T11:05:03.982Z"
   },
-  "generatedAt": "2026-07-10T22:58:55.818Z"
+  "generatedAt": "2026-07-11T11:05:03.982Z"
 }
