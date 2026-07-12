@@ -5429,123 +5429,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/nemotron3super-120b-qwen3.5-9b-qwen3.5-27b-on-sagemaker-jumpstart/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "83b1320fc7c48712fca30dbc89340f849ca8ce24",
-      "title": "Amazon OpenSearch Serverless now supports Derived Source for storage optimization ",
-      "summary": "Amazon OpenSearch Serverless now supports Derived Source, a new feature that helps reduce storage requirements by eliminating the need to store original source documents separately. Instead of maintaining duplicate copies, the system dynamically reconstructs the _source field on-demand using values already stored in the index. This optimization can significantly decrease storage costs while maintaining full functionality for OpenSearch Service collections.",
-      "category": "ANALYTICS",
-      "timestamp": "2026-04-13T20:55:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-opensearch-serverless-supports-derived-source/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "9d79fdf634d215d56e760f890c32092d60b4129f",
-      "title": "Amazon Redshift introduces key  performance  optimization for Top-K queries",
-      "summary": "Amazon Redshift has introduced a new performance optimization for Top-K queries (those using ORDER BY and LIMIT clauses) that intelligently skips irrelevant data blocks and dramatically reduces the amount of data that needs to be processed. The optimization works by reordering data blocks based on the ORDER BY column's min/max values and keeping only the K most relevant rows in memory. This enhancement provides the greatest performance benefits when the ORDER BY column is sorted or partially sorted.",
-      "category": "DATABASE",
-      "timestamp": "2026-04-13T18:58:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-redshift-topk-optimization/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f45996015746d515e304adf38e53f3a26ecd91f2",
-      "title": "Amazon Quick now supports document-level access controls for Google Drive knowledge bases",
-      "summary": "Amazon QuickSight now supports document-level access controls (ACLs) for Google Drive knowledge bases, allowing organizations to preserve their existing Google Drive permissions when indexing content. The system uses a dual approach that combines efficient pre-retrieval filtering through ACL replication with real-time permission verification against Google Drive during queries. This ensures both high performance and accurate security by preventing access through stale or incorrectly mapped permissions.",
-      "category": "OTHER",
-      "timestamp": "2026-04-13T18:35:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-document-level-access-controls-google-drive/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "83392d3079390ad2e0fcd2c9c99b11c888a23fd5",
-      "title": "Aurora DSQL launches connector that simplifies building PHP applications",
-      "summary": "AWS has launched the Aurora DSQL Connector for PHP (PDO_PGSQL) to simplify building PHP applications on Aurora DSQL. The connector enhances security by automatically generating authentication tokens for each connection, eliminating the need for traditional user-generated passwords while maintaining full compatibility with existing PDO_PGSQL features.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-13T17:47:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aurora-dsql-connector-for-php/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "0f5feb34418cbf2d841a009ae93f000920b2004e",
-      "title": "Amazon EC2 M8i and M8i-flex instances are now available in AWS GovCloud (US-West) Region",
-      "summary": "Amazon EC2 M8i and M8i-flex instances are now available in the AWS GovCloud (US-West) Region, powered by custom Intel Xeon 6 processors exclusive to AWS. These new instances offer up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generation Intel-based instances, along with up to 20% better performance overall.",
-      "category": "COMPUTE",
-      "timestamp": "2026-04-13T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-m8i-flex-govcloud-us-west/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f0dac777975765261fe09c5da76e73403377710e",
-      "title": "Amazon EC2 R8i and R8i-flex instances are now available in AWS GovCloud (US-West) Region",
-      "summary": "AWS has launched EC2 R8i and R8i-flex instances in the AWS GovCloud (US-West) Region, powered by custom Intel Xeon 6 processors exclusive to AWS. These new instances deliver up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generation Intel-based instances, offering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud.",
-      "category": "COMPUTE",
-      "timestamp": "2026-04-13T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-r8i-instances-govcloud-us-west/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6bef5def1967495e640371ffdd3c0b9ac491d54c",
-      "title": "Amazon CloudWatch Logs Insights now supports saved queries with parameters",
-      "summary": "Amazon CloudWatch Logs Insights now supports parameterized saved queries, allowing you to create reusable query templates with placeholders for values like log levels, service names, or time intervals. This feature supports up to 20 parameters per query with optional default values, eliminating the need to maintain multiple copies of similar queries that only differ in specific values.",
-      "category": "OTHER",
-      "timestamp": "2026-04-13T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/cloudwatch-logs-insights-query-params/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "9abfb632bc07a7f4565156cdad70e221a06ae82b",
-      "title": "AWS IoT is now available in Israel (Tel Aviv) and Europe (Milan) AWS Regions",
-      "summary": "AWS has expanded its IoT Core and IoT Device Management services to two new regions: Israel (Tel Aviv) and Europe (Milan). This expansion allows organizations in these regions to benefit from faster response times, improved data residency controls, and lower data transfer costs when connecting and managing their IoT devices through AWS's managed cloud platform.",
-      "category": "OTHER",
-      "timestamp": "2026-04-13T16:10:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-iot-israel-tel-aviv-europe-milan/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c2eb34b9a5069b67cf3c1afd6efaf625cb15c8e0",
-      "title": "Amazon FSx now supports copying file system backups across AWS opt-in Regions ",
-      "summary": "Amazon FSx now supports copying file system backups across AWS opt-in Regions (regions that are disabled by default) for Windows File Server, Lustre, and OpenZFS file systems. This enhancement extends cross-region and cross-account backup capabilities beyond default AWS regions, helping customers better meet their business continuity, disaster recovery, and compliance requirements.",
-      "category": "STORAGE",
-      "timestamp": "2026-04-13T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-fsx-copying-backups-opt-in-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "e04d93c1d10867fa37f340ea04effda621fe483c",
-      "title": "AWS Elastic Disaster Recovery now supports IPv6 ",
-      "summary": "AWS Elastic Disaster Recovery (AWS DRS) now supports IPv6 for data replication and control plane connections, allowing customers in IPv6-only or dual-stack environments to set up disaster recovery without requiring IPv4 addresses. This enhancement enables organizations to maintain their preferred network configurations while still benefiting from AWS DRS's fast, reliable recovery capabilities with minimal downtime and data loss.",
-      "category": "COMPUTE",
-      "timestamp": "2026-04-13T15:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-elastic-disaster-recovery-ipv6/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 553,
+    "total": 543,
     "byCategory": {
-      "COMPUTE": 59,
+      "COMPUTE": 56,
       "AI_ML": 115,
-      "OTHER": 131,
-      "SECURITY": 112,
-      "DATABASE": 51,
-      "STORAGE": 23,
+      "OTHER": 128,
+      "SECURITY": 111,
+      "DATABASE": 50,
+      "STORAGE": 22,
       "CONTAINERS": 28,
-      "ANALYTICS": 16,
+      "ANALYTICS": 15,
       "SERVERLESS": 9,
       "NETWORKING": 9
     },
-    "lastUpdated": "2026-07-12T11:09:01.540Z"
+    "lastUpdated": "2026-07-12T22:49:29.041Z"
   },
-  "generatedAt": "2026-07-12T11:09:01.540Z"
+  "generatedAt": "2026-07-12T22:49:29.041Z"
 }
