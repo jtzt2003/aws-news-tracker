@@ -5419,23 +5419,13 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-c8gn-m8gn-r8gn-ebs/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "fffa4c4c62028f408ce825aad1d431969405b72c",
-      "title": "NVIDIA Nemotron-3-Super-120B, Qwen3.5-9B, and Qwen3.5-27B models now available on Amazon SageMaker JumpStart",
-      "summary": "AWS has added three new foundation models to Amazon SageMaker JumpStart: NVIDIA's Nemotron-3-Super-120B and two Qwen models (3.5-9B and 3.5-27B). These models offer specialized capabilities including agentic reasoning, multilingual coding, and advanced instruction following, allowing AWS customers to deploy high-performance AI solutions for various enterprise challenges.",
-      "category": "AI_ML",
-      "timestamp": "2026-04-13T23:40:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/nemotron3super-120b-qwen3.5-9b-qwen3.5-27b-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 543,
+    "total": 542,
     "byCategory": {
       "COMPUTE": 56,
-      "AI_ML": 115,
+      "AI_ML": 114,
       "OTHER": 128,
       "SECURITY": 111,
       "DATABASE": 50,
@@ -5445,7 +5435,7 @@
       "SERVERLESS": 9,
       "NETWORKING": 9
     },
-    "lastUpdated": "2026-07-12T22:49:29.041Z"
+    "lastUpdated": "2026-07-13T12:31:26.446Z"
   },
-  "generatedAt": "2026-07-12T22:49:29.041Z"
+  "generatedAt": "2026-07-13T12:31:26.446Z"
 }
