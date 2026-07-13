@@ -1,6 +1,66 @@
 {
   "announcements": [
     {
+      "id": "3a0b8f75723d6267b7d2f2cb83ae05a3b781604e",
+      "title": "Amazon DocumentDB (with MongoDB compatibility) now available as a skill in the Agent Toolkit for AWS ",
+      "summary": "Amazon DocumentDB (with MongoDB compatibility) is now available as a specialized database skill in the Agent Toolkit for AWS. With this skill, AI coding agents can set up, manage, migrate, optimize, a...",
+      "category": "DATABASE",
+      "timestamp": "2026-07-13T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-documentdb-agent-skill",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1c57331055f3e8bcfe996d8cf249708264ee31c4",
+      "title": "Gemma-4-E2B-it for is now available in Amazon SageMaker JumpStart",
+      "summary": "Today, AWS announced the availability of gemma-4-E2B-it in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from Google DeepMind is a mul...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-13T15:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/gemma-4-e2b-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "41b59f111862a677c920e5a7d59f45f49b6da8b1",
+      "title": "OpenAI privacy-filter for PII detection and masking is now available in Amazon SageMaker JumpStart",
+      "summary": "Today, AWS announced the availability of privacy-filter in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from OpenAI is a bidirectiona...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-13T15:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/privacy-filter-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "025568d444d7b1c64560811c18f4d0f2f8e68379",
+      "title": "Voxtral-Mini-4B-Realtime for real-time speech transcription is now available in Amazon SageMaker JumpStart",
+      "summary": "Today, AWS announced the availability of Voxtral-Mini-4B-Realtime-2602 in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from Mistral A...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-13T15:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/voxtral-mini-realtime-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "628d003c14412170e2a5fe773a1e7bfaa587a618",
+      "title": "Qwen3 embedding and reranking models for retrieval are now available in Amazon SageMaker JumpStart",
+      "summary": "Today, AWS announced the availability of Qwen3-VL-Embedding-2B and Qwen3-Reranker-4B in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These model...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-13T15:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/qwen3-search-retrieval-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5bfa709e6e5ecc6b7292f63232a81a14c8379b9e",
+      "title": "Amazon SageMaker HyperPod now supports custom AMIs (Amazon Machine Images) for Slurm clusters ",
+      "summary": "Amazon SageMaker HyperPod now supports custom AMIs for Slurm-orchestrated clusters, enabling customers to deploy clusters with pre-configured, security-hardened environments that meet their specific o...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-13T14:31:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/hyperpod-custom-ami-slurm/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "c6479f0087bed55379be122cc166b163cf7f192a",
       "title": "Amazon EC2 network/EBS instances now available in additional regions",
       "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8in, R8ib, R8idn, and R8idb instances are available in the AWS Asia Pacific (Tokyo) and Europe (Frankfurt, Ireland) regions. These instances ...",
@@ -5369,73 +5429,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/quick-sheet-tooltips/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "d6fbe209f8ae6c232db6f87ad2ddae699d32696c",
-      "title": "Amazon EC2 P6-B300 instances are now available in the AWS GovCloud (US-East) Region",
-      "summary": "Amazon EC2 P6-B300 instances are now available in the AWS GovCloud (US-East) Region, featuring 8x NVIDIA Blackwell Ultra GPUs with 2.1 TB of GPU memory and high-performance networking capabilities. These instances offer significant improvements over P6-B200 instances, including 2x networking bandwidth, 1.5x GPU memory, and 1.5x GPU TFLOPS, making them optimized for training workloads.",
-      "category": "COMPUTE",
-      "timestamp": "2026-04-14T21:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-p6-b300-govcloud-us-east/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "76bb85b8d06f2a14fcddf3c968fdcf3ffaf5aea6",
-      "title": "AWS Transform is now available in Kiro and VS Code",
-      "summary": "AWS Transform, an AI-powered migration and modernization tool that accelerates enterprise transformations from years to months, is now available in Kiro and VS Code developer environments. The service automates large-scale infrastructure migrations and tech debt reduction while eliminating manual handoffs that typically slow down transformation programs.",
-      "category": "OTHER",
-      "timestamp": "2026-04-14T19:15:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-transform-kiro-vscode/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "bae3c8ce58dc8c3028a8222e23c65712e5760c32",
-      "title": "AWS Secrets Manager now supports hybrid post-quantum TLS to protect secrets from quantum threats ",
-      "summary": "AWS Secrets Manager now supports hybrid post-quantum TLS using ML-KEM (Module-Lattice-based Key-Encapsulation Mechanism) to protect secrets from potential quantum computing threats. This quantum-resistant encryption is automatically enabled in Secrets Manager Agent, AWS Lambda Extension, and CSI Driver (all version 2.0.0+), and is also available through supported AWS SDKs. The enhancement provides an additional layer of security for retrieving and managing secrets without requiring any configuration changes from users.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-14T18:31:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-secrets-manager-post-quantum-tls/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "91c1b6b02da1b0259731d05e4e5d1d5fcd8e8e53",
-      "title": "AWS announces general availability of AWS Interconnect - multicloud",
-      "summary": "AWS has announced the general availability of AWS Interconnect - multicloud, which enables simple, resilient, high-speed private connections between AWS and other cloud service providers. Google Cloud is the first launch partner, with Microsoft Azure and Oracle Cloud Infrastructure planned to join in 2026. This service addresses the growing customer demand for multicloud strategies by providing secure connectivity options across different cloud platforms.",
-      "category": "NETWORKING",
-      "timestamp": "2026-04-14T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-announces-ga-AWS-interconnect-multicloud/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "583f52d43f41996622b24e06f629b438e8413e9c",
-      "title": "Amazon EC2 C8gn, M8gn, and R8gn instances now support higher Amazon EBS-optimized performance",
-      "summary": "AWS has doubled the Amazon EBS performance for its largest EC2 C8gn, M8gn, and R8gn instances (48xlarge and metal-48xl sizes), increasing from 60 Gbps bandwidth and 240,000 IOPS to 120 Gbps and 480,000 IOPS respectively. These network-optimized instances are powered by AWS Graviton4 processors and 6th generation AWS Nitro Cards, with the performance improvements enabled by enhancements to the AWS Nitro System.",
-      "category": "COMPUTE",
-      "timestamp": "2026-04-14T14:01:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-c8gn-m8gn-r8gn-ebs/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 542,
+    "total": 543,
     "byCategory": {
-      "COMPUTE": 56,
-      "AI_ML": 114,
-      "OTHER": 128,
+      "DATABASE": 51,
+      "AI_ML": 118,
       "SECURITY": 111,
-      "DATABASE": 50,
+      "COMPUTE": 54,
+      "OTHER": 127,
       "STORAGE": 22,
       "CONTAINERS": 28,
       "ANALYTICS": 15,
       "SERVERLESS": 9,
-      "NETWORKING": 9
+      "NETWORKING": 8
     },
-    "lastUpdated": "2026-07-13T12:31:26.446Z"
+    "lastUpdated": "2026-07-13T22:55:27.638Z"
   },
-  "generatedAt": "2026-07-13T12:31:26.446Z"
+  "generatedAt": "2026-07-13T22:55:27.638Z"
 }
