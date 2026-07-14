@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "0fd788f1f970153b1378fcdf6e97070566ace1f7",
+      "title": "AWS Elastic Disaster Recovery now supports Amazon EBS volume initialization rate",
+      "summary": "AWS Elastic Disaster Recovery (AWS DRS) now supports the Amazon EBS volume initialization rate, helping recovered volumes reach full performance faster during drills and recoveries. When DRS restores ...",
+      "category": "STORAGE",
+      "timestamp": "2026-07-14T22:00:56.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-drs-fast-hydration/",
+      "source": "AWS What's New",
+      "isNew": true
+    },
+    {
+      "id": "7f81a1eb54e8e585fd32accdc90d4ea5fbe04532",
+      "title": "AWS Elastic Disaster Recovery reduces recovery time for AWS-to-AWS workloads",
+      "summary": "AWS Elastic Disaster Recovery (AWS DRS) now recovers your AWS-based workloads faster. For source servers running on Amazon EC2, DRS can now skip preparation steps that these workloads no longer need, ...",
+      "category": "COMPUTE",
+      "timestamp": "2026-07-14T22:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-drs-fast-recovery/ ",
+      "source": "AWS What's New",
+      "isNew": true
+    },
+    {
+      "id": "33c53092049ddf84e2784298cf88008415f5edb4",
+      "title": "AWS IAM Identity Center achieves FedRAMP Class C Certification",
+      "summary": "AWS IAM Identity Center is now in scope for FedRAMP Class C in the US East (Ohio), US East (N. Virginia), US West (N. California), and US West (Oregon) Regions. You can now use IAM Identity Center to ...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-14T19:10:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-identity-center-fedramp/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "aa1356ca3562de04f7151af1c0b85159769a2410",
+      "title": "Introducing Amazon GuardDuty AI Protection for AWS AI workloads ",
+      "summary": "Amazon GuardDuty now offers AI Protection, expanding threat detection to AWS AI services including Amazon Bedrock and Amazon SageMaker. As organizations rapidly adopt AI, security teams may lack visib...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-14T19:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-guardduty-ai-protection-aws/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "93e4cf191cf511a8d3bf2a32fac46112d85959dd",
+      "title": "Amazon Managed Service for Apache Flink now offers AI Agent Skills to simplify building and operating Flink applications",
+      "summary": "Amazon Managed Service for Apache Flink now offers AI Agent Skills that give AI coding assistants expert, up-to-date guidance for building and operating Flink applications. The skills provide expert g...",
+      "category": "OTHER",
+      "timestamp": "2026-07-14T18:20:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-flink-agent-skills/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "fda2cc4cfa017462db5a96a81e04d42fbd021c56",
+      "title": "Amazon WorkSpaces Personal simplifies bulk PCoIP to DCV protocol migration",
+      "summary": "Amazon WorkSpaces Personal now provides automated rollback and support for PCoIP to DCV protocol migration of stopped WorkSpaces, building on the recently launched console-based migration workflow and...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-14T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-workspaces-personal-pcoip/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6a3de764cf237dd9542a5f86923af9ee685d8bd6",
+      "title": "Amazon Aurora DSQL is now available in Europe (Spain)",
+      "summary": "Starting today, Amazon Aurora DSQL is available for single-Region clusters in the Europe (Spain) Region. Aurora DSQL is the fastest serverless, distributed SQL database, with active-active high availa...",
+      "category": "DATABASE",
+      "timestamp": "2026-07-14T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-available-in-spain/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7b7bb617e197f85d80061829e83076ce3978765b",
+      "title": "AWS Security Hub now provides AI inventory for organization-wide visibility of AI assets ",
+      "summary": "Today, AWS announces that AWS Security Hub now provides an AI inventory, giving central security teams a continuously updated, organization-wide view of AI assets and their security posture. As organi...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-14T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-ai/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c4b2a1d240f44b0fb90c620cf8edade096d7f084",
+      "title": "AWS Storage Gateway adds console support for copying file shares across gateways",
+      "summary": "AWS Storage Gateway now allows you to copy file shares across gateways directly from the Storage Gateway console. When you initiate a copy, the console reads the configuration of your source share and...",
+      "category": "STORAGE",
+      "timestamp": "2026-07-14T10:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-storage-gateway-console-copy-file-shares/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b243d430809f263486ff4214c09344efcb78b54a",
+      "title": "Amazon CloudFront Functions now supports logging to CloudFront access logs ",
+      "summary": "You can now write custom data directly into CloudFront access logs using a new helper method available from within CloudFront Functions. CloudFront Functions run lightweight JavaScript at the edge for...",
+      "category": "NETWORKING",
+      "timestamp": "2026-07-14T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/cloudfront-functions-access-logs/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "81779e5e84cb8317b5b3e2fa61ead99fdcb5de9a",
       "title": "OpenAI GPT-5.6 Sol, Terra, and Luna now generally available on Amazon Bedrock",
       "summary": "GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock, bringing the smartest family of models from OpenAI yet to Bedrock's next-generation inference engine built for high-performa...",
@@ -5439,43 +5539,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/claude-opus-4.7-amazon-bedrock/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "a226531a45ac3c13a26b24dc9492ed3048187947",
-      "title": "AWS Payment Cryptography now available in South America (São Paulo)",
-      "summary": "AWS Payment Cryptography is now available in the South America (São Paulo) region, expanding the service's global reach. This expansion allows customers with latency-sensitive payment applications to deploy locally without relying on cross-region support. AWS Payment Cryptography is a fully managed service that handles payment-specific cryptographic operations and key management for cloud-hosted payment applications.",
-      "category": "OTHER",
-      "timestamp": "2026-04-15T20:34:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-payment-cryptography-south/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "18757d4ef1e27fb2a4ead88038518ee4a4a567de",
-      "title": "Amazon Quick Introduces Sheet Tooltips for Rich, Contextual Data Exploration",
-      "summary": "Amazon QuickSight now supports sheet tooltips, allowing report authors to create rich, interactive tooltips that display when users hover over data points. These tooltips can contain custom visuals, text, and images in a flexible layout, and automatically inherit filters from the source visual while adding specific filters for the hovered data point. This feature enhances data exploration by providing contextual details without interrupting the user's analysis workflow.",
-      "category": "OTHER",
-      "timestamp": "2026-04-15T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/quick-sheet-tooltips/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 546,
+    "total": 554,
     "byCategory": {
-      "SECURITY": 112,
-      "OTHER": 128,
-      "DATABASE": 52,
+      "STORAGE": 24,
+      "COMPUTE": 55,
+      "SECURITY": 116,
+      "OTHER": 127,
+      "DATABASE": 53,
+      "NETWORKING": 9,
       "AI_ML": 118,
-      "COMPUTE": 54,
-      "STORAGE": 22,
       "CONTAINERS": 28,
       "ANALYTICS": 15,
-      "SERVERLESS": 9,
-      "NETWORKING": 8
+      "SERVERLESS": 9
     },
-    "lastUpdated": "2026-07-14T11:24:48.754Z"
+    "lastUpdated": "2026-07-14T22:56:08.082Z"
   },
-  "generatedAt": "2026-07-14T11:24:48.754Z"
+  "generatedAt": "2026-07-14T22:56:08.083Z"
 }
