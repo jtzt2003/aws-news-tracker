@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "c20ac78ead5fd5f1ff930036bf150cdcd654a4dc",
+      "title": "AWS Lambda announces self-managed code storage",
+      "summary": "AWS Lambda now supports self-managed Amazon S3 buckets for code storage, enabling you to reference source code directly from your own S3 buckets without Lambda creating intermediate copies. This elimi...",
+      "category": "SERVERLESS",
+      "timestamp": "2026-07-15T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/lambda-self-managed-code-storage/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "0fd788f1f970153b1378fcdf6e97070566ace1f7",
       "title": "AWS Elastic Disaster Recovery now supports Amazon EBS volume initialization rate",
       "summary": "AWS Elastic Disaster Recovery (AWS DRS) now supports the Amazon EBS volume initialization rate, helping recovered volumes reach full performance faster during drills and recoveries. When DRS restores ...",
@@ -19,6 +29,16 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-drs-fast-recovery/ ",
       "source": "AWS What's New",
       "isNew": true
+    },
+    {
+      "id": "2f854f75d1ec82c1d588be1c4e55b3e06ade1007",
+      "title": "AWS Lambda console provides a one-click setup prompt for coding agents ",
+      "summary": "AWS Lambda console now provides a one-click setup prompt for coding agents that configures your agent with AWS Serverless skills and the Serverless Model Context Protocol (MCP) server, embedding serve...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-07-14T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-prompt-coding-agents/",
+      "source": "AWS What's New",
+      "isNew": false
     },
     {
       "id": "33c53092049ddf84e2784298cf88008415f5edb4",
@@ -5542,20 +5562,20 @@
     }
   ],
   "stats": {
-    "total": 554,
+    "total": 556,
     "byCategory": {
+      "SERVERLESS": 10,
       "STORAGE": 24,
       "COMPUTE": 55,
+      "CONTAINERS": 29,
       "SECURITY": 116,
       "OTHER": 127,
       "DATABASE": 53,
       "NETWORKING": 9,
       "AI_ML": 118,
-      "CONTAINERS": 28,
-      "ANALYTICS": 15,
-      "SERVERLESS": 9
+      "ANALYTICS": 15
     },
-    "lastUpdated": "2026-07-14T22:56:08.082Z"
+    "lastUpdated": "2026-07-15T11:35:23.701Z"
   },
-  "generatedAt": "2026-07-14T22:56:08.083Z"
+  "generatedAt": "2026-07-15T11:35:23.701Z"
 }
