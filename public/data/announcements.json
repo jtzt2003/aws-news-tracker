@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "980331861685014783613cd1527602b8bf9f0838",
+      "title": "Amazon CloudWatch Logs announces intelligent tiering for storage",
+      "summary": "Amazon CloudWatch Logs now supports intelligent storage tiering, which automatically classifies your log data across three storage tiers - Standard (existing), Infrequent Access, and Archive Instant A...",
+      "category": "OTHER",
+      "timestamp": "2026-07-15T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cloudwatch-intelligent-tiering/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "32be83775b7794a5dc4938c9017f144461f86789",
+      "title": "Amazon MQ now supports configurable storage for RabbitMQ brokers",
+      "summary": "Amazon MQ now allows you to configure the EBS Disk storage size for RabbitMQ brokers independently of instance type. When creating or updating a broker, you can define a custom storage size, allowing ...",
+      "category": "COMPUTE",
+      "timestamp": "2026-07-15T18:18:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-mq-rabbitmq-configurable-storage/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0984a2145215fc0c07155b2f99847504372dcebd",
+      "title": "Amazon RDS and Aurora now support R8g and M8g database instances in additional AWS Regions",
+      "summary": "AWS Graviton4-based R8g database instances are now generally available for Amazon Aurora (MySQL and PostgreSQL compatibility) and Amazon RDS for PostgreSQL, MySQL, and MariaDB in Asia Pacific (Hyderab...",
+      "category": "DATABASE",
+      "timestamp": "2026-07-15T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-rds-aurora-r8g-m8g-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3e341ac1904c001e3ed54c26687bf7b5b269b87e",
+      "title": "Amazon RDS and Aurora expand R8gd and M8gd to additional Regions",
+      "summary": "Amazon Relational Database Service (RDS) now supports R8gd database instances in 12 additional regions and and M8gd database instances in 6 additional Regions with Optimized Reads for Amazon Aurora Po...",
+      "category": "DATABASE",
+      "timestamp": "2026-07-15T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-aurora-r8gd-m8gd-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d0f8feef9d3e3d52bba8fe9a6de0b67d0ea032d8",
+      "title": "Amazon Cognito now supports importing users with password hashes",
+      "summary": "Amazon Cognito now supports importing users with password hashes in CSV user imports. Previously, users imported from a CSV file had to reset their passwords on first sign-in. Now, you can include pas...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-15T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cognito-password-hash-import/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b2c9abcaaa33eb7d7ae22a9d6b9f2411d1dc2e32",
+      "title": "Amazon MSK Express Brokers adds support for Apache Kafka version 4.2",
+      "summary": "Amazon Managed Streaming for Apache Kafka (Amazon MSK) Express Brokers now supports Apache Kafka version 4.2. This release includes Eligible Leader Replicas (ELR) enhancements that strengthen availabi...",
+      "category": "ANALYTICS",
+      "timestamp": "2026-07-15T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-msk-express-version-42/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6842c4206f515c4bbb7edaaaebb71ce4d209ceed",
+      "title": "Amazon RDS now supports up to four storage modifications in 24 hours ",
+      "summary": "Amazon RDS now allows up to four storage modifications per database instance within a rolling 24-hour window. These modifications let you increase the size, change the type, and adjust the performance...",
+      "category": "DATABASE",
+      "timestamp": "2026-07-15T16:15:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-upto-four-storage-modifications-24-hours",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d84b7bfaafa9fa9609e1975e2a4b5b5278e649c2",
+      "title": "AWS Glue SAP OData connector and zero-ETL integrations are now available in AWS GovCloud (US) regions",
+      "summary": "AWS Glue SAP OData connector and zero-ETL integrations are now available in AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions, with support for Amazon DynamoDB, Salesforce, and SAP OData as so...",
+      "category": "DATABASE",
+      "timestamp": "2026-07-15T15:51:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-sap-zero-etl-govcloud",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2296a2d1cacfd1dc535f858bdea5373ee477ab1a",
+      "title": "Amazon OpenSearch Service now supports the Agent Toolkit for AWS with a curated skill",
+      "summary": "Amazon OpenSearch Service now integrates with the Agent Toolkit for AWS, enabling you to build, manage, and query OpenSearch Service domains and OpenSearch Serverless collections directly from AI codi...",
+      "category": "ANALYTICS",
+      "timestamp": "2026-07-15T14:44:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-service-agent/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d539c9e3c631d91f091ededc77e59626890a5643",
+      "title": "Amazon RDS for Db2 is now available in additional AWS Commercial regions",
+      "summary": "Amazon Relational Database Service (Amazon RDS) for Db2 is now available in the Asia Pacific (Thailand), Asia Pacific (Malaysia), Asia Pacific (Taipei), Mexico (Central), and Canada West (Calgary) Reg...",
+      "category": "DATABASE",
+      "timestamp": "2026-07-15T07:39:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-db2-available-additional-aws-commercial-regions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "c20ac78ead5fd5f1ff930036bf150cdcd654a4dc",
       "title": "AWS Lambda announces self-managed code storage",
       "summary": "AWS Lambda now supports self-managed Amazon S3 buckets for code storage, enabling you to reference source code directly from your own S3 buckets without Lambda creating intermediate copies. This elimi...",
@@ -5469,113 +5569,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-jumpstart-optimized-deployments/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "f6e8e3982551279cd66b3a850c8467ea8d4f5ef4",
-      "title": "Amazon CloudWatch RUM now available in AWS European Sovereign Cloud",
-      "summary": "Amazon CloudWatch RUM (Real User Monitoring) is now available in AWS European Sovereign Cloud, allowing developers to collect and analyze real-time client-side performance data from web and mobile applications. This expansion enables customers with strict European data residency and sovereignty requirements to monitor their web application performance while ensuring their data remains within the sovereign boundary.",
-      "category": "OTHER",
-      "timestamp": "2026-04-16T21:47:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-cloudwatch-rum-european-sovereign-cloud/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "73598b83b99fba151b1d043f733e404b031909a5",
-      "title": "Amazon CloudWatch now supports cross-region telemetry auditing and enablement rules",
-      "summary": "Amazon CloudWatch now supports cross-region telemetry auditing and enablement rules, allowing customers to audit telemetry configuration and enable telemetry from AWS services like EC2, VPC, and CloudTrail across multiple regions from a single location. Customers can enable this auditing feature for their entire account or organization across all supported regions simultaneously and create automated enablement rules that apply to selected or all available regions.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-16T20:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-cross-region-enablement-rules/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "221d68136a16e7a643a854afe487f35d400cd29b",
-      "title": "AWS Elastic Disaster Recovery is now available in the AWS European Sovereign Cloud",
-      "summary": "AWS Elastic Disaster Recovery (AWS DRS) is now available in the AWS European Sovereign Cloud, allowing organizations with strict data sovereignty requirements to implement disaster recovery for their critical workloads. The service provides fast, reliable recovery of both on-premises and cloud-based applications with minimal downtime and data loss, offering RPOs in seconds and RTOs in minutes through cost-effective storage and compute resources.",
-      "category": "OTHER",
-      "timestamp": "2026-04-16T19:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/drs-thf/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c38b70fd5b16c7d71d8510f1059f6fa627d3dd2b",
-      "title": "Amazon WorkSpaces Personal and Amazon WorkSpaces Core are now available in two additional AWS Regions",
-      "summary": "Amazon has expanded the availability of WorkSpaces Personal and WorkSpaces Core to US East (Ohio) and Asia Pacific (Malaysia) AWS Regions. This expansion allows organizations to provision virtual desktops closer to their users, providing better performance, in-country data residency, and compliance with local regulations. The Ohio region additionally enables disaster recovery solutions and supports regional workforces with low-latency access to virtual desktop environments.",
-      "category": "OTHER",
-      "timestamp": "2026-04-16T17:38:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-workspaces-available-two-new-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "8d56efa4a42f4395bcc4b4fad8f7306affbf9195",
-      "title": "Amazon FSx for Lustre Persistent-2 file systems are now available in four additional AWS Regions ",
-      "summary": "Amazon FSx for Lustre Persistent-2 file systems are now available in four additional AWS Regions: Asia Pacific (Hyderabad, Jakarta), Europe (Zurich), and South America (São Paulo). These file systems are built on AWS Graviton processors and offer higher throughput per terabyte (up to 1 GB/s per TB) at lower costs compared to previous generation FSx for Lustre systems.",
-      "category": "AI_ML",
-      "timestamp": "2026-04-16T16:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-fsx-lustre-persistent-2-aws/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "488df22d3af80f1777fab9dcf6a6c0dd65e4cf94",
-      "title": "Amazon EC2 X8aedz instances are now available in Europe (Stockholm) region",
-      "summary": "Amazon EC2 X8aedz instances are now available in the Europe (Stockholm) region, powered by 5th Gen AMD EPYC processors that deliver the highest maximum CPU frequency of 5GHz in the cloud. These instances are built with sixth generation AWS Nitro Cards and are optimized for electronic design automation (EDA) workloads including physical layout, physical verification, and relational database tasks.",
-      "category": "COMPUTE",
-      "timestamp": "2026-04-16T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-x8aedz-instances-stockholm/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "a5f43b4c71008e58d394d63346c6331a69ccb32e",
-      "title": "Introducing Amazon EC2 C8in and C8ib instances ",
-      "summary": "AWS has launched Amazon EC2 C8in and C8ib instances powered by custom sixth-generation Intel Xeon Scalable processors and the latest AWS Nitro cards. These instances deliver up to 43% better performance than previous C6in instances and scale up to 384 vCPUs, with C8in instances offering 600 Gbps network bandwidth—the highest among enhanced networking instances.",
-      "category": "COMPUTE",
-      "timestamp": "2026-04-16T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-c8in-c8ib-instances-ga/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "a3ba08a4379c7cf09478c8e8fc37421a5641cd0d",
-      "title": " Amazon Quick now supports multi-account sign-in within the same browser",
-      "summary": "AWS has announced multi-session support for Amazon QuickSight, allowing users to access up to five accounts simultaneously within the same browser. The feature includes account names in URLs for easier navigation between different assets like dashboards and reports. This enhancement helps customers who use multiple accounts for different environments such as development, testing, and production to more efficiently manage and compare insights across accounts.",
-      "category": "OTHER",
-      "timestamp": "2026-04-16T12:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-multi-account-sign-in/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "458a8f1e5268771ce9dd403692cfa1ca7e7a5a69",
-      "title": "Claude Opus 4.7 is now available in Amazon Bedrock ",
-      "summary": "Amazon Bedrock now offers Claude Opus 4.7, Anthropic's most advanced Opus model, which provides significant improvements in agentic coding, professional work, and long-running tasks for production AI applications. This upgrade from Claude Opus 4.6 delivers stronger performance across production workflows and better handles ambiguous situations for developers and enterprises building AI solutions.",
-      "category": "AI_ML",
-      "timestamp": "2026-04-16T12:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/claude-opus-4.7-amazon-bedrock/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 556,
+    "total": 557,
     "byCategory": {
+      "OTHER": 124,
+      "COMPUTE": 54,
+      "DATABASE": 58,
+      "SECURITY": 116,
+      "ANALYTICS": 17,
       "SERVERLESS": 10,
       "STORAGE": 24,
-      "COMPUTE": 55,
       "CONTAINERS": 29,
-      "SECURITY": 116,
-      "OTHER": 127,
-      "DATABASE": 53,
       "NETWORKING": 9,
-      "AI_ML": 118,
-      "ANALYTICS": 15
+      "AI_ML": 116
     },
-    "lastUpdated": "2026-07-15T11:35:23.701Z"
+    "lastUpdated": "2026-07-15T22:57:52.478Z"
   },
-  "generatedAt": "2026-07-15T11:35:23.701Z"
+  "generatedAt": "2026-07-15T22:57:52.478Z"
 }
