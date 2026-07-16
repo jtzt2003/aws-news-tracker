@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "fc6f2c7042754565dd317b5a20f68d9d45db6d7c",
+      "title": "Amazon Managed Grafana achieves FedRAMP High authorization in AWS GovCloud (US)",
+      "summary": "Amazon Managed Grafana is now a FedRAMP High authorized service in the AWS GovCloud (US-East) and AWS GovCloud (US-West) regions. Federal agencies, public sector organizations, and other enterprises w...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-16T19:31:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-grafana-fedramp-high/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2dd2ed25d2ab92da334b8b7b96053325d097929d",
+      "title": "Amazon EC2 now surfaces the public SSM parameters associated with public AMIs",
+      "summary": "Amazon EC2 now surfaces the AWS Systems Manager (SSM) Parameter Store parameters associated with public AMIs directly in the AMI metadata. When you describe a public AMI, the response includes the ass...",
+      "category": "COMPUTE",
+      "timestamp": "2026-07-16T18:20:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-public-images-ssm-parameters",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "62486a6af994f5b1a070777cddcc2d2a3ab8d9b4",
+      "title": "Amazon S3 Event Notifications now include system-generated tags",
+      "summary": "Amazon S3 Event Notifications now include system-generated tags in events delivered to all destinations including Amazon EventBridge, Amazon SQS, Amazon SNS, and AWS Lambda. System-generated tags are ...",
+      "category": "SERVERLESS",
+      "timestamp": "2026-07-16T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-s3-event-notifications-system-generated-tags/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6db1cd61fe090f3dc77192ca2c6d542ffe23fc85",
+      "title": "PostgreSQL 19 Beta 2 is now available in Amazon RDS Database Preview Environment",
+      "summary": "Amazon RDS for PostgreSQL 19 Beta 2 is now available in the Amazon RDS Database Preview Environment, allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL. You can dep...",
+      "category": "DATABASE",
+      "timestamp": "2026-07-16T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/postgresql-19-beta-2-amazon-rds-database-preview-environment/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3ae2080cdf20d95ebb4e2c2313360fa6551780a2",
+      "title": "AWS Sustainability service now includes water withdrawals data",
+      "summary": "Customers can now view annual water withdrawals data associated with their AWS workloads in AWS Sustainability, alongside existing carbon emissions data. This enhancement helps organizations gain comp...",
+      "category": "OTHER",
+      "timestamp": "2026-07-16T16:43:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-sustainability-water-withdrawals/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f4dd7af99b253a0a20208f0ff5fc349d86168bb6",
+      "title": "Amazon EC2 High Memory U7in-24TB instances now available in AWS Europe (Paris) region",
+      "summary": "Amazon EC2 High Memory U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS Europe (Paris) region. U7i instances are part of the AWS 7th generation and are powered by custom fourth-gener...",
+      "category": "COMPUTE",
+      "timestamp": "2026-07-16T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-high-memory-europe/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "da591ccf656410d658b84e6fc1259369720cc439",
+      "title": "Amazon Redshift adds rg.large and rg.12xlarge instance sizes",
+      "summary": "Amazon Redshift announces the general availability of two new RG instance sizes - rg.large and rg.12xlarge. These new sizes deliver the same Graviton-powered performance benefits as existing RG instan...",
+      "category": "DATABASE",
+      "timestamp": "2026-07-16T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-adds-rg-large-12xlarge-instance-sizes",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b6b7fb6d07eb92c2361b32d43fd97442714bf7e5",
+      "title": "Amazon S3 removes 30-day minimum for transitions to S3 Standard-IA and S3 One Zone-IA",
+      "summary": "You can now transition objects to S3 Standard-Infrequent Access (S3 Standard-IA) and S3 One Zone-Infrequent Access (S3 One Zone-IA) as soon as the day they are created, without the previous 30-day min...",
+      "category": "STORAGE",
+      "timestamp": "2026-07-16T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/s3-removes-30-day-transitions-standard-ia-one-zone-ia",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5645bdc06a130deceb32b7dd64fbd0ab3da93a4e",
+      "title": "AWS Backup extends logically air-gapped vault support to six additional AWS Regions",
+      "summary": "AWS Backup logically air-gapped vaults are now available in six additional AWS Regions: Asia Pacific (Taipei), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific (Thailand), Mexico (Cen...",
+      "category": "STORAGE",
+      "timestamp": "2026-07-16T10:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-backup-logically-air-gapped-vault-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8efccaf11574a68b6d5126f72e81854f4d02a1bb",
+      "title": "AWS Backup extends restore testing support to six additional AWS Regions",
+      "summary": "AWS Backup restore testing is now available in six additional AWS Regions: Asia Pacific (Taipei), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific (Thailand), Mexico (Central), and Ca...",
+      "category": "STORAGE",
+      "timestamp": "2026-07-16T10:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-backup-restore-testing-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "980331861685014783613cd1527602b8bf9f0838",
       "title": "Amazon CloudWatch Logs announces intelligent tiering for storage",
       "summary": "Amazon CloudWatch Logs now supports intelligent storage tiering, which automatically classifies your log data across three storage tiers - Standard (existing), Infrequent Access, and Archive Instant A...",
@@ -5519,73 +5619,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-managed-microsoft-ad-2016-functional-level/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "2fd3d00085679c86493b0b1db5ca5fa1b1aa6a78",
-      "title": "Amazon EC2 High Memory U7i instances now available in AWS Asia Pacific (Singapore) region",
-      "summary": "Amazon EC2 High Memory U7i instances are now available in the AWS Asia Pacific (Singapore) region, offering two configurations: U7i-8TB with 8TiB of DDR5 memory and U7i-12TB with 12TiB of DDR5 memory. These 7th generation instances are powered by custom fourth generation Intel Xeon Scalable Processors and designed to enhance transaction processing throughput for customers dealing with large-scale data environments.",
-      "category": "COMPUTE",
-      "timestamp": "2026-04-17T20:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-high-memory-u7i-asia-pacific/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d7bb6d1f004042a0b54b5d3eee93922d6fd36ded",
-      "title": "Amazon SageMaker HyperPod now supports flexible instance groups",
-      "summary": "Amazon SageMaker HyperPod now supports flexible instance groups, allowing customers to specify multiple instance types and subnets within a single instance group. This enhancement eliminates the previous requirement to create separate instance groups for each instance type and availability zone combination. The update helps customers improve capacity resilience, optimize costs, and better utilize subnets across their training and inference workloads.",
-      "category": "AI_ML",
-      "timestamp": "2026-04-17T20:03:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-hyperpod-flexible-instance-groups/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d5c7b95c36fca1fbe911da109a4f6214bd20d735",
-      "title": "Amazon ECR Pull Through Cache Now Supports Referrer Discovery and Sync",
-      "summary": "Amazon ECR's pull through cache feature now automatically discovers and syncs OCI referrers (including image signatures, SBOMs, and attestations) from upstream registries into private repositories. Previously, users had to manually list and fetch these referrers, as ECR would not automatically return or sync them from upstream repositories when listing referrers on repositories with pull through cache rules.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-04-17T18:29:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ecr-pull-through-cache-referrers/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "754033951514f795d29ace096b45f6e7e6bd0544",
-      "title": "AWS Deadline Cloud announces AI-powered troubleshooting assistant for render jobs",
-      "summary": "AWS Deadline Cloud has launched an AI-powered troubleshooting assistant designed to help users quickly diagnose and resolve render job failures. AWS Deadline Cloud is a fully managed service that streamlines render management for computer-generated graphics and visual effects across films, TV, commercials, games, and industrial design. The AI assistant addresses common issues like missing assets, software errors, configuration problems, and resource constraints that can disrupt production pipelines.",
-      "category": "AI_ML",
-      "timestamp": "2026-04-17T16:40:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/deadline-cloud-ai-troubleshooting/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6b2f1fbb5d17f7645e660460bb3d03ac36dd3e74",
-      "title": "Amazon Managed Grafana now supports creating Grafana 12.4 workspaces",
-      "summary": "Amazon Managed Grafana now supports creating new workspaces with Grafana version 12.4, which includes features from open source versions 11.0 to 12.4. Key new capabilities include Drilldown apps for queryless point-and-click exploration of metrics and logs, scenes-powered dashboards, variables in transformations, visualization enhancements, and improved Amazon CloudWatch plugin features.",
-      "category": "OTHER",
-      "timestamp": "2026-04-17T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-managed-grafana-v12-create/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 557,
+    "total": 562,
     "byCategory": {
+      "SECURITY": 116,
+      "COMPUTE": 55,
+      "SERVERLESS": 11,
+      "DATABASE": 60,
       "OTHER": 124,
-      "COMPUTE": 54,
-      "AI_ML": 117,
-      "DATABASE": 58,
-      "SECURITY": 115,
+      "STORAGE": 27,
+      "AI_ML": 115,
       "ANALYTICS": 17,
-      "SERVERLESS": 10,
-      "STORAGE": 24,
-      "CONTAINERS": 29,
+      "CONTAINERS": 28,
       "NETWORKING": 9
     },
-    "lastUpdated": "2026-07-16T11:39:02.399Z"
+    "lastUpdated": "2026-07-16T22:56:18.718Z"
   },
-  "generatedAt": "2026-07-16T11:39:02.400Z"
+  "generatedAt": "2026-07-16T22:56:18.719Z"
 }
