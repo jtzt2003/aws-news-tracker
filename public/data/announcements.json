@@ -21,6 +21,16 @@
       "isNew": false
     },
     {
+      "id": "34c48ddf3b1b0813f084ca5d76fa032bfc0eaf21",
+      "title": "Amazon EC2 G7e instances now available in additional regions",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) G7e instances accelerated by NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs are now available in the AWS Europe (Frankfurt, Stockholm) and ...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-15T18:04:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-g7e-additional-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "0984a2145215fc0c07155b2f99847504372dcebd",
       "title": "Amazon RDS and Aurora now support R8g and M8g database instances in additional AWS Regions",
       "summary": "AWS Graviton4-based R8g database instances are now generally available for Amazon Aurora (MySQL and PostgreSQL compatibility) and Amazon RDS for PostgreSQL, MySQL, and MariaDB in Asia Pacific (Hyderab...",
@@ -5559,16 +5569,6 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-managed-grafana-v12-create/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "c7451528e9604267f35c51d8fb0c6044b96df349",
-      "title": "SageMaker JumpStart now offers optimized deployments for foundation models",
-      "summary": "AWS SageMaker JumpStart has introduced optimized deployments that allow customers to deploy foundation models with pre-configured settings tailored to specific use cases and performance needs. These deployments offer task-aware configurations that can optimize for cost, throughput, or latency depending on workload requirements such as content generation, summarization, or Q&A. The feature supports over 30 popular models from providers including Meta and others.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-17T00:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-jumpstart-optimized-deployments/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
@@ -5576,16 +5576,16 @@
     "byCategory": {
       "OTHER": 124,
       "COMPUTE": 54,
+      "AI_ML": 117,
       "DATABASE": 58,
-      "SECURITY": 116,
+      "SECURITY": 115,
       "ANALYTICS": 17,
       "SERVERLESS": 10,
       "STORAGE": 24,
       "CONTAINERS": 29,
-      "NETWORKING": 9,
-      "AI_ML": 116
+      "NETWORKING": 9
     },
-    "lastUpdated": "2026-07-15T22:57:52.478Z"
+    "lastUpdated": "2026-07-16T11:39:02.399Z"
   },
-  "generatedAt": "2026-07-15T22:57:52.478Z"
+  "generatedAt": "2026-07-16T11:39:02.400Z"
 }
