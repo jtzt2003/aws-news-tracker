@@ -11,6 +11,16 @@
       "isNew": false
     },
     {
+      "id": "d5bc194fef5d0cae6235b1fd721a85b5fc08fa33",
+      "title": "Track cost efficiency trends directly in Billing and Cost Management Dashboards with the new Cost Efficiency widget",
+      "summary": "Today, AWS Billing and Cost Management (BCM) announces support for Cost Efficiency widget in BCM Dashboards. You can now view cost efficiency trends alongside Cost Explorer, Budgets, and reports for S...",
+      "category": "COMPUTE",
+      "timestamp": "2026-07-16T18:56:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/monitor-cost-efficiency-using-dashboards",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "2dd2ed25d2ab92da334b8b7b96053325d097929d",
       "title": "Amazon EC2 now surfaces the public SSM parameters associated with public AMIs",
       "summary": "Amazon EC2 now surfaces the AWS Systems Manager (SSM) Parameter Store parameters associated with public AMIs directly in the AMI metadata. When you describe a public AMI, the response includes the ass...",
@@ -5622,10 +5632,10 @@
     }
   ],
   "stats": {
-    "total": 562,
+    "total": 563,
     "byCategory": {
       "SECURITY": 116,
-      "COMPUTE": 55,
+      "COMPUTE": 56,
       "SERVERLESS": 11,
       "DATABASE": 60,
       "OTHER": 124,
@@ -5635,7 +5645,7 @@
       "CONTAINERS": 28,
       "NETWORKING": 9
     },
-    "lastUpdated": "2026-07-16T22:56:18.718Z"
+    "lastUpdated": "2026-07-17T11:21:20.919Z"
   },
-  "generatedAt": "2026-07-16T22:56:18.719Z"
+  "generatedAt": "2026-07-17T11:21:20.919Z"
 }
