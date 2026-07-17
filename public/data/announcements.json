@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "4ebe7f75d7f1dfdcb6c34952fc58ee0e169cfe9d",
+      "title": "Amazon OpenSearch UI now supports one-click dashboard migration  ",
+      "summary": "Amazon OpenSearch Service now supports one-click migration from legacy OpenSearch Dashboards to OpenSearch UI, for both OpenSearch domains and serverless collections. OpenSearch UI is the new, zero-do...",
+      "category": "ANALYTICS",
+      "timestamp": "2026-07-17T17:23:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-ui-one-click-dashboard-migration",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "fc6f2c7042754565dd317b5a20f68d9d45db6d7c",
       "title": "Amazon Managed Grafana achieves FedRAMP High authorization in AWS GovCloud (US)",
       "summary": "Amazon Managed Grafana is now a FedRAMP High authorized service in the AWS GovCloud (US-East) and AWS GovCloud (US-West) regions. Federal agencies, public sector organizations, and other enterprises w...",
@@ -5632,8 +5642,9 @@
     }
   ],
   "stats": {
-    "total": 563,
+    "total": 564,
     "byCategory": {
+      "ANALYTICS": 18,
       "SECURITY": 116,
       "COMPUTE": 56,
       "SERVERLESS": 11,
@@ -5641,11 +5652,10 @@
       "OTHER": 124,
       "STORAGE": 27,
       "AI_ML": 115,
-      "ANALYTICS": 17,
       "CONTAINERS": 28,
       "NETWORKING": 9
     },
-    "lastUpdated": "2026-07-17T11:21:20.919Z"
+    "lastUpdated": "2026-07-17T22:50:40.727Z"
   },
-  "generatedAt": "2026-07-17T11:21:20.919Z"
+  "generatedAt": "2026-07-17T22:50:40.728Z"
 }
