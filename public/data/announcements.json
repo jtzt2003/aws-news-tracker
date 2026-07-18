@@ -1,12 +1,32 @@
 {
   "announcements": [
     {
+      "id": "0728d97bab04c692160499975c9835c695985d46",
+      "title": "Amazon GameLift Streams now supports IAM role credentials for stream sessions ",
+      "summary": "Amazon GameLift Streams now supports assigning an IAM role to a stream session, enabling your application to securely access resources in your AWS account, such as Amazon S3 buckets and DynamoDB table...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-17T17:29:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-gamelift-streams-iam/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "4ebe7f75d7f1dfdcb6c34952fc58ee0e169cfe9d",
       "title": "Amazon OpenSearch UI now supports one-click dashboard migration  ",
       "summary": "Amazon OpenSearch Service now supports one-click migration from legacy OpenSearch Dashboards to OpenSearch UI, for both OpenSearch domains and serverless collections. OpenSearch UI is the new, zero-do...",
       "category": "ANALYTICS",
       "timestamp": "2026-07-17T17:23:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-ui-one-click-dashboard-migration",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4f72c0d5f264d728a8343e036af802fd4361fdd7",
+      "title": "Amazon SageMaker HyperPod now supports partition-level topology for Slurm orchestrated clusters",
+      "summary": "Amazon SageMaker HyperPod now supports network topology configuration at the partition level for Slurm orchestrated clusters. A single cluster can now run tree topology in one partition and block topo...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-17T15:16:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/hyperpod-partition-topology-slurm/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5642,20 +5662,20 @@
     }
   ],
   "stats": {
-    "total": 564,
+    "total": 566,
     "byCategory": {
+      "SECURITY": 117,
       "ANALYTICS": 18,
-      "SECURITY": 116,
+      "AI_ML": 116,
       "COMPUTE": 56,
       "SERVERLESS": 11,
       "DATABASE": 60,
       "OTHER": 124,
       "STORAGE": 27,
-      "AI_ML": 115,
       "CONTAINERS": 28,
       "NETWORKING": 9
     },
-    "lastUpdated": "2026-07-17T22:50:40.727Z"
+    "lastUpdated": "2026-07-18T11:03:23.554Z"
   },
-  "generatedAt": "2026-07-17T22:50:40.728Z"
+  "generatedAt": "2026-07-18T11:03:23.554Z"
 }
