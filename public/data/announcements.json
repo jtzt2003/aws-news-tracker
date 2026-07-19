@@ -5649,22 +5649,12 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/s3-express-one-zone-supports-s3-inventory/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "089bcdf57d83953747f8478f6a8dec052bac0065",
-      "title": "AWS Managed Microsoft AD is now available on Windows functional level 2016",
-      "summary": "AWS Directory Service for Microsoft AD (AWS Managed Microsoft AD) has been automatically upgraded to Windows functional level 2016 for all directories. The upgrade includes enhanced authentication mechanisms and improved security features for privileged access management, providing better protection for Active Directory infrastructure in the cloud.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-20T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-managed-microsoft-ad-2016-functional-level/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 566,
+    "total": 565,
     "byCategory": {
-      "SECURITY": 117,
+      "SECURITY": 116,
       "ANALYTICS": 18,
       "AI_ML": 116,
       "COMPUTE": 56,
@@ -5675,7 +5665,7 @@
       "CONTAINERS": 28,
       "NETWORKING": 9
     },
-    "lastUpdated": "2026-07-18T22:49:47.032Z"
+    "lastUpdated": "2026-07-19T11:08:14.791Z"
   },
-  "generatedAt": "2026-07-18T22:49:47.032Z"
+  "generatedAt": "2026-07-19T11:08:14.792Z"
 }
