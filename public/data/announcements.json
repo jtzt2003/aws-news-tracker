@@ -5549,123 +5549,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-priority-dialing/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "53d6aaa033ebc019e22fa460053b05361b269fd0",
-      "title": "Amazon EBS expands volume modification enhancement to AWS European Sovereign Cloud Region",
-      "summary": "Amazon EBS has extended its Elastic Volumes modification enhancement to the AWS European Sovereign Cloud (Germany) Region, allowing up to four volume modifications per volume within a rolling 24-hour window. This feature enables users to increase volume size, change volume type, and adjust performance, with the ability to start new modifications immediately after previous ones complete. The enhancement provides greater flexibility for managing EBS volumes in the European sovereign cloud environment.",
-      "category": "STORAGE",
-      "timestamp": "2026-04-20T20:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ebs-four-volume-modifications-european-sovereign-region/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "3a213dadc669c86f83c97846f961c6dd91aca4d5",
-      "title": "Amazon EVS now offers Microsoft Windows Server Licensing",
-      "summary": "Amazon Elastic VMware Service (Amazon EVS) now provides Microsoft Windows Server licensing entitlements, allowing customers to migrate or create new Windows Server VMs with licensing obtained directly from AWS. This service runs VMware Cloud Foundation within Amazon VPC on EC2 bare-metal instances powered by AWS Nitro, simplifying Windows Server deployment and licensing management for VMware workloads on AWS.",
-      "category": "OTHER",
-      "timestamp": "2026-04-20T20:05:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-evs-windows-server-licensing/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "a7f3afc7873fdf4db87eddd59cb0d1676986a875",
-      "title": "AWS IoT Greengrass v2.17 now supports non-root installation and introduces new light weight components",
-      "summary": "AWS IoT Greengrass v2.17 has been released with two key enhancements: the ability to run the edge runtime as a non-root user on Linux systems for improved security compliance, and support for lightweight components that consume significantly less memory. This update makes it easier for enterprises to deploy and manage IoT device software at the edge while meeting stricter security requirements.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-20T19:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-iot-greengrass-v217/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "2affd5eab5284f89865234196c6820417a55fcb8",
-      "title": "Amazon DocumentDB (with MongoDB compatibility) now supports in-place upgrade from version 5.0 to 8.0",
-      "summary": "Amazon DocumentDB now supports direct in-place upgrades from version 5.0 to 8.0 through the AWS console, SDK, or CLI without requiring new clusters, endpoint changes, or index rebuilds. The upgrade to version 8.0 provides significant performance improvements with up to 7x better query latency and 5x improved storage compression, resulting in faster applications and reduced storage costs.",
-      "category": "DATABASE",
-      "timestamp": "2026-04-20T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-documentdb-mongodb-in-place-version-upgrade-5-0-to-8-0/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f6b43915514074d8c8e3f1ebd6929ddc6f17826d",
-      "title": "Amazon EKS enhances cluster governance with new IAM condition keys",
-      "summary": "Amazon EKS now supports seven additional IAM condition keys that provide enhanced governance controls for cluster creation and configuration through IAM policies and Service Control Policies (SCPs). This update enables organizations with multi-account environments to centrally enforce security and compliance requirements across all EKS clusters automatically. The new condition keys eliminate the need for manual processes or post-deployment security checks by allowing policy-based governance controls during cluster provisioning.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-20T17:48:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-eks-iam-condition-keys/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b2de1586fd57ebc45a96e7494c4ffeec29cee450",
-      "title": "Amazon Connect outbound campaigns now supports hourly segment refresh",
-      "summary": "Amazon Connect Outbound Campaigns now supports refreshing campaign segments every hour instead of the previous 24-hour minimum. This allows campaigns to reach newly eligible customers throughout the day and respond more quickly to changing business conditions, such as collections teams being able to contact newly delinquent accounts the same day they are identified.",
-      "category": "OTHER",
-      "timestamp": "2026-04-20T16:56:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-campaign-hourly-refresh/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "419342c2c7d01c1b1328adb03be3dd97081507b4",
-      "title": "Amazon MSK Replicator now supports log forwarding for replication visibility",
-      "summary": "Amazon MSK Replicator now provides log forwarding capabilities that deliver replicator logs for complete visibility into replication health and performance. These logs include critical replication events, errors, and troubleshooting guidance, allowing users to resolve issues independently without contacting AWS Support. This enhancement improves the monitoring and debugging experience for MSK's automated Kafka cluster replication feature.",
-      "category": "STORAGE",
-      "timestamp": "2026-04-20T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-msk-replicator-logs/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "cc2f94321788e38b46f48fd2abb210ae32138a3e",
-      "title": "Amazon MSK Replicator now supports enhanced consumer offset synchronization for bidirectional replication",
-      "summary": "Amazon MSK Replicator now offers enhanced consumer offset synchronization for bidirectional replication, allowing applications to resume processing from the correct position when switching between Kafka clusters. This new capability enables independent movement of producer and consumer applications between clusters in any order without risk of data loss. The feature eliminates the need for custom replication management by automating data replication between Kafka clusters.",
-      "category": "ANALYTICS",
-      "timestamp": "2026-04-20T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-msk-replicator-enhanced-consumer-offset-synchronization/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ad5e0ae1c0e26f672c81d151cb42596c681a3d52",
-      "title": "MSK Replicator now supports replication from external Apache Kafka clusters to MSK Express Brokers",
-      "summary": "Amazon MSK Replicator now enables data replication from external Apache Kafka clusters (on-premises, self-managed, or other cloud providers) to Amazon MSK Express brokers. This enhancement simplifies migration to MSK Express, supports disaster recovery scenarios, and facilitates data distribution across hybrid and multi-cloud environments.",
-      "category": "STORAGE",
-      "timestamp": "2026-04-20T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-msk-replicator-external-kafka-cluster-support/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "26c8d077d5e195c854206c29ced2adcc081c15a3",
-      "title": "Amazon S3 Express One Zone now supports S3 Inventory",
-      "summary": "Amazon S3 Express One Zone, a high-performance storage class designed for latency-sensitive applications, now supports S3 Inventory functionality. This feature allows users to generate scheduled daily or weekly reports listing stored objects and their metadata within S3 directory buckets, providing an alternative to synchronous List API calls. The addition helps simplify business workflows and accelerate big data jobs by offering more efficient object inventory management.",
-      "category": "STORAGE",
-      "timestamp": "2026-04-20T13:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/s3-express-one-zone-supports-s3-inventory/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 565,
+    "total": 555,
     "byCategory": {
-      "SECURITY": 116,
-      "ANALYTICS": 18,
+      "SECURITY": 114,
+      "ANALYTICS": 17,
       "AI_ML": 116,
       "COMPUTE": 56,
       "SERVERLESS": 11,
-      "DATABASE": 60,
-      "OTHER": 124,
-      "STORAGE": 27,
+      "DATABASE": 59,
+      "OTHER": 122,
+      "STORAGE": 23,
       "CONTAINERS": 28,
       "NETWORKING": 9
     },
-    "lastUpdated": "2026-07-19T11:08:14.791Z"
+    "lastUpdated": "2026-07-19T22:52:10.332Z"
   },
-  "generatedAt": "2026-07-19T11:08:14.792Z"
+  "generatedAt": "2026-07-19T22:52:10.332Z"
 }
