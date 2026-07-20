@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "96eb40d81d3c757e83773aaac249e7014e2b3a08",
+      "title": "AWS Data Exports now provides standardized Amazon Bedrock product metadata ",
+      "summary": "Today, AWS announces standardized product metadata for Amazon Bedrock in AWS Data Exports (Cost and Usage Report), giving FinOps teams and cloud administrators consistent, structured attributes to und...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-20T18:29:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-data-exports-amazon-bedrock-product-metadata/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "eb1dac421e99ec414a14fb5f1455b7173089bc7a",
+      "title": "Amazon EC2 R8i and R8i-flex instances are now available in additional regions",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the Europe (Stockholm, Zurich) regions. These instances are powered by custom Intel Xeon 6 process...",
+      "category": "COMPUTE",
+      "timestamp": "2026-07-20T17:37:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-r8i-r8i-flex-instances-in-stockholm-zurich-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "10c8fcf2303893a2555cd7f4b5dd077ee58b3c9a",
+      "title": "Selectively log network activity events by identity in AWS CloudTrail",
+      "summary": "Today, AWS launches enhanced event filtering for network activity events for VPC end points, a CloudTrail event type that captures actions transmitted through a Virtual Private Cloud Endpoint. Custome...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-20T17:34:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-cloudtrail-filter-useridentity-advance-selectors/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "eb140f05fde4ac89fc1399bc638a20e735d6e9db",
+      "title": " Amazon Connect delivers more natural agentic voice experiences with expanded language support and speech controls",
+      "summary": "Amazon Connect customers can now deliver more natural, human-sounding agentic voice experiences with expanded support across 50+ languages including Spanish, French, Italian, Japanese, Korean, Portugu...",
+      "category": "OTHER",
+      "timestamp": "2026-07-20T16:16:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect-agentic-voice/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3ad74ebe15dcda95f903ba9a46899be6d4fb5407",
+      "title": "Amazon EC2 I8ge instances are now available in AWS GovCloud (US) Regions",
+      "summary": "Amazon Web Services (AWS) announces the availability of Amazon EC2 I8ge instances in AWS GovCloud (US-East, US-West) regions. I8ge instances are powered by AWS Graviton4 processors and deliver up to 6...",
+      "category": "COMPUTE",
+      "timestamp": "2026-07-20T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-i8ge-instances-aws-govcloud-us-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ee60621f7d262704ad4e880fdcb6286ac8054f53",
+      "title": "Amazon WorkSpaces Applications now supports Microsoft OneDrive and Google Drive on Multi-Session fleets",
+      "summary": "Amazon WorkSpaces Applications now supports Microsoft OneDrive for Business and Google Drive as persistent storage options on multi-session fleets. Users streaming on multi-session fleets can now conn...",
+      "category": "COMPUTE",
+      "timestamp": "2026-07-20T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/storage-multi-session-fleets/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0cb3f559c6c16e868dda9789bc6fd983f98f4f7a",
+      "title": "Amazon Managed Service for Apache Flink now supports Apache Flink 2.3",
+      "summary": "Amazon Managed Service for Apache Flink now supports Apache Flink version 2.3. This release includes adaptive partition selection for improved backpressure handling, so applications run more smoothly ...",
+      "category": "OTHER",
+      "timestamp": "2026-07-20T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-flink-2-3/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "69bd23768d863091884b45b69bdece6e597bea77",
+      "title": "Announcing the general availability of a new AWS Local Zone in Athens, Greece",
+      "summary": "Today, AWS announces the general availability of a new Local Zone in Athens, Greece. The Athens Local Zone is the second Local Zone in EMEA with support for Amazon Simple Storage Service (Amazon S3) a...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-20T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-local-zone-athens-greece/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7c07d35f8a7e7ebcec23f6d036202ad257681190",
+      "title": "Amazon CloudWatch announces coding agent insights",
+      "summary": "Amazon CloudWatch announces the launch of coding agent insights, giving engineering leaders visibility into how AI coding tools are driving value across their organization. Coding Agent Insights integ...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-07-20T09:51:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/cloudwatch-coding-agent-insights/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "656cd5b5e128530e950e6c47242887e0dee3406f",
+      "title": "Introducing KNFSD File Cache - Now in Preview  ",
+      "summary": "Today, AWS announces the availability of KNFSD File Cache, an open-source, Apache-2.0 licensed solution for deploying a scalable, high-speed Network File System (NFS) cache on AWS. KNFSD File Cache mo...",
+      "category": "COMPUTE",
+      "timestamp": "2026-07-20T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/knfsd-file-cache/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "0728d97bab04c692160499975c9835c695985d46",
       "title": "Amazon GameLift Streams now supports IAM role credentials for stream sessions ",
       "summary": "Amazon GameLift Streams now supports assigning an IAM role to a stream session, enabling your application to securely access resources in your AWS account, such as Amazon S3 buckets and DynamoDB table...",
@@ -5409,133 +5509,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-rds-custom-sql-server-supports-latest-gdr-updates-for-microsoft-sql-server/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "bcfdbfe7f9f8290215c74ee0f57e0ef1cdf94518",
-      "title": "Amazon SageMaker now supports multi-region replication from IAM Identity Center",
-      "summary": "Amazon SageMaker now supports multi-region replication from IAM Identity Center, allowing SageMaker Unified Studio domains to be deployed in different regions from the IdC instance. This capability enables enterprise customers, especially in regulated industries like financial services and healthcare, to maintain compliance requirements while using centralized workforce identity management across multiple regions.",
-      "category": "AI_ML",
-      "timestamp": "2026-04-21T21:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/smus-identity-center/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "929bd4888194974f7240e4e5e9c3222ec22cca54",
-      "title": "Five new Qwen models for coding agents and efficient reasoning are now available in Amazon SageMaker JumpStart",
-      "summary": "AWS has announced the availability of five new Qwen models in Amazon SageMaker JumpStart, including Qwen3-Coder-Next, Qwen3-30B-A3B variants, and Qwen3.5-4B. These models offer specialized capabilities for coding agents, efficient reasoning, extended thinking, and multimodal understanding, allowing customers to build advanced AI applications on AWS infrastructure.",
-      "category": "AI_ML",
-      "timestamp": "2026-04-21T20:05:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/qwen-models-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4a0a4e1b1ed67cc420b18c050d6940fb58051a05",
-      "title": " Introducing the Amazon EKS Hybrid Nodes gateway for hybrid Kubernetes networking",
-      "summary": "Amazon EKS has launched the Hybrid Nodes gateway, a new feature that automatically manages networking between EKS cluster VPCs and Kubernetes pods running on hybrid nodes. This gateway simplifies hybrid Kubernetes networking by eliminating the need to make on-premises pod networks routable or coordinate complex network infrastructure changes.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-04-21T19:51:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-eks-hybrid-nodes-gateway/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ac4a40617e240d86ebf45bb298e25b54780ccef3",
-      "title": "AWS Marketplace streamlines VAT payment for deemed supply transactions",
-      "summary": "AWS Marketplace has introduced a streamlined self-service process that allows sellers to submit VAT invoices and receive automated VAT disbursements for deemed supply transactions involving digital services in the EU, Norway, and the UK. This addresses the legal requirement under these jurisdictions' VAT laws where AWS Marketplace's facilitation of digital service sales creates a deemed supply arrangement between sellers and the marketplace. The new process simplifies VAT compliance for sellers operating in these regions.",
-      "category": "OTHER",
-      "timestamp": "2026-04-21T19:03:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-marketplace-vat/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6036ef520dd7b5fe2544dd78f83f1107f21220de",
-      "title": "Amazon Athena Spark adds support for AWS PrivateLink",
-      "summary": "Amazon Athena Spark now supports AWS PrivateLink, enabling users to access Athena Spark APIs and endpoints directly from their Amazon VPC without routing traffic through the public internet. This enhancement helps organizations meet compliance requirements by keeping all communications within the AWS network infrastructure.",
-      "category": "ANALYTICS",
-      "timestamp": "2026-04-21T18:09:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-athena-spark-aws-privatelink/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "7e2b84c5bfe9e97ff250b80e9518e1bfdcc0d8f4",
-      "title": "AWS Lambda functions can now mount Amazon S3 buckets as file systems with S3 Files ",
-      "summary": "AWS Lambda now supports S3 Files, a new feature that allows Lambda functions to mount S3 buckets as file systems and perform standard file operations without downloading data locally. Built on Amazon EFS, S3 Files combines file system performance and simplicity with S3's scalability, durability, and cost-effectiveness. Multiple Lambda functions can simultaneously connect to the same S3 Files system, enabling data sharing through a common workspace.",
-      "category": "AI_ML",
-      "timestamp": "2026-04-21T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-lambda-amazon-s3/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6912ac7b4809b4771d35daa008358bb0a268347a",
-      "title": "Amazon CloudWatch pipelines now supports configuration of processors via AI",
-      "summary": "Amazon CloudWatch pipelines now supports AI-powered configuration that allows users to set up log processors using natural language descriptions instead of manual configuration. This generative AI feature simplifies the traditionally time-consuming process of parsing and enriching complex log formats. The fully managed service continues to handle log ingestion, transformation, and routing to CloudWatch without requiring infrastructure management.",
-      "category": "AI_ML",
-      "timestamp": "2026-04-21T16:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-pipelines-ai-configuration/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "26d5308ce6bb6d3d15da4db730babdb329972570",
-      "title": "AWS Glue now supports OAuth 2.0 for Snowflake connectivity",
-      "summary": "AWS Glue now supports OAuth 2.0 authorization for native Snowflake connectivity, allowing customers to securely read from and write to Snowflake without sharing user credentials. This enhancement enables enterprises to maintain better security compliance while building data integration pipelines by using temporary token-based authorization instead of traditional credential sharing.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-21T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-glue-oauth-snowflake-connectivity/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "a8725450686a660d76a2e21255cd1c994a79f836",
-      "title": "AWS Transform custom is now available in six additional AWS Regions",
-      "summary": "AWS Transform custom has expanded to six new regions: Asia Pacific (Mumbai, Tokyo, Seoul, Sydney), Canada (Central), and Europe (London). This service helps organizations modernize and transform code at scale using AWS-managed and custom transformations for tasks like upgrading language versions, migrating frameworks, and optimizing performance.",
-      "category": "OTHER",
-      "timestamp": "2026-04-21T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-atx-custom-additional-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "17550720549e855b24032e2a749a7c2f4203ffb5",
-      "title": "Amazon EC2 G7e instances now available in AWS Local Zones in Los Angeles",
-      "summary": "AWS has launched Amazon EC2 G7e instances in AWS Local Zones in Los Angeles, featuring NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs and 5th generation Intel Xeon Scalable processors. These instances bring high-performance GPU compute closer to Los Angeles end users, enabling creative workloads like studio workstation applications with low-latency access to local storage.",
-      "category": "COMPUTE",
-      "timestamp": "2026-04-21T14:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-g7e-instances-local-zones/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "32bfe15e4655f0de28f51cf4df6d9396e86c3fdd",
-      "title": "Amazon Aurora serverless: Up to 30% better performance, smarter scaling, and still scales to zero",
-      "summary": "Amazon Aurora serverless has been updated with up to 30% better performance than the previous version and enhanced intelligent scaling capabilities that better understand workload patterns. The service automatically scales up for demanding workloads and down to zero during idle periods, making it particularly well-suited for agentic AI applications that have unpredictable usage patterns with bursts of activity and long idle windows.",
-      "category": "DATABASE",
-      "timestamp": "2026-04-21T13:53:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aurora-serverless-smarter-scaling/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 552,
+    "total": 551,
     "byCategory": {
-      "SECURITY": 114,
-      "ANALYTICS": 17,
-      "AI_ML": 116,
-      "COMPUTE": 56,
-      "SERVERLESS": 11,
-      "DATABASE": 58,
+      "AI_ML": 113,
+      "COMPUTE": 59,
+      "SECURITY": 115,
       "OTHER": 121,
-      "STORAGE": 23,
       "CONTAINERS": 27,
+      "ANALYTICS": 16,
+      "SERVERLESS": 11,
+      "DATABASE": 57,
+      "STORAGE": 23,
       "NETWORKING": 9
     },
-    "lastUpdated": "2026-07-20T12:16:29.083Z"
+    "lastUpdated": "2026-07-20T23:00:19.359Z"
   },
-  "generatedAt": "2026-07-20T12:16:29.083Z"
+  "generatedAt": "2026-07-20T23:00:19.359Z"
 }
