@@ -5519,53 +5519,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aurora-serverless-smarter-scaling/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "06a527e6f4dad2f428be2415cc0e9ddada3c6444",
-      "title": "AWS Backup adds Amazon Redshift Serverless and Aurora DSQL support for AWS Organizations backup policies ",
-      "summary": "AWS Backup now allows organization administrators to directly target Amazon Redshift Serverless namespaces and Amazon Aurora DSQL clusters in backup policies across member accounts. Previously, backing up these resources through organization policies required using tag-based selections or backing up all account resources, making this update more efficient and granular.",
-      "category": "DATABASE",
-      "timestamp": "2026-04-21T10:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/backup-policies-aurora-dsql-redshift-serverless/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c266bcbad8644b19d3ae2e136e338d35c368be50",
-      "title": "AWS Lambda Durable Execution SDK for Java GA",
-      "summary": "AWS has released the general availability of the Lambda Durable Execution SDK for Java, enabling Java developers to build resilient, long-running workflows using Lambda durable functions. The SDK allows developers to create multi-step applications such as order processing pipelines, AI agent orchestration, and human-in-the-loop approvals without needing custom progress tracking or external orchestration services.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-04-21T06:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/lambda-durable-execution-java-ga/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "5624a58c62dc844b572c8fbd142d09ce6bb9e31a",
-      "title": "Amazon Connect Outbound Campaigns now supports contact priority ordering  ",
-      "summary": "Amazon Connect Outbound Campaigns now supports contact priority ordering, allowing you to dial contacts based on up to 10 configurable profile attributes for voice campaigns and journeys. This feature enables you to prioritize high-value customers or time-sensitive opportunities by sorting contacts based on attributes like customer lifetime value, account tier, or appointment date. The capability helps improve campaign effectiveness and conversion rates by ensuring agents focus their time on the most valuable prospects first.",
-      "category": "OTHER",
-      "timestamp": "2026-04-21T02:03:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-priority-dialing/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 555,
+    "total": 552,
     "byCategory": {
       "SECURITY": 114,
       "ANALYTICS": 17,
       "AI_ML": 116,
       "COMPUTE": 56,
       "SERVERLESS": 11,
-      "DATABASE": 59,
-      "OTHER": 122,
+      "DATABASE": 58,
+      "OTHER": 121,
       "STORAGE": 23,
-      "CONTAINERS": 28,
+      "CONTAINERS": 27,
       "NETWORKING": 9
     },
-    "lastUpdated": "2026-07-19T22:52:10.332Z"
+    "lastUpdated": "2026-07-20T12:16:29.083Z"
   },
-  "generatedAt": "2026-07-19T22:52:10.332Z"
+  "generatedAt": "2026-07-20T12:16:29.083Z"
 }
