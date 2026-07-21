@@ -1,6 +1,96 @@
 {
   "announcements": [
     {
+      "id": "e74913e818ca82af356dba0cf8bff3792b1e73b2",
+      "title": "Amazon EC2 R6in and R6idn instances are now available in additional regions",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R6in and R6idn instances are available in AWS Europe (Paris) and Canada (Central) regions. These sixth-generation network optimized instances,...",
+      "category": "COMPUTE",
+      "timestamp": "2026-07-21T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-r6in-r6idn/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "cfa8e67c27342537ea0a8f89654cb5f6772b8763",
+      "title": " Amazon EC2 C6in instances are now available in Asia Pacific (Taipei) Region",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C6in instances are available in AWS Asia Pacific (Taipei). These sixth-generation network optimized instances, powered by 3rd Generation Intel...",
+      "category": "COMPUTE",
+      "timestamp": "2026-07-21T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c6in/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "58ff95c65a7873e6e1e45c1236b3322261e09ba5",
+      "title": "Amazon EC2 M6in and M6idn instances are now available in additional regions",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M6in and M6idn instances are available in AWS Asia Pacific (Hyderabad) and South America (Sao Paulo) regions. These sixth-generation network o...",
+      "category": "COMPUTE",
+      "timestamp": "2026-07-21T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-m6in-m6idn/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7afd989852384890035238cdad4722f0f3d45fe1",
+      "title": "Amazon SES introduces pricing plans",
+      "summary": "Today, Amazon Simple Email Service (SES) introduced pricing plans, making it easy to purchase and access SES capabilities without evaluating them individually. Amazon SES pricing plans include three h...",
+      "category": "OTHER",
+      "timestamp": "2026-07-21T16:35:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ses-pricing-plans/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "219bc628a2d9836436b843c28b40187105f39c5d",
+      "title": "Amazon ECS now provides Action Logs for deployment and orchestration visibility",
+      "summary": "Today, Amazon Elastic Container Service (Amazon ECS) introduces Action Logs, a new observability feature that delivers detailed, timestamped records of the actions Amazon ECS performs on behalf of cus...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-21T15:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-action-logs/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "41caa940b1fb42a3cd4a16879eb6eabcfeeb975c",
+      "title": "Amazon Managed Service for Prometheus supports 1.5B active metrics and 200K rules per workspace",
+      "summary": "Amazon Managed Service for Prometheus now supports up to 1.5 billion active metric time series and up to 200,000 total recording and alerting rules per workspace. Customers can also create many worksp...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-21T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-prometheus-1500m-metrics-workspace/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "67eddc8c902961f127f9bebe4b3318c1b014e666",
+      "title": "Amazon RDS now supports the latest CU and GDR updates for Microsoft SQL Server",
+      "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release inc...",
+      "category": "DATABASE",
+      "timestamp": "2026-07-21T07:45:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-supports-latest-cu-gdr-microsoft-sql-server ",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0859bda49abe08ee3bdde05aa4795bd7ca4fab91",
+      "title": "Amazon RDS for SQL Server now supports Microsoft SQL Server 2025",
+      "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports Microsoft SQL Server 2025 for Enterprise, Standard, and Developer editions.\n  SQL Server 2025 brings AI integration directly...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-21T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sqlserver-supports-sqlserver-2025",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2847d322d4ba5b29b38ca7bf132d19b106d0b385",
+      "title": "AWS Partner Central agents expand funding guidance to all programs",
+      "summary": "AWS Partner Central agents now support all AWS Partner funding programs. AWS Partners can get guidance on eligibility requirements, application processes, and program details for any funding program a...",
+      "category": "OTHER",
+      "timestamp": "2026-07-20T20:08:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-partner-central/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "96eb40d81d3c757e83773aaac249e7014e2b3a08",
       "title": "AWS Data Exports now provides standardized Amazon Bedrock product metadata ",
       "summary": "Today, AWS announces standardized product metadata for Amazon Bedrock in AWS Data Exports (Cost and Usage Report), giving FinOps teams and cloud administrators consistent, structured attributes to und...",
@@ -5379,143 +5469,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-acl/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "49b4a821e8fe100d052e94b3976763ea3829aca0",
-      "title": "Amazon SageMaker Unified Studio now supports multiple code spaces within projects for IAM domains ",
-      "summary": "Amazon SageMaker Unified Studio has expanded its functionality for IAM domains by allowing data workers to create and manage multiple code spaces within a single project. Previously, projects were restricted to just one JupyterLab space and one Code Editor space. This enhancement enables parallel work on different workstreams or experiments with varying compute and storage requirements, providing developers greater flexibility for their diverse workloads.",
-      "category": "AI_ML",
-      "timestamp": "2026-04-22T20:31:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-code-spaces/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "7d12001495045fb1cb7c67cdd2090b24c5541aa6",
-      "title": "Amazon EC2 C8i-flex instances are now available in Europe (Ireland, London), and Asia Pacific (New Zealand) regions",
-      "summary": "Amazon EC2 C8i-flex instances are now available in Europe (Ireland, London) and Asia Pacific (New Zealand) regions. These instances are powered by custom Intel Xeon 6 processors exclusive to AWS, offering up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generation Intel-based instances.",
-      "category": "COMPUTE",
-      "timestamp": "2026-04-22T19:46:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8i-flex-instances-europe-ireland-europe-london-asia-pacific-new-zealand-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "69f99d15b7954d8607993714a47021a35cf4d15b",
-      "title": "Amazon EC2 C8i instances are now available in Europe (Ireland) and Asia Pacific (New Zealand) regions",
-      "summary": "Amazon EC2 C8i instances are now available in Europe (Ireland) and Asia Pacific (New Zealand) regions, powered by custom Intel Xeon 6 processors exclusive to AWS. These instances deliver up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generation Intel-based instances, offering the highest performance among comparable Intel processors in the cloud.",
-      "category": "COMPUTE",
-      "timestamp": "2026-04-22T19:31:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8i-instances-europe-ireland-asia-pacific-new-zealand-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "8b4e1b23cb5942d790ab6d54951445a5bffa44d3",
-      "title": "Enhancements to AWS Network Firewall Managed Rules from AWS Marketplace Partners",
-      "summary": "AWS Network Firewall has enhanced its Managed Rules from AWS Marketplace partners, now supporting up to 10 million domain name indicators and 1 million IP addresses in rule groups. Partners including Infoblox, Lumen, and ThreatSTOP are expanding their offerings with new protections against high-risk domains, command and control attacks, and additional security rules. These enhancements provide organizations with more comprehensive and scalable network security capabilities through AWS's managed firewall service.",
-      "category": "OTHER",
-      "timestamp": "2026-04-22T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/marketplace-managed-rules-enhancements/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "5c916b921a8c3188012eff3a44d2556becb0fea0",
-      "title": "Amazon SageMaker AI now supports serverless model customization for Qwen3.5 models",
-      "summary": "Amazon SageMaker AI now offers serverless model customization for Qwen3.5 models (4B, 9B, and 27B parameters), allowing users to fine-tune these Alibaba Cloud open-weight models using supervised fine-tuning (SFT) and reinforcement fine-tuning (RFT). This enhancement builds on the existing ability to deploy base Qwen3.5 models on SageMaker AI, now enabling organizations to adapt these models to their specific domains and workflows.",
-      "category": "AI_ML",
-      "timestamp": "2026-04-22T17:53:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-ft-qwen3-5/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "3090589beb78d0496803821711ea97b594c0fb97",
-      "title": "Amazon EC2 announces Managed resource visibility settings",
-      "summary": "Amazon EC2 has introduced Managed resource visibility settings that allow users to control whether EC2 instances and associated resources (like EBS volumes and network interfaces) provisioned by AWS managed services appear in console views and API operations. These managed instances are automatically provisioned and maintained by services like Amazon EKS, ECS, Lambda, and WorkSpaces, with AWS handling their configuration, patching, and health management. This feature gives users better control over what resources they see when viewing their EC2 environment.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-04-22T17:53:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-managed-resource-visibility/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c895c7fb584f21a7ebee1106e35a1b854007fd16",
-      "title": "Introducing GPU Health Monitoring and Auto Repair for Amazon ECS Managed Instances",
-      "summary": "Amazon ECS now provides automated GPU health monitoring and auto repair for managed instances running NVIDIA GPUs. This new feature automatically detects critical GPU hardware failures and replaces faulty instances without manual intervention. The capability is designed to improve availability and reliability for GPU-accelerated containerized workloads like GenAI inference applications.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-04-22T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ecs-gpu-auto-repair/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "17444119105b2fc28d878be08d9eba3ca5aded8c",
-      "title": "AWS Secrets Manager extends managed external secrets to MongoDB Atlas and Confluent Cloud",
-      "summary": "AWS Secrets Manager has expanded its managed external secrets capability to include MongoDB Atlas and Confluent Cloud, allowing users to centrally manage and automatically rotate credentials for these third-party services directly from AWS. This new feature eliminates the need to build or maintain custom Lambda rotation functions for these integrations.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-22T16:21:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/secrets-manager-managed-external-secrets-mongodb-confluent/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "11b7374db483a8fe59dde477aeffb73833ddf62c",
-      "title": "Amazon Bedrock AgentCore adds new features to help developers build agents faster",
-      "summary": "Amazon Bedrock AgentCore has launched new features to accelerate agent development, including a managed harness (in preview), AgentCore CLI, and skills for coding assistants. The managed harness allows developers to quickly create agent prototypes by simply specifying a model, system prompt, and tools, with no orchestration code needed. These tools provide a unified platform for managing the complete agent lifecycle from initial concept to working prototype.",
-      "category": "AI_ML",
-      "timestamp": "2026-04-22T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/agentcore-new-features-to-build-agents-faster/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "bd6e34edf6a121036ba43523d618d4bf25eb931e",
-      "title": "Amazon IVS Low-Latency Streaming now supports server-side ad insertion",
-      "summary": "Amazon IVS Low-Latency Streaming has added server-side ad insertion (SSAI) support, allowing content creators to monetize their live streams with seamlessly integrated video ads. The feature works with AWS Elemental MediaTailor to stitch ads directly into video streams on the server side, providing ad decisioning, audience targeting, and personalization capabilities. This enhancement gives streamers API-based control over ad break insertion while maintaining a smooth viewing experience.",
-      "category": "STORAGE",
-      "timestamp": "2026-04-22T15:29:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ivs-low-latency-streaming-server-side-ad-insertion/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b0b1e2a3dcc2e8113acffa2bd39df7523af8cba5",
-      "title": "Amazon EC2 for SQL Server HA now supports health notifications",
-      "summary": "AWS now provides health notifications through the AWS Health Dashboard when Amazon EC2 for SQL Server cannot detect a valid SQL Server High Availability (HA) status. This feature is especially beneficial for customers who register EC2 SQL HA clusters via AWS Console or CloudFormation to reduce licensing costs. Notifications can be received through multiple channels including AWS Health, Amazon EventBridge events, and email.",
-      "category": "SERVERLESS",
-      "timestamp": "2026-04-22T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-sql-ha-health-notifications/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "8092328ffa29aac27e8a9bd88e4c3dc4ea2aa6fe",
-      "title": "Amazon Corretto April 2026 Quarterly Updates",
-      "summary": "Amazon announced quarterly security and critical updates for Amazon Corretto on April 22, 2026, with new versions available across all supported releases (Corretto 26.0.1, 25.0.3, 21.0.11, 17.0.19, 11.0.31, and 8u492). This marks the final Corretto 8 release to include JavaFX binaries, as they will be discontinued in future quarterly updates.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-22T14:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-corretto-april-2026-quarterly-updates/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 550,
+    "total": 547,
     "byCategory": {
-      "AI_ML": 113,
-      "COMPUTE": 59,
-      "SECURITY": 115,
-      "OTHER": 121,
-      "CONTAINERS": 27,
+      "COMPUTE": 60,
+      "OTHER": 122,
+      "AI_ML": 112,
+      "SECURITY": 114,
+      "DATABASE": 57,
+      "CONTAINERS": 25,
       "ANALYTICS": 16,
-      "SERVERLESS": 11,
-      "DATABASE": 56,
-      "STORAGE": 23,
+      "SERVERLESS": 10,
+      "STORAGE": 22,
       "NETWORKING": 9
     },
-    "lastUpdated": "2026-07-21T11:46:08.060Z"
+    "lastUpdated": "2026-07-21T22:56:46.577Z"
   },
-  "generatedAt": "2026-07-21T11:46:08.061Z"
+  "generatedAt": "2026-07-21T22:56:46.577Z"
 }
