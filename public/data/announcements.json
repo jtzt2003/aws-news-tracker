@@ -5499,20 +5499,10 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-corretto-april-2026-quarterly-updates/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "9594bb817789010844d61ba85f0a95b53ae4ad0d",
-      "title": "Amazon RDS Custom now supports the latest GDR updates for Microsoft SQL Server",
-      "summary": "Amazon RDS Custom for SQL Server now supports the latest General Distribution Release (GDR) updates, including SQL Server 2019 CU32+GDR and SQL Server 2022 CU23+GDR. These updates address security vulnerabilities CVE-2026-21262 and CVE-2026-26115, providing enhanced security for RDS Custom SQL Server instances.",
-      "category": "DATABASE",
-      "timestamp": "2026-04-22T07:43:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-rds-custom-sql-server-supports-latest-gdr-updates-for-microsoft-sql-server/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 551,
+    "total": 550,
     "byCategory": {
       "AI_ML": 113,
       "COMPUTE": 59,
@@ -5521,11 +5511,11 @@
       "CONTAINERS": 27,
       "ANALYTICS": 16,
       "SERVERLESS": 11,
-      "DATABASE": 57,
+      "DATABASE": 56,
       "STORAGE": 23,
       "NETWORKING": 9
     },
-    "lastUpdated": "2026-07-20T23:00:19.359Z"
+    "lastUpdated": "2026-07-21T11:46:08.060Z"
   },
-  "generatedAt": "2026-07-20T23:00:19.359Z"
+  "generatedAt": "2026-07-21T11:46:08.061Z"
 }
