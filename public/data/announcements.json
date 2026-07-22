@@ -1,6 +1,96 @@
 {
   "announcements": [
     {
+      "id": "c90de4340bbb718819b6ebb3be968283619a1fff",
+      "title": "Amazon EC2 M8a instances now available in the Asia Pacific (Hyderabad) region",
+      "summary": "Starting today, the general-purpose Amazon EC2 M8a instances are available in AWS Asia Pacific (Hyderabad) region. M8a instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin) ...",
+      "category": "COMPUTE",
+      "timestamp": "2026-07-22T20:55:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-m8a-instances-asia-pacific-hyderabad-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f43100d31c10d4b695b4468faf0c00d8a4147e4b",
+      "title": "AWS Network Load Balancer now supports Listener Rules for custom traffic routing",
+      "summary": "Network Load Balancer (NLB) now supports listener rules allowing you to route connections to different target groups based on the source IP address type. With listener rules, a single dual-stack NLB s...",
+      "category": "NETWORKING",
+      "timestamp": "2026-07-22T19:13:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-network-load-balancer-supports-listener-rules/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0973d6e4b3d386e54ed31f9d9bf5217b5a1f04f9",
+      "title": "AWS Entity Resolution now supports advanced real-time matching ",
+      "summary": "AWS Entity Resolution now supports real-time matching with advanced matching workflows, enabling customers to match records in milliseconds using complex rulesets through the GenerateMatchId API. Prev...",
+      "category": "OTHER",
+      "timestamp": "2026-07-22T19:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-entity-resolution/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2b632ac9a2ae97d4209240034370b847a93da7a9",
+      "title": "AWS Lambda durable functions now supports customer managed key encryption",
+      "summary": "AWS Lambda durable functions now supports encryption of durable execution data with an AWS Key Management Service (AWS KMS) customer managed key. Lambda durable functions lets you build long-running, ...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-22T18:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/durablefunctions-cmk/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "932a129395a9bf56e32f3c7721fa952cf353a248",
+      "title": "Amazon Corretto July 2026 Quarterly Updates",
+      "summary": "On July 22, 2026, Amazon announced quarterly security and critical updates for Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK. Corretto 26.0.2, 25.0.4, 21.0.12, 1...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-22T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-corretto-july-2026-quarterly-updates",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "fdc859654433fcf87d0fdc5a99e2ebc2be2505af",
+      "title": "AWS Organizations increases RCP quota to 2,000 per organization",
+      "summary": "AWS Organizations now supports up to 2,000 resource control policies (RCPs) per organization, doubling the previous limit of 1,000. RCPs enable centralized management of the maximum permissions availa...",
+      "category": "OTHER",
+      "timestamp": "2026-07-22T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-organizations-resource-control-policy-limit-increase-2000",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "705e58d52d8a682d3010e15859f668d8c1a08ec0",
+      "title": "Amazon EKS now supports EFA and placement groups on Amazon EKS Auto Mode and Karpenter",
+      "summary": "Amazon Elastic Kubernetes Service (EKS) now supports Amazon EC2 placement groups and Elastic Fabric Adapter (EFA) network device configuration for node pools on EKS Auto Mode and the open-source Karpe...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-07-22T14:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-efa-placement-groups/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ac41727d1650290a6cebcc18edb9d0cd42e86e28",
+      "title": "AWS Secrets Manager now publishes secret update notifications to Amazon EventBridge",
+      "summary": "AWS Secrets Manager now automatically publishes events to Amazon EventBridge whenever your secret values change, enabling you to build event-driven workflows that respond in real time to secret update...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-22T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/secrets-manager-update-notifications",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0d09209f43f72b3b338d8981bf58909908c9ed27",
+      "title": "AWS Direct Connect announces 100G expansion in Lima, Peru",
+      "summary": "Today, AWS announced the expansion of 100 Gbps dedicated connections at the existing AWS Direct Connect location within the Cirion data center in Lima, Peru. You can now establish private, direct netw...",
+      "category": "COMPUTE",
+      "timestamp": "2026-07-22T04:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-direct-connect-100g-lima/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "e74913e818ca82af356dba0cf8bff3792b1e73b2",
       "title": "Amazon EC2 R6in and R6idn instances are now available in additional regions",
       "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R6in and R6idn instances are available in AWS Europe (Paris) and Canada (Central) regions. These sixth-generation network optimized instances,...",
@@ -5359,143 +5449,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-deadline-cloud/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "05cb3cc7857c4b0151d76b9cbaf83d0d7cd30f62",
-      "title": "Amazon Athena simplifies federated queries with managed connectors",
-      "summary": "Amazon Athena has introduced managed connectors for 12 data sources including DynamoDB, PostgreSQL, MySQL, and Snowflake, which are automatically created and maintained by AWS on behalf of users. This feature enables federated queries across multiple data types (relational, non-relational, object, and custom) without requiring users to deploy or manage connector infrastructure in their AWS accounts or move data from its original location.",
-      "category": "DATABASE",
-      "timestamp": "2026-04-23T21:15:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-athena/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "e2359faa7279ad50e5d4beb6781ba3a8621e3fad",
-      "title": "AWS Client VPN now supports native AWS Transit Gateway integration",
-      "summary": "AWS Client VPN now offers native integration with AWS Transit Gateway, enabling simplified centralized remote access for users across multiple VPCs and on-premises networks. This integration provides end-to-end source IP visibility and eliminates the previous requirement for complex configurations when connecting Client VPN to multiple VPCs.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-23T21:11:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-client-vpn-transit-gateway/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "146a602203ac45011d428bd7d398d95cc8af2d89",
-      "title": "AWS Parallel Computing Service now supports Slurm 25.11",
-      "summary": "AWS Parallel Computing Service (AWS PCS) now supports Slurm version 25.11, which includes a new expedited re-queue feature that automatically reschedules jobs affected by node issues at the highest priority for faster workload recovery. The update also introduces a Prometheus-compatible OpenMetrics endpoint for real-time monitoring of jobs, nodes, and scheduling, along with new log types including scheduler audit logs.",
-      "category": "STORAGE",
-      "timestamp": "2026-04-23T20:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-pcs-slurm-25-11/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6286d79b9275e794c751c5d3e5843e09a966e89f",
-      "title": "Amazon SageMaker HyperPod now supports automatic Slurm topology management",
-      "summary": "Amazon SageMaker HyperPod now automatically manages network topology for Slurm clusters, optimizing GPU placement based on instance types to improve distributed training performance. The service dynamically selects the best topology configuration and continuously adapts it as clusters evolve, resulting in faster GPU-to-GPU communication and more efficient training throughput.",
-      "category": "AI_ML",
-      "timestamp": "2026-04-23T20:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-hyperpod-automatic-slurm-topology/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "7bb4b7165fc88f1d3a7cb340a92ff5934f7871ed",
-      "title": "Amazon SageMaker supports notebooks and data agent for IdC domains",
-      "summary": "Amazon SageMaker Unified Studio now supports serverless notebooks with a built-in data agent for AWS IAM Identity Center (IdC) domains, expanding beyond the previously available IAM domain support. This enables customers using IdC for authentication and access management to access high-performance, serverless notebook environments for analytics and machine learning workloads, providing data engineers, analysts, and data scientists with enhanced capabilities.",
-      "category": "AI_ML",
-      "timestamp": "2026-04-23T19:13:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-idc/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d9f69e150bed416fe9a2cf96d9ab588ff27b5755",
-      "title": "Attributed Revenue Dashboard Now Available in AWS Partner Central",
-      "summary": "AWS has launched the Attributed Revenue dashboard in AWS Partner Central, providing partners with self-service visibility into how their solutions impact revenue through Partner Revenue Measurement. The dashboard shows aggregated monthly attributed revenue broken down by partner product, AWS service, and billing period. It consolidates insights from all three Partner Revenue Measurement capabilities: Resource Tagging, User Agent string, and AWS Marketplace.",
-      "category": "OTHER",
-      "timestamp": "2026-04-23T16:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/attributed-revenue-dashboard-launch/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "55200cd885a0537ccabb55c6a49f3c125cacc031",
-      "title": "AWS Elastic Beanstalk AI-powered environment analysis now supports Windows",
-      "summary": "AWS Elastic Beanstalk's AI-powered environment analysis feature is now available for Windows Server platforms, expanding beyond its previous support for Amazon Linux 2 and AL2023. This feature helps users quickly identify root causes and receive recommended solutions for environment health issues by collecting events, instance health data, and logs from Windows environments and analyzing them through Amazon Bedrock.",
-      "category": "AI_ML",
-      "timestamp": "2026-04-23T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/elastic-beanstalk-ai-analysis-windows/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "7cebd8db34e48e506a17a0647bcaebd787354768",
-      "title": "Second-generation AWS Outposts racks now supported in the AWS Asia Pacific (Seoul, Sydney) and Europe (Paris) Regions",
-      "summary": "AWS has expanded support for second-generation Outposts racks to three additional regions: Asia Pacific (Seoul and Sydney) and Europe (Paris). This expansion allows organizations in South Korea, Australia, and France to deploy AWS infrastructure on-premises while maintaining connectivity to these regional AWS services. Outposts racks provide a hybrid cloud solution that extends AWS infrastructure, services, APIs, and tools directly to customers' data centers or colocation facilities.",
-      "category": "COMPUTE",
-      "timestamp": "2026-04-23T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/second-generation-aws-outposts-racks-sydney-seoul-paris/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f3806040e6734241ba3c5dd3be21f28094e70f26",
-      "title": "Amazon Quick now supports multiple owners for admin-managed SharePoint and Google Drive knowledge bases",
-      "summary": "Amazon QuickSight now allows multiple owners for admin-managed SharePoint and Google Drive knowledge bases, enabling better team collaboration and reuse of existing connections without re-entering credentials. Knowledge base owners can share access with two permission levels: Owner role (full management access) and Viewer role (query-only access).",
-      "category": "OTHER",
-      "timestamp": "2026-04-23T15:59:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-sharepoint/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "389195f78e478753dc866bcff00679ce8e17a45d",
-      "title": "Amazon EC2 X8g instances now available in Europe (Ireland) region",
-      "summary": "Amazon EC2 X8g instances are now available in the Europe (Ireland) region, powered by AWS Graviton4 processors that deliver up to 60% better performance than previous Graviton2-based X2gd instances. These instances offer up to 3 TiB of total memory with increased memory per vCPU, providing the best price performance among EC2 X-series instances for memory-intensive workloads.",
-      "category": "COMPUTE",
-      "timestamp": "2026-04-23T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-x8g-instances-europe-ireland/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "e1ebf16cfcf058d00ee5cc3031de9525a75e7f73",
-      "title": "Amazon Redshift supports UPDATE, DELETE, MERGE for Apache Iceberg tables",
-      "summary": "Amazon Redshift now supports row-level UPDATE, DELETE, and MERGE operations directly on Apache Iceberg tables, eliminating the need to use separate external processing engines for data manipulation. This enhancement reduces complexity and latency in data pipelines for customers building interoperable data lakes with Iceberg. Previously, these operations required moving data to external engines, but can now be performed natively within Redshift.",
-      "category": "DATABASE",
-      "timestamp": "2026-04-23T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/redshift-update-delete-merge-iceberg-tables/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "85a68ac124fccd5af3854b3438525ce076004e32",
-      "title": "Amazon Quick now supports permission verification for ACL-enabled knowledge bases",
-      "summary": "Amazon QuickSight now offers ACL (Access Control List) verification for ACL-enabled knowledge bases, allowing administrators to easily check if specific users can access particular documents. This feature streamlines troubleshooting access issues and helps ensure sensitive documents have proper access restrictions without requiring manual permission tracing. Administrators can use this verification tool by accessing the Sync reports tab in their ACL-enabled knowledge bases.",
-      "category": "OTHER",
-      "timestamp": "2026-04-23T14:56:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-acl/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 548,
+    "total": 545,
     "byCategory": {
       "COMPUTE": 60,
-      "CONTAINERS": 26,
-      "OTHER": 122,
-      "AI_ML": 112,
-      "SECURITY": 114,
-      "DATABASE": 57,
+      "NETWORKING": 10,
+      "OTHER": 121,
+      "SECURITY": 116,
+      "CONTAINERS": 27,
+      "AI_ML": 109,
+      "DATABASE": 55,
       "ANALYTICS": 16,
       "SERVERLESS": 10,
-      "STORAGE": 22,
-      "NETWORKING": 9
+      "STORAGE": 21
     },
-    "lastUpdated": "2026-07-22T11:46:44.437Z"
+    "lastUpdated": "2026-07-22T23:03:22.467Z"
   },
-  "generatedAt": "2026-07-22T11:46:44.438Z"
+  "generatedAt": "2026-07-22T23:03:22.467Z"
 }
