@@ -31,6 +31,16 @@
       "isNew": false
     },
     {
+      "id": "3f597ab1d1ecceb8018985a11841aa9e1d673bf3",
+      "title": "Amazon ECS advanced deployment strategies now available in AWS European Sovereign Cloud",
+      "summary": "Amazon Elastic Container Service (Amazon ECS) now supports built-in blue/green, linear, and canary deployment strategies in the AWS European Sovereign Cloud, making software updates for containerized ...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-07-21T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-adv-deployments-eu-sovereign-cloud/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "7afd989852384890035238cdad4722f0f3d45fe1",
       "title": "Amazon SES introduces pricing plans",
       "summary": "Today, Amazon Simple Email Service (SES) introduced pricing plans, making it easy to purchase and access SES capabilities without evaluating them individually. Amazon SES pricing plans include three h...",
@@ -5472,20 +5482,20 @@
     }
   ],
   "stats": {
-    "total": 547,
+    "total": 548,
     "byCategory": {
       "COMPUTE": 60,
+      "CONTAINERS": 26,
       "OTHER": 122,
       "AI_ML": 112,
       "SECURITY": 114,
       "DATABASE": 57,
-      "CONTAINERS": 25,
       "ANALYTICS": 16,
       "SERVERLESS": 10,
       "STORAGE": 22,
       "NETWORKING": 9
     },
-    "lastUpdated": "2026-07-21T22:56:46.577Z"
+    "lastUpdated": "2026-07-22T11:46:44.437Z"
   },
-  "generatedAt": "2026-07-21T22:56:46.577Z"
+  "generatedAt": "2026-07-22T11:46:44.438Z"
 }
