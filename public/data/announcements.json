@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "1aac866222ee86b6184ada0c02d5fb0b69f64dc4",
+      "title": "Amazon EC2 C7a instances are now available in the US West (N. California) Region",
+      "summary": "Starting today, the compute optimized Amazon EC2 C7a instances are now available in AWS US West (N. California) Region. C7a instances, powered by 4th Gen AMD EPYC processors (code-named Genoa) with a ...",
+      "category": "COMPUTE",
+      "timestamp": "2026-07-22T21:42:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c7a-instances-us-west-ncalifornia-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "c90de4340bbb718819b6ebb3be968283619a1fff",
       "title": "Amazon EC2 M8a instances now available in the Asia Pacific (Hyderabad) region",
       "summary": "Starting today, the general-purpose Amazon EC2 M8a instances are available in AWS Asia Pacific (Hyderabad) region. M8a instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin) ...",
@@ -5452,9 +5462,9 @@
     }
   ],
   "stats": {
-    "total": 545,
+    "total": 546,
     "byCategory": {
-      "COMPUTE": 60,
+      "COMPUTE": 61,
       "NETWORKING": 10,
       "OTHER": 121,
       "SECURITY": 116,
@@ -5465,7 +5475,7 @@
       "SERVERLESS": 10,
       "STORAGE": 21
     },
-    "lastUpdated": "2026-07-22T23:03:22.467Z"
+    "lastUpdated": "2026-07-23T11:49:48.606Z"
   },
-  "generatedAt": "2026-07-22T23:03:22.467Z"
+  "generatedAt": "2026-07-23T11:49:48.606Z"
 }
