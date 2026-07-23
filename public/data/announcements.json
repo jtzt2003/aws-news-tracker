@@ -1,6 +1,96 @@
 {
   "announcements": [
     {
+      "id": "d642ab1ddf48ad69193cd5bc09606b60762c03c6",
+      "title": "AWS now supports automatic credit memo application preferences",
+      "summary": "AWS now enables customers who pay through electronic funds transfer to configure preferences for how credit memos are automatically applied to outstanding invoices. Customers can choose from different...",
+      "category": "OTHER",
+      "timestamp": "2026-07-23T18:16:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/credit-memo-applications/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "fed56a647cb13f0df4784e7ab446b8090a5ec9f3",
+      "title": "Amazon RDS for MySQL supports MySQL 9.7 in Amazon RDS Database Preview Environment",
+      "summary": "Amazon RDS for MySQL now supports version community MySQL 9.7 in the Amazon RDS Database Preview Environment, allowing you to evaluate the latest Release on Amazon RDS for MySQL. This preview environm...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-23T18:05:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-mysql-long-term-9-7-rds-database-preview/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "578f73e75b906fc2617c6e8eefb83c313490029a",
+      "title": "Amazon Bedrock AgentCore now delivers unified observability with traces and logs in a single log group",
+      "summary": "Amazon Bedrock AgentCore now delivers agent traces and prompts to the same log group as your agent's logs, giving you unified observability for AI agents in a single Amazon CloudWatch log group.\n \nPre...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-23T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-bedrock-agentcore-unified-observability-single-log-group/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "53e583c3bf9dd2905e16edd1be6f7303eeedeaf3",
+      "title": "Amazon EVS is now available in additional Regions",
+      "summary": "Today, we're announcing that Amazon Elastic VMware Service (Amazon EVS) is now available in the Asia Pacific (Seoul), Europe (Zurich), and Europe (Stockholm) Regions. This expansion provides more opti...",
+      "category": "OTHER",
+      "timestamp": "2026-07-23T16:24:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-evs-available-in-additional-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e5870efbef4ca61c257156b06e927d672118c2a8",
+      "title": "Claude Sonnet 5 is now available on Amazon Bedrock in AWS GovCloud (US) ",
+      "summary": "AWS GovCloud (US) now offers Claude Sonnet 5 on Amazon Bedrock. Claude Sonnet 5 delivers strong performance across coding, professional work, and agentic tasks while maintaining the balance of capabil...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-23T16:02:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/claude-sonnet-5-govcloud/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "aba47b6bfd87ebde7355353491ca8dd8688e5500",
+      "title": "Announcing region expansion of G7e instances on SageMaker AI inference",
+      "summary": "We are pleased to announce the availability of Amazon EC2 G7e instances in Asia Pacific (Seoul), Europe (London), and Asia Pacific (Tokyo) on Amazon SageMaker AI inference. G7e instances feature up to...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-23T15:04:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/g7e-sagemaker-ai/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "98ee3826df86cabe8d0a3bffd01e5a7b7c0847b0",
+      "title": "Announcing region expansion of G6 instances on SageMaker AI Inference",
+      "summary": "We are pleased to announce the availability of Amazon EC2 G6 instances in the AWS GovCloud (US-East) region on Amazon SageMaker AI inference. G6 instances are powered by up to 8 NVIDIA L4 Tensor Core ...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-23T14:51:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/g6-sagemaker-ai-inference/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1204ccde6b3e375500305fe42a7e8af423f6b801",
+      "title": "AWS Wickr announces Data Retention Service feature",
+      "summary": "AWS Wickr now offers a managed Data Retention Service feature for Premium users, enabling organizations to retain conversations across their network for data archiving purposes. AWS Wickr is an enterp...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-07-23T04:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-wickr-data/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c1af54aeea9a6e7134ae73852de2faa5d89e75d1",
+      "title": "Amazon EC2 High Memory U7i instances now available in additional regions",
+      "summary": "Amazon EC2 High Memory U7in-16TB instances (u7in-16tb.224xlarge) are now available in AWS South America (São Paulo) region, and U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS Europ...",
+      "category": "COMPUTE",
+      "timestamp": "2026-07-23T00:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-high-memory-u7i/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "1aac866222ee86b6184ada0c02d5fb0b69f64dc4",
       "title": "Amazon EC2 C7a instances are now available in the US West (N. California) Region",
       "summary": "Starting today, the compute optimized Amazon EC2 C7a instances are now available in AWS US West (N. California) Region. C7a instances, powered by 4th Gen AMD EPYC processors (code-named Genoa) with a ...",
@@ -5379,103 +5469,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-c8ine-m8ine/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "cec63328178e267062fb793a670b3ae42cbef2ce",
-      "title": "Amazon WorkSpaces Personal Supports Rocky 9, Red Hat Enterprise Linux 9, and Ubuntu 24.04",
-      "summary": "AWS has announced new Linux bundles for Amazon WorkSpaces Personal, adding support for Rocky Linux 9, Red Hat Enterprise Linux 9, and Ubuntu 24.04. These updated bundles provide customers access to the latest enterprise-grade Linux operating systems and modern Linux packages available in these newer releases, while previous versions (Rocky Linux 8, RHEL 8, and Ubuntu 22.04) remain available.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-24T22:03:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-workspaces-rocky9-rhel9-ubuntu24/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6c82f42b21f8408cd696f52e305b96fcef2f1a8b",
-      "title": "AWS Lambda Provisioned Mode for Kafka event source mappings (ESMs) now available in AWS Asia Pacific (Taipei) and AWS GovCloud (US) Regions ",
-      "summary": "AWS Lambda has expanded Provisioned Mode support for Kafka event source mappings to three new regions: Asia Pacific (Taipei) and both AWS GovCloud (US-East and US-West) regions. This feature allows developers to pre-provision event polling resources that stay ready to handle traffic spikes, enabling more responsive and scalable Kafka-based applications with strict performance requirements.",
-      "category": "SERVERLESS",
-      "timestamp": "2026-04-24T21:13:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-Lambda-provisioned-esm-region-expansion/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "617de0296916c633bd46da4109b432cb0e1722f8",
-      "title": "Amazon Quick now integrates with Visier’s Vee agent for workforce intelligence",
-      "summary": "Amazon QuickSight now integrates with Visier's Vee AI assistant through the Model Context Protocol (MCP), allowing HR, finance, and operations teams to access live workforce analytics directly within their QuickSight workspace. Users can ask natural language questions about headcount, attrition, tenure, and other HR metrics without switching between tools. This integration provides governed access to Visier's people analytics platform through a simple MCP server connection setup.",
-      "category": "OTHER",
-      "timestamp": "2026-04-24T21:03:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-visier-vee/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ba5c8f2b7a15390f8e69f272c309e758c86a9372",
-      "title": "Amazon Bedrock AgentCore Gateway and Identity support VPC egress",
-      "summary": "Amazon Bedrock AgentCore Gateway and Identity now support VPC egress, allowing secure and controlled traffic management between applications and VPC resources. This enables customers to directly invoke private resources like EKS-hosted MCP servers from their AgentCore Gateway. The feature is available in both managed and self-managed configurations for enhanced flexibility.",
-      "category": "AI_ML",
-      "timestamp": "2026-04-24T21:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/agentcore-gateway-identity-vpc/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "fe9ae25f32490fd6bafb5f0dc525761fcb03861a",
-      "title": "Amazon Connect now provides eight new metrics to measure and improve AI agent performance",
-      "summary": "Amazon Connect has introduced eight new metrics to help businesses measure and optimize their AI agent performance, including goal success rate, faithfulness score, and tool selection accuracy. These metrics provide visibility into AI-driven customer interactions and help detect issues like contextual hallucinations while enabling continuous improvement of AI agent outcomes.",
-      "category": "ANALYTICS",
-      "timestamp": "2026-04-24T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-ai-agent-metrics/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "5b24d477cec102dbe6233d65407f4f1de4899e79",
-      "title": "Amazon EC2 High Memory U7i instances now available in additional regions",
-      "summary": "Amazon EC2 High Memory U7i instances are now available in additional AWS regions, with 8TB instances launching in Europe (Stockholm, Zurich), 16TB instances in US East (Ohio), and 24TB instances in Europe (Stockholm). These 7th generation instances are powered by custom Intel Xeon Scalable processors (Sapphire Rapids) and feature up to 8 TiB of DDR5 memory for memory-intensive workloads.",
-      "category": "COMPUTE",
-      "timestamp": "2026-04-24T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-high-memory-u7i/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "36dffa7810328eefed8a9eff0c473332c30f2e6d",
-      "title": "AWS Marketplace Management Portal now supports bank account deletion",
-      "summary": "AWS Marketplace sellers can now delete bank accounts directly from the Payment Settings page in the AWS Marketplace Management Portal, eliminating the need to contact customer service for this task. This new self-service feature supports both ACH-type and SWIFT-type bank accounts and addresses a significant gap in payment account management. The enhancement is especially beneficial for global enterprises and ISVs that manage multiple currencies and banking relationships.",
-      "category": "OTHER",
-      "timestamp": "2026-04-24T16:37:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-marketplace-management-portal/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6377f7fd38ee84ca8765ccaf894d6185bba6ad7a",
-      "title": "AWS Deadline Cloud now supports custom scripting for job submission workflows",
-      "summary": "AWS Deadline Cloud, a fully managed render management service for computer graphics and visual effects production, now supports custom scripting capabilities that run before and after job submissions. This new feature allows studios to directly integrate their existing pipelines into the submission workflow. The scripts can be configured to run automatically as part of every job submission process.",
-      "category": "OTHER",
-      "timestamp": "2026-04-24T15:42:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-deadline-cloud/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 546,
+    "total": 547,
     "byCategory": {
+      "OTHER": 120,
+      "SECURITY": 116,
+      "AI_ML": 112,
+      "CONTAINERS": 28,
       "COMPUTE": 61,
       "NETWORKING": 10,
-      "OTHER": 121,
-      "SECURITY": 116,
-      "CONTAINERS": 27,
-      "AI_ML": 109,
       "DATABASE": 55,
-      "ANALYTICS": 16,
-      "SERVERLESS": 10,
+      "ANALYTICS": 15,
+      "SERVERLESS": 9,
       "STORAGE": 21
     },
-    "lastUpdated": "2026-07-23T11:49:48.606Z"
+    "lastUpdated": "2026-07-23T22:56:22.027Z"
   },
-  "generatedAt": "2026-07-23T11:49:48.606Z"
+  "generatedAt": "2026-07-23T22:56:22.028Z"
 }
