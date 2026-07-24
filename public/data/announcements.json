@@ -21,12 +21,32 @@
       "isNew": false
     },
     {
+      "id": "1e1d25031c39030ee982f581edb3a3d4e7036511",
+      "title": "AWS Lambda durable execution SDK for .NET is now generally available ",
+      "summary": "Today, AWS announces the general availability of the AWS Lambda Durable Execution SDK for .NET, empowering C# developers to build resilient, long-running workflows using Lambda durable functions. With...",
+      "category": "SERVERLESS",
+      "timestamp": "2026-07-23T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/lambdadf-dotnet/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "578f73e75b906fc2617c6e8eefb83c313490029a",
       "title": "Amazon Bedrock AgentCore now delivers unified observability with traces and logs in a single log group",
       "summary": "Amazon Bedrock AgentCore now delivers agent traces and prompts to the same log group as your agent's logs, giving you unified observability for AI agents in a single Amazon CloudWatch log group.\n \nPre...",
       "category": "AI_ML",
       "timestamp": "2026-07-23T17:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-bedrock-agentcore-unified-observability-single-log-group/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4052d4fafe9c7491c5f96871de96d45e19d69586",
+      "title": "Amazon CloudWatch Logs now supports Application Load Balancer logs",
+      "summary": "Amazon CloudWatch Logs now supports Application Load Balancer (ALB) logs as vended logs, improving observability and simplifying debugging for network traffic patterns. You can now analyze ALB access,...",
+      "category": "STORAGE",
+      "timestamp": "2026-07-23T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cloudwatch-logs/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5472,20 +5492,20 @@
     }
   ],
   "stats": {
-    "total": 547,
+    "total": 549,
     "byCategory": {
       "OTHER": 120,
       "SECURITY": 116,
+      "SERVERLESS": 10,
       "AI_ML": 112,
+      "STORAGE": 22,
       "CONTAINERS": 28,
       "COMPUTE": 61,
       "NETWORKING": 10,
       "DATABASE": 55,
-      "ANALYTICS": 15,
-      "SERVERLESS": 9,
-      "STORAGE": 21
+      "ANALYTICS": 15
     },
-    "lastUpdated": "2026-07-23T22:56:22.027Z"
+    "lastUpdated": "2026-07-24T11:41:40.839Z"
   },
-  "generatedAt": "2026-07-23T22:56:22.028Z"
+  "generatedAt": "2026-07-24T11:41:40.839Z"
 }
