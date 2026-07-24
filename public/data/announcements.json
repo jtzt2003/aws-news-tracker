@@ -1,6 +1,76 @@
 {
   "announcements": [
     {
+      "id": "891007a2b64d16aba503a8799874b65693d1e050",
+      "title": "Amazon EC2 Dedicated Hosts now support host resource groups without self-managed licenses",
+      "summary": "Starting today, customers can create Host Resource Groups (HRGs) for EC2 Dedicated Hosts without the previously required step of creating Self-Managed Licenses (SMLs) and associating AMIs through AWS ...",
+      "category": "COMPUTE",
+      "timestamp": "2026-07-24T21:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-dedicated-hosts-hrg/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c0c9052c6dd884aaf3d5a8239c2fdfbdf3f9fd68",
+      "title": "Amazon Kinesis Data Streams now supports scaling down ingest capacity with warm throughput",
+      "summary": "Amazon Kinesis Data Streams is a serverless streaming data service that makes it easy to capture, process, and store data streams at any scale. On-demand streams automatically increase ingest capacity...",
+      "category": "ANALYTICS",
+      "timestamp": "2026-07-24T18:55:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/kinesis/on-demand-scale-down",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ae2b2021e7ddba49c747a76f6c3b5fcac0c1f5e3",
+      "title": "AWS Lambda now publishes logs for Lambda Managed Instances capacity providers",
+      "summary": "AWS Lambda now publishes logs for Lambda Managed Instances (LMI) capacity providers to Amazon CloudWatch Logs, giving you visibility into scaling activity and instance lifecycle operations. LMI enable...",
+      "category": "SERVERLESS",
+      "timestamp": "2026-07-24T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-managed-instances-logs/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "cdece069f458e926b56e7d7b5188dc4a464c4661",
+      "title": "Amazon SES simplifies sending emails over SMTP using Mail Manager",
+      "summary": "Amazon Simple Email Service (SES) now offers a simplified console experience for sending emails over SMTP using Mail Manager. Mail Manager is a capability within SES for managing email flow, but confi...",
+      "category": "OTHER",
+      "timestamp": "2026-07-24T15:03:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ses-simplified-smtp-mail-manager",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "83d5c9420ae6940698f20e5dd2286dd43424212b",
+      "title": "Claude Opus 5 is now available on AWS ",
+      "summary": "AWS now offers Claude Opus 5 — the most advanced Opus model yet, and compatible with zero data retention (ZDR) — bringing a step-change in coding, long-running agents, and complex professional work to...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-24T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/claude-opus-5-aws/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "aa6ffeab944051ea7065072ebeb85a26aaedf8f0",
+      "title": "Opus 4.8, Sonnet 5, and User Activity Monitoring now available on Kiro in AWS GovCloud (US)",
+      "summary": "Two new models are now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions.\n  Claude Opus 4.8 is the most intelligent Opus model, delivering stronger self-verification, more efficient ...",
+      "category": "OTHER",
+      "timestamp": "2026-07-24T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/kiro-opus-sonnet-monitoring-launch-aws-govcloud-us/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "fd2526cab23b059cf6127970064a00f0fc093a95",
+      "title": " AWS announces aws-bench, an open-source benchmark for AI agents on AWS",
+      "summary": "Today, AWS announces a research preview of aws-bench, an open-source benchmark that measures how accurately and efficiently AI agents complete real-world AWS tasks. Model providers and AI researchers ...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-24T13:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-bench/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "d642ab1ddf48ad69193cd5bc09606b60762c03c6",
       "title": "AWS now supports automatic credit memo application preferences",
       "summary": "AWS now enables customers who pay through electronic funds transfer to configure preferences for how credit memos are automatically applied to outstanding invoices. Customers can choose from different...",
@@ -5492,20 +5562,20 @@
     }
   ],
   "stats": {
-    "total": 549,
+    "total": 556,
     "byCategory": {
-      "OTHER": 120,
+      "COMPUTE": 62,
+      "ANALYTICS": 16,
+      "SERVERLESS": 11,
+      "OTHER": 122,
+      "AI_ML": 114,
       "SECURITY": 116,
-      "SERVERLESS": 10,
-      "AI_ML": 112,
       "STORAGE": 22,
       "CONTAINERS": 28,
-      "COMPUTE": 61,
       "NETWORKING": 10,
-      "DATABASE": 55,
-      "ANALYTICS": 15
+      "DATABASE": 55
     },
-    "lastUpdated": "2026-07-24T11:41:40.839Z"
+    "lastUpdated": "2026-07-24T23:02:03.500Z"
   },
-  "generatedAt": "2026-07-24T11:41:40.839Z"
+  "generatedAt": "2026-07-24T23:02:03.500Z"
 }
