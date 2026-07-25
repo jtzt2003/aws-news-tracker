@@ -1,6 +1,26 @@
 {
   "announcements": [
     {
+      "id": "06504c094b727f7697ba28569701cd2d9d88efac",
+      "title": "Amazon Connect now supports audio optimization for Azure Virtual Desktop and Windows 365 Cloud PC",
+      "summary": "Agents using Microsoft Azure Virtual Desktop (AVD) or Windows 365 Cloud PC can now take calls directly from their virtual desktop session with audio optimization enabled. To get started, IT administra...",
+      "category": "OTHER",
+      "timestamp": "2026-07-24T23:11:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0d2b24bc30f178cddf7989a86dc75b02c9608c3d",
+      "title": "Amazon MWAA now supports Apache Airflow version 2.11.2",
+      "summary": "Amazon Managed Workflows for Apache Airflow (MWAA) now supports Apache Airflow version 2.11.2. Amazon MWAA is a managed service that runs Apache Airflow at scale without the operational overhead of ma...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-24T21:57:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-mwaa-now-supports-apache-airflow-version-2-11-2",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "891007a2b64d16aba503a8799874b65693d1e050",
       "title": "Amazon EC2 Dedicated Hosts now support host resource groups without self-managed licenses",
       "summary": "Starting today, customers can create Host Resource Groups (HRGs) for EC2 Dedicated Hosts without the previously required step of creating Self-Managed Licenses (SMLs) and associating AMIs through AWS ...",
@@ -5562,20 +5582,20 @@
     }
   ],
   "stats": {
-    "total": 556,
+    "total": 558,
     "byCategory": {
+      "OTHER": 123,
+      "SECURITY": 117,
       "COMPUTE": 62,
       "ANALYTICS": 16,
       "SERVERLESS": 11,
-      "OTHER": 122,
       "AI_ML": 114,
-      "SECURITY": 116,
       "STORAGE": 22,
       "CONTAINERS": 28,
       "NETWORKING": 10,
       "DATABASE": 55
     },
-    "lastUpdated": "2026-07-24T23:02:03.500Z"
+    "lastUpdated": "2026-07-25T11:09:57.721Z"
   },
-  "generatedAt": "2026-07-24T23:02:03.500Z"
+  "generatedAt": "2026-07-25T11:09:57.722Z"
 }
