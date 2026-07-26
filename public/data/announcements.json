@@ -5489,113 +5489,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-google-workspace-zoom/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "3bcb573a14319df4eb44f2be405e58614996434b",
-      "title": "Amazon Redshift Serverless AI-driven scaling is now the default for new workgroups",
-      "summary": "Amazon Redshift Serverless now uses AI-driven scaling as the default for all new workgroups, leveraging machine learning to predict compute needs and automatically adjust resources before queries queue. This enhancement delivers better price-performance without manual tuning and expands support to workloads starting from 8 RPU (down from 32 RPU), reducing entry costs for smaller workloads.",
-      "category": "AI_ML",
-      "timestamp": "2026-04-27T22:03:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-redshift-serverless-ai-driven-scaling-default/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "a821cdcdd1ef6acb29951f9cd536e6e1f70baf5a",
-      "title": "Amazon Redshift Serverless is now available in the AWS Asia Pacific (Melbourne) and Canada West (Calgary) regions",
-      "summary": "Amazon Redshift Serverless is now generally available in the AWS Asia Pacific (Melbourne) and Canada West (Calgary) regions. This service allows users to run and scale analytics workloads without needing to provision or manage data warehouse clusters, automatically handling capacity scaling. The service enables data analysts, developers, and data scientists to quickly gain insights from their data in seconds.",
-      "category": "DATABASE",
-      "timestamp": "2026-04-27T19:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-redshift-serverless-melbourne-calgary-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "dc2bea75c077c63428b4d12b8400549ef62882fd",
-      "title": "AWS KMS now tracks last usage of all KMS keys",
-      "summary": "AWS Key Management Service (KMS) now automatically tracks and displays the last cryptographic operation performed with KMS keys, showing the timestamp, operation type, and CloudTrail event ID through the console or API. This eliminates the need for manual log analysis and helps security administrators and compliance teams quickly assess key usage for security and compliance purposes.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-27T19:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-kms-tracks-last-usage-kms-keys/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "cfffa14b341bfefa6cb85893a865a05e68896f40",
-      "title": "Amazon Connect increases attachment file sizes and adds custom file types",
-      "summary": "Amazon Connect has increased the maximum attachment file size from 20 MB to 100 MB for chat, cases, and tasks, while also allowing administrators to configure custom file extensions. This enhancement enables enterprise customers to share larger files like diagnostic bundles and log archives directly through chat, streamlining support processes and reducing communication overhead.",
-      "category": "OTHER",
-      "timestamp": "2026-04-27T18:45:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-increases-attachment/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b23a59b868d0bae86280a95807de33881246c52c",
-      "title": "Amazon FSx for OpenZFS Single-AZ (HA) file systems are now available in 17 additional AWS commercial and AWS GovCloud (US) Regions",
-      "summary": "Amazon FSx for OpenZFS Single-AZ (HA) file systems have expanded to 17 additional AWS Regions across South America, Europe, Africa, Asia Pacific, and AWS GovCloud (US). This fully managed service provides cost-effective shared file storage with sub-millisecond latencies, multi-GB/s throughput, and advanced ZFS features like snapshots, data cloning, and compression.",
-      "category": "AI_ML",
-      "timestamp": "2026-04-27T16:53:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-fsx-openzfs-single-az-ha/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "921514b62409929c9676c9347ae67059368dfb16",
-      "title": "Amazon SageMaker HyperPod now supports G7e and r5d.16xlarge instances",
-      "summary": "Amazon SageMaker HyperPod, AWS's purpose-built infrastructure for large-scale foundation model development and training, now supports G7e and r5d.16xlarge instances. G7e instances are powered by NVIDIA RTX PRO 6000 Blackwell GPUs, providing enhanced compute capabilities for AI/ML workloads. This expansion gives users more instance options within SageMaker HyperPod's resilient environment that features built-in fault tolerance and automated cluster recovery.",
-      "category": "AI_ML",
-      "timestamp": "2026-04-27T15:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-hyperpod-g7e-r5d/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "9fee438d254d6ee410d861726333cedf8dbea49c",
-      "title": "Introducing Amazon EC2 M8in and M8ib instances ",
-      "summary": "AWS has launched Amazon EC2 M8in and M8ib instances powered by custom sixth-generation Intel Xeon Scalable processors exclusive to AWS and featuring the latest AWS Nitro cards. These new instances deliver up to 43% higher performance compared to previous M6in and M6ib generations, with M8in instances providing 600 Gbps network bandwidth for network optimization and M8ib instances offering EBS optimization.",
-      "category": "COMPUTE",
-      "timestamp": "2026-04-27T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-m8in-m8ib/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "384dda837b5860dc90036faf3c44f563fad508bd",
-      "title": "Introducing Amazon EC2 R8in and R8ib instances ",
-      "summary": "AWS has launched new memory-optimized EC2 instances - R8in (network optimized) and R8ib (EBS optimized) - powered by custom sixth-generation Intel Xeon Scalable processors exclusive to AWS. These instances feature the latest AWS Nitro cards and deliver up to 43% better performance compared to previous generation instances, with R8in providing 600 Gbps network bandwidth.",
-      "category": "COMPUTE",
-      "timestamp": "2026-04-27T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-r8in-r8ib/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "1d3dafef37831a83db74c71c563e271878aa694a",
-      "title": "Introducing Amazon EC2 C8ine and M8ine instances ",
-      "summary": "AWS has launched Amazon EC2 C8ine and M8ine instances powered by custom sixth-generation Intel Xeon Scalable processors and AWS Nitro cards, available exclusively on AWS. These new instances deliver up to 43% higher performance compared to previous generation C6in and M6in instances, with up to 2.5 times better packet performance per vCPU for network-optimized workloads.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-27T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-c8ine-m8ine/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 558,
+    "total": 549,
     "byCategory": {
-      "OTHER": 123,
-      "SECURITY": 117,
-      "COMPUTE": 62,
+      "OTHER": 122,
+      "SECURITY": 115,
+      "COMPUTE": 60,
       "ANALYTICS": 16,
       "SERVERLESS": 11,
-      "AI_ML": 114,
+      "AI_ML": 111,
       "STORAGE": 22,
       "CONTAINERS": 28,
       "NETWORKING": 10,
-      "DATABASE": 55
+      "DATABASE": 54
     },
-    "lastUpdated": "2026-07-26T11:18:33.932Z"
+    "lastUpdated": "2026-07-26T22:58:23.801Z"
   },
-  "generatedAt": "2026-07-26T11:18:33.932Z"
+  "generatedAt": "2026-07-26T22:58:23.801Z"
 }
