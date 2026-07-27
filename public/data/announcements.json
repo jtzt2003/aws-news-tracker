@@ -1,6 +1,46 @@
 {
   "announcements": [
     {
+      "id": "a544c69fdc38a10dc3bf773b4409de8c6a2a7492",
+      "title": "Amazon GameLift Streams now supports Custom Aspect Ratio and Dynamic Resolution",
+      "summary": "Amazon GameLift Streams now supports Custom Aspect Ratio and Dynamic Resolution, giving you greater control over the streaming experience across diverse player devices and network conditions.\n \nWith C...",
+      "category": "OTHER",
+      "timestamp": "2026-07-27T18:58:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-gamelift-streams/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "763f947e1a6a31d3a31ab96bfe532fedceae9827",
+      "title": "AWS Security Hub MCP App brings exposure findings into your AI-assisted workflow (Preview) ",
+      "summary": "AWS announces the preview of the AWS Security Hub MCP App, a local Model Context Protocol (MCP) server that brings your Security Hub exposure findings directly into Claude Desktop.  This capability ca...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-27T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-mcp-app/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "16f9132bda3adf538eb50116db9df947feccc081",
+      "title": "AWS Elemental MediaTailor adds configurable ad timeout and concurrency controls for improved ad fill and faster startup",
+      "summary": "AWS Elemental MediaTailor now gives you direct control over ad decision server (ADS) timeout. Previously, changing these settings required contacting AWS Support. You can now configure individual HTTP...",
+      "category": "OTHER",
+      "timestamp": "2026-07-27T16:09:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/mediatail-configurable-ad-timeout-and-concurrency",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2fd52cfc27aee635b58eefecff0b4fbf27ec68e5",
+      "title": "Amazon RDS for SQL Server now supports restoring TDE databases on Mult-AZ instances",
+      "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports restoring Transparent Data Encryption (TDE)-enabled SQL Server databases on Multi-AZ instances and instances configured with...",
+      "category": "DATABASE",
+      "timestamp": "2026-07-27T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sql-server-supports-tde-for-maz/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "06504c094b727f7697ba28569701cd2d9d88efac",
       "title": "Amazon Connect now supports audio optimization for Azure Virtual Desktop and Windows 365 Cloud PC",
       "summary": "Agents using Microsoft Azure Virtual Desktop (AVD) or Windows 365 Cloud PC can now take calls directly from their virtual desktop session with audio optimization enabled. To get started, IT administra...",
@@ -5389,113 +5429,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-emr-713-python-311/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "8ed43fcca58c3495a85b47502a44aab6be3bcba9",
-      "title": "AWS Glue 5.1 is now available in all AWS Commercial and AWS GovCloud (US) Regions",
-      "summary": "AWS Glue 5.1 is now available across all AWS Commercial and GovCloud regions, including the newly added Asia Pacific (New Zealand) region. The update upgrades core engines to Apache Spark 3.5.6, Python 3.11, and Scala 2.12.18, delivering performance and security improvements along with enhanced support for open table format libraries.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-28T18:44:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-glue-5-1-all-govcloud-commercial-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d310eb5828bf39df76f8bffe2649d4660f1881b8",
-      "title": "AWS Cost Optimization Hub now supports CSV download",
-      "summary": "AWS Cost Optimization Hub now allows users to download cost optimization recommendations as CSV files directly from the console with a single click. This new feature exports recommendations based on your current console filters and settings, complementing the existing automated Data Export feature to Amazon S3. The capability enables quick local access to cost optimization data for further analysis and reporting.",
-      "category": "STORAGE",
-      "timestamp": "2026-04-28T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-cost-optimization-hub-csv-download/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "550348c36a7096921c7d6e06b4e072a51f9b98ad",
-      "title": "Amazon WorkSpaces Personal enhances PCoIP to DCV protocol migration",
-      "summary": "Amazon WorkSpaces Personal has improved its migration process from PCoIP to DCV protocol by adding a guided console interface, automatic checkpoint snapshots for rollback capability, and session blocking during the transition. The migration to DCV protocol provides customers with enhanced performance and expanded operating system support, including Windows 11 and Windows Server compatibility.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-28T16:51:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-workspaces-personal-pcoip/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "360637ae91d50ad4edf4e18f97c95a94d4c4b6cb",
-      "title": "Amazon EC2 C8gn instances are now available in additional regions",
-      "summary": "Amazon EC2 C8gn instances powered by AWS Graviton4 processors are now available in the Europe (Milan) and Asia Pacific (Hong Kong) regions. These new instances deliver up to 30% better compute performance compared to the previous Graviton3-based C7gn instances and feature 6th generation AWS Nitro Cards with up to 600 Gbps network bandwidth, the highest among network-optimized EC2 instances.",
-      "category": "AI_ML",
-      "timestamp": "2026-04-28T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-c8gn-milan-hong-kong/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "301ead56ee94d7c85fdf7dae89a8078118b83e6e",
-      "title": "Amazon Connect Talent for AI-powered hiring (now available in Preview)",
-      "summary": "Amazon Connect Talent is now available in Preview as an AI-powered hiring solution that uses AI agents to conduct structured voice interviews, administer assessments, and score candidates consistently at scale. The service, built on Amazon's hiring expertise, allows candidates to interview 24/7 from any device while freeing recruiters to focus on strategic decisions rather than initial screening tasks.",
-      "category": "OTHER",
-      "timestamp": "2026-04-28T15:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-talent-ai-powered/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6a084e27a4116532f271bc2e2c7652129511514c",
-      "title": "Amazon Bedrock now offers OpenAI models, Codex, and Managed Agents (Limited Preview)",
-      "summary": "Amazon Bedrock is now offering OpenAI's latest models, Codex, and Managed Agents through a limited preview, marking an expansion of the AWS-OpenAI partnership. This integration brings OpenAI's advanced AI capabilities to AWS's trusted infrastructure, providing enterprises with powerful AI models while maintaining the security, operational maturity, and data governance required for production workloads. All three offerings are currently available in limited preview on the Amazon Bedrock platform.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-28T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/bedrock-openai-models-codex-managed-agents/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "7cc48dd0ebc64ba2a8907e84a91a990307ea349d",
-      "title": "AWS Announces Amazon Connect Decisions",
-      "summary": "AWS has launched Amazon Connect Decisions, an AI-powered solution that helps supply chain teams transition from reactive problem-solving to proactive operations management. The platform leverages Amazon's three decades of operational expertise and over 25 specialized supply chain tools, with AI teammates that adapt to businesses and learn from team decisions. The solution is designed for companies across retail, consumer packaged goods, automotive, and industrial manufacturing sectors.",
-      "category": "OTHER",
-      "timestamp": "2026-04-28T14:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-decisions-april/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "049836c27c3dac32d9d1dda3cd4f6555970b1502",
-      "title": "Build custom applications using natural language in Amazon Quick (Preview)",
-      "summary": "AWS has announced preview features for Amazon QuickSight that enable users to build custom web applications using natural language descriptions, eliminating the need for coding skills or developer resources. These applications can connect to live data sources, implement complex workflows, and include AI-powered features, allowing any user to create fully interactive tools in minutes simply by describing their requirements.",
-      "category": "OTHER",
-      "timestamp": "2026-04-28T14:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/custom-applications/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "9f98317f565ea46b2f8519176c0ff0b1f5bc3694",
-      "title": "Amazon Quick now available as a desktop application for macOS and Windows (Preview)",
-      "summary": "Amazon Quick, AWS's AI assistant, is now available as a preview desktop application for macOS and Windows, extending beyond browser-based access. The desktop version provides enhanced capabilities including direct access to local files, OS-level notifications, and native desktop controls. This allows Quick to better understand users' complete work context across files, calendar, communications, and applications directly from the desktop environment.",
-      "category": "OTHER",
-      "timestamp": "2026-04-28T14:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-macos-windows-preview/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 548,
+    "total": 543,
     "byCategory": {
-      "OTHER": 121,
-      "SECURITY": 115,
+      "OTHER": 119,
+      "SECURITY": 113,
+      "DATABASE": 55,
       "COMPUTE": 60,
       "ANALYTICS": 16,
       "SERVERLESS": 11,
-      "AI_ML": 111,
-      "STORAGE": 22,
+      "AI_ML": 110,
+      "STORAGE": 21,
       "CONTAINERS": 28,
-      "NETWORKING": 10,
-      "DATABASE": 54
+      "NETWORKING": 10
     },
-    "lastUpdated": "2026-07-27T12:54:31.904Z"
+    "lastUpdated": "2026-07-27T23:01:20.705Z"
   },
-  "generatedAt": "2026-07-27T12:54:31.905Z"
+  "generatedAt": "2026-07-27T23:01:20.705Z"
 }
