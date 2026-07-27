@@ -5479,22 +5479,12 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-macos-windows-preview/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "2edcaa4d3bc73ee2c4514174c16668ab21cc08ba",
-      "title": "Amazon Quick expands integrations to include Google Workspace, Zoom, Airtable, and more",
-      "summary": "Amazon Quick, AWS's AI assistant that transforms questions into actionable outcomes for teams, is expanding with 13 new built-in connectors including Google Workspace, Zoom, and Airtable. These integrations feature managed authentication for secure, one-click account connections without manual credential setup. Quick centralizes tools and data while learning team preferences to provide grounded, contextual answers and actions.",
-      "category": "OTHER",
-      "timestamp": "2026-04-28T11:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-google-workspace-zoom/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 549,
+    "total": 548,
     "byCategory": {
-      "OTHER": 122,
+      "OTHER": 121,
       "SECURITY": 115,
       "COMPUTE": 60,
       "ANALYTICS": 16,
@@ -5505,7 +5495,7 @@
       "NETWORKING": 10,
       "DATABASE": 54
     },
-    "lastUpdated": "2026-07-26T22:58:23.801Z"
+    "lastUpdated": "2026-07-27T12:54:31.904Z"
   },
-  "generatedAt": "2026-07-26T22:58:23.801Z"
+  "generatedAt": "2026-07-27T12:54:31.905Z"
 }
