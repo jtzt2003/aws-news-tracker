@@ -1,6 +1,36 @@
 {
   "announcements": [
     {
+      "id": "279dd74b59b67764de13775cd604a904fd8f0211",
+      "title": "Amazon Neptune now supports tag-based access control for IAM",
+      "summary": "Amazon Neptune Database now supports tag-based access control (TBAC) for IAM, enabling customers to use AWS resource tags and IAM principal tags as conditions in IAM policies and Service Control Polic...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-27T22:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-neptune-tbac/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "40b816236f0b5c1cf68cff9d812bc079d9f6ccf1",
+      "title": "AWS Glue Data Quality now supports anomaly detection and writing results to the AWS Glue Data Catalog",
+      "summary": "AWS Glue Data Quality now supports anomaly detection for Catalog-based data quality evaluations and the ability to write evaluation results to AWS Glue Data Catalog (GDC) tables. These capabilities wo...",
+      "category": "ANALYTICS",
+      "timestamp": "2026-07-27T20:45:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-data-quality-catalog-anomaly-detection-write-results",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a5fb9f5de228df79675cbe69dab679b60e2ed14e",
+      "title": "AWS Glue Data Quality now supports distribution statistics for data profiling",
+      "summary": "AWS Glue Data Quality now supports a new Distribution Analyzer that generates frequency distribution profiles for your data. Using this new Distribution Analyzer in the Data Quality Definition Languag...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-27T20:23:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-data-quality-distribution-profiling",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "a544c69fdc38a10dc3bf773b4409de8c6a2a7492",
       "title": "Amazon GameLift Streams now supports Custom Aspect Ratio and Dynamic Resolution",
       "summary": "Amazon GameLift Streams now supports Custom Aspect Ratio and Dynamic Resolution, giving you greater control over the streaming experience across diverse player devices and network conditions.\n \nWith C...",
@@ -5399,53 +5429,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/quick-filter-control-sort/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "0e6af75fca4dba848bbaa6c6b01e888c8ea1c838",
-      "title": "AWS Transfer Family Terraform module now supports Okta and Microsoft Entra ID integration examples",
-      "summary": "AWS Transfer Family's Terraform module now includes complete examples for integrating with Okta and Microsoft Entra ID as custom identity providers for authentication and access control. This enables enterprises to automatically deploy Transfer Family servers that work seamlessly with their existing identity management systems through infrastructure-as-code.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-29T10:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-transfer-family-terraform-okta-microsoft-entra-id/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "265563bae595223174aa4cbb939d1c744468cca0",
-      "title": "Amazon RDS for Db2 is now available in the AWS GovCloud (US-East, US-West) Regions",
-      "summary": "Amazon RDS for Db2 is now available in AWS GovCloud (US-East and US-West) regions, allowing government customers to easily deploy and manage Db2 databases in the cloud. The service enables quick database deployment with optimized configurations and offers Multi-AZ synchronous replication for high availability across different Availability Zones.",
-      "category": "DATABASE",
-      "timestamp": "2026-04-29T07:21:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-rds-db2-available-aws-govcloud-us-east-us-west-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "25a868b66dda8b03ac455c6390d921d06523bdbb",
-      "title": "Amazon EMR 7.13 now available with Python 3.11 ",
-      "summary": "Amazon EMR 7.13 is now available with Python 3.11 as the default for Apache Spark, along with updated versions of Apache HBase 2.6.3, Apache Hadoop 3.4.2, Apache Phoenix 5.3.0, and AWS SDK v2.41.11. The release is available in all AWS regions where Amazon EMR is supported.",
-      "category": "ANALYTICS",
-      "timestamp": "2026-04-29T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-emr-713-python-311/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
     "total": 543,
     "byCategory": {
-      "OTHER": 119,
       "SECURITY": 113,
-      "DATABASE": 55,
-      "COMPUTE": 60,
       "ANALYTICS": 16,
+      "AI_ML": 111,
+      "OTHER": 119,
+      "DATABASE": 54,
+      "COMPUTE": 60,
       "SERVERLESS": 11,
-      "AI_ML": 110,
       "STORAGE": 21,
       "CONTAINERS": 28,
       "NETWORKING": 10
     },
-    "lastUpdated": "2026-07-27T23:01:20.705Z"
+    "lastUpdated": "2026-07-28T11:57:36.786Z"
   },
-  "generatedAt": "2026-07-27T23:01:20.705Z"
+  "generatedAt": "2026-07-28T11:57:36.787Z"
 }
