@@ -1,6 +1,66 @@
 {
   "announcements": [
     {
+      "id": "d0ba727c4efc0bd886bca5a70016d16fe5ae60b6",
+      "title": "Amazon EKS Provisioned Control Plane now delivers faster pod autoscaling",
+      "summary": "Amazon EKS now delivers faster pod autoscaling across all Provisioned Control Plane clusters by increasing Horizontal Pod Autoscaler (HPA) sync concurrency to up to 40 times the default Kubernetes val...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-07-28T17:18:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-provisioned-control/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e9188889d348bc42f3ea6bca0e8487569bfbfbca",
+      "title": "AWS Console Home now supports the Cost and Usage widget in the AWS European Sovereign Cloud (Germany) Region",
+      "summary": "AWS Console Home now supports the Cost and Usage widget in the AWS European Sovereign Cloud (Germany) Region, allowing customers to surface insights from Cost Explorer and Cost Optimization Hub on the...",
+      "category": "OTHER",
+      "timestamp": "2026-07-28T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-console-home-cost-and-usage-eu-sovereign-cloud",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e0b0377db17c9b6f6997bc450b7407a5894ca72d",
+      "title": "Second-generation AWS Outposts racks now supported in the AWS Asia Pacific (Mumbai) Region",
+      "summary": "Second-generation AWS Outposts racks are now supported in the Asia Pacific (Mumbai) Region. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to virtually any on-premises data ce...",
+      "category": "COMPUTE",
+      "timestamp": "2026-07-28T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-outposts-asia-pacific-mumbai/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c7bf6709bdbc70396b6de1e820ad3fddc4759fbb",
+      "title": "AWS DataSync Enhanced mode now supports Amazon EFS and Amazon FSx for Lustre ",
+      "summary": "AWS DataSync Enhanced mode now supports Amazon EFS and Amazon FSx for Lustre as source or destination locations.\n \nAWS DataSync is a secure, high-speed data transfer service that simplifies moving dat...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-28T10:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-datasync-amazon-efs-fsx-lustre/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "eaa779b9ca65b7e1045f333c8efb3b4987369ae8",
+      "title": "AWS DataSync Enhanced mode adds HDFS, Azure Blob, and object storage locations with Hyper-V agent support",
+      "summary": "AWS DataSync Enhanced mode now supports agent-based data transfers with Hadoop Distributed File Systems (HDFS), Microsoft Azure Blob Storage, and self-managed object storage. Additionally, Enhanced mo...",
+      "category": "OTHER",
+      "timestamp": "2026-07-28T10:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-datasync-hdfs-azure-blob-hyper-v/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8251770b8a5a3ce432e509b17d021e8132fbb80b",
+      "title": "Amazon S3 Tables now support the Variant data type for Apache Iceberg V3",
+      "summary": "Amazon S3 Tables now support the Variant data type as defined in the Apache Iceberg Version 3 (V3) specification. You can now write semi-structured data like JSON directly to S3 Tables without definin...",
+      "category": "STORAGE",
+      "timestamp": "2026-07-28T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-s3-tables-variant-iceberg-v3/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "279dd74b59b67764de13775cd604a904fd8f0211",
       "title": "Amazon Neptune now supports tag-based access control for IAM",
       "summary": "Amazon Neptune Database now supports tag-based access control (TBAC) for IAM, enabling customers to use AWS resource tags and IAM principal tags as conditions in IAM policies and Service Control Polic...",
@@ -5349,103 +5409,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-opensearch-service-supports-index-level-encryption/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "2a7ee5807e0225d717464bd78a15aac7e35dd5eb",
-      "title": "Amazon RDS for MySQL announces Innovation Release 9.6 in Amazon RDS Database Preview Environment",
-      "summary": "Amazon RDS for MySQL now supports MySQL Innovation Release 9.6 in the Amazon RDS Database Preview Environment, allowing users to evaluate the latest community MySQL release. This preview environment provides a fully managed database experience, simplifying setup, operation, and monitoring while users test the newest MySQL features and improvements.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-29T20:37:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-rds-mysql-innovation/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "bf488ab509463f6d1eca80d0475ca5ee7a185ac1",
-      "title": "Amazon DocumentDB (with MongoDB compatibility) is Now Available in the Canada West (Calgary) Region",
-      "summary": "Amazon DocumentDB, a fully managed JSON database service with MongoDB compatibility, is now available in the Canada West (Calgary) region. This expansion adds another regional option for customers looking to run critical document workloads at scale without managing infrastructure. The service is designed to provide scalability and durability for mission-critical MongoDB applications.",
-      "category": "DATABASE",
-      "timestamp": "2026-04-29T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-documentdb-available-in-canada-west-region/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "186caf5189478f58ed1875e1abda817c7e169551",
-      "title": "Amazon CloudFront now supports invalidation by cache tag",
-      "summary": "Amazon CloudFront now supports cache tag invalidation, allowing users to remove groups of related cached content from edge locations with a single request instead of invalidating objects individually. This new feature simplifies operational workflows like updating product information across multiple pages, handling legal takedown requests, and managing content refreshes across multi-tenant platforms.",
-      "category": "NETWORKING",
-      "timestamp": "2026-04-29T17:06:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/cloudfront-invalidation-cache-tag/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ef3b9e3748d39649054ef95a0af3ac8b1431503c",
-      "title": "Paraphrase-multilingual-MiniLM-L12-v2, Table Transformer Detection, and Bielik-11B-v3.0-Instruct are now available in Amazon SageMaker JumpStart",
-      "summary": "AWS has added three new AI models to Amazon SageMaker JumpStart: paraphrase-multilingual-MiniLM-L12-v2 (a lightweight semantic similarity model supporting 50+ languages), Microsoft Table Transformer Detection, and Bielik-11B-v3.0-Instruct. The multilingual model is particularly useful for finding semantically similar content across different languages by mapping text to a 384-dimensional vector space.",
-      "category": "AI_ML",
-      "timestamp": "2026-04-29T17:05:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/paraphrase-multilingual-table-transformer-bielik-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "e9375710989ba40f310de314aa18616cc1ff604a",
-      "title": "Gemma 4 models are now available in Amazon SageMaker JumpStart",
-      "summary": "AWS has announced the availability of three new Gemma 4 models (E4B, 26B-A4B, and 31B) in Amazon SageMaker JumpStart, expanding Google DeepMind's foundation model offerings for AWS customers. These instruction-tuned models feature multimodal capabilities, configurable reasoning, native function calling, and support for over 140 languages, enabling customers to build sophisticated AI applications on AWS infrastructure.",
-      "category": "AI_ML",
-      "timestamp": "2026-04-29T17:05:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/gemma-4-models-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b29d5a467429ccff2e0ac9a8da696d4b6d783849",
-      "title": "Amazon CloudWatch adds visual agent configuration to the EC2 console",
-      "summary": "Amazon CloudWatch now offers a visual configuration editor in the EC2 console that allows users to set up and manage the CloudWatch agent without manually editing JSON files. The CloudWatch agent collects metrics, logs, and traces from EC2 instances and sends them to CloudWatch and AWS X-Ray. This new graphical interface enables users to easily build agent configurations by visually selecting metrics, log sources, and deployment targets.",
-      "category": "COMPUTE",
-      "timestamp": "2026-04-29T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-agent-ec2/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6e10cd6123b99b0e98ad73473f5aa292d3e36a92",
-      "title": "OpenAI GPT OSS and NVIDIA Nemotron Models Available on Amazon Bedrock in AWS GovCloud (US)",
-      "summary": "Amazon Bedrock now offers OpenAI's open-weight GPT OSS models (120B and 20B parameters) and NVIDIA Nemotron models (ranging from 9B to 120B parameters) in AWS GovCloud (US). This expansion provides government and regulated industry customers access to diverse, high-performance foundation models through a single unified API, enabling them to select the most suitable model for specific generative AI use cases.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-29T15:18:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/openai-gpt-oss-nvidia-nemotron-govcloud/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "21094bab46b97a50914ebab986796b57e7b4b854",
-      "title": "Amazon Quick Adds Custom Sort for Filter Controls",
-      "summary": "Amazon QuickSight has introduced custom sort functionality for filter controls, allowing authors to control how values are displayed in dropdown and list controls instead of the previous alphabetical-only sorting. This feature enables authors to arrange filter values according to business logic or rank them by related metrics, ensuring the most relevant options appear first. The custom sort feature works with both single-select and multi-select dropdown and list controls, with ascending and descending sort options available.",
-      "category": "OTHER",
-      "timestamp": "2026-04-29T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/quick-filter-control-sort/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 543,
+    "total": 541,
     "byCategory": {
-      "SECURITY": 113,
-      "ANALYTICS": 16,
-      "AI_ML": 111,
-      "OTHER": 119,
-      "DATABASE": 54,
+      "CONTAINERS": 29,
+      "OTHER": 120,
       "COMPUTE": 60,
+      "AI_ML": 110,
+      "STORAGE": 22,
+      "SECURITY": 111,
+      "ANALYTICS": 16,
+      "DATABASE": 53,
       "SERVERLESS": 11,
-      "STORAGE": 21,
-      "CONTAINERS": 28,
-      "NETWORKING": 10
+      "NETWORKING": 9
     },
-    "lastUpdated": "2026-07-28T11:57:36.786Z"
+    "lastUpdated": "2026-07-28T22:58:48.441Z"
   },
-  "generatedAt": "2026-07-28T11:57:36.787Z"
+  "generatedAt": "2026-07-28T22:58:48.441Z"
 }
