@@ -1,6 +1,66 @@
 {
   "announcements": [
     {
+      "id": "76ab175aa0e4c90687df0c1972aadfbc68ec691e",
+      "title": "Amazon EC2 Auto Scaling now supports Instance Refresh in CloudFormation",
+      "summary": "Amazon EC2 Auto Scaling now supports Instance Refresh as a new AWS CloudFormation update policy. When you configure the new AutoScalingInstanceRefresh update policy and update properties that require ...",
+      "category": "COMPUTE",
+      "timestamp": "2026-07-29T21:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-auto-scaling-instance-refresh-cloudformation",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "00425cd52a03e797eaa95185152a0c11d5358f04",
+      "title": "Amazon Redshift Data API announces long polling, session management, and flexible batch execution",
+      "summary": "Amazon Redshift Data API introduces new capabilities that reduce the number of API calls to retrieve SQL statement metadata or results, provide visibility into sessions, and allow batch statements to ...",
+      "category": "DATABASE",
+      "timestamp": "2026-07-29T20:45:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-data-api-longpolling-listsession-flexiblebatchexecute/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3819b0a300155cc958087e4087fc80c751c39d0d",
+      "title": "AWS WAF adds pre-parse text transformations and new text transformations",
+      "summary": "Today, AWS WAF adds pre-parse text transformations for query arguments and ten new text transformations for use in any rule statement. Both help you normalize request content so that AWS WAF inspects ...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-29T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-waf/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b73223c5c2956eff1caf3c13bff49597731e296a",
+      "title": "AWS announces AWS Interconnect - multicloud connectivity with Oracle Cloud Infrastructure in GA",
+      "summary": "AWS announces the general availability (GA) of AWS Interconnect — multicloud with Oracle Cloud Infrastructure (OCI).\n \nCustomers have been adopting multicloud strategies while migrating more applicati...",
+      "category": "OTHER",
+      "timestamp": "2026-07-29T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-announces-AWS-interconnect-multicloud-OCI-GA/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "afd4bffe13d5ba7f7a4fd3b07a75778e02dfcb16",
+      "title": "Amazon EFS now supports cross-account Replication in AWS GovCloud (US)  ",
+      "summary": "Amazon EFS now supports cross-account Replication in AWS GovCloud (US), allowing customers to replicate file systems between AWS accounts. EFS Replication enables you to easily maintain an up-to-date ...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-29T12:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-efs-cross-account-replication-aws-gov-cloud-us",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "37117e514624946a921104ea0f46c78c4652c67b",
+      "title": "AWS IAM Identity Center extends multi-Region support to Identity Center directory",
+      "summary": "IAM Identity Center helps you configure the single sign-on experience of your workforce to AWS accounts and applications. You can now replicate IAM Identity Center from the primary AWS Region where yo...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-29T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-iam-identity-center-extends-multi-region-support-to-identity-center-directory",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "d0ba727c4efc0bd886bca5a70016d16fe5ae60b6",
       "title": "Amazon EKS Provisioned Control Plane now delivers faster pod autoscaling",
       "summary": "Amazon EKS now delivers faster pod autoscaling across all Provisioned Control Plane clusters by increasing Horizontal Pod Autoscaler (HPA) sync concurrency to up to 40 times the default Kubernetes val...",
@@ -5309,103 +5369,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/rds-sqlserver-supports-read-replica-for-asv/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "58b714195eb3cef4c779faf33386841f0dfd727d",
-      "title": "AWS Payment Cryptography now supports paper-based key exchange",
-      "summary": "AWS Payment Cryptography has introduced Physical Key Exchange, a new PCI PIN and P2PE compliant feature that enables paper-based cryptographic key exchange without requiring organizations to maintain their own secure key loading infrastructure. This feature helps accelerate migration for customers whose partners or vendors don't support electronic key exchange methods. The service provides managed, elastic key management for payment processing operations.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-30T22:08:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-payment-cryptography/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "003f6cb736ed448381e9bd789deca02a6f447921",
-      "title": "AWS Outposts racks now support LagStatus CloudWatch metric",
-      "summary": "AWS Outposts racks now support the LagStatus CloudWatch metric across all commercial AWS regions and GovCloud regions. This new metric allows customers to monitor their Outposts LAG connectivity status directly within the CloudWatch console, eliminating the need for external networking tools or cross-team coordination. Users can leverage this metric to set up alarms, troubleshoot connectivity issues, and ensure proper rack connectivity.",
-      "category": "COMPUTE",
-      "timestamp": "2026-04-30T20:17:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-outposts-lagstatus-cloudwatch/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "0504c223137377dbfee59ed33ea3ea8a061399f6",
-      "title": "Amazon ECS Managed Instances now supports NVIDIA GPU metrics",
-      "summary": "Amazon ECS Managed Instances now provides NVIDIA GPU metrics for containerized workloads, available through Amazon CloudWatch Container Insights. This enhancement gives customers visibility into GPU health, performance, capacity, utilization, and memory to help optimize and troubleshoot GPU-accelerated workloads running on Amazon ECS.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-04-30T19:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ecs-mi-gpu-metrics/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "32252d5c46b7a163e7427667a08d0891a0d67a4e",
-      "title": "Amazon MQ for RabbitMQ now supports Prometheus metrics",
-      "summary": "Amazon MQ for RabbitMQ now includes native Prometheus plugin support on RabbitMQ 4.2 brokers, enabling direct metrics collection through dedicated endpoints. This integration allows users to scrape broker, queue, and connection metrics using any Prometheus-compatible monitoring tool, providing greater flexibility for monitoring and alerting on messaging infrastructure.",
-      "category": "OTHER",
-      "timestamp": "2026-04-30T18:10:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-mq-rabbitmq-prometheus-metrics/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "2dfa614622d907c693f025c2f2fdaa156d978078",
-      "title": "Amazon Bedrock AgentCore Identity now supports On-Behalf-Of (OBO) token exchange",
-      "summary": "Amazon Bedrock AgentCore Identity now supports On-Behalf-Of (OBO) token exchange, allowing developers to build agents that can securely access protected resources on behalf of authenticated users without requiring multiple consent flows. This eliminates the previous need for developers to manage separate consent processes for each protected resource, reducing both user friction and development complexity.",
-      "category": "AI_ML",
-      "timestamp": "2026-04-30T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-bedrock-agentcore/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "623d99e9ab4fc37caf0327bc18d95dd3649e5d01",
-      "title": "AWS Neuron SDK now available with Neuron Agentic Development for NKI kernel development on Trainium",
-      "summary": "AWS has launched Neuron Agentic Development, an open-source collection of agents and skills that enable AI coding assistants to accelerate development on AWS Trainium and Inferentia chips. The initial release focuses on Neuron Kernel Interface (NKI) kernel development, providing agentic coding capabilities that cover the complete workflow from code authoring to performance profiling and analysis. This gives developers low-level programming access to Trainium for creating custom compute kernels with AI-assisted development tools.",
-      "category": "OTHER",
-      "timestamp": "2026-04-30T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/announcing-neuron-agentic-development/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b509a8fb2dbf6e4c28590b79ff450c1607ab3227",
-      "title": "Amazon Bedrock AgentCore launches capabilities for optimizing agent performance in preview",
-      "summary": "Amazon Bedrock AgentCore has launched new preview capabilities including recommendations, batch evaluations, and A/B testing to help developers systematically optimize AI agent performance. These tools complete the \"observe, evaluate, improve\" cycle for production AI agents, replacing manual developer intervention with a more systematic approach. The new features enable developers to translate evaluation findings into concrete, validated improvements for their AI agents.",
-      "category": "AI_ML",
-      "timestamp": "2026-04-30T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/bedrock-agentcore-optimization-preview/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "88074e85ec3d0d51d2333ed32fd95c5d61560add",
-      "title": "AWS Lambda adds support for Ruby 4.0",
-      "summary": "AWS Lambda now supports Ruby 4.0 for building serverless applications, offering it as both a managed runtime and container base image with automatic updates. Ruby 4.0 is the latest long-term support (LTS) release that will receive security and bug fixes until March 2029. This addition gives developers access to the newest Ruby language features within the Lambda serverless environment.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-30T13:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-lambda-adds-ruby/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 539,
+    "total": 537,
     "byCategory": {
-      "CONTAINERS": 29,
-      "OTHER": 119,
       "COMPUTE": 60,
-      "AI_ML": 110,
+      "DATABASE": 54,
+      "SECURITY": 111,
+      "OTHER": 118,
+      "CONTAINERS": 28,
+      "AI_ML": 108,
       "STORAGE": 22,
-      "SECURITY": 110,
       "ANALYTICS": 16,
-      "DATABASE": 53,
       "SERVERLESS": 11,
       "NETWORKING": 9
     },
-    "lastUpdated": "2026-07-29T12:00:20.801Z"
+    "lastUpdated": "2026-07-29T22:58:48.481Z"
   },
-  "generatedAt": "2026-07-29T12:00:20.801Z"
+  "generatedAt": "2026-07-29T22:58:48.481Z"
 }
