@@ -5389,43 +5389,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-lambda-adds-ruby/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "e745401ef4efcfd3b3d6b167f048f9192c149dec",
-      "title": "Amazon Quick adds Microsoft Excel, PowerPoint extensions and updates the Word extension (Preview)",
-      "summary": "Amazon Quick has launched preview versions of new Microsoft 365 extensions for Excel, PowerPoint, and an updated Word extension, allowing users to leverage AI directly within their Microsoft Office applications. These extensions enable complex tasks like document redlining, financial modeling, presentation creation, spreadsheet analysis, pivot table generation, and data cleaning without leaving the Microsoft 365 environment.",
-      "category": "OTHER",
-      "timestamp": "2026-04-30T11:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-microsoft-excel/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "213a735b8700829e65145e3636364ff97f69b83c",
-      "title": "Amazon OpenSearch Service now supports index-level encryption",
-      "summary": "Amazon OpenSearch Service now offers index-level encryption, allowing you to encrypt data at rest on individual indexes using AWS KMS customer managed keys rather than just at the domain level. This enhancement enables you to use different encryption keys for different indexes within the same domain, providing more granular and tenant-specific encryption policies.",
-      "category": "SECURITY",
-      "timestamp": "2026-04-30T02:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-opensearch-service-supports-index-level-encryption/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 541,
+    "total": 539,
     "byCategory": {
       "CONTAINERS": 29,
-      "OTHER": 120,
+      "OTHER": 119,
       "COMPUTE": 60,
       "AI_ML": 110,
       "STORAGE": 22,
-      "SECURITY": 111,
+      "SECURITY": 110,
       "ANALYTICS": 16,
       "DATABASE": 53,
       "SERVERLESS": 11,
       "NETWORKING": 9
     },
-    "lastUpdated": "2026-07-28T22:58:48.441Z"
+    "lastUpdated": "2026-07-29T12:00:20.801Z"
   },
-  "generatedAt": "2026-07-28T22:58:48.441Z"
+  "generatedAt": "2026-07-29T12:00:20.801Z"
 }
