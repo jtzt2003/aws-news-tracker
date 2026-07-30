@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "5257ef2664ff69aebf6a915edd0f5676576e8210",
+      "title": "AWS Direct Connect now supports BGP route visibility on Virtual Interfaces",
+      "summary": "AWS Direct Connect now provides Border Gateway Protocol (BGP) route visibility, allowing you to view the routes exchanged between AWS and your on-premises routers across your private, transit, and pub...",
+      "category": "NETWORKING",
+      "timestamp": "2026-07-30T20:21:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-direct-connect-bgp-visibility/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4c1791863df1e77ca1684bab9b369b3469bab021",
+      "title": "Amazon Redshift RG large and 12xlarge instances now available on the trailing track",
+      "summary": "Amazon Redshift now supports Graviton-based RG instances on the trailing track. Starting today, rg.large and rg.12xlarge instance types are available for customers running workloads on the trailing tr...",
+      "category": "DATABASE",
+      "timestamp": "2026-07-30T20:02:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-rg-large-12xlarge-trailing-track",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "02440e498cce6157dc22a4330671d01f26153993",
+      "title": "IAM Policy Simulator moves to the IAM console and adds additional capabilities",
+      "summary": "AWS Identity and Access Management (IAM) announces a major update to IAM Policy Simulator, the tool you use to test and validate the permissions your IAM policies grant before you deploy them. This up...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-30T17:43:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/iam-policy-simulator-iam-console/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c1961a11f6137c76d8c9f6ec077ee333e6dff5e2",
+      "title": "Amazon Bedrock announces up to 80% lower prices for OpenAI GPT‑5.6 models",
+      "summary": "Today, OpenAI announced lower prices for GPT‑5.6 Luna and GPT‑5.6 Terra. Effective July 30, 2026, on-demand inference prices on Amazon Bedrock for GPT‑5.6 Luna are reduced by 80%, while prices for GPT...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-30T16:18:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/openai-gpt-terra-luna-pricing-bedrock/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1de04d23b1d53cafdd74f99261ffcaa25caf0702",
+      "title": "AWS announces general availability of Policy-Based Routing on AWS Transit Gateway",
+      "summary": "AWS Transit Gateway now supports Policy-Based Routing (PBR), giving network administrators granular control over how traffic is forwarded across their AWS network. With PBR, forwarding decisions can b...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-30T15:39:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-transit-gateway-policy-based-routing/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ea1af5410de09c929fbad22621e79ec32f0cc1e1",
+      "title": "Amazon MSK Express brokers now delivers Apache Kafka data to Amazon S3  ",
+      "summary": "Amazon MSK Express brokers now delivers data to Amazon S3 general purpose buckets, providing a fully managed capability to deliver Apache Kafka data in Amazon S3 for downstream processing in the easie...",
+      "category": "SECURITY",
+      "timestamp": "2026-07-30T14:07:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-msk-express-brokers-delivers-to-amazon-s3",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "14394b64c06642e223594abd31f0cb37a8b22333",
+      "title": "Amazon MSK Express brokers now deliver data to streaming tables for Apache Iceberg  ",
+      "summary": "Amazon MSK Express brokers now deliver data to streaming tables for Apache Iceberg, a new capability that continuously materializes Apache Kafka topics as Apache Iceberg tables on Amazon S3 Tables. Am...",
+      "category": "STORAGE",
+      "timestamp": "2026-07-30T14:07:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-msk-streaming-tables-for-apache-iceberg",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "530576c9be2dec03b73b885672eff61e27a03dd4",
+      "title": "Grok 4.3 from xAI is now available on Amazon Bedrock in AWS GovCloud (US-West) ",
+      "summary": "xAI's Grok 4.3 model is now available on Amazon Bedrock in AWS GovCloud (US-West). With this launch, xAI joins Amazon Bedrock as a model provider in AWS GovCloud (US-West), giving you even more choice...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-30T13:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/grok-4-3-bedrock-govcloud/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b8c0960f472ccb82d9a81e3e679cd3878bffbef6",
+      "title": "Gemma 4 models are now available on Amazon Bedrock in AWS GovCloud (US-West) ",
+      "summary": "The Gemma 4 family of open-weight models from Google DeepMind on Amazon Bedrock in AWS GovCloud (US-West). With Gemma 4, you can build generative AI applications across reasoning, multimodal understan...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-30T13:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/gemma-4-bedrock-govcloud/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9dc6c2adb9f63ab7d177df88f9fa07e79a11931d",
+      "title": "AWS Managed Microsoft AD now supports Standard to Enterprise Edition upgrade",
+      "summary": "AWS Directory Service now allows you to upgrade your AWS Managed Microsoft AD directory from Standard Edition to Enterprise Edition directly through the AWS Management Console, AWS CLI, and API withou...",
+      "category": "OTHER",
+      "timestamp": "2026-07-30T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-microsoft-ad-edition-upgrade/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "76ab175aa0e4c90687df0c1972aadfbc68ec691e",
       "title": "Amazon EC2 Auto Scaling now supports Instance Refresh in CloudFormation",
       "summary": "Amazon EC2 Auto Scaling now supports Instance Refresh as a new AWS CloudFormation update policy. When you configure the new AutoScalingInstanceRefresh update policy and update properties that require ...",
@@ -5279,113 +5379,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/rds-sqlserver-supports-m8i-r8i-instances/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "f78c2c5df5bfab162c59d185b2682fb8e5fce1a8",
-      "title": "Amazon Bedrock AgentCore is now available in the South America (São Paulo) Region",
-      "summary": "Amazon Bedrock AgentCore, a platform for building, connecting, and optimizing AI agents, is now available in the AWS South America (São Paulo) Region. The service enables engineers to quickly develop agents using any framework and model, integrate them with enterprise systems, and continuously optimize them with built-in security. This regional expansion allows South American customers to deploy agents closer to their end users for improved performance.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-01T22:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentcore-sao-paulo-region/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "3ee03740db1eb593c2e63b534d354fa4b8b1ffca",
-      "title": "FreeRTOS 202604 LTS now available with enhanced security and MQTT v5.0",
-      "summary": "AWS has released FreeRTOS 202604 LTS, a new Long Term Support version of the open-source real-time operating system for embedded and IoT devices. This release provides two years of feature stability, security updates, and critical bug fixes, while addressing key embedded systems challenges including memory safety, code quality, and protocol support. The update includes FreeRTOS kernel v11.3.0 with new hardware ports and enhanced security features.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-01T21:42:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/freertos-lts/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "223f752689226cc2ab6c99e3dc9a2bc93db156a0",
-      "title": "OpenSearch UI supports cross-region data access to OpenSearch domains",
-      "summary": "Amazon OpenSearch Service now enables cross-region data access through OpenSearch UI, allowing users to access OpenSearch domains hosted in different AWS regions from a single application interface. Combined with the previously launched cross-account access feature, users can now query and build dashboards across flexible combinations of accounts and regions without switching endpoints or duplicating data. This enhancement eliminates the need for data replication and simplifies multi-region OpenSearch management.",
-      "category": "ANALYTICS",
-      "timestamp": "2026-05-01T20:54:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/opensearch-ui-cross-region-data-access-domains/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "827262afd8fb16609c45bf66266d7b31ff10a3a5",
-      "title": "Amazon CloudFront Announces WebSocket Support for VPC Origins",
-      "summary": "Amazon CloudFront now supports WebSocket traffic for applications hosted in Virtual Private Cloud (VPC) origins, allowing CloudFront to serve as a single entry point for real-time applications in private subnets. This enhancement enables persistent, bidirectional connections for applications like chat platforms, collaborative editing tools, live dashboards, and IoT device management systems that were previously limited when using VPC origins.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-01T19:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-cloudfront-websockets-vpc-origins/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "daa71ee8338a11986040ca01c5fe497724eac646",
-      "title": "IAM Roles Anywhere now enforces VPC endpoint policies for the CreateSession API",
-      "summary": "AWS IAM Roles Anywhere now supports VPC endpoint policies for the CreateSession API, allowing administrators to explicitly allow or deny this operation through VPC endpoint policy configuration. If the CreateSession operation is not explicitly included in the Allow statement of a VPC endpoint policy, IAM Roles Anywhere will deny access to the API.",
-      "category": "OTHER",
-      "timestamp": "2026-05-01T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/iam-roles-anywhere-vpc/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "9414a26b41815aa49eae55edfe1391d18943b219",
-      "title": "Amazon Redshift Introduces Concurrency Scaling Support for auto-copy and zero-ETL",
-      "summary": "Amazon Redshift has announced general availability of concurrency scaling support for auto-copy and zero-ETL features, which enhances data ingestion performance by combining seamless S3 data ingestion and near real-time database replication with elastic scaling capabilities. This enhancement is designed to benefit high-volume, time-sensitive data processing workloads by providing greater elasticity and performance for data ingestion operations.",
-      "category": "DATABASE",
-      "timestamp": "2026-05-01T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/concurrency-scaling-auto-copy-zero-ETL/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "1cb3a674bd7c02e90fb62907451bc68eff8b5ffe",
-      "title": "AWS Transform now offers BI migration agents for Power BI and Tableau to Amazon Quick    ",
-      "summary": "AWS Transform now provides BI migration agents that can automatically convert Tableau and Power BI dashboards to Amazon QuickSight, reducing migration time from months to just days. These agents were developed by Wavicle Data Solutions, an AWS Advanced Consulting Partner, and leverage AWS Transform's agentic AI capabilities to streamline the business intelligence migration process.",
-      "category": "OTHER",
-      "timestamp": "2026-05-01T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/quick-bi-migration/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "395eead73352e90f1a6bbbd8bcdc62bc7a8d07ec",
-      "title": "Spatial Data Management on AWS adds custom transformations",
-      "summary": "AWS Spatial Data Management (SDMA) now supports custom transformation connectors that enable compute-intensive processing tasks like format conversion, 3D rendering, and image tiling through AWS Deadline Cloud integration. The update also includes a unified desktop client installer and allows users to extend SDMA's built-in content analysis with custom logic for format verification and attribute extraction.",
-      "category": "OTHER",
-      "timestamp": "2026-05-01T14:35:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/spatial-data-management-aws/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4f1cb89c610d045dda5390babca3660caf8fc615",
-      "title": "Announcing Kubernetes Dynamic Resource Allocation for Elastic Fabric Adapter",
-      "summary": "Amazon EKS now supports Dynamic Resource Allocation (DRA) for Elastic Fabric Adapter (EFA), which simplifies high-performance networking and RDMA capabilities for AI, ML, and HPC workloads on Kubernetes. The new EFA DRA driver enables interface sharing and topology-aware allocation, making it easier to manage high-performance inter-node communication in Kubernetes clusters.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-01T14:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/kubernetes-dra-elastic-fabric-adapter/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 537,
+    "total": 538,
     "byCategory": {
-      "COMPUTE": 60,
+      "NETWORKING": 10,
       "DATABASE": 52,
-      "ANALYTICS": 17,
       "SECURITY": 111,
-      "OTHER": 119,
+      "AI_ML": 110,
+      "STORAGE": 23,
+      "OTHER": 117,
+      "COMPUTE": 60,
+      "ANALYTICS": 16,
       "CONTAINERS": 28,
-      "AI_ML": 108,
-      "STORAGE": 22,
-      "SERVERLESS": 11,
-      "NETWORKING": 9
+      "SERVERLESS": 11
     },
-    "lastUpdated": "2026-07-30T11:50:54.208Z"
+    "lastUpdated": "2026-07-30T23:07:09.543Z"
   },
-  "generatedAt": "2026-07-30T11:50:54.208Z"
+  "generatedAt": "2026-07-30T23:07:09.543Z"
 }
