@@ -21,6 +21,16 @@
       "isNew": false
     },
     {
+      "id": "4497b3a3be0dfe32755a6e4964360d1d18ee4ee5",
+      "title": "AWS Glue announces VPC support, filter pushdown, and partition support for the REST API connector",
+      "summary": "AWS Glue now supports VPC connections, filter pushdown, and partition support for the REST API connector. The REST API connector enables you to ingest data from any source that exposes a REST-based AP...",
+      "category": "ANALYTICS",
+      "timestamp": "2026-07-29T20:18:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-rest-connector-filtering-partitioning-vpc",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "3819b0a300155cc958087e4087fc80c751c39d0d",
       "title": "AWS WAF adds pre-parse text transformations and new text transformations",
       "summary": "Today, AWS WAF adds pre-parse text transformations for query arguments and ten new text transformations for use in any rule statement. Both help you normalize request content so that AWS WAF inspects ...",
@@ -37,6 +47,16 @@
       "category": "OTHER",
       "timestamp": "2026-07-29T15:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-announces-AWS-interconnect-multicloud-OCI-GA/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9b86a017d797b362e7b0721891a716d497d69781",
+      "title": "Amazon Connect Customer now automatically finds example agent evaluations for tailored coaching ",
+      "summary": "Amazon Connect Customer now automatically surfaces relevant examples of an agent's evaluations when managers are preparing coaching feedback, so they can deliver actionable, evidence-backed coaching t...",
+      "category": "OTHER",
+      "timestamp": "2026-07-29T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect-customer-example-evaluations-for-agent-coaching/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5349,43 +5369,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/kubernetes-dra-elastic-fabric-adapter/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "3b05b054820575874a5e37efa238ad611537a5e1",
-      "title": "Amazon RDS for SQL Server supports cross-account snapshot sharing with additional storage volumes",
-      "summary": "Amazon RDS for SQL Server now supports cross-account snapshot sharing for database instances that use additional storage volumes, which allow customers to scale storage up to 256 TiB by adding up to three 64 TiB volumes. This feature enables customers to create, share, and copy database snapshots across different AWS accounts for these high-capacity database configurations.",
-      "category": "DATABASE",
-      "timestamp": "2026-05-01T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/rds-sqlserver-cross-account-snapshot-sharing-additional-storage-volume/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "1ff64f96cc0098e4ff8cca4d7048e66de3b9db11",
-      "title": "Amazon RDS for SQL Server supports read replica with additional storage volumes",
-      "summary": "Amazon RDS for SQL Server now supports read replicas for database instances that use additional storage volumes, which allow customers to scale storage up to 256 TiB by adding up to three additional 64 TiB volumes beyond the primary storage. This enhancement enables customers to create both same-region and cross-region read replicas for these high-storage database instances.",
-      "category": "DATABASE",
-      "timestamp": "2026-05-01T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/rds-sqlserver-supports-read-replica-for-asv/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
     "total": 537,
     "byCategory": {
       "COMPUTE": 60,
-      "DATABASE": 54,
+      "DATABASE": 52,
+      "ANALYTICS": 17,
       "SECURITY": 111,
-      "OTHER": 118,
+      "OTHER": 119,
       "CONTAINERS": 28,
       "AI_ML": 108,
       "STORAGE": 22,
-      "ANALYTICS": 16,
       "SERVERLESS": 11,
       "NETWORKING": 9
     },
-    "lastUpdated": "2026-07-29T22:58:48.481Z"
+    "lastUpdated": "2026-07-30T11:50:54.208Z"
   },
-  "generatedAt": "2026-07-29T22:58:48.481Z"
+  "generatedAt": "2026-07-30T11:50:54.208Z"
 }
