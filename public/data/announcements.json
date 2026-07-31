@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "9553f10d9266dad475930843c22a3b9fd506246d",
+      "title": "Amazon SageMaker Unified Studio brings richer Git version control to all project tools ",
+      "summary": "Amazon SageMaker Unified Studio gives project members full Git version control directly within the tools you already use - Query Editor, Visual ETL, Workflows, and Notebooks. The enhanced Repositories...",
+      "category": "AI_ML",
+      "timestamp": "2026-07-30T22:37:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified-studio-git/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "5257ef2664ff69aebf6a915edd0f5676576e8210",
       "title": "AWS Direct Connect now supports BGP route visibility on Virtual Interfaces",
       "summary": "AWS Direct Connect now provides Border Gateway Protocol (BGP) route visibility, allowing you to view the routes exchanged between AWS and your on-premises routers across your private, transit, and pub...",
@@ -5382,12 +5392,12 @@
     }
   ],
   "stats": {
-    "total": 538,
+    "total": 539,
     "byCategory": {
+      "AI_ML": 111,
       "NETWORKING": 10,
       "DATABASE": 52,
       "SECURITY": 111,
-      "AI_ML": 110,
       "STORAGE": 23,
       "OTHER": 117,
       "COMPUTE": 60,
@@ -5395,7 +5405,7 @@
       "CONTAINERS": 28,
       "SERVERLESS": 11
     },
-    "lastUpdated": "2026-07-30T23:07:09.543Z"
+    "lastUpdated": "2026-07-31T11:59:40.581Z"
   },
-  "generatedAt": "2026-07-30T23:07:09.543Z"
+  "generatedAt": "2026-07-31T11:59:40.581Z"
 }
