@@ -31,6 +31,16 @@
       "isNew": false
     },
     {
+      "id": "71926e719272cd4643e37186af305d8b3fb9c30a",
+      "title": "Amazon Location Service adds Search Nearby support for GrabMaps in Southeast Asia",
+      "summary": "Amazon Location Service now supports proximity-based point of interest discovery with GrabMaps data in the Asia Pacific (Singapore) and Asia Pacific (Malaysia) AWS Regions. Builders creating local dis...",
+      "category": "OTHER",
+      "timestamp": "2026-07-31T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-search-nearby-grabmaps",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "16d141ca5387f7e26c9e211d226689d790a8dd8a",
       "title": "Amazon CloudWatch announces managed Prometheus collectors",
       "summary": "Amazon CloudWatch now supports collecting Prometheus metrics from your AWS infrastructure using fully managed collectors — enabling you to monitor Amazon EKS, Amazon EC2, Amazon ECS, Amazon MSK, and A...",
@@ -5462,20 +5472,20 @@
     }
   ],
   "stats": {
-    "total": 546,
+    "total": 547,
     "byCategory": {
       "DATABASE": 54,
       "SECURITY": 112,
+      "OTHER": 118,
       "CONTAINERS": 30,
       "COMPUTE": 62,
       "AI_ML": 111,
       "NETWORKING": 10,
       "STORAGE": 23,
-      "OTHER": 117,
       "ANALYTICS": 16,
       "SERVERLESS": 11
     },
-    "lastUpdated": "2026-08-01T11:15:56.579Z"
+    "lastUpdated": "2026-08-01T22:55:21.330Z"
   },
-  "generatedAt": "2026-08-01T11:15:56.579Z"
+  "generatedAt": "2026-08-01T22:55:21.330Z"
 }
