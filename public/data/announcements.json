@@ -5459,22 +5459,12 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/payment-cryptography-resource/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "a33a46459fcab6b26cdb13fce3d0cc92ba894bc9",
-      "title": "Amazon RDS for SQL Server now supports M8i and R8i instances",
-      "summary": "Amazon RDS for SQL Server now supports M8i and R8i instances powered by custom Intel Xeon 6 processors exclusive to AWS. These new instances deliver up to 15% better price-performance and 2.5x more memory bandwidth compared to equivalent 7th generation Intel-based instances, providing the highest performance among comparable Intel processors in the cloud.",
-      "category": "DATABASE",
-      "timestamp": "2026-05-04T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/rds-sqlserver-supports-m8i-r8i-instances/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 547,
+    "total": 546,
     "byCategory": {
-      "DATABASE": 54,
+      "DATABASE": 53,
       "SECURITY": 112,
       "OTHER": 118,
       "CONTAINERS": 30,
@@ -5485,7 +5475,7 @@
       "ANALYTICS": 16,
       "SERVERLESS": 11
     },
-    "lastUpdated": "2026-08-01T22:55:21.330Z"
+    "lastUpdated": "2026-08-02T11:16:06.604Z"
   },
-  "generatedAt": "2026-08-01T22:55:21.330Z"
+  "generatedAt": "2026-08-02T11:16:06.605Z"
 }
