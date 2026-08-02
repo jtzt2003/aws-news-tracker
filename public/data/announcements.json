@@ -5349,133 +5349,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-cloudwatch-logs-query-by-tags/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "4b9f75bb008c63bdfe2bbc8ae61a62bd81b9a80b",
-      "title": "Amazon WorkSpaces Applications now supports host-to-client URL redirection",
-      "summary": "Amazon WorkSpaces Applications now supports host-to-client URL redirection, automatically opening URLs from streaming sessions in users' local browsers instead of within the remote session. Administrators can configure allow/deny URL patterns through the AWS Management Console to control which content gets redirected. This feature helps organizations keep sensitive applications secure in the streaming environment while offloading resource-heavy content like videos to local devices for better performance.",
-      "category": "OTHER",
-      "timestamp": "2026-05-04T20:56:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-workspaces-applications-url/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "adc8c269ccb765d4e7137972f05317e7ef32f657",
-      "title": "AWS Entity Resolution launches support for incremental Machine Learning based matching workflows",
-      "summary": "AWS Entity Resolution now supports incremental Machine Learning-based matching workflows, allowing customers to add new records without reprocessing entire datasets. This eliminates a major bottleneck that previously required up to 2 days and thousands of dollars to process even single record additions. The new capability fundamentally transforms how enterprises can efficiently scale their entity resolution processes.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-04T17:43:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-entity-resolution-ml/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "8ea90ad41e82a70cf9916cfc05a73aea159831a9",
-      "title": "Amazon FSx is now available in the AWS Asia Pacific (New Zealand) Region",
-      "summary": "Amazon FSx, AWS's fully-managed file system service, is now available in the Asia Pacific (New Zealand) Region. The service offers four file system options (NetApp ONTAP, Windows File Server, Lustre, and OpenZFS) and provides a cost-effective solution for launching and scaling high-performance file systems in the cloud.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-04T17:37:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-fsx-aws-asia-pacific/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ac82fee436756d11b2ce4736578418eb7c180231",
-      "title": "Amazon Quick generates dashboards from natural language prompts",
-      "summary": "Amazon QuickSight now offers Generate Analysis, a feature that creates dashboards from natural language descriptions. Users can describe their desired dashboard, select up to three datasets, and QuickSight automatically generates organized sheets with appropriate visuals, filter controls, and calculated fields like year-over-year comparisons. This significantly reduces dashboard creation time from hours of manual configuration to a streamlined automated process.",
-      "category": "OTHER",
-      "timestamp": "2026-05-04T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-quick-generates-analyses-from-natural-language-prompts/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "2559be668824d025bb533ccaca79b3794418b978",
-      "title": "Amazon Aurora DSQL now supports the JSON data type with compression",
-      "summary": "Amazon Aurora DSQL now supports the PostgreSQL JSON data type with optional compression, allowing developers to use existing PostgreSQL JSON-dependent code and tools without modification. This feature enables seamless storage of semi-structured data like API payloads, configuration objects, and event logs alongside traditional relational data in Aurora DSQL tables.",
-      "category": "DATABASE",
-      "timestamp": "2026-05-04T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aurora-dsql-json-support/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "da1727022249fd6041f6a47507d85bd2dc6846c0",
-      "title": "Amazon Quick introduces Dataset Q&A for conversational analytics against enterprise data",
-      "summary": "Amazon QuickSight has launched Dataset Q&A, a new conversational analytics feature that allows users to ask natural language questions directly against their enterprise data. This capability, along with the existing Dashboard Q&A, enables anyone with dataset access to explore data and gain insights using plain English while maintaining all security and governance policies. The feature democratizes data analysis by making it accessible through natural language rather than requiring technical query skills.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-04T16:55:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-quick-dataset-qa/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ead501b1b482ac382ad6cb02500f025f7800eb81",
-      "title": "Amazon Quick now supports S3 tables bucket as a data source",
-      "summary": "Amazon QuickSight now supports S3 table buckets as a direct data source, allowing users to build dashboards and perform analytics on Apache Iceberg tables without requiring intermediate data warehouses or OLAP layers. This integration enables both AI-powered and traditional BI workloads through a simplified lakehouse architecture. The feature works alongside Zero-ETL integrations from sources like Salesforce, SAP, and Kinesis Data Firehose.",
-      "category": "STORAGE",
-      "timestamp": "2026-05-04T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/quick-direct-query-s3-tables/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c03aca2b12fa598c299a799c194b08660b28bb29",
-      "title": "Amazon EventBridge supports data plane logging to AWS CloudTrail",
-      "summary": "Amazon EventBridge now supports data plane API logging through AWS CloudTrail, giving customers enhanced visibility into event bus activity for improved security monitoring and operational troubleshooting. This new capability allows users to track API activities within their event-driven applications built on EventBridge's serverless event bus platform. The feature helps customers follow security best practices by providing detailed logging of events from AWS services, SaaS applications, and custom sources.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-04T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-eventbridge-data-aws-cloudtrail/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "88e5f640b9d61d1d0f44b1a792c52930299c78be",
-      "title": " Amazon Quick upgrades the extension for Microsoft Outlook (Preview)",
-      "summary": "AWS has announced a preview of the Amazon Quick extension for Microsoft Outlook, which integrates generative AI-powered productivity tools directly into email and calendar workflows. The extension allows users to summarize unread messages, organize their inbox, schedule meetings, and draft responses using natural language commands without leaving Outlook. The tool aims to help users prioritize emails and focus on important tasks by leveraging AI capabilities within their existing email interface.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-04T15:27:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-quick-microsoft-outlook/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d5ce74e1ec45c1c61d9d2167bef6f6b67ca50935",
-      "title": "Amazon SageMaker AI launches AI agent experience for model customization",
-      "summary": "Amazon SageMaker AI has launched a new AI agent experience that dramatically reduces model customization time from months to just days or hours. The agentic workflow streamlines the complex process of defining use cases, preparing data, selecting models, and running experiments with various fine-tuning techniques. This enhancement helps customers more efficiently identify suitable model candidates that meet their specific success criteria.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-04T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-ai-ai/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ab849d4189d122139320bc39eed6d31541b17b92",
-      "title": "AWS Payment Cryptography announces support for cross account key sharing",
-      "summary": "AWS Payment Cryptography now supports cross-account key sharing through resource-based policies (RBP), enabling customers to manage cryptographic keys across multiple AWS accounts within or outside their organization. This enhancement provides greater flexibility for managing keys at scale and simplifies cryptography operations in cloud-hosted payment applications with elastic scalability.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-04T14:58:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/payment-cryptography-resource/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 546,
+    "total": 535,
     "byCategory": {
-      "DATABASE": 53,
-      "SECURITY": 112,
-      "OTHER": 118,
+      "DATABASE": 52,
+      "SECURITY": 108,
+      "OTHER": 116,
       "CONTAINERS": 30,
       "COMPUTE": 62,
-      "AI_ML": 111,
+      "AI_ML": 108,
       "NETWORKING": 10,
-      "STORAGE": 23,
+      "STORAGE": 22,
       "ANALYTICS": 16,
       "SERVERLESS": 11
     },
-    "lastUpdated": "2026-08-02T11:16:06.604Z"
+    "lastUpdated": "2026-08-02T22:56:21.699Z"
   },
-  "generatedAt": "2026-08-02T11:16:06.605Z"
+  "generatedAt": "2026-08-02T22:56:21.699Z"
 }
