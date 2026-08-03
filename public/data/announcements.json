@@ -5339,24 +5339,14 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-cases-customer-profiles-id-res/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "ae7430761c3658dac6b65221ddfea7b8d214259e",
-      "title": "Amazon CloudWatch Logs Insights supports querying by log group tags",
-      "summary": "Amazon CloudWatch Logs Insights now supports querying log groups using tags, allowing customers to analyze logs without explicitly listing log group names. This enhancement enables users to query logs using key-value tag pairs like Environment: Production or Application: PaymentService, making log analysis more flexible and organized.",
-      "category": "OTHER",
-      "timestamp": "2026-05-04T23:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-cloudwatch-logs-query-by-tags/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 535,
+    "total": 534,
     "byCategory": {
       "DATABASE": 52,
       "SECURITY": 108,
-      "OTHER": 116,
+      "OTHER": 115,
       "CONTAINERS": 30,
       "COMPUTE": 62,
       "AI_ML": 108,
@@ -5365,7 +5355,7 @@
       "ANALYTICS": 16,
       "SERVERLESS": 11
     },
-    "lastUpdated": "2026-08-02T22:56:21.699Z"
+    "lastUpdated": "2026-08-03T12:54:23.123Z"
   },
-  "generatedAt": "2026-08-02T22:56:21.699Z"
+  "generatedAt": "2026-08-03T12:54:23.124Z"
 }
