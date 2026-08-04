@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "c71c2a8163e48ea96776a0c493ab3649bbf58cb4",
+      "title": "Amazon Connect Customer now lets you export cases to CSV from the agent workspace",
+      "summary": "Amazon Connect Customer now supports exporting cases to a CSV file directly from the agent workspace, making it easier to share case data with internal teams and external stakeholders such as vendors,...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-04T21:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-export-cases/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a4e2950520e4c3af8ed94b53e06f94e6f63fc82c",
+      "title": "Amazon Bedrock launches Web Search for OpenAI GPT models",
+      "summary": "Today, we are announcing the general availability of Web Search on Amazon Bedrock, a built-in server side tool that performs web search entirely within AWS, enabling OpenAI models (GPT-5.4, GPT-5.5, a...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-04T20:37:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-web/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0979da32bf71c87621b556f37142373c25270baf",
+      "title": "Run interactive workloads on Amazon EMR on EC2 with Spark Connect ",
+      "summary": "Amazon EMR on EC2 now supports interactive Apache Spark sessions with Spark Connect. Data engineers and data scientists can develop and debug Apache Spark applications interactively from managed noteb...",
+      "category": "AI_ML",
+      "timestamp": "2026-08-04T20:29:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-emr-ec2-spark-connect/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "00f3afa813421938a031f5e9bb8922fbcbd18652",
+      "title": "AWS Security Hub Extended adds supply chain security as its 10th category",
+      "summary": "The AWS Security Hub Extended plan now includes Supply Chain Security as its 10th security category, with Chainguard and Socket as the curated partners. As developers adopt open-source libraries at sc...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-04T19:14:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-security-hub-extended-adds-supply-chain-security",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "21e3f5ca27dc1b45ed5ee75d14fc24d56ddce55e",
+      "title": "Amazon EC2 C8g instances now available in additional regions",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8g instances are available in AWS Europe (Paris), AWS Africa (Cape Town), AWS Israel (Tel Aviv), and AWS Canada West (Calgary) regions. These...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-04T18:57:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8g-instances-additional-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "aa864724d755a63d6a52f019c4a5a861bd069310",
+      "title": "AWS Application and Network Load Balancers now support RFC 9151 compliant security policies",
+      "summary": "AWS Application Load Balancer (ALB) and Network Load Balancer (NLB) now support new TLS-based security policies that comply with RFC 9151 TLS server requirements for Commercial National Security Algor...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-04T18:28:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-application-network/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d52c23c0fbfad667b853e7ea31379cc4b1f2c08a",
+      "title": "Amazon S3 Vectors is now available in the AWS European Sovereign Cloud (Germany) Region",
+      "summary": "Amazon S3 Vectors is now available in the AWS European Sovereign Cloud (Germany) Region. Amazon S3 Vectors is purpose-built vector storage for AI agents, inference, Retrieval Augmented Generation (RAG...",
+      "category": "STORAGE",
+      "timestamp": "2026-08-04T18:15:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-s3-vectors-european-sovereign-cloud-germany/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "af8bee8f01ea483395377ac8b6ea0b930433cbc3",
+      "title": "Amazon EC2 I8g instances now available in AWS Europe (Paris), Asia Pacific (Jakarta) regions",
+      "summary": "AWS announces the general availability of Amazon EC2 Storage Optimized I8g instances in AWS Europe (Paris) and Asia Pacific (Jakarta) regions. I8g instances are powered by AWS Graviton4 processors and...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-04T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-i8g-instances-aws-paris-jakarta-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f648329a0eceebac7ab8c4efdf72213184675abe",
+      "title": "Amazon RDS for SQL Server now support BYOM in additional commercial regions",
+      "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports Bring Your Own Media (BYOM) in 10 additional AWS Regions: Asia Pacific (Taipei, Hyderabad, Jakarta, Malaysia, Melbourne, New...",
+      "category": "DATABASE",
+      "timestamp": "2026-08-04T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sql-server-supports-byom-in-additional-aws-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "560afc0860aaccc61ffd0d94a28b58e52474abbe",
+      "title": "Amazon RDS for SQL Server supports Developer Edition in additional AWS regions",
+      "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server Developer Edition is now available in 13 additional AWS Regions: Asia Pacific (Hong Kong, Taipei, Hyderabad, Jakarta, Malaysia, Melbourne...",
+      "category": "DATABASE",
+      "timestamp": "2026-08-04T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sql-server-supports-developer-edition-in-additional-aws-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "a7ef5fec1338e15bff459df3dbd05839abf94ff8",
       "title": "AWS Transform continuous modernization is now generally available ",
       "summary": "AWS Transform continuous modernization is now generally available in all AWS Regions where AWS Transform is supported. This capability helps engineering teams analyze and remediate technical debt acro...",
@@ -5279,93 +5379,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-r8idn-r8idb/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "87ffed13bc80a140543f02490207b663c69d4e92",
-      "title": "AWS Site-to-Site VPN now supports modifying tunnel bandwidth on existing VPN connections",
-      "summary": "AWS Site-to-Site VPN now allows users to modify tunnel bandwidth between standard (up to 1.25 Gbps) and large (up to 5 Gbps) on existing connections without recreating them. Previously, bandwidth changes required deleting and recreating the entire connection, which generated new IP addresses and required updates to on-premises configurations. This enhancement simplifies bandwidth scaling while preserving existing tunnel configurations.",
-      "category": "OTHER",
-      "timestamp": "2026-05-06T21:09:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-site-to-site-vpn-modify-bandwidth/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "5823b0927f44b55c5767a17e35abecf0942baf90",
-      "title": "Amazon EC2 P6-B300 instances are now available in the US East (N. Virginia) Region",
-      "summary": "Amazon EC2 P6-B300 instances are now available in the US East (N. Virginia) Region, featuring 8x NVIDIA Blackwell Ultra GPUs with 2.1 TB of GPU memory and high-performance networking capabilities. These instances offer significant improvements over P6-B200 instances, including 2x networking bandwidth, 1.5x GPU memory size, and 1.5x GPU TFLOPS performance, making them ideal for training and deploying AI models.",
-      "category": "COMPUTE",
-      "timestamp": "2026-05-06T19:24:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-p6-b300-us-east",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ea5af43fabc8a982d874bb15f2506ce0e31cef4e",
-      "title": "AWS Marketplace now supports programmatic procurement with Agreements API",
-      "summary": "AWS Marketplace has launched the Agreements API, which allows organizations to programmatically procure products and manage agreements through their existing tools and workflows. The API enables users to generate estimates, accept offers, track charges and entitlements, and update purchase orders automatically. When combined with the existing Discovery API, it provides a complete end-to-end procurement solution from product discovery through purchase.",
-      "category": "OTHER",
-      "timestamp": "2026-05-06T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-marketplace-agreements-api/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "53cb5753ab747f98a1f03748a9d565ce8a304fff",
-      "title": "Amazon Neptune now supports 1-click connect with CloudShell",
-      "summary": "Amazon Neptune has launched a 1-click connect feature that allows users to quickly connect to Neptune Database and Neptune Analytics directly through CloudShell. This eliminates the need for manual network configuration and access permission setup that previously required time-consuming effort from database administrators, developers, and data analysts. Users can now immediately start querying their graph databases without any manual network configuration steps.",
-      "category": "DATABASE",
-      "timestamp": "2026-05-06T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-neptune-cloudshell/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "bd34ed99a91ec01ac2cc73cc53fc244323c190a7",
-      "title": "Amazon Bedrock AgentCore Memory announces metadata for long-term memory",
-      "summary": "Amazon Bedrock AgentCore Memory has added metadata support for long-term memory records, allowing agents to tag, filter, and retrieve memories using structured attributes in addition to semantic search. Users can define up to ten indexed keys per memory resource (supporting STRING, NUMBER, and STRING_LIST types) and apply various operators to filter results. Metadata can be manually attached during ingestion or automatically extracted by the LLM based on provided instructions.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-06T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentcore-longterm-memory-metadata",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "3cebcf7a00613cef4a13eeb44ed445fc8ef10cab",
-      "title": "AWS Elastic Beanstalk now supports TLS listeners for Network Load Balancers",
-      "summary": "AWS Elastic Beanstalk now supports TLS listeners for Network Load Balancer environments, allowing you to configure SSL certificates and security policies directly through the console or CLI. This enables the load balancer to handle secure connections and forward decrypted traffic to instances. Previously, TLS listeners for NLB environments were not available as a managed configuration option in Elastic Beanstalk.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-06T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/elastic-beanstalk-tls-support/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "32af36b0c90e96f1bfe34253d762ec1f81c47a8d",
-      "title": "AWS Elemental MediaTailor now supports ad trickplay personalization and compact DASH manifest optimization via dynamic transcoding ",
-      "summary": "AWS Elemental MediaTailor now natively supports ad trickplay personalization for HLS and DASH formats, as well as compact DASH manifest optimization, through dynamic transcoding. These enhancements eliminate the previous requirement for custom transcode profiles while improving streaming ad personalization and manifest delivery efficiency. The updates strengthen MediaTailor's server-side ad insertion capabilities for video streaming platforms.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-06T14:24:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/mediatail-ad-trickplay-and-compact-dash-manifest-optimization",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 535,
+    "total": 538,
     "byCategory": {
-      "SECURITY": 109,
-      "AI_ML": 111,
-      "OTHER": 113,
+      "SECURITY": 114,
+      "AI_ML": 110,
+      "STORAGE": 22,
+      "DATABASE": 53,
+      "OTHER": 111,
       "SERVERLESS": 12,
-      "COMPUTE": 62,
-      "DATABASE": 52,
+      "COMPUTE": 61,
       "CONTAINERS": 29,
       "NETWORKING": 10,
-      "STORAGE": 21,
       "ANALYTICS": 16
     },
-    "lastUpdated": "2026-08-04T12:01:25.066Z"
+    "lastUpdated": "2026-08-04T23:02:56.717Z"
   },
-  "generatedAt": "2026-08-04T12:01:25.067Z"
+  "generatedAt": "2026-08-04T23:02:56.718Z"
 }
