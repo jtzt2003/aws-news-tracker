@@ -1,6 +1,26 @@
 {
   "announcements": [
     {
+      "id": "a7ef5fec1338e15bff459df3dbd05839abf94ff8",
+      "title": "AWS Transform continuous modernization is now generally available ",
+      "summary": "AWS Transform continuous modernization is now generally available in all AWS Regions where AWS Transform is supported. This capability helps engineering teams analyze and remediate technical debt acro...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-03T21:15:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/7/aws-transform-continuous-general-available",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "52a9fe4121a3210ea9646932dada24d0bc4dfa94",
+      "title": "OpenAI GPT-5.6 Sol, Terra, and Luna now support 1 million token context windows on Amazon Bedrock",
+      "summary": "GPT-5.6 Sol, Terra, and Luna now support 1 million token context windows on Amazon Bedrock, enabling you to process full codebases, lengthy documents, and multi-turn agent histories in a single reques...",
+      "category": "AI_ML",
+      "timestamp": "2026-08-03T21:03:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/gpt-sol-terra-luna-long-context-bedrock",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "8592d2224311a923c326006a58705a23dd074156",
       "title": "Amazon GameLift Streams now supports sharing streams with stream URLs",
       "summary": "Amazon GameLift Streams now offers stream URLs, which give end users temporary, unauthenticated access to a playable stream session in a supported web browser. Recipients need no AWS account, no crede...",
@@ -27,6 +47,26 @@
       "category": "OTHER",
       "timestamp": "2026-08-03T19:02:58.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-resilience-hub/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3437b1185e3b2e560d50ad78f944563f7daf4d9b",
+      "title": "AWS Organizations now provides maximum account quota visibility in Service Quotas",
+      "summary": "AWS Organizations customers can now view their maximum number of accounts quota and its utilization directly through AWS Service Quotas instead of relying on AWS Support or AWS account teams to determ...",
+      "category": "OTHER",
+      "timestamp": "2026-08-03T18:54:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-organizations/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "dd99b6dedbbbb249405f158b7941a492e5ca975f",
+      "title": "AWS Lambda Provisioned Mode for Amazon SQS event source mappings now supports up to 10,000 event pollers",
+      "summary": "AWS Lambda now supports a maximum of 10,000 event pollers for Provisioned Mode for Amazon SQS event source mappings (ESMs), a 5x increase from the previous limit of 2,000. This enables you to reach up...",
+      "category": "SERVERLESS",
+      "timestamp": "2026-08-03T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-Lambda-provisioned-sqs-esm-max-pollers/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5309,53 +5349,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/mediatail-ad-trickplay-and-compact-dash-manifest-optimization",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "e43a11d726c59e00a0c0ce41023a15a6f233aae4",
-      "title": "Announcing Agent Toolkit for AWS — help AI coding agents build effectively on AWS",
-      "summary": "AWS has launched the Agent Toolkit for AWS, a production-ready suite of tools designed to help AI coding agents build more effectively on AWS infrastructure with reduced errors, lower token costs, and enterprise-grade security. This toolkit replaces the previous MCP servers, plugins, and skills from AWS Labs. It addresses common challenges developers face when using coding agents for AWS development, particularly around complex multi-service workflows and outdated AWS service knowledge.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-06T12:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/agent-toolkit/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "36ece50959068f10ee04b4ea5c96bd6c3a35d34b",
-      "title": "The AWS MCP Server is now generally available",
-      "summary": "AWS has announced the general availability of the AWS MCP Server, a managed server that enables AI coding agents to securely access AWS services through the Model Context Protocol (MCP). The server is part of the Agent Toolkit for AWS and provides organizations with visibility and control over AI agent interactions through IAM-based security guardrails and Amazon CloudWatch monitoring.",
-      "category": "OTHER",
-      "timestamp": "2026-05-06T12:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-mcp-server/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c56377d7796983c48f22623be46a1e0d9fe7ea53",
-      "title": "AWS Transfer Family web apps are now available in the AWS Asia Pacific (New Zealand) Region",
-      "summary": "AWS Transfer Family web apps are now available in the Asia Pacific (New Zealand) Region, allowing customers to provide their workforce with a fully managed, branded portal for accessing Amazon S3 data through a web browser. The service offers a simple interface for browsing, uploading, and downloading files securely without requiring technical expertise or additional infrastructure management.",
-      "category": "STORAGE",
-      "timestamp": "2026-05-06T10:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-transfer-family-asia-pacific/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 534,
+    "total": 535,
     "byCategory": {
-      "OTHER": 113,
-      "COMPUTE": 62,
-      "AI_ML": 110,
-      "DATABASE": 52,
       "SECURITY": 109,
+      "AI_ML": 111,
+      "OTHER": 113,
+      "SERVERLESS": 12,
+      "COMPUTE": 62,
+      "DATABASE": 52,
       "CONTAINERS": 29,
       "NETWORKING": 10,
-      "STORAGE": 22,
-      "ANALYTICS": 16,
-      "SERVERLESS": 11
+      "STORAGE": 21,
+      "ANALYTICS": 16
     },
-    "lastUpdated": "2026-08-03T23:00:12.513Z"
+    "lastUpdated": "2026-08-04T12:01:25.066Z"
   },
-  "generatedAt": "2026-08-03T23:00:12.513Z"
+  "generatedAt": "2026-08-04T12:01:25.067Z"
 }
