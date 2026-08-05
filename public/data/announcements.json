@@ -1,6 +1,66 @@
 {
   "announcements": [
     {
+      "id": "26f80dc64e9c289320d85cf49977e2cde19712b6",
+      "title": "AWS Lambda announces scalable network bandwidth up to 3,000 Mbps for functions outside a VPC",
+      "summary": "AWS Lambda now supports scalable network bandwidth for Lambda functions, enabling faster data transfer to and from your execution environment for latency-sensitive workloads. This feature enables func...",
+      "category": "SERVERLESS",
+      "timestamp": "2026-08-05T21:35:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-network-bandwidth/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ad60ddd0a22833f9ccc56174fc2d0a5f0266fe2b",
+      "title": "Amazon Keyspaces (for Apache Cassandra) is now available in the Canada West (Calgary) Region (ca-west-1)",
+      "summary": "Amazon Keyspaces (for Apache Cassandra) is now available in the Canada West (Calgary) Region (ca-west-1), allowing customers in the Canada West Region to build Cassandra-compatible applications with l...",
+      "category": "OTHER",
+      "timestamp": "2026-08-05T20:06:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-keyspaces-apache-cassandra-canada-west/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9111536f298cf1ea83e3fa94d8f38e75749065a3",
+      "title": "AWS Marketplace adds AI Insights so buyers can understand pricing before they buy ",
+      "summary": "You can now understand how a product's pricing works before you buy it. Available in the pricing section of the listing in AWS Marketplace, AI Insights explains each product's pricing in plain languag...",
+      "category": "OTHER",
+      "timestamp": "2026-08-05T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace-ai-insights/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b55b05cda0f58435751016238b19097ee35badc6",
+      "title": "Amazon DynamoDB now supports real-time vector search",
+      "summary": "Today, AWS announces the general availability of vector search for Amazon DynamoDB, a new feature to index and search vectors in real time. As vector datasets grow into the billions or trillions, vect...",
+      "category": "AI_ML",
+      "timestamp": "2026-08-05T16:59:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-dynamodb-vector-search",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "09dfd8936c62dafdb054e4b51e67ed10e3a96b8f",
+      "title": "AWS IAM Identity Center makes managment of AWS account access optional for new organization instances",
+      "summary": "AWS IAM Identity Center now lets you decide whether to enable management of AWS account access when you create a new organization instance. This allows you to use IAM Identity Center to manage access ...",
+      "category": "COMPUTE",
+      "timestamp": "2026-08-05T15:12:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-identity-center-accounts-optional/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "af06b2227e80d40fcfdf84e2b34c9609db3b83c1",
+      "title": "Amazon Aurora serverless now scales faster to support agentic AI and other bursty workloads",
+      "summary": "Amazon Aurora serverless now delivers higher initial capacity during scale-up events, reaching up to 12 ACUs within a second and continuing to scale up to 256 ACUs as your workload grows. When the wor...",
+      "category": "DATABASE",
+      "timestamp": "2026-08-05T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-serverless-instant-12-acu-scaling",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "1a7ded053c611a668acd8d1723bcc359f1380f52",
       "title": "[Preview Announcement] Re-introducing Forward Proxy as AWS Network Firewall Functionality",
       "summary": "You can now use your Network Firewall with all its existing filtering capabilities and features as an explicit forward proxy.\n  On Nov 25, 2025, AWS introduced Network Firewall proxy in public preview...",
@@ -5269,153 +5329,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-route-53-resolver-ipv6/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "5482d91fa45853b37bc2971dc35f0f3750852ee2",
-      "title": "AWS Marketplace introduces Tax management portal for sellers",
-      "summary": "AWS Marketplace has launched a new Tax management portal that allows sellers to independently view and download invoices through a self-service process, eliminating the need to contact support. The portal is integrated into the AWS Partner Central console and provides centralized access to both seller listing fee invoices and buyer invoices for applicable regions. This streamlines invoice management and record-keeping for marketplace sellers.",
-      "category": "OTHER",
-      "timestamp": "2026-05-07T21:36:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-marketplace-tax/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6fc1528306d0acb7d2b60649f9aacf7da41a15df",
-      "title": "Amazon EC2 G6 instances now available in AWS European Sovereign Cloud (Germany)",
-      "summary": "AWS has launched Amazon EC2 G6 instances powered by NVIDIA L4 GPUs in the AWS European Sovereign Cloud (Germany). These instances are designed to handle graphics-intensive workloads and machine learning applications including natural language processing, computer vision, speech recognition, and graphics rendering. The availability expands AWS's GPU compute options for customers requiring data sovereignty in the European region.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-07T21:07:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-g6-aws-european-sovereign-cloud/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "11eb46f12a11728fe9b9e7a3af69bf6a77953357",
-      "title": "Amazon EC2 X8i instances are now available in additional regions",
-      "summary": "Amazon EC2 X8i instances are now available in Europe (Ireland) and Asia Pacific (Mumbai) regions, powered by custom Intel Xeon 6 processors exclusive to AWS. These SAP-certified instances deliver up to 43% higher performance, 1.5x more memory capacity (up to 6TB), and 3.3x more memory bandwidth compared to previous generations, offering the highest performance among comparable Intel processors in the cloud.",
-      "category": "COMPUTE",
-      "timestamp": "2026-05-07T20:45:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-x8i-instances-BOM-DUB-region/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "8ddee53f17d403a26eecaf438158b11091686f33",
-      "title": "Amazon SageMaker Unified Studio adds identity and user management features",
-      "summary": "Amazon SageMaker Unified Studio has introduced new administration features that give administrators enhanced control over identity configuration and user management for both IAM and Identity Center domains. In IAM domains, administrators can now onboard users through single sign-on by configuring AWS IAM Identity Center and can add various types of users (IAM roles, users, Identity Center users and groups) as project members. These updates improve team collaboration capabilities within the platform.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-07T19:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/smus-identity-user-management/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "0ff8b8fbdd11406697fc10fa437a0be801f1071f",
-      "title": "Amazon EC2 G7e instances now available in Europe (London) region",
-      "summary": "Amazon EC2 G7e instances powered by NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs are now available in the Europe (London) region. These instances deliver up to 2.3x better inference performance compared to G6e instances and are optimized for deploying large language models, agentic AI, multimodal generative AI, and physical AI models. G7e instances provide the highest performance for spatial computing and hybrid graphics-compute workloads.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-07T18:04:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-g7e-london-region/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "47c23f3a42f8e1bca95cb55d32c4d7423583e00a",
-      "title": "   AWS Capabilities by Region now supports availability notifications ",
-      "summary": "AWS has launched availability notifications for AWS Capabilities by Region, a subscription-based system that automatically alerts developers when specific AWS services or features become available in their target regions. This new feature helps builders track the availability of over 1,500 services and features across 37 AWS regions, streamlining infrastructure planning and deployment decisions.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-07T17:48:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-regional-planning-tool-notification",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f88fa7b205cdaa69deebfacf90c19068412f885f",
-      "title": "AWS Elemental MediaTailor launches Monetization Functions",
-      "summary": "AWS Elemental MediaTailor has introduced monetization functions, a new feature that allows customers to customize ad decision server (ADS) requests and manage session data during ad-personalized video playback. This capability enables customers to call external APIs and perform data transformations directly within the playback session, removing the need for middleware between the player and ADS. The feature streamlines ad monetization workflows by providing built-in customization points for common use cases like resolving hashed email addresses.",
-      "category": "OTHER",
-      "timestamp": "2026-05-07T17:20:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-elemental-mediatailor-monetization-functions",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d45ffa52e8aba2f125ab77661d5290760199397c",
-      "title": "AWS Advanced JDBC Wrapper now provides client-side encryption",
-      "summary": "AWS has added client-side encryption capabilities to its Advanced JDBC Wrapper through a new KMS Encryption plugin, allowing Java applications to encrypt sensitive data at the column level before it reaches Amazon Aurora and RDS databases. This feature works without requiring application code changes and complements the wrapper's existing advanced capabilities like failover handling and AWS authentication integration. The client-side encryption provides an additional security layer beyond the standard database encryption at rest and TLS in transit protections.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-07T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-advanced-jdbc-wrapper-encryption/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "129e15a679698cdfd68e10141f51462a6fb02aa6",
-      "title": "Amazon SageMaker HyperPod now supports AMI-based node lifecycle configuration for Slurm clusters",
-      "summary": "Amazon SageMaker HyperPod now supports AMI-based configuration for Slurm clusters, eliminating the need to manually download, configure, or upload lifecycle scripts to S3. This streamlined approach significantly reduces cluster creation time by provisioning nodes with pre-configured software and settings for production-ready AI/ML training environments.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-07T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-hyperpod-ami-based-node/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "2f4047c67d28ed04dfa090281ca4f9ac792c11f5",
-      "title": "Amazon EC2 M8gn and M8gb instances are now available in AWS Europe (Ireland) region",
-      "summary": "Amazon EC2 M8gn and M8gb instances powered by AWS Graviton4 processors are now available in the Europe (Ireland) region, delivering up to 30% better compute performance than Graviton3 processors. The M8gn instances offer up to 600 Gbps network bandwidth (the highest among network-optimized EC2 instances), while M8gb instances provide up to 300 Gbps of EBS bandwidth.",
-      "category": "COMPUTE",
-      "timestamp": "2026-05-07T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-m8gn-m8gb-aws-europe/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d626d6cd980c6812fdabfb232b2a6ba53c83f60d",
-      "title": "Amazon Connect Outbound Campaigns adds multi-contact time zone detection ",
-      "summary": "Amazon Connect Outbound Campaigns has enhanced its time zone detection to analyze all phone numbers and addresses in a customer profile, rather than just the primary contact information. When multiple time zones are detected for a single customer, the system now only makes calls during hours that fall within the configured window for all detected time zones. This improvement helps ensure compliance with calling time restrictions for customers who have contact information spanning multiple geographic regions.",
-      "category": "OTHER",
-      "timestamp": "2026-05-07T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-campaign-multitimezone",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c6f5ea854fb0355879b9f4ba83abb824bb2dce32",
-      "title": "AWS India customers can now use UPI Scan and Pay for sign-up and payments",
-      "summary": "AWS now allows customers in India to use UPI (Unified Payments Interface) Scan and Pay for account sign-ups and invoice payments. The new feature enables customers to simply scan a QR code in the AWS Console with popular UPI mobile apps like Google Pay, PhonePe, Paytm, or Amazon Pay for instant bank-to-bank transfers.",
-      "category": "OTHER",
-      "timestamp": "2026-05-07T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-india-upi-scanandpay/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "dd54f9c0542767e7ab81757532f499319383fd64",
-      "title": "Introducing Amazon EC2 R8idn and R8idb instances ",
-      "summary": "AWS has launched Amazon EC2 R8idn and R8idb instances powered by custom sixth-generation Intel Xeon Scalable processors and AWS Nitro cards. These new instances deliver up to 43% better compute performance per vCPU compared to previous R6in generation instances, with R8idn instances offering up to 600 Gbps network bandwidth.",
-      "category": "COMPUTE",
-      "timestamp": "2026-05-07T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-r8idn-r8idb/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 540,
+    "total": 533,
     "byCategory": {
-      "SECURITY": 115,
-      "AI_ML": 110,
+      "SERVERLESS": 13,
+      "OTHER": 110,
+      "AI_ML": 107,
+      "COMPUTE": 59,
+      "DATABASE": 54,
+      "SECURITY": 113,
       "STORAGE": 22,
-      "OTHER": 112,
-      "DATABASE": 53,
-      "SERVERLESS": 12,
-      "COMPUTE": 61,
       "CONTAINERS": 29,
       "NETWORKING": 10,
       "ANALYTICS": 16
     },
-    "lastUpdated": "2026-08-05T11:59:05.390Z"
+    "lastUpdated": "2026-08-05T22:58:24.640Z"
   },
-  "generatedAt": "2026-08-05T11:59:05.390Z"
+  "generatedAt": "2026-08-05T22:58:24.640Z"
 }
