@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "1a7ded053c611a668acd8d1723bcc359f1380f52",
+      "title": "[Preview Announcement] Re-introducing Forward Proxy as AWS Network Firewall Functionality",
+      "summary": "You can now use your Network Firewall with all its existing filtering capabilities and features as an explicit forward proxy.\n  On Nov 25, 2025, AWS introduced Network Firewall proxy in public preview...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-04T22:24:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-network-firewall-forward-proxy-preview/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "c71c2a8163e48ea96776a0c493ab3649bbf58cb4",
       "title": "Amazon Connect Customer now lets you export cases to CSV from the agent workspace",
       "summary": "Amazon Connect Customer now supports exporting cases to a CSV file directly from the agent workspace, making it easier to share case data with internal teams and external stakeholders such as vendors,...",
@@ -67,6 +77,16 @@
       "category": "STORAGE",
       "timestamp": "2026-08-04T18:15:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-s3-vectors-european-sovereign-cloud-germany/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "848a3b2e0e3c4c301b4384d1a5e261faddab63e2",
+      "title": "Amazon Connect Customer now supports capacity planning in 15 or 30 minute intervals",
+      "summary": "Amazon Connect Customer now lets you generate capacity plans at the interval level (15-minute or 30-minute intervals), giving workforce planners visibility into more granular staffing requirements acr...",
+      "category": "OTHER",
+      "timestamp": "2026-08-04T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-interval-capacity-plan",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5382,20 +5402,20 @@
     }
   ],
   "stats": {
-    "total": 538,
+    "total": 540,
     "byCategory": {
-      "SECURITY": 114,
+      "SECURITY": 115,
       "AI_ML": 110,
       "STORAGE": 22,
+      "OTHER": 112,
       "DATABASE": 53,
-      "OTHER": 111,
       "SERVERLESS": 12,
       "COMPUTE": 61,
       "CONTAINERS": 29,
       "NETWORKING": 10,
       "ANALYTICS": 16
     },
-    "lastUpdated": "2026-08-04T23:02:56.717Z"
+    "lastUpdated": "2026-08-05T11:59:05.390Z"
   },
-  "generatedAt": "2026-08-04T23:02:56.718Z"
+  "generatedAt": "2026-08-05T11:59:05.390Z"
 }
