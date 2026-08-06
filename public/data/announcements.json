@@ -21,6 +21,16 @@
       "isNew": false
     },
     {
+      "id": "35620bc7908fca89113103e3338acb29b9e75c04",
+      "title": "AWS Glue Data Quality makes ETL anomaly detection free and improves anomaly predictions",
+      "summary": "AWS Glue Data Quality now offers improved anomaly detection with a new observation mode that reduces detection of false anomalies and removes pricing for anomaly detection in ETL jobs. Customers using...",
+      "category": "ANALYTICS",
+      "timestamp": "2026-08-05T18:25:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-data-quality-anomaly-detection-free",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "9111536f298cf1ea83e3fa94d8f38e75749065a3",
       "title": "AWS Marketplace adds AI Insights so buyers can understand pricing before they buy ",
       "summary": "You can now understand how a product's pricing works before you buy it. Available in the pricing section of the listing in AWS Marketplace, AI Insights explains each product's pricing in plain languag...",
@@ -5309,43 +5319,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-service-catalog-calgary-new-zealand-regions/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "891f94e590a96e443fc2e8627c49508e981bfa30",
-      "title": "IAM Policy Autopilot adds Java support and Terraform-aware policy generation",
-      "summary": "AWS has expanded its open-source IAM Policy Autopilot tool to support Java applications and Terraform-aware policy generation, adding to its existing language coverage. The tool, launched at re:Invent 2025, automatically generates baseline IAM policies from code to help developers create less permissive policies and reduce time spent on policy creation and access troubleshooting.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-08T04:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/iam-policy-autopilot/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "23c889add84dbef019c4069a30b3ebca28f86658",
-      "title": "Amazon Route 53 Resolver endpoints now support additional capabilities for IPv6 query traffic",
-      "summary": "Amazon Route 53 Resolver endpoints now support DNS64 on inbound endpoints and IPv6 forwarding through internet gateways on outbound endpoints, simplifying hybrid DNS management across IPv4 and IPv6 networks. The DNS64 feature allows IPv6-only on-premises clients to access IPv4 AWS services by automatically synthesizing IPv6 responses for IPv4-only domains. These enhancements make it easier to integrate mixed IPv4/IPv6 environments without requiring changes to existing services.",
-      "category": "NETWORKING",
-      "timestamp": "2026-05-07T23:08:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-route-53-resolver-ipv6/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 533,
+    "total": 532,
     "byCategory": {
       "SERVERLESS": 13,
       "OTHER": 110,
+      "ANALYTICS": 17,
       "AI_ML": 107,
       "COMPUTE": 59,
       "DATABASE": 54,
-      "SECURITY": 113,
+      "SECURITY": 112,
       "STORAGE": 22,
       "CONTAINERS": 29,
-      "NETWORKING": 10,
-      "ANALYTICS": 16
+      "NETWORKING": 9
     },
-    "lastUpdated": "2026-08-05T22:58:24.640Z"
+    "lastUpdated": "2026-08-06T12:01:58.577Z"
   },
-  "generatedAt": "2026-08-05T22:58:24.640Z"
+  "generatedAt": "2026-08-06T12:01:58.578Z"
 }
