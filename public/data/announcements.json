@@ -101,6 +101,16 @@
       "isNew": false
     },
     {
+      "id": "b98b017d79a284f37120e76d0744b4ecd526a22a",
+      "title": "Amazon WorkSpaces now publishes enhanced observability metrics",
+      "summary": "Amazon WorkSpaces now publishes additional performance and session health metrics to Amazon CloudWatch, enabling IT administrators to gain deeper visibility into their virtual desktop workloads. These...",
+      "category": "OTHER",
+      "timestamp": "2026-08-06T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-workspaces-observability-metrics",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "26f80dc64e9c289320d85cf49977e2cde19712b6",
       "title": "AWS Lambda announces scalable network bandwidth up to 3,000 Mbps for functions outside a VPC",
       "summary": "AWS Lambda now supports scalable network bandwidth for Lambda functions, enabling faster data transfer to and from your execution environment for latency-sensitive workloads. This feature enables func...",
@@ -5382,20 +5392,20 @@
     }
   ],
   "stats": {
-    "total": 538,
+    "total": 539,
     "byCategory": {
       "CONTAINERS": 30,
       "SERVERLESS": 15,
       "COMPUTE": 59,
       "AI_ML": 108,
       "DATABASE": 56,
-      "OTHER": 110,
+      "OTHER": 111,
       "SECURITY": 113,
       "ANALYTICS": 17,
       "STORAGE": 22,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-08-07T01:29:22.257Z"
+    "lastUpdated": "2026-08-07T10:51:50.082Z"
   },
-  "generatedAt": "2026-08-07T01:29:22.257Z"
+  "generatedAt": "2026-08-07T10:51:50.082Z"
 }
