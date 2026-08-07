@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "23f6a34397f3e1223090f19aaaa54a689e2dcd2a",
+      "title": "Amazon ECS now supports fractional GPU scheduling with Amazon EC2 G6f instances",
+      "summary": "Amazon Elastic Container Service (Amazon ECS) now supports fractional GPU scheduling with Amazon EC2 G6f instances, enabling you to run your workloads on GPU partitions as small as one-eighth of an NV...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-08-06T22:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecs-fractional-gpu/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6de06d5a0baa4a0cf97cb307f9ece8ac20bfee15",
+      "title": "AWS Lambda console extends console-to-IDE integration to Kiro and Cursor",
+      "summary": "AWS Lambda console now extends its console-to-IDE integration to support Kiro and Cursor IDEs. This expansion builds on the existing console-to-IDE transition for Visual Studio Code (VS Code), providi...",
+      "category": "SERVERLESS",
+      "timestamp": "2026-08-06T21:53:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-ide-kiro-cursor/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "24c0bf90741a01006fafe027ce0733551d2bb503",
+      "title": "Amazon EC2 G7 instances are now available in the AWS Europe (Spain) Region",
+      "summary": "Amazon Elastic Compute Cloud (Amazon EC2) G7 instances powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs are now available in Europe (Spain) Region. G7 instances deliver up to 4.6x AI infer...",
+      "category": "COMPUTE",
+      "timestamp": "2026-08-06T20:51:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-g7-available-spain",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "530833947a7720c73b5527e9cfba225d55cc1d07",
+      "title": "AgentCore runtime instances are now generally available",
+      "summary": "Today, AWS announces runtime instances, a new feature in Amazon Bedrock AgentCore that lets you run agents on your own Amazon EC2 instances without managing infrastructure. AgentCore runtime provides ...",
+      "category": "AI_ML",
+      "timestamp": "2026-08-06T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-bedrock-agentcore-runtime-instances-generally-available/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ea1108df34df79275b0866b5ee3247952e79f565",
+      "title": "Amazon ElastiCache now supports Graviton4-based M8g, R8g, and C8gn nodes",
+      "summary": "Amazon ElastiCache now supports Graviton4-based M8g, R8g, and C8gn node families for Valkey and Memcached. Graviton4-based nodes provide up to 47% higher throughput, up to 43% lower P99 latency, and u...",
+      "category": "DATABASE",
+      "timestamp": "2026-08-06T19:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-elasticache-graviton4-m8g-r8g-c8gn/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c806ebe6c1fec129af3692a690ef29460b110bc4",
+      "title": "AWS Glue Schema Registry is now available in ten more AWS regions",
+      "summary": "You can now use the AWS Glue Schema Registry, a serverless and free feature of AWS Glue, in the Asia Pacific (New Zealand), Asia Pacific (Thailand), Asia Pacific (Hyderabad), Asia Pacific (Osaka), Asi...",
+      "category": "SERVERLESS",
+      "timestamp": "2026-08-06T18:56:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-gsr-10-more-regions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "cedf3811a598f1d0f5ea815097115fce8cd8118d",
+      "title": "AWS Transform for migrations automates post-launch actions ",
+      "summary": "AWS Transform now automates the configuration and execution of post-launch actions through the migration workflow. Define actions at the account level and apply them automatically to each source serve...",
+      "category": "OTHER",
+      "timestamp": "2026-08-06T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-transform-for-migrations-automates-post-launch-actions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "47be6dc909e64a75e2ebed8260d511c333234fe3",
+      "title": "AWS Security Agent now supports email-based MFA for penetration testing",
+      "summary": "AWS Security Agent (now part of AWS Continuum) now enables penetration testing of applications that use email-based multi-factor authentication (MFA) as part of their login flow. Previously, applicati...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-06T16:54:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-security-agent-mfa/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4046c50acad95f12c60b9714d905255dc2ed0a31",
+      "title": "Amazon RDS now provides visibility into storage volume initialization status",
+      "summary": "Amazon RDS now provides visibility into the initialization status of database storage volumes created from snapshots. You can use this status to determine when your storage is fully initialized after ...",
+      "category": "DATABASE",
+      "timestamp": "2026-08-06T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-storage-volume-initialization-visibility",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4a8c1fbe26990cba2340a7b91d1561f4e11770e5",
+      "title": "Amazon WorkSpaces Applications now publishes enhanced observability metrics",
+      "summary": "Amazon WorkSpaces Applications now publishes additional performance and session health metrics to Amazon CloudWatch, enabling IT administrators to gain deeper visibility into their application streami...",
+      "category": "OTHER",
+      "timestamp": "2026-08-06T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-workspaces-applications-observability-metrics",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "26f80dc64e9c289320d85cf49977e2cde19712b6",
       "title": "AWS Lambda announces scalable network bandwidth up to 3,000 Mbps for functions outside a VPC",
       "summary": "AWS Lambda now supports scalable network bandwidth for Lambda functions, enabling faster data transfer to and from your execution environment for latency-sensitive workloads. This feature enables func...",
@@ -5279,63 +5379,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-transform-containerization/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "5e77c277baf1ba68c3e31d7f7bdf788e6445b4bf",
-      "title": "AWS Client VPN now supports Ubuntu OS version 26.04 LTS ",
-      "summary": "AWS Client VPN now supports Ubuntu 26.04 LTS, expanding its Linux desktop client compatibility to include the latest Ubuntu version. The free desktop client allows secure connections for remote workforces to AWS or on-premises networks. AWS Client VPN already supports macOS, Windows, and other Ubuntu-Linux versions.",
-      "category": "OTHER",
-      "timestamp": "2026-05-08T22:39:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-client-vpn-ubuntu-26/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "3a0e0fa06699086e1ab73d24e7a7d1da69a4dc50",
-      "title": "Amazon Connect adds default Step-by-Step Guides for After Contact Work",
-      "summary": "Amazon Connect now automatically launches Step-by-Step Guides when agents enter After Contact Work (ACW) state, eliminating the need for manual activation. This feature helps contact centers standardize post-contact workflows and reduce handle time by automatically guiding agents through required wrap-up tasks like logging disposition codes and updating cases.",
-      "category": "OTHER",
-      "timestamp": "2026-05-08T20:12:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-adds-default-step-by-step-guides-for-after-contact-work",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ac5e49574268b7bc4709ff1514ce41df759348da",
-      "title": "Amazon Route 53 Global Resolver now lets you add and remove AWS Regions for anycast DNS resolution",
-      "summary": "Amazon Route 53 Global Resolver now allows users to dynamically add and remove AWS Regions for anycast DNS resolution, providing flexible control over DNS query locations. This enhancement enables organizations to easily scale their DNS coverage as they grow and adjust regional deployments to meet compliance requirements. The feature maintains Global Resolver's core capabilities of anycast DNS resolution for both public and private domains, along with DNS filtering and centralized logging.",
-      "category": "NETWORKING",
-      "timestamp": "2026-05-08T17:43:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-route-global-resolver-aws/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "076bb0d82bdd81099df79b4b1c038387350beee6",
-      "title": "AWS Service Catalog is now available in the AWS Asia Pacific (New Zealand) and Canada West (Calgary) regions",
-      "summary": "AWS Service Catalog is now available in two new regions: Asia Pacific (New Zealand) and Canada West (Calgary). This service allows customers to create and manage catalogs of approved Infrastructure as Code (IaC) products that can be deployed on AWS using tools like CloudFormation or Terraform.",
-      "category": "COMPUTE",
-      "timestamp": "2026-05-08T16:43:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-service-catalog-calgary-new-zealand-regions/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 532,
+    "total": 538,
     "byCategory": {
-      "SERVERLESS": 13,
-      "OTHER": 110,
-      "ANALYTICS": 17,
-      "AI_ML": 107,
+      "CONTAINERS": 30,
+      "SERVERLESS": 15,
       "COMPUTE": 59,
-      "DATABASE": 54,
-      "SECURITY": 112,
+      "AI_ML": 108,
+      "DATABASE": 56,
+      "OTHER": 110,
+      "SECURITY": 113,
+      "ANALYTICS": 17,
       "STORAGE": 22,
-      "CONTAINERS": 29,
-      "NETWORKING": 9
+      "NETWORKING": 8
     },
-    "lastUpdated": "2026-08-06T12:01:58.577Z"
+    "lastUpdated": "2026-08-07T01:29:22.257Z"
   },
-  "generatedAt": "2026-08-06T12:01:58.578Z"
+  "generatedAt": "2026-08-07T01:29:22.257Z"
 }
