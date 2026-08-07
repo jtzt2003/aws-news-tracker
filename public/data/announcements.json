@@ -1,6 +1,76 @@
 {
   "announcements": [
     {
+      "id": "231d03e39ff1c3e795ed0e2cd9b73b21df3f64da",
+      "title": "Amazon Timestream for InfluxDB now supports backup and restore",
+      "summary": "Amazon Timestream for InfluxDB now lets you create and manage your own backups and restore your data on demand. You can trigger one-time, on-demand backups, schedule automated recurring backups at the...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-07T19:21:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/timestream-influxdb-backup-restore/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7ff1d5bf2513e56dd645d33c4d14c1049f305192",
+      "title": "Amazon Cognito now available as a skill in the Agent Toolkit for AWS",
+      "summary": "Amazon Cognito is now available as a core skill (aws-auth) in the Agent Toolkit for AWS. AI coding agents using the toolkit can now set up, configure, secure, and troubleshoot Amazon Cognito using bes...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-07T18:00:48.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-auth-agent-skill/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "af20bbf12146726156e9a00327c4cbbfce185549",
+      "title": "AWS IAM Identity Center supports one-click multi-Region option for new organization instances",
+      "summary": "AWS IAM Identity Center now makes it easier to enable multi-Region support when creating a new organization instance. Previously, enabling multi-Region support required multiple steps including creati...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-07T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-identity-center-supports-one-click-multi-region-option-new-organization-instances",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8cf354f464df564be7dead8ef1fea6ff77f877b8",
+      "title": "Amazon Bedrock AgentCore adds memory, policy, and harness in AWS GovCloud (US-West)",
+      "summary": "Today, Amazon Bedrock AgentCore introduces new capabilities in AWS GovCloud (US-West). AgentCore is the platform to build, connect, and optimize agents. With these capabilities, teams operating in reg...",
+      "category": "AI_ML",
+      "timestamp": "2026-08-07T15:52:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcore-memory-policy-harness-govcloud/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e5eb82d23f2dd35dadcfc29d16de040330e26d78",
+      "title": " Amazon GameLift Servers now supports 21 new EC2 instance types",
+      "summary": "Amazon GameLift Servers now supports 21 additional Amazon EC2 instance types for managed EC2 fleets and managed container fleets. Amazon GameLift Servers is a fully managed service that enables game d...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-08-07T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/gamelift-ec2-instance-expansion/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2a6137ab9f36ae8935dba10b98561867d208d838",
+      "title": "Amazon OpenSearch Service announces additional upgrade runway for existing domains and support dates for additional versions ",
+      "summary": "In November 2024, Amazon OpenSearch Service announced Extended Support for legacy Elasticsearch and OpenSearch engine versions (see also the detailed blog post). Since that announcement, many customer...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-07T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-service-additional-upgrade-runway-support-dates",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4bcb09a3404b5185f76ff356dfa543d488356046",
+      "title": "AWS Parallel Computing Service is now in scope for FedRAMP, SOC, ISO, CSA STAR, and PCI",
+      "summary": "AWS Parallel Computing Service (PCS), a managed service that simplifies running and scaling high performance computing (HPC) workloads on AWS using Slurm, has expanded its security and compliance cove...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-07T04:58:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-pcs-august/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "23f6a34397f3e1223090f19aaaa54a689e2dcd2a",
       "title": "Amazon ECS now supports fractional GPU scheduling with Amazon EC2 G6f instances",
       "summary": "Amazon Elastic Container Service (Amazon ECS) now supports fractional GPU scheduling with Amazon EC2 G6f instances, enabling you to run your workloads on GPU partitions as small as one-eighth of an NV...",
@@ -17,6 +87,16 @@
       "category": "SERVERLESS",
       "timestamp": "2026-08-06T21:53:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-ide-kiro-cursor/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6cacfddeefc5cffb7a413e0d17f3fd44db53208b",
+      "title": "AWS WAF now supports a Salt Security managed rule group for API and MCP threat detection",
+      "summary": "AWS WAF now supports the Salt Security managed rule group, available through AWS Marketplace: Salt Managed Rules for AWS WAF - AI Agent & API Security. This rule group gives AWS WAF customers detectio...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-06T21:10:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-waf-salt-security-managed-rules/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5392,20 +5472,20 @@
     }
   ],
   "stats": {
-    "total": 539,
+    "total": 547,
     "byCategory": {
-      "CONTAINERS": 30,
+      "SECURITY": 119,
+      "AI_ML": 109,
+      "CONTAINERS": 31,
       "SERVERLESS": 15,
       "COMPUTE": 59,
-      "AI_ML": 108,
       "DATABASE": 56,
       "OTHER": 111,
-      "SECURITY": 113,
       "ANALYTICS": 17,
       "STORAGE": 22,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-08-07T10:51:50.082Z"
+    "lastUpdated": "2026-08-07T22:34:43.436Z"
   },
-  "generatedAt": "2026-08-07T10:51:50.082Z"
+  "generatedAt": "2026-08-07T22:34:43.436Z"
 }
