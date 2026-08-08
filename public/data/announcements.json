@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "35f315fe6f25e3d9acb8fbd293721c3caa233103",
+      "title": "Amazon EC2 R8i and R8i-Flex instances are now available in Europe (Milan) region",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the Europe (Milan) region. These instances are powered by custom Intel Xeon 6 processors, availabl...",
+      "category": "COMPUTE",
+      "timestamp": "2026-08-07T21:11:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8i-r8i-flex/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "231d03e39ff1c3e795ed0e2cd9b73b21df3f64da",
       "title": "Amazon Timestream for InfluxDB now supports backup and restore",
       "summary": "Amazon Timestream for InfluxDB now lets you create and manage your own backups and restore your data on demand. You can trigger one-time, on-demand backups, schedule automated recurring backups at the...",
@@ -31,6 +41,16 @@
       "isNew": false
     },
     {
+      "id": "dffd4686d3f0f32dc01330f589abbbc33c62b8ea",
+      "title": "Amazon VPC IPAM now supports BGP route protection monitoring and delegated RPKI for BYOIP prefixes",
+      "summary": "Amazon Virtual Private Cloud (VPC) IP Address Manager (IPAM) now supports BGP route protection monitoring and delegated Resource Public Key Infrastructure (RPKI) management for Bring Your Own IP (BYOI...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-07T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-vpc-ipam-bgp-rpki-byoip/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "8cf354f464df564be7dead8ef1fea6ff77f877b8",
       "title": "Amazon Bedrock AgentCore adds memory, policy, and harness in AWS GovCloud (US-West)",
       "summary": "Today, Amazon Bedrock AgentCore introduces new capabilities in AWS GovCloud (US-West). AgentCore is the platform to build, connect, and optimize agents. With these capabilities, teams operating in reg...",
@@ -57,6 +77,16 @@
       "category": "SECURITY",
       "timestamp": "2026-08-07T07:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-service-additional-upgrade-runway-support-dates",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "132be4321fa0f1365c55deca8919d903e08ad4b9",
+      "title": "Amazon SES now helps identify automated open and click events in event notifications",
+      "summary": "Amazon Simple Email Service (SES) now helps you identify automated email interactions. Open and Click event notifications now include an isBotEvent field that indicates whether the event was likely tr...",
+      "category": "SERVERLESS",
+      "timestamp": "2026-08-07T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-automated-email-interactions/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5472,20 +5502,20 @@
     }
   ],
   "stats": {
-    "total": 547,
+    "total": 550,
     "byCategory": {
-      "SECURITY": 119,
+      "COMPUTE": 60,
+      "SECURITY": 120,
       "AI_ML": 109,
       "CONTAINERS": 31,
-      "SERVERLESS": 15,
-      "COMPUTE": 59,
+      "SERVERLESS": 16,
       "DATABASE": 56,
       "OTHER": 111,
       "ANALYTICS": 17,
       "STORAGE": 22,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-08-07T22:34:43.436Z"
+    "lastUpdated": "2026-08-08T10:33:00.439Z"
   },
-  "generatedAt": "2026-08-07T22:34:43.436Z"
+  "generatedAt": "2026-08-08T10:33:00.440Z"
 }
