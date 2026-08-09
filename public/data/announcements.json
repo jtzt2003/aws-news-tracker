@@ -5409,103 +5409,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/p6-b200-region-expansion-sagemaker-studio-notebooks/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "34d540e97b26d9b2786e0a5be5c7a50be57453e3",
-      "title": "Announcing Region Expansion of G6e instances on SageMaker Studio notebooks",
-      "summary": "AWS has announced the general availability of Amazon EC2 G6e instances on SageMaker Studio notebooks in six additional regions: Middle East (Dubai), Asia Pacific (Tokyo, Seoul), and Europe (Frankfurt, Stockholm, Spain). These instances feature up to 8 NVIDIA L40s Tensor Core GPUs with 48 GB memory per GPU and third-generation AMD EPYC processors, delivering up to 2.5x better performance than G5 instances. The G6e instances enable customers to interactively test model deployments with enhanced GPU capabilities.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-11T20:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/g6e-region-expansion-sagemaker-studio-notebooks/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "0f050919a356678c63806dc32438d0ba8274697d",
-      "title": "Announcing Region Expansion of G6 instances on SageMaker Studio notebooks",
-      "summary": "AWS has announced the general availability of Amazon EC2 G6 instances on SageMaker Studio notebooks in the Middle East (Dubai) and Asia Pacific (Malaysia) regions. These instances are powered by up to 8 NVIDIA L4 Tensor Core GPUs with 24 GB memory per GPU and third-generation AMD EPYC processors, delivering 2x better deep learning inference performance compared to G4dn instances. Customers can use G6 instances for interactive model deployment testing and development work.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-11T20:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/g6-region-expansion-sagemaker-studio-notebooks/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "8e9859485e209731300f6658e0ef073057b29258",
-      "title": "Announcing Region Expansion of P4de instances on SageMaker Studio notebooks",
-      "summary": "AWS has expanded the availability of Amazon EC2 P4de instances to Asia Pacific (Tokyo, Singapore) and Europe (Frankfurt) regions on SageMaker Studio notebooks. These instances feature 8 NVIDIA A100 GPUs with 80GB memory each (640GB total), offering double the GPU memory of P4d instances. P4de instances deliver up to 60% better ML training performance and 20% lower training costs compared to the previous P4d generation.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-11T20:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/p4de-region-expansion-sagemaker-studio-notebooks/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "213adc8dc8b64e984bce206a51c0a641f3128a51",
-      "title": "ENA Express for Amazon EC2 instances now supports traffic between Availability Zones",
-      "summary": "AWS has expanded ENA Express support to enable traffic between EC2 instances across different Availability Zones within a region, delivering up to 25 Gbps single-flow bandwidth. ENA Express uses AWS's Scalable Reliable Datagram (SRD) protocol to improve network performance through advanced congestion control and multi-pathing. This enhancement extends the high-performance networking capabilities beyond instances within the same Availability Zone to cross-AZ communications.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-11T20:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/ena-express-availability-zones/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "9517405091e6750498d5e821eb73c601c9df20fd",
-      "title": "Amazon Aurora DSQL is now available in five additional AWS Regions",
-      "summary": "Amazon Aurora DSQL, AWS's fastest serverless distributed SQL database, has expanded availability to five new regions: Asia Pacific (Hong Kong, Mumbai, Singapore), Europe (Stockholm), and South America (Sao Paulo). Aurora DSQL provides unlimited scalability, high availability, and zero infrastructure management for building always-available applications.",
-      "category": "DATABASE",
-      "timestamp": "2026-05-11T19:59:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-dsql-five-additional-aws-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "0f0200697d78fb2699dcfb62e6277a0e8a07760d",
-      "title": "AWS HealthOmics now supports caching of cancelled workflow runs",
-      "summary": "AWS HealthOmics now supports caching of completed task outputs from cancelled workflow runs, allowing customers to restart from the point of cancellation without recomputing previously finished tasks. When caching is enabled, completed outputs are automatically stored in the customer's S3 bucket for reuse. This feature helps healthcare and life sciences customers avoid redundant computation and accelerate their scientific workflows.",
-      "category": "OTHER",
-      "timestamp": "2026-05-11T19:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-healthomics-caching-cancelled-runs/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "dbc8658390399972d08b05488e72a0435885c771",
-      "title": "AWS WAF introduces dynamic label interpolation for custom request and response handling",
-      "summary": "AWS WAF now supports dynamic label interpolation, allowing security engineers to use a single rule with ${namespace:} syntax to forward entire label namespaces to origins and embed context in responses. This eliminates the need to maintain separate rules for every signal value, significantly simplifying WAF configuration. For example, one rule with a dynamic variable can now forward all IP reputation signals to an application instead of requiring multiple individual rules.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-11T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-waf-dynamic-label-interpolation/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "fd1eafa0980dbfe3fc64e4e34c129a3b4740217d",
-      "title": "Claude Platform on AWS is now generally available",
-      "summary": "AWS has announced the general availability of Claude Platform on AWS, making AWS the first cloud provider to offer direct access to Anthropic's native Claude Platform experience through existing AWS accounts. This new service provides developers and organizations with access to Claude's APIs, console, and early-access beta features directly within their AWS environment.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-11T14:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/claude-platform-aws/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 549,
+    "total": 541,
     "byCategory": {
       "COMPUTE": 60,
-      "SECURITY": 119,
-      "AI_ML": 109,
+      "SECURITY": 117,
+      "AI_ML": 105,
       "CONTAINERS": 31,
       "SERVERLESS": 16,
-      "DATABASE": 56,
-      "OTHER": 111,
+      "DATABASE": 55,
+      "OTHER": 110,
       "ANALYTICS": 17,
       "STORAGE": 22,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-08-09T10:34:23.613Z"
+    "lastUpdated": "2026-08-09T22:30:24.882Z"
   },
-  "generatedAt": "2026-08-09T10:34:23.614Z"
+  "generatedAt": "2026-08-09T22:30:24.882Z"
 }
