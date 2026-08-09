@@ -5489,23 +5489,13 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/claude-platform-aws/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "ce089698b6dfe2bfcf22c5abd2430c917f707928",
-      "title": "AWS Transform adds containerization capability during migrations",
-      "summary": "AWS Transform has added containerization capabilities that allow organizations to replatform applications to containers during migration to AWS. The service uses agentic AI to automate the containerization of source code from various repositories (GitHub, Bitbucket, GitLab) or zip files, enabling simultaneous migration and modernization. This new feature reduces the time and complexity of transitioning from on-premises infrastructure to cloud-native architectures by combining migration and containerization into a single automated process.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-11T08:22:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-transform-containerization/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 550,
+    "total": 549,
     "byCategory": {
       "COMPUTE": 60,
-      "SECURITY": 120,
+      "SECURITY": 119,
       "AI_ML": 109,
       "CONTAINERS": 31,
       "SERVERLESS": 16,
@@ -5515,7 +5505,7 @@
       "STORAGE": 22,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-08-08T22:28:34.825Z"
+    "lastUpdated": "2026-08-09T10:34:23.613Z"
   },
-  "generatedAt": "2026-08-08T22:28:34.825Z"
+  "generatedAt": "2026-08-09T10:34:23.614Z"
 }
