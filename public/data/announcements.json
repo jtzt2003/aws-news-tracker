@@ -1,6 +1,46 @@
 {
   "announcements": [
     {
+      "id": "df7376295f1f1852768f4f9386234d3432dd96f6",
+      "title": "Amazon GameLift Streams Now Offers Service-managed Shader Caching",
+      "summary": "Amazon GameLift Streams now manages shader cache capture and distribution for your applications. You capture a shader cache from a stream session, and the service automatically makes it available for ...",
+      "category": "OTHER",
+      "timestamp": "2026-08-10T21:15:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/Amazon-GameLift-Streams-Shader-Caching/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "052a621d0069ccc2237b38c54c8d2724a7aeb9c6",
+      "title": "Amazon EC2 introduces application status checks",
+      "summary": "Amazon EC2 introduces application status checks, a new status check that helps customers detect and respond to application-level issues on their EC2 instances. With application status checks, EC2 moni...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-08-10T17:47:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-application-status-checks",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3fa61a785426c948bc7175f52ef3d9c33cc780c3",
+      "title": " Amazon OpenSearch Serverless now supports up to 10,000 collections per collection group",
+      "summary": "The next generation of Amazon OpenSearch Serverless now supports up to 10,000 collections within a single collection group, increased from the previous limit of 1,500. Collection groups organize multi...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-10T15:51:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-serverless-supports-10000-collections-per-collection-group/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5e9b2acd23e8330967a25075d169ffd00be7b3b3",
+      "title": "AWS Elastic Disaster Recovery now preserves UEFI boot mode for Linux servers",
+      "summary": "AWS Elastic Disaster Recovery (AWS DRS) now preserves UEFI boot mode when recovering Linux source servers that boot with UEFI firmware. Previously, DRS launched these Linux servers in legacy BIOS mode...",
+      "category": "OTHER",
+      "timestamp": "2026-08-10T13:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-drs-linux-uefi",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "35f315fe6f25e3d9acb8fbd293721c3caa233103",
       "title": "Amazon EC2 R8i and R8i-Flex instances are now available in Europe (Milan) region",
       "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the Europe (Milan) region. These instances are powered by custom Intel Xeon 6 processors, availabl...",
@@ -5319,103 +5359,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/amazon-oracle-m8i-r8i-license-included",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "ae7f7a0073e560de1752de598135c280b8966aa4",
-      "title": " AWS Lambda supports scheduled scaling for functions on Lambda Managed Instances",
-      "summary": "AWS Lambda now supports scheduled scaling for functions running on Lambda Managed Instances through Amazon EventBridge Scheduler. This feature enables you to set up one-time or recurring schedules that automatically adjust your function's capacity limits before anticipated traffic spikes. The capability helps optimize both performance during peak periods and costs during low-traffic times.",
-      "category": "SERVERLESS",
-      "timestamp": "2026-05-12T19:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-lambda-managed-instances/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "0d3ffee47115d5edc7f57755ffa89b4fd19dee5d",
-      "title": "Amazon EventBridge Scheduler adds 619 new SDK API actions, including Lambda Managed Instances",
-      "summary": "Amazon EventBridge Scheduler has expanded its AWS SDK integrations by adding 619 new API actions across 13 additional services, including support for AWS Lambda Managed Instances. This serverless scheduler now enables direct invocation of a broader range of AWS services without requiring custom integration code, allowing users to create and manage billions of scheduled events across over 270 AWS services.",
-      "category": "SERVERLESS",
-      "timestamp": "2026-05-12T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-eventbridge-sdk-integrations/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "966432da765df2bb9fdc88fd17c248abe4bdaf4e",
-      "title": "AWS Security Agent now supports full repository code reviews",
-      "summary": "AWS has released a new full repository code review capability for AWS Security Agent that performs comprehensive, context-aware security analysis of entire codebases. Unlike traditional static analysis tools that rely on pattern matching, this feature analyzes application architecture, trust boundaries, and data flows to identify systemic vulnerabilities that other tools might miss. The scanner provides detailed vulnerability reports when issues are detected.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-12T17:37:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-security-agent-full-repository-code-review/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "2c4f663070b73a81b6a6a7db02f3d44b90dc66b1",
-      "title": "Amazon SageMaker Feature Store now supports SageMaker Python SDK V3",
-      "summary": "Amazon SageMaker Feature Store now supports the SageMaker Python SDK v3, bringing new capabilities for Lake Formation access controls and Apache Iceberg table properties configuration. The updated SDK provides data scientists with modern, modular interfaces to manage feature groups with fine-grained access control and optimized offline storage. This enhancement improves the management of the fully managed repository used for storing, sharing, and managing machine learning model features.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-12T17:12:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-feature-store-pyv3/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "bb8c4c632f22f72d2f56b436b4f7fdd45a5f52aa",
-      "title": "Karpenter now supports Amazon Application Recovery Controller zonal shift",
-      "summary": "Amazon EKS now supports Amazon Application Recovery Controller (ARC) zonal shift and zonal autoshift when using Karpenter for compute provisioning. This integration allows Kubernetes applications to automatically shift network traffic away from impaired Availability Zones, improving application availability and recovery coordination across AWS Regions and AZs.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-05-12T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/karpenter-arc-zonal-shift/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4b4d78b82c8fb79525cf63bc6ecd1572695b8f5c",
-      "title": "Amazon Redshift launches RG instances powered by AWS Graviton",
-      "summary": "Amazon Redshift has launched RG instances, a new generation of provisioned cluster nodes powered by AWS Graviton processors that deliver up to 2.4x faster performance than previous RA3 instances at 30% lower cost per vCPU. These instances include Redshift's custom vectorized query engine that can process Apache Iceberg and Parquet data directly on cluster nodes, enabling SQL analytics across both data warehouse and data lake workloads.",
-      "category": "DATABASE",
-      "timestamp": "2026-05-12T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-redshift-rg-instances-powered-by-graviton",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "a861ab26dd84f4c9d24dda58975ba4385e48700d",
-      "title": "Amazon CloudFront Premium flat-rate plan now supports configurable usage allowances",
-      "summary": "Amazon CloudFront has updated its Premium flat-rate plan to offer multiple configurable usage tiers, ranging from 500 million to 6 billion requests and 50 TB to 600 TB monthly. This replaces the previous single-tier system and allows customers to scale self-service without needing to contact AWS for custom pricing. The change makes flat-rate plans accessible to enterprises and mid-sized businesses that were previously ineligible due to higher baseline traffic requirements.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-12T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/cloudfront-configurable-premium-flat-rate-plans/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "aba259e7b635902bebed9bb02d62bd2fa50599b1",
-      "title": "Amazon Connect Customer now supports embedding Cases and Customer Profiles in custom agent applications",
-      "summary": "Amazon Connect now allows developers to embed Cases and Customer Profiles directly into custom agent applications using the Amazon Connect SDK. This integration enables agents to access customer context and case information within their existing tools, streamlining issue resolution workflows. The SDK is available in all AWS Regions where Amazon Connect Customer operates, eliminating the need for developers to build these capabilities from scratch.",
-      "category": "OTHER",
-      "timestamp": "2026-05-12T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-sdk-cases-customer-profiles/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 540,
+    "total": 536,
     "byCategory": {
-      "COMPUTE": 60,
-      "SECURITY": 117,
-      "AI_ML": 104,
+      "OTHER": 111,
       "CONTAINERS": 31,
-      "SERVERLESS": 16,
-      "DATABASE": 55,
-      "OTHER": 110,
+      "SECURITY": 116,
+      "COMPUTE": 60,
+      "AI_ML": 103,
+      "SERVERLESS": 14,
+      "DATABASE": 54,
       "ANALYTICS": 17,
       "STORAGE": 22,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-08-10T11:07:51.869Z"
+    "lastUpdated": "2026-08-10T22:36:37.966Z"
   },
-  "generatedAt": "2026-08-10T11:07:51.869Z"
+  "generatedAt": "2026-08-10T22:36:37.966Z"
 }
