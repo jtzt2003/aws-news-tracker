@@ -5399,24 +5399,14 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-sdk-cases-customer-profiles/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "77ec79b4e6259fed0673dff65afa3abc522f716e",
-      "title": "Announcing Region Expansion of P6-B200 instances on SageMaker Studio notebooks",
-      "summary": "AWS has announced the general availability of Amazon EC2 P6-B200 instances in the US East (N. Virginia) region for SageMaker Studio notebooks. These instances are powered by 8 NVIDIA Blackwell GPUs with 1440 GB of GPU memory and 5th Generation Intel Xeon processors, delivering up to 2x better performance than P5en instances for AI training. Customers can use these high-performance instances to develop and fine-tune large foundation models interactively.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-11T23:34:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/p6-b200-region-expansion-sagemaker-studio-notebooks/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 541,
+    "total": 540,
     "byCategory": {
       "COMPUTE": 60,
       "SECURITY": 117,
-      "AI_ML": 105,
+      "AI_ML": 104,
       "CONTAINERS": 31,
       "SERVERLESS": 16,
       "DATABASE": 55,
@@ -5425,7 +5415,7 @@
       "STORAGE": 22,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-08-09T22:30:24.882Z"
+    "lastUpdated": "2026-08-10T11:07:51.869Z"
   },
-  "generatedAt": "2026-08-09T22:30:24.882Z"
+  "generatedAt": "2026-08-10T11:07:51.869Z"
 }
