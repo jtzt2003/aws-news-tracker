@@ -1,6 +1,86 @@
 {
   "announcements": [
     {
+      "id": "8c2fc1cd66dbe35ba1984405d4c03748f5f2d6a1",
+      "title": "Amazon Bedrock expands IAM principal cost allocation to the bedrock-mantle endpoint",
+      "summary": "Amazon Bedrock is a fully managed service that provides secure, enterprise-grade access to high-performing foundation models from leading AI companies, enabling you to build and scale generative AI ap...",
+      "category": "AI_ML",
+      "timestamp": "2026-08-11T20:25:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-expands-iam-principal-cost-allocation-bedrock-mantle/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "33ffba8ac113df489cc24f59e7eb164e7bbfc2cb",
+      "title": "LocateAnything-3B, Qwen-AgentWorld-35B-A3B, and Qwen3.5-122B-A10B models now available on Amazon SageMaker JumpStart",
+      "summary": "NVIDIA's LocateAnything-3B, Qwen's Qwen-AgentWorld-35B-A3B, and Qwen's Qwen3.5-122B-A10B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available ...",
+      "category": "AI_ML",
+      "timestamp": "2026-08-11T15:22:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/locateAnything-3B-qwen-agentworld-35B-A3B-qwen3.5-122B-A10B-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "88caf411647d7c1d310fe05e47c166605847a192",
+      "title": "NVIDIA Nemotron 3.5 Lightning model is now available on Amazon SageMaker JumpStart",
+      "summary": "NVIDIA's Nemotron 3.5 Lightning is now available on Amazon SageMaker JumpStart, giving AWS customers access to the fastest open model in its class for persistent agent workloads and rapid task executi...",
+      "category": "AI_ML",
+      "timestamp": "2026-08-11T15:21:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/nvidia-nemotron-3.5-lightning-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2088f502d2077024a5f119d7fa1558a7b409fca7",
+      "title": "AWS Glue adds one-click access to SageMaker Unified Studio from the AWS console ",
+      "summary": "AWS Glue now provides direct access to Amazon SageMaker Unified Studio, helping data engineers and analysts move from viewing the catalog in the Glue console to querying their data, running data quali...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-11T14:57:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/smus-glue-access",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "88eadfee4f4c2aa2be14ff797a426a03320233fb",
+      "title": "AWS Secrets Manager adds managed external secrets support for Jenkins and SonarQube",
+      "summary": "AWS Secrets Manager now extends its managed external secrets capability to include Jenkins API Tokens and SonarQube Tokens, enabling you to automatically rotate these third-party credentials directly ...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-11T14:57:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/secrets-manager-integration-jenkins-sonarqube/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "23caba99dd793fd6c7a03825b70ad0a849b9f5ec",
+      "title": "Amazon Connect Customer launches performance dashboard for Cases",
+      "summary": "Amazon Connect Customer now provides a performance dashboard for cases that helps managers monitor case volume, resolution trends, and performance against service level agreement (SLA) targets. Manage...",
+      "category": "OTHER",
+      "timestamp": "2026-08-11T13:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-dashboard/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "fd2c74664c81a56787d4c04da22cb08eb25df5cb",
+      "title": "AWS Clean Rooms supports exporting privacy-enhanced analysis logs for SQL ",
+      "summary": "AWS Clean Rooms now supports exporting privacy-enhanced analysis logs for SQL analyses, offering customers greater optimization and troubleshooting capabilities. With this launch, you can export priva...",
+      "category": "OTHER",
+      "timestamp": "2026-08-11T12:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-clean-rooms-export-analysis-log-sql",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a43eb6593c4bc2e5b4abf0032d7cb1bbd638f72c",
+      "title": "Amazon RDS for MariaDB now supports MariaDB 12.3",
+      "summary": "Starting today, Amazon RDS for MariaDB supports MariaDB major version 12.3, the latest Long-Term Support release from the MariaDB community. This release supports MariaDB 12.3.2 minor version.  \n  Mar...",
+      "category": "DATABASE",
+      "timestamp": "2026-08-11T08:54:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-mariadb-1232-available/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "d49f5204b2d48d6798e27488bed44f769d67ca22",
       "title": "FLUX.2-small-decoder and gemma-4-12B-it models now available on Amazon SageMaker JumpStart",
       "summary": "Black Forest Labs' FLUX.2-small-decoder and Google's gemma-4-12B-it models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. The...",
@@ -5369,43 +5449,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-dsql-change-data-capture-preview/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "f16f629faf80c5e455cff6b8de39d228eade69c9",
-      "title": "Amazon SageMaker Data Agent now available for IAM Identity Center domains",
-      "summary": "Amazon SageMaker Data Agent is now available for SageMaker Unified Studio domains configured with IAM Identity Center, extending AI-powered capabilities to data analysts and engineers. The tool allows users to describe analysis goals in plain English and automatically generates working Python or SQL code, eliminating the need to manually write complex queries, joins, and aggregations across SageMaker notebooks and Query Editor environments.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-13T21:53:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-data-agent-idc/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "1132381a9df3fed0970a7903a735f9e11dab8fff",
-      "title": "Amazon FSx for OpenZFS now supports creating Multi-AZ file systems in shared VPCs  ",
-      "summary": "Amazon FSx for OpenZFS now supports creating Multi-AZ file systems in shared VPCs, enabling organizations to decentralize network and storage administration more effectively. This enhancement allows participant accounts in an AWS organization to create and manage FSx file systems in VPC subnets that have been shared by owner accounts.",
-      "category": "STORAGE",
-      "timestamp": "2026-05-13T19:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-fsx-openzfs-multi-az-vpcs/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 539,
+    "total": 545,
     "byCategory": {
-      "AI_ML": 106,
+      "AI_ML": 108,
+      "SECURITY": 118,
+      "OTHER": 113,
+      "DATABASE": 54,
       "COMPUTE": 61,
-      "OTHER": 111,
       "CONTAINERS": 31,
-      "SECURITY": 116,
       "SERVERLESS": 14,
-      "DATABASE": 53,
       "ANALYTICS": 17,
-      "STORAGE": 22,
+      "STORAGE": 21,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-08-11T10:50:15.979Z"
+    "lastUpdated": "2026-08-11T22:40:47.495Z"
   },
-  "generatedAt": "2026-08-11T10:50:15.979Z"
+  "generatedAt": "2026-08-11T22:40:47.495Z"
 }
