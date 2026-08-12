@@ -1,6 +1,36 @@
 {
   "announcements": [
     {
+      "id": "082c22527d27b8cb0174d683ef734e17822de296",
+      "title": "Amazon EKS now supports advanced Kubernetes control plane configuration parameters",
+      "summary": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports configuring parameters for Kubernetes control plane components including the scheduler, controller manager, and API server. You can tune pod...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-08-12T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-control-plane-configuration-parameters",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "35746f8f7884c2acfd322b8f75555ff57c9a8892",
+      "title": "Amazon Connect Customer supports manual assignment of queued agent-first callbacks",
+      "summary": "Amazon Connect Customer now lets agents view and self-assign queued agent-first callbacks alongside emails, tasks, and chats. This gives agents the option to prioritize work that needs immediate follo...",
+      "category": "OTHER",
+      "timestamp": "2026-08-12T17:15:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-agent-callbacks/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ad09acc0fa8e328e076fc5df9fdbdb6ba26e86ab",
+      "title": "Amazon Quick agentic AI capabilities are now available in AWS GovCloud (US-West) ",
+      "summary": "Today, AWS announces that Amazon Quick's agentic AI capabilities are now available in AWS GovCloud (US-West), bringing an agentic AI teammate to government and regulated-industry teams within an isola...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-11T23:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-aws-govcloud-us-west/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "f6936440abd634b69a722a50238dd761154e11fc",
       "title": "Amazon EC2 R8a instances are now available in Canada (Central) region",
       "summary": "Starting today, Amazon EC2 R8a instances are now available in Canada (Central) Region. These instances, feature 5th Gen AMD EPYC processors (formerly code named Turin) with a maximum frequency of 4.5 ...",
@@ -5349,133 +5379,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-announces-AWS-interconnect-multicloud-oci-preview/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "e53d30c07b0a902868581b727b0ba76592191023",
-      "title": "Amazon CloudFront announces support for OCSP Revocation for Mutual TLS (Viewer)",
-      "summary": "Amazon CloudFront now supports Online Certificate Status Protocol (OCSP) revocation checking for mutual TLS (mTLS), allowing real-time validation of client certificate revocation status during connection establishment. This enhancement enables customers to verify that client certificates haven't been revoked before accepting connections, addressing key security requirements for regulated industries and zero-trust architectures.",
-      "category": "NETWORKING",
-      "timestamp": "2026-05-14T22:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-cloudfront-mtls-ocsp/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "88cbbd3014856abd2f0c0d8e02c12e220d7edc6c",
-      "title": "Amazon Bedrock Introduces Advanced Prompt Optimization and Migration Tool ",
-      "summary": "Amazon Bedrock has launched Advanced Prompt Optimization, a new tool designed to help customers quickly optimize and migrate prompts between models without spending days or weeks on manual testing. The tool includes built-in evaluations to prevent regressions and improve performance on underperforming tasks. This addresses a key pain point for customers who previously struggled with efficiently testing and refining prompts when switching models or seeking better performance.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-14T21:50:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-advanced-prompt-optimization-migration-tool/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ff9f6b20cd91febe022a029dc55f4608e0dc1bd7",
-      "title": "Amazon CloudFront announces Passthrough Mode for mutual TLS (Viewer)",
-      "summary": "Amazon CloudFront has introduced a new \"passthrough mode\" for mutual TLS (mTLS) authentication that allows client certificates to be forwarded directly to origin servers for validation, bypassing CloudFront's certificate verification. This feature enables customers with existing mTLS implementations at their origins to use CloudFront without needing to redesign their certificate validation logic for edge processing. The passthrough mode joins the existing required and optional mTLS modes already available in CloudFront.",
-      "category": "NETWORKING",
-      "timestamp": "2026-05-14T21:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-cloudfront-mtls-passthrough/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f9ef78874f78ecd0069b0633767ad6c3d5820f0c",
-      "title": "Announcing general availability of Amazon EC2 M3 Ultra Mac instances ",
-      "summary": "AWS has announced the general availability of Amazon EC2 M3 Ultra Mac instances, which are powered by the latest Mac Studio hardware and represent the next generation of EC2 Mac instances. These instances are specifically designed for Apple developers to run demanding build and test workloads on AWS for applications across Apple platforms including iOS, macOS, iPadOS, tvOS, watchOS, visionOS, and Safari.",
-      "category": "COMPUTE",
-      "timestamp": "2026-05-14T21:23:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-m3-ultra-mac-instances-generally-available/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "50fc4ab71ff1d5ca0f5cebfe9274247401f244fb",
-      "title": "SageMaker AI now supports serverless model customization for Qwen3.6",
-      "summary": "Amazon SageMaker AI has added serverless model customization support for Alibaba Cloud's Qwen3.6 27B parameter model, allowing users to fine-tune it using supervised fine-tuning (SFT) and reinforcement fine-tuning (RFT). This builds on existing support for Qwen3.5 and other models, expanding beyond just deployment to enable customization for specific domains and workflows.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-14T19:18:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-ft-qwen3-6/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "e0bf63c69486fa3f023b1fa539aa23d1b863e9b2",
-      "title": "AWS Transform agents now available in Kiro, Claude, Cursor, and Codex",
-      "summary": "AWS has announced that its Transform agents, which leverage AWS's extensive migration and modernization expertise, are now available through multiple platforms including Kiro, agent plugins, and the AWS Transform MCP server. This integration allows developers to access AWS Transform capabilities directly from their preferred development environments, whether through agentic IDEs, web consoles, or programmatic integration. The launch aims to provide developers with greater flexibility in how they consume AWS Transform services.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-14T19:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-transform-developer-tools/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "41744758147de3637d5c7673957da7e3e086143c",
-      "title": "AWS Transform introduces the agent builder toolkit Kiro power for building customized transformation agents",
-      "summary": "AWS has announced the general availability of Kiro power, an agent builder toolkit that is part of the AWS Transform composability initiative. The toolkit allows AWS Partners and customers to build customized transformation agents tailored to their specific modernization needs that integrate seamlessly with AWS Transform. This enables Migration and Modernization Competency Partners, ISVs, and customers to create differentiated transformation solutions for their unique requirements.",
-      "category": "OTHER",
-      "timestamp": "2026-05-14T19:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-transform-agent-builder-toolkit/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "0d1f78542dee5b71a3db540686fcb6e3b5a2ea00",
-      "title": "AWS Transform now supports customer-owned artifact stores",
-      "summary": "AWS Transform, an AI-powered platform for enterprise assessment, migration, and modernization, now supports customer-owned Amazon S3 buckets for storing transformation artifacts. This new feature gives customers complete control over artifact storage location and security, including the ability to use their own AWS KMS keys for encryption and manage custom access policies.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-14T19:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-transform-customer-owned-artifact/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c7e71bb92002e6f877293ccabde32bcc82eac009",
-      "title": "New models for image generation and text embeddings are now available in Amazon SageMaker JumpStart",
-      "summary": "AWS has announced the availability of two new foundation models in Amazon SageMaker JumpStart: FLUX.2-klein-base-4B for image generation from Black Forest Labs, and Qwen3-Embedding-0.6B for multilingual text embeddings from Qwen. These models enable AWS customers to build creative AI applications and intelligent search systems with state-of-the-art capabilities on AWS infrastructure.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-14T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/image-embeddings-models-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "030b46cea0f0aeaecbe339c1da3c8d9a50e743a6",
-      "title": "ARC Region switch adds Lambda event source mapping execution block for event handling during failover",
-      "summary": "AWS has announced a new Lambda event source mapping execution block feature for Amazon Application Recovery Controller (ARC) Region Switch. This feature automates the coordinated failover of event streams for multi-Region workloads, helping customers running event-driven architectures achieve faster recovery times during regional outages. The enhancement specifically helps orchestrate Lambda function failovers that process event streams from services like Kinesis during disaster recovery scenarios.",
-      "category": "DATABASE",
-      "timestamp": "2026-05-14T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/region-switch-lambda-esm-execution-block/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "1e1b9ba4549ecc1232de95abc8c013064001e9d6",
-      "title": "Amazon Aurora DSQL now supports change data capture (Preview)",
-      "summary": "Amazon Aurora DSQL now offers change data capture (CDC) in preview, allowing real-time streaming of database changes directly to Amazon Kinesis Data Streams. This fully managed feature automatically captures insert, update, and delete operations as change events, eliminating the need for custom streaming pipelines and simplifying the development of event-driven applications and real-time analytics.",
-      "category": "DATABASE",
-      "timestamp": "2026-05-14T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-dsql-change-data-capture-preview/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 546,
+    "total": 538,
     "byCategory": {
-      "COMPUTE": 62,
-      "AI_ML": 108,
-      "SECURITY": 118,
+      "CONTAINERS": 32,
       "OTHER": 113,
-      "DATABASE": 54,
-      "CONTAINERS": 31,
+      "SECURITY": 117,
+      "COMPUTE": 61,
+      "AI_ML": 105,
+      "DATABASE": 52,
       "SERVERLESS": 14,
       "ANALYTICS": 17,
       "STORAGE": 21,
-      "NETWORKING": 8
+      "NETWORKING": 6
     },
-    "lastUpdated": "2026-08-12T10:59:32.041Z"
+    "lastUpdated": "2026-08-12T22:40:06.102Z"
   },
-  "generatedAt": "2026-08-12T10:59:32.041Z"
+  "generatedAt": "2026-08-12T22:40:06.102Z"
 }
