@@ -1,6 +1,96 @@
 {
   "announcements": [
     {
+      "id": "a7e931f855ccd83be4e92ba5a247dcdadacc3647",
+      "title": "AWS Client VPN now supports CLI, administration controls, and faster connections",
+      "summary": "AWS Client VPN introduces a rebuilt AWS VPN Client v6.0.x which offers new features like command-line interface (CLI) support, enterprise administrative controls, and faster connection establishment t...",
+      "category": "OTHER",
+      "timestamp": "2026-08-13T20:49:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-client-vpn-cli/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "820af04ba1d7ba832c205386d2b649324c425367",
+      "title": "Claude Opus 5 is now available in AWS GovCloud (US) ",
+      "summary": "AWS GovCloud (US) now offers Claude Opus 5 — the most advanced Opus model yet, and compatible with zero data retention (ZDR) — bringing a step-change in coding, long-running agents, and complex profes...",
+      "category": "AI_ML",
+      "timestamp": "2026-08-13T18:23:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/claude-opus-5-aws-govcloud/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5dd0ee741c393a3aebd6bbfc768fc14e9fc53799",
+      "title": "Amazon Quick Microsoft 365 extensions are now generally available ",
+      "summary": "Today, Amazon Quick announces the general availability of Microsoft 365 extensions for Excel, PowerPoint, Word, and Outlook. These extensions enable Quick to perform tasks directly within users' M365 ...",
+      "category": "OTHER",
+      "timestamp": "2026-08-13T18:00:00.000Z",
+      "link": "https://aws.amazon.com/amazon-quick-microsoft-365-extensions-generally-available",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b1dc4003f0b9fcca305fc70e2e5b21bd8024e8e7",
+      "title": "Spot Placement Score now includes Local Zones",
+      "summary": "Today, AWS announces support for AWS Local Zones in Spot placement score, helping you identify locations where your Spot capacity request is most likely to succeed. Spot placement score evaluates your...",
+      "category": "COMPUTE",
+      "timestamp": "2026-08-13T17:13:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/spot-placement-score-local-zones/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "baaeb6244c2891db6cd3b7ca16f2ac8d2f17eab7",
+      "title": "Daybreak Red and Daybreak Blue from OpenAI are now available to eligible customers on Amazon Bedrock",
+      "summary": "Security teams can now access Daybreak Red and Daybreak Blue from OpenAI on Amazon Bedrock. Both are part of Daybreak, the cyber defense initiative from OpenAI that gives defenders governed access to ...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-13T16:12:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/openai-daybreak-red-and-blue-on-amazon-bedrock/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6e57af50ce7353b6bb6915b9b67ec00dd9f91e8a",
+      "title": "AWS Certificate Manager supports switching from e-mail to DNS validation",
+      "summary": "AWS Certificate Manager (ACM) now enables you to change the domain validation method on your existing ACM issued public TLS certificates from e-mail to DNS, without reissuing the certificate or changi...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-13T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/AWS-Certificate-Manager-Email-DNS-Switch",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "daa448c9c001f64b6ddd524d73cb1d8ae8f65720",
+      "title": "Amazon S3 adds additional policy details to access denied error messages",
+      "summary": "Amazon S3 now includes the specific AWS Identity and Access Management (IAM) and AWS Organizations policy Amazon Resource Name (ARN) in HTTP 403 Access Denied error messages for same-account and same-...",
+      "category": "STORAGE",
+      "timestamp": "2026-08-13T13:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/s3-additional-policy-details-access-denied-error-messages/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c5eac0b8d6b65f23218e61beebc8d798a24ee941",
+      "title": "Amazon Quick now supports approval policies for sharing",
+      "summary": "Amazon Quick now offers approval policies, giving administrators governance controls over how assets are shared within their organization. With approval policies, administrators can require designated...",
+      "category": "OTHER",
+      "timestamp": "2026-08-12T22:22:00.000Z",
+      "link": "https://aws.amazon.com/whats-new/2026/08/amazon-quick-approval-policies-sharing/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5cb4772e570d9bee896be495b3db01d70ebc2825",
+      "title": "Amazon Quick now supports per-user resource limits",
+      "summary": "Amazon Quick now enables administrators to set per-user limits on index storage and agent hours, giving them direct control over subscription costs. With limits management, administrators can create l...",
+      "category": "OTHER",
+      "timestamp": "2026-08-12T22:17:00.000Z",
+      "link": "https://aws.amazon.com/whats-new/2026/08/amazon-quick-per-user-resource-limits/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "cf776519c3803fcfad3a493e8648fcb57e62fe99",
       "title": "AWS Global View now offers an interactive map view for AWS Regions and AWS Local Zones",
       "summary": "Today, AWS announces the addition of an interactive map view to AWS Global View in the AWS Management Console, providing a visual way to explore AWS Global Infrastructure.\n \nPreviously, customers had ...",
@@ -5339,103 +5429,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-training-plan-support-for-studio/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "754b092ea7f79ac87d89eef258bf1068b98c9e7b",
-      "title": "Amazon CloudWatch Logs announces increased query result limits",
-      "summary": "Amazon CloudWatch Logs has increased its query result limits from 10,000 to 100,000 results for Logs Insights queries. This enhancement eliminates the need for customers to split queries into smaller time ranges and allows them to use features like patterns, visualization, and export on the expanded result set.",
-      "category": "OTHER",
-      "timestamp": "2026-05-15T21:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/cloudwatch-logs-query-results/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "2d0fd426ba5e8609d4436dba0b044961b8af7f16",
-      "title": "Amazon EMR Serverless is now available in additional AWS Regions",
-      "summary": "Amazon EMR Serverless has expanded its availability to six additional AWS Regions across Asia Pacific (Hyderabad, Malaysia, New Zealand, Taipei, and Thailand) and Mexico (Central). EMR Serverless is a deployment option that enables data engineers and analysts to run petabyte-scale data analytics using Apache Spark and Apache Hive applications in a simple and cost-effective manner without managing infrastructure.",
-      "category": "ANALYTICS",
-      "timestamp": "2026-05-15T19:50:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-emr-serverless-aws-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b733e8dadb5ccaa9b91ff7c3a010b13d0aa42c05",
-      "title": "AWS Partner Central agents now accelerates opportunity creation",
-      "summary": "AWS has announced that AWS Partner Central agents now enable partners to create opportunities through natural language conversations instead of filling out complex multi-step forms. These AI-powered agents, built on Amazon Bedrock AgentCore, help partners identify pipeline insights, advance deals with recommendations, and find funding opportunities. The update streamlines the opportunity creation process by allowing partners to simply have a conversation with the AI agent.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-15T18:41:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-partner-central-agents-oppo",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "996067fbd2f9ff3fcbe7dc0a3f9c089088112007",
-      "title": "Amazon Connect Cases now lets you edit related items and delete cases from the agent workspace",
-      "summary": "Amazon Connect Cases now allows agents to directly edit and delete related items and cases from their workspace without requiring administrator assistance. Agents can update comments, unlink incorrectly associated contacts, delete erroneous cases, and manage custom related items like orders and returns. This feature is available in US East (N. Virginia) and US West (Oregon) AWS regions.",
-      "category": "OTHER",
-      "timestamp": "2026-05-15T17:25:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-cases-related-item/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "1f20af5592a542174303f8a67dd0903b274b7b6f",
-      "title": "Amazon RDS for PostgreSQL announces Extended Support minor versions 11.22-rds.20260224, 12.22-rds.20260224, and 13.23-rds.20260224",
-      "summary": "Amazon RDS for PostgreSQL has released new Extended Support minor versions (11.22-rds.20260224, 12.22-rds.20260224, and 13.23-rds.20260224) that include critical security and bug fixes. AWS recommends upgrading to these versions to address known vulnerabilities in previous PostgreSQL versions. Amazon RDS Extended Support provides up to three additional years of security updates beyond the standard support end date for major versions.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-15T16:08:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-rds-postgresql-extended-support/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "584e17f8e02825ca6711bfe955ea369941f8665e",
-      "title": "Amazon Managed Grafana now supports in-place upgrade to Grafana version 12.4 ",
-      "summary": "Amazon Managed Grafana now supports easy in-place upgrades from version 10.4 to 12.4 through the AWS Console, SDK, or CLI. The upgrade introduces native Grafana Scenes-powered dashboards for improved performance, queryless Drilldown apps for exploring Prometheus metrics and other observability data, and enhanced CloudWatch plugin capabilities with PPL/SQL query support.",
-      "category": "OTHER",
-      "timestamp": "2026-05-15T16:06:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-managed-grafana-v12-update/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "3ab786558b1086c593b8de7b93cedef1c6374332",
-      "title": "AWS Organizations now supports higher quotas for service control policies (SCPs)",
-      "summary": "AWS Organizations has increased service control policy (SCP) quotas, doubling both the maximum number of SCPs that can be attached to a single node (from 5 to 10) and the maximum SCP size (from 5,120 to 10,240 characters). These enhanced limits enable organizations to create more detailed permissions and comprehensive security controls across their AWS infrastructure.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-15T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-organizations-increased-scp-quotas/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "2e3330b45113d7a07c9ca413da2fd0a606eb13e0",
-      "title": "AWS announces AWS Interconnect - multicloud connectivity with Oracle Cloud Infrastructure in preview",
-      "summary": "AWS has announced the public preview of AWS Interconnect, a new service that provides multicloud connectivity with Oracle Cloud Infrastructure (OCI). This service addresses the growing customer demand for multicloud strategies by enabling easier interconnection of workloads across multiple cloud environments. The solution aims to give customers greater flexibility in choosing technologies and deploying applications across different cloud platforms with improved interoperability.",
-      "category": "OTHER",
-      "timestamp": "2026-05-15T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-announces-AWS-interconnect-multicloud-oci-preview/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 542,
+    "total": 543,
     "byCategory": {
-      "COMPUTE": 62,
-      "CONTAINERS": 32,
-      "SECURITY": 119,
       "OTHER": 114,
       "AI_ML": 105,
+      "COMPUTE": 63,
+      "SECURITY": 119,
+      "STORAGE": 22,
+      "CONTAINERS": 32,
       "DATABASE": 52,
       "SERVERLESS": 14,
-      "ANALYTICS": 17,
-      "STORAGE": 21,
+      "ANALYTICS": 16,
       "NETWORKING": 6
     },
-    "lastUpdated": "2026-08-13T11:00:08.656Z"
+    "lastUpdated": "2026-08-13T22:41:03.386Z"
   },
-  "generatedAt": "2026-08-13T11:00:08.657Z"
+  "generatedAt": "2026-08-13T22:41:03.386Z"
 }
