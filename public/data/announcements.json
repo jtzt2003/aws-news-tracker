@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "cf776519c3803fcfad3a493e8648fcb57e62fe99",
+      "title": "AWS Global View now offers an interactive map view for AWS Regions and AWS Local Zones",
+      "summary": "Today, AWS announces the addition of an interactive map view to AWS Global View in the AWS Management Console, providing a visual way to explore AWS Global Infrastructure.\n \nPreviously, customers had ...",
+      "category": "COMPUTE",
+      "timestamp": "2026-08-12T22:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-global-view-map-view/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "082c22527d27b8cb0174d683ef734e17822de296",
       "title": "Amazon EKS now supports advanced Kubernetes control plane configuration parameters",
       "summary": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports configuring parameters for Kubernetes control plane components including the scheduler, controller manager, and API server. You can tune pod...",
@@ -11,12 +21,42 @@
       "isNew": false
     },
     {
+      "id": "3e6b1e7c44eb77caea0bb28219df17e56638a5b3",
+      "title": "AWS IAM now provides role manager to set up IAM roles automatically",
+      "summary": "Today, AWS announces the general availability of role manager, a capability in AWS Identity and Access Management (IAM) that automatically sets up the IAM roles your AWS services need. When you set up...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-12T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-role-manager",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "35746f8f7884c2acfd322b8f75555ff57c9a8892",
       "title": "Amazon Connect Customer supports manual assignment of queued agent-first callbacks",
       "summary": "Amazon Connect Customer now lets agents view and self-assign queued agent-first callbacks alongside emails, tasks, and chats. This gives agents the option to prioritize work that needs immediate follo...",
       "category": "OTHER",
       "timestamp": "2026-08-12T17:15:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-agent-callbacks/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0e4fe3a31f43dc9746993d1e573e26fc8bc6aed9",
+      "title": "Amazon Quick adds deny by default for custom permissions",
+      "summary": "Amazon Quick custom permissions now include deny by default, a governance setting that automatically restricts new AI capabilities before they reach users.\n  Previously, new AI capabilities were avail...",
+      "category": "OTHER",
+      "timestamp": "2026-08-12T17:15:00.000Z",
+      "link": "https://aws.amazon.com/whats-new/2026/08/amazon-quick-deny-by-default-permissions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "beba7de54e2ae170f75f8490fefa3c65caddac2a",
+      "title": "Amazon Quick now supports data loss prevention with Microsoft Purview",
+      "summary": "Amazon Quick now integrates with Microsoft Purview to enforce data loss prevention (DLP) policies across your Quick environment. Organizations need to ensure that sensitive files aren't shared outside...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-12T17:09:00.000Z",
+      "link": "https://aws.amazon.com/whats-new/2026/08/amazon-quick-dlp-purview/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5382,12 +5422,12 @@
     }
   ],
   "stats": {
-    "total": 538,
+    "total": 542,
     "byCategory": {
+      "COMPUTE": 62,
       "CONTAINERS": 32,
-      "OTHER": 113,
-      "SECURITY": 117,
-      "COMPUTE": 61,
+      "SECURITY": 119,
+      "OTHER": 114,
       "AI_ML": 105,
       "DATABASE": 52,
       "SERVERLESS": 14,
@@ -5395,7 +5435,7 @@
       "STORAGE": 21,
       "NETWORKING": 6
     },
-    "lastUpdated": "2026-08-12T22:40:06.102Z"
+    "lastUpdated": "2026-08-13T11:00:08.656Z"
   },
-  "generatedAt": "2026-08-12T22:40:06.102Z"
+  "generatedAt": "2026-08-13T11:00:08.657Z"
 }
