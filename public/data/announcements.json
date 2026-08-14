@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "1a54f340e89c276d153caf84a129f8d1d898d13f",
+      "title": "AWS Billing and Cost Management introduces Managed Dashboards",
+      "summary": "AWS Billing and Cost Management (BCM) Dashboards now include Managed Dashboards. These are a collection of preconfigured and read-only dashboards located in your dashboard list. They deliver actionabl...",
+      "category": "OTHER",
+      "timestamp": "2026-08-14T02:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-billing-and-cost-management-managed-dashboards/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "a7e931f855ccd83be4e92ba5a247dcdadacc3647",
       "title": "AWS Client VPN now supports CLI, administration controls, and faster connections",
       "summary": "AWS Client VPN introduces a rebuilt AWS VPN Client v6.0.x which offers new features like command-line interface (CLI) support, enterprise administrative controls, and faster connection establishment t...",
@@ -67,6 +77,16 @@
       "category": "STORAGE",
       "timestamp": "2026-08-13T13:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/s3-additional-policy-details-access-denied-error-messages/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "627dce9ca6dcdfa4d9af687ed57b629ea6c443ad",
+      "title": "AWS Clean Rooms supports minimum aggregation thresholds in custom analysis rules",
+      "summary": "AWS Clean Rooms now supports minimum aggregation thresholds for the Custom analysis rule type. Minimum aggregation helps protect the privacy of individual data subjects by preventing queries from retu...",
+      "category": "OTHER",
+      "timestamp": "2026-08-13T12:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-clean-rooms-minimum-aggregation-custom-analysis-rules",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5432,9 +5452,9 @@
     }
   ],
   "stats": {
-    "total": 543,
+    "total": 545,
     "byCategory": {
-      "OTHER": 114,
+      "OTHER": 116,
       "AI_ML": 105,
       "COMPUTE": 63,
       "SECURITY": 119,
@@ -5445,7 +5465,7 @@
       "ANALYTICS": 16,
       "NETWORKING": 6
     },
-    "lastUpdated": "2026-08-13T22:41:03.386Z"
+    "lastUpdated": "2026-08-14T10:57:02.825Z"
   },
-  "generatedAt": "2026-08-13T22:41:03.386Z"
+  "generatedAt": "2026-08-14T10:57:02.825Z"
 }
