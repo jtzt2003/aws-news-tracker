@@ -1,6 +1,26 @@
 {
   "announcements": [
     {
+      "id": "136d6b9db4daa53c52562e6fb325070e0827ca78",
+      "title": "Amazon RDS for Oracle now supports Oracle Application Express (APEX) version 26.1",
+      "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports Oracle Application Express (APEX) version 26.1. Amazon RDS for Oracle is a managed database service that makes it simple to set ...",
+      "category": "DATABASE",
+      "timestamp": "2026-08-14T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-oracle-apex-26-1/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8d5d9838e4372f17d05e0174e09cb86c6e4aa71b",
+      "title": "Amazon SES click tracking now supports custom URL paths for mobile app deep linking",
+      "summary": "Amazon Simple Email Service (SES) now makes it easier to support mobile deep linking with the new ses:custom-path HTML attribute. When you add this attribute to an <a> tag, SES carries your path segme...",
+      "category": "OTHER",
+      "timestamp": "2026-08-14T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-supports-customurl-deeplinking",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "1a54f340e89c276d153caf84a129f8d1d898d13f",
       "title": "AWS Billing and Cost Management introduces Managed Dashboards",
       "summary": "AWS Billing and Cost Management (BCM) Dashboards now include Managed Dashboards. These are a collection of preconfigured and read-only dashboards located in your dashboard list. They deliver actionabl...",
@@ -17,6 +37,16 @@
       "category": "OTHER",
       "timestamp": "2026-08-13T20:49:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-client-vpn-cli/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c63c5b74a1ae073d6ef2ab67e473f8bcc7a4c246",
+      "title": "Amazon Redshift adds rg.large and rg.12xlarge instance sizes in AWS GovCloud (US) Regions",
+      "summary": "Amazon Redshift now offers rg.large and rg.12xlarge instance sizes for RG instances in the AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions. RG instances deliver better performance, running d...",
+      "category": "DATABASE",
+      "timestamp": "2026-08-13T19:34:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-redshift-adds-rg-large-12xlarge-aws-govcloud-regions/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5452,20 +5482,20 @@
     }
   ],
   "stats": {
-    "total": 545,
+    "total": 548,
     "byCategory": {
-      "OTHER": 116,
+      "DATABASE": 54,
+      "OTHER": 117,
       "AI_ML": 105,
       "COMPUTE": 63,
       "SECURITY": 119,
       "STORAGE": 22,
       "CONTAINERS": 32,
-      "DATABASE": 52,
       "SERVERLESS": 14,
       "ANALYTICS": 16,
       "NETWORKING": 6
     },
-    "lastUpdated": "2026-08-14T10:57:02.825Z"
+    "lastUpdated": "2026-08-14T22:22:12.668Z"
   },
-  "generatedAt": "2026-08-14T10:57:02.825Z"
+  "generatedAt": "2026-08-14T22:22:12.668Z"
 }
