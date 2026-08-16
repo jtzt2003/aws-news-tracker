@@ -5409,85 +5409,15 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-managed-grafana-ipv6/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "95a3fe593de39247d21d35003b73705ab60acdbc",
-      "title": "AWS Management Console now displays AWS Local Zones in the Region Selector",
-      "summary": "AWS has updated the Management Console to include AWS Local Zones in the Region selector, providing a unified experience for managing both Regions and Local Zones from the top navigation. Customers can now access a dedicated Local Zones tab that displays all their opted-in Local Zones in one place, making it easier to navigate and manage resources across AWS's global infrastructure.",
-      "category": "COMPUTE",
-      "timestamp": "2026-05-18T21:50:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-local-zones-region-selector/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "757b7532ea2f0cdd71640c7f4056dd7d8cfb3247",
-      "title": "AWS Glue zero-ETL is now available in Asia Pacific (Mumbai) region",
-      "summary": "AWS Glue zero-ETL integrations are now available in the Asia Pacific (Mumbai) region, allowing customers to simplify data pipelines and reduce latency for analytics and machine learning workloads. These fully managed integrations minimize the need to build traditional ETL data pipelines for common data ingestion and replication tasks, helping customers accelerate time-to-insight.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-18T21:10:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-glue-zero-etl-mumbai-region",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "0b41ea5fe34a431468bf6ec966c56931e12528e8",
-      "title": "Amazon Lightsail CDN distributions now support IPv6-only instances as origins",
-      "summary": "Amazon Lightsail CDN distributions now support using IPv6-only instances as origin servers, enabling customers to deliver content globally with low latency and high transfer speeds. This allows customers to run cost-effective IPv6-only instances for their websites and applications while still serving content to all end users, including those on networks without IPv6 support.",
-      "category": "COMPUTE",
-      "timestamp": "2026-05-18T18:49:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-lightsail-cdn-ipv6/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "9181e5e61ffc6b72a868a13d7243615e9c01e46a",
-      "title": "Amazon EVS enables support for 32 hosts per environment  ",
-      "summary": "Amazon Elastic VMware Service (Amazon EVS) has doubled its capacity limit, now supporting up to 32 ESXi hosts per environment compared to the previous 16-host limit. This enhancement provides greater flexibility for configuring VMware Cloud Foundation domains and clusters, allowing users to organize hosts across single large clusters, multiple smaller clusters, or custom combinations. Users can access this increased capacity by submitting a service quota increase request.",
-      "category": "OTHER",
-      "timestamp": "2026-05-18T17:55:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-evs-32-hosts",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6c7504a272bf2c64027864297650081ff611ac99",
-      "title": "AWS SAM CLI adds AWS CloudFormation Language Extensions support to accelerate local serverless development ",
-      "summary": "AWS SAM CLI now supports AWS CloudFormation Language Extensions, allowing developers to reduce template duplication by defining similar resources (like Lambda functions, DynamoDB tables, or SNS topics) once and reusing them throughout their infrastructure as code templates. This enhancement maintains the full local development workflow, enabling faster serverless development by allowing local iteration without waiting for cloud deployments.",
-      "category": "DATABASE",
-      "timestamp": "2026-05-18T16:31:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-sam-cli-cloudformation/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "243b703840d1357f3bd6a0101b2a03e6081e3b06",
-      "title": "Amazon Redshift adds ALTER TABLE for Iceberg tables and writes via the AWS Glue Data Catalog mount",
-      "summary": "Amazon Redshift now supports direct writes to Apache Iceberg tables through the AWS Glue Data Catalog mount and adds ALTER TABLE functionality for modifying Iceberg table schemas, partitioning, and properties. This enhancement allows users to write Redshift transformations directly to their data lake without creating external schemas, making the data accessible to any query engine. The feature is particularly beneficial for Iceberg tables integrated with AWS Lake Formation.",
-      "category": "DATABASE",
-      "timestamp": "2026-05-18T16:25:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-redshift-alter-table-iceberg/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "14bea67a8da308393b57b2b44a3a8780015549ff",
-      "title": "Amazon SageMaker Studio now supports GPU capacity reservation through SageMaker Flexible Training Plans",
-      "summary": "Amazon SageMaker Studio IDEs (JupyterLab and Code Editor) now support GPU capacity reservations through SageMaker Flexible Training Plans (FTP), providing predictable access to high-performance computing resources. This new feature offers up to 65% cost savings compared to On-Demand instances while ensuring reliable GPU availability for ML workflows within budget constraints.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-18T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-training-plan-support-for-studio/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 548,
+    "total": 541,
     "byCategory": {
-      "DATABASE": 54,
-      "OTHER": 117,
-      "AI_ML": 105,
-      "COMPUTE": 63,
+      "DATABASE": 52,
+      "OTHER": 116,
+      "AI_ML": 103,
+      "COMPUTE": 61,
       "SECURITY": 119,
       "STORAGE": 22,
       "CONTAINERS": 32,
@@ -5495,7 +5425,7 @@
       "ANALYTICS": 16,
       "NETWORKING": 6
     },
-    "lastUpdated": "2026-08-16T10:22:13.937Z"
+    "lastUpdated": "2026-08-16T22:20:07.364Z"
   },
-  "generatedAt": "2026-08-16T10:22:13.937Z"
+  "generatedAt": "2026-08-16T22:20:07.364Z"
 }
