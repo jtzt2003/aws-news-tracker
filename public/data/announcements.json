@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "31a62fb354db6e23283dc74a5399d77dcf4b141a",
+      "title": "Amazon Bedrock expands API support and introduces Cross Region Inferencing for OpenAI models",
+      "summary": "Amazon Bedrock now supports the OpenAI GPT-5.6 models (Sol, Terra, and Luna) on the bedrock-runtime endpoint, with support for the Responses, Converse, and Chat Completions APIs. It also adds support ...",
+      "category": "AI_ML",
+      "timestamp": "2026-08-17T20:29:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-cross-region-openai-v2/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b0fde257e4fa6be78a96482e6c57014984f03959",
+      "title": "Amazon EC2 Auto Scaling now supports batch instance termination",
+      "summary": "Amazon EC2 Auto Scaling now supports batch instance termination in a single API call. You can now pass up to 100 instance IDs to the TerminateInstanceInAutoScalingGroup API to terminate them as a batc...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-08-17T18:11:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-auto-scaling-batch-termination",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "30bc04c96ca2655b259ac396fb6926f0e4d49efa",
+      "title": "Amazon EC2 R8i and R8i-Flex instances are now available in Canada West (Calgary) region",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the Canada West (Calgary) region. These instances are powered by custom Intel Xeon 6 processors, a...",
+      "category": "COMPUTE",
+      "timestamp": "2026-08-17T17:28:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8i-r8i-flex-calgary/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ecc036fe67108218fa9e94a886f5de33ba2bc7d3",
+      "title": "Amazon Connect Customer dashboards now support reporting on routing steps and agent proficiencies",
+      "summary": "Amazon Connect Customer dashboards now support reporting on routing steps and agent proficiencies enabling supervisors to monitor and optimize how contacts are matched to agents based on agent profici...",
+      "category": "OTHER",
+      "timestamp": "2026-08-17T17:23:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-routing-steps/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "769808c3594d07b168ee8c565c24f08eeb15be92",
+      "title": "AWS Network Firewall Now Supports Stateful Rule Hit Counts ",
+      "summary": "AWS Network Firewall now provides rule hit counts for stateful rules, giving network administrators and security engineers visibility into how often each stateful rule in the firewall policy matches n...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-17T16:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-network-firewall-stateful-rule-hit-counts/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "cac1bf00a89bee5dbdf13f37749426f524dcd0ef",
+      "title": "Amazon Quick Microsoft 365 extensions are now generally available ",
+      "summary": "Amazon Quick announces the general availability of Microsoft 365 extensions for Excel, PowerPoint, Word, and Outlook. These extensions enable Quick to perform tasks directly within users' M365 environ...",
+      "category": "OTHER",
+      "timestamp": "2026-08-17T15:41:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-microsoft-365-extensions-generally-available",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2dd38f1c2d974e70306ee5a6a97373977a655bea",
+      "title": "Amazon OpenSearch Service now supports automatic semantic enrichment for VPC domains",
+      "summary": "Amazon OpenSearch Service now extends automatic semantic enrichment to VPC-enabled domains, allowing customers with private network configurations to leverage AI-powered semantic search without exposi...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-17T15:39:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-service-vpc/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f412e06626d3cf48626826fcee7e2decca0209aa",
+      "title": "AWS CloudShell now includes a built-in visual file editor",
+      "summary": "AWS CloudShell now includes a built-in visual file editor that you can launch directly from your shell session using a single 'edit' command, no setup required. CloudShell provides a browser-based she...",
+      "category": "SERVERLESS",
+      "timestamp": "2026-08-17T13:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-cloudshell-visual-file-editor/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d02e8c519b569f5ba2ade8045c0479ae5c5a9ed8",
+      "title": "Amazon Quick now supports per-user resource limits",
+      "summary": "Amazon Quick now enables administrators to set per-user limits on index storage and agent hours, giving them direct control over subscription costs. With limits management, administrators can create l...",
+      "category": "OTHER",
+      "timestamp": "2026-08-14T21:07:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-per-user-resource-limits/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "bf4dd3e0deed98b5a6cf8d413f9007258d3c4a75",
+      "title": "Amazon Quick now supports data loss prevention with Microsoft Purview",
+      "summary": "Amazon Quick now integrates with Microsoft Purview to enforce data loss prevention (DLP) policies across your Quick environment. Organizations need to ensure that sensitive files aren't shared outside...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-14T21:04:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-dlp-purview/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "136d6b9db4daa53c52562e6fb325070e0827ca78",
       "title": "Amazon RDS for Oracle now supports Oracle Application Express (APEX) version 26.1",
       "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports Oracle Application Express (APEX) version 26.1. Amazon RDS for Oracle is a managed database service that makes it simple to set ...",
@@ -5369,63 +5469,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-hyperpod-data-capture",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "407d77440d663e5d5555ed4e9526ed6afb78f669",
-      "title": "Amazon MWAA now supports Apache Airflow 3.2",
-      "summary": "Amazon Managed Workflows for Apache Airflow (MWAA) now supports Apache Airflow version 3.2, the latest major release of the open-source workflow orchestration framework. This update introduces new data-aware scheduling capabilities and developer productivity improvements for teams building and operating data pipelines on AWS. MWAA continues to provide a managed service that allows users to run Apache Airflow at scale without managing the underlying infrastructure.",
-      "category": "OTHER",
-      "timestamp": "2026-05-19T20:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-mwaa-now-supports-apache-airflow-3-2/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "e1953dfc470b51013a7b486a2e3faf4a051e49e4",
-      "title": "Amazon Inspector is now available in the AWS Asia Pacific (Taipei) Region",
-      "summary": "Amazon Inspector, AWS's automated vulnerability management service, is now available in the AWS Asia Pacific (Taipei) Region. The service continuously scans AWS workloads including EC2 instances, container images, and Lambda functions for software vulnerabilities and unintended network exposure. This regional expansion extends Amazon Inspector's security coverage to help customers in the Taipei region better protect their AWS infrastructure.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-19T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-inspector-taipei/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4f2e910931460e150ba0a55ed945a5f0d1ecb3fb",
-      "title": "Amazon ECS introduces pause and continue controls for service deployments",
-      "summary": "Amazon ECS now offers pause and continue controls for service deployments, allowing users to halt deployments at critical stages and resume them when ready. This feature enables manual approval workflows, operational checks, integration tests, and custom automation while maintaining native ECS deployment strategies with managed traffic shifting. The controls provide interactive decision points during the deployment process for better operational control and validation.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-05-19T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ecs-pause-continue-deployments/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "3019a8646183feeebfe12b11d7f68cf3d3a74138",
-      "title": "Amazon Managed Grafana now supports dual-stack connectivity (IPv6 and IPv4)",
-      "summary": "Amazon Managed Grafana now supports dual-stack connectivity, allowing workspaces to communicate over both IPv4 and IPv6 protocols for Grafana version 10.4 or later. This feature simplifies network management by eliminating the need to handle overlapping address spaces in VPCs and enables customers to migrate to IPv6 while maintaining connectivity to their Grafana workspaces.",
-      "category": "OTHER",
-      "timestamp": "2026-05-19T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-managed-grafana-ipv6/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 541,
+    "total": 547,
     "byCategory": {
-      "DATABASE": 52,
-      "OTHER": 116,
-      "AI_ML": 103,
-      "COMPUTE": 61,
-      "SECURITY": 119,
-      "STORAGE": 22,
+      "AI_ML": 104,
       "CONTAINERS": 32,
-      "SERVERLESS": 14,
+      "COMPUTE": 62,
+      "OTHER": 117,
+      "SECURITY": 121,
+      "SERVERLESS": 15,
+      "DATABASE": 52,
+      "STORAGE": 22,
       "ANALYTICS": 16,
       "NETWORKING": 6
     },
-    "lastUpdated": "2026-08-17T10:31:43.962Z"
+    "lastUpdated": "2026-08-17T22:23:40.507Z"
   },
-  "generatedAt": "2026-08-17T10:31:43.962Z"
+  "generatedAt": "2026-08-17T22:23:40.508Z"
 }
