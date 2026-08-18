@@ -11,12 +11,32 @@
       "isNew": false
     },
     {
+      "id": "6bca1f9371858be3409b4681b26490e75387ed83",
+      "title": "Amazon ECR now supports 25 replication rules per registry",
+      "summary": "Amazon Elastic Container Registry (Amazon ECR) has increased the maximum number of replication rules per registry from 10 to 25.\n \nPreviously, customers with complex multi-region or multi-account arch...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-08-17T19:01:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecr-increased-replication-rules-limit",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "b0fde257e4fa6be78a96482e6c57014984f03959",
       "title": "Amazon EC2 Auto Scaling now supports batch instance termination",
       "summary": "Amazon EC2 Auto Scaling now supports batch instance termination in a single API call. You can now pass up to 100 instance IDs to the TerminateInstanceInAutoScalingGroup API to terminate them as a batc...",
       "category": "CONTAINERS",
       "timestamp": "2026-08-17T18:11:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-auto-scaling-batch-termination",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9723565b2965a283e02e68f2c16167ad75ea8eaf",
+      "title": "Amazon MSK now supports configuring custom domain names for MSK Provisioned clusters",
+      "summary": "You can now easily configure custom domain names on Amazon MSK Provisioned clusters, on either ZooKeeper or KRaft mode for metadata management. This capability helps client applications maintain the s...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-17T18:01:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/17/amazon-msk-custom-domain-names/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5449,43 +5469,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-local-zones-istanbul-turkiye/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "58ea0cd7da312dfddf4dc4ec09a8c00f8e74490d",
-      "title": "AWS Transfer Family web apps now support federated permissions with IAM Identity Center across AWS Regions ",
-      "summary": "AWS Transfer Family web apps now support federated permissions with IAM Identity Center across multiple AWS Regions, whereas previously they were limited to the Region where IAM Identity Center was enabled. This enhancement leverages IAM Identity Center's multi-Region replication capability, allowing users to create Transfer Family web apps in additional Regions to reduce latency and improve reliability.",
-      "category": "COMPUTE",
-      "timestamp": "2026-05-20T10:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-transfer-family-federated-permissions-across-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "69083c6e6854d9275804cb634af4a88624789382",
-      "title": "Amazon SageMaker HyperPod now supports data capture for inference workloads",
-      "summary": "Amazon SageMaker HyperPod now includes data capture functionality for inference workloads, allowing customers to automatically record both input requests and output responses from their deployed models. This capability enables organizations to monitor model performance, meet compliance requirements, debug production issues, and conduct offline analysis of their generative AI and machine learning models.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-20T01:08:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-hyperpod-data-capture",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
     "total": 547,
     "byCategory": {
       "AI_ML": 104,
-      "CONTAINERS": 32,
-      "COMPUTE": 62,
-      "OTHER": 117,
+      "CONTAINERS": 33,
       "SECURITY": 121,
+      "COMPUTE": 61,
+      "OTHER": 117,
       "SERVERLESS": 15,
       "DATABASE": 52,
       "STORAGE": 22,
       "ANALYTICS": 16,
       "NETWORKING": 6
     },
-    "lastUpdated": "2026-08-17T22:23:40.507Z"
+    "lastUpdated": "2026-08-18T10:27:46.721Z"
   },
-  "generatedAt": "2026-08-17T22:23:40.508Z"
+  "generatedAt": "2026-08-18T10:27:46.721Z"
 }
