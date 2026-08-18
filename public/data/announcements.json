@@ -1,6 +1,66 @@
 {
   "announcements": [
     {
+      "id": "c7d8df8d629128e5c0a577ee8d22c213d494e14f",
+      "title": "AgentCore payments is now generally available in Amazon Bedrock AgentCore",
+      "summary": "Today, AWS announces the general availability of AgentCore payments, a capability within Amazon Bedrock AgentCore that enables AI agents to autonomously discover, access, and pay for paid APIs, MCPs, ...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-18T19:15:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-agentcore-payments-ga/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "77118f10791fca146de10049e205ca07a0c87e6d",
+      "title": "Amazon SageMaker Unified Studio now supports data profiling and anomaly detection",
+      "summary": "Amazon SageMaker Unified Studio now supports data profiling and anomaly detection, powered by AWS Glue Data Quality. Data stewards, engineers and analysts can generate statistical profiles of their da...",
+      "category": "AI_ML",
+      "timestamp": "2026-08-18T18:49:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/smus-data-profiling",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c9bfb7e9fb397ddf3c30919114b4b65534d7e1cc",
+      "title": "Amazon MWAA Serverless now supports PythonOperator and BashOperator",
+      "summary": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) Serverless now supports running custom Python functions and shell scripts directly in the serverless runtime using PythonOperator and BashOper...",
+      "category": "STORAGE",
+      "timestamp": "2026-08-18T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/mwaa-serverless-pythonoperator-bashoperator/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1ca6624eae7e1b3867ca00a9e1f3133fc709bfa9",
+      "title": "Amazon EC2 R8i instances are now available in Israel (Tel Aviv) region",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i instances are available in the Israel (Tel Aviv) region. These instances are powered by custom Intel Xeon 6 processors, available only on ...",
+      "category": "COMPUTE",
+      "timestamp": "2026-08-18T17:24:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8i-israel-tel-aviv/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b89a892f274afea17bbff2a45fa3ef3fcfd5d92b",
+      "title": "IAM Policy Autopilot now supports Terraform plan files",
+      "summary": "IAM Policy Autopilot can now generate baseline IAM policies directly from a Terraform plan file. IAM Policy Autopilot is an open source tool, launched at re:Invent 2025, that analyzes your code to det...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-18T17:19:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/iam-policy-autopilot-now-supports-terraform-plan-files",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "613c99088d1172d10f5faa18da1a5beee41d5428",
+      "title": "PostgreSQL 19 Beta 3 is now available in Amazon RDS Database Preview Environment",
+      "summary": "Starting today, Amazon RDS for PostgreSQL 19 Beta 3 is available in the Amazon RDS Database Preview Environment, allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL....",
+      "category": "DATABASE",
+      "timestamp": "2026-08-18T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/postgresql-19-beta-3-amazon-rds-database-preview-environment/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "31a62fb354db6e23283dc74a5399d77dcf4b141a",
       "title": "Amazon Bedrock expands API support and introduces Cross Region Inferencing for OpenAI models",
       "summary": "Amazon Bedrock now supports the OpenAI GPT-5.6 models (Sol, Terra, and Luna) on the bedrock-runtime endpoint, with support for the Responses, Converse, and Chat Completions APIs. It also adds support ...",
@@ -5389,103 +5449,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-request-level-usage-attribution/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "c3ad301b14684ecf309985a379799f2e1b546f7a",
-      "title": "AWS Security Hub now uncovers identity risks from unused access",
-      "summary": "AWS Security Hub now integrates identity risk management into its unified security console, allowing central security teams to detect unused IAM permissions, roles, and credentials across their entire AWS organization. This new capability eliminates the need to toggle between multiple tools to manage identity risks across hundreds of accounts. The feature helps security teams identify and reduce identity-related security risks at scale from a single, centralized location.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-20T20:20:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-security-hub-unused-access/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "54cc6f33eeb707c4d61295c2a7c2c7fdce8c90d9",
-      "title": "Amazon DocumentDB (with MongoDB compatibility) Serverless is now available on DocumentDB 8.0",
-      "summary": "Amazon DocumentDB Serverless is now available on version 8.0, offering automatic scaling that adjusts capacity based on application demand and can provide up to 90% cost savings compared to peak capacity provisioning. DocumentDB 8.0 delivers significant performance improvements with up to 7x better query latency and 5x improved compression ratios, while adding compatibility with MongoDB API version 6.",
-      "category": "DATABASE",
-      "timestamp": "2026-05-20T18:17:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/5/docdb8-serverless",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "996844be3cffa4633fdbde68c647a9b98415fdf8",
-      "title": "Security Hub Extended expands to 21 curated partner solutions across 9 categories",
-      "summary": "AWS Security Hub Extended has expanded to include 21 curated partner security solutions across 9 categories, adding new vendors like SentinelOne, CyberArk, Sublime, Varonis, LayerX, Native Security, and Zenity. The expansion provides enterprises with greater flexibility in selecting security solutions that meet their specific requirements, all with pay-as-you-go pricing and consolidated AWS billing.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-20T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-security-hub-extended/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "87e8ea8e8161d0c8409c13fedb86511fa944cdec",
-      "title": "Amazon SageMaker Unified Studio now supports data quality rule authoring and evaluation",
-      "summary": "Amazon SageMaker Unified Studio now includes data quality rule authoring and evaluation capabilities powered by AWS Glue Data Quality. Users can define quality rules, run evaluations, and view results directly within the platform for both stored catalog data and data moving through Visual ETL jobs. This feature helps detect data quality issues early to prevent bad data from impacting data lakes and downstream analytics or machine learning processes.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-20T17:42:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/smus-data-quality",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "72ad3906bda1589ac79db11580ddd867c773e75d",
-      "title": "AWS announces ExtendDB, an open source DynamoDB-compatible adapter",
-      "summary": "AWS has announced ExtendDB version 0.1, an open source project that provides a DynamoDB-compatible API with pluggable storage backends. This tool allows developers to use DynamoDB's programming model in environments where the managed DynamoDB service isn't available, such as on local developer laptops. ExtendDB essentially brings DynamoDB's NoSQL database interface to self-hosted and offline development scenarios.",
-      "category": "DATABASE",
-      "timestamp": "2026-05-20T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-extenddb-dynamodb/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "abcbba2400409a7c0ccf0cd2c5e7f30b2ac7ac90",
-      "title": "AWS Billing Conductor Improves Account Visibility with Billing Transfer Inventory ",
-      "summary": "AWS Billing Conductor Console now provides a new billing transfer inventory feature that helps customers identify accounts that have accepted billing transfer invitations but still don't have access to pro forma billing data. This enhancement improves account billing visibility by helping customers detect and close gaps in their billing coverage. The feature works in conjunction with billing groups configured through AWS Billing Conductor to ensure accounts can properly access cost data across billing and cost management tools.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-20T16:28:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-billing-conductor-billing-transfer/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "8166910fdbea47cc4b62b6d0c5d36f31327d5502",
-      "title": "ECS supports native integration with Amazon EBS volumes in GovCloud Regions",
-      "summary": "Amazon ECS now supports native integration with Amazon EBS volumes in AWS GovCloud Regions, allowing containers to mount EBS storage for data-intensive applications like ETL jobs, media transcoding, and ML inference workloads. This feature enables ECS to automatically provision, manage, and de-provision EBS volumes with each task launch, simplifying storage management for serverless container deployments.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-05-20T15:53:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/ecs-amazon-ebs-govcloud/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "9c455a7128b522b99b73daa1e144441a991f6b17",
-      "title": "Announcing the general availability of a new AWS Local Zone in Istanbul, Türkiye",
-      "summary": "AWS has launched a new Local Zone in Istanbul, Turkey, bringing AWS infrastructure closer to end users in the region. This deployment enables organizations to achieve single-digit millisecond latency and meet local data residency requirements by storing and backing up data within Turkey. The Local Zone extends core AWS services including compute, storage, and networking to the Istanbul metropolitan area.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-05-20T14:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-local-zones-istanbul-turkiye/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 547,
+    "total": 545,
     "byCategory": {
-      "AI_ML": 104,
-      "CONTAINERS": 33,
       "SECURITY": 121,
-      "COMPUTE": 61,
+      "AI_ML": 103,
+      "STORAGE": 23,
+      "COMPUTE": 62,
+      "DATABASE": 51,
+      "CONTAINERS": 31,
       "OTHER": 117,
       "SERVERLESS": 15,
-      "DATABASE": 52,
-      "STORAGE": 22,
       "ANALYTICS": 16,
       "NETWORKING": 6
     },
-    "lastUpdated": "2026-08-18T10:27:46.721Z"
+    "lastUpdated": "2026-08-18T22:22:48.410Z"
   },
-  "generatedAt": "2026-08-18T10:27:46.721Z"
+  "generatedAt": "2026-08-18T22:22:48.410Z"
 }
