@@ -1,6 +1,46 @@
 {
   "announcements": [
     {
+      "id": "b1b0ee8c9e2bf739738ca49c8f0f4e92e4521e88",
+      "title": "Amazon Bedrock now supports SpaceXAI Grok 4.6",
+      "summary": "Amazon Bedrock now supports SpaceXAI Grok 4.6, SpaceXAI's latest flagship model built for long-running agents and ambitious interactive and visual work. Grok 4.6 offers a 500K context window and confi...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-19T05:18:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-grok-4-6/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "771383b8005dc41b6e606dac26e0fe9e00ae2a51",
+      "title": "Amazon Bedrock now supports OpenAI models in India",
+      "summary": "Amazon Bedrock now supports the OpenAI GPT-5.6 models (Terra and Luna) in India, with India Geo cross-Region inference. Customers with regulatory requirements of in-country inferencing can now use Ope...",
+      "category": "AI_ML",
+      "timestamp": "2026-08-18T23:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-openai-india-v1/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a8d3fb3b9188bf448c45c7f1b454c94f4f5e60ec",
+      "title": "AWS IAM identity federation to external services is now available in AWS European Sovereign Cloud Region",
+      "summary": "AWS Identity and Access Management (IAM) now enables AWS workloads in the AWS European Sovereign Cloud (Germany) Region to securely authenticate with external services using short-lived JSON Web Token...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-18T22:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-european-sovereign-cloud/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "94573dda1ee37a32da9044802d49c472ea2338c4",
+      "title": "Amazon Corretto August 2026 Critical Security Patch Updates",
+      "summary": "On Aug 18, 2026, Amazon announced critical security patch update (CSPU) for Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK. Corretto 26.0.2.11.1, 25.0.4.8.1, 21.0...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-18T21:48:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-corretto-august-2026-security-updates",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "c7d8df8d629128e5c0a577ee8d22c213d494e14f",
       "title": "AgentCore payments is now generally available in Amazon Bedrock AgentCore",
       "summary": "Today, AWS announces the general availability of AgentCore payments, a capability within Amazon Bedrock AgentCore that enables AI agents to autonomously discover, access, and pay for paid APIs, MCPs, ...",
@@ -5429,43 +5469,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-mysql/8-4/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "43a4b94dc38196156b1ed552cb519d332bc1118e",
-      "title": "Amazon RDS Custom now supports the latest GDR updates for Microsoft SQL Server",
-      "summary": "Amazon RDS Custom for SQL Server now supports the latest General Distribution Release (GDR) updates, including SQL Server 2019 CU32+GDR and SQL Server 2022 CU24+GDR. These updates address security vulnerabilities CVE-2026-32167 and CVE-2026-32176.",
-      "category": "DATABASE",
-      "timestamp": "2026-05-21T07:22:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-custom-sql-server-latest-gdr-updates-microsoft-sql-server",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "8d61a46d77b72e3139d4953a64796f307b0672c8",
-      "title": "Amazon Bedrock expands support for request-level usage attribution",
-      "summary": "Amazon Bedrock now supports request-level usage attribution, allowing customers to track model inference usage for specific teams, applications, environments, and experiments through the InvokeModel and InvokeModelWithResponseStream APIs. This feature provides detailed visibility into organizational usage patterns, enabling better cost optimization and internal reporting. The capability requires no additional resource provisioning.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-20T23:34:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-request-level-usage-attribution/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 545,
+    "total": 547,
     "byCategory": {
-      "SECURITY": 121,
+      "SECURITY": 124,
       "AI_ML": 103,
       "STORAGE": 23,
       "COMPUTE": 62,
-      "DATABASE": 51,
+      "DATABASE": 50,
       "CONTAINERS": 31,
       "OTHER": 117,
       "SERVERLESS": 15,
       "ANALYTICS": 16,
       "NETWORKING": 6
     },
-    "lastUpdated": "2026-08-18T22:22:48.410Z"
+    "lastUpdated": "2026-08-19T10:27:57.298Z"
   },
-  "generatedAt": "2026-08-18T22:22:48.410Z"
+  "generatedAt": "2026-08-19T10:27:57.298Z"
 }
