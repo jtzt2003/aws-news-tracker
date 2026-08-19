@@ -1,6 +1,86 @@
 {
   "announcements": [
     {
+      "id": "08196b206570ef3c02dadfee7da9f37640213de5",
+      "title": "Amazon SageMaker notebooks now support trusted identity propagation",
+      "summary": "Amazon SageMaker Notebooks now support Trusted Identity Propagation (TIP) with Amazon Athena, Amazon Redshift, and Amazon EMR Serverless, enabling per-user access control for data analytics.\n \nWhen co...",
+      "category": "AI_ML",
+      "timestamp": "2026-08-19T20:25:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-sagemaker/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f4a6fb98b6bde181652412d3b6d4ca76073b7707",
+      "title": "AWS Cost Anomaly Detection supports third-party models on Amazon Bedrock",
+      "summary": "AWS Cost Anomaly Detection now monitors spend on third-party foundation models running on Amazon Bedrock, such as Anthropic Claude and other provider-hosted models. Cost Anomaly Detection uses machine...",
+      "category": "AI_ML",
+      "timestamp": "2026-08-19T17:57:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-cost-anomaly-detection-bedrock-3P/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "694307d49a235f5df6562da9d347e01c247d826d",
+      "title": "Amazon OpenSearch Ingestion is now available in GovCloud Regions",
+      "summary": "Starting today, customers can use Amazon OpenSearch Ingestion in AWS GovCloud (US-East) and AWS GovCloud (US-West), for ingesting data into their Amazon OpenSearch Service managed clusters or serverle...",
+      "category": "ANALYTICS",
+      "timestamp": "2026-08-19T17:54:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/opensearch-ingestion-available-govcloud-regions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "bea265f57492ac02dc81375d601ef0db692f9c74",
+      "title": "AWS announces a new Availability Zone in the Europe (London) Region",
+      "summary": "AWS has added a fourth Availability Zone to the Europe (London) Region (eu-west-2), expanding infrastructure capacity to meet growing demand for cloud compute in the Region. The new Availability Zone ...",
+      "category": "COMPUTE",
+      "timestamp": "2026-08-19T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-new-availability-zone-europe/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "08df5e95eb0b5cc86c1f08b36632b1332a8ad390",
+      "title": "Amazon Quick adds deny by default for custom permissions ",
+      "summary": "Amazon Quick custom permissions now include deny by default, a governance setting that automatically restricts new AI capabilities before they reach users.\n  Previously, new AI capabilities were avail...",
+      "category": "OTHER",
+      "timestamp": "2026-08-19T15:36:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-deny-by-default/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "47e3dcaa442d3468ef0a954eb8dddff56140d348",
+      "title": "Amazon WorkSpaces Applications now offers in-console monitoring capabilities",
+      "summary": "Amazon WorkSpaces Applications now offers a native monitoring experience embedded directly in the service console. Administrators can now access real-time session-level metrics, instance-level resourc...",
+      "category": "COMPUTE",
+      "timestamp": "2026-08-19T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-workspaces-applications-console-monitoring",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b8f5b45afc51385d72173c69b2b309a8f3166ea9",
+      "title": "AWS Storage Gateway now supports FIPS-compliant private connectivity for Tape and Volume Gateway",
+      "summary": "AWS Storage Gateway now supports FIPS 140-3 validated endpoints over AWS PrivateLink for Tape Gateway and Volume Gateway. Previously, FIPS endpoints were available only over the public internet. Now y...",
+      "category": "STORAGE",
+      "timestamp": "2026-08-19T10:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/storage-gateway-fips-privatelink/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "bd878e9b9c5d72cae0b6451eb9cd9ecbc2d61063",
+      "title": "Amazon EC2 R8a instances are now available in Asia Pacific (Taipei) region ",
+      "summary": "Starting today, Amazon EC2 R8a instances are now available in Asia Pacific (Taipei) Region. These instances, feature 5th Gen AMD EPYC processors (formerly code named Turin) with a maximum frequency of...",
+      "category": "COMPUTE",
+      "timestamp": "2026-08-19T07:51:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8a-asia-pacific-taipei/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "b1b0ee8c9e2bf739738ca49c8f0f4e92e4521e88",
       "title": "Amazon Bedrock now supports SpaceXAI Grok 4.6",
       "summary": "Amazon Bedrock now supports SpaceXAI Grok 4.6, SpaceXAI's latest flagship model built for long-running agents and ambitious interactive and visual work. Grok 4.6 offers a 500K context window and confi...",
@@ -5429,63 +5509,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-logs-insights/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "facd5fc3f1434dd9bb734519a5407300cd1e7a2a",
-      "title": "Amazon EC2 C7i-flex, M7i-flex & M7i instances now available in Asia Pacific (Hyderabad) region",
-      "summary": "AWS has launched Amazon EC2 C7i-flex, M7i-flex, and M7i instances in the Asia Pacific (Hyderabad) region, powered by custom 4th Gen Intel Xeon Scalable processors (Sapphire Rapids). These AWS-exclusive custom processors deliver up to 15% better performance compared to similar x86-based Intel processors used by other cloud providers, with the flex instances offering improved price-performance benefits for most workloads.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-21T19:39:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-c7i-flex-m7i-flex-m7i-instances-HYD-region/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f782f9eec2f00f9ec2714e5384b5224fad57a552",
-      "title": "SageMaker Unified Studio automates Glue connector provisioning for cross-subnet job retries",
-      "summary": "Amazon SageMaker Unified Studio now automatically creates Glue connections for job retries across different subnets, enhancing data pipeline resilience and reducing unplanned downtime. This automation eliminates the need for manual configuration of backup connectors or engineer intervention during subnet failures. The feature helps organizations maintain business-critical data pipelines and meet their service level agreements more reliably.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-21T19:27:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/sagemaker-unified-studio-glue/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "dd2081f6e694eba5bd13259226671f6a4b2b51bd",
-      "title": "Amazon SageMaker AI now supports OpenAI-compatible APIs for inference endpoints",
-      "summary": "Amazon SageMaker Inference now supports OpenAI-compatible APIs, allowing developers to use familiar tools like OpenAI SDK, LangChain, and Strands Agents with their SageMaker endpoints. The integration requires only changing the endpoint URL with no need for custom code, SDK wrappers, or rewrites, making it seamless to switch between OpenAI and SageMaker services.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-21T17:55:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-ai-openai-apis/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "7b828339cebc75a17a1460438c33ad652791119c",
-      "title": "Amazon Aurora MySQL 8.4  is now generally available",
-      "summary": "Amazon Aurora MySQL-Compatible Edition now supports MySQL 8.4, a Long Term Support (LTS) version, with compatibility for community MySQL 8.4.7. The release introduces aligned version numbering so Aurora versions now match their corresponding community MySQL versions, and Aurora automatically manages underlying patches to simplify operations. Aurora MySQL now commits to supporting major versions within 12 months of their community MySQL release.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-21T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-mysql/8-4/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 547,
+    "total": 551,
     "byCategory": {
-      "SECURITY": 124,
-      "AI_ML": 103,
-      "STORAGE": 23,
-      "COMPUTE": 62,
+      "AI_ML": 102,
+      "ANALYTICS": 17,
+      "COMPUTE": 65,
+      "OTHER": 118,
+      "STORAGE": 24,
+      "SECURITY": 123,
       "DATABASE": 50,
       "CONTAINERS": 31,
-      "OTHER": 117,
       "SERVERLESS": 15,
-      "ANALYTICS": 16,
       "NETWORKING": 6
     },
-    "lastUpdated": "2026-08-19T10:27:57.298Z"
+    "lastUpdated": "2026-08-19T22:23:45.907Z"
   },
-  "generatedAt": "2026-08-19T10:27:57.298Z"
+  "generatedAt": "2026-08-19T22:23:45.907Z"
 }
