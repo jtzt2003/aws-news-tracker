@@ -1,6 +1,66 @@
 {
   "announcements": [
     {
+      "id": "c62d682dbe487dacaab93b1944a0f05b96372816",
+      "title": "Amazon EKS now supports certificate authority (CA) rotation with automated lifecycle management",
+      "summary": "Today, Amazon Elastic Kubernetes Service (Amazon EKS) announced certificate authority (CA) rotation, enabling customers to rotate their cluster's CA through a managed lifecycle with automated safeguar...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-08-20T18:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-certificate-authority-ca-rotation-automated-lifecycle-management",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b24279ca32e6bb16ce70c7006854d861ae5c908c",
+      "title": "Amazon CloudFront now supports Origin Access Control (OAC) for Amazon S3 Multi-Region Access Points ",
+      "summary": "Starting today, customers can protect their origins using Amazon S3 Multi-Region Access Points (MRAP) by using CloudFront Origin Access Control (OAC) to only allow access from designated CloudFront di...",
+      "category": "STORAGE",
+      "timestamp": "2026-08-20T18:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudfront-oac-s3-mrap",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "37ed8d584f7ac4c9cd8a3a09c2bfaa32d0638ba2",
+      "title": "AWS Partner Central agents MCP Server now supports OAuth with AWS Sign-In",
+      "summary": "AWS partners can now access AWS Partner Central agents from tools they already use, such as Amazon Quick and Kiro, using OAuth through AWS Sign-In. Partners can authorize agent access with their exist...",
+      "category": "OTHER",
+      "timestamp": "2026-08-20T18:02:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/8/aws-partner-central-mcp/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0bb50d20ce29930e9fed2089ec345d0cf7377b1f",
+      "title": "Generative AI Inference Recommendation for Amazon SageMaker now available in the SageMaker AI Studio",
+      "summary": "Amazon SageMaker AI now offers Generative AI Inference Recommendations in SageMaker AI Studio, giving customers a guided, low-code, no-code path to find the best inference configuration for their work...",
+      "category": "AI_ML",
+      "timestamp": "2026-08-20T17:25:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/generative-ai-inference-recommendation-for-amazon-sagemaker-now-available-in-the-sagemaker-ai-studio",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6b31fec46a2da1e9f990fe663cf8e4da5ea209c4",
+      "title": "AWS Direct Connect introduces inbound prefix controls and higher prefix scale",
+      "summary": "Today, AWS Direct Connect announced inbound prefix controls, a new capability that lets you allocate and manage inbound route-prefix allocations for your private and transit virtual interfaces (VIFs) ...",
+      "category": "NETWORKING",
+      "timestamp": "2026-08-20T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-direct-connect-new-prefix-controls",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4d07c339eb9f19cde50d1dedb4b7377513ef9908",
+      "title": "AWS Marketplace now supports category-based notifications and multi-channel delivery for partners",
+      "summary": "AWS partners can now configure category-based notifications and multi-channel delivery for AWS Marketplace notifications through AWS User Notifications. Previously, partners received their AWS Marketp...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-20T00:06:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "eb8f498772831965374c98d21de5aa98b7fcea0b",
       "title": "Launching External Web Access for Web Search on Amazon Bedrock ",
       "summary": "Earlier this month, we announced Web Search on Amazon Bedrock, a built-in server-side tool that allows you to ground model responses with current web knowledge, while maintaining data within your secu...",
@@ -17,6 +77,16 @@
       "category": "AI_ML",
       "timestamp": "2026-08-19T22:55:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/web-search-amazon-bedrock/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "55999adad538dc268d1e8931e8d294e6b34ea96d",
+      "title": "Amazon EC2 enables AMI creation with local snapshots from instances on Outposts",
+      "summary": "Amazon EC2 now supports creating Amazon Machine Images (AMIs) with local snapshots from instances running on AWS Outposts. This capability makes it easier for customers to create AMIs while storing sn...",
+      "category": "COMPUTE",
+      "timestamp": "2026-08-19T21:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/ec2-create-image-local-snapshot-outpost",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5469,103 +5539,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-guardduty-aws-backup-s3-continuous/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "39e6fb347b56a18f3cb14258a065e772c10ec7bd",
-      "title": "Amazon SageMaker Unified Studio adds interactive interface for managing Feature Store in IAM Domains ",
-      "summary": "Amazon SageMaker Unified Studio now provides an interactive, code-free interface for managing Feature Store within IAM domains, making feature group creation and management accessible without programming requirements. This update enables data scientists, ML engineers, and business analysts to collaborate on feature management tasks from a unified environment, streamlining the process of handling ML model inputs used for training and inference.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-22T20:07:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-feature-store/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c784cfe74a3c2e144393292f030d6b6884554c7b",
-      "title": "Amazon SageMaker expands domain management across domain types",
-      "summary": "Amazon SageMaker Unified Studio has expanded its domain management capabilities to support both Identity Center-based and IAM-based domains outside of the AWS console. This allows administrators to create and manage projects, configure workforce identity, manage users and permissions, and set networking properties across all domain types. Previously, these domain management features were only available for IAM-based domains.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-22T19:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/domain-management-iam-idc/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "8e05965dfb1a5f243998ffbddd7ac648fa9f0b12",
-      "title": "New agentic migration assessment capabilities now available with AWS Transform",
-      "summary": "AWS Transform has launched new agentic migration assessment capabilities that enable users to perform what-if scenarios, customize assumptions, and conduct comprehensive TCO assessments. The enhanced features support flexible file formats including RVTools exports, CMDB data, and AWS Transform discovery tool exports to help build migration business cases more efficiently. These capabilities are designed to accelerate migration decision-making processes for organizations planning their cloud transitions.",
-      "category": "OTHER",
-      "timestamp": "2026-05-22T18:58:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/assessment-capabilities-transform",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f41d21c9a3d221a23f1c7b728f089118c00007f2",
-      "title": "Amazon SageMaker adds business metadata and governance in IAM-based domains",
-      "summary": "Amazon SageMaker Unified Studio now enables customers to add business context and metadata to their AWS Glue Data Catalog tables within IAM-based domains, including business names, descriptions, and documentation. The service includes AI-generated metadata capabilities that automatically produce business names and descriptions, significantly reducing the manual effort required to catalog large numbers of tables. This enhancement brings improved data governance and business context management to SageMaker's IAM-based domain users.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-22T18:24:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/sagemaker-catalog-iam-domains/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d8c4aebe04a0ccdf8130b52d84ba4755cbc6fe33",
-      "title": "AWS Security Agent adds verification scripts for pentest findings",
-      "summary": "AWS Security Agent now automatically generates verification scripts for penetration test findings, allowing security teams to independently reproduce and validate discovered vulnerabilities. This replaces the previous manual process of following reproduction steps from finding details. Teams can simply download the generated scripts, configure environment variables, and execute them against target systems to streamline vulnerability verification.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-22T17:21:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-security-agent/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "e3859899c5fff1e41359e8c05c56e5de6bb284dd",
-      "title": "Amazon WorkSpaces Personal now supports WorkSpace Migration for Linux WorkSpaces",
-      "summary": "Amazon WorkSpaces Personal now supports WorkSpace Migration for all Linux operating systems, enabling customers to seamlessly migrate between different Linux distributions or upgrade to newer OS versions. The migration process is automated and preserves user data from the home directory during the transition.",
-      "category": "OTHER",
-      "timestamp": "2026-05-22T16:24:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/workspaces-linux-migration",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "7cdfdc6c61dfd35cedde1f4d98fc6c01a9c47d8a",
-      "title": "Amazon Keyspaces (for Apache Cassandra) expands to Asia Pacific (Malaysia) and Asia Pacific (Thailand) Regions",
-      "summary": "Amazon Keyspaces (for Apache Cassandra) has expanded its availability to the Asia Pacific (Malaysia) and Asia Pacific (Thailand) regions. This expansion enables customers in these regions to build Cassandra-compatible applications with reduced latency while maintaining data residency compliance by keeping their data within the local region.",
-      "category": "OTHER",
-      "timestamp": "2026-05-22T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-keyspaces-malaysia-thailand/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "23083a5647e47fb70be30c516db9175463278364",
-      "title": "AWS Clean Rooms now supports mutable payment configurations for collaborations",
-      "summary": "AWS Clean Rooms now allows customers to modify payment configurations for collaboration members after a collaboration has been created, providing greater flexibility in managing payment responsibilities. Customers can now specify which partners are authorized to pay for different types of costs, including SQL queries, PySpark jobs, ML model training and inference, and synthetic data generation. This feature gives organizations more control and adaptability when developing new use cases with their collaboration partners.",
-      "category": "OTHER",
-      "timestamp": "2026-05-22T12:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-clean-rooms-mutable-payments",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 555,
+    "total": 554,
     "byCategory": {
+      "CONTAINERS": 32,
+      "STORAGE": 25,
+      "OTHER": 115,
       "AI_ML": 104,
-      "OTHER": 118,
-      "SECURITY": 123,
+      "NETWORKING": 7,
+      "SECURITY": 121,
+      "COMPUTE": 67,
       "ANALYTICS": 17,
-      "COMPUTE": 66,
       "SERVERLESS": 16,
-      "STORAGE": 24,
-      "DATABASE": 50,
-      "CONTAINERS": 31,
-      "NETWORKING": 6
+      "DATABASE": 50
     },
-    "lastUpdated": "2026-08-20T10:29:43.763Z"
+    "lastUpdated": "2026-08-20T22:27:10.339Z"
   },
-  "generatedAt": "2026-08-20T10:29:43.764Z"
+  "generatedAt": "2026-08-20T22:27:10.340Z"
 }
