@@ -1,12 +1,52 @@
 {
   "announcements": [
     {
+      "id": "eb8f498772831965374c98d21de5aa98b7fcea0b",
+      "title": "Launching External Web Access for Web Search on Amazon Bedrock ",
+      "summary": "Earlier this month, we announced Web Search on Amazon Bedrock, a built-in server-side tool that allows you to ground model responses with current web knowledge, while maintaining data within your secu...",
+      "category": "AI_ML",
+      "timestamp": "2026-08-19T23:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-web-access-web-search/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "24b9a580fc33685bbad31e692c3210d316856377",
+      "title": "Web Search in Amazon Bedrock AgentCore adds domain and published date filtering, expands to Europe and Asia Pacific ",
+      "summary": "Web Search in Amazon Bedrock AgentCore now supports domain filtering and published-date filtering, giving agents per-request control over which web sources and time windows they search. Amazon Bedrock...",
+      "category": "AI_ML",
+      "timestamp": "2026-08-19T22:55:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/web-search-amazon-bedrock/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c7cd130b0f1f59cc7e305775c312a6b8fe09b925",
+      "title": "Amazon CloudWatch log Centralization now supports log group tag propagation",
+      "summary": "Amazon CloudWatch Centralization now copies log group tags from source accounts to the destination log groups created by centralization rules. CloudWatch Centralization aggregates log data from multip...",
+      "category": "OTHER",
+      "timestamp": "2026-08-19T21:06:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-centralization-tag-propogation/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "08196b206570ef3c02dadfee7da9f37640213de5",
       "title": "Amazon SageMaker notebooks now support trusted identity propagation",
       "summary": "Amazon SageMaker Notebooks now support Trusted Identity Propagation (TIP) with Amazon Athena, Amazon Redshift, and Amazon EMR Serverless, enabling per-user access control for data analytics.\n \nWhen co...",
       "category": "AI_ML",
       "timestamp": "2026-08-19T20:25:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-sagemaker/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "14b3e9ae32658b8764c776fa0f126668280dd355",
+      "title": "Amazon CloudWatch pipelines adds GeoIP, RDS, and XML processors",
+      "summary": "Amazon CloudWatch pipelines now includes three new processors that parse and enrich log data as it's ingested: an Amazon RDS log parser, an XML parser and a GeoIP enrichment processor. CloudWatch pipe...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-19T20:13:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/cloudwatch-geoip-rds-xml/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -31,12 +71,32 @@
       "isNew": false
     },
     {
+      "id": "bbda68835d9921749386777896da5a5a9d076cdb",
+      "title": "AWS Marketplace launches support for Amazon Lightsail",
+      "summary": "Today, AWS Marketplace announces support for launching select Amazon Machine Images (AMIs) on Amazon Lightsail. Customers who want simple, predictable pricing and a streamlined instance-creation exper...",
+      "category": "COMPUTE",
+      "timestamp": "2026-08-19T17:04:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace-launch-ami-amazon-lightsail",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "bea265f57492ac02dc81375d601ef0db692f9c74",
       "title": "AWS announces a new Availability Zone in the Europe (London) Region",
       "summary": "AWS has added a fourth Availability Zone to the Europe (London) Region (eu-west-2), expanding infrastructure capacity to meet growing demand for cloud compute in the Region. The new Availability Zone ...",
       "category": "COMPUTE",
       "timestamp": "2026-08-19T17:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-new-availability-zone-europe/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ceb0664cff5324b0bb601cb5fbd989a85630b5c6",
+      "title": "AWS Lambda MicroVMs is now available in 5 additional AWS regions",
+      "summary": "AWS Lambda MicroVMs is now available in 5 additional AWS Regions: Asia Pacific (Mumbai), Asia Pacific (Singapore), Asia Pacific (Sydney), Europe (Frankfurt), and Europe (Stockholm). With this launch, ...",
+      "category": "SERVERLESS",
+      "timestamp": "2026-08-19T16:14:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/lambda-microvms-5-additional-regions",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5489,43 +5549,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-clean-rooms-mutable-payments",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "fd964371ee960e60ff3d653a248b712eb3db4cb5",
-      "title": "AWS Secrets Manager adds managed external secrets support for Datadog vended keys and Snowflake Programmatic Access Tokens",
-      "summary": "AWS Secrets Manager now supports automatic rotation of Datadog keys (API keys, Application keys, and admin credentials) and Snowflake Programmatic Access Tokens through its managed external secrets feature. This capability allows customers to automatically rotate third-party credentials directly from AWS Secrets Manager with native integration to these services.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-22T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/secrets-manager-managed-external-secrets-datadog-snowflake/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "aed6be80b8a70cc9cc10aecec0f72fbcf0f8a727",
-      "title": "Amazon CloudWatch Logs Insights adds new query commands and functions",
-      "summary": "Amazon CloudWatch Logs Insights has added 13 new query commands and functions that enhance log analysis capabilities. These new tools enable users to perform advanced operations like string manipulation, field encoding/decoding, parsing non-JSON formats, and calculating geographic distances. The update provides more powerful ways to query, transform, and analyze logs to derive deeper insights from log data.",
-      "category": "OTHER",
-      "timestamp": "2026-05-21T23:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-logs-insights/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 551,
+    "total": 555,
     "byCategory": {
-      "AI_ML": 102,
-      "ANALYTICS": 17,
-      "COMPUTE": 65,
+      "AI_ML": 104,
       "OTHER": 118,
-      "STORAGE": 24,
       "SECURITY": 123,
+      "ANALYTICS": 17,
+      "COMPUTE": 66,
+      "SERVERLESS": 16,
+      "STORAGE": 24,
       "DATABASE": 50,
       "CONTAINERS": 31,
-      "SERVERLESS": 15,
       "NETWORKING": 6
     },
-    "lastUpdated": "2026-08-19T22:23:45.907Z"
+    "lastUpdated": "2026-08-20T10:29:43.763Z"
   },
-  "generatedAt": "2026-08-19T22:23:45.907Z"
+  "generatedAt": "2026-08-20T10:29:43.764Z"
 }
