@@ -1,6 +1,46 @@
 {
   "announcements": [
     {
+      "id": "634661242924a7a08a68b0d15805afbd4249e0e1",
+      "title": "Amazon Connect Customer now lets managers chat with their data",
+      "summary": "Amazon Connect Customer now lets managers chat with their data in plain language and get back the answer, the evidence behind it, and the fix, in seconds. Managers have always had the data. What they ...",
+      "category": "OTHER",
+      "timestamp": "2026-08-21T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-ai-data-analytics",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2a027bb59aba2a60c35d9ecb88c064ffa83722cd",
+      "title": "AWS Deadline Cloud now tracks automatic download status in the Deadline Cloud Monitor",
+      "summary": "The AWS Deadline Cloud monitor now shows the progress, status, and health of your automatic file downlaods from jobs running in the cloud. Deadline Cloud is a fully managed service that helps teams ru...",
+      "category": "OTHER",
+      "timestamp": "2026-08-21T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-deadline-cloud-auto-download-status-tracking/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8ae3728810107dbf2868c248794e77a6ccfc6d1b",
+      "title": "AWS Glue 6.0 delivers 30% price reduction and Iceberg v3 support",
+      "summary": "AWS Glue 6.0 is now generally available, delivering a 30% price reduction and introducing full support for Apache Iceberg v3, newer versions of Apache Hudi and Delta Lake, and new capabilities to impr...",
+      "category": "AI_ML",
+      "timestamp": "2026-08-21T16:42:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-6-0-price-reduction-iceberg-v3",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "643f7d95e93b97ef94a2f18632e88535522fa172",
+      "title": "Amazon SES now supports open and click tracking override parameters ",
+      "summary": "Amazon Simple Email Service (SES) now supports open and click tracking override parameters in the SendEmail and SendBulkEmail APIs. Senders can enable or disable open tracking and click tracking on an...",
+      "category": "OTHER",
+      "timestamp": "2026-08-21T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-adds-open-click-tracking-override/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "fd2d7745352a48a2c45aa11ab39f03169945d970",
       "title": "AWS announces the general availability of a new AWS Local Zone in Las Vegas, Nevada",
       "summary": "AWS Local Zone in Las Vegas, Nevada is now generally available. The new AWS Local Zone supports Amazon Elastic Compute Cloud (Amazon EC2) C7i, M7i, R7i, and C8gn instances, Amazon Elastic Block Store ...",
@@ -17,6 +57,16 @@
       "category": "SECURITY",
       "timestamp": "2026-08-20T20:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-timestream-influxdb-cmk/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5adcb6a483af3c2133d198db1f0df4c76762b233",
+      "title": "Amazon EC2 C8gd, M8gd and R8gd instances are now available in additional AWS Regions",
+      "summary": "Amazon Elastic Compute Cloud (Amazon EC2) C8gd, M8gd, and R8gd instances with up to 11.4 TB of local NVMe-based SSD block-level storage are now available in additional regions. C8gd instances are now ...",
+      "category": "COMPUTE",
+      "timestamp": "2026-08-20T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8gd-m8gd/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5592,20 +5642,20 @@
     }
   ],
   "stats": {
-    "total": 559,
+    "total": 564,
     "byCategory": {
+      "OTHER": 118,
+      "AI_ML": 105,
       "CONTAINERS": 33,
       "SECURITY": 122,
-      "COMPUTE": 68,
+      "COMPUTE": 69,
       "STORAGE": 25,
-      "OTHER": 115,
       "DATABASE": 52,
-      "AI_ML": 104,
       "NETWORKING": 7,
       "ANALYTICS": 17,
       "SERVERLESS": 16
     },
-    "lastUpdated": "2026-08-21T10:29:39.869Z"
+    "lastUpdated": "2026-08-21T22:23:56.338Z"
   },
-  "generatedAt": "2026-08-21T10:29:39.870Z"
+  "generatedAt": "2026-08-21T22:23:56.338Z"
 }
