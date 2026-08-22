@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "ded64527b6be471fc88a964ab33f7a2046bb6bad",
+      "title": "Amazon Bedrock announces reduced pricing for OpenAI GPT-5.6 Sol",
+      "summary": "Today, OpenAI announced that they are lowering API prices for GPT-5.6 Sol. Following the recent Terra and Luna price reductions, Sol now costs $4 per million input tokens and $20 per million output to...",
+      "category": "AI_ML",
+      "timestamp": "2026-08-21T20:11:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-openai-gpt-56-sol-reduced-pricing/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "634661242924a7a08a68b0d15805afbd4249e0e1",
       "title": "Amazon Connect Customer now lets managers chat with their data",
       "summary": "Amazon Connect Customer now lets managers chat with their data in plain language and get back the answer, the evidence behind it, and the fix, in seconds. Managers have always had the data. What they ...",
@@ -17,6 +27,16 @@
       "category": "OTHER",
       "timestamp": "2026-08-21T18:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-deadline-cloud-auto-download-status-tracking/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1cb6f865873efeda3d0e456b5ba89b6709e4caec",
+      "title": "Amazon EKS Capability for Argo CD now supports custom configuration",
+      "summary": "The Amazon Elastic Kubernetes Service (Amazon EKS) Capability for Argo CD now supports custom configuration through a standard argocd-cm ConfigMap in your cluster. This capability gives you a fully ma...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-08-21T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-argo-cd-configuration",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5642,11 +5662,11 @@
     }
   ],
   "stats": {
-    "total": 564,
+    "total": 566,
     "byCategory": {
+      "AI_ML": 106,
       "OTHER": 118,
-      "AI_ML": 105,
-      "CONTAINERS": 33,
+      "CONTAINERS": 34,
       "SECURITY": 122,
       "COMPUTE": 69,
       "STORAGE": 25,
@@ -5655,7 +5675,7 @@
       "ANALYTICS": 17,
       "SERVERLESS": 16
     },
-    "lastUpdated": "2026-08-21T22:23:56.338Z"
+    "lastUpdated": "2026-08-22T10:22:25.284Z"
   },
-  "generatedAt": "2026-08-21T22:23:56.338Z"
+  "generatedAt": "2026-08-22T10:22:25.285Z"
 }
