@@ -5649,25 +5649,15 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-vpc-ipam-tags/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "24fbb305b1895c3ecff2a7efd05f97b805d83867",
-      "title": "Amazon GuardDuty Malware Protection for AWS Backup supports Amazon S3 continuous backups",
-      "summary": "Amazon GuardDuty Malware Protection now supports scanning Amazon S3 continuous backups for malware, allowing users to identify clean recovery points across their entire backup timeline. The service offers both full and incremental scanning options within backup plans, plus on-demand scans for any restorable point in time. Users can query malware scan status at any point within their continuous backup timeline to ensure safe data recovery.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-26T10:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-guardduty-aws-backup-s3-continuous/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 566,
+    "total": 565,
     "byCategory": {
       "AI_ML": 106,
       "OTHER": 118,
       "CONTAINERS": 34,
-      "SECURITY": 122,
+      "SECURITY": 121,
       "COMPUTE": 69,
       "STORAGE": 25,
       "DATABASE": 52,
@@ -5675,7 +5665,7 @@
       "ANALYTICS": 17,
       "SERVERLESS": 16
     },
-    "lastUpdated": "2026-08-23T22:20:38.591Z"
+    "lastUpdated": "2026-08-24T10:36:24.935Z"
   },
-  "generatedAt": "2026-08-23T22:20:38.591Z"
+  "generatedAt": "2026-08-24T10:36:24.935Z"
 }
