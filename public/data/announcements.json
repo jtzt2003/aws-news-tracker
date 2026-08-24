@@ -1,6 +1,96 @@
 {
   "announcements": [
     {
+      "id": "0c4ee4baa7dfc4e81038f589cae16c07f6c9ba90",
+      "title": "SageMaker MLflow now supports customer managed keys",
+      "summary": "SageMaker MLflow now enables customers to encrypt their data using customer-managed keys (CMK) through AWS Key Management Service (KMS).\n \nThis enhancement allows organizations with strict security an...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-24T19:26:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/sagemaker-mlflow-custom-keys",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b817b69d14f9b5ec36143e33b9f0c42d14fe7bd5",
+      "title": "Amazon EKS now supports multiple external OIDC identity providers per cluster",
+      "summary": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports multiple external OpenID Connect (OIDC) identity providers per cluster. You can associate up to 10 OIDC identity providers with a single clu...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-08-24T18:29:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-multiple-oidc-providers",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1398e22949c7a91aea00eb635be9b39e3ce1e778",
+      "title": "Amazon Aurora now supports PostgreSQL 18.4, 17.10, 16.14, 15.18, and 14.23",
+      "summary": "Amazon Aurora PostgreSQL-Compatible Edition now supports PostgreSQL versions 18.4, 17.10, 16.14, 15.18, and 14.23 which include bug fixes from the PostgreSQL community and Aurora-specific enhancements...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-24T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-postgresql-18-4-17-10-16-14-15-18-14-23/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ec4d05316742f9e1f7d643a8eaf14c92d2fd85e3",
+      "title": "Amazon SageMaker HyperPod enhances support for Ray",
+      "summary": "Amazon SageMaker HyperPod now enhances support for Ray with built-in observability, resilient training, accelerated inference and managed development environments. Ray is a popular open-source framewo...",
+      "category": "AI_ML",
+      "timestamp": "2026-08-24T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-sagemaker-hyperpod-ray",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "db27339b5818a30440781a9be07b28842d954280",
+      "title": "Amazon Connect Customer now supports information extraction for agent voice and chat conversations",
+      "summary": "Amazon Connect Customer now supports information extraction, which automatically captures key data from voice and chat interactions, reducing manual data capture and improving agent and supervisor pro...",
+      "category": "OTHER",
+      "timestamp": "2026-08-24T14:46:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-information/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0cda6d3154b638098e81c11694ed9fba3d7009e0",
+      "title": "AWS ParallelCluster 3.16 adds an on-node diagnostics tool",
+      "summary": "AWS ParallelCluster 3.16 is now generally available with a new on-node diagnostics tool, cluster stability improvements, and an updated HPC and AI/ML software stack.\n \npcluster-diag is a diagnostics t...",
+      "category": "OTHER",
+      "timestamp": "2026-08-24T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-parallelcluster/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a760367e79f23a337fd4d3feffc7e1b722d933bc",
+      "title": "OpenAI GPT-5.6 Terra and Luna now available on Amazon Bedrock in AWS GovCloud (US) ",
+      "summary": "GPT-5.6 Terra and Luna are now generally available on Amazon Bedrock in AWS GovCloud (US-West) and AWS GovCloud (US-East), bringing the smartest family of models from OpenAI yet to Bedrock's next-gene...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-24T13:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/openai-gpt-terra-luna-govcloud/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e29787ce925cd190fa049c8ab86014bc4751b8d0",
+      "title": "Amazon RDS for MySQL now supports new minor version 8.4.11",
+      "summary": "Starting today, Amazon Relational Database Service (Amazon RDS) for MySQL supports MySQL minor version 8.4.11, the latest minor released by community MySQL. In addition to operational improvements, My...",
+      "category": "DATABASE",
+      "timestamp": "2026-08-24T08:41:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-mysql-8411-available/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c16400c215106cf6e32289c210535808832a18ff",
+      "title": "AWS Neuron 2.32 introduces expanded NKI programming, MXFP8 training kernels, and variable-size collectives for Trn2 and Trn",
+      "summary": "AWS Neuron 2.32.0 is now available, introducing NKI 0.6.0 with an on-device top-K instruction, a variable-length `all-gather `for kernels whose ranks hold differently sized tensors, and new loop const...",
+      "category": "COMPUTE",
+      "timestamp": "2026-08-21T21:11:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-announce-neuron-2-32-0",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "ded64527b6be471fc88a964ab33f7a2046bb6bad",
       "title": "Amazon Bedrock announces reduced pricing for OpenAI GPT-5.6 Sol",
       "summary": "Today, OpenAI announced that they are lowering API prices for GPT-5.6 Sol. Following the recent Terra and Luna price reductions, Sol now costs $4 per million input tokens and $20 per million output to...",
@@ -5599,73 +5689,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-backup-otp-multi-party-approval-lag/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "3a0a95897e5fdb6b1cf97519c7f56ae33485c635",
-      "title": "Amazon EC2 X8i instances are now available in additional regions",
-      "summary": "Amazon EC2 X8i instances, powered by custom Intel Xeon 6 processors exclusive to AWS, are now available in Asia Pacific (Singapore), Asia Pacific (Sydney), and AWS GovCloud (US-West) regions. These SAP-certified instances deliver up to 43% higher performance, 1.5x more memory capacity (up to 6TB), and 3.3x more memory bandwidth compared to similar Intel processors in the cloud, offering the highest performance among comparable Intel-based cloud instances.",
-      "category": "COMPUTE",
-      "timestamp": "2026-05-26T21:58:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-x8i-instances-SIN-SYD-PDT-region/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "5a3c5e12ec6b863a7076770f5de9aebac255bec5",
-      "title": "Amazon RDS now supports ENA Express for Multi-AZ replication",
-      "summary": "Amazon RDS Multi-AZ instances now support ENA Express, which uses AWS's Scalable Reliable Datagram (SRD) protocol to enhance cross-Availability Zone replication performance. This improvement delivers up to 25 Gbps single-flow bandwidth and reduces latency variability through advanced congestion control and multi-pathing capabilities for Multi-AZ deployments.",
-      "category": "DATABASE",
-      "timestamp": "2026-05-26T19:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-rds-ena-express-multiAZ/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6761b00b7032e78eca3e723c2994a85287558d56",
-      "title": "Amazon EC2 M8i and M8i-flex instances are now available in AWS GovCloud (US-East) Region",
-      "summary": "Amazon EC2 M8i and M8i-flex instances are now available in the AWS GovCloud (US-East) Region, powered by custom Intel Xeon 6 processors exclusive to AWS. These instances provide up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generation Intel-based instances, along with up to 20% better overall performance.",
-      "category": "COMPUTE",
-      "timestamp": "2026-05-26T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-m8i-m8i-flex-govcloud-east/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "7e85bfe72fbd386f0769b5b7f5f30a2ecf51d751",
-      "title": "Amazon EC2 R8i and R8i-flex instances are now available in AWS GovCloud (US-East) Region",
-      "summary": "Amazon EC2 R8i and R8i-flex instances are now available in the AWS GovCloud (US-East) Region, powered by custom Intel Xeon 6 processors exclusive to AWS. These instances deliver up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generation Intel-based instances, offering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud.",
-      "category": "COMPUTE",
-      "timestamp": "2026-05-26T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-r8i-r8i-flex-govcloud-east/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "fa89a8e6e3ce26489fc24b97cdd814eb0e6f3087",
-      "title": "Amazon VPC IPAM now supports tags on IPAM pool allocations ",
-      "summary": "Amazon VPC IP Address Manager (IPAM) now supports adding tags to IPAM pool allocations, allowing customers to organize and manage individual IP address allocations using consistent tagging workflows. This enhancement enables better governance and access control for IP allocations across AWS environments, with tags applicable to both new and existing allocations.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-26T13:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-vpc-ipam-tags/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 565,
+    "total": 569,
     "byCategory": {
-      "AI_ML": 106,
-      "OTHER": 118,
-      "CONTAINERS": 34,
-      "SECURITY": 121,
-      "COMPUTE": 69,
-      "STORAGE": 25,
+      "SECURITY": 123,
+      "CONTAINERS": 35,
+      "AI_ML": 107,
+      "OTHER": 120,
       "DATABASE": 52,
+      "COMPUTE": 67,
+      "STORAGE": 25,
       "NETWORKING": 7,
       "ANALYTICS": 17,
       "SERVERLESS": 16
     },
-    "lastUpdated": "2026-08-24T10:36:24.935Z"
+    "lastUpdated": "2026-08-24T22:25:52.864Z"
   },
-  "generatedAt": "2026-08-24T10:36:24.935Z"
+  "generatedAt": "2026-08-24T22:25:52.865Z"
 }
