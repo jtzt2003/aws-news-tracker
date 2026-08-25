@@ -1,6 +1,26 @@
 {
   "announcements": [
     {
+      "id": "32853b00be588abb62d535b1a2b4ed19e194d4c8",
+      "title": "AWS Lambda functions now support full IAM resource-based policies ",
+      "summary": "AWS Lambda functions now support full Identity and Access Management (IAM) resource-based policies, enabling platform admins and security teams to define granular access permissions using the full cap...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-25T02:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-full-iam-resource-based-policies/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4fba62faf9e866417556c6f2c7f71f440a97d1ec",
+      "title": "Amazon ECS now automatically detects and repairs container instances with impaired agent connectivity",
+      "summary": "Amazon Elastic Container Service (Amazon ECS) now automatically detects and repairs container instances, enabling customers to reduce undetected workload failures and improve application availability ...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-08-24T22:42:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecs-agent-connectivity-health",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "0c4ee4baa7dfc4e81038f589cae16c07f6c9ba90",
       "title": "SageMaker MLflow now supports customer managed keys",
       "summary": "SageMaker MLflow now enables customers to encrypt their data using customer-managed keys (CMK) through AWS Key Management Service (KMS).\n \nThis enhancement allows organizations with strict security an...",
@@ -5679,23 +5699,13 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-mysql-kiro-powers/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "1b6b4e9b82989059ac16342ed55c00aa69135abb",
-      "title": "AWS Backup adds OTP verification for Multi-party approval on logically air-gapped vaults",
-      "summary": "AWS Backup has enhanced security for logically air-gapped vaults by requiring one-time password (OTP) verification for Multi-party approval actions. Approvers must now enter a six-digit code sent to their registered email address in AWS IAM Identity Center when voting on approval requests. This additional security layer ensures only verified approvers can authorize protected vault operations and applies automatically to all existing vaults.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-27T10:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-backup-otp-multi-party-approval-lag/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 569,
+    "total": 570,
     "byCategory": {
       "SECURITY": 123,
-      "CONTAINERS": 35,
+      "CONTAINERS": 36,
       "AI_ML": 107,
       "OTHER": 120,
       "DATABASE": 52,
@@ -5705,7 +5715,7 @@
       "ANALYTICS": 17,
       "SERVERLESS": 16
     },
-    "lastUpdated": "2026-08-24T22:25:52.864Z"
+    "lastUpdated": "2026-08-25T10:32:11.089Z"
   },
-  "generatedAt": "2026-08-24T22:25:52.865Z"
+  "generatedAt": "2026-08-25T10:32:11.090Z"
 }
