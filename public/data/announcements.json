@@ -1,6 +1,96 @@
 {
   "announcements": [
     {
+      "id": "307077c7c45c71a4500e44806920aa553d84b8e1",
+      "title": "AWS IoT Core now supports native InfluxDB routing for time-series data",
+      "summary": "AWS IoT Core now supports InfluxDB rule action that routes time-series data from your Internet of Things (IoT) devices directly to InfluxDB databases, without writing custom device-side code or using ...",
+      "category": "DATABASE",
+      "timestamp": "2026-08-25T19:42:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iot-core-influxdb/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "77f1f7ea00c68f9f2fdb34fc182220ab2ac99a75",
+      "title": "AWS Batch now supports Amazon ECS Managed Instances",
+      "summary": "AWS Batch now supports Amazon ECS Managed Instances (ECS MI) as a new compute option, enabling you to run GPU-accelerated and compute-intensive batch workloads on AWS-managed infrastructure. With AWS ...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-25T19:36:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-batch-on-ecs-managed-instances/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "62c7204de59d9baa4287495607c1e7b3feac2d46",
+      "title": "Amazon RDS for PostgreSQL supports minor versions 18.6, 17.11, 16.15, 15.19, and 14.24",
+      "summary": "Amazon Relational Database Service (RDS) for PostgreSQL now supports the latest minor versions 18.6, 17.11, 16.15, 15.19, and 14.24. We recommend that you upgrade to the latest minor versions to addre...",
+      "category": "DATABASE",
+      "timestamp": "2026-08-25T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-postgresql-18-6-17-11-16-15-15-19-14-24/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "fcbbabd96b0d98ed3a5565d9eb98fc0c1857bb2b",
+      "title": "Amazon Connect Customer now lets you update the customer profile on a case or add a profile after a case is opened ",
+      "summary": "Amazon Connect Customer now lets agents change the profile on a case or choose a profile after the case is opened. If a case is linked to the wrong customer, agents can update the profile to keep case...",
+      "category": "OTHER",
+      "timestamp": "2026-08-25T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-flexible-profiles/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "eb1caf9e41b2c6fd9b0e0d145e0af0a088ad015f",
+      "title": "IAM Roles Anywhere now provides a Java plugin for the AWS SDK",
+      "summary": "AWS Identity and Access Management (IAM) Roles Anywhere now provides a plugin for the AWS SDK for Java v2 that enables workloads running outside of AWS to obtain temporary AWS credentials directly wit...",
+      "category": "OTHER",
+      "timestamp": "2026-08-25T13:18:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/iam-roles-anywhere-java/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "737f5cfc7b3c68ac089103839c6642fc5a42eb9b",
+      "title": "AWS Lambda introduces managed runtimes in public preview for Node.js 26 and Python 3.15",
+      "summary": "Today, AWS Lambda introduces managed runtimes in public preview, starting with Node.js 26 and Python 3.15. This gives customers, partners and upstream language communities the opportunity to try upcom...",
+      "category": "SERVERLESS",
+      "timestamp": "2026-08-25T13:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-node-js-python-public-preview/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a265786c29fe8d054434e44518fa346e5fb027f7",
+      "title": "Amazon RDS now supports the latest CU for Microsoft SQL Server",
+      "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) for Microsoft SQL Server. This release includes support for Microsoft SQL Server 2025 CU6...",
+      "category": "DATABASE",
+      "timestamp": "2026-08-25T07:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-supports-latest-cu-microsoft-sql-server/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ac0739540b21dbfe950082d970b9b85de9ac9f88",
+      "title": "Amazon RDS for Oracle now supports July 2026 Release Update ",
+      "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports the Oracle July 2026 Release Update (RU) for Oracle Database versions 19c, 21c and 26ai. We recommend upgrading to the July 2026...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-25T07:24:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-oracle-july-2026-release-update",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f3419585aae6bb78c94fcc3f50809412c66c18d4",
+      "title": "AWS Secrets Manager adds managed external secrets support for Cisco Security Platform and Netskope",
+      "summary": "AWS Secrets Manager now extends its managed external secrets capability to include Cisco Security Platform API keys and Netskope API tokens, enabling you to automatically rotate these third-party cred...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-25T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/secrets-manager-cisco-netskope/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "32853b00be588abb62d535b1a2b4ed19e194d4c8",
       "title": "AWS Lambda functions now support full IAM resource-based policies ",
       "summary": "AWS Lambda functions now support full Identity and Access Management (IAM) resource-based policies, enabling platform admins and security teams to define granular access permissions using the full cap...",
@@ -5619,103 +5709,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/p6-b200-region-expansion-sagemaker-notebook-instances/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "a2ad9a76e28eeef2fe4d8de5ee47098cbba8c2ad",
-      "title": "Amazon Bedrock expands support for Service Quotas",
-      "summary": "Amazon Bedrock now supports viewing inference quotas for the bedrock-mantle endpoint through AWS Service Quotas, providing customers with a consistent way to monitor service limits. This enhancement allows users to track quotas for the bedrock-mantle endpoint using the same familiar interface they already use for other AWS services and the bedrock-runtime endpoint.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-27T21:41:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/5/amazon-bedrock-service-quotas/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "44b0dd269f53f56c4e6433f2a7ace75ad8809400",
-      "title": "SageMaker Notebook Instances now support P5.4xl instance types",
-      "summary": "AWS has announced general availability of Amazon EC2 P5.4xl instances for SageMaker notebook instances, powered by NVIDIA H100 Tensor Core GPUs. These instances deliver up to 4x faster performance compared to previous-generation GPU instances and can reduce ML model training costs by up to 40%. The P5.4xl instances are optimized for deep learning and high performance computing applications.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-27T20:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/p5-4xl-new-instance-launch-sagemaker-notebook-instances/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ffdcbcdbfd11f67732f1dbbebd1aa6ac4f6b5dc1",
-      "title": "SageMaker Notebook Instances now support P5en.48xl instance types",
-      "summary": "Amazon SageMaker Notebook Instances now support P5en.48xl instance types, which feature 8 H200 GPUs that offer 1.7x more GPU memory and 1.4x higher memory bandwidth compared to H100 GPUs in P5 instances. These instances are paired with custom 4th Generation Intel Xeon Scalable processors and Gen5 PCIe connectivity, providing up to 4x the bandwidth between CPU and GPU to enhance AI training performance.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-27T20:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/p5en-new-instance-launch-sagemaker-notebook-instances/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "53e4768593ab2e5983d2c7855c5fcd7fbe1eef16",
-      "title": "Amazon EMR now supports Apache Spark 4.0.2 in general availability",
-      "summary": "Amazon EMR now offers general availability support for Apache Spark 4.0.2 across all deployment models. The update introduces enhanced data pipeline capabilities with ANSI SQL and VARIANT data types, fine-grained access control at row and column levels, improved compliance through Apache Iceberg v3 table format, and faster deployment of real-time streaming applications.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-27T20:17:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-emr-apache-spark/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "268e79c4f34852a87db06e30dfad6d4b55fd0dac",
-      "title": "AWS Glue large and memory optimized workers now available in Europe (Spain) Region",
-      "summary": "AWS Glue has expanded its worker options in the Europe (Spain) Region by introducing large and memory-optimized workers to handle more complex data processing workloads. The new offerings include two general compute workers (G.12X and G.16X) and four memory-optimized workers (R.1X, R.2X, R.4X, and R.8X). These enhanced worker types enable customers to perform more complex data transforms, aggregations, joins, and queries while processing larger data volumes more efficiently.",
-      "category": "ANALYTICS",
-      "timestamp": "2026-05-27T20:10:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-glue-larger-memory-intensive-workers-spain",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "fd44b2f378f3f2bb9b50b0817e25b2ed71c45328",
-      "title": "Amazon Connect Customer now uses generative AI to automatically evaluate self-service interactions ",
-      "summary": "Amazon Connect Customer now uses generative AI to automatically evaluate self-service interactions, allowing managers to define custom evaluation criteria in natural language. The system can assess interaction quality based on criteria like whether customer issues were resolved by the AI agent, and provides detailed reasoning for its evaluations. This feature gives managers aggregated insights to help improve overall customer experience through automated quality assessment.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-27T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-customer-gen-AI-evaluations-self-service",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "e99faf4b20c8d3d3b405bede8d00b2a634f11577",
-      "title": "Amazon SageMaker HyperPod Slurm clusters now support specifying minimum capacity requirements with continuous provisioning",
-      "summary": "Amazon SageMaker HyperPod now allows users to specify minimum capacity requirements (MinCount) for Slurm-orchestrated clusters with continuous provisioning. This feature ensures that training workloads have a guaranteed minimum number of nodes available before starting, while still allowing the cluster to provision additional capacity asynchronously in the background. This provides both the flexibility of quick job starts and the reliability needed for workloads that require specific minimum resource thresholds.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-27T15:06:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-hyperpod-mincount/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "841bd7c6abdb76d46e66a6b3ab9b7eaf475858ca",
-      "title": "Amazon Aurora MySQL now supports integration with Kiro Powers",
-      "summary": "Amazon Aurora MySQL-Compatible Edition now integrates with Kiro Powers, a repository of curated Model Context Protocol (MCP) servers and development tools that provide AI agent assistance for faster application development. This integration combines direct database connectivity with Aurora MySQL and pre-validated development resources from Kiro partners to accelerate specialized software development and deployment.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-27T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-mysql-kiro-powers/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 570,
+    "total": 571,
     "byCategory": {
-      "SECURITY": 123,
+      "DATABASE": 55,
+      "SECURITY": 124,
+      "OTHER": 122,
+      "SERVERLESS": 17,
       "CONTAINERS": 36,
-      "AI_ML": 107,
-      "OTHER": 120,
-      "DATABASE": 52,
+      "AI_ML": 102,
       "COMPUTE": 67,
       "STORAGE": 25,
       "NETWORKING": 7,
-      "ANALYTICS": 17,
-      "SERVERLESS": 16
+      "ANALYTICS": 16
     },
-    "lastUpdated": "2026-08-25T10:32:11.089Z"
+    "lastUpdated": "2026-08-25T22:26:39.005Z"
   },
-  "generatedAt": "2026-08-25T10:32:11.090Z"
+  "generatedAt": "2026-08-25T22:26:39.005Z"
 }
