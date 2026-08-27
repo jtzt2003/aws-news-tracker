@@ -1,6 +1,76 @@
 {
   "announcements": [
     {
+      "id": "3a677181801026e455b9c728fc8d4adcb2d57f50",
+      "title": "Amazon Cognito adds admin API operation to reset user TOTP configurations",
+      "summary": "Amazon Cognito now provides a new admin API operation to reset a user's time-based one-time Password (TOTP) multi-factor authentication (MFA) configuration. When users lose access to their TOTP device...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-26T22:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cognito-totp-reset/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "17b98eaf1cdbc91994d400878bed6df77fba23e0",
+      "title": "Amazon Connect Customer now supports unplanned shrinkage in agent schedules",
+      "summary": "Amazon Connect Customer now enables managers to input unplanned shrinkage in agent schedules, providing a more accurate picture of staffing due to unscheduled agent absences such as late logins or unp...",
+      "category": "OTHER",
+      "timestamp": "2026-08-26T20:16:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-unplanned-shrinkage/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ebc2d2e418bb5627e8d318cbed91838543cce404",
+      "title": "Mountpoint for Amazon S3 adds memory usage controls ",
+      "summary": "Mountpoint for Amazon S3 can now limit memory usage, either automatically based on the environment it runs in or with a limit that you define. This lets you run Mountpoint alongside memory-intensive a...",
+      "category": "AI_ML",
+      "timestamp": "2026-08-26T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/mountpoint-for-S3-adds-memory-usage-controls",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9eb52d43a0bd3627c454c5f80ef7f6091ee3a6b7",
+      "title": "Amazon Connect Customer now supports points-based scoring in performance evaluations",
+      "summary": "Amazon Connect Customer now supports points-based scoring to evaluate human and AI agent performance, giving managers more flexibility in configuring evaluation scores. With points-based scoring, mana...",
+      "category": "OTHER",
+      "timestamp": "2026-08-26T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-points-based-scoring-evaluations/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a0b9efc4a9ec83afee94398f531168b7102089d5",
+      "title": "AWS Backup adds cross-Region backup copy and logically air-gapped vault support for Amazon DocumentDB in nine additional AWS Regions",
+      "summary": "AWS Backup now supports copying Amazon DocumentDB backups across AWS Regions and storing them in logically air-gapped vaults in nine additional AWS Regions: Asia Pacific (Hong Kong, Jakarta, Melbourne...",
+      "category": "DATABASE",
+      "timestamp": "2026-08-26T10:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-backup-cross-region-air-gapped-docdb/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d0dfc1e4b5f9b2eb77ba0a168e019e102bee4071",
+      "title": "Amazon EC2 R8id instances are now available in additional AWS Regions",
+      "summary": "Amazon Elastic Compute Cloud (Amazon EC2) R8id instances are now available in additional regions. R8id instances are now available in Asia Pacific (Mumbai, Malaysia, Sydney), Canada (Central), and Eur...",
+      "category": "COMPUTE",
+      "timestamp": "2026-08-25T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8id/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "fc0099bb76bd2e5e6c2100f6a74d948defc8c78b",
+      "title": "Amazon EC2 C8id and M8id instances are now available in additional AWS Regions",
+      "summary": "Amazon Elastic Compute Cloud (Amazon EC2) C8id and M8id instances with up to 22.8 TB of local NVMe-based SSD block-level storage are now available in additional regions. C8id instances are now availab...",
+      "category": "COMPUTE",
+      "timestamp": "2026-08-25T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8id-m8id-aws-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "307077c7c45c71a4500e44806920aa553d84b8e1",
       "title": "AWS IoT Core now supports native InfluxDB routing for time-series data",
       "summary": "AWS IoT Core now supports InfluxDB rule action that routes time-series data from your Internet of Things (IoT) devices directly to InfluxDB databases, without writing custom device-side code or using ...",
@@ -5629,123 +5699,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-s3-tables-aws-regions/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "053c3e89b791bf7f7ae9e5e88a68dcf7452043fd",
-      "title": "Monitor AWS Budgets directly in Billing and Cost Management Dashboards with new Budgets widget",
-      "summary": "AWS Billing and Cost Management now supports Budgets widgets that can be added directly to BCM Dashboards, allowing users to monitor AWS Budgets alongside other cost reports in a single customized view. This eliminates the need to navigate to separate console pages to review budget performance, streamlining cost management workflows.",
-      "category": "COMPUTE",
-      "timestamp": "2026-05-28T20:57:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/monitor-aws-budgets-using-dashboards",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "e6f09f07c2cea1d105775b05f99533e765cce4cb",
-      "title": "AWS IoT Core adds APIs for MQTT connection management",
-      "summary": "AWS IoT Core has introduced two new APIs - GetConnection and ListSubscriptions - that provide visibility into MQTT client connection and subscription information for IoT devices. These APIs enable developers to troubleshoot connectivity issues, monitor client behavior, and audit connection patterns across their device fleets. The GetConnection API specifically retrieves detailed connection information to help with device connection management.",
-      "category": "OTHER",
-      "timestamp": "2026-05-28T20:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iot-core-apis-mqtt/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c61e5973b0fd6510c44cdff842cca19db843af20",
-      "title": "AWS Organizations emits CloudTrail events for account membership changes ",
-      "summary": "AWS Organizations now automatically logs CloudTrail events (AccountJoinedOrganization and AccountDepartedOrganization) to the management account whenever accounts join or leave an organization. This enhancement provides security teams and cloud administrators with better visibility into organizational membership changes, helping them detect unauthorized activities and potential security incidents that could previously go unnoticed.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-28T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-organizations-cloudtrail/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "138fb77a12ebe85a8ea4a21f148d3fc45ec83813",
-      "title": "AWS announces general availability of the next generation of AWS Resilience Hub ",
-      "summary": "AWS has announced the general availability of the next-generation AWS Resilience Hub, a centralized console tool designed to help platform engineering and site reliability teams assess and improve the resilience of critical workloads on AWS. The updated version introduces new features including an enhanced application model, dependency discovery capabilities, and AI-powered failure mode analysis to better help organizations meet their resilience objectives.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-28T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-announces-next-gen-aws-resilience-hub/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "a7bcd0fb2b0f4af546a499c76ae774874a22482b",
-      "title": "Amazon Connect Customer expands generative AI-powered post-contact summaries to eight new languages",
-      "summary": "Amazon Connect Customer has expanded its generative AI-powered post-contact summaries to support eight new language families (Portuguese, French, Italian, German, Spanish, Chinese, Japanese, and Korean) plus non-US English variations. This enhancement allows the AI to automatically generate concise summaries of customer interactions in multiple languages with locally appropriate spelling and terminology. The feature helps agents and managers by providing quick, accessible summaries of customer contacts across diverse linguistic markets.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-28T15:21:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-summary-languages/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c61e859f30157997f56ab70a0958003508b3ae60",
-      "title": "Claude Opus 4.8 is now available on AWS",
-      "summary": "AWS has launched Claude Opus 4.8, Anthropic's most advanced publicly available AI model, designed for developers and enterprises building production AI applications. The model offers significant improvements in autonomous coding, professional knowledge work, and long-running tasks with enhanced reasoning capabilities and consistency. Claude Opus 4.8 can perform extended autonomous operations and approaches coding tasks like an engineer by reading codebases comprehensively and planning before making edits.",
-      "category": "AI_ML",
-      "timestamp": "2026-05-28T15:16:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/claude-opus-4.8-aws/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "150a0a87cd90b4dfec8268bd02e8b85062ff7c01",
-      "title": "DynamoDB Streams now supports AWS PrivateLink for FIPS endpoints in AWS GovCloud (US) Regions",
-      "summary": "Amazon DynamoDB Streams now supports AWS PrivateLink for FIPS endpoints in AWS GovCloud (US) Regions, enabling government agencies and organizations with federal compliance requirements to establish secure, private connectivity. This enhancement allows these organizations to access DynamoDB Streams' real-time data processing capabilities while maintaining strict security and compliance standards required for federal workloads.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-28T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-dynamodb-streams-privatelink-fips-govcloud/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4c40f1934b0d52d34f9eab1c6497cf5063cb63d7",
-      "title": "Amazon WorkSpaces Applications adds support for Windows Desktop OS",
-      "summary": "Amazon WorkSpaces Applications now supports Windows Desktop operating systems through a Bring Your Own License (BYOL) model. This allows customers to use their existing Windows Desktop licenses to run Microsoft 365 Apps for enterprise in the cloud, providing a consistent desktop experience across on-premises and virtual environments.",
-      "category": "OTHER",
-      "timestamp": "2026-05-28T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-workspaces-applications-windows-desktop-OS/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d6196138e7216a597350f18b3fcc2c0c7819bf7b",
-      "title": "The next generation of Amazon OpenSearch Serverless is now generally available",
-      "summary": "AWS has announced the general availability of the next generation of Amazon OpenSearch Serverless, a fully managed search and vector engine specifically designed for building AI agents. The new version auto-scales 20x faster than its predecessor and can provision resources in seconds to handle unpredictable agentic workflows. With scale-to-zero capabilities and pay-per-usage pricing, customers can save up to 60% compared to traditional provisioned OpenSearch costs.",
-      "category": "ANALYTICS",
-      "timestamp": "2026-05-28T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-opensearch-serverless-next-generation-generally-available/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c3221debcb2d466eb27b15836f1eb97250677c0b",
-      "title": "AWS IoT Core now supports direct messaging for point-to-point communication",
-      "summary": "AWS IoT Core has introduced direct messaging capabilities that allow point-to-point communication with any connected IoT device, eliminating the need to publish messages through topics. This new feature provides improved visibility into message delivery status and reduces messaging costs compared to the previous topic-based approach.",
-      "category": "OTHER",
-      "timestamp": "2026-05-28T14:56:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iot-core-direct-messaging/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 573,
+    "total": 570,
     "byCategory": {
-      "DATABASE": 55,
-      "SECURITY": 124,
-      "COMPUTE": 69,
+      "SECURITY": 123,
+      "OTHER": 121,
+      "AI_ML": 99,
+      "DATABASE": 56,
+      "COMPUTE": 70,
       "SERVERLESS": 18,
-      "OTHER": 122,
       "CONTAINERS": 36,
-      "AI_ML": 101,
       "STORAGE": 25,
       "NETWORKING": 7,
-      "ANALYTICS": 16
+      "ANALYTICS": 15
     },
-    "lastUpdated": "2026-08-26T10:34:35.879Z"
+    "lastUpdated": "2026-08-27T02:57:56.220Z"
   },
-  "generatedAt": "2026-08-26T10:34:35.879Z"
+  "generatedAt": "2026-08-27T02:57:56.221Z"
 }
