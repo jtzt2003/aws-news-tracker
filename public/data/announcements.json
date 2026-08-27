@@ -1,6 +1,36 @@
 {
   "announcements": [
     {
+      "id": "d032336abc9eb6c660a1ca3ac05d32ca610c36ec",
+      "title": "Amazon EC2 X8i instances are now available in additional regions",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the Europe (Milan) and Europe (Spain) regions. These instances are powered by custom Intel Xeon 6 processors av...",
+      "category": "COMPUTE",
+      "timestamp": "2026-08-27T18:40:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-x8i-europe-milan-spain/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "889aac04bd044eba0f6bbfad9ea64d4faa5fe483",
+      "title": "AWS Elastic Disaster Recovery introduces Recovery Plans for orchestrated application recovery",
+      "summary": "AWS Elastic Disaster Recovery (AWS DRS) now offers Recovery Plans, a capability that automates the sequential launch of multi-server applications during recovery and drills. Instead of launching serve...",
+      "category": "OTHER",
+      "timestamp": "2026-08-27T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/elastic-disaster-recovery-plans/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b358c625f3cdb4c7331935bfb48fdca8d02f8724",
+      "title": "Amazon FSx for NetApp ONTAP now supports copying backups across AWS Regions and accounts ",
+      "summary": "Amazon FSx for NetApp ONTAP, a fully managed shared storage service built on NetApp's popular ONTAP file system, now supports copying backups within and across AWS Regions, and across trusted accounts...",
+      "category": "STORAGE",
+      "timestamp": "2026-08-27T17:37:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/fsx-ontap-cross-region-backup-copy/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "3a677181801026e455b9c728fc8d4adcb2d57f50",
       "title": "Amazon Cognito adds admin API operation to reset user TOTP configurations",
       "summary": "Amazon Cognito now provides a new admin API operation to reset a user's time-based one-time Password (TOTP) multi-factor authentication (MFA) configuration. When users lose access to their TOTP device...",
@@ -37,6 +67,16 @@
       "category": "OTHER",
       "timestamp": "2026-08-26T17:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-points-based-scoring-evaluations/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "46bf6e87f6133227a1d1c1a15ca0fd755dcb4604",
+      "title": "AWS Glue 5.1 is now available in AWS European Sovereign Cloud Region",
+      "summary": "AWS Glue 5.1 is now available in the AWS European Sovereign Cloud Region.\n  AWS Glue is a serverless, scalable data integration service that simplifies discovering, preparing, moving, and integrating ...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-26T16:26:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-5-1-european-sovereign-cloud",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5629,93 +5669,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-rcs-countries/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "c2d9fe6ed5f70e4495e4b6afbc735dab65f0ffc0",
-      "title": "Amazon Connect Customer now supports scheduling tasks up to 90 days in advance ",
-      "summary": "Amazon Connect Customer now allows users to schedule tasks up to 90 days in advance, enabling better planning and tracking of long-term follow-up work. This feature helps organizations automatically route tasks to appropriate teams at scheduled times with relevant context, such as scheduling insurance claim follow-ups or repair visits. Tasks can be scheduled through the StartTaskContact API, flows, or the agent workspace.",
-      "category": "OTHER",
-      "timestamp": "2026-05-29T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-customer-tasks-90day-schedule",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c8f12e091b9d887f47c912e2208787ad29c82137",
-      "title": "AWS Shield Advanced introduces DDoS attack flow logs",
-      "summary": "AWS Shield Advanced now provides DDoS attack flow logs that offer packet-level visibility into traffic targeting protected resources during distributed denial-of-service attacks. These logs capture detailed information such as source/destination IP addresses, ports, protocols, and packet counts, and can be published to Amazon S3, CloudWatch Logs, or Data Firehose for forensic analysis and compliance purposes.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-29T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-shield-ddos/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "34dabbd7d83bd241ec9ef358c7a23c4c5bc11e0c",
-      "title": "Amazon Redshift Serverless now offers 4-RPU Minimum Capacity in 7 additional AWS Regions",
-      "summary": "Amazon Redshift Serverless now supports a reduced minimum capacity configuration of 4 Redshift Processing Units (RPUs) in seven additional AWS regions, including Asia Pacific (Hong Kong and Seoul), Canada (Central), Europe (London), South America (Sao Paulo), and both AWS GovCloud regions. This lower entry point (with each RPU providing 16 GB of memory) allows customers to start with smaller data warehouse configurations and pay only for actual workload duration.",
-      "category": "DATABASE",
-      "timestamp": "2026-05-29T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-redshift-serverless-4-rpu-seven-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c51a92c7726a3942090d95ff379257d08dc0d242",
-      "title": "AWS Interconnect - multicloud now offers a free 500 Mbps tier",
-      "summary": "AWS has launched AWS Interconnect - multicloud, which now includes a free 500 Mbps tier for private connectivity between AWS and other public cloud providers. This service is designed to support customers adopting multicloud strategies by simplifying how cloud service providers offer managed, resilient private connections. The offering uses an open specification to enable seamless multicloud workload connectivity.",
-      "category": "NETWORKING",
-      "timestamp": "2026-05-29T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-interconnect-multicloud-offers-free-500-mbps-tier",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "03c5ca2c8ca14f4479150c66cb777daaaabd9cb8",
-      "title": "Amazon RDS for Oracle now supports April 2026 Release Update and Supplemental Patch Bundle",
-      "summary": "Amazon RDS for Oracle now supports the April 2026 Release Update for Oracle Database versions 19c and 21c, as well as the corresponding Supplemental Patch Bundle for version 19c. AWS recommends upgrading to this release as it includes important security updates for Oracle database products. Additionally, Oracle has renamed the Oracle Spatial Patch Bundle to Supplemental Patch Bundle (SPB) starting with the April 2026 releases.",
-      "category": "SECURITY",
-      "timestamp": "2026-05-29T07:49:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-rds-oracle-supports-april-2026-release-update-supplemental-patch-bundle",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "7467fdeda2e00d3d4d07f9c57fb6a5805a11ec67",
-      "title": "Oracle Database@AWS is now available in twenty AWS Regions",
-      "summary": "Oracle Database@AWS has expanded to eight additional AWS Regions, bringing the total availability to twenty regions worldwide. The service provides customers access to Oracle Cloud Infrastructure (OCI) managed Oracle Exadata systems directly within AWS data centers. This expansion particularly benefits customers in Europe, South America, and Asia Pacific who require in-region data residency compliance.",
-      "category": "OTHER",
-      "timestamp": "2026-05-29T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/oracle-database-aws-available-twenty-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "cdca1ba46b1c09d915cd5a3c2f94de2a31af1292",
-      "title": "Amazon S3 Tables are now available in two additional AWS Regions",
-      "summary": "Amazon S3 Tables, which provide built-in Apache Iceberg support for streamlined tabular data storage, are now available in the Asia Pacific (Taipei) and Asia Pacific (New Zealand) regions. This service offers the first cloud object store with integrated Apache Iceberg capabilities and automatically performs table maintenance to optimize query performance and reduce storage costs. The Apache Iceberg standard ensures compatibility with both AWS and third-party analytics tools.",
-      "category": "STORAGE",
-      "timestamp": "2026-05-29T04:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-s3-tables-aws-regions/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 570,
+    "total": 567,
     "byCategory": {
-      "SECURITY": 123,
-      "OTHER": 121,
+      "COMPUTE": 71,
+      "OTHER": 120,
+      "STORAGE": 25,
+      "SECURITY": 122,
       "AI_ML": 99,
-      "DATABASE": 56,
-      "COMPUTE": 70,
+      "DATABASE": 55,
       "SERVERLESS": 18,
       "CONTAINERS": 36,
-      "STORAGE": 25,
-      "NETWORKING": 7,
+      "NETWORKING": 6,
       "ANALYTICS": 15
     },
-    "lastUpdated": "2026-08-27T02:57:56.220Z"
+    "lastUpdated": "2026-08-27T20:10:01.460Z"
   },
-  "generatedAt": "2026-08-27T02:57:56.221Z"
+  "generatedAt": "2026-08-27T20:10:01.460Z"
 }
