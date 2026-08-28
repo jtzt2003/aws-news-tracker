@@ -1,6 +1,46 @@
 {
   "announcements": [
     {
+      "id": "bef13a0437360745c86de1cabe2f62d2cc5783da",
+      "title": "Cosmos3-Edge, Cosmos3-Nano, and Cosmos3-Super models now available on Amazon SageMaker JumpStart",
+      "summary": "NVIDIA's Cosmos3-Edge, Cosmos3-Nano, and Cosmos3-Super models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three mode...",
+      "category": "AI_ML",
+      "timestamp": "2026-08-27T22:41:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/cosmos3-edge-cosmos3-nano-cosmos3-super-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "18b94616957927074386db829296fa00d7e17e94",
+      "title": "Muse-Glimmer-30B and Qwen 3.8-27B models now available on Amazon SageMaker JumpStart",
+      "summary": "Meta's Muse-Glimmer-30B and Alibaba's Qwen 3.8-27B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models bri...",
+      "category": "AI_ML",
+      "timestamp": "2026-08-27T22:39:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/muse-glimmer-30b-qwen-3.8-27b-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6d5bb4d1a8c2af042b2dfea1872493f0623fbf58",
+      "title": "Amazon Redshift streaming can now ingest 10MiB records from Amazon Kinesis Data Streams  ",
+      "summary": "Amazon Redshift  now supports Amazon Kinesis Data Streams (KDS) record sizes up to 10 MiB—a 10x increase from the previous 1 MiB limit—fully matching the expanded maximum record size in Amazon KDS. Th...",
+      "category": "DATABASE",
+      "timestamp": "2026-08-27T21:41:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-streaming-supports-kds-10mib-records",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "89a40c47ad478cc4d2ed42b9ddb3d053bc2f3fad",
+      "title": "Amazon Redshift integrates with Agent Toolkit for AWS for AI-assisted data warehouse management",
+      "summary": "Amazon Redshift now integrates with the Agent Toolkit for AWS, enabling you to build, query, troubleshoot, and migrate to Amazon Redshift data warehouses and date lakes directly from AI agents such as...",
+      "category": "DATABASE",
+      "timestamp": "2026-08-27T20:07:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-agenttoolkit-for-ai-assisted-datawarehouse-mgmt",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "d032336abc9eb6c660a1ca3ac05d32ca610c36ec",
       "title": "Amazon EC2 X8i instances are now available in additional regions",
       "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the Europe (Milan) and Europe (Spain) regions. These instances are powered by custom Intel Xeon 6 processors av...",
@@ -17,6 +57,36 @@
       "category": "OTHER",
       "timestamp": "2026-08-27T18:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/elastic-disaster-recovery-plans/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8941598cc287e755d586080bb5701a4af10035bb",
+      "title": "Amazon Bedrock AgentCore expands to two new regions",
+      "summary": "Amazon Bedrock AgentCore is now available in two additional AWS Regions: US West (N. California) and Asia Pacific (Hyderabad). Amazon Bedrock AgentCore is the platform to build, connect, and optimize ...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-27T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-agentcore-two-new-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "53b37d2099f9d4b5a1621f93c1d26105814afc82",
+      "title": "Amazon Connect Customer expands conversational analytics capabilities in the Africa (Cape Town) Region",
+      "summary": "Amazon Connect Customer now supports generative AI-powered summaries, real-time call analytics, and real-time rules in the Africa (Cape Town) Region. These capabilities extend the post-contact convers...",
+      "category": "AI_ML",
+      "timestamp": "2026-08-27T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/connect-customer-analytics-cape-town/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a67f9fb920a629d897c463e44d4c6123522a8e9b",
+      "title": "Amazon Connect Customer now automatically refreshes scheduling metrics",
+      "summary": "Amazon Connect Customer now automatically refreshes schedule metrics on the scheduling page, giving managers immediate visibility into the impact of schedule updates. For example, when a new team meet...",
+      "category": "OTHER",
+      "timestamp": "2026-08-27T17:59:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-scheduling-metrics/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5649,43 +5719,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-supports-cloudwatch-metrics-bedrock-mantle-endpoint/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "7a25e7f23c18a1dc30c266027e656c7e07df5103",
-      "title": "Amazon SES now offers inbox placement metrics and blocklist monitoring",
-      "summary": "Amazon SES has launched new deliverability features that provide customers with inbox placement metrics and blocklist monitoring capabilities. The service now shows the percentage of messages landing in spam folders using industry data samples and alerts users when their domains or IP addresses appear on public email sender blocklists. These features help customers better understand their email deliverability performance and optimize their sending practices to improve inbox placement rates.",
-      "category": "OTHER",
-      "timestamp": "2026-05-29T21:48:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ses-global-deliverability/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "2a3adbb988b460a86cb00cda3752f387ab6d7ff2",
-      "title": "AWS End User Messaging RCS for Business now available in 20 additional countries",
-      "summary": "AWS has expanded its End User Messaging RCS for Business service to 20 additional countries, bringing the total supported countries to 22. Businesses can now send verified, branded RCS messages to customers across Europe, Latin America, and Asia-Pacific regions including major markets like Germany, France, UK, Brazil, and Mexico. The service integrates with the existing SendTextMessage API for easy implementation.",
-      "category": "OTHER",
-      "timestamp": "2026-05-29T20:23:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-rcs-countries/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 567,
+    "total": 572,
     "byCategory": {
+      "AI_ML": 102,
+      "DATABASE": 57,
       "COMPUTE": 71,
-      "OTHER": 120,
+      "OTHER": 119,
+      "SECURITY": 123,
       "STORAGE": 25,
-      "SECURITY": 122,
-      "AI_ML": 99,
-      "DATABASE": 55,
       "SERVERLESS": 18,
       "CONTAINERS": 36,
       "NETWORKING": 6,
       "ANALYTICS": 15
     },
-    "lastUpdated": "2026-08-27T20:10:01.460Z"
+    "lastUpdated": "2026-08-28T05:58:29.873Z"
   },
-  "generatedAt": "2026-08-27T20:10:01.460Z"
+  "generatedAt": "2026-08-28T05:58:29.873Z"
 }
