@@ -5789,22 +5789,12 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-direct-connect-now-supports-vif-rate-limiters/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "30aabcb0cdb2a173606b134b03c0060bf74e7b69",
-      "title": "Amazon Bedrock adds Amazon CloudWatch metrics for OpenAI- and Anthropic-compatible APIs",
-      "summary": "Amazon Bedrock now supports Amazon CloudWatch metrics for monitoring inference traffic to the bedrock-mantle endpoint, which provides OpenAI- and Anthropic-compatible APIs. This extends the same monitoring capabilities that customers already have for the bedrock-runtime endpoint to these additional API formats. The enhancement allows customers to maintain consistent observability across their generative AI applications regardless of which API format they're using.",
-      "category": "AI_ML",
-      "timestamp": "2026-06-01T13:38:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-supports-cloudwatch-metrics-bedrock-mantle-endpoint/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 580,
+    "total": 579,
     "byCategory": {
-      "AI_ML": 106,
+      "AI_ML": 105,
       "SECURITY": 125,
       "COMPUTE": 72,
       "OTHER": 120,
@@ -5815,7 +5805,7 @@
       "NETWORKING": 6,
       "ANALYTICS": 15
     },
-    "lastUpdated": "2026-08-29T23:54:51.065Z"
+    "lastUpdated": "2026-08-30T14:42:11.685Z"
   },
-  "generatedAt": "2026-08-29T23:54:51.066Z"
+  "generatedAt": "2026-08-30T14:42:11.686Z"
 }
