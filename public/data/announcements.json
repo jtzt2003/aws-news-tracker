@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "456ab50b768b0c355c27a505e1c5099468120372",
+      "title": "Amazon OpenSearch Service adds new Cluster Insights for faster diagnosis of cluster status",
+      "summary": "Amazon OpenSearch Service has expanded Cluster Insights with 17 new insights that identify the root causes behind Red and Yellow cluster status and provide actionable recommendations to resolve them. ...",
+      "category": "COMPUTE",
+      "timestamp": "2026-08-31T15:41:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/opensearch-cluster-status-insight/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "d240d4fdb1a6f468e912d93a11a73705286893d0",
       "title": "Amazon EC2 C8gn instances are now available in AWS Europe (Paris) region",
       "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8gn instances, powered by the latest-generation AWS Graviton4 processors, are available in the AWS Europe (Paris) region. The C8gn instances ...",
@@ -47,6 +57,16 @@
       "category": "COMPUTE",
       "timestamp": "2026-08-28T17:34:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-p6-b300-instances-available-additional-regions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a91f35130e129870dc7a88809d1e12ceb1d138a5",
+      "title": "Amazon EMR on EKS now supports job run concurrency controls",
+      "summary": "Amazon EMR on EKS lets you run open-source big data frameworks such as Apache Spark and Flink on AWS EKS(Elastic Kubernetes Service) clusters. You submit jobs to a virtual cluster, which maps to a nam...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-08-28T17:08:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-emr-eks/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5619,83 +5639,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-config-supports-internal-service-linked-rules",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "ce24021a8a6efb02977c06cce37ce36ab5fe05a0",
-      "title": "AWS Deadline Cloud now supports persistent storage for Service Managed Fleets",
-      "summary": "AWS Deadline Cloud now supports persistent storage for Service-Managed Fleets, enabling data to be maintained across worker lifecycle events rather than relying solely on ephemeral storage. This enhancement eliminates the need to reinstall software and assets each time a worker is recycled, improving efficiency for compute-intensive workloads in visual effects, animation, gaming, and other industries.",
-      "category": "STORAGE",
-      "timestamp": "2026-06-02T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/deadline-cloud/persistent-storage",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "a73a0bd3b4b58726833a8aa2254225e482455aad",
-      "title": "Amazon SageMaker Studio now sets up in seconds with model customization ready from the start",
-      "summary": "Amazon SageMaker Studio has significantly improved its setup time, now launching in under 20 seconds compared to the previous 2+ minutes. New Studio environments automatically include pre-configured serverless model customization permissions, allowing users to immediately begin ML tasks like building pipelines, data exploration, notebook development, and foundation model fine-tuning without additional setup steps.",
-      "category": "AI_ML",
-      "timestamp": "2026-06-02T16:23:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/quick-setup-model-customization-sagemaker-studio/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "05e5d619b27b5a9963969d701c06edcacf3e71bd",
-      "title": "Amazon ElastiCache for Valkey now supports durability",
-      "summary": "AWS has announced durability support for Amazon ElastiCache for Valkey, enabling the service to handle workloads that require microsecond read latency while preventing data loss. The feature stores data durably across multiple Availability Zones using a Multi-AZ transactional log, providing fast failover, database recovery, and node restart capabilities to protect against data loss during failures.",
-      "category": "DATABASE",
-      "timestamp": "2026-06-02T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/durability-amazon-elasticache",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "68a863686a1506eee7630685ae88b8f014127086",
-      "title": "Amazon Location Service announces public transit and intermodal routing",
-      "summary": "Amazon Location Service has added public transit and intermodal routing capabilities to its Routes API, allowing developers to use the CalculateRoutes operation with new Transit and Intermodal travel modes. These features enable applications to plan comprehensive journeys that combine various transportation methods including buses, subways, trains, ferries, walking, driving, taxi, and rental segments.",
-      "category": "OTHER",
-      "timestamp": "2026-06-02T14:51:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-location-service/amazon-location-new-public-transit-intermodal-routing",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "055132c2502f0a9a552bd43b3fc2b718e4ffb2f9",
-      "title": "AWS Cost and Usage Report 2.0 now supports Athena and Redshift integration",
-      "summary": "AWS has announced that Cost and Usage Report 2.0 (CUR 2.0) now supports integration with Amazon Athena and Redshift, bringing it to feature parity with CUR 1.0. This new capability enables customers to analyze their AWS cost and usage data stored in S3 using standard SQL queries without needing to build custom data warehouse solutions.",
-      "category": "DATABASE",
-      "timestamp": "2026-06-02T13:40:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cur2.0-athena-redshift/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b176e271eea84a06a08e7f02ad636814f94f9c8c",
-      "title": "Amazon RDS for SQL Server supports Bring Your Own Media",
-      "summary": "Amazon RDS for SQL Server now supports Bring Your Own Media (BYOM), allowing customers to use their existing Microsoft SQL Server licenses when migrating from on-premises environments to AWS. This feature enables customers to leverage Microsoft's License Mobility program and Software Assurance benefits while using Amazon's managed database service. The capability helps reduce costs for organizations transitioning their SQL Server workloads to the cloud.",
-      "category": "DATABASE",
-      "timestamp": "2026-06-02T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/rds-sqlserver-supports-bring-your-own-media/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 568,
+    "total": 564,
     "byCategory": {
-      "AI_ML": 103,
+      "COMPUTE": 70,
+      "AI_ML": 102,
       "SECURITY": 122,
-      "COMPUTE": 69,
-      "OTHER": 118,
-      "DATABASE": 57,
-      "STORAGE": 25,
+      "CONTAINERS": 37,
+      "OTHER": 117,
+      "DATABASE": 54,
+      "STORAGE": 24,
       "SERVERLESS": 18,
-      "CONTAINERS": 36,
       "NETWORKING": 5,
       "ANALYTICS": 15
     },
-    "lastUpdated": "2026-08-31T00:13:30.508Z"
+    "lastUpdated": "2026-08-31T17:24:39.771Z"
   },
-  "generatedAt": "2026-08-31T00:13:30.508Z"
+  "generatedAt": "2026-08-31T17:24:39.771Z"
 }
