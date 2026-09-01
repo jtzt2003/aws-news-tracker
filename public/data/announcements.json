@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "06210037e392990621537f49e3923ef4ad6c3df6",
+      "title": "Amazon DocumentDB now supports direct major version upgrades to version 8.0",
+      "summary": "Amazon DocumentDB (with MongoDB compatibility) now supports in-place major version upgrades (MVU) directly from engine versions 3.6 and 4.0 to version 8.0. This upgrade capability removes the need for...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-31T22:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/documentdb-major-version-upgrade-8-0/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b41aae45211158d75532ff17337f86b7c47cff4f",
+      "title": "Partner Revenue Measurement expands service coverage for User Agent string capability",
+      "summary": "Partner Revenue Measurement User Agent string now supports additional AWS services. Partner Revenue Measurement allows Partners to better understand their AWS revenue impact and product consumption pa...",
+      "category": "OTHER",
+      "timestamp": "2026-08-31T22:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/partner-revenue-measurement-user-agent-expansion/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "648769b138228e5cc1a523c76959b54ac21caae0",
+      "title": "AWS Agent Registry agents and MCP servers now available in Amazon Quick",
+      "summary": "Today, Amazon Quick announces integration with AWS Agent Registry, enabling users to discover and use resources from their organization's AWS Agent Registry directly within Amazon Quick. AWS Agent Reg...",
+      "category": "AI_ML",
+      "timestamp": "2026-08-31T21:05:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-agent-registry-agents-mcp-servers-quick/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3e6a5a0fe0dc790135c8315441d33e60cd4e3acc",
+      "title": "Amazon Redshift now supports AWS IAM Identity Center authentication with enhanced VPC routing ",
+      "summary": "Amazon Redshift now supports AWS IAM Identity Center authentication for provisioned clusters and serverless workgroups configured with enhanced VPC routing (EVR). You can access Amazon Redshift with s...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-31T21:02:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-redshift-supports-idc-evr",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "aee1f7fbb24805afe3293e2cce6407e1b1ddf305",
+      "title": "Amazon Timestream for InfluxDB is now available in 8 additional AWS Regions",
+      "summary": "You can now use Amazon Timestream for InfluxDB in the Africa (Cape Town), Asia Pacific (Bangkok), Asia Pacific (Hong Kong), Asia Pacific (Hyderabad), Asia Pacific (Melbourne), Asia Pacific (Seoul), Eu...",
+      "category": "DATABASE",
+      "timestamp": "2026-08-31T19:48:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-timestream-influxdb-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "61d9b734dfe8d425b7390f262b7bc24605c54bb6",
+      "title": "Amazon Redshift now supports Apache Iceberg v3 tables",
+      "summary": "Amazon Redshift now supports reading from and writing to Apache Iceberg v3 tables in your data lake. Apache Iceberg is an open table format, and its v3 release adds several new features. With this lau...",
+      "category": "DATABASE",
+      "timestamp": "2026-08-31T18:10:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-redshift-supports-apache-iceberg-v3",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "302ab7ddad721ef60ffded1998a9a148d840471b",
+      "title": "Amazon EC2 R9g and R9gd memory optimized instances are now available",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R9g and R9gd instances, powered by AWS Graviton5 processors, are generally available. AWS Graviton5 processors are the fifth generation of cus...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-31T18:08:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r9g-and-r9gd-memory-optimized-instances-are-now-available/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5e9eae009c570750e5a773fcf6bac83bd99bb866",
+      "title": "Amazon Cognito now supports machine-to-machine authorization without a user pool domain",
+      "summary": "Amazon Cognito now supports the GetClientToken API operation, enabling app clients to obtain access tokens for machine-to-machine (M2M) authorization directly through the AWS SDK, CLI, or API — withou...",
+      "category": "SECURITY",
+      "timestamp": "2026-08-31T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cognito-get-client-token/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "23eb542fc5b0058b6c1971826121fa59e5ae56d7",
+      "title": "AWS Lambda recursive loop detection is now available in all commercial AWS Regions",
+      "summary": "AWS Lambda recursive loop detection has expanded support to all commercial AWS Regions. This feature, which is enabled by default, is a guardrail that automatically detects and stops recursive invocat...",
+      "category": "SERVERLESS",
+      "timestamp": "2026-08-31T17:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/lambda-recursion-regions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5c40949d274e625276bbffaadc5967432c4d3e88",
+      "title": "Amazon Aurora serverless is now available with 30% better performance and smarter scaling in additional AWS Regions",
+      "summary": "Amazon Aurora serverless  now delivers up to 30% better performance and enhanced scaling in additional AWS Regions: Asia Pacific (New Zealand), Asia Pacific (Thailand), Africa (Cape Town), Europe (Mil...",
+      "category": "DATABASE",
+      "timestamp": "2026-08-31T16:46:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-serverless-performance-improvement-additional-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "456ab50b768b0c355c27a505e1c5099468120372",
       "title": "Amazon OpenSearch Service adds new Cluster Insights for faster diagnosis of cluster status",
       "summary": "Amazon OpenSearch Service has expanded Cluster Insights with 17 new insights that identify the root causes behind Red and Yellow cluster status and provide actionable recommendations to resolve them. ...",
@@ -5619,43 +5719,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/multi-turn-reinforcement-learning-on-sagemaker-ai/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "04abf03ddeb9c2110399e67c978612f47fbb0594",
-      "title": "Amazon EKS and Amazon EKS Distro now supports Kubernetes version 1.36",
-      "summary": "Amazon EKS and Amazon EKS Distro now support Kubernetes version 1.36, which includes new features and bug fixes. Starting today, users can create new EKS clusters with version 1.36 or upgrade existing clusters using the EKS console, eksctl CLI, or infrastructure-as-code tools.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-06-02T21:48:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-distro-kubernetes-version-1-36",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "26c6fc4965a6203e6a8dc719bce3deda9b3e6a6a",
-      "title": "AWS Config now supports internal service linked rules",
-      "summary": "AWS Config now supports internal service linked rules, which allow AWS services to automatically evaluate resource configurations using AWS Config managed rules. This feature enables services like AWS Security Hub CSPM to deploy and manage their own rule evaluations for service-specific functionality. The capability extends AWS Config's existing service linked recorder functionality to provide integrated security and compliance capabilities across AWS services.",
-      "category": "SECURITY",
-      "timestamp": "2026-06-02T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-config-supports-internal-service-linked-rules",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 564,
+    "total": 572,
     "byCategory": {
+      "SECURITY": 125,
+      "OTHER": 118,
+      "AI_ML": 103,
+      "DATABASE": 57,
+      "SERVERLESS": 19,
       "COMPUTE": 70,
-      "AI_ML": 102,
-      "SECURITY": 122,
-      "CONTAINERS": 37,
-      "OTHER": 117,
-      "DATABASE": 54,
+      "CONTAINERS": 36,
       "STORAGE": 24,
-      "SERVERLESS": 18,
       "NETWORKING": 5,
       "ANALYTICS": 15
     },
-    "lastUpdated": "2026-08-31T17:24:39.771Z"
+    "lastUpdated": "2026-09-01T01:00:20.782Z"
   },
-  "generatedAt": "2026-08-31T17:24:39.771Z"
+  "generatedAt": "2026-09-01T01:00:20.783Z"
 }
