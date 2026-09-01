@@ -1,12 +1,92 @@
 {
   "announcements": [
     {
+      "id": "93442c226e0d32eabd2780a902899bd0e954429f",
+      "title": "Amazon Quick now lets you build custom apps with natural language  - ",
+      "summary": "Now generally available, Amazon Quick lets you build custom applications by simply describing them in natural language. Create project trackers, customer dashboards, and training portals in minutes in...",
+      "category": "OTHER",
+      "timestamp": "2026-09-01T21:37:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-custom-apps-natural-language/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9547fe46b88eee6b4381cc5d400b550710c063ce",
+      "title": "Amazon CloudWatch Database Insights now supports self-managed PostgreSQL ",
+      "summary": "Today, AWS announces support for self-managed PostgreSQL databases in Amazon CloudWatch Database Insights. Using CloudWatch Database Insights, you can now monitor your self-managed PostgreSQL instance...",
+      "category": "DATABASE",
+      "timestamp": "2026-09-01T19:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/database-insights-self-managed-postgresql/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "cc2675b081d6a01445723657d719f5358f6f4fe3",
+      "title": "Amazon Kinesis Data Streams now supports a dry run feature to validate API requests",
+      "summary": "Amazon Kinesis Data Streams now supports a dry run feature to check whether an API request would succeed without executing the operation. Customers can now set the new optional parameter ‘DryRun’ to t...",
+      "category": "ANALYTICS",
+      "timestamp": "2026-09-01T19:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-kinesis-data-streams-api/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "31a8d15f896c2df5d590e367d5ecffde14aaa5b9",
+      "title": "AWS Backup now supports protecting more than 1,000 Amazon S3 buckets per account",
+      "summary": "AWS Backup now supports backup and restore of more than 1,000 Amazon S3 buckets per account, matching the Amazon S3 bucket quota configured for your account.\n \nPreviously, AWS Backup for Amazon S3 sup...",
+      "category": "STORAGE",
+      "timestamp": "2026-09-01T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-backup-more-than-1000-s3-buckets/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6c3de6f8d7c516bfcc081764d8e0df629e0fccee",
+      "title": "Amazon Connect Customer dashboards now support compact mode ",
+      "summary": "Amazon Connect Customer now offers compact mode on the analytics dashboards, increasing data density so supervisors can see more of their operational data without scrolling. Compact mode reduces widge...",
+      "category": "OTHER",
+      "timestamp": "2026-09-01T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-dashboards-compact-mode/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0563266cb59fd7e0422c66777662e6764852866b",
+      "title": "Amazon MWAA supports Apache Airflow version 3.3.1",
+      "summary": "Amazon Managed Workflows for Apache Airflow (MWAA) now supports Apache Airflow version 3.3.1, the latest release of the popular open-source workflow orchestration framework. Amazon MWAA is a managed o...",
+      "category": "SECURITY",
+      "timestamp": "2026-09-01T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-apache-airflow-3-3-1/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e4a0136a42a06b4da49d04e00f0ea7b355cd31f5",
+      "title": "Claude Fable 5.1, Anthropic's new frontier model is now available on AWS ",
+      "summary": "Claude Fable 5.1 is generally available on AWS and brings Anthropic's most capable frontier model to all customers. Fable 5.1 delivers frontier intelligence for ambitious tasks across coding, scientif...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-01T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-fable-5-1-aws/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "6c66c1573998a79785ce072f8589b981be8f73f5",
       "title": "Amazon CloudWatch now supports warm-up periods for alarms",
       "summary": "Amazon CloudWatch now lets you configure a warm-up period for metric alarms and log alarms, delaying alarm evaluation for a set time after the alarm is created. This reduces noise from missing data wh...",
       "category": "OTHER",
       "timestamp": "2026-09-01T08:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-alarms-warmup-period",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7f908d3aeb5a6fa41ba2b6c639642d595698b328",
+      "title": "Amazon RDS Custom now supports the latest CU and GDR updates for Microsoft SQL Server",
+      "summary": "Amazon Relational Database Service (Amazon RDS) Custom for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This rele...",
+      "category": "DATABASE",
+      "timestamp": "2026-09-01T07:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-custom-supports-latest-cu-gdr-microsoft-sql-server/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5639,123 +5719,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-redesigned-console-optimized-openai-anthropic-compatible-apis/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "cd17ba8528435627c99dc987f5c22a2ff7ba963d",
-      "title": "AWS IoT Device Management adds MQTT session data to connectivity status API",
-      "summary": "AWS IoT Device Management has enhanced its connectivity status API by adding MQTT session data, allowing users to troubleshoot connectivity issues and audit connection patterns across their IoT device fleets. This update brings the service to full parity with AWS IoT Core's GetConnection API, enabling retrieval of detailed connection and MQTT session information using a device's thing name.",
-      "category": "OTHER",
-      "timestamp": "2026-06-03T21:15:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iot-device-management-mqtt/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "36c64aca79208a4056e73deeb1656bf3441ac4bb",
-      "title": "Amazon SageMaker Data Agent now supports conversation history",
-      "summary": "Amazon SageMaker Data Agent in SageMaker Unified Studio now supports conversation history, allowing data practitioners to maintain continuity across analytical sessions. This feature enables users to reference previous agent-generated code, resume multi-step analyses, and review past troubleshooting interactions within their notebooks and Query Editor workflows. Data analysts and scientists can now pick up exactly where they left off with access to a scrollable conversation history.",
-      "category": "AI_ML",
-      "timestamp": "2026-06-03T20:26:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-data-agent/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "28e84cab7882f8cdc406dc6cdea146f073159b92",
-      "title": "Amazon SageMaker Unified Studio now supports notebook scheduling",
-      "summary": "Amazon SageMaker Unified Studio now allows users to schedule, parameterize, and orchestrate notebook runs directly from the notebook interface without requiring external infrastructure management. This new capability enables data scientists to easily transition notebooks from experimentation to production by automating recurring tasks like daily reports, data quality checks, and model retraining. Users can also trigger background runs on dedicated compute while maintaining uninterrupted interactive sessions.",
-      "category": "AI_ML",
-      "timestamp": "2026-06-03T20:13:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-unified-studio/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4c2447029b21f105ed65d172e916cb26d6ed668b",
-      "title": "AWS Step Functions adds AgentCore-powered agentic reasoning step ",
-      "summary": "AWS Step Functions has introduced a new feature that allows you to integrate AI agent reasoning steps into workflows through Amazon Bedrock AgentCore's managed harness (currently in preview). This integration enables users to configure AI agents by specifying the model, tools, and behavior within Step Functions' visual workflow service. The feature combines Step Functions' built-in error handling and orchestration capabilities with AgentCore's AI agent management to create more intelligent automated workflows.",
-      "category": "AI_ML",
-      "timestamp": "2026-06-03T20:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-step-functions-agentcore/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "016ce03feb8ab552a8e36e6304b6e07c040b7b20",
-      "title": "OpenAI GPT-5.4 generally available on Amazon Bedrock in AWS GovCloud (US-West)",
-      "summary": "Amazon Bedrock now offers OpenAI's GPT-5.4 model in AWS GovCloud (US-West), providing government and regulated industry customers access to OpenAI's most advanced AI model with enterprise-grade security and compliance. GPT-5.4 features native computer-use capabilities and advanced reasoning for coding, document processing, and multi-step tasks, all powered by Bedrock's high-performance inference engine with isolated queues.",
-      "category": "SECURITY",
-      "timestamp": "2026-06-03T19:58:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/GPT54-available-in-aws-govcloud-us-west/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b73ef9e8ebbdb19d9afaf23a369b31fd0eb45b4d",
-      "title": "AWS Compute Optimizer now supports 32-day lookback for EBS volume and ECS service rightsizing recommendations",
-      "summary": "AWS Compute Optimizer now offers an extended 32-day lookback period (up from 14 days) for Amazon EBS volume and ECS service rightsizing recommendations at no extra cost. This longer analysis window captures monthly utilization patterns like month-end processing, enabling more accurate optimization decisions that can improve both cost savings and performance outcomes.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-06-03T18:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-ebs-ecs-32-day-lookback/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d6abbfac40df93536e912ebeb74f914728a37727",
-      "title": "ARC Region switch adds Amazon Aurora scaling and Amazon Neptune global database failover",
-      "summary": "Amazon Application Recovery Controller (ARC) has added three new execution blocks to help automate database operations during multi-Region application failovers. The new blocks include Amazon Aurora serverless scaling, Amazon Aurora provisioned scaling, and Amazon Neptune global database failover capabilities. These additions enable customers to better orchestrate database scaling and failover processes when recovering from Regional impairments with bounded recovery times.",
-      "category": "DATABASE",
-      "timestamp": "2026-06-03T17:44:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/region-switch-aurora-scaling-neptune-failover/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "894035a696e000fec8ae4a670aa145150a946239",
-      "title": "Amazon Keyspaces (for Apache Cassandra) now provides CDC iterator position ",
-      "summary": "Amazon Keyspaces (for Apache Cassandra) now includes an iterator position feature in CDC (Change Data Capture) streams that tells consumers whether they've reached the end of the stream or if more records are available. This enhancement improves the CDC functionality for Amazon's managed, serverless Cassandra-compatible database service. The feature helps customers better track and process row-level changes captured from their Keyspaces tables.",
-      "category": "OTHER",
-      "timestamp": "2026-06-03T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/keyspaces-cdc-iterator-position/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "90167945c443c3ac2faa10e4728bc60cadfc2a08",
-      "title": "Amazon SageMaker Unified Studio now supports a localized experience in twelve languages",
-      "summary": "Amazon SageMaker Unified Studio now supports twelve languages including English, Chinese (Simplified and Traditional), French, German, Indonesian, Italian, Japanese, Korean, Portuguese (Brazilian), Spanish, and Turkish. This enhancement allows data engineers, analysts, and data scientists from global teams to work in their preferred language, improving accessibility and collaboration across international organizations.",
-      "category": "AI_ML",
-      "timestamp": "2026-06-03T15:26:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/sagemaker-localization",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f35fc262a32f2cbbb21ba6a504a01af787facfcd",
-      "title": "Amazon SageMaker AI launches multi-turn reinforcement learning for AI agent model customization ",
-      "summary": "Amazon SageMaker AI has introduced multi-turn reinforcement learning (RL), a new serverless model customization technique that allows users to fine-tune AI models for complex, multi-step agent tasks. This feature joins existing customization options like supervised fine-tuning, RLVR, and RLAIF, eliminating the need for users to build and manage their own training infrastructure. The capability enables more sophisticated AI agent development through improved model adaptation for sequential decision-making scenarios.",
-      "category": "AI_ML",
-      "timestamp": "2026-06-03T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/multi-turn-reinforcement-learning-on-sagemaker-ai/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 574,
+    "total": 572,
     "byCategory": {
       "OTHER": 120,
+      "DATABASE": 58,
+      "ANALYTICS": 16,
+      "STORAGE": 25,
       "SECURITY": 125,
-      "AI_ML": 103,
-      "DATABASE": 57,
+      "AI_ML": 99,
       "SERVERLESS": 19,
       "COMPUTE": 70,
-      "CONTAINERS": 36,
-      "STORAGE": 24,
-      "NETWORKING": 5,
-      "ANALYTICS": 15
+      "CONTAINERS": 35,
+      "NETWORKING": 5
     },
-    "lastUpdated": "2026-09-01T14:33:35.865Z"
+    "lastUpdated": "2026-09-01T23:49:23.016Z"
   },
-  "generatedAt": "2026-09-01T14:33:35.865Z"
+  "generatedAt": "2026-09-01T23:49:23.016Z"
 }
