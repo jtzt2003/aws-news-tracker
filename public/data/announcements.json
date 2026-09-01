@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "6c66c1573998a79785ce072f8589b981be8f73f5",
+      "title": "Amazon CloudWatch now supports warm-up periods for alarms",
+      "summary": "Amazon CloudWatch now lets you configure a warm-up period for metric alarms and log alarms, delaying alarm evaluation for a set time after the alarm is created. This reduces noise from missing data wh...",
+      "category": "OTHER",
+      "timestamp": "2026-09-01T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-alarms-warmup-period",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "06210037e392990621537f49e3923ef4ad6c3df6",
       "title": "Amazon DocumentDB now supports direct major version upgrades to version 8.0",
       "summary": "Amazon DocumentDB (with MongoDB compatibility) now supports in-place major version upgrades (MVU) directly from engine versions 3.6 and 4.0 to version 8.0. This upgrade capability removes the need for...",
@@ -47,6 +57,16 @@
       "category": "DATABASE",
       "timestamp": "2026-08-31T19:48:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-timestream-influxdb-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "875977ff39e23592968185e210ab551fedd5c4ed",
+      "title": "Amazon Connect Global Resiliency now supports cross-region routing of contacts across two active AWS regions",
+      "summary": "Amazon Connect Global Resiliency now supports cross-region routing of contacts to agents across two linked AWS regions. For example, a contact arriving in US East (N. Virginia) is offered to the longe...",
+      "category": "OTHER",
+      "timestamp": "2026-08-31T19:25:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-global-resiliency-cross-region-routing/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5722,10 +5742,10 @@
     }
   ],
   "stats": {
-    "total": 572,
+    "total": 574,
     "byCategory": {
+      "OTHER": 120,
       "SECURITY": 125,
-      "OTHER": 118,
       "AI_ML": 103,
       "DATABASE": 57,
       "SERVERLESS": 19,
@@ -5735,7 +5755,7 @@
       "NETWORKING": 5,
       "ANALYTICS": 15
     },
-    "lastUpdated": "2026-09-01T01:00:20.782Z"
+    "lastUpdated": "2026-09-01T14:33:35.865Z"
   },
-  "generatedAt": "2026-09-01T01:00:20.783Z"
+  "generatedAt": "2026-09-01T14:33:35.865Z"
 }
