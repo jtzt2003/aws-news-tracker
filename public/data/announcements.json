@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "422c4966071cc27a63e8c72dd8c0cdc82c28e9ef",
+      "title": "Web Search on Amazon Bedrock is now available in AWS GovCloud (US-West)",
+      "summary": "The Web Search built-in server-side tool on Amazon Bedrock is now available in AWS GovCloud (US-West), helping bring grounded web results to compliance-sensitive government and public-sector workloads...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-02T17:52:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-web-aws-govcloud/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "03f7d4c495cb037d6880c6a7ad4a5d7e37c52daf",
+      "title": "Amazon Connect Customer expands automated performance evaluations to Malay",
+      "summary": "Amazon Connect Customer now automates evaluations of human and AI agents in Malay using generative AI. Managers define custom evaluation criteria in natural language and receive AI-generated evaluatio...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-02T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-customer-automated-evaluations-malay/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a3c51accc5004de2d5b860367265f654052d2595",
+      "title": "Amazon Quick adds new tool settings and Model Context Protocol (MCP) sync support for connectors",
+      "summary": "Amazon Quick connectors let users leverage tools and services such as Outlook, Slack, Salesforce, Jira, and homegrown MCP servers directly into their workflows across chat, agents, apps, flows, and de...",
+      "category": "OTHER",
+      "timestamp": "2026-09-02T16:54:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-adds-tool-settings-mcp-sync/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "82cf7d96f8967f2b35a956f3283cf79554fb9fd6",
+      "title": "Amazon Connect Customer announces general availability of agentic CX designer",
+      "summary": "Amazon Connect Customer announces the general availability of agentic CX designer, a no-code canvas for designing and deploying AI-powered self-service experiences. You can now build and launch voice ...",
+      "category": "OTHER",
+      "timestamp": "2026-09-02T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/agentic-cx-designer/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f4c7c281ab10bf758cfa9fad3e8f33db9a2e3e17",
+      "title": "Second-generation AWS Outposts racks now in the AWS GovCloud (US) Regions",
+      "summary": "Second-generation AWS Outposts racks are now supported in the AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to virt...",
+      "category": "COMPUTE",
+      "timestamp": "2026-09-02T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-outposts-govcloud-us-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "06f1b89174825e412e0ced65d6dbfa476d845973",
+      "title": "AWS Config now supports 60 new resource types",
+      "summary": "AWS Config now supports 60 additional AWS resource types across key services including Amazon Bedrock,  Amazon EC2, Amazon SageMaker, and AWS Organizations. This expansion provides greater coverage ov...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-02T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-config-new-resource-types/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "62affc9b2f5127923b27b0db2e94f0d8faba53de",
+      "title": "AWS User Experience Customization (UXC) is now available in all commercial AWS Regions",
+      "summary": "AWS User Experience Customization (UXC) is now available in all commercial AWS Regions. UXC enables account administrators to set a custom account color and control which services and Regions appear i...",
+      "category": "OTHER",
+      "timestamp": "2026-09-02T13:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-uxc-aws-regions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8b9d6ce18e4815c4f9a2a338e5fa71946a1c64a4",
+      "title": "AWS Lambda now supports SnapStart for container image functions ",
+      "summary": "Starting today, AWS Lambda supports SnapStart for functions packaged as container images, reducing startup times from several seconds to as low as sub-second. Lambda SnapStart is an opt-in capability ...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-09-02T09:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-snapstart-container/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9804e18bcb9beb12d0a6058b225806d4b9616037",
+      "title": "Amazon SageMaker Unified Studio CI/CD adds notebook promotion and AI-assisted manifest generation",
+      "summary": "Amazon SageMaker Unified Studio CI/CD expands its open-source deployment toolkit with two new capabilities: (1) an AI agent skill that automates manifest authoring, and (2) native notebook promotion a...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-02T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-cicd-notebook-ai-manifest/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "dcda32779b2f0212d12026fc447ed8f2b2084aa1",
+      "title": "Amazon RDS for SQL Server supports additional SQL trace flags",
+      "summary": "Amazon RDS for SQL Server supports 18 additional SQL trace flags that you can enable through database parameter groups. Trace flags are configuration switches that modify SQL Server engine behavior — ...",
+      "category": "DATABASE",
+      "timestamp": "2026-09-02T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/rds-sqlserver-supports-additional-trace-flags/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "93442c226e0d32eabd2780a902899bd0e954429f",
       "title": "Amazon Quick now lets you build custom apps with natural language  - ",
       "summary": "Now generally available, Amazon Quick lets you build custom applications by simply describing them in natural language. Create project trackers, customer dashboards, and training portals in minutes in...",
@@ -5659,73 +5759,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-mcp-server/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "5cec0422f88d467c77151276bf446b751f86f69a",
-      "title": "Amazon SageMaker Data Agent integrates business context into conversations",
-      "summary": "Amazon SageMaker Data Agent now integrates with SageMaker Catalog to leverage business context and metadata, allowing data practitioners to use natural business terminology instead of technical table names when discovering datasets and generating SQL/Python code. This integration utilizes the business context that organizations have curated in their SageMaker Catalog, including metadata synced from third-party tools like Collibra, Atlan, and Alation, to improve the accuracy of data discovery and code generation.",
-      "category": "AI_ML",
-      "timestamp": "2026-06-04T21:51:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-data-agent-bdc/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "0f0688d15928760902551cdea664e4d5cf8bee2c",
-      "title": "Amazon Cognito now supports multi-Region replication",
-      "summary": "Amazon Cognito now offers multi-Region replication, allowing users to synchronize identity data, credentials, and configurations to a secondary user pool in a standby region in near real-time. This feature enhances authentication system resilience by providing a backup replica that can handle traffic during regional service disruptions, improving overall system reliability and disaster recovery capabilities.",
-      "category": "SECURITY",
-      "timestamp": "2026-06-04T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6c03b893b9935705dc2cafd9523010c73a6079a1",
-      "title": "AWS Databases on Vercel now available in additional AWS Regions",
-      "summary": "AWS has expanded the regional availability of Amazon Aurora PostgreSQL, Amazon Aurora DSQL, and Amazon DynamoDB serverless databases on Vercel Marketplace and v0 by Vercel. This expansion gives developers more flexibility to build applications using Vercel and AWS databases from their preferred AWS Regions. Developers can get started by describing their application ideas in natural language through v0, which automatically generates designs, deploys infrastructure, and integrates with AWS databases.",
-      "category": "SECURITY",
-      "timestamp": "2026-06-04T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-databases-vercel-aws-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f2b03453b55db83c497c6a738cccdf875b84028b",
-      "title": "Amazon EKS Capabilities now supports Amazon CloudWatch Vended Logs  ",
-      "summary": "Amazon EKS Capabilities now supports Amazon CloudWatch Vended Logs, allowing customers to configure log delivery for monitoring and troubleshooting EKS add-ons like Argo CD, AWS Controllers for Kubernetes (ACK), and kro. This integration enables customers to collect and analyze logs from managed controllers running in AWS infrastructure through CloudWatch APIs or the AWS Console.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-06-04T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-capabilities-logging",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b881cd8660072cd4a7fe5ee53c01a59e28a68f56",
-      "title": "AWS Deadline Cloud now supports plugin sync for service-managed fleets",
-      "summary": "AWS Deadline Cloud has introduced plugin sync functionality for service-managed fleets, simplifying the process of delivering plugins to cloud workers. This eliminates the need for custom scripting or manual configuration that was previously required for each digital content creation application and version. The feature enhances AWS Deadline Cloud's fully managed service for running compute-intensive workloads in visual effects, animation, product design, simulation, and gaming.",
-      "category": "STORAGE",
-      "timestamp": "2026-06-04T16:13:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/deadline-cloud/plugin-sync",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 571,
+    "total": 576,
     "byCategory": {
-      "OTHER": 120,
-      "STORAGE": 26,
-      "DATABASE": 58,
-      "ANALYTICS": 16,
-      "SECURITY": 125,
-      "AI_ML": 98,
-      "SERVERLESS": 19,
-      "COMPUTE": 69,
+      "AI_ML": 101,
+      "OTHER": 123,
+      "COMPUTE": 70,
       "CONTAINERS": 35,
+      "DATABASE": 59,
+      "STORAGE": 25,
+      "ANALYTICS": 16,
+      "SECURITY": 123,
+      "SERVERLESS": 19,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-09-02T14:07:47.119Z"
+    "lastUpdated": "2026-09-02T23:52:59.518Z"
   },
-  "generatedAt": "2026-09-02T14:07:47.119Z"
+  "generatedAt": "2026-09-02T23:52:59.518Z"
 }
