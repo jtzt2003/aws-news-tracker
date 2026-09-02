@@ -11,6 +11,16 @@
       "isNew": false
     },
     {
+      "id": "c1587eb03d0da6af0c4f198f241e1772d1ef9324",
+      "title": "AWS Deadline Cloud now supports sharing job bundles",
+      "summary": "AWS Deadline Cloud now supports sharing job bundles, giving teams a simple way to distribute and reuse render job templates without manual file distribution. Deadline Cloud is a fully managed service ...",
+      "category": "STORAGE",
+      "timestamp": "2026-09-01T20:16:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/deadline-cloud/job-bundle-sharing",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "9547fe46b88eee6b4381cc5d400b550710c063ce",
       "title": "Amazon CloudWatch Database Insights now supports self-managed PostgreSQL ",
       "summary": "Today, AWS announces support for self-managed PostgreSQL databases in Amazon CloudWatch Database Insights. Using CloudWatch Database Insights, you can now monitor your self-managed PostgreSQL instance...",
@@ -5699,43 +5709,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/deadline-cloud/plugin-sync",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "03a140efcb93e98fc6515fdc1afa26770b1a5108",
-      "title": "Amazon MQ is now available in the AWS European Sovereign Cloud (Germany) Region",
-      "summary": "Amazon MQ for RabbitMQ is now available in the AWS European Sovereign Cloud (Germany) Region, which is located entirely within the EU to help regulated industries and public sector organizations meet sovereignty requirements. Amazon MQ is a managed message broker service that simplifies the setup and operation of message brokers in the cloud by handling provisioning, patching, and maintenance tasks.",
-      "category": "COMPUTE",
-      "timestamp": "2026-06-04T08:05:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mq-eur-sov-cloud",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "138564c992cb8b5db4acac27cdfba5210227c1f6",
-      "title": "Amazon Bedrock launches a redesigned console optimized for OpenAI- and Anthropic-compatible APIs",
-      "summary": "Amazon Bedrock has launched a redesigned console that optimizes the user experience for building with foundation models, particularly focusing on compatibility with OpenAI and Anthropic APIs. The new console is designed around the typical developer workflow of experimenting, iterating, and scaling generative AI applications. This update maintains the same fully managed service capabilities while improving the interface for the bedrock-mantle endpoint to better serve how customers actually work with foundation models.",
-      "category": "AI_ML",
-      "timestamp": "2026-06-04T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-redesigned-console-optimized-openai-anthropic-compatible-apis/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 572,
+    "total": 571,
     "byCategory": {
       "OTHER": 120,
+      "STORAGE": 26,
       "DATABASE": 58,
       "ANALYTICS": 16,
-      "STORAGE": 25,
       "SECURITY": 125,
-      "AI_ML": 99,
+      "AI_ML": 98,
       "SERVERLESS": 19,
-      "COMPUTE": 70,
+      "COMPUTE": 69,
       "CONTAINERS": 35,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-09-01T23:49:23.016Z"
+    "lastUpdated": "2026-09-02T14:07:47.119Z"
   },
-  "generatedAt": "2026-09-01T23:49:23.016Z"
+  "generatedAt": "2026-09-02T14:07:47.119Z"
 }
