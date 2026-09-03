@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "1c89794d1485819fb1f26f02bc86c7bffc47b75c",
+      "title": "Amazon CloudFront announces API support for flat-rate pricing plans ",
+      "summary": "Starting today, customers can subscribe and manage flat-rate pricing plans programmatically using the AWS CLI, AWS SDKs, CloudFormation, CDK, or the PricingPlanManager API.\n \nCloudFront flat-rate plan...",
+      "category": "SECURITY",
+      "timestamp": "2026-09-03T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudfront-flat-rate-pricing-plans-api/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1f8796880877d679ffbef15c86659b329d3d2de9",
+      "title": "Introducing Amazon Quick Max: 5x the usage for power users who want the most out of Quick",
+      "summary": "Amazon Quick now offers Quick Max, a new plan for power users who want to get the absolute most out of Quick. With 5x the usage and 5x the storage of Plus, Max gives you the room to do more: more agen...",
+      "category": "OTHER",
+      "timestamp": "2026-09-03T17:17:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-max-5x-usage-power-users/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6756f6aa84ffa0b8e2f7f838b29c55b9558e8fee",
+      "title": "AWS Gateway Load Balancer now supports TCP Reset for faster failure recovery",
+      "summary": "AWS Gateway Load Balancer (GWLB) now supports sending TCP Reset (RST) packets when a target becomes unhealthy, is deregistered, or when a flow's idle timeout expires. This feature helps reduce traffic...",
+      "category": "OTHER",
+      "timestamp": "2026-09-03T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-gateway-load-balancer-tcp-reset/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "28e268f0abf05ec36599b41a6cb8b7f3475348db",
+      "title": "Amazon WorkSpaces Applications adds support for NVIDIA Blackwell GPU instances",
+      "summary": "Amazon WorkSpaces Applications now supports Graphics G7 instances, powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs and Intel Xeon Scalable (6th Gen) processors. G7 instances deliver up to...",
+      "category": "COMPUTE",
+      "timestamp": "2026-09-03T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-applications-nvidia-blackwell-gpu-instances/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8f5917847174679ee0aafa6d57d993e45f99dea6",
+      "title": "Amazon Redshift rg.large instances now support single-node clusters",
+      "summary": "Amazon Redshift rg.large instances, powered by AWS Graviton processors, now support single-node clusters. Single-node support for rg.large clusters is available on P204 or later patch versions. Custom...",
+      "category": "DATABASE",
+      "timestamp": "2026-09-03T16:03:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/redshift-rg-large-single-node",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3ea2d8d736172c34eabc2812e19ca089189f1ad0",
+      "title": "Amazon Aurora MySQL 8.4.8 (compatible with MySQL 8.4.8) is now generally available",
+      "summary": "Starting today, Amazon Aurora MySQL-Compatible Edition 8.4 will support MySQL 8.4.8. In addition to several security enhancements and bug fixes, Aurora MySQL 8.4.8 includes several improvements, such ...",
+      "category": "SECURITY",
+      "timestamp": "2026-09-03T16:01:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-aurora-mysql-848-available/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c66cb4992a9e32ffc084a5887631150e30d6351a",
+      "title": "Amazon Aurora MySQL now supports multi-source replication and delayed replication",
+      "summary": "Starting today, Amazon Aurora MySQL supports two new replication capabilities: multi-source replication and delayed replication. Multi-source replication lets a single Aurora MySQL cluster replicate f...",
+      "category": "SECURITY",
+      "timestamp": "2026-09-03T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-aurora-mysql-multisourcerep-delayedrep/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1d98988ba1c533dcf9a4ca8d8e4b24e1d76b46f1",
+      "title": "Amazon SageMaker Unified Studio Workflows support Python and Bash operators",
+      "summary": "Amazon SageMaker Unified Studio Workflows now supports PythonOperator and BashOperator, enabling you to run custom Python functions and shell commands directly in your serverless workflows without pro...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-03T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-workflows-python-bash/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "768a9194ccdea9d2150fef0ec5a6b1a6589592fd",
+      "title": "Amazon MWAA adds built-in monitoring with Amazon CloudWatch",
+      "summary": "Amazon Managed Workflows for Apache Airflow (MWAA) now includes a built-in monitoring experience on the environment detail page in the AWS Management Console. A new metrics dashboard displays key Amaz...",
+      "category": "OTHER",
+      "timestamp": "2026-09-03T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-cloudwatch-monitoring/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2e43d1856abdae9e8d5cab1768a48e075f96d2dd",
+      "title": "Amazon Linux 2027 is now available in public preview",
+      "summary": "Today, AWS announces the public preview of Amazon Linux 2027 (AL2027), the next version of the Amazon Linux operating system, purpose-built for cloud-native workloads on AWS with performance, scale, a...",
+      "category": "SECURITY",
+      "timestamp": "2026-09-03T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/announcing-amazon-linux-2027/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "422c4966071cc27a63e8c72dd8c0cdc82c28e9ef",
       "title": "Web Search on Amazon Bedrock is now available in AWS GovCloud (US-West)",
       "summary": "The Web Search built-in server-side tool on Amazon Bedrock is now available in AWS GovCloud (US-West), helping bring grounded web results to compliance-sensitive government and public-sector workloads...",
@@ -5709,63 +5809,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect-ai-agent-traces/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "7415fa8931ccd73129d71e5133698e534f11daaa",
-      "title": "Amazon Bedrock AgentCore Runtime introduces interactive shells for terminal access into agent sessions",
-      "summary": "Amazon Bedrock AgentCore Runtime has launched a new InvokeAgentRuntimeCommandShell API that provides interactive shell access to agent sessions through WebSocket connections. This feature offers developers a full terminal experience with persistent PTY-backed sessions, including standard terminal functionality like colors, tab completion, and automatic reconnection. It complements the existing one-shot command execution API by enabling continuous interaction within isolated microVMs.",
-      "category": "AI_ML",
-      "timestamp": "2026-06-05T22:25:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-runtime/",
-      "source": "AWS What's New",
-      "isNew": true
-    },
-    {
-      "id": "59441c71523927d728c6d8dc08bf5781c9f13936",
-      "title": "Simplified permissions for Amazon S3 Tables and Iceberg materialized views are now available in AWS GovCloud (US) Regions",
-      "summary": "AWS has introduced IAM-based authorization for Amazon S3 Tables and Apache Iceberg materialized views in AWS GovCloud (US) Regions through AWS Glue Data Catalog. This new capability allows users to define all necessary permissions for storage, catalog, and query engines in a single IAM policy, simplifying integration with AWS Analytics services like Athena, EMR, Redshift, and Glue.",
-      "category": "SECURITY",
-      "timestamp": "2026-06-05T21:11:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/gdc-s3tables-simplified-permissions-in-aws-govcloud/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "a40d8cbf3aa403db578211200e1265aa7c5164b5",
-      "title": "Amazon OpenSearch UI is now available in GovCloud regions",
-      "summary": "Amazon OpenSearch Service has expanded its modernized operational analytics experience to AWS GovCloud regions (US-East and US-West), allowing users to analyze data across managed domains and serverless collections from a single endpoint. The expansion includes enhanced Workspaces for team collaboration and an improved Discover feature for unified log exploration. This brings the full OpenSearch UI capabilities to government cloud environments for the first time.",
-      "category": "SECURITY",
-      "timestamp": "2026-06-05T20:40:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/opensearch-ui-govcloud-region",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "2974f1957d4aee7a310b40bf000685b8835ed4d4",
-      "title": "Amazon ECS with AWS Fargate now supports 32vCPU compute configurations",
-      "summary": "Amazon ECS with AWS Fargate now supports 32vCPU compute configurations with memory options of 60 GiB, 120 GiB, or 244 GiB for both x86 and ARM-based Linux workloads. This enhancement enables customers to run more demanding applications including high-performance computing, large-scale data processing, and AI inference workloads with greater flexibility and performance.",
-      "category": "SECURITY",
-      "timestamp": "2026-06-05T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-fargate-32vcpu",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 575,
+    "total": 581,
     "byCategory": {
+      "SECURITY": 124,
+      "OTHER": 125,
+      "COMPUTE": 71,
+      "DATABASE": 60,
       "AI_ML": 101,
-      "OTHER": 122,
-      "COMPUTE": 70,
       "CONTAINERS": 35,
-      "DATABASE": 59,
       "STORAGE": 25,
       "ANALYTICS": 16,
-      "SECURITY": 123,
       "SERVERLESS": 19,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-09-03T14:10:20.213Z"
+    "lastUpdated": "2026-09-03T23:50:10.540Z"
   },
-  "generatedAt": "2026-09-03T14:10:20.213Z"
+  "generatedAt": "2026-09-03T23:50:10.540Z"
 }
