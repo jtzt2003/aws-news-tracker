@@ -5749,23 +5749,13 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-fargate-32vcpu",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "5c512452d9663e4bfcddd254f62fd9f12ef06390",
-      "title": "The AWS MCP Server now supports cross-account and cross-role access",
-      "summary": "AWS has announced that the AWS Model Context Protocol (MCP) Server now supports cross-account and cross-role access, enabling AI coding agents like Kiro, Claude Code, and Codex to seamlessly work across multiple AWS accounts and IAM roles within a single session. This eliminates the previous requirement to stop coding sessions, update credentials, and restart the MCP server when switching between different AWS profiles.",
-      "category": "OTHER",
-      "timestamp": "2026-06-05T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-mcp-server/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 576,
+    "total": 575,
     "byCategory": {
       "AI_ML": 101,
-      "OTHER": 123,
+      "OTHER": 122,
       "COMPUTE": 70,
       "CONTAINERS": 35,
       "DATABASE": 59,
@@ -5775,7 +5765,7 @@
       "SERVERLESS": 19,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-09-02T23:52:59.518Z"
+    "lastUpdated": "2026-09-03T14:10:20.213Z"
   },
-  "generatedAt": "2026-09-02T23:52:59.518Z"
+  "generatedAt": "2026-09-03T14:10:20.213Z"
 }
