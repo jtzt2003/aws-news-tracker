@@ -1,6 +1,36 @@
 {
   "announcements": [
     {
+      "id": "0c5f8cbf56a915a4305a3f5cb642b4dd83dfbb45",
+      "title": "Amazon ECS Managed Daemons now support non-critical daemons",
+      "summary": "Amazon Elastic Container Service (Amazon ECS) now support non-critical Managed Daemons for ECS Managed Instances. You can configure a daemon as non-critical so that your mission-critical application t...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-09-03T22:01:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ecs-managed-daemons-non-critical/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "18395d1608e69dcdfd5e3c0bd1fc7a267c89ccd6",
+      "title": "Amazon EC2 P6-B200 instances are now available in the AWS Asia Pacific (Hyderabad) Region ",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) P6-B200 instances accelerated by NVIDIA Blackwell GPUs are available in the AWS Asia Pacific (Hyderabad) Region. These instances offer up to 2...",
+      "category": "COMPUTE",
+      "timestamp": "2026-09-03T19:14:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-p6-b200-instances-available-asia-pacific-hyderabad",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "43fb66233205a6d4e2aa21bcadecb4b8923a9226",
+      "title": "Amazon EC2 P6-B300 instances are now available in the AWS Asia Pacific (Jakarta) Region",
+      "summary": "Starting today, Amazon Elastic Cloud Compute (Amazon EC2) P6-B300 instances are available in the AWS Asia Pacific (Jakarta) Region. P6-B300 instances provide 8xNVIDIA Blackwell Ultra GPUs with 2.1 TB ...",
+      "category": "COMPUTE",
+      "timestamp": "2026-09-03T19:03:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-p6-b300-instances-available-asia-pacific-jakarta",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "1c89794d1485819fb1f26f02bc86c7bffc47b75c",
       "title": "Amazon CloudFront announces API support for flat-rate pricing plans ",
       "summary": "Starting today, customers can subscribe and manage flat-rate pricing plans programmatically using the AWS CLI, AWS SDKs, CloudFormation, CDK, or the PricingPlanManager API.\n \nCloudFront flat-rate plan...",
@@ -5812,20 +5842,20 @@
     }
   ],
   "stats": {
-    "total": 581,
+    "total": 584,
     "byCategory": {
+      "CONTAINERS": 36,
+      "COMPUTE": 73,
       "SECURITY": 124,
       "OTHER": 125,
-      "COMPUTE": 71,
       "DATABASE": 60,
       "AI_ML": 101,
-      "CONTAINERS": 35,
       "STORAGE": 25,
       "ANALYTICS": 16,
       "SERVERLESS": 19,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-09-03T23:50:10.540Z"
+    "lastUpdated": "2026-09-04T14:01:47.834Z"
   },
-  "generatedAt": "2026-09-03T23:50:10.540Z"
+  "generatedAt": "2026-09-04T14:01:47.834Z"
 }
