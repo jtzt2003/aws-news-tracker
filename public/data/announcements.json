@@ -1,12 +1,92 @@
 {
   "announcements": [
     {
+      "id": "86ea3f45084c057b1f3c979875c5cadcd226f7f9",
+      "title": "Amazon EC2 now supports specifying compatible instance types on AMIs",
+      "summary": "Amazon EC2 now enables AMI owners to define which instance types are compatible with their AMIs. Owners can specify supported instance types, unsupported instance types, or both — and any launch attem...",
+      "category": "COMPUTE",
+      "timestamp": "2026-09-04T19:26:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-images-supported-instances",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2b2b6968530d3fba6611d879064a8d00318feaa5",
+      "title": "Amazon ECS introduces Early Success Criteria for service deployments",
+      "summary": "Amazon Elastic Container Service (Amazon ECS) now supports Early Success Criteria for rolling service deployments, giving you the flexibility to define when a deployment is considered successful based...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-09-04T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-deployments-early-success/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "58cf999ecb26155815371586bc263881587fc4ea",
+      "title": "AWS MCP Server adds a serverless capability for AWS Lambda functions ",
+      "summary": "Today, AWS Model Context Protocol Server (AWS MCP Server) added a serverless capability so that coding agents such as Claude Code and Kiro can efficiently diagnose issues with your Lambda functions. T...",
+      "category": "DATABASE",
+      "timestamp": "2026-09-04T16:31:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-mcp-server-serverless/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b42d694e9138816fe0ea44db4acee9079c0040a3",
+      "title": "Amazon EC2 C8g instances now available in additional regions",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8g instances are available in AWS Asia Pacific (Taipei, New Zealand), and AWS GovCloud (US-East) regions. These instances are powered by AWS ...",
+      "category": "SECURITY",
+      "timestamp": "2026-09-04T14:06:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-c8g-instances-additional-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ebf141ab32dcc936be17faec1031c86eadac1a2d",
+      "title": "AWS Transfer Family SFTP Connectors now support continuing file transfers during credential rotation",
+      "summary": "AWS Transfer Family SFTP Connectors now continue running file transfers while you rotate the credentials used to authenticate with remote SFTP servers. You no longer need to update the connector to po...",
+      "category": "SECURITY",
+      "timestamp": "2026-09-04T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-credential-rotation/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "91e06f88e846458b913e2bf6b08b15499ee4b088",
+      "title": "Amazon SageMaker AI Batch Transform now supports G6e instances",
+      "summary": "Amazon SageMaker AI now supports Amazon EC2 G6e instances for batch transform. Batch Transform enables you to run predictions on datasets stored in Amazon S3 and is suited for large datasets that do n...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-04T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-batch-transform-g6e-instances/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "858ca196db6dc762fea68138b0fad8e670d84204",
+      "title": "Amazon EC2 C9g and C9gd instances are now available in Asia Pacific (Tokyo) region",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C9g and C9gd instances, powered by AWS Graviton5 processors, are available in the Asia Pacific (Tokyo) region. AWS Graviton5 processors are th...",
+      "category": "SECURITY",
+      "timestamp": "2026-09-03T23:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-c9g-c9gd-asia-pacific-tokyo/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "0c5f8cbf56a915a4305a3f5cb642b4dd83dfbb45",
       "title": "Amazon ECS Managed Daemons now support non-critical daemons",
       "summary": "Amazon Elastic Container Service (Amazon ECS) now support non-critical Managed Daemons for ECS Managed Instances. You can configure a daemon as non-critical so that your mission-critical application t...",
       "category": "CONTAINERS",
       "timestamp": "2026-09-03T22:01:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ecs-managed-daemons-non-critical/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "21a7b45cf7e867d115a316e75f525bdfc3b149af",
+      "title": "Amazon EC2 M9g and M9gd instances are now available in four additional regions",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M9g and M9gd instances, powered by AWS Graviton5 processors, are available in Europe (Ireland) and Asia Pacific (Singapore, Sydney, Tokyo) reg...",
+      "category": "SECURITY",
+      "timestamp": "2026-09-03T21:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-m9g-m9gd-four-regions/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5842,20 +5922,20 @@
     }
   ],
   "stats": {
-    "total": 584,
+    "total": 592,
     "byCategory": {
-      "CONTAINERS": 36,
-      "COMPUTE": 73,
-      "SECURITY": 124,
+      "COMPUTE": 74,
+      "CONTAINERS": 37,
+      "DATABASE": 61,
+      "SECURITY": 128,
+      "AI_ML": 102,
       "OTHER": 125,
-      "DATABASE": 60,
-      "AI_ML": 101,
       "STORAGE": 25,
       "ANALYTICS": 16,
       "SERVERLESS": 19,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-09-04T14:01:47.834Z"
+    "lastUpdated": "2026-09-04T23:45:43.682Z"
   },
-  "generatedAt": "2026-09-04T14:01:47.834Z"
+  "generatedAt": "2026-09-04T23:45:43.682Z"
 }
