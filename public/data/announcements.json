@@ -1,6 +1,36 @@
 {
   "announcements": [
     {
+      "id": "1fcf6f26a059d17493488e21436d6d4b7180b1c6",
+      "title": "Amazon Bedrock Managed Knowledge Base introduces user-managed setup for SharePoint, OneDrive, and Confluence data sources",
+      "summary": "AWS announces user-managed setup (3LO) for SharePoint, OneDrive, and Confluence data sources in Amazon Bedrock Managed Knowledge Base. Previously, configuring these data sources required generating 2L...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-04T21:29:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-user-managed-setup-sharepoint-onedrive-confluence/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7bffcac1ebabcfd2a2bdb12c70491a8a614e71d1",
+      "title": "Amazon Bedrock Managed Knowledge Base now supports ServiceNow as a native data source connector",
+      "summary": "AWS announces the ServiceNow data source connector for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service. Customers can now connect their ServiceNow i...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-04T21:14:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-servicenow-native-data-source-connector/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2a0c708ff5cbb045940eaaa72e33625755159fbb",
+      "title": "Amazon Bedrock Managed Knowledge Base now supports automatic sync scheduling for data source connectors",
+      "summary": "AWS announces automatic sync scheduling for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service that handles data ingestion, storage optimization, and a...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-04T21:01:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-automatic-sync-scheduling-data-source-connectors/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "86ea3f45084c057b1f3c979875c5cadcd226f7f9",
       "title": "Amazon EC2 now supports specifying compatible instance types on AMIs",
       "summary": "Amazon EC2 now enables AMI owners to define which instance types are compatible with their AMIs. Owners can specify supported instance types, unsupported instance types, or both — and any launch attem...",
@@ -5922,20 +5952,20 @@
     }
   ],
   "stats": {
-    "total": 592,
+    "total": 595,
     "byCategory": {
+      "AI_ML": 105,
       "COMPUTE": 74,
       "CONTAINERS": 37,
       "DATABASE": 61,
       "SECURITY": 128,
-      "AI_ML": 102,
       "OTHER": 125,
       "STORAGE": 25,
       "ANALYTICS": 16,
       "SERVERLESS": 19,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-09-04T23:45:43.682Z"
+    "lastUpdated": "2026-09-05T13:16:05.110Z"
   },
-  "generatedAt": "2026-09-04T23:45:43.682Z"
+  "generatedAt": "2026-09-05T13:16:05.110Z"
 }
