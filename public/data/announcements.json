@@ -5839,133 +5839,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cost-explorer-intelligent-cost-explanations",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "e9f8ab041c2167fd9ed8c89c5afdbab78361a022",
-      "title": "AWS Compute Optimizer now supports idle recommendations for six additional resource types",
-      "summary": "AWS Compute Optimizer has expanded its idle resource detection capabilities to include six additional services: Amazon DynamoDB provisioned tables, Amazon ElastiCache (Redis and Valkey), Amazon MemoryDB, Amazon DocumentDB, Amazon WorkSpaces, and Amazon SageMaker endpoints. This enhancement allows customers to identify unused resources across a broader range of their AWS infrastructure and discover potential cost savings opportunities.",
-      "category": "AI_ML",
-      "timestamp": "2026-06-08T21:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-six-new-idle",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "bdb8f1a02e6dbaed638de62952d91810e6eefa42",
-      "title": "Amazon MSK Express Brokers now support automatic topic creation with Kafka Streams",
-      "summary": "Amazon MSK Express Brokers now support automatic topic creation with Kafka Streams, allowing customers to deploy Kafka Streams applications without manually pre-creating or managing topics for stateful operations. MSK Express Brokers offer up to 3x more throughput per broker, 20x faster scaling, and 90% reduced recovery time compared to standard brokers.",
-      "category": "ANALYTICS",
-      "timestamp": "2026-06-08T19:36:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-msk-express-topic-support-kstreams/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "8dbff06f55045994e343be9ea95017bc85fa76e5",
-      "title": "Amazon DocumentDB now supports engine minor version starting with 5.0.1",
-      "summary": "Amazon DocumentDB now supports engine minor versions starting with 5.0.1, which introduces new aggregation operators ($rand, $pow, $dateToParts, $dateFromParts) and enhanced monitoring capabilities. The update includes an active connections metric for instance monitoring and granular command-level performance metrics in CloudWatch for operations like find, insert, and update. Minor versions allow AWS to deliver new features and bug fixes within the same major engine version.",
-      "category": "DATABASE",
-      "timestamp": "2026-06-08T18:59:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-documentdb-engine-minor-version-5-0-1/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f49607a2a578806c32313b60c3d8eb54c8737f9a",
-      "title": "Amazon CloudWatch Logs Insights adds 23 new query commands and functions",
-      "summary": "Amazon CloudWatch Logs Insights has expanded its query language with 23 new commands and functions designed to enhance log analysis capabilities. These additions include hash functions (md5, sha256), string functions, and tools for conditional processing, IP address handling, and complex statistical operations. The update addresses common customer needs for more sophisticated log parsing, transformation, and analysis within the CloudWatch Logs Insights platform.",
-      "category": "OTHER",
-      "timestamp": "2026-06-08T17:50:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-logs-insights-new/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "46df0e922afc7c372565e65afc6c1a2091fa0a55",
-      "title": "AWS Savings Plans Purchase Analyzer now supports target coverage analysis",
-      "summary": "AWS has announced a new target coverage analysis feature in Savings Plans Purchase Analyzer that allows customers to set specific percentage targets for how much of their On-Demand spend should be covered by Savings Plans. This capability within AWS Billing and Cost Management helps users plan their Savings Plans purchases more strategically by evaluating different scenarios and their impact on costs, coverage, utilization, and savings.",
-      "category": "OTHER",
-      "timestamp": "2026-06-08T17:16:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-savings-plans-coverage/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "134b696b2dd51951632696c8d8489c3372a12b55",
-      "title": "PostgreSQL 19 Beta 1 is now available in Amazon RDS Database Preview Environment",
-      "summary": "AWS has released PostgreSQL 19 Beta 1 in the Amazon RDS Database Preview Environment, allowing users to test the pre-release version as a fully managed database service. The new PostgreSQL 19 version introduces native graph query support through SQL Property Graph Queries (SQL/PGQ), enabling users to perform complex relationship traversals directly using standard SQL.",
-      "category": "DATABASE",
-      "timestamp": "2026-06-08T17:03:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/postgresql-19-beta-1-amazon-rds-database-preview-environment/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "2195c7d8179925a78ae196facb96e5b2a0178bfc",
-      "title": "AWS Application Migration Service is now AWS Transform MGN",
-      "summary": "AWS Application Migration Service (MGN) has been renamed to AWS Transform MGN to better reflect its role as the replication engine that powers AWS Transform's agentic migration service. Users now have two migration options: direct control through the AWS Transform MGN console, or an automated agentic workflow that handles discovery, planning, setup, and migration tasks including rehosting and containerization.",
-      "category": "OTHER",
-      "timestamp": "2026-06-08T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-mgn-rebrand/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "5c73e36a08f8fad5bf403831212c0167479548ba",
-      "title": "Amazon Aurora DSQL now supports the JSONB data type with compression",
-      "summary": "Amazon Aurora DSQL now supports PostgreSQL's JSONB data type with optional compression, enabling users to store semi-structured data like configuration metadata, API parameters, and event logs alongside relational data. This enhancement improves compatibility with existing PostgreSQL code and tools while providing efficient storage through default compression for larger JSONB payloads.",
-      "category": "DATABASE",
-      "timestamp": "2026-06-08T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-aurora-dsql-supports-jsonb/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "15629b5657171e65be022be5db8134aa8f13fbab",
-      "title": "AWS Lambda Managed Instances expands to additional AWS Regions",
-      "summary": "AWS Lambda Managed Instances (LMI) has expanded to all commercial AWS Regions except Israel (Tel Aviv), Middle East (Bahrain), Middle East (UAE), and Asia Pacific (Auckland). LMI allows you to run Lambda functions on managed EC2 instances, providing access to specialized compute configurations and EC2 pricing benefits while keeping Lambda's operational simplicity. AWS handles all infrastructure management including instance lifecycle, patching, routing, load balancing, and auto-scaling.",
-      "category": "SERVERLESS",
-      "timestamp": "2026-06-08T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-managed-instances-region-expansion/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "1882daa1fbc0f6f933c357e030fc82f8a63c667a",
-      "title": "AWS now provides AI-powered cost investigations for cost anomalies",
-      "summary": "AWS has launched AI-powered cost investigations for Cost Anomaly Detection, which uses Amazon Q to automatically analyze the root cause of unusual spending patterns. This new feature provides plain-language explanations within minutes, replacing the traditionally time-consuming process of manually correlating cost data with CloudTrail events and resource activity. The tool is designed to help FinOps practitioners and engineering teams quickly move from detecting cost anomalies to taking corrective action.",
-      "category": "AI_ML",
-      "timestamp": "2026-06-08T16:41:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-ai-powered-cost-investigations/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "9b920b9d153aec5c2801af4056841a3d5ceede41",
-      "title": "Amazon Connect Customer now offers AI agent trace details for self-service voice interactions",
-      "summary": "Amazon Connect Customer now provides AI agent trace details for self-service voice interactions, giving full visibility into how AI agents reason and respond during customer conversations. This feature allows businesses to diagnose issues, validate AI behavior, and understand step-by-step decision-making processes to improve their automated customer service experiences.",
-      "category": "OTHER",
-      "timestamp": "2026-06-08T16:17:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect-ai-agent-traces/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 595,
+    "total": 584,
     "byCategory": {
-      "AI_ML": 105,
+      "AI_ML": 103,
       "COMPUTE": 74,
       "CONTAINERS": 37,
-      "DATABASE": 61,
+      "DATABASE": 58,
       "SECURITY": 128,
-      "OTHER": 125,
+      "OTHER": 121,
       "STORAGE": 25,
-      "ANALYTICS": 16,
-      "SERVERLESS": 19,
+      "ANALYTICS": 15,
+      "SERVERLESS": 18,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-09-06T13:25:30.166Z"
+    "lastUpdated": "2026-09-06T23:31:52.171Z"
   },
-  "generatedAt": "2026-09-06T13:25:30.166Z"
+  "generatedAt": "2026-09-06T23:31:52.171Z"
 }
