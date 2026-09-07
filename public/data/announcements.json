@@ -5779,83 +5779,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-s3-access-grants-european-sovereign-cloud-germany-region",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "4e304e1c523c390caf18300578e9f5fa95efd0b7",
-      "title": "AWS FinOps Agent is now available in preview",
-      "summary": "AWS has announced the preview of AWS FinOps Agent, an AI-powered tool designed to help FinOps practitioners and engineering teams manage cloud costs more effectively. The agent can answer cost-related questions, automatically investigate cost anomalies, generate cost reports, and run scheduled FinOps workflows. It also provides optimization recommendations including rightsizing, idle resource identification, and Savings Plans suggestions.",
-      "category": "OTHER",
-      "timestamp": "2026-06-09T15:28:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-finops-agent-preview/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "7c5abce4bbcf9259b30286424182e8cb3a06d224",
-      "title": "Announcing metal-48xl and metal-96xl for Amazon EC2 network/EBS instances ",
-      "summary": "AWS has announced the general availability of metal-48xl and metal-96xl sizes for Amazon EC2's M8in, M8ib, M8idn, M8idb, R8in, R8ib, R8idn, and R8idb instances. These instances are powered by custom sixth-generation Intel Xeon Scalable processors exclusive to AWS and feature the latest sixth-generation AWS Nitro cards. The new instances deliver up to 43% better compute performance per vCPU compared to previous generation instances.",
-      "category": "COMPUTE",
-      "timestamp": "2026-06-09T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-metal-sizes-network-EBS/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "bbf6e42288652ccc77ed64572d5f0593ced6e3a1",
-      "title": "AWS announces Claude Fable 5, the first generally available Mythos-class model ",
-      "summary": "AWS has announced the general availability of Claude Fable 5, the first Mythos-class model accessible to all customers with built-in safety safeguards. The model delivers state-of-the-art performance across benchmarks and represents a significant advancement in autonomous knowledge work and coding capabilities for developers and enterprises. A version without safety classifiers, Claude Mythos 5, is available to a limited group of customers with special access.",
-      "category": "AI_ML",
-      "timestamp": "2026-06-09T14:15:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/claude-fable-5-aws/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "164237fffef28446ec07553ef5e520468abdbb20",
-      "title": "AWS Backup support for Amazon EKS is now available in the AWS European Sovereign Cloud (Germany) Region",
-      "summary": "AWS Backup support for Amazon EKS is now available in the AWS European Sovereign Cloud (Germany) Region, providing fully-managed, policy-based data protection and recovery capabilities. This expansion includes features like automated scheduling, retention management, immutable vaults, and cross-Region/cross-account copies for EKS clusters in this sovereign cloud region.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-06-09T10:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-backup-amazon-eks-aws-european-sovereign-cloud/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "91a823b2373a0959545aca4e4235ac63cc9170a1",
-      "title": "Run Interactive Workloads on Amazon EMR Serverless with Spark Connect ",
-      "summary": "Amazon EMR Serverless now supports interactive sessions through Spark Connect, allowing developers to run Apache Spark applications directly from notebooks in Amazon SageMaker Unified Studio, Jupyter, Visual Studio Code, and other IDEs. This feature provides a persistent Spark context for interactive development and includes monitoring, debugging, and granular cost tracking capabilities through the EMR console.",
-      "category": "AI_ML",
-      "timestamp": "2026-06-09T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-emr-serverless-spark-connect",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6b24283695c6e6d173bcbaccc9a953fba7caf253",
-      "title": "AWS Cost Explorer launches intelligent cost explanations powered by Amazon Q ",
-      "summary": "AWS Cost Explorer has launched a new \"Analyze with Amazon Q\" feature that provides intelligent, automated cost analysis with a single click. The AI-powered capability delivers comprehensive explanations of cost trends, drivers, and anomalies based on your specific filters and timeframes, eliminating the need for manual cost analysis. Amazon Q Developer also suggests optimization opportunities through interactive follow-up questions.",
-      "category": "AI_ML",
-      "timestamp": "2026-06-09T03:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cost-explorer-intelligent-cost-explanations",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 584,
+    "total": 578,
     "byCategory": {
-      "AI_ML": 103,
-      "COMPUTE": 74,
-      "CONTAINERS": 37,
+      "AI_ML": 100,
+      "COMPUTE": 73,
+      "CONTAINERS": 36,
       "DATABASE": 58,
       "SECURITY": 128,
-      "OTHER": 121,
+      "OTHER": 120,
       "STORAGE": 25,
       "ANALYTICS": 15,
       "SERVERLESS": 18,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-09-06T23:31:52.171Z"
+    "lastUpdated": "2026-09-07T15:31:48.697Z"
   },
-  "generatedAt": "2026-09-06T23:31:52.171Z"
+  "generatedAt": "2026-09-07T15:31:48.697Z"
 }
