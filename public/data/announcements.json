@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "07a37366a44290cf7db51aa1fc91debcd82f861e",
+      "title": "Amazon Timestream for InfluxDB 3 now supports custom plugins",
+      "summary": "Amazon Timestream for InfluxDB now lets you run your own custom Python plugins on the managed versions of InfluxDB 3 Core and Enterprise editions. You host your plugin code in public or private reposi...",
+      "category": "SECURITY",
+      "timestamp": "2026-09-08T21:58:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/timestream-influxdb-custom-plugins/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c026ccaf8797ce8376586ad75c32ed8bdb78bd24",
+      "title": "Amazon SageMaker Feature Store now supports individual feature updates to lower write latency",
+      "summary": "Amazon SageMaker Feature Store is a fully managed capability that makes it easy to compute, store, and retrieve features for training and deploying AI models. SageMaker Feature Store now supports feat...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-08T21:19:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/sgm-feature-store-update-record/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d0d5ec8169eab0359e18f7a9b06ea87110ac84dc",
+      "title": "AWS Transform is now available in AWS GovCloud (US-West)",
+      "summary": "AWS Transform is now available in the AWS GovCloud (US-West) Region, enabling government agencies and regulated organizations to plan and execute large-scale migrations to AWS. With this launch, custo...",
+      "category": "OTHER",
+      "timestamp": "2026-09-08T21:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-govcloud-us-west/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b9345cbd64af21d5b9b421214aa3fc7ce0dbc6ca",
+      "title": "Amazon RDS for MariaDB now supports community MariaDB minor versions 10.6.28, 10.11.19, 11.4.13, 11.8.9, and 12.3.3",
+      "summary": "Starting today, Amazon Relational Database Service (Amazon RDS) for MariaDB now supports MariaDB minor versions 10.6.28, 10.11.19, 11.4.13, 11.8.9, and 12.3.3, the latest minors released by community ...",
+      "category": "DATABASE",
+      "timestamp": "2026-09-08T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-mariadb-community-versions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d7d22cb7b3cc0c800437c90012f3ac0a3b36a4f4",
+      "title": "Amazon Bedrock AgentCore Memory now supports direct ingestion to long-term memory",
+      "summary": "Amazon Bedrock AgentCore Memory now lets developers submit content directly for long-term memory extraction without persisting it as a short-term memory event. The new IngestData API accepts content, ...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-08T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/agentcore-memory-direct-ingest",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "85fa0b3af7228a7c59f3e57dce3f211cdfef5567",
+      "title": "AWS HealthOmics introduces resource fallback order for WDL workflows ",
+      "summary": "Today, AWS HealthOmics introduces the resource fallback directive, enabling you to define an ordered list of preferred accelerator types, including an option to fallback to CPU instances, for tasks in...",
+      "category": "COMPUTE",
+      "timestamp": "2026-09-08T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-healthomics-resourcefallback-wdl/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "518aeface0b33ad50782ba0d534c4d2eeafac0b9",
+      "title": "Dynamic Image Transformation for Amazon CloudFront adds four new features",
+      "summary": "Today, AWS announced four new features for Dynamic Image Transformation for Amazon CloudFront (DIT). Customers can now use enhanced smart cropping with custom label detection and advanced composition ...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-08T14:32:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/dynamic-image-transfromation-adds-new-features/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3fd539731f7bb4029f81c0ac48031591d8fed392",
+      "title": "AWS Builder ID adds recovery options and multi-factor authentication for third-party logins",
+      "summary": "AWS Builder ID, your personal profile for accessing AWS applications including AWS Builder Center, AWS Training and Certification, Amazon Quick and Kiro, now offers new ways to protect and recover you...",
+      "category": "OTHER",
+      "timestamp": "2026-09-08T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-builder-id-recovery-mfa-third-party/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "af3e3d42ecb5f638fba36f45e06266599ddb9456",
+      "title": "AWS announces Nx Plugin for AWS for scaffolding full-stack applications",
+      "summary": "Version 1.0 of the Nx Plugin for AWS, an open source toolkit for scaffolding full-stack applications on AWS, is now available. AI assistants can stand up an application on AWS in minutes, but rarely g...",
+      "category": "SECURITY",
+      "timestamp": "2026-09-08T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/nx-plugin-for-aws/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9c9d59348926b416ba049f15f4719e93944f5876",
+      "title": "Amazon RDS now supports the latest CU and GDR updates for Microsoft SQL Server",
+      "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release inc...",
+      "category": "DATABASE",
+      "timestamp": "2026-09-08T07:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-supports-latest-cu-gdr-microsoft-sql-server/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "1fcf6f26a059d17493488e21436d6d4b7180b1c6",
       "title": "Amazon Bedrock Managed Knowledge Base introduces user-managed setup for SharePoint, OneDrive, and Confluence data sources",
       "summary": "AWS announces user-managed setup (3LO) for SharePoint, OneDrive, and Confluence data sources in Amazon Bedrock Managed Knowledge Base. Previously, configuring these data sources required generating 2L...",
@@ -5699,63 +5799,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/openai-gpt-us-east-virginia-amazon/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "4b7ea90057c8f89e1a4ba4eb39ce7abdb06254f9",
-      "title": "Amazon OpenSearch Service launches MCP Apps for agentic observability",
-      "summary": "Amazon OpenSearch Service has launched MCP Apps that enable AI agents in local IDEs like Claude Desktop and VS Code to directly access and investigate observability data including logs, traces, metrics, and alerts from OpenSearch domains and Amazon Managed Service for Prometheus. This integration allows developers to perform incident investigation and review results through interactive visualizations without leaving their local development environment.",
-      "category": "ANALYTICS",
-      "timestamp": "2026-06-10T22:58:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/opensearch-agentic-observability-mcp-app",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "e48876eb847b007296f3f6b48a716dacb3e95df7",
-      "title": " Amazon ECS Managed Daemons now support inter-task visibility and communication",
-      "summary": "Amazon ECS Managed Daemons now support inter-task visibility and communication through two new configuration settings: pidMode (for process visibility) and ipcMode (for shared IPC namespace access). This enhancement enables customers to deploy monitoring, tracing, profiling, and security agents that need to access application processes and shared resources on ECS Managed Instances.",
-      "category": "SECURITY",
-      "timestamp": "2026-06-10T20:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ecs-managed-daemons-pid-ipc-modes/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d1a56f657173e24dac1f2deeadc74300d16eb57f",
-      "title": "Amazon EC2 M9g and M9gd general purpose instances are now available",
-      "summary": "Amazon EC2 M9g and M9gd general purpose instances are now generally available, powered by the new fifth-generation AWS Graviton5 processors. These instances deliver improved price-performance for general purpose workloads including application servers, microservices, gaming, caching, and containers.",
-      "category": "SECURITY",
-      "timestamp": "2026-06-10T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-m9g-m9gd-instances-graviton5-processors-available",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "84e6d9cb8235a26ea31b246b96dcd6a9a6b8cd09",
-      "title": "Amazon EC2 P6-B200 instances are now available in the AWS GovCloud (US-East) Region",
-      "summary": "Amazon EC2 P6-B200 instances powered by NVIDIA Blackwell GPUs are now available in the AWS GovCloud (US-East) Region, offering up to 2x better performance than P5en instances for AI training and inference. These instances feature 8 Blackwell GPUs with 1440 GB of high-bandwidth GPU memory, 60% more GPU memory bandwidth than P5en, and 5th Generation Intel Xeon processors.",
-      "category": "COMPUTE",
-      "timestamp": "2026-06-10T14:32:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-p6-b200-aws-govcloud/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 574,
+    "total": 580,
     "byCategory": {
-      "AI_ML": 99,
+      "SECURITY": 128,
+      "AI_ML": 102,
+      "OTHER": 121,
+      "DATABASE": 60,
       "COMPUTE": 73,
       "CONTAINERS": 36,
-      "DATABASE": 58,
-      "SECURITY": 128,
-      "OTHER": 119,
       "STORAGE": 23,
-      "ANALYTICS": 15,
+      "ANALYTICS": 14,
       "SERVERLESS": 18,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-09-08T14:10:51.079Z"
+    "lastUpdated": "2026-09-08T23:52:12.758Z"
   },
-  "generatedAt": "2026-09-08T14:10:51.080Z"
+  "generatedAt": "2026-09-08T23:52:12.758Z"
 }
