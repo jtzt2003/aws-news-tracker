@@ -5739,33 +5739,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-p6-b200-aws-govcloud/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "fc9b218dce4ff6dd6fc99818af0e6ca5b1ac5576",
-      "title": "AWS Cost and Usage Report 2.0 now supports table configurations update",
-      "summary": "AWS Cost and Usage Report 2.0 (CUR 2.0) now allows customers to update their existing data table configurations through the AWS Management Console and SDK/CLI. This new capability enables users to modify export settings like content, time granularity, and format without having to delete and recreate their entire exports. The update provides greater flexibility for customers to adapt their cost reporting configurations as their needs evolve.",
-      "category": "OTHER",
-      "timestamp": "2026-06-10T13:33:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cost-usage-report/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 575,
+    "total": 574,
     "byCategory": {
       "AI_ML": 99,
       "COMPUTE": 73,
       "CONTAINERS": 36,
       "DATABASE": 58,
       "SECURITY": 128,
-      "OTHER": 120,
+      "OTHER": 119,
       "STORAGE": 23,
       "ANALYTICS": 15,
       "SERVERLESS": 18,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-09-08T00:00:34.536Z"
+    "lastUpdated": "2026-09-08T14:10:51.079Z"
   },
-  "generatedAt": "2026-09-08T00:00:34.536Z"
+  "generatedAt": "2026-09-08T14:10:51.080Z"
 }
