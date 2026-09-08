@@ -5749,53 +5749,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cost-usage-report/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "7a4c6fa3f6deca131be1e0d4f9e0a05b484b375e",
-      "title": "Amazon FSx for OpenZFS Intelligent-Tiering storage class is now available in 8 additional AWS Regions",
-      "summary": "Amazon FSx for OpenZFS Intelligent-Tiering storage class is now available in 8 additional AWS Regions spanning the US, Europe, Asia Pacific, and South America. This storage class automatically moves data across three tiers (Frequent Access, Infrequent Access, and Archive) based on usage patterns, making it ideal for general-purpose workloads like file shares, archives, media libraries, and on-premises HDD migrations.",
-      "category": "STORAGE",
-      "timestamp": "2026-06-09T20:52:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-fsx-openzfs/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "737c887025e1fc5b541889713d74e066265d3f3b",
-      "title": "Amazon SageMaker Unified Studio Notebooks now support EMR Serverless",
-      "summary": "Amazon SageMaker Unified Studio Notebooks now support Amazon EMR Serverless with Apache Spark Connect, providing data engineers and analysts with additional flexibility for interactive analytics and data engineering workloads. Users can now choose between Amazon Athena Spark and EMR Serverless as their Spark runtime, allowing them to run PySpark and Spark SQL on EMR Serverless Spark Applications based on their specific requirements.",
-      "category": "AI_ML",
-      "timestamp": "2026-06-09T18:46:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-unified-studio-emr/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "dc06e64c5900130f329d4c8c14c3096481f4bdf4",
-      "title": "Amazon S3 Access Grants are now available in the AWS European Sovereign Cloud (Germany) Region",
-      "summary": "Amazon S3 Access Grants are now available in the AWS European Sovereign Cloud (Germany) Region. This feature allows organizations to map corporate identities from directories like Microsoft Entra ID or AWS IAM principals to S3 datasets, enabling automated and scalable data permission management. Users can now automatically receive S3 access based on their corporate identity without manual permission configuration.",
-      "category": "STORAGE",
-      "timestamp": "2026-06-09T17:14:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-s3-access-grants-european-sovereign-cloud-germany-region",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 578,
+    "total": 575,
     "byCategory": {
-      "AI_ML": 100,
+      "AI_ML": 99,
       "COMPUTE": 73,
       "CONTAINERS": 36,
       "DATABASE": 58,
       "SECURITY": 128,
       "OTHER": 120,
-      "STORAGE": 25,
+      "STORAGE": 23,
       "ANALYTICS": 15,
       "SERVERLESS": 18,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-09-07T15:31:48.697Z"
+    "lastUpdated": "2026-09-08T00:00:34.536Z"
   },
-  "generatedAt": "2026-09-07T15:31:48.697Z"
+  "generatedAt": "2026-09-08T00:00:34.536Z"
 }
