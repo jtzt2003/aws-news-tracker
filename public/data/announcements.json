@@ -1,6 +1,96 @@
 {
   "announcements": [
     {
+      "id": "814486cbf9e4654e61f44d15edafd24da804c086",
+      "title": "Amazon Connect Customer now lets you set specific capacity limits for different types of Tasks and Emails",
+      "summary": "Amazon Connect Customer now gives contact center managers the ability to set specific capacity limits for different kinds of work. Previously, concurrency settings were applied at the channel level so...",
+      "category": "OTHER",
+      "timestamp": "2026-09-09T21:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-capacity-limits/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a521af762750fe617cc01d7a9cbba52e8520e8bb",
+      "title": "AWS Transform for .NET modernization is now generally available via CLI",
+      "summary": "Today, AWS announced the general availability of an AWS-managed transformation for .NET modernization in AWS Transform custom that you can trigger with a single one-line CLI command. You can run this ...",
+      "category": "OTHER",
+      "timestamp": "2026-09-09T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-dotnet-cli",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "680ca3a24cac8944d6431b8e2f4e138fce49edbb",
+      "title": "AWS Lambda now supports Graviton5-powered EC2 instances on Lambda Managed Instances ",
+      "summary": "AWS Lambda now supports AWS Graviton5-powered C9g, C9gd, M9g, and M9gd instances on Lambda Managed Instances. You can now run your Lambda functions on the latest generation of Graviton processors, del...",
+      "category": "SERVERLESS",
+      "timestamp": "2026-09-09T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-graviton5-ec2/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ff4bb66b3c4a585e7b351660898dfaeb766dc0cf",
+      "title": "AWS Lambda now supports 90-minute function timeout on Lambda Managed Instances",
+      "summary": "AWS Lambda now supports a 90-minute function timeout for asynchronous and event source mapping (ESM) invocations on Lambda Managed Instances (LMI), a 6x increase from the previous 15-minute limit. You...",
+      "category": "SERVERLESS",
+      "timestamp": "2026-09-09T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-90-minute-function/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "86c9f09bead6b1eadb00af36ee8a6cb98945c39b",
+      "title": "Amazon Bedrock Managed Knowledge Base adds APIs and console support for debugging document-level access control",
+      "summary": "AWS announces the CheckIngestedDocumentAcl and GetIngestedDocumentAcl APIs for Amazon Bedrock Managed Knowledge Base, giving customers a self-service way to debug document access issues and audit docu...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-09T16:03:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-knowledge-base-debugging-document-access-control/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "38015b6cdeead93a37603f2a9594197f8e1a07c5",
+      "title": "Amazon Bedrock Managed Knowledge Base now supports Confluence Data Center as a native data source connector",
+      "summary": "AWS announces the Confluence Data Center data source connector for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service. Customers running self-hosted Co...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-09T14:19:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-confluence-data-center-native-data-source-connector/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4613fe8f38f4763256cdd34d454739819ff717cc",
+      "title": "Amazon EBS Volume Clones now supports copying volumes across accounts",
+      "summary": "Amazon Elastic Block Store (Amazon EBS) Volume Clones now supports copying EBS volumes across AWS accounts with re-encryption. You can copy EBS volumes to any AWS account, re-encrypting with an AWS Ke...",
+      "category": "SECURITY",
+      "timestamp": "2026-09-09T10:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ebs-volume-clones-cross-account-copy/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "02e2c381f1ebe8dc6e40faab3acf499f17020a51",
+      "title": "AWS Systems Manager now diagnoses more issues that cause EC2 instances to be unmanaged",
+      "summary": "Today, AWS Systems Manager extends its diagnosis capability to identify six additional categories of issues that can prevent Amazon EC2 instances and hybrid-activated nodes from becoming managed by Sy...",
+      "category": "COMPUTE",
+      "timestamp": "2026-09-09T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/systems-manager-diagnoses-ec2-unmanaged/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a418ebacc78592557115f32ff3953c7aa4489956",
+      "title": "Amazon Connect Customer Profiles now sends events when customers enter or exit segments",
+      "summary": "Amazon Connect Customer Profiles now sends segment membership events, providing the ability to receive real-time and scheduled notifications when customer profiles enter or exit a segment, such as hig...",
+      "category": "ANALYTICS",
+      "timestamp": "2026-09-09T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-customer-profiles-segment-events/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "470b8bc45a90e6f6b63c3091b9648f98ed426a1a",
       "title": " OpenAI GPT-6 Astra is now generally available on Amazon Bedrock",
       "summary": "Today, AWS announces the general availability of GPT-6 Astra from OpenAI on Amazon Bedrock. The latest and most capable model from OpenAI to date, GPT-6 Astra brings deeper reasoning and judgment, pro...",
@@ -5709,93 +5799,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-capacity-blocks-ml-govcloud/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "83df7e30e7d5572575943d9b152e37e05d658e36",
-      "title": "Amazon EC2 High Memory U7i-8TB instances now available in AWS Europe (Paris) region",
-      "summary": "Amazon EC2 High Memory U7i-8TB instances are now available in the AWS Europe (Paris) region, featuring 8 TiB of DDR5 memory and custom fourth-generation Intel Xeon Scalable processors. These 7th generation instances offer up to 45% better price performance compared to existing U-1 instances and are designed to enhance transaction processing throughput in rapidly growing data environments.",
-      "category": "COMPUTE",
-      "timestamp": "2026-06-11T23:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-u7i-8tb-europe-paris/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "1d9abeb0033b4107be3b97f24d3b9a701bbf513c",
-      "title": "Amazon Quick now integrates with Snowflake Cortex AI",
-      "summary": "Amazon Quick now integrates with Snowflake Cortex AI through the Model Context Protocol (MCP), allowing teams to query both structured Snowflake data and unstructured documents using natural language directly within their Quick workspace. The integration enables automated multi-step workflows and uses OAuth authentication through Snowflake's managed MCP server. Users can leverage Cortex Analyst for structured data queries and Cortex Search for document insights.",
-      "category": "OTHER",
-      "timestamp": "2026-06-11T22:02:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick-snowflake-cortex-ai/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b32489c79bb3408013f5ed90c8caeb227d876759",
-      "title": "Amazon EKS now supports local clusters on AWS Outposts with Amazon EC2 instance store",
-      "summary": "Amazon EKS local clusters are now supported on AWS Outposts racks (first and second-generation) that run EC2 instances booting from EC2 instance store. This expansion provides static stability for EC2 instance store-backed instances and allows the entire Kubernetes control plane to run locally on AWS Outposts infrastructure.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-06-11T20:52:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-aws-outposts-ec2-instance-store/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "bfe1f6aaeab64155f93c7d8e15093cd2723b9867",
-      "title": "Amazon CloudWatch Application Signals now supports infrastructure, logs, and traces context for faster troubleshooting",
-      "summary": "Amazon CloudWatch Application Signals has added service health ranking on application maps and new infrastructure, logs, and traces tabs on service overview pages. These enhancements allow operators to triage unhealthy services and investigate underlying compute environments, log data, and trace details from a single location, streamlining root cause analysis without needing to switch between multiple tools.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-06-11T20:10:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/cloudwatch-application-signals-supports infrastructure-logs-traces-context-for-faster troubleshooting/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c19f4970ddd3ee597a7e3d46cca6a89dfb0e2cc1",
-      "title": "Amazon Aurora now supports PostgreSQL major version 18",
-      "summary": "Amazon Aurora PostgreSQL-Compatible Edition now supports PostgreSQL major version 18, starting with version 18.3, which includes community improvements to query performance and database management. The release introduces support for the pg_roaringbitmap extension, enabling fast, memory-efficient set operations on large integer collections directly in the database. This enhancement supports use cases like audience segmentation, tag-based filtering, and permission checks without requiring application-layer processing.",
-      "category": "SECURITY",
-      "timestamp": "2026-06-11T18:59:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-aurora-postgresql-major-version-18/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "119ecd7d0fcc08f058c0ad687e1e4f3b0d39ff87",
-      "title": "AWS Elastic Beanstalk console now integrates CloudWatch Logs in the Logs tab",
-      "summary": "AWS Elastic Beanstalk has integrated CloudWatch Logs directly into the environment Logs tab of its console, eliminating the need for customers to navigate to the separate CloudWatch console to view logs. This new feature allows users to view CloudWatch log events and access relevant log groups and streams without leaving the Elastic Beanstalk interface, streamlining the log monitoring experience.",
-      "category": "OTHER",
-      "timestamp": "2026-06-11T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/elastic-beanstalk-cloudwatch-logs/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "059c9264ec98f7a277ae0158318cda2a0cdb68d5",
-      "title": "Amazon MWAA Serverless now supports Amazon EventBridge notifications",
-      "summary": "Amazon MWAA Serverless now integrates with Amazon EventBridge to automatically emit notifications when Apache Airflow workflows and tasks change states (started, running, succeeded, failed, etc.). This eliminates the need for custom polling logic or manual monitoring, enabling data engineering teams to build event-driven automation around their workflow executions.",
-      "category": "SERVERLESS",
-      "timestamp": "2026-06-11T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mwaa-serverless-eventbridge/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 578,
+    "total": 580,
     "byCategory": {
-      "SECURITY": 129,
-      "AI_ML": 101,
       "OTHER": 119,
-      "DATABASE": 60,
+      "SERVERLESS": 19,
+      "AI_ML": 103,
+      "SECURITY": 129,
       "COMPUTE": 73,
-      "CONTAINERS": 36,
+      "ANALYTICS": 15,
+      "DATABASE": 60,
+      "CONTAINERS": 34,
       "STORAGE": 23,
-      "ANALYTICS": 14,
-      "SERVERLESS": 18,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-09-09T14:11:40.187Z"
+    "lastUpdated": "2026-09-09T23:51:03.499Z"
   },
-  "generatedAt": "2026-09-09T14:11:40.187Z"
+  "generatedAt": "2026-09-09T23:51:03.499Z"
 }
