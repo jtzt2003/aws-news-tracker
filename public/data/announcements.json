@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "470b8bc45a90e6f6b63c3091b9648f98ed426a1a",
+      "title": " OpenAI GPT-6 Astra is now generally available on Amazon Bedrock",
+      "summary": "Today, AWS announces the general availability of GPT-6 Astra from OpenAI on Amazon Bedrock. The latest and most capable model from OpenAI to date, GPT-6 Astra brings deeper reasoning and judgment, pro...",
+      "category": "SECURITY",
+      "timestamp": "2026-09-08T22:49:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-astra-on-amazon-bedrock/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "07a37366a44290cf7db51aa1fc91debcd82f861e",
       "title": "Amazon Timestream for InfluxDB 3 now supports custom plugins",
       "summary": "Amazon Timestream for InfluxDB now lets you run your own custom Python plugins on the managed versions of InfluxDB 3 Core and Enterprise editions. You host your plugin code in public or private reposi...",
@@ -27,6 +37,16 @@
       "category": "OTHER",
       "timestamp": "2026-09-08T21:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-govcloud-us-west/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "da0493ae64334e3b21e8513f848fa5cf2a0a7559",
+      "title": "Amazon API Gateway now supports mutual TLS for backend integrations",
+      "summary": "You can now configure Amazon API Gateway REST APIs to present an AWS Certificate Manager (ACM) certificate to your backend during the TLS handshake, enabling mutual TLS (mTLS). Previously, API Gateway...",
+      "category": "SECURITY",
+      "timestamp": "2026-09-08T19:16:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-api-gateway-mutual-tls-backend/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5759,54 +5779,14 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mwaa-serverless-eventbridge/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "05330631898dada2f015322c2b2f515f0c619b8b",
-      "title": "Amazon Managed Service for Prometheus now supports Native Histograms",
-      "summary": "Amazon Managed Service for Prometheus has added support for Prometheus native histograms, allowing customers to ingest, store, and query high-resolution metric distributions with improved precision and reduced cardinality compared to traditional histograms. This enhancement enables DevOps and site reliability engineers to obtain more accurate percentile calculations for metrics like latency and request durations without needing to predefine bucket boundaries or handle high-cardinality data management.",
-      "category": "OTHER",
-      "timestamp": "2026-06-11T13:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-managed-service-prometheus-native-histograms/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "168e28187659fccc0a05c2abb9df0989534a96ae",
-      "title": "Amazon Managed Service for Prometheus now supports out of order sample ingestion",
-      "summary": "Amazon Managed Service for Prometheus now supports out-of-order sample ingestion, allowing workspaces to accept metric samples that don't arrive in strict chronological order within a configurable time window (default 1 minute). The service also introduces a workspace-level rule query offset feature that adds a delay before rule execution. Users can adjust the out-of-order time window to match their ingestion patterns or disable it entirely by setting it to 0.",
-      "category": "OTHER",
-      "timestamp": "2026-06-11T13:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-managed-service-prometheus-outoforder-ingestion/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d46d7f4142f50b352e7bb98af887778fd8572d08",
-      "title": "AWS announces AWS Workload Credentials Provider",
-      "summary": "AWS has launched the AWS Workload Credentials Provider, a lightweight client-side tool that automatically deploys exported certificates from AWS Certificate Manager (ACM) and caches secrets from AWS Secrets Manager for both AWS and non-AWS workloads. This new service eliminates the need for customers to build custom automation using Amazon EventBridge to detect certificate renewals and deploy updates. The provider streamlines credential management as certificate lifetimes continue to decrease industry-wide.",
-      "category": "SECURITY",
-      "timestamp": "2026-06-11T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-workload-credentials-provider/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "33bbf8bf6395887d1df70f3d4eada8150bfbb1f8",
-      "title": "  OpenAI GPT-5.4 and GPT-5.5 models now available in US East (N. Virginia) on Amazon Bedrock",
-      "summary": "AWS has announced that OpenAI's GPT-5.4 and GPT-5.5 models are now available in the US East (N. Virginia) region through Amazon Bedrock. These models enable developers to build generative AI applications for various use cases including reasoning, coding, computer use, document workflows, and long-running agentic tasks. GPT-5.5 is positioned as OpenAI's most capable model, particularly designed for advanced coding, research, analysis, and software operation tasks.",
-      "category": "AI_ML",
-      "timestamp": "2026-06-11T00:12:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/openai-gpt-us-east-virginia-amazon/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 580,
+    "total": 578,
     "byCategory": {
-      "SECURITY": 128,
-      "AI_ML": 102,
-      "OTHER": 121,
+      "SECURITY": 129,
+      "AI_ML": 101,
+      "OTHER": 119,
       "DATABASE": 60,
       "COMPUTE": 73,
       "CONTAINERS": 36,
@@ -5815,7 +5795,7 @@
       "SERVERLESS": 18,
       "NETWORKING": 5
     },
-    "lastUpdated": "2026-09-08T23:52:12.758Z"
+    "lastUpdated": "2026-09-09T14:11:40.187Z"
   },
-  "generatedAt": "2026-09-08T23:52:12.758Z"
+  "generatedAt": "2026-09-09T14:11:40.187Z"
 }
