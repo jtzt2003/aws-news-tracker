@@ -1,6 +1,56 @@
 {
   "announcements": [
     {
+      "id": "2885a35707d8c75ba78f64901992180f53385341",
+      "title": "AWS Elemental MediaLive adds support for A/B forensic watermarking",
+      "summary": "AWS Elemental MediaLive now supports A/B forensic watermarking, enabling content owners to trace the source of unauthorized redistribution of live video content. A single MediaLive channel produces tw...",
+      "category": "NETWORKING",
+      "timestamp": "2026-09-10T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/medialive-ab-forensic-watermarking/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "96f9d95bb8162cf4a7f54bbaab94d1a122962289",
+      "title": "AWS Elemental MediaTailor now offers Yield Optimization to automatically fill ad breaks with Amazon Ads demand",
+      "summary": "AWS Elemental MediaTailor now offers Yield Optimization, a new capability that automatically monetizes unused ad inventory with Amazon Ads demand during server-side ad insertion (SSAI) for livestreams...",
+      "category": "OTHER",
+      "timestamp": "2026-09-10T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/mediatailor-yield-optimization/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "567f3169ab59914eeca392d9a46ade0197d6735b",
+      "title": "AWS Elemental Inference now generates contextual metadata from live video in real time",
+      "summary": "AWS Elemental Inference now generates contextual metadata from live video streams in real time, using AI to produce scene-level intelligence without custom machine learning infrastructure. The new cap...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-10T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/elemental-inference-contextual-metadata/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e3f1682f86086ebbcfb100be1f0506ba261bed5b",
+      "title": "AWS Elemental introduces Dynamic Multiview for live video",
+      "summary": "AWS Elemental MediaPackage now offers Dynamic Multiview, a server-side capability that composes multiple live video sources into viewer-selected tiled layouts on demand. Content providers can deliver ...",
+      "category": "OTHER",
+      "timestamp": "2026-09-10T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-elemental-dynamic-multiview-video/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f2247371e29cf2d7ee9807ededdddcd938213cfb",
+      "title": "AWS Elemental MediaTailor now supports Low-Latency HLS ad insertion",
+      "summary": "AWS Elemental MediaTailor now supports Low-Latency HTTP Live Streaming (LL-HLS) ad insertion using HLS Interstitials. MediaTailor is a channel assembly and personalized ad insertion service for video ...",
+      "category": "OTHER",
+      "timestamp": "2026-09-10T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-elemental-mediatailor-low-latency-hls-ad-insertion",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "814486cbf9e4654e61f44d15edafd24da804c086",
       "title": "Amazon Connect Customer now lets you set specific capacity limits for different types of Tasks and Emails",
       "summary": "Amazon Connect Customer now gives contact center managers the ability to set specific capacity limits for different kinds of work. Previously, concurrency settings were applied at the channel level so...",
@@ -5789,33 +5839,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-i7i-instances-europe-paris-region/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "b05608f1cb628397e7886592faca0b22ed59eb04",
-      "title": "Amazon EC2 Capacity Blocks for ML is now available in AWS GovCloud (US) Regions",
-      "summary": "Amazon EC2 Capacity Blocks for ML is now available in AWS GovCloud (US-West) and (US-East) regions, allowing government and regulated-industry customers to reserve GPU capacity for machine learning workloads. This service enables users to reserve GPU instances in advance for a defined duration, ensuring guaranteed access to accelerated compute for tasks like pre-training, fine-tuning, prototyping, and handling inference demand spikes.",
-      "category": "AI_ML",
-      "timestamp": "2026-06-12T14:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-capacity-blocks-ml-govcloud/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 580,
+    "total": 584,
     "byCategory": {
-      "OTHER": 119,
-      "SERVERLESS": 19,
+      "NETWORKING": 6,
+      "OTHER": 122,
       "AI_ML": 103,
+      "SERVERLESS": 19,
       "SECURITY": 129,
       "COMPUTE": 73,
       "ANALYTICS": 15,
       "DATABASE": 60,
       "CONTAINERS": 34,
-      "STORAGE": 23,
-      "NETWORKING": 5
+      "STORAGE": 23
     },
-    "lastUpdated": "2026-09-09T23:51:03.499Z"
+    "lastUpdated": "2026-09-10T14:05:36.254Z"
   },
-  "generatedAt": "2026-09-09T23:51:03.499Z"
+  "generatedAt": "2026-09-10T14:05:36.254Z"
 }
