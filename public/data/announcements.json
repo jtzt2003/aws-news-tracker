@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "c66a9ec19989597ffa0af7cc2372308df7eca935",
+      "title": "AWS Lambda recursive loop detection is now available in Europe Sovereign Cloud",
+      "summary": "AWS Lambda recursive loop detection is now supported for functions running in Europe Sovereign Cloud. Recursive loop detection automatically detects and stops recursive invocations between Lambda func...",
+      "category": "SERVERLESS",
+      "timestamp": "2026-09-10T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/lambda-recursion-europe-sovereign-cloud",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b523fa728850a25b2a66d383e1a03f7685b8553c",
+      "title": "AWS Transform for .NET now generates unit tests for modernized code",
+      "summary": "Today, AWS announced that AWS Transform for .NET can automatically generate unit tests for the code it modernizes. When enabled, AWS Transform generates unit tests that target the testable classes in ...",
+      "category": "OTHER",
+      "timestamp": "2026-09-10T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-net-unit-tests",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b65b847026581da922f57c4231b76d6688afbfeb",
+      "title": "Amazon API Gateway now supports 1 MB execution logs with configurable delivery destinations",
+      "summary": "Amazon API Gateway now supports configurable delivery destinations and larger log events for REST API execution logs. Previously, execution logs were delivered to a single API Gateway-managed CloudWat...",
+      "category": "STORAGE",
+      "timestamp": "2026-09-10T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-api-gateway-1-mb-execution-logs/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1f7848b9df3e550872685462abfb28ff7e428b7a",
+      "title": "AWS Lambda durable functions integrates with Pydantic AI",
+      "summary": "Today, AWS Lambda durable functions announces an integration with Pydantic AI, an open source framework for building AI agents in Python. AWS Lambda durable functions saves your Pydantic AI agent's pr...",
+      "category": "SERVERLESS",
+      "timestamp": "2026-09-10T18:45:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-durable-pydantic-ai/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e48917f20845ce3d0bdb0e81dbe7297d9d1e9364",
+      "title": "Amazon MQ now supports RabbitMQ 4.3",
+      "summary": "Amazon MQ now supports RabbitMQ version 4.3 which adds quorum queue feature enhancements such as compaction, increased priority levels, native delayed retries, and graceful consumer timeouts. RabbitMQ...",
+      "category": "COMPUTE",
+      "timestamp": "2026-09-10T18:08:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mq-rabbitmq-43/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f47731fa79a648b85fccbcb62d7c7708fdb38a63",
+      "title": "Announcing second-generation single-rack AWS Outposts ",
+      "summary": "Today, AWS announces the general availability of second-generation single-rack AWS Outposts, a self-contained 42U rack that integrates compute, storage and networking into a single compact unit purpos...",
+      "category": "SECURITY",
+      "timestamp": "2026-09-10T17:58:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/single-rack-aws-outposts/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "74b9ba53fe9b07405f2db6782ad6de0a1d8d241f",
+      "title": "Amazon OpenSearch Serverless is now available on v0 by Vercel",
+      "summary": "You can now build full-stack search and AI applications in minutes using Amazon OpenSearch Serverless on v0 by Vercel, an AI-powered platform that transforms your ideas into production-ready web appli...",
+      "category": "ANALYTICS",
+      "timestamp": "2026-09-10T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-opensearch-serverless-available-V0-vercel/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "01ced9c1112f90dc008718eb10134e6b8b9213ce",
+      "title": "Amazon ECS expands IAM condition key support for RunTask and StartTask APIs",
+      "summary": "Amazon Elastic Container Service (Amazon ECS) now supports the IAM condition keys for CPU and memory resources on the RunTask and StartTask APIs. Administrators can use these keys to enforce consisten...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-09-10T16:52:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-expands-condition-key-support/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7afbae0cb59ea025165341fe692b6ac6d7a1a93b",
+      "title": "Amazon Redshift RG instances now available in Europe (Zurich) Region",
+      "summary": "Amazon Redshift RG instances, powered by AWS Graviton processors, are now available in the AWS Europe (Zurich) Region. RG instances deliver better performance, running data warehouse and data lake wor...",
+      "category": "DATABASE",
+      "timestamp": "2026-09-10T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-redshift-rg-available-zurich",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ec233bd1563526dc1f918be3e3a90b632c38245f",
+      "title": "Amazon CloudWatch now supports network health indicator for TGW inter-Region peering using synthetic monitors",
+      "summary": "With synthetic monitors in Amazon CloudWatch Network Monitoring, you can now determine whether a network performance issue on a path that crosses an AWS Transit Gateway inter-Region peering connection...",
+      "category": "NETWORKING",
+      "timestamp": "2026-09-10T11:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudwatch-network-monitoring-tgw-support/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "2885a35707d8c75ba78f64901992180f53385341",
       "title": "AWS Elemental MediaLive adds support for A/B forensic watermarking",
       "summary": "AWS Elemental MediaLive now supports A/B forensic watermarking, enabling content owners to trace the source of unauthorized redistribution of live video content. A single MediaLive channel produces tw...",
@@ -5809,53 +5909,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c8i-instances-europe-stockholm-region/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "6108a3e54e9171ad9db8395520cc9587140daebb",
-      "title": "Amazon Lightsail is now available in three additional AWS Regions",
-      "summary": "Amazon Lightsail has expanded to three new AWS Regions: Asia Pacific (Hong Kong), South America (São Paulo), and Europe (Spain). This expansion allows customers in these regions to benefit from lower latency, improved performance, and compliance with local data residency requirements.",
-      "category": "CONTAINERS",
-      "timestamp": "2026-06-12T20:43:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-lightsail-aws-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "66d8d028d7b981563e570fee4cff163145eca6e5",
-      "title": "SageMaker AI now supports serverless fine-tuning for NVIDIA Nemotron models",
-      "summary": "Amazon SageMaker AI now offers serverless fine-tuning capabilities for NVIDIA's Nemotron 3 Nano model, a 30 billion parameter open-weight foundation model. Users can customize this model using supervised fine-tuning (SFT) and reinforcement fine-tuning (RFT) with their proprietary data to improve performance for domain-specific use cases and workflows.",
-      "category": "AI_ML",
-      "timestamp": "2026-06-12T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-ft-nemotron-3/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d889aa465890b64983b2b8ae2c197ba4597d9a61",
-      "title": "Amazon EC2 I7i instances now available in AWS Europe (Paris) Region",
-      "summary": "AWS has launched Amazon EC2 I7i instances in the Europe (Paris) region, featuring 5th Gen Intel Xeon Processors with 3.2 GHz all-core turbo frequency. These storage-optimized instances deliver up to 23% better compute performance and 10% better price performance compared to previous I4i instances, while offering up to 45TB of NVMe storage with up to 50% better real-time storage performance through 3rd generation AWS Nitro SSDs.",
-      "category": "COMPUTE",
-      "timestamp": "2026-06-12T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-i7i-instances-europe-paris-region/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 584,
+    "total": 591,
     "byCategory": {
-      "NETWORKING": 6,
-      "OTHER": 122,
-      "AI_ML": 103,
-      "SERVERLESS": 19,
-      "SECURITY": 129,
+      "SERVERLESS": 21,
+      "OTHER": 123,
+      "STORAGE": 24,
       "COMPUTE": 73,
-      "ANALYTICS": 15,
-      "DATABASE": 60,
+      "SECURITY": 130,
+      "ANALYTICS": 16,
       "CONTAINERS": 34,
-      "STORAGE": 23
+      "DATABASE": 61,
+      "NETWORKING": 7,
+      "AI_ML": 102
     },
-    "lastUpdated": "2026-09-10T14:05:36.254Z"
+    "lastUpdated": "2026-09-10T23:45:58.980Z"
   },
-  "generatedAt": "2026-09-10T14:05:36.254Z"
+  "generatedAt": "2026-09-10T23:45:58.980Z"
 }
