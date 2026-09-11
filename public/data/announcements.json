@@ -1,6 +1,76 @@
 {
   "announcements": [
     {
+      "id": "fc6c776d2a4a35c7cdf463a46fbc11b21c275cc0",
+      "title": "Amazon EC2 X2idn instances are now available in Asia Pacific (Hong Kong)",
+      "summary": "Memory-optimized Amazon Elastic Compute Cloud (Amazon EC2) X2idn instances are now available in Asia Pacific (Hong Kong) Region. These instances, powered by 3rd generation Intel Xeon Scalable Processo...",
+      "category": "COMPUTE",
+      "timestamp": "2026-09-11T18:35:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x2idn-asia-pacific-hong-kong/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0af2c62e5eb1b8d0ad281d38db8240613348bd9e",
+      "title": "Amazon SageMaker HyperPod now supports model caching for faster inference autoscaling and reduced cold starts",
+      "summary": "Amazon SageMaker HyperPod now supports model caching, an inference optimization that pre-loads model weights and container images onto cluster nodes so pods start in seconds instead of minutes.\n \nWhen...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-11T18:25:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sgm-hyperpod-model-caching-inf/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7107ac05ff9f94eecfb765a59dd1a5bc9811390d",
+      "title": "AWS Lambda now supports direct read configuration for Amazon S3 Files",
+      "summary": "AWS Lambda now supports direct read configuration for Amazon S3 Files, letting you configure which storage your functions read from: S3 Files high-performance storage or your S3 bucket. With this laun...",
+      "category": "SERVERLESS",
+      "timestamp": "2026-09-11T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-direct-read-s3files/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f5cd66b38ec00f45a8afd3addec47751e839e5ea",
+      "title": "Amazon Bedrock Managed Knowledge Base now supports multimodal embeddings for video, audio, and image content with TwelveLabs Marengo 3.0",
+      "summary": "AWS announces the availability of TwelveLabs Marengo 3.0 as an embedding model in Amazon Bedrock Managed Knowledge Base, enabling customers to create multimodal embeddings for video, audio, and image ...",
+      "category": "SECURITY",
+      "timestamp": "2026-09-11T15:13:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-multimodal-embeddings-twelvelabs-marengo/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "95806c01d53c8c8c06768c648589bb70c96288f9",
+      "title": "AWS HealthOmics now publishes real-time run metrics to Amazon CloudWatch ",
+      "summary": "AWS HealthOmics now publishes real-time run metrics to Amazon CloudWatch, giving you visibility into workflow resource utilization as runs execute. The 14 new run metrics span CPU and GPU usage, memor...",
+      "category": "OTHER",
+      "timestamp": "2026-09-11T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-healthomics-realtime-run-metrics/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9ebde43eae5f2cf1ce525361952322464176e08c",
+      "title": "AWS DevOps Agent adds support for bidirectional Slack communication ",
+      "summary": "AWS DevOps Agent now enables engineers to manage production operations across AWS, multicloud, and on-premises environments with the complete investigation lifecycle directly within Slack. Previously,...",
+      "category": "OTHER",
+      "timestamp": "2026-09-11T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-devops-agent-bidirectional-slack-communication",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9cfc96a6df4e2b473a5d52f208a309c36acc9c59",
+      "title": "Amazon RDS for Oracle now supports Supplemental Patch Bundle for July 2026 Release Update ",
+      "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports the Supplemental Patch Bundle (SPB) for the July 2026 Release Update (RU) for Oracle Database version 19c and 26ai. \n \nStarting ...",
+      "category": "DATABASE",
+      "timestamp": "2026-09-11T07:12:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-oracle-supports-spatial-patch-bundle-jul-2026-ru/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "c66a9ec19989597ffa0af7cc2372308df7eca935",
       "title": "AWS Lambda recursive loop detection is now available in Europe Sovereign Cloud",
       "summary": "AWS Lambda recursive loop detection is now supported for functions running in Europe Sovereign Cloud. Recursive loop detection automatically detects and stops recursive invocations between Lambda func...",
@@ -5912,20 +5982,20 @@
     }
   ],
   "stats": {
-    "total": 591,
+    "total": 598,
     "byCategory": {
-      "SERVERLESS": 21,
-      "OTHER": 123,
+      "COMPUTE": 74,
+      "AI_ML": 103,
+      "SERVERLESS": 22,
+      "SECURITY": 131,
+      "OTHER": 125,
+      "DATABASE": 62,
       "STORAGE": 24,
-      "COMPUTE": 73,
-      "SECURITY": 130,
       "ANALYTICS": 16,
       "CONTAINERS": 34,
-      "DATABASE": 61,
-      "NETWORKING": 7,
-      "AI_ML": 102
+      "NETWORKING": 7
     },
-    "lastUpdated": "2026-09-11T14:05:03.483Z"
+    "lastUpdated": "2026-09-11T23:54:18.713Z"
   },
-  "generatedAt": "2026-09-11T14:05:03.483Z"
+  "generatedAt": "2026-09-11T23:54:18.714Z"
 }
