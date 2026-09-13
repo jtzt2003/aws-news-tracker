@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "18dc05538834873f11ea0ffa7970df9b8e91c701",
+      "title": "AWS Elemental MediaLive enables frame-accurate pipeline locking for streams without timecode",
+      "summary": "AWS Elemental MediaLive now supports Video Aligned Locking, a new feature to synchronize video pipelines without requiring timecode from the source. Previously, achieving frame-accurate locking across...",
+      "category": "OTHER",
+      "timestamp": "2026-09-12T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/medialive-pipeline-locking/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "fc6c776d2a4a35c7cdf463a46fbc11b21c275cc0",
       "title": "Amazon EC2 X2idn instances are now available in Asia Pacific (Hong Kong)",
       "summary": "Memory-optimized Amazon Elastic Compute Cloud (Amazon EC2) X2idn instances are now available in Asia Pacific (Hong Kong) Region. These instances, powered by 3rd generation Intel Xeon Scalable Processo...",
@@ -5959,43 +5969,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-devops-agent-custom-agents/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "fe260734f66ff89f6793206b4146aede305a6142",
-      "title": "Amazon EC2 C7i instances are now available in the Israel (Tel Aviv) region",
-      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C7i instances powered by custom 4th Gen Intel Xeon Scalable processors (code-named Sapphire Rapids) are available in the Israel (Tel Aviv) Reg...",
-      "category": "COMPUTE",
-      "timestamp": "2026-06-15T13:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c7i-instances-israel-tel-aviv-region/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b90288449d638d46082cbecbb8ef1ce4501650a0",
-      "title": "Amazon EC2 C8i instances are now available in Europe (Stockholm) region",
-      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i instances are available in the Europe (Stockholm) region. These instances are powered by custom Intel Xeon 6 processors, available only on...",
-      "category": "COMPUTE",
-      "timestamp": "2026-06-15T13:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c8i-instances-europe-stockholm-region/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 598,
+    "total": 597,
     "byCategory": {
-      "COMPUTE": 74,
+      "OTHER": 126,
+      "COMPUTE": 72,
       "AI_ML": 103,
       "SERVERLESS": 22,
       "SECURITY": 131,
-      "OTHER": 125,
       "DATABASE": 62,
       "STORAGE": 24,
       "ANALYTICS": 16,
       "CONTAINERS": 34,
       "NETWORKING": 7
     },
-    "lastUpdated": "2026-09-12T23:47:11.642Z"
+    "lastUpdated": "2026-09-13T14:07:59.154Z"
   },
-  "generatedAt": "2026-09-12T23:47:11.642Z"
+  "generatedAt": "2026-09-13T14:07:59.154Z"
 }
