@@ -1,6 +1,56 @@
 {
   "announcements": [
     {
+      "id": "0d8a5bf3f751b190d27eac10a6f93967451b9caa",
+      "title": "AWS Billing Conductor now supports custom rates and usage tier pricing configurations",
+      "summary": "AWS Billing Conductor now lets you define custom rate pricing for AWS services, including defining custom usage tiers to configure rates by the desired usage volume. \n \nCustomers and Partners using AW...",
+      "category": "OTHER",
+      "timestamp": "2026-09-15T18:58:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/AWS-Billing-Conductor-custom-rates-usage-tier",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5af1f21cdef69ead9127254d1ddc8c6cb39246ec",
+      "title": "Amazon SageMaker AI now supports instance preference lists for training and processing jobs",
+      "summary": "Today, Amazon SageMaker AI announces instance preference lists for training and processing jobs, making it easier and faster to find compute capacity for your workloads. Many AI training, fine-tuning,...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-15T18:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-sagemaker-training-processing-instance-pref-lists/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b2ab91d95842e69602d7ff7e91375baa57f37ea7",
+      "title": "Analyze your CloudTrail events using natural language in Amazon Q Console",
+      "summary": "AWS CloudTrail, a service that records API activity across your AWS account for security auditing, compliance, and operational troubleshooting, now integrates with Amazon Q Console to help you investi...",
+      "category": "SECURITY",
+      "timestamp": "2026-09-15T16:54:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudtrail-amazon-q-console/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "824bc782c86d60e5fe714f007a7b590614b0b165",
+      "title": "Amazon Connect Customer now enables agents to bid on preferred shifts",
+      "summary": "Amazon Connect Customer now enables agents to bid on preferred shifts, giving them more control over their work schedules. Schedulers first establish agent ranking either by uploading a CSV file or ge...",
+      "category": "OTHER",
+      "timestamp": "2026-09-15T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-customer-shift-bidding/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b216a2587339c0271c97b33186e2a2d617766852",
+      "title": "AWS improves regional resiliency for root user sign-in",
+      "summary": "AWS root user sign-in is now served across US East (N. Virginia), US East (Ohio), and US West (Oregon), with sign-in traffic distributed across all three Regions. This change reduces reliance on US Ea...",
+      "category": "OTHER",
+      "timestamp": "2026-09-14T19:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/root-user-regional-resiliency/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "83ed15bcf4e27e50daae3a60ff0996685527b3c4",
       "title": "Qwen3.6-35B-A3B-NVFP4 and Wan2.1-T2V-1.3B-Diffusers models now available on Amazon SageMaker JumpStart",
       "summary": "NVIDIA's Qwen3.6-35B-A3B-NVFP4 and Alibaba's Wan2.1-T2V-1.3B-Diffusers models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. ...",
@@ -5679,73 +5729,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sns-supports-sending-sms-seoul-region/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "05f7edd55118313fb83abebe922c5b08ac22dc47",
-      "title": "AWS Glue Interactive Sessions now support Spark Connect for interactive workloads",
-      "summary": "AWS Glue Interactive Sessions now support Apache Spark Connect, using which you can now develop and run Apache Spark applications from your preferred environment, including managed notebooks in Amazon...",
-      "category": "AI_ML",
-      "timestamp": "2026-06-17T19:15:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-glue-interactive-sessions-spark-connect-smus-notebooks",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "521ea419d12fad69a38b4dfcc51933b11c97bae8",
-      "title": "AWS HealthOmics now streams workflow engine logs to Amazon CloudWatch in real time",
-      "summary": "AWS HealthOmics now streams workflow engine logs to Amazon CloudWatch in real time, enabling customers to monitor workflow execution progress as it happens. AWS HealthOmics is a HIPAA-eligible service...",
-      "category": "OTHER",
-      "timestamp": "2026-06-17T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-healthomics-real-time-engine-log-streaming/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "de490ff449e7e626d317da02cd28f4570bebc637",
-      "title": "AWS DevOps Agent adds release management capability (preview)",
-      "summary": "AWS DevOps Agent now offers a release management capability in preview, reviewing code changes for release readiness and running autonomous release testing to help you ship code to production safely a...",
-      "category": "OTHER",
-      "timestamp": "2026-06-17T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-devops-agent-release-management/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f4be4a2738d834b3f2eef9a7259086bc4a28f9e9",
-      "title": "Amazon RDS for PostgreSQL, MySQL, and MariaDB now supports M9g database instances",
-      "summary": "AWS Graviton5-based M9g database (DB) instances are now generally available for Amazon Relational Database Service (RDS) for PostgreSQL, MySQL, and MariaDB. Graviton5-based instances provide up to a 3...",
-      "category": "DATABASE",
-      "timestamp": "2026-06-17T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-postgresql-mysql-mariadb-m9g-instances/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "832d032779b67b0180a25ac87c6f33e444e495d5",
-      "title": "Amazon Aurora and RDS for MySQL expand Extended Support for MySQL 5.7 through June 2029",
-      "summary": "Amazon Aurora MySQL-Compatible Edition and Amazon Relational Database Service (RDS) for MySQL now offer Amazon RDS Extended Support for MySQL 5.7 through June 30, 2029, from the previous end date of F...",
-      "category": "SECURITY",
-      "timestamp": "2026-06-17T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/rds-mysql-es-extension/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
     "total": 573,
     "byCategory": {
+      "OTHER": 113,
       "AI_ML": 105,
-      "OTHER": 112,
+      "SECURITY": 125,
       "COMPUTE": 71,
       "SERVERLESS": 22,
-      "SECURITY": 125,
-      "DATABASE": 61,
+      "DATABASE": 60,
       "STORAGE": 21,
       "ANALYTICS": 16,
       "CONTAINERS": 33,
       "NETWORKING": 7
     },
-    "lastUpdated": "2026-09-15T14:39:27.484Z"
+    "lastUpdated": "2026-09-15T23:59:12.826Z"
   },
-  "generatedAt": "2026-09-15T14:39:27.484Z"
+  "generatedAt": "2026-09-15T23:59:12.827Z"
 }
