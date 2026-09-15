@@ -1,6 +1,66 @@
 {
   "announcements": [
     {
+      "id": "83ed15bcf4e27e50daae3a60ff0996685527b3c4",
+      "title": "Qwen3.6-35B-A3B-NVFP4 and Wan2.1-T2V-1.3B-Diffusers models now available on Amazon SageMaker JumpStart",
+      "summary": "NVIDIA's Qwen3.6-35B-A3B-NVFP4 and Alibaba's Wan2.1-T2V-1.3B-Diffusers models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. ...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-14T17:39:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/qwen3.6-35b-a3b-nvfp4-wan2.1-t2v-1.3B-diffusers-jumpstart/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2d552fccdb9b5185de4a08196b1fde1daf445fab",
+      "title": "Ministral-3-3B-Instruct-2512 and Ministral-3-8B-Instruct-2512 models now available on Amazon SageMaker JumpStart",
+      "summary": "Mistral AI's Ministral-3-3B-Instruct-2512 and Ministral-3-8B-Instruct-2512 models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS custome...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-14T17:35:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/ministral-3-3b-instruct-2512-ministral-3-8B-Instruct-2512-jumpstart/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e71e2532303de3bf3d22abc267c9862ff76c66a9",
+      "title": "Gemma-4-31B-it-assistant and Gemma-4-31B-IT-NVFP4 models now available on Amazon SageMaker JumpStart",
+      "summary": "Google DeepMind's Gemma-4-31B-it-assistant and NVIDIA's Gemma-4-31B-IT-NVFP4 models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS custo...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-14T17:32:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/gemma-4-31b-it-assistant-gemma-4-31b-it-nvfp4-jumpstart/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9ca2d16b6c7e98e1be0f29c5f41f380763a58a66",
+      "title": "granite-speech-4.1-2b, kanana-2-30b-a3b-instruct, and OpenFold3 models now available on Amazon SageMaker JumpStart",
+      "summary": "BM's granite-speech-4.1-2b, Kakao's kanana-2-30b-a3b-instruct, and the OpenFold Consortium's OpenFold3 models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation mod...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-14T17:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/granite-speech-4.1-2b-edge-kanana-2-30b-a3b-instruct-openfold3-jumpstart/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6748a835e81ca71f711e65fecee3b81145d90e4b",
+      "title": "AWS End User Messaging now supports Dynamic Flows in WhatsApp",
+      "summary": "AWS End User Messaging now supports dynamic WhatsApp flows so you can turn WhatsApp conversations into rich, interactive experiences that end-users complete directly in WhatsApp.\n  Instead of pushing ...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-14T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-end-user-messaging-whatsapp-dynamic-flows",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "cf159b9aef66fe4212845689c0bde70f4b1be77d",
+      "title": "AWS End User Messaging strengthens SMS deliverability with automatic failover",
+      "summary": "AWS End User Messaging is advancing its deliverability capabilities in phone pools. Now, customers sending through phone pools automatically benefit from automatic failover to the next best performing...",
+      "category": "OTHER",
+      "timestamp": "2026-09-14T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-end-user-messaging-improves-deliverability",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "18dc05538834873f11ea0ffa7970df9b8e91c701",
       "title": "AWS Elemental MediaLive enables frame-accurate pipeline locking for streams without timecode",
       "summary": "AWS Elemental MediaLive now supports Video Aligned Locking, a new feature to synchronize video pipelines without requiring timecode from the source. Previously, achieving frame-accurate locking across...",
@@ -5709,73 +5769,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-policy-guardrails-generally-available",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "4912fee7db71ec3c0634e8962041b12d70062560",
-      "title": "Amazon Bedrock Guardrails announces a new API targeting agentic AI workflows",
-      "summary": "Amazon Bedrock Guardrails now offers the InvokeGuardrailChecks API, a new resourceless API that lets you apply individual safeguards at any point in your agentic AI applications without creating guard...",
-      "category": "AI_ML",
-      "timestamp": "2026-06-16T22:53:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-guardrails-api-ai/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "8752f25733c056b00773dfc47c79f9ca7aa1ace8",
-      "title": "AWS Transform now supports model-to-model migration assessment for generative AI workloads",
-      "summary": "AWS Transform now offers a model-to-model migration custom transformation that assesses your generative AI workloads and produces a comprehensive migration plan for moving from third-party providers t...",
-      "category": "SECURITY",
-      "timestamp": "2026-06-16T21:55:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-model-to-model-assessments",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "fefc791343b396f31a1650f2af74a87cefb621d3",
-      "title": " Amazon S3 Vectors now supports up to 10,000 similarity search results per query",
-      "summary": "Amazon S3 Vectors can now return up to 10,000 similarity search results per query, a 100x increase from the previous limit. The higher result limit helps you retrieve a larger, more comprehensive set ...",
-      "category": "STORAGE",
-      "timestamp": "2026-06-16T21:22:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/s3-vectors-supports-10000-search-results-per-query",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "9e147bcffd58da8bb4396045e30ce5283c61f2b1",
-      "title": "AWS Transform for mainframe now delivers a traceable reimagine workflow",
-      "summary": "AWS Transform for mainframe now delivers a connected, traceable reimagine experience from assessment through code generation. Previously, modernizing mainframe applications required months of analysis...",
-      "category": "OTHER",
-      "timestamp": "2026-06-16T18:29:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-mainframe-traceable-reimagine-workflow/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "eb4bd07b510925c3490c8320d090f077c5cd2489",
-      "title": "AWS Sign-in now supports resource-based policies and resource control policies",
-      "summary": "AWS Sign-in now supports resource-based policies and resource control policies (RCPs) for the AWS Management Console. You can use these policies to restrict console sign-in to expected networks. Polic...",
-      "category": "OTHER",
-      "timestamp": "2026-06-16T16:20:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-sign-in/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 576,
+    "total": 577,
     "byCategory": {
-      "OTHER": 113,
+      "AI_ML": 105,
+      "OTHER": 112,
       "COMPUTE": 72,
-      "AI_ML": 101,
       "SERVERLESS": 22,
-      "SECURITY": 129,
+      "SECURITY": 128,
       "DATABASE": 61,
-      "STORAGE": 22,
+      "STORAGE": 21,
       "ANALYTICS": 16,
       "CONTAINERS": 33,
       "NETWORKING": 7
     },
-    "lastUpdated": "2026-09-14T16:10:56.644Z"
+    "lastUpdated": "2026-09-15T00:20:58.811Z"
   },
-  "generatedAt": "2026-09-14T16:10:56.644Z"
+  "generatedAt": "2026-09-15T00:20:58.812Z"
 }
