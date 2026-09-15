@@ -41,6 +41,16 @@
       "isNew": false
     },
     {
+      "id": "0b18137371ed9f58ff6c968b0acd1002365a851e",
+      "title": "AWS Glue zero-ETL adds target table property ownership and conflict detection",
+      "summary": "AWS Glue zero-ETL integrations now detect table property conflicts and track integration ownership. When you configure a source table and target catalog, Glue associates the resulting table properties...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-14T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/glue-zero-etl-ownership-conflicts/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "6748a835e81ca71f711e65fecee3b81145d90e4b",
       "title": "AWS End User Messaging now supports Dynamic Flows in WhatsApp",
       "summary": "AWS End User Messaging now supports dynamic WhatsApp flows so you can turn WhatsApp conversations into rich, interactive experiences that end-users complete directly in WhatsApp.\n  Instead of pushing ...",
@@ -5719,73 +5729,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/rds-mysql-es-extension/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "07b58fb68e5a6d504b3bd78cd050d906793eb221",
-      "title": "AWS Outposts racks now support bmn-cx3a instances, the first AMD-based instances with accelerated networking on Outposts",
-      "summary": "AWS announces the availability of bmn-cx3a instances on second-generation AWS Outposts racks. Bmn-cx3a instances feature 5th Gen AMD EPYC processors with a maximum frequency of 4.1 GHz and NVIDIA Conn...",
-      "category": "COMPUTE",
-      "timestamp": "2026-06-17T14:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-outposts-amd-bmn-cx3a/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "a54628365561e67040f5767b6e8060ed68e5436e",
-      "title": "Amazon Quick announces autonomous agents, multi-dataset analytics, and redesigned activity feed",
-      "summary": "Today, AWS announces multiple new features for Amazon Quick, including autonomous agents, multi-dataset analytics capabilities, and a redesigned activity feed. Amazon Quick is the AI assistant that co...",
-      "category": "SECURITY",
-      "timestamp": "2026-06-17T13:40:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4a2c70f9d7d18665b0c3c02cb3f0b6f9051d9117",
-      "title": "Amazon Bedrock AgentCore introduces new optimization capabilities to continuously improve agents in production",
-      "summary": "Today, AWS announces new optimization capabilities in AgentCore that turn production traces into continuous improvement for agents. The most dangerous agent failures are not the ones that throw errors...",
-      "category": "AI_ML",
-      "timestamp": "2026-06-17T12:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-new-optimization-capabilities",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d7ab45dfacd15bd3efe8a4f52a814493ced30a3b",
-      "title": "AgentCore harness in now generally available",
-      "summary": "Today, AWS announces the general availability of the managed agent harness in Amazon Bedrock AgentCore, taking teams from idea to working agents in minutes. An agent is more than a model. If the model...",
-      "category": "SECURITY",
-      "timestamp": "2026-06-17T12:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-harness-generally-available",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4ddd9d1bf88e2d57d06bf989f4039cd595626ce6",
-      "title": "Amazon Bedrock AgentCore now supports Bedrock Guardrails in policy",
-      "summary": "Today, AWS announces that Amazon Bedrock AgentCore now supports Bedrock Guardrails in policy, giving enterprises deeper safety and security controls as they scale AI agents in production. AgentCore po...",
-      "category": "SECURITY",
-      "timestamp": "2026-06-17T12:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-policy-guardrails-generally-available",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 577,
+    "total": 573,
     "byCategory": {
       "AI_ML": 105,
       "OTHER": 112,
-      "COMPUTE": 72,
+      "COMPUTE": 71,
       "SERVERLESS": 22,
-      "SECURITY": 128,
+      "SECURITY": 125,
       "DATABASE": 61,
       "STORAGE": 21,
       "ANALYTICS": 16,
       "CONTAINERS": 33,
       "NETWORKING": 7
     },
-    "lastUpdated": "2026-09-15T00:20:58.811Z"
+    "lastUpdated": "2026-09-15T14:39:27.484Z"
   },
-  "generatedAt": "2026-09-15T00:20:58.812Z"
+  "generatedAt": "2026-09-15T14:39:27.484Z"
 }
