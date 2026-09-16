@@ -1,6 +1,26 @@
 {
   "announcements": [
     {
+      "id": "1063ae0778b6018241a8dd747c21b05e85113199",
+      "title": "Monitor cost anomalies directly in Billing and Cost Management Dashboards with the new Detected Anomalies widget ",
+      "summary": "Today, AWS Billing and Cost Management (BCM) announces support for the Detected Anomalies widget in BCM Dashboards. You can now review cost anomalies alongside cost and usage, budgets, cost efficiency...",
+      "category": "COMPUTE",
+      "timestamp": "2026-09-15T22:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/monitor-detected-anomalies-using-dashboards",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ea40a27f2d157a20db1134625648018f2904904d",
+      "title": "AWS Direct Connect announces flat-rate pricing for dedicated connections",
+      "summary": "AWS Direct Connect announces flat-rate pricing for 10G and 100G dedicated connections\n \nAWS Direct Connect provides dedicated network connectivity from on-premises environments to AWS. Customers value...",
+      "category": "NETWORKING",
+      "timestamp": "2026-09-15T19:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-direct-connect-announces-flat-rate-pricing/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "0d8a5bf3f751b190d27eac10a6f93967451b9caa",
       "title": "AWS Billing Conductor now supports custom rates and usage tier pricing configurations",
       "summary": "AWS Billing Conductor now lets you define custom rate pricing for AWS services, including defining custom usage tiers to configure rates by the desired usage volume. \n \nCustomers and Partners using AW...",
@@ -37,6 +57,16 @@
       "category": "OTHER",
       "timestamp": "2026-09-15T16:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-customer-shift-bidding/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a49d5627f8b653e44b8cba53314f1f85c110f8f7",
+      "title": "AWS Glue zero-ETL now captures archived Salesforce records",
+      "summary": "AWS Glue zero-ETL integrations for Salesforce now capture archived records in your target tables, giving you a complete replica of your Salesforce data for analytics and reporting. Archived records ar...",
+      "category": "ANALYTICS",
+      "timestamp": "2026-09-15T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/glue-zero-etl-archived-salesforce/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5732,20 +5762,20 @@
     }
   ],
   "stats": {
-    "total": 573,
+    "total": 576,
     "byCategory": {
+      "COMPUTE": 72,
+      "NETWORKING": 8,
       "OTHER": 113,
       "AI_ML": 105,
       "SECURITY": 125,
-      "COMPUTE": 71,
+      "ANALYTICS": 17,
       "SERVERLESS": 22,
       "DATABASE": 60,
       "STORAGE": 21,
-      "ANALYTICS": 16,
-      "CONTAINERS": 33,
-      "NETWORKING": 7
+      "CONTAINERS": 33
     },
-    "lastUpdated": "2026-09-15T23:59:12.826Z"
+    "lastUpdated": "2026-09-16T14:38:45.774Z"
   },
-  "generatedAt": "2026-09-15T23:59:12.827Z"
+  "generatedAt": "2026-09-16T14:38:45.774Z"
 }
