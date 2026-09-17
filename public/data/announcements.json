@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "9db053c128a7d23f019caa16b31593caecc95a90",
+      "title": "Amazon SageMaker AI now supports serverless model customization for NVIDIA Nemotron 3.5 Lightning ",
+      "summary": "Amazon SageMaker AI now supports serverless model customization for the NVIDIA Nemotron 3.5 Lightning model using supervised fine-tuning (SFT), Direct Preference Optimization (DPO), and reinforcement ...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-16T22:29:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-sagemaker-ft-nemotron-3-5-lightning/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b3c142552fe9e7f4435d4f8f5b042cbed813cc27",
+      "title": "AWS Client VPN is now supporting MacOS 27 Golden Gate",
+      "summary": "AWS Client VPN now supports MacOS 27 Golden Gate client with versions 6.0+ You can now run the AWS supplied VPN client on the latest MacOS versions. AWS Client VPN desktop clients are available free o...",
+      "category": "OTHER",
+      "timestamp": "2026-09-16T17:56:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-client-vpn-macos-golden-gate/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "469f32f4a6c8d4f5b02b5d60d44f402c0d52e149",
+      "title": "New AWS experience helps builders get started and ship faster",
+      "summary": "Builders can now sign up for a new simplified experience that makes it faster to turn ideas into running code on AWS. AWS services provide an array of configuration options so that the largest enterpr...",
+      "category": "SECURITY",
+      "timestamp": "2026-09-16T17:45:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/New-AWS-Builder-Experience",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "eb767aced99ad0d200610af4b5106c831795a583",
+      "title": "Amazon WorkSpaces adds support for NVIDIA Blackwell GPU instances",
+      "summary": "Amazon WorkSpaces Personal and Amazon WorkSpaces Core now support Graphics G7 bundles, built on NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs and Intel Xeon 6 processors. Graphics G7 delivers up t...",
+      "category": "COMPUTE",
+      "timestamp": "2026-09-16T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-nvidia-blackwell-gpu-instances/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ebee1bf97a81c8297115c2b0d1907c3e17949a61",
+      "title": "Amazon Connect Customer custom metrics now supports tag-based access control",
+      "summary": "Amazon Connect Customer now supports tag-based access control for custom metrics, so you can govern which users and roles can view, create, or modify each custom metric.\n \nAs more teams across your or...",
+      "category": "OTHER",
+      "timestamp": "2026-09-16T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-customer-custom-metrics-tag/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "bb52ada7b08a7376ccda43042129fe37aaa06fa1",
+      "title": "Amazon Connect Customer can now import evaluation form PDFs using AI",
+      "summary": "Amazon Connect Customer now lets managers import a PDF of an evaluation form from a third-party quality management application, and automatically recreates it in Connect using AI, making it easier to ...",
+      "category": "OTHER",
+      "timestamp": "2026-09-16T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-customer-import-evaluation-form-PDF/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1bd1e521ac1daaeedf9a084351a7d53fff72c87c",
+      "title": "AWS Elemental MediaTailor Monetization Functions adds ad response hooks",
+      "summary": "AWS Elemental MediaTailor now supports two additional lifecycle hooks for monetization functions: post ad decision server (ADS) response, and pre manifest insertion. MediaTailor is a video service tha...",
+      "category": "OTHER",
+      "timestamp": "2026-09-16T16:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-elemental-mediatailor-functions-ad-response-hooks",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0e84caaa12afc4e5033b95e5ea7dbd26d4d25564",
+      "title": "Amazon ECS extends Amazon S3 Files support to the Amazon EC2 compute type",
+      "summary": "Amazon Elastic Container Service (Amazon ECS) now supports Amazon S3 Files for tasks running on the Amazon EC2 launch type, enabling customers to connect their containerized applications directly to d...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-09-16T16:25:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-s3-files-ec2/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "36c9b1c023440621f2b563ede17c3c3cf245632f",
+      "title": "Amazon Connect Customer now lets you create, manage, and search custom metrics through APIs ",
+      "summary": "Amazon Connect Customer provides a library of standard metrics. Custom metrics let you go further; defining the measurements unique to your business. But managing them across various instances manuall...",
+      "category": "OTHER",
+      "timestamp": "2026-09-16T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-customer-custom-metrics-apis/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0455f805b498b6424e21ce488697d5622acdb2c1",
+      "title": "AWS STS simplifies session token size limits and adds session token size monitoring",
+      "summary": "AWS Security Token Service (STS) now enforces a single 4,096-byte size limit on session tokens. Previously, STS enforced separate limits on session token size and passed-in parameters (i.e., inline po...",
+      "category": "SECURITY",
+      "timestamp": "2026-09-15T22:42:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-sts/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "1063ae0778b6018241a8dd747c21b05e85113199",
       "title": "Monitor cost anomalies directly in Billing and Cost Management Dashboards with the new Detected Anomalies widget ",
       "summary": "Today, AWS Billing and Cost Management (BCM) announces support for the Detected Anomalies widget in BCM Dashboards. You can now review cost anomalies alongside cost and usage, budgets, cost efficiency...",
@@ -5629,153 +5729,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-local-zones-hanoi-vietnam/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "91cc46010ad1d88f8bc1371948c5f0049cf4b019",
-      "title": "Amazon CloudWatch Synthetics now supports multilocation canaries",
-      "summary": "Today, Amazon CloudWatch Synthetics announces support for multilocation canaries, allowing developers and site reliability engineers to run the same canary across multiple AWS Regions simultaneously f...",
-      "category": "OTHER",
-      "timestamp": "2026-06-18T22:41:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-synthetics-multilocation/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "9c0bbbb091b2bcc3aa371905a341234476e2e9af",
-      "title": "Amazon MSK Express brokers now support Intelligent Rebalancing on existing clusters",
-      "summary": "Amazon MSK Provisioned clusters with Express brokers now support Intelligent Rebalancing on all existing clusters, at no additional cost. Previously available only on newly created clusters, Intellige...",
-      "category": "ANALYTICS",
-      "timestamp": "2026-06-18T22:36:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-msk-express-intelligent/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "be44d8832d6a92672ae215edde39ae0925f92819",
-      "title": "Amazon ECS announces faster service auto scaling ",
-      "summary": "Amazon ECS service auto scaling now detects and responds to load changes faster with support for high resolution (20-second) metrics and metric publishing optimizations. In AWS benchmarking tests, tim...",
-      "category": "CONTAINERS",
-      "timestamp": "2026-06-18T21:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-faster-autoscaling/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "5272f736dda7779a78dee79147c591110ebea7b2",
-      "title": "Amazon EC2 G7 instances are now generally available",
-      "summary": "Today, AWS announces the general availability of Amazon Elastic Compute Cloud (Amazon EC2) G7 instances, accelerated by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs. G7 instances deliver up to 4....",
-      "category": "COMPUTE",
-      "timestamp": "2026-06-18T20:59:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-g7-generally-available",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "38982f645f0a76099aab808dce7bbd28f0fff1dd",
-      "title": "Amazon MQ for RabbitMQ now supports private networking connectivity",
-      "summary": "Amazon MQ for RabbitMQ now supports private networking, enabling your brokers to connect to private resources in your VPC without exposing those resources publicly.. This helps you meet your security ...",
-      "category": "SECURITY",
-      "timestamp": "2026-06-18T20:20:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-mq-private-network-connectivity/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "3bd178e148b98c3f53716035465d136c558db450",
-      "title": "Nested virtualization is now available on additional Intel platforms and US Gov Cloud regions",
-      "summary": "Starting today, Nested virtualization is now available on additional Intel platforms and additional Regions. Nested virtualization is now available on C7i,R7i, M7i, C7id,R7id, M7id, C7i-flex,R7i-flex,...",
-      "category": "OTHER",
-      "timestamp": "2026-06-18T18:47:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/nested-virtualization-intel-us-gov-cloud/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d4428a2e0792acb559d2e0f96283d60781c83e27",
-      "title": "Amazon Connect Customer launches the ability to interrupt an agent with an urgent contact",
-      "summary": "Amazon Connect Customer now supports the ability to interrupt an agent with a contact, overriding their usual routing configuration in case of urgent or time-sensitive work. For example, an agent may ...",
-      "category": "OTHER",
-      "timestamp": "2026-06-18T18:35:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect-interrupt-agent-with-urgent-contact/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "438a6191f6f64eb3ac9911a34b40e6cf6f028917",
-      "title": "all-MiniLM-L12-v2 for semantic search and sentence similarity is now available in Amazon SageMaker JumpStart",
-      "summary": "Today, AWS announced the availability of all-MiniLM-L12-v2 in Amazon SageMaker JumpStart, expanding the portfolio of models available to AWS customers. This model from Sentence Transformers maps sente...",
-      "category": "AI_ML",
-      "timestamp": "2026-06-18T18:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/all-minilm-l12-v2-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "834bb412596586b9d422344e453cc373a1741586",
-      "title": "Ministral-3-14B-Instruct for multimodal reasoning and agentic AI is now available in Amazon SageMaker JumpStart",
-      "summary": "Today, AWS announced the availability of Ministral-3-14B-Instruct-2512 in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from Mistral A...",
-      "category": "AI_ML",
-      "timestamp": "2026-06-18T18:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ministral-3-14b-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "1d0943ef1b879b272950177aa8f4811b13b02910",
-      "title": "AWS Compute Optimizer enhances EBS volume recommendations with additional performance metrics ",
-      "summary": "AWS Compute Optimizer now includes improved visibility into IOPS and throughput spikes when deliverings Amazon EBS volume rightsizing recommendations. Compute Optimizer analyzes two additional Amazon ...",
-      "category": "STORAGE",
-      "timestamp": "2026-06-18T18:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-enhances-ebs-recommendations/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "da1234e25ec2308f96e795f4d926513471d206c2",
-      "title": "Amazon EKS now supports customer-routed control plane egress",
-      "summary": "Today, Amazon Elastic Kubernetes Service (Amazon EKS) introduces customer-routed control plane egress, a capability that lets you route outbound Kubernetes API server traffic through your own Amazon V...",
-      "category": "SECURITY",
-      "timestamp": "2026-06-18T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-customer-routed-control-plane-egress",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "15de362d5e8d511eb82e58b02664b286c1fb6893",
-      "title": "Amazon SageMaker AI Announces New observability capability For Inference Endpoints     ",
-      "summary": "Amazon SageMaker AI's new observability capability allows customers to operate production generative AI inference workloads with confidence by providing comprehensive visibility into token performance...",
-      "category": "AI_ML",
-      "timestamp": "2026-06-18T15:13:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-ai-inference/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "cb07692363abca23432de2c47cf6bb30aca08ef2",
-      "title": "Amazon SNS now supports sending SMS in the Asia Pacific (Seoul) Region",
-      "summary": "Customers that use Amazon Simple Notification Service (Amazon SNS) in the Asia Pacific (Seoul) Region can now send text messages (SMS) to subscribers in more than 200 countries and territories.\n \nAmaz...",
-      "category": "SERVERLESS",
-      "timestamp": "2026-06-18T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sns-supports-sending-sms-seoul-region/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 576,
+    "total": 573,
     "byCategory": {
-      "COMPUTE": 72,
-      "NETWORKING": 8,
-      "OTHER": 113,
-      "AI_ML": 105,
+      "AI_ML": 103,
+      "OTHER": 115,
       "SECURITY": 125,
-      "ANALYTICS": 17,
-      "SERVERLESS": 22,
+      "COMPUTE": 72,
+      "CONTAINERS": 33,
+      "NETWORKING": 8,
+      "ANALYTICS": 16,
+      "SERVERLESS": 21,
       "DATABASE": 60,
-      "STORAGE": 21,
-      "CONTAINERS": 33
+      "STORAGE": 20
     },
-    "lastUpdated": "2026-09-16T14:38:45.774Z"
+    "lastUpdated": "2026-09-17T00:09:15.693Z"
   },
-  "generatedAt": "2026-09-16T14:38:45.774Z"
+  "generatedAt": "2026-09-17T00:09:15.693Z"
 }
