@@ -1,6 +1,76 @@
 {
   "announcements": [
     {
+      "id": "6ffc1caa0e1a2bd0a64aff311cc224dafe7aa214",
+      "title": "AWS Transfer Family now supports source IP preservation for SFTP servers behind a Network Load Balancer (NLB)",
+      "summary": "AWS Transfer Family now preserves the client's source IP address using Proxy Protocol v2 (PPv2) when you place a Network Load Balancer (NLB) in front of your SFTP server that uses a VPC-hosted endpoin...",
+      "category": "NETWORKING",
+      "timestamp": "2026-09-17T19:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-source-ip-nlb/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ce357da09ff8a51a20060c5e7410d3ee00625f1e",
+      "title": "AWS HealthOmics now supports IAM session policies",
+      "summary": "AWS HealthOmics now supports IAM session policies, enabling you to restrict permissions for individual runs without creating and managing multiple IAM roles. Until now, there was no way to dynamically...",
+      "category": "SECURITY",
+      "timestamp": "2026-09-17T18:32:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/omics-iam-session-policy/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0a42ce27b62c0e560c999a9e755e91ecc7dde1c5",
+      "title": "AWS Batch now supports bulk job cancellation and termination",
+      "summary": "AWS Batch now supports bulk job cancellation and termination, enabling you to cancel or terminate up to 50 jobs with a single API call. The new CancelJobs, TerminateJobs, and TerminateServiceJobs APIs...",
+      "category": "COMPUTE",
+      "timestamp": "2026-09-17T17:23:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-batch-bulk-cancellation/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8e6048102fa662cb22a827dc58b9ea1c36a20aa0",
+      "title": "Introducing Amazon EC2 T8i instances",
+      "summary": "AWS is announcing the general availability of new low-cost burstable Amazon EC2 T8i instances. These instances are powered by custom sixth generation Intel Xeon 6 processors, available exclusively on ...",
+      "category": "COMPUTE",
+      "timestamp": "2026-09-17T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-t8i-instances-ga/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1450fdd0801b4f3a95b04bfbc715d03ef5ca4c73",
+      "title": "AWS Elastic Beanstalk introduces Cluster Mode to run multiple applications on shared infrastructure",
+      "summary": "AWS Elastic Beanstalk introduces Cluster Mode, a new deployment mode that lets you run and manage multiple applications on shared infrastructure in your account. Provide your source code, a Dockerfile...",
+      "category": "SECURITY",
+      "timestamp": "2026-09-17T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/elastic-beanstalk-cluster-mode/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "bcb8d4c6d32adb8d69ec45724d272fb84d8d4229",
+      "title": "AWS Builder Center now available as mobile app on iOS and Android",
+      "summary": "AWS Builder Center is a platform that brings together the global builder community, offering articles, workshops, sandbox environments, events, and learning resources in one place. Previously limited ...",
+      "category": "OTHER",
+      "timestamp": "2026-09-17T07:09:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-builder-center-now-available-as-mobile-app/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "cd0c7f414d2a752b3c76c073d49bc57f1e91a5d4",
+      "title": "Amazon Quick now generates individual sheets and builds analyses from an image",
+      "summary": "Amazon Quick now expands Generate Analysis with two new ways to create dashboards faster. You can generate a single sheet inside an existing analysis by describing it in natural language, and you can ...",
+      "category": "OTHER",
+      "timestamp": "2026-09-17T02:37:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/generate-sheet-and-generate-analysis-from-an-image/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "8d27509e556d1ec7a2ad10f791b3b1c4f12f2c0f",
       "title": "Amazon Corretto 27 is now generally available",
       "summary": "Amazon Corretto 27, a Feature Release (FR) version, is now available for download. Amazon Corretto is a no-cost, multi-platform, production-ready distribution of OpenJDK. You can download Corretto 27 ...",
@@ -17,6 +87,16 @@
       "category": "AI_ML",
       "timestamp": "2026-09-16T22:29:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-sagemaker-ft-nemotron-3-5-lightning/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e97baa3532a90e71ff4b8936ac75902c21936a92",
+      "title": "Amazon ECS deployment observability for Amazon ECS Managed Daemons in AWS Management Console",
+      "summary": "Amazon Elastic Container Service (Amazon ECS) now provides a consolidated deployment view for Amazon ECS Managed Daemons, giving you a single place to see how far a deployment has progressed, what is ...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-09-16T22:01:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-daemon-deployment-console/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5732,20 +5812,20 @@
     }
   ],
   "stats": {
-    "total": 573,
+    "total": 581,
     "byCategory": {
-      "OTHER": 116,
+      "NETWORKING": 9,
+      "SECURITY": 127,
+      "COMPUTE": 74,
+      "OTHER": 118,
       "AI_ML": 103,
-      "SECURITY": 125,
-      "COMPUTE": 72,
-      "CONTAINERS": 32,
-      "NETWORKING": 8,
+      "CONTAINERS": 33,
       "ANALYTICS": 16,
       "SERVERLESS": 21,
       "DATABASE": 60,
       "STORAGE": 20
     },
-    "lastUpdated": "2026-09-17T14:42:56.142Z"
+    "lastUpdated": "2026-09-17T23:55:41.932Z"
   },
-  "generatedAt": "2026-09-17T14:42:56.143Z"
+  "generatedAt": "2026-09-17T23:55:41.932Z"
 }
