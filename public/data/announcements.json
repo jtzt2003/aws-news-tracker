@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "8d27509e556d1ec7a2ad10f791b3b1c4f12f2c0f",
+      "title": "Amazon Corretto 27 is now generally available",
+      "summary": "Amazon Corretto 27, a Feature Release (FR) version, is now available for download. Amazon Corretto is a no-cost, multi-platform, production-ready distribution of OpenJDK. You can download Corretto 27 ...",
+      "category": "OTHER",
+      "timestamp": "2026-09-17T00:00:31.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-corretto-27-generally-available/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "9db053c128a7d23f019caa16b31593caecc95a90",
       "title": "Amazon SageMaker AI now supports serverless model customization for NVIDIA Nemotron 3.5 Lightning ",
       "summary": "Amazon SageMaker AI now supports serverless model customization for the NVIDIA Nemotron 3.5 Lightning model using supervised fine-tuning (SFT), Direct Preference Optimization (DPO), and reinforcement ...",
@@ -5719,33 +5729,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-outposts-self-service-lifecycle-management",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "fc53f3d306859319581ba1f0b3bd4235ef081212",
-      "title": "Announcing the general availability of a new AWS Local Zone in Hanoi, Vietnam  ",
-      "summary": "Today, AWS announces the general availability of a new Local Zone in Hanoi, Vietnam, bringing AWS infrastructure closer to end users. This new Local Zone is one of the first AWS Local Zones in the Asi...",
-      "category": "CONTAINERS",
-      "timestamp": "2026-06-19T01:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-local-zones-hanoi-vietnam/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
     "total": 573,
     "byCategory": {
+      "OTHER": 116,
       "AI_ML": 103,
-      "OTHER": 115,
       "SECURITY": 125,
       "COMPUTE": 72,
-      "CONTAINERS": 33,
+      "CONTAINERS": 32,
       "NETWORKING": 8,
       "ANALYTICS": 16,
       "SERVERLESS": 21,
       "DATABASE": 60,
       "STORAGE": 20
     },
-    "lastUpdated": "2026-09-17T00:09:15.693Z"
+    "lastUpdated": "2026-09-17T14:42:56.142Z"
   },
-  "generatedAt": "2026-09-17T00:09:15.693Z"
+  "generatedAt": "2026-09-17T14:42:56.143Z"
 }
