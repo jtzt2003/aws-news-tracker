@@ -1,6 +1,86 @@
 {
   "announcements": [
     {
+      "id": "a82162b1ebefec325f67abfd6af7dfe4158ad68a",
+      "title": "AWS Continuum now supports credential testing and accessible domain suggestions ",
+      "summary": "AWS Continuum for penetration testing is a frontier agent that proactively secures applications throughout the development lifecycle by offering on-demand, customized penetration testing with real exp...",
+      "category": "SECURITY",
+      "timestamp": "2026-09-18T18:34:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-security-agent/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "08d407c03041390903f0983af013d2c72ef67d19",
+      "title": "Amazon ECS Express Mode now supports AWS Graviton (ARM64) workloads",
+      "summary": "Amazon Elastic Container Service Express Mode now supports specifying ARM64 as the CPU architecture for your service, making it easy to deploy ARM-based container images on AWS Graviton-powered comput...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-09-18T17:27:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-express-mode-arm-architecture/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f9bb98a39a242f5bb0b2afc5ffd5705ebe1f3b65",
+      "title": "AWS Resilience Hub adds three new capabilities",
+      "summary": "The next generation of AWS Resilience Hub is a central location in the AWS that helps platform engineering and site reliability teams assess and strengthen the resilience of their workloads running on...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-18T16:49:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/resilience-hub-eks-dependency-policy/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4fe1814c33e82bab5207e909fb899b2992dc222b",
+      "title": "AWS RTB Fabric now supports configurable Availability Zone affinity ",
+      "summary": "AWS RTB Fabric now supports configurable Availability Zone (AZ) affinity for responder gateways. With this capability, you can configure how your partners connect to your responder gateway: either in ...",
+      "category": "OTHER",
+      "timestamp": "2026-09-18T15:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-rtb-fabric-configurable-availability-zone-affinity/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "062d1613d9276114c4af329c34708e86b41365f5",
+      "title": "Kimi K3 by Moonshot AI is now generally available on Amazon Bedrock",
+      "summary": "Amazon Bedrock continues to expand its open weight model portfolio with the same security and governance that customers rely on. Today, Kimi K3 from Moonshot AI is generally available on Amazon Bedroc...",
+      "category": "SECURITY",
+      "timestamp": "2026-09-18T15:15:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/moonshot-ai-kimi-k3-on-amazon-bedrock/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9127d7b8e62727f88bfd1ff3a367781d652f7610",
+      "title": "Amazon SNS now supports message payloads up to 1 MiB",
+      "summary": "Amazon Simple Notification Service (Amazon SNS) now supports message payloads up to 1 MiB, a 4x increase from the previous 256 KiB limit, so you can publish larger messages to your SNS topics.\n \nAmazo...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-18T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-sns-1mib-support",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "bc6ab9a44e78025c2e4ea6604fd4bb4e60752b4c",
+      "title": "The new AgentCore Runtime is now available in Amazon Bedrock AgentCore ",
+      "summary": "Today, AWS announces the availability of the next generation of AgentCore Runtime, the serverless microVM compute within Amazon Bedrock AgentCore. The new Runtime delivers elastic memory management th...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-18T13:25:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/new-agentcore-runtime-generally-available",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d3538378aa78879db5ecbc1eabd56bdc402faf71",
+      "title": "AWS PrivateLink announces Tunnel Endpoints to access network segments",
+      "summary": "AWS PrivateLink customers can now use VPC endpoint to privately and securely access network segments in another VPC/account. They can use a ‘tunnel’ endpoint, a new type of VPC endpoint, to tunnel int...",
+      "category": "OTHER",
+      "timestamp": "2026-09-18T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/9/privatelink-tunnel-endpoint/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "6ffc1caa0e1a2bd0a64aff311cc224dafe7aa214",
       "title": "AWS Transfer Family now supports source IP preservation for SFTP servers behind a Network Load Balancer (NLB)",
       "summary": "AWS Transfer Family now preserves the client's source IP address using Proxy Protocol v2 (PPv2) when you place a Network Load Balancer (NLB) in front of your SFTP server that uses a VPC-hosted endpoin...",
@@ -5822,20 +5902,20 @@
     }
   ],
   "stats": {
-    "total": 582,
+    "total": 590,
     "byCategory": {
+      "SECURITY": 129,
+      "CONTAINERS": 34,
+      "AI_ML": 107,
+      "OTHER": 120,
       "NETWORKING": 9,
-      "SECURITY": 127,
       "COMPUTE": 74,
-      "AI_ML": 104,
-      "OTHER": 118,
-      "CONTAINERS": 33,
       "ANALYTICS": 16,
       "SERVERLESS": 21,
       "DATABASE": 60,
       "STORAGE": 20
     },
-    "lastUpdated": "2026-09-18T14:07:50.260Z"
+    "lastUpdated": "2026-09-18T23:54:25.339Z"
   },
-  "generatedAt": "2026-09-18T14:07:50.261Z"
+  "generatedAt": "2026-09-18T23:54:25.339Z"
 }
