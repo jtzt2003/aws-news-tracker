@@ -51,6 +51,16 @@
       "isNew": false
     },
     {
+      "id": "742efee655278bb169c85b0b0be17fa22fa3d902",
+      "title": "Amazon S3 Express One Zone is now available in 7 additional AWS Regions",
+      "summary": "The Amazon S3 Express One Zone storage class is now available in 7 additional AWS Regions: Asia Pacific (Singapore), South America (Sao Paulo), US West (N. California), Canada (Central), Europe (Paris...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-17T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/s3-express-one-zone-7-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "bcb8d4c6d32adb8d69ec45724d272fb84d8d4229",
       "title": "AWS Builder Center now available as mobile app on iOS and Android",
       "summary": "AWS Builder Center is a platform that brings together the global builder community, offering articles, workshops, sandbox environments, events, and learning resources in one place. Previously limited ...",
@@ -5812,20 +5822,20 @@
     }
   ],
   "stats": {
-    "total": 581,
+    "total": 582,
     "byCategory": {
       "NETWORKING": 9,
       "SECURITY": 127,
       "COMPUTE": 74,
+      "AI_ML": 104,
       "OTHER": 118,
-      "AI_ML": 103,
       "CONTAINERS": 33,
       "ANALYTICS": 16,
       "SERVERLESS": 21,
       "DATABASE": 60,
       "STORAGE": 20
     },
-    "lastUpdated": "2026-09-17T23:55:41.932Z"
+    "lastUpdated": "2026-09-18T14:07:50.260Z"
   },
-  "generatedAt": "2026-09-17T23:55:41.932Z"
+  "generatedAt": "2026-09-18T14:07:50.261Z"
 }
