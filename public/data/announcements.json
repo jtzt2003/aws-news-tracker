@@ -5889,33 +5889,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-msk-ai-agent-skills",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "ffa77ccbdcb78f87f9d73959a6162b753ccd7d2b",
-      "title": "Introducing self-service lifecycle management capabilities for AWS Outposts",
-      "summary": "AWS Outposts now provides self-service capabilities for configuration, quoting, ordering, subscription management, renewal, and decommissioning directly from the AWS Management Console, CLI, and API. ...",
-      "category": "COMPUTE",
-      "timestamp": "2026-06-22T10:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-outposts-self-service-lifecycle-management",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 590,
+    "total": 589,
     "byCategory": {
       "SECURITY": 129,
       "CONTAINERS": 34,
       "AI_ML": 107,
       "OTHER": 120,
       "NETWORKING": 9,
-      "COMPUTE": 74,
+      "COMPUTE": 73,
       "ANALYTICS": 16,
       "SERVERLESS": 21,
       "DATABASE": 60,
       "STORAGE": 20
     },
-    "lastUpdated": "2026-09-19T23:55:27.396Z"
+    "lastUpdated": "2026-09-20T13:58:15.897Z"
   },
-  "generatedAt": "2026-09-19T23:55:27.396Z"
+  "generatedAt": "2026-09-20T13:58:15.897Z"
 }
