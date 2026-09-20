@@ -5819,93 +5819,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/g7e-new-launch-sagemaker-studio-notebooks/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "1539fb81085f473dbab598e290f081b15a403239",
-      "title": "AWS HealthOmics now supports Nextflow profiles",
-      "summary": "AWS HealthOmics now supports Nextflow profiles, enabling customers to activate predefined execution settings at run time. Nextflow profiles allow customers to define reusable settings and select them ...",
-      "category": "OTHER",
-      "timestamp": "2026-06-22T22:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-healthomics-nextflow-profiles/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "7f9a42bee0b962dcfbf1328a9bd3cf937d378126",
-      "title": "AWS introduces Lambda MicroVMs for isolated execution of user and AI-generated code ",
-      "summary": "AWS introduces Lambda MicroVMs, a new serverless compute primitive that provides VM-level isolation, near-instant launch and resume speeds, and state preservation for executing user or AI-generated co...",
-      "category": "SERVERLESS",
-      "timestamp": "2026-06-22T20:37:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-microvms/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "1d21ef0ff9b5014daa831ca16c77e51817b7e691",
-      "title": "AWS Transform for migrations now supports all AWS commercial regions as migration targets",
-      "summary": "AWS Transform for migrations now supports all AWS commercial regions as migration targets. A migration target region is the AWS region where migrated resources are deployed, including landing zones, n...",
-      "category": "OTHER",
-      "timestamp": "2026-06-22T17:30:40.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-migrations-region-expansion/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d6a9c9f3123dbc22ff672bd953a60b107fe13167",
-      "title": "AWS Network Firewall updates default drop action for improved connection reliability",
-      "summary": "AWS Network Firewall now uses \"Application drop established (server-directed only)\" as the default stateful action for all newly created firewall policies, replacing the previous default of \"Applicati...",
-      "category": "OTHER",
-      "timestamp": "2026-06-22T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-network-firewall-updates-default-drop-action",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "00bb454b774fe60855bf678146d4ff4885569684",
-      "title": "AWS Batch now supports customer-ordered instance allocation strategies",
-      "summary": "AWS Batch now offers the Best Fit Progressive Ordered (BFPO) and Spot Capacity Optimized Prioritized (SCOP) allocation strategies, giving you more control over instance type prioritization in your com...",
-      "category": "COMPUTE",
-      "timestamp": "2026-06-22T16:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/batch-ordered-allocation-strategies/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "dd6e7e729e4b38330eafb0b719e09ea7798ef90f",
-      "title": "AWS IAM Identity Center now supports separate quotas for AWS accounts and applications",
-      "summary": "AWS IAM Identity Center now supports separate quotas for the number of AWS accounts and applications that can be configured in an IAM Identity Center instance. By default, you can configure up to 7,00...",
-      "category": "COMPUTE",
-      "timestamp": "2026-06-22T16:07:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-identity-center-separate-quotas/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f958620a6b72a88c4649088f268b5c7df3f1a442",
-      "title": "Amazon MSK now offers AI Agent Skills to help developers operate MSK efficiently and accelerate migrations to MSK",
-      "summary": "Amazon MSK now offers AI Agent Skills that give AI coding assistants expert, up-to-date guidance for operating Amazon MSK. The skills provide expert guidance for common operational tasks such as troub...",
-      "category": "ANALYTICS",
-      "timestamp": "2026-06-22T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-msk-ai-agent-skills",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 589,
+    "total": 582,
     "byCategory": {
       "SECURITY": 129,
       "CONTAINERS": 34,
       "AI_ML": 107,
-      "OTHER": 120,
+      "OTHER": 117,
       "NETWORKING": 9,
-      "COMPUTE": 73,
-      "ANALYTICS": 16,
-      "SERVERLESS": 21,
+      "COMPUTE": 71,
+      "ANALYTICS": 15,
+      "SERVERLESS": 20,
       "DATABASE": 60,
       "STORAGE": 20
     },
-    "lastUpdated": "2026-09-20T13:58:15.897Z"
+    "lastUpdated": "2026-09-20T23:52:48.220Z"
   },
-  "generatedAt": "2026-09-20T13:58:15.897Z"
+  "generatedAt": "2026-09-20T23:52:48.221Z"
 }
