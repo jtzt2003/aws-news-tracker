@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "8e266f4961089d5d0430802570c37674f4e658fd",
+      "title": "Amazon EC2 X8i instances are now available in the South America (São Paulo) Region",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the South America (São Paulo) region. These instances are powered by custom Intel Xeon 6 processors available o...",
+      "category": "COMPUTE",
+      "timestamp": "2026-09-18T22:16:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x8i-south-america-sao-paulo/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "a82162b1ebefec325f67abfd6af7dfe4158ad68a",
       "title": "AWS Continuum now supports credential testing and accessible domain suggestions ",
       "summary": "AWS Continuum for penetration testing is a frontier agent that proactively secures applications throughout the development lifecycle by offering on-demand, customized penetration testing with real exp...",
@@ -5779,63 +5789,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-guardrails/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "d4b2e74ee5d2c526dbe4c1b8dcf55abe7c09d56c",
-      "title": "Amazon CloudWatch launches OTel Container Insights for Amazon EKS",
-      "summary": "CloudWatch OTel Container Insights for Amazon EKS collects infrastructure metrics at 30-second granularity using open-source receivers including cAdvisor, Kube State Metrics, and NVIDIA DCGM. Each met...",
-      "category": "CONTAINERS",
-      "timestamp": "2026-06-23T15:12:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-otel-amazon-eks/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "105acf8ce978f602330ea4a697065d8cd07298b8",
-      "title": "Claude Tag is now available in beta via Claude Enterprise in AWS Marketplace",
-      "summary": "Anthropic is launching Claude Tag — bringing Claude directly into the channels where your team already works, starting with Slack. Claude Tag is available today in beta to AWS customers who access Cla...",
-      "category": "SECURITY",
-      "timestamp": "2026-06-23T05:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/claude-tag-aws-marketplace/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "054eec494ab0b040519083d9e9eac244a2c01f74",
-      "title": "Amazon OpenSearch Service now offers AI-assisted migrations",
-      "summary": "Migration Assistant for Amazon OpenSearch Service now includes an AI-assisted experience that simplifies moving your self-managed Apache Solr, Elasticsearch, or OpenSearch deployments to OpenSearch Se...",
-      "category": "ANALYTICS",
-      "timestamp": "2026-06-23T03:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-opensearch-service-ai-migrations",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "2d1e80220562b9bd82737748fab31a87dd21e722",
-      "title": "Amazon SageMaker Studio notebooks now support G7e instance types",
-      "summary": "Amazon G7e instances feature up to 8 NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs, with 96 GB of memory per GPU, and 5th Generation Intel Xeon processors. They support up to 192 virtual CPUs (vCP...",
-      "category": "AI_ML",
-      "timestamp": "2026-06-23T01:02:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/g7e-new-launch-sagemaker-studio-notebooks/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 582,
+    "total": 579,
     "byCategory": {
-      "SECURITY": 129,
-      "CONTAINERS": 34,
-      "AI_ML": 107,
+      "COMPUTE": 72,
+      "SECURITY": 128,
+      "CONTAINERS": 33,
+      "AI_ML": 106,
       "OTHER": 117,
       "NETWORKING": 9,
-      "COMPUTE": 71,
-      "ANALYTICS": 15,
+      "ANALYTICS": 14,
       "SERVERLESS": 20,
       "DATABASE": 60,
       "STORAGE": 20
     },
-    "lastUpdated": "2026-09-20T23:52:48.220Z"
+    "lastUpdated": "2026-09-21T16:14:37.959Z"
   },
-  "generatedAt": "2026-09-20T23:52:48.221Z"
+  "generatedAt": "2026-09-21T16:14:37.959Z"
 }
