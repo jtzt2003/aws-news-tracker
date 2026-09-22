@@ -5719,53 +5719,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-iot-device-sdk-swift/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "a429b1e95896e720e32d469be1f1358905c6fd50",
-      "title": "Amazon Neptune now supports AWS CloudFormation for global databases",
-      "summary": "Amazon Neptune now supports AWS CloudFormation for provisioning and managing Neptune global databases. Using the new AWS::Neptune::GlobalCluster resource type, you can define your multi-region graph d...",
-      "category": "DATABASE",
-      "timestamp": "2026-06-24T13:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-neptune-aws-cloudformation/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "1d35e0b60051e0ebb02ab64d5bf9b1f73b7e8ad6",
-      "title": "Amazon CloudWatch now supports tags on dashboards ",
-      "summary": "Amazon CloudWatch now supports tagging for CloudWatch dashboards, enabling you to organize, categorize, and control access to your dashboards using tags. Tags are key-value pairs that help you identif...",
-      "category": "OTHER",
-      "timestamp": "2026-06-24T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-tags-on-dashboards",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "24b5bc36775d3ec73f8c474e1e94ae36c48ec18a",
-      "title": "Amazon EC2 High Memory U7in-24TB instances now available in AWS Asia Pacific (Seoul) region",
-      "summary": "Amazon EC2 High Memory U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS Asia Pacific (Seoul) region. U7i instances are part of the AWS 7th generation and are powered by custom fourth...",
-      "category": "COMPUTE",
-      "timestamp": "2026-06-24T01:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-u7in-24tb-aws-seoul/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 575,
+    "total": 572,
     "byCategory": {
       "CONTAINERS": 34,
       "SECURITY": 126,
-      "COMPUTE": 73,
+      "COMPUTE": 72,
       "AI_ML": 103,
-      "OTHER": 116,
+      "OTHER": 115,
       "NETWORKING": 9,
       "ANALYTICS": 14,
       "SERVERLESS": 20,
-      "DATABASE": 60,
+      "DATABASE": 59,
       "STORAGE": 20
     },
-    "lastUpdated": "2026-09-22T00:37:01.189Z"
+    "lastUpdated": "2026-09-22T14:23:44.117Z"
   },
-  "generatedAt": "2026-09-22T00:37:01.189Z"
+  "generatedAt": "2026-09-22T14:23:44.117Z"
 }
