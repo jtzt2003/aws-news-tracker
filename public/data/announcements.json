@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "378eb1d1b12e04e4c37dcda76f6d4d123b7c7807",
+      "title": "Amazon CloudWatch Omni: AI-first observability for agents and applications",
+      "summary": "AWS announces the general availability of Amazon CloudWatch Omni, an evolution of Amazon CloudWatch. Omni is an AI-powered observability experience organized around your teams and the applications the...",
+      "category": "OTHER",
+      "timestamp": "2026-09-23T00:06:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-cloudwatch-omni-ai/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "efb42a36602d7ff049a4ca138a76a159e7e4b287",
       "title": "Billing Transfer now supports automatic billing group creation for two-level transfers",
       "summary": "AWS Billing Transfer users can now enable the Auto-Billing Transfer Billing Group Creation, a new AWS Billing Conductor preference that eliminates the manual billing group configuration in two-level b...",
@@ -67,6 +77,26 @@
       "category": "AI_ML",
       "timestamp": "2026-09-22T08:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/glue-data-quality-rule-recommendations/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5b1280bd340af63d9f583c745f24a5034db1a5ca",
+      "title": "Amazon EMR introduces Long Term Support with Apache Spark 4.1",
+      "summary": "Amazon EMR introduces Long Term Support (LTS) releases, starting with emr-spark-8.1.0 and Apache Spark 4.1. With LTS, designated versions of the AWS runtime for Apache Spark receive 36 months of suppo...",
+      "category": "SECURITY",
+      "timestamp": "2026-09-22T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-long-term-support-spark-4-1/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6bd97fb745fc25858d2cd258168f59f4a7c84947",
+      "title": "Amazon EMR 7.14 is now available",
+      "summary": "Amazon EMR 7.14 is now available with new features across Amazon EMR on EC2, Amazon EMR on EKS, and Amazon EMR Serverless, along with version upgrades for additional applications. This release also up...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-09-22T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-7-14-available/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5729,63 +5759,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-redshift-ri-upfront-pricing-rg-instances",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "b7e585254824391cda4ee68b574b2cc2a42c3a48",
-      "title": "AWS GovCloud (US) now offers US-based, US citizen 24/7 technical support for all customers by default",
-      "summary": "AWS GovCloud (US) customers now have their technical support cases routed to US-based, US-citizen cloud support engineers by default with no opt-in or special request required. This enhancement ensure...",
-      "category": "OTHER",
-      "timestamp": "2026-06-25T12:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/default-govcloud-us-based-support/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "9e4bf9d07a11e3f290f7be3f297e14b5cacd342d",
-      "title": "AWS Backup enhances Amazon S3 backup copy performance",
-      "summary": "AWS Backup now executes S3 backup copy operations up to 8x faster for buckets with millions of objects and low change rates between backup copies through enhanced change tracking. This improvement red...",
-      "category": "STORAGE",
-      "timestamp": "2026-06-25T10:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-backup-amazon-s3-copy-enhancement/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d0894b15f8baaffb343abb0357d897d8fe44b11a",
-      "title": "Amazon RDS Custom now supports the latest CU and GDR updates for Microsoft SQL Server",
-      "summary": "Amazon Relational Database Service (Amazon RDS) Custom for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This rele...",
-      "category": "DATABASE",
-      "timestamp": "2026-06-25T07:44:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-custom-supports-latest-cu-gdr-updates-microsoft-sql-server",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "e9270bc1630ccaa3448c4f6ca402a093b22140d6",
-      "title": "Amazon RDS now supports the latest GDR updates for Microsoft SQL Server",
-      "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for Microsoft ...",
-      "category": "DATABASE",
-      "timestamp": "2026-06-25T07:03:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-supports-latest-gdr-updates-microsoft-sql-server",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 577,
+    "total": 576,
     "byCategory": {
       "OTHER": 116,
-      "SECURITY": 127,
+      "SECURITY": 128,
       "AI_ML": 106,
       "COMPUTE": 72,
-      "DATABASE": 60,
-      "CONTAINERS": 34,
+      "CONTAINERS": 35,
+      "DATABASE": 58,
       "NETWORKING": 9,
       "ANALYTICS": 13,
       "SERVERLESS": 20,
-      "STORAGE": 20
+      "STORAGE": 19
     },
-    "lastUpdated": "2026-09-23T00:02:48.212Z"
+    "lastUpdated": "2026-09-23T14:43:32.030Z"
   },
-  "generatedAt": "2026-09-23T00:02:48.213Z"
+  "generatedAt": "2026-09-23T14:43:32.030Z"
 }
