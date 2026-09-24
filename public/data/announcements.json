@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "24336307eb6b98ff6213e817d26a1ab81aee7ceb",
+      "title": "Amazon Kinesis Data Streams announces Service-Managed Partition Keys for simplified data ingestion",
+      "summary": "Amazon Kinesis Data Streams now supports service-managed partition keys for On-Demand Standard and On-Demand Advantage streams, automatically distributing records across shards without requiring custo...",
+      "category": "ANALYTICS",
+      "timestamp": "2026-09-23T22:51:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/kinesis/service-managed-partition-keys",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "6fd1598d6f0a60355bc3f5ad482ace869bd145c7",
       "title": "Amazon Bedrock Managed Knowledge Base now supports Salesforce and Zendesk as native data source connectors",
       "summary": "AWS announces Salesforce and Zendesk data source connectors for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service. Customers can now sync Salesforce k...",
@@ -17,6 +27,26 @@
       "category": "ANALYTICS",
       "timestamp": "2026-09-23T16:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-routing-step-data/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5ce740600bb994de2250041b03d5022ace850a08",
+      "title": "Amazon EMR on EKS now supports IPv6 Amazon EKS clusters",
+      "summary": "Today, AWS announces that Amazon EMR on EKS now supports running workloads on IPv6 Amazon Elastic Kubernetes Service (Amazon EKS) clusters. Amazon EMR on EKS enables data platform and analytics teams ...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-23T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-eks-ipv6-support",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "17601a4ebc94e57cf1565be9b5a4fdd8eb98d9ea",
+      "title": "Amazon DynamoDB global tables with multi-Region strong consistency now supports additional AWS Regions and cross-continent configurations",
+      "summary": "Starting today, Amazon DynamoDB global tables with multi-Region strong consistency (MRSC) is available in five additional AWS Regions: Canada (Central), Europe (Stockholm), Europe (Spain), Asia Pacifi...",
+      "category": "DATABASE",
+      "timestamp": "2026-09-23T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/dynamodb-mrsc-additional-regions/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5712,20 +5742,20 @@
     }
   ],
   "stats": {
-    "total": 571,
+    "total": 574,
     "byCategory": {
-      "AI_ML": 107,
-      "ANALYTICS": 14,
+      "ANALYTICS": 15,
+      "AI_ML": 108,
+      "DATABASE": 58,
       "OTHER": 115,
       "SECURITY": 126,
       "COMPUTE": 69,
       "CONTAINERS": 35,
-      "DATABASE": 57,
       "NETWORKING": 9,
       "SERVERLESS": 20,
       "STORAGE": 19
     },
-    "lastUpdated": "2026-09-24T00:15:38.614Z"
+    "lastUpdated": "2026-09-24T14:39:32.608Z"
   },
-  "generatedAt": "2026-09-24T00:15:38.615Z"
+  "generatedAt": "2026-09-24T14:39:32.609Z"
 }
