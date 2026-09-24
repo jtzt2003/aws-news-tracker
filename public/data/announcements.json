@@ -1,6 +1,26 @@
 {
   "announcements": [
     {
+      "id": "6fd1598d6f0a60355bc3f5ad482ace869bd145c7",
+      "title": "Amazon Bedrock Managed Knowledge Base now supports Salesforce and Zendesk as native data source connectors",
+      "summary": "AWS announces Salesforce and Zendesk data source connectors for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service. Customers can now sync Salesforce k...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-23T17:41:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-salesforce-zendesk-native-data-source-connectors/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7e926e016272c79ce740ef13b8406e0af4acc7f1",
+      "title": "Amazon Connect Customer now provides routing step data in the analytics data lake ",
+      "summary": "Amazon Connect Customer now provides routing step data in the analytics data lake, making it easier for customers to generate insights from routing decisions. Using the data lake, customers can levera...",
+      "category": "ANALYTICS",
+      "timestamp": "2026-09-23T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-routing-step-data/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "378eb1d1b12e04e4c37dcda76f6d4d123b7c7807",
       "title": "Amazon CloudWatch Omni: AI-first observability for agents and applications",
       "summary": "AWS announces the general availability of Amazon CloudWatch Omni, an evolution of Amazon CloudWatch. Omni is an AI-powered observability experience organized around your teams and the applications the...",
@@ -5689,93 +5709,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-r8g-instances-additional-regions/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "51d3f13cb5ad5749c0f1e2fce0c4d777f8793437",
-      "title": "Amazon EC2 C7a instances are now available in the Asia Pacific (Singapore) Region",
-      "summary": "Starting today, the compute optimized Amazon EC2 C7a instances are now available in AWS Asia Pacific (Singapore) Region. C7a instances, powered by 4th Gen AMD EPYC processors (code-named Genoa) with a...",
-      "category": "COMPUTE",
-      "timestamp": "2026-06-25T22:24:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c7a-instances-asia-pacific-singapore-region/",
-      "source": "AWS What's New",
-      "isNew": true
-    },
-    {
-      "id": "ceaeacf3195f281574f47bb04c417f02b3eee482",
-      "title": "Amazon EC2 M8a instances now available in the Asia Pacific (Mumbai) region",
-      "summary": "Starting today, the general-purpose Amazon EC2 M8a instances are available in AWS Asia Pacific (Mumbai) region. M8a instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin) wit...",
-      "category": "COMPUTE",
-      "timestamp": "2026-06-25T22:15:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-m8a-instances-asia-pacific-mumbai-region/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "bc61f40c3e48ce491fd8b9af265269e1ea3014d6",
-      "title": "OpenAI GPT, OpenAI GPT OSS, and NVIDIA Nemotron models on Amazon Bedrock receive FedRAMP High and DoD IL-4/5 approval in AWS GovCloud (US)",
-      "summary": "OpenAI GPT, OpenAI GPT OSS, and NVIDIA Nemotron models are now FedRAMP High and Department of Defense Cloud Computing Security Requirements Guide (DoD CC SRG) Impact Level (IL) 4 and 5 approved within...",
-      "category": "SECURITY",
-      "timestamp": "2026-06-25T21:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/addl-bedrock-model-fedramp-il-5-govcloud",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "fea6a3951d2d7f821e44bc61ff29f748afa4a28b",
-      "title": "AWS Network Firewall now supports managed threat intelligence rules from VisionHeight",
-      "summary": "AWS Network Firewall now supports two new managed rule groups from VisionHeight, available through AWS Marketplace: Zero-Day Threat Protection, and Noisy Scanners and Tor Protection. These rule groups...",
-      "category": "OTHER",
-      "timestamp": "2026-06-25T20:18:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/network-firewall-visionheight-managed-rules",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4cfe09892c5b286a821bd8c769b85ddd6270ac28",
-      "title": "Kiro achieves FedRAMP High and DoD IL-4/5 authorization in AWS GovCloud (US)",
-      "summary": "Kiro is now FedRAMP High and Department of Defense Cloud Computing Security Requirements Guide (DoD CC SRG) Impact Level (IL) 4 and 5 authorized in the AWS GovCloud (US) Regions.\n  Federal agencies, p...",
-      "category": "SECURITY",
-      "timestamp": "2026-06-25T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/kiro-fedramp-high-dod-il-4-5-govcloud-us/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "37478c699094c6ae2dbf267a395b77bef7d62fb4",
-      "title": "Amazon EC2 C8in instances are now available in additional regions",
-      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8in instances are available in the AWS US East (Ohio) and Europe (Ireland) regions. C8in instances are powered by custom, sixth generation In...",
-      "category": "COMPUTE",
-      "timestamp": "2026-06-25T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c8in-ireland-ohio/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "fe53e4c4d4a0f0a0666f2b046307553304df1e8b",
-      "title": "Amazon Redshift adds Reserved Instance upfront pricing options for RG instances",
-      "summary": "Amazon Redshift announces the availability of All Upfront and Partial Upfront payment options for 1-year and 3-year reserved instances for RG instances. Reserved instances allow customers to benefit f...",
-      "category": "DATABASE",
-      "timestamp": "2026-06-25T16:39:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-redshift-ri-upfront-pricing-rg-instances",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 576,
+    "total": 571,
     "byCategory": {
-      "OTHER": 116,
-      "SECURITY": 128,
-      "AI_ML": 106,
-      "COMPUTE": 72,
+      "AI_ML": 107,
+      "ANALYTICS": 14,
+      "OTHER": 115,
+      "SECURITY": 126,
+      "COMPUTE": 69,
       "CONTAINERS": 35,
-      "DATABASE": 58,
+      "DATABASE": 57,
       "NETWORKING": 9,
-      "ANALYTICS": 13,
       "SERVERLESS": 20,
       "STORAGE": 19
     },
-    "lastUpdated": "2026-09-23T14:43:32.030Z"
+    "lastUpdated": "2026-09-24T00:15:38.614Z"
   },
-  "generatedAt": "2026-09-23T14:43:32.030Z"
+  "generatedAt": "2026-09-24T00:15:38.615Z"
 }
