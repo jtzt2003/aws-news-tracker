@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "3e432e746bb48d177d948ddfe103bf87d14ced21",
+      "title": "Amazon EventBridge relaunches event buses for enterprise scale",
+      "summary": "Amazon EventBridge relaunches event buses with a new enhanced Custom event bus that lets you build event-driven applications that decouple teams and can scale with your organization. Create a custom e...",
+      "category": "SERVERLESS",
+      "timestamp": "2026-09-24T21:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/eventbridge-relaunches-custom-event-buses/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c7656a069d4dea47bf91a2abd3dbf78f369474c8",
+      "title": "AWS Lambda durable functions are now available in AWS European Sovereign Cloud region ",
+      "summary": "AWS Lambda durable functions are now available in the AWS European Sovereign Cloud. Lambda durable functions enable developers to build reliable multi-step applications and AI workflows within the Lam...",
+      "category": "SECURITY",
+      "timestamp": "2026-09-24T18:29:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/durablefunctions-european-sovereign-cloud/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "102f439b44633a778306252f6fe1fa8662a46a41",
+      "title": "Amazon RDS for MySQL announces Extended Support minor versions 5.7.44-rds.20260902 and 8.0.46-rds.20260908",
+      "summary": "Amazon Relational Database Service (RDS) for MySQL announces Amazon RDS Extended Support minor versions 5.7.44-rds.20260902 and 8.0.46-rds.20260908.\nAmazon RDS Extended Support provides up to three ad...",
+      "category": "DATABASE",
+      "timestamp": "2026-09-24T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-mysql-extended-support-minor-5744-8046-rds/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "30695c7d9fc037c7619e451fc7ce6ebf3a2a12d8",
+      "title": "Amazon RDS for PostgreSQL now supports PostgreSQL 19 Beta 4 in the Amazon RDS Database Preview Environment",
+      "summary": "Starting today, Amazon RDS for PostgreSQL 19 Beta 4 is available in the Amazon RDS Database Preview Environment, allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL....",
+      "category": "DATABASE",
+      "timestamp": "2026-09-24T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/postgresql-19-beta-4-amazon-rds-database-preview-environment/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "11e3c564829bce3b1ca7f4fd85dc4ef65638ebd6",
+      "title": "Amazon RDS for PostgreSQL now supports post-quantum TLS key exchange",
+      "summary": "Starting today, Amazon RDS for PostgreSQL introduces support for post-quantum TLS (PQ-TLS) key exchange, providing you with post-quantum cryptography options for encrypting your data in-transit.\nRDS f...",
+      "category": "SECURITY",
+      "timestamp": "2026-09-24T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/postgresql-post-quantum-tls-key-exchange/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f93a38031e91325577f7a27ea6f97953a360bc1f",
+      "title": "AWS Network Security Manager is now generally available in US East (N. Virginia) Region",
+      "summary": "Today, AWS announces the general availability of AWS Network Security Manager, a comprehensive network security management solution designed to simplify security policy deployment and enforcement at s...",
+      "category": "SECURITY",
+      "timestamp": "2026-09-24T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/network-security-manager-us-east-va/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c27199b60914af63fde602b72ac76703ef6bbb73",
+      "title": "Amazon SageMaker HyperPod Inference Gateway for scalable LLM inference",
+      "summary": "Amazon SageMaker HyperPod Inference Gateway is a Kubernetes-native, GPU-aware routing system that deploys as a single EKS managed add-on on existing SageMaker HyperPod infrastructure with zero applica...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-24T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-hyperpod-inference-gateway/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f8f8b4912863f7f0122905a28a162b54cfe75757",
+      "title": "Run interactive workloads on Amazon EMR on EKS with Spark Connect",
+      "summary": "Amazon EMR on EKS now supports interactive Apache Spark sessions with Spark Connect. Data engineers and data scientists can develop and debug Apache Spark applications interactively from managed noteb...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-24T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/emr-eks-spark-connect-interactive/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "129c164dbd787754821ce3d5818c7154cd949957",
+      "title": "Amazon GameLift Servers now available in 5 new regions and 8 Local Zones",
+      "summary": "Amazon GameLift Servers is a fully managed service for deploying, operating, and scaling dedicated game servers for multiplayer games. High latency caused by geographic distance between players and se...",
+      "category": "COMPUTE",
+      "timestamp": "2026-09-24T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-gamelift-servers-region-expansion-2026",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "70415bc58168b506df00b7f456b6a11ad2d32682",
+      "title": "Amazon RDS supports Multi-AZ for SQL Server Developer Edition",
+      "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports Multi-AZ deployments using Always On Availability Groups for SQL Server Developer Edition. Multi-AZ deployments maintain a s...",
+      "category": "DATABASE",
+      "timestamp": "2026-09-24T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-sql-server-multi-az-developer-edition/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "24336307eb6b98ff6213e817d26a1ab81aee7ceb",
       "title": "Amazon Kinesis Data Streams announces Service-Managed Partition Keys for simplified data ingestion",
       "summary": "Amazon Kinesis Data Streams now supports service-managed partition keys for On-Demand Standard and On-Demand Advantage streams, automatically distributing records across shards without requiring custo...",
@@ -5729,33 +5829,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-s3-cloudwatch-logs-tables/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "6cf20cdc8aafd08ce1a7432b37e7fdb4ec45208d",
-      "title": "Amazon EC2 R8g instances now available in additional regions",
-      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8g instances are available in AWS Asia Pacific (Thailand, New Zealand), AWS Africa (Cape Town), AWS Europe (Milan), and AWS Canada West (Calg...",
-      "category": "SECURITY",
-      "timestamp": "2026-06-26T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-r8g-instances-additional-regions/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 574,
+    "total": 583,
     "byCategory": {
+      "SERVERLESS": 21,
+      "SECURITY": 128,
+      "DATABASE": 61,
+      "AI_ML": 110,
+      "COMPUTE": 70,
       "ANALYTICS": 15,
-      "AI_ML": 108,
-      "DATABASE": 58,
       "OTHER": 115,
-      "SECURITY": 126,
-      "COMPUTE": 69,
       "CONTAINERS": 35,
       "NETWORKING": 9,
-      "SERVERLESS": 20,
       "STORAGE": 19
     },
-    "lastUpdated": "2026-09-24T14:39:32.608Z"
+    "lastUpdated": "2026-09-25T00:17:57.070Z"
   },
-  "generatedAt": "2026-09-24T14:39:32.609Z"
+  "generatedAt": "2026-09-25T00:17:57.071Z"
 }
