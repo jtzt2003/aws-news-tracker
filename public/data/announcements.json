@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "20573e23dd89521520341cf822043c7f4721fc72",
+      "title": "AWS Billing and Cost Management now provides billing context for your account through a new API",
+      "summary": "AWS Billing and Cost Management now offers the ListBillingViewSegments API, which returns the billing context of your account over a time period you specify.\nYou can use the API to retrieve informatio...",
+      "category": "OTHER",
+      "timestamp": "2026-09-25T00:58:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-billing-and-cost-management-billing-context-api/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "3e432e746bb48d177d948ddfe103bf87d14ced21",
       "title": "Amazon EventBridge relaunches event buses for enterprise scale",
       "summary": "Amazon EventBridge relaunches event buses with a new enhanced Custom event bus that lets you build event-driven applications that decouple teams and can scale with your organization. Create a custom e...",
@@ -5832,20 +5842,20 @@
     }
   ],
   "stats": {
-    "total": 583,
+    "total": 584,
     "byCategory": {
+      "OTHER": 116,
       "SERVERLESS": 21,
       "SECURITY": 128,
       "DATABASE": 61,
       "AI_ML": 110,
       "COMPUTE": 70,
       "ANALYTICS": 15,
-      "OTHER": 115,
       "CONTAINERS": 35,
       "NETWORKING": 9,
       "STORAGE": 19
     },
-    "lastUpdated": "2026-09-25T00:17:57.070Z"
+    "lastUpdated": "2026-09-25T15:00:59.436Z"
   },
-  "generatedAt": "2026-09-25T00:17:57.071Z"
+  "generatedAt": "2026-09-25T15:00:59.437Z"
 }
