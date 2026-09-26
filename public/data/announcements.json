@@ -1,6 +1,96 @@
 {
   "announcements": [
     {
+      "id": "b66fff87abcc3034fd55c924ba3a56f8ba0edd01",
+      "title": "Amazon Transcribe adds customer-managed KMS keys for custom resources",
+      "summary": "Amazon Transcribe now lets you encrypt your custom vocabularies, custom vocabulary filters, and custom language models at rest with a customer-managed AWS KMS key that you own and control.\nPreviously,...",
+      "category": "SECURITY",
+      "timestamp": "2026-09-25T19:19:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-transcribe/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c808f2540b7f85d076de47e61f7aa8359e3c625a",
+      "title": "Amazon EC2 M8i and M8i-flex instances are now available in additional regions",
+      "summary": "Starting today, Amazon EC2 M8i and M8i-flex instances are now available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xeon 6 processors, available o...",
+      "category": "COMPUTE",
+      "timestamp": "2026-09-25T18:40:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-m8i-m8i-flex-thf/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "04dcf919133658edef298a49f6defccb81b02bdd",
+      "title": "Amazon EC2 R8i and R8i-flex instances are now available in additional regions",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xeo...",
+      "category": "COMPUTE",
+      "timestamp": "2026-09-25T18:37:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-r8i-r8i-flex-thf/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e67227fcc955df9493d3b5d59a544ba788c39e55",
+      "title": "Amazon EC2 C8i and C8i-flex instances are now available in additional regions",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i and C8i-flex instances are available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xeo...",
+      "category": "COMPUTE",
+      "timestamp": "2026-09-25T18:09:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/c8i-c8i-flex-thf-september-2026/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7d2e74a72634bbbcd9e7868dd62e992dac0aaf41",
+      "title": "AWS IAM outbound identity federation now supports interface VPC endpoints for OIDC discovery",
+      "summary": "AWS Identity and Access Management (IAM) outbound identity federation now supports Amazon Virtual Private Cloud (VPC) endpoints for the OpenID Connect (OIDC) discovery APIs. You can now access the OID...",
+      "category": "SECURITY",
+      "timestamp": "2026-09-25T17:54:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-sts-vpc-oidc/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "db1e59031ade8983550192b3ca98799d24a54b23",
+      "title": "AWS DataSync launches a monitoring dashboard for tracking task executions across your account",
+      "summary": "AWS DataSync now provides a monitoring dashboard in the DataSync console that gives you visibility into your data transfers across your account. For each task execution, you can see its status, data a...",
+      "category": "OTHER",
+      "timestamp": "2026-09-25T15:24:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/datasync-monitoring-dashboard",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e15da02f45884c84d8d8b2706b1704f199fa0abf",
+      "title": "AWS Elastic Disaster Recovery now supports AWS Graviton-based source servers",
+      "summary": "AWS Elastic Disaster Recovery (AWS DRS) now supports disaster recovery for AWS Graviton-based (arm64) source servers. You can now protect and recover your Graviton workloads with the same simple, reli...",
+      "category": "COMPUTE",
+      "timestamp": "2026-09-25T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/elastic-disaster-recovery-graviton/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7246f998c020f697092e24acf2f2120c7f92f230",
+      "title": "AWS End User Messaging now supports voice calling on WhatsApp",
+      "summary": "AWS End User Messaging now lets businesses place and receive voice calls with their customers directly inside WhatsApp, using the same verified business identity they already use for messaging. With W...",
+      "category": "OTHER",
+      "timestamp": "2026-09-25T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-end-user-messaging-voice-calling-whatsapp",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1bf06c1af0e8bd0d3e604495a485c8c9d6a063cc",
+      "title": "AWS End User Messaging and Amazon SES now offer AI agent skills for the AWS MCP Server",
+      "summary": "AWS End User Messaging and Amazon SES now publish AI agent skills for the AWS MCP Server, enabling developers to build and send messages by asking their AI coding agent in plain language. Previously, ...",
+      "category": "OTHER",
+      "timestamp": "2026-09-25T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-messaging-ses-ai-skills-mcp-server/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "20573e23dd89521520341cf822043c7f4721fc72",
       "title": "AWS Billing and Cost Management now provides billing context for your account through a new API",
       "summary": "AWS Billing and Cost Management now offers the ListBillingViewSegments API, which returns the billing context of your account over a time period you specify.\nYou can use the API to retrieve informatio...",
@@ -5842,20 +5932,20 @@
     }
   ],
   "stats": {
-    "total": 584,
+    "total": 593,
     "byCategory": {
-      "OTHER": 116,
+      "SECURITY": 130,
+      "COMPUTE": 74,
+      "OTHER": 119,
       "SERVERLESS": 21,
-      "SECURITY": 128,
       "DATABASE": 61,
       "AI_ML": 110,
-      "COMPUTE": 70,
       "ANALYTICS": 15,
       "CONTAINERS": 35,
       "NETWORKING": 9,
       "STORAGE": 19
     },
-    "lastUpdated": "2026-09-25T15:00:59.436Z"
+    "lastUpdated": "2026-09-26T00:23:17.724Z"
   },
-  "generatedAt": "2026-09-25T15:00:59.437Z"
+  "generatedAt": "2026-09-26T00:23:17.724Z"
 }
