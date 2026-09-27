@@ -5919,22 +5919,12 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mwaa-serverless-vpc/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "7ae408d8f9843ec7576da93a5ad5ebee7fe13e06",
-      "title": "Amazon S3 server access logs now deliver to Amazon CloudWatch Logs and Amazon S3 Tables",
-      "summary": "Amazon S3 now supports delivering server access logs to Amazon CloudWatch Logs, giving you instant querying, alarms, cross-account and cross-Region aggregation, and AWS Key Management Service (KMS) en...",
-      "category": "SECURITY",
-      "timestamp": "2026-06-29T04:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-s3-cloudwatch-logs-tables/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 593,
+    "total": 592,
     "byCategory": {
-      "SECURITY": 130,
+      "SECURITY": 129,
       "COMPUTE": 74,
       "OTHER": 119,
       "SERVERLESS": 21,
@@ -5945,7 +5935,7 @@
       "NETWORKING": 9,
       "STORAGE": 19
     },
-    "lastUpdated": "2026-09-27T00:17:53.469Z"
+    "lastUpdated": "2026-09-27T14:59:58.192Z"
   },
-  "generatedAt": "2026-09-27T00:17:53.470Z"
+  "generatedAt": "2026-09-27T14:59:58.192Z"
 }
