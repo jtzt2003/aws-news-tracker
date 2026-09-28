@@ -5869,53 +5869,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-end-user-messaging-rcs/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "0be7ffb21ac297793e7d1574d9a62f6ac3c07dc7",
-      "title": "Amazon Time Sync Service adds support for Microsecond accurate time on 26 additional EC2 instance types in all commercial regions ",
-      "summary": "Amazon Time Sync Service introduces support for microsecond accurate time on 26 additional EC2 instance types in all commercial regions. Built on Amazon's proven network infrastructure and the AWS Nit...",
-      "category": "COMPUTE",
-      "timestamp": "2026-06-30T17:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-time-sync-precision-time-placement-group",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "41450c931cd8a81a35e5449c51e673b644da4f7b",
-      "title": "Announcing general availability of Amazon WorkSpaces for AI agents",
-      "summary": "Amazon WorkSpaces for agents is now generally available, enabling AI agents to securely access and operate desktop applications through managed WorkSpaces environments. Enterprises run critical busine...",
-      "category": "OTHER",
-      "timestamp": "2026-06-30T17:28:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-workspaces-ai/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "8dcd02c146c55a39d18f9e0c4fda7a3fa23e00a3",
-      "title": "OpenAI GPT-5.4 and NVIDIA Nemotron 3 Super 120B now available on Kiro in AWS GovCloud (US-West) Region",
-      "summary": "Two new models are now available in the Kiro IDE and CLI for the AWS GovCloud (US-West) Region.\n  OpenAI GPT-5.4 is now available in Kiro for complex reasoning, coding, document analysis, and multi-st...",
-      "category": "AI_ML",
-      "timestamp": "2026-06-30T09:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/kiro-gpt-nemotron-launch-aws-govcloud-us/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 590,
+    "total": 587,
     "byCategory": {
       "SECURITY": 128,
-      "COMPUTE": 74,
-      "OTHER": 119,
+      "COMPUTE": 73,
+      "OTHER": 118,
       "SERVERLESS": 21,
       "DATABASE": 61,
-      "AI_ML": 109,
+      "AI_ML": 108,
       "ANALYTICS": 15,
       "CONTAINERS": 35,
       "NETWORKING": 9,
       "STORAGE": 19
     },
-    "lastUpdated": "2026-09-28T00:19:03.427Z"
+    "lastUpdated": "2026-09-28T17:58:15.908Z"
   },
-  "generatedAt": "2026-09-28T00:19:03.427Z"
+  "generatedAt": "2026-09-28T17:58:15.908Z"
 }
