@@ -5899,43 +5899,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/kiro-gpt-nemotron-launch-aws-govcloud-us/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "41ba3bb913a29423624f41b03fda36a9572f9f12",
-      "title": "AWS WAF adds support for Amazon Bedrock AgentCore Gateway",
-      "summary": "Today, AWS announces general availability of AWS Web Application Firewall (AWS WAF) protection for Amazon Bedrock AgentCore Gateway, enabling you to protect your agentic AI workloads from common web e...",
-      "category": "SECURITY",
-      "timestamp": "2026-06-29T22:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-waf-amazon-bedrock-agentcore/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b184281dc8e279c56cc8937674d2812563878832",
-      "title": "Amazon MWAA Serverless now supports shared VPC configurations",
-      "summary": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) Serverless now supports shared VPC subnets. Previously, customers using subnets shared via AWS Resource Access Manager (AWS RAM) received a va...",
-      "category": "AI_ML",
-      "timestamp": "2026-06-29T17:19:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mwaa-serverless-vpc/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 592,
+    "total": 590,
     "byCategory": {
-      "SECURITY": 129,
+      "SECURITY": 128,
       "COMPUTE": 74,
       "OTHER": 119,
       "SERVERLESS": 21,
       "DATABASE": 61,
-      "AI_ML": 110,
+      "AI_ML": 109,
       "ANALYTICS": 15,
       "CONTAINERS": 35,
       "NETWORKING": 9,
       "STORAGE": 19
     },
-    "lastUpdated": "2026-09-27T14:59:58.192Z"
+    "lastUpdated": "2026-09-28T00:19:03.427Z"
   },
-  "generatedAt": "2026-09-27T14:59:58.192Z"
+  "generatedAt": "2026-09-28T00:19:03.427Z"
 }
