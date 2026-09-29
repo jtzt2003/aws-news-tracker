@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "91037fb2ffd29f0ec2b47997ca9c25599c6e5e48",
+      "title": "AWS Systems Manager now supports sharing documents through AWS Resource Access Manager",
+      "summary": "AWS Systems Manager now lets you share your Systems Manager Documents (SSM Documents) with an entire AWS organization or with specific organizational units (OUs) using AWS Resource Access Manager (AWS...",
+      "category": "OTHER",
+      "timestamp": "2026-09-29T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/systems-manager-sharing-documents-ram/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "ec94627c080e2b5f6686629c1865f2afb763bce1",
       "title": "Amazon EC2 Future-dated Capacity Reservations Now Supports Postponing Start Dates",
       "summary": "Amazon EC2 Future-dated Capacity Reservations let you secure capacity up to 120 days in advance by specifying the capacity you need, the start date, and a commitment duration. If your plans change bef...",
@@ -67,6 +77,26 @@
       "category": "STORAGE",
       "timestamp": "2026-09-28T08:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-backup-air-gapped-vault-fsx-ontap/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4b2a493c01b179746693a387ee84b77538899ed4",
+      "title": "Amazon DocumentDB (with MongoDB compatibility) now supports retryable writes",
+      "summary": "For developers building MongoDB-compatible applications, retryable writes improve application resilience during transient errors such as network interruptions or primary failovers. Amazon DocumentDB (...",
+      "category": "DATABASE",
+      "timestamp": "2026-09-28T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-documentdb-retryable-writes/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9ba2dd03910c903c1f03d5a3cc7330f17b8d1414",
+      "title": "Amazon DocumentDB (with MongoDB compatibility) adds support for 5 MongoDB aggregation stages and change stream capabilities in version 8.0.2",
+      "summary": "Amazon DocumentDB (with MongoDB compatibility) now supports retryable writes, 5 new aggregation stages, and change stream enhancements starting from minor version 8.0.2. This release expands MongoDB A...",
+      "category": "DATABASE",
+      "timestamp": "2026-09-28T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-documentdb-8-0-2/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5849,33 +5879,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/6/aws-appconfig-experimentation/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "fcd5eb723961ffc7d9c379dfefd439e16e706b51",
-      "title": "Amazon ECS Express Mode now supports custom task definitions",
-      "summary": "Amazon Elastic Container Service (Amazon ECS) Express Mode now supports custom task definitions, giving you the flexibility to use existing ECS application configurations and advanced task-level custo...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-01T16:05:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-express-mode-custom-task-def/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 586,
+    "total": 588,
     "byCategory": {
+      "OTHER": 116,
       "COMPUTE": 74,
       "AI_ML": 112,
-      "OTHER": 115,
       "STORAGE": 20,
-      "SECURITY": 128,
+      "DATABASE": 60,
+      "SECURITY": 127,
       "SERVERLESS": 21,
-      "DATABASE": 58,
       "ANALYTICS": 15,
       "CONTAINERS": 35,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-09-29T01:30:12.759Z"
+    "lastUpdated": "2026-09-29T16:20:50.301Z"
   },
-  "generatedAt": "2026-09-29T01:30:12.759Z"
+  "generatedAt": "2026-09-29T16:20:50.301Z"
 }
