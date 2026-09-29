@@ -1,6 +1,76 @@
 {
   "announcements": [
     {
+      "id": "ec94627c080e2b5f6686629c1865f2afb763bce1",
+      "title": "Amazon EC2 Future-dated Capacity Reservations Now Supports Postponing Start Dates",
+      "summary": "Amazon EC2 Future-dated Capacity Reservations let you secure capacity up to 120 days in advance by specifying the capacity you need, the start date, and a commitment duration. If your plans change bef...",
+      "category": "COMPUTE",
+      "timestamp": "2026-09-28T21:17:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-fcr-postpone-start-date/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "607805acf579f21f3d2956d87227da1c35a84be5",
+      "title": "Amazon Rekognition Face Liveness now returns Feedback Codes",
+      "summary": "Amazon Rekognition Face Liveness now returns Feedback Codes that help customers understand why a liveness check received a low score and how users could retry successfully. The codes are returned in t...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-28T20:41:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/rekognition-liveness-feedback-codes/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6cea47503efae2004c7fe196819b2a94f5b97d47",
+      "title": "Grok 4.7 is now available on Amazon Bedrock ",
+      "summary": "Amazon Bedrock now supports SpaceXAI Grok 4.7, a frontier model built for coding, agentic tasks, and knowledge work, with US Geo and Global cross-Region inference.  \nGrok 4.7 builds on Grok 4.6 with b...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-28T18:29:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-grok-4-7/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "76817841d340406a63408aaf904002a4f5531889",
+      "title": "Claude Sonnet 5.5 now available on AWS",
+      "summary": "AWS now offers Claude Sonnet 5.5, a smarter and more efficient Sonnet that delivers a clear leap forward on coding and knowledge work with at a lower cost per task for most work at faster speed.\nClaud...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-28T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-sonnet-5-5-aws/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b2f55a5020da0f7599dd1fe8b9deef2d51198fc4",
+      "title": "Claude Sonnet 5.5 now available on AWS GovCloud (US)",
+      "summary": "AWS GovCloud (US) now offers Claude Sonnet 5.5, a smarter and more efficient Sonnet that delivers a clear leap forward on coding and knowledge work with at a lower cost per task for most work ag faste...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-28T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-sonnet-5-5-aws-govcloud-us/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "25d0e22190430dd5300fe6d3ace177413a921234",
+      "title": "Amazon Corretto September 2026 Patch Updates",
+      "summary": "On September 25, 2026, Amazon announced a patch update for the following Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK: Corretto 25.0.4.10.1, 21.0.12.11.1, 17.0....",
+      "category": "OTHER",
+      "timestamp": "2026-09-28T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-corretto-sept-2026-updates/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "04932bfef0f2df82006b0eba84b98a801108ed60",
+      "title": "AWS Backup adds logically air-gapped vault support for Amazon FSx for NetApp ONTAP",
+      "summary": "AWS Backup logically air-gapped vault now supports Amazon FSx for NetApp ONTAP. Logically air-gapped vaults are a type of AWS Backup vault that allows secure sharing of backups across accounts and AWS...",
+      "category": "STORAGE",
+      "timestamp": "2026-09-28T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-backup-air-gapped-vault-fsx-ontap/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "b66fff87abcc3034fd55c924ba3a56f8ba0edd01",
       "title": "Amazon Transcribe adds customer-managed KMS keys for custom resources",
       "summary": "Amazon Transcribe now lets you encrypt your custom vocabularies, custom vocabulary filters, and custom language models at rest with a customer-managed AWS KMS key that you own and control.\nPreviously,...",
@@ -5789,103 +5859,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-express-mode-custom-task-def/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "b87e302fb66860381af94b2f50976738202d779d",
-      "title": "Amazon CloudWatch Logs enriches log events with AWS resource tags",
-      "summary": "Amazon CloudWatch Logs now enriches log events with resource tags, making it easier to filter, search, and analyze logs by the metadata that matters most to your organization, such as  team ownership,...",
-      "category": "OTHER",
-      "timestamp": "2026-06-30T21:15:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-logs-resource-tags/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "7600036bc74c7427ee294a17031f502c988719c4",
-      "title": "AWS CloudFormation and CDK accelerate development feedback loops with pre-deployment validation on all stack operations",
-      "summary": "AWS CloudFormation customers can now get immediate feedback on deployment errors in seconds, eliminating the need to wait through a full provision-and-rollback cycle to discover preventable failures. ...",
-      "category": "OTHER",
-      "timestamp": "2026-06-30T21:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cloudformation/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "42446797a614c9509fbe726dc22de022ce84ff4a",
-      "title": "AWS CloudFormation and CDK express mode speeds up infrastructure deployments by up to 4x",
-      "summary": "AWS CloudFormation and CDK express mode reduces deployment time by up to 4x for developers and AI agents building infrastructure, based on internal benchmarks. Express mode completes stack operations ...",
-      "category": "NETWORKING",
-      "timestamp": "2026-06-30T21:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cloudformation-cdk/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "482fb69fcd74179c396245cca3a93cbee02fa79d",
-      "title": " Amazon RDS Enhances IAM Database Authentication with Connection Rate Scaling",
-      "summary": "Amazon Relational Database Service (Amazon RDS) now offers dynamic connection scaling for IAM database authentication, allowing connection rates to scale with instance resources.\n  IAM database authen...",
-      "category": "DATABASE",
-      "timestamp": "2026-06-30T20:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-iam/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "dae167c9c142d3b07f44db70b289984435a32ee9",
-      "title": "AWS Parallel Computing Service supports in-place Slurm major version upgrades",
-      "summary": "AWS Parallel Computing Service (PCS) now supports managed in-place Slurm version upgrades for existing clusters. You can move your clusters up to three Slurm major versions ahead with no disruption to...",
-      "category": "OTHER",
-      "timestamp": "2026-06-30T19:12:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-parallel-computing-service-upgrade/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ff17ddcaa6ed7417a796f7556ba7d96dcff60702",
-      "title": "Amazon ElastiCache T4g nodes now available in additional AWS Regions",
-      "summary": "Amazon ElastiCache now supports T4g node types in the following AWS Regions: Africa (Cape Town), Asia Pacific (Jakarta), Asia Pacific (Osaka), AWS GovCloud (US-East), and AWS GovCloud (US-West). T4g n...",
-      "category": "DATABASE",
-      "timestamp": "2026-06-30T19:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-elasticache-t4g-additional-aws-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b32a050bdd315a4a56f6b8377f7f8d943f280706",
-      "title": "Amazon Neptune announces dual stack support with IPv6",
-      "summary": "Amazon Neptune now supports dual-stack mode, enabling database clusters to accept connections over IPv4, IPv6, or both protocols simultaneously. This allows organizations to adopt IPv6 while maintaini...",
-      "category": "DATABASE",
-      "timestamp": "2026-06-30T19:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-neptune-ipv6/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ad8056d10c1199562ca28f30b3e1d269f2539616",
-      "title": "AWS End User Messaging RCS now supports rich media and interactive messaging",
-      "summary": "AWS End User Messaging now supports rich media and interactive messaging for RCS across all 22 supported countries. With the new SendRcsMessage API, you can send rich cards, carousels, images, videos,...",
-      "category": "OTHER",
-      "timestamp": "2026-06-30T18:21:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-end-user-messaging-rcs/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 587,
+    "total": 586,
     "byCategory": {
+      "COMPUTE": 74,
+      "AI_ML": 112,
+      "OTHER": 115,
+      "STORAGE": 20,
       "SECURITY": 128,
-      "COMPUTE": 73,
-      "OTHER": 118,
       "SERVERLESS": 21,
-      "DATABASE": 61,
-      "AI_ML": 108,
+      "DATABASE": 58,
       "ANALYTICS": 15,
       "CONTAINERS": 35,
-      "NETWORKING": 9,
-      "STORAGE": 19
+      "NETWORKING": 8
     },
-    "lastUpdated": "2026-09-28T17:58:15.908Z"
+    "lastUpdated": "2026-09-29T01:30:12.759Z"
   },
-  "generatedAt": "2026-09-28T17:58:15.908Z"
+  "generatedAt": "2026-09-29T01:30:12.759Z"
 }
