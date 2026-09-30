@@ -1,6 +1,96 @@
 {
   "announcements": [
     {
+      "id": "99aadd4a09e4b02f87fd104b5246dbf38faf3249",
+      "title": "Amazon Bedrock Managed Agents, powered by OpenAI, is now available in preview",
+      "summary": "Developed jointly by AWS and OpenAI, Bedrock Managed Agents (BMA) is built on a customized version of OpenAI's Agents API engineered to be AWS-native and integrated with AWS resources. You can now bui...",
+      "category": "SECURITY",
+      "timestamp": "2026-09-29T21:10:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/bedrock-managed-agents-preview/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "bb710668f341e87a706e52ab6b054d6fb2c40f01",
+      "title": "Amazon RDS now adds full snapshot size information to the Console and API",
+      "summary": "Amazon RDS now displays the full snapshot size for RDS Snapshots. With this enhancement, customers can now retrieve full snapshot sizes programmatically through the DescribeDBSnapshots API using the n...",
+      "category": "DATABASE",
+      "timestamp": "2026-09-29T21:00:23.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-full-snapshot-size-available/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "298a9382db09f04c8db646f84d681b16a1596934",
+      "title": "OpenAI GPT-6.1 Sol is now generally available on Amazon Bedrock",
+      "summary": "Today, AWS announces the general availability of GPT-6.1 Sol from OpenAI on Amazon Bedrock. An upgrade to GPT-6 Sol, GPT-6.1 Sol delivers exceptionally strong performance on agentic coding, computer u...",
+      "category": "SECURITY",
+      "timestamp": "2026-09-29T20:17:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-1-sol-on-amazon-bedrock/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "bf6d1a31d2ed99a6651dc2db56aa571c348cc2a9",
+      "title": "Amazon Connect Customer now lets business users manage more reference data to adjust contact center configurations in real time",
+      "summary": "Amazon Connect Customer now lets administrators store more of the reference data that drives their contact center configurations. Administrators can now use data tables to hold up to 20,000 values per...",
+      "category": "DATABASE",
+      "timestamp": "2026-09-29T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-manage-data-tables/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "46a069fea9af381dcc41485c15285d02bfd36371",
+      "title": "Amazon WorkSpaces Applications introduces unified graphics images",
+      "summary": "Today, Amazon WorkSpaces Applications announces unified graphics images, a single image type that works across all supported graphics instance families, including G4dn, G5, G6, and G7. Previously, eac...",
+      "category": "COMPUTE",
+      "timestamp": "2026-09-29T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-applications-unified-graphics-images/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0fcb85ad0562df36e6005332909dbe6cfe6e8fa5",
+      "title": "AWS Service Availability Updates",
+      "summary": "We're announcing availability changes to the following AWS services and features.\nServices moving to Maintenance\nServices moving to maintenance will no longer be accessible to new customers starting O...",
+      "category": "OTHER",
+      "timestamp": "2026-09-29T16:21:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-service-availability/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "169e30856c9e46495abbd2a7bef2cbb48ff4610c",
+      "title": "Amazon RDS for PostgreSQL announces Extended Support minor versions 13.23-rds.20260514, 12.22-rds.20260514 and 11.22-rds.20260514",
+      "summary": "Amazon Relational Database Service (RDS) for PostgreSQL announces Amazon RDS Extended Support minor versions 13.23-rds.20260514, 12.22-rds.20260514, and 11.22-rds.20260514.\nAmazon RDS Extended Support...",
+      "category": "DATABASE",
+      "timestamp": "2026-09-29T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-postgresql-extended-support/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4fefdb3a052ba605dccc913b178a03b492c4d69d",
+      "title": "Amazon Aurora now supports PostgreSQL 18.6, 17.11, 16.15, 15.19, 14.24",
+      "summary": "Amazon Aurora PostgreSQL-Compatible Edition now supports PostgreSQL versions 18.6, 17.11, 16.15, 15.19, and 14.24, which include bug fixes from the PostgreSQL community and Aurora-specific enhancement...",
+      "category": "SECURITY",
+      "timestamp": "2026-09-29T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-aurora-postgresql-18-6-17-11-16-15-15-19-14-24/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d3e2862e88eaaaa64b13f1dfcaf2374ca2746133",
+      "title": "AWS Transform now supports Apache Kafka migration assessments for Amazon MSK",
+      "summary": "You can now use AWS Transform agentic migration assessments to evaluate the migration of on-premises Apache Kafka clusters to Amazon Managed Streaming for Apache Kafka (Amazon MSK). AWS Transform migr...",
+      "category": "ANALYTICS",
+      "timestamp": "2026-09-29T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-msk-migration-assessment-with-aws-transform",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "91037fb2ffd29f0ec2b47997ca9c25599c6e5e48",
       "title": "AWS Systems Manager now supports sharing documents through AWS Resource Access Manager",
       "summary": "AWS Systems Manager now lets you share your Systems Manager Documents (SSM Documents) with an entire AWS organization or with specific organizational units (OUs) using AWS Resource Access Manager (AWS...",
@@ -5769,133 +5859,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-config-new-resource-types",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "513e93fd74ac0006f37bdc7901a1885ee74317b6",
-      "title": "Amazon Bedrock AgentCore increases default runtime quota limits",
-      "summary": "Amazon Bedrock AgentCore has increased the default runtime quota limits, giving customers greater capacity to scale their agent-based workloads. AgentCore is the platform for developers to build, conn...",
-      "category": "AI_ML",
-      "timestamp": "2026-07-01T22:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-bedrock-agentcore-increases-default-runtime-quota-limits/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4c9a60129323d7e086cd369e0b4b050e4995e065",
-      "title": "Amazon CloudWatch supports creating alarms from log queries",
-      "summary": "Amazon CloudWatch allows you to create alarms on log data using log queries, and get alerted on anomalies without leaving your log analysis workflow.\n \nWith today's launch, you can configure an alarm ...",
-      "category": "SERVERLESS",
-      "timestamp": "2026-07-01T21:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cloudwatch-log-alarms/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "e675992fc90c818cddbdc1a4116b782d3c09819b",
-      "title": "ECS Service Connect now supports Zone-Aware routing",
-      "summary": "Amazon Elastic Container Service (Amazon ECS) introduces zone-aware routing for ECS Service Connect, enabling customers to reduce cross Availability Zone (AZ) data transfer costs and latency by automa...",
-      "category": "CONTAINERS",
-      "timestamp": "2026-07-01T21:28:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-service-connect-zone-aware/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "42e163bd32d462553f9a56c4b248b7bafe577526",
-      "title": "Amazon ECS now provides real-time deployment observability in the AWS Management Console",
-      "summary": "Amazon Elastic Container Service (Amazon ECS) now provides real-time deployment observability in the Amazon ECS Console. With this launch, customers can track deployment progress, monitor deployment h...",
-      "category": "CONTAINERS",
-      "timestamp": "2026-07-01T20:48:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-aws-management-console/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "fd7493b7b724b4e6312684880174bfc5f73efa4b",
-      "title": "AWS Artifact now includes Assurance Assistant for compliance inquiries",
-      "summary": "AWS Artifact now includes Assurance Assistant, an AI-powered capability that generates citation-backed responses to security and compliance questions about AWS services. AWS Artifact is the service th...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-01T20:01:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-artifact-assurance-assistant/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "5c7ee12c82c53e083e1da8b3e391c20b055d60c8",
-      "title": "AWS Partner Central now supports AWS Marketplace listings for co-selling",
-      "summary": "Today, AWS announces that partners can associate one or more AWS Marketplace solutions and product listings from their AWS Marketplace catalog directly to co-sell opportunities in AWS Partner Central....",
-      "category": "OTHER",
-      "timestamp": "2026-07-01T19:06:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-marketplace-co-selling-support/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c1559065d0c564e8c21773b473e9cd5fd262e7a2",
-      "title": "Amazon RDS announces Cross-Region Automated Backups in four additional AWS Regions",
-      "summary": "Cross-Region Automated Backup replication for Amazon RDS is now available in four additional AWS Regions. This launch allows you to setup automated backup replication between Mexico (Central) and Euro...",
-      "category": "DATABASE",
-      "timestamp": "2026-07-01T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-cross-region-automated-backups-additional-aws-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "3213d5d65af18262cbc4bda8e798e13e09aa68ac",
-      "title": " Amazon Bedrock AgentCore now available in four additional AWS Regions",
-      "summary": "Amazon Bedrock AgentCore is now available in four additional AWS Regions: Asia Pacific (Bangkok), Asia Pacific (Malaysia), Europe (Milan), and Europe (Spain). Amazon Bedrock AgentCore is the platform ...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-01T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-four-additional-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "36123ebc486bdc57492193e404b6fd435fd7ac60",
-      "title": "Amazon ECS now supports configurable deployment circuit breaker settings",
-      "summary": "Amazon Elastic Container Service (Amazon ECS) now gives you more control over when a service deployment is considered failed and automatically rolled back. You can now customize deployment circuit bre...",
-      "category": "CONTAINERS",
-      "timestamp": "2026-07-01T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-circuit-breaker-settings/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "921492b9329752b15ea3e26aacd9056a230e339c",
-      "title": "Amazon GuardDuty adds sensitive file modification threat detections",
-      "summary": "Amazon GuardDuty Runtime Monitoring now includes three new threat detections that alert security teams when sensitive files are modified on Amazon EC2 instances and container workloads running on Amaz...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-01T16:58:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-guardduty-sfm/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "11dfe8fc7880b5cd9666b81034f6b0a44481669c",
-      "title": "AWS AppConfig launches managed experimentation tools for A/B testing",
-      "summary": "Today, AWS announces the general availability of experimentation tools in AWS AppConfig, a new capability that enables you to run A/B tests and feature experiments without building or managing separat...",
-      "category": "CONTAINERS",
-      "timestamp": "2026-07-01T16:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/6/aws-appconfig-experimentation/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 588,
+    "total": 586,
     "byCategory": {
-      "OTHER": 116,
-      "COMPUTE": 74,
-      "AI_ML": 112,
-      "STORAGE": 20,
-      "DATABASE": 60,
       "SECURITY": 127,
-      "SERVERLESS": 21,
-      "ANALYTICS": 15,
-      "CONTAINERS": 35,
+      "DATABASE": 62,
+      "COMPUTE": 75,
+      "OTHER": 116,
+      "ANALYTICS": 16,
+      "AI_ML": 111,
+      "STORAGE": 20,
+      "SERVERLESS": 20,
+      "CONTAINERS": 31,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-09-29T16:20:50.301Z"
+    "lastUpdated": "2026-09-30T01:07:02.103Z"
   },
-  "generatedAt": "2026-09-29T16:20:50.301Z"
+  "generatedAt": "2026-09-30T01:07:02.103Z"
 }
