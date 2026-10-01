@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "6fe8493e796a016eef0d6ea6e6a2e6edd296aeda",
+      "title": "Amazon WorkSpaces Core Managed Instances adds support for NVIDIA Blackwell GPU",
+      "summary": "Amazon WorkSpaces Core Managed Instances now supports Graphics G7 instances, powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs and Intel Xeon 6 processors. G7 instances deliver up to 2.1X b...",
+      "category": "COMPUTE",
+      "timestamp": "2026-09-30T23:59:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-cmi-g7/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "287b587d1a07526ce8e38e5a0c40b7c9a0d0d635",
+      "title": "AWS CLI now supports bulk skill updates and version checks for the Agent Toolkit for AWS ",
+      "summary": "Today, AWS expanded the AWS Command Line Interface (CLI) commands for the Agent Toolkit for AWS with two new capabilities that make it easier to keep agent skills up to date. Customers can now run aws...",
+      "category": "OTHER",
+      "timestamp": "2026-09-30T20:16:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-cli-agent-toolkit-update-skill/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f831037cc4a1b7d485467fc7bf978fad69784f87",
+      "title": "Amazon S3 Vectors introduces metadata pre-filtering for up to 5x higher recall on filtered search",
+      "summary": "Amazon S3 Vectors now supports pre-filtering, which evaluates metadata filters before running similarity search, returning up to 5x more of the matching vectors when your filter is selective. S3 Vecto...",
+      "category": "STORAGE",
+      "timestamp": "2026-09-30T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/s3-vectors-introduces-metadata-pre-filtering/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d5c96827f747c18902b2ce5cc67f1bc6daefb3de",
+      "title": "Amazon Managed Grafana now supports creating Grafana 13.2 workspaces",
+      "summary": "Amazon Managed Grafana now supports creating new workspaces with Grafana version 13.2. This release brings features from open-source Grafana versions 13.0 to 13.2, including Git Sync for dashboards, d...",
+      "category": "OTHER",
+      "timestamp": "2026-09-30T19:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-managed-grafana-now-supports-creating-grafana-13-2-workspaces",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "cab3a2b5bb41c3346f0691aeacd16861ccf06558",
+      "title": " OpenAI GPT-6 Astra now supports UltraFast mode on Amazon Bedrock ",
+      "summary": "Today, AWS announces the availability of UltraFast mode for GPT-6 Astra from OpenAI on Amazon Bedrock. Ultrafast is a premium speed tier for GPT-6 Astra built for workloads where speed matters most. A...",
+      "category": "SECURITY",
+      "timestamp": "2026-09-30T19:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-astra-ultrafast-on-amazon-bedrock/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b2b32f0175ac8c9bdaaf29316b5b01446cb31313",
+      "title": "AWS Parallel Computing Service now supports scaling logs",
+      "summary": "AWS Parallel Computing Service (AWS PCS) now supports scaling logs, which record how AWS PCS scales the compute node groups in your cluster. Each log entry records one state transition for one compute...",
+      "category": "COMPUTE",
+      "timestamp": "2026-09-30T19:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-pcs-scaling-logs/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "091f4dc41cf8dce76c3ee8a8869805ca9de8fbfd",
+      "title": "Amazon Aurora serverless now scales faster to support agentic AI and other bursty workloads",
+      "summary": "Amazon Aurora serverless now scales in even larger steps, adding up to 16 ACUs to its current capacity within a second and continuing to scale up to 256 ACUs as your workload grows. With this launch, ...",
+      "category": "DATABASE",
+      "timestamp": "2026-09-30T17:50:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-serverless-instant-16-acu-scaling/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3748a83ae4599e2287fd8d91ffe1024bcb88eb20",
+      "title": "Amazon Aurora and RDS now support AMD-based R8a instances",
+      "summary": "Amazon Aurora and Amazon RDS now support R8a database instances powered by 5th generation AMD EPYC processors, expanding the choice available for your database workloads. Each vCPU in R8a database ins...",
+      "category": "DATABASE",
+      "timestamp": "2026-09-30T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aurora-rds-amd-r8a/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f4c627ab8da30b4712890070c7fbc8fdbbce07ce",
+      "title": "Amazon RDS now supports AMD-based M8a instances",
+      "summary": "Amazon RDS for PostgreSQL, MySQL, and MariaDB now support M8a database instances powered by 5th generation AMD EPYC processors, expanding the choice available for your database workloads. Each vCPU in...",
+      "category": "DATABASE",
+      "timestamp": "2026-09-30T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aurora-rds-amd-m8a/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8fcd34bc692eb07e9ae2dd4a42ddd3aa1ba57922",
+      "title": "Aurora PostgreSQL now supports querying of Apache Iceberg and Parquet data",
+      "summary": "Starting today, you can directly query operational data together with data stored in data lakes in Apache Iceberg and Parquet formats using your existing PostgreSQL applications and tools, without ext...",
+      "category": "DATABASE",
+      "timestamp": "2026-09-30T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aurora-postgresql-query-apache-iceberg-and-parquet/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "99aadd4a09e4b02f87fd104b5246dbf38faf3249",
       "title": "Amazon Bedrock Managed Agents, powered by OpenAI, is now available in preview",
       "summary": "Developed jointly by AWS and OpenAI, Bedrock Managed Agents (BMA) is built on a customized version of OpenAI's Agents API engineered to be AWS-native and integrated with AWS resources. You can now bui...",
@@ -5819,53 +5919,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/secrets-manager-managed-external-secrets-paddle-gitlab/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "f1e003a8a2e5e86c3c3769843c5dbfb4e1edd82b",
-      "title": "Amazon SageMaker Unified Studio now supports Terraform for provisioning",
-      "summary": "Amazon SageMaker Unified Studio now supports Terraform for provisioning. Customers can use the open-source terraform-aws-sagemaker-unified-studio module to deploy a SageMaker Unified Studio domain thr...",
-      "category": "AI_ML",
-      "timestamp": "2026-07-02T21:49:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified-studio-terraform/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b38e53ac46fcf6f59e2736318ea7e228de7fc8ee",
-      "title": "Amazon EC2 X8i instances are now available in additional regions  ",
-      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the Asia Pacific (Seoul), Asia Pacific (Malaysia) and Asia Pacific (Tokyo) regions. These instances are powered...",
-      "category": "COMPUTE",
-      "timestamp": "2026-07-02T20:48:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-x8i-instances-ICN-KUL-NRT-region/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "26c12eb566f07645eb4cc2a92856b8f53a375211",
-      "title": "Amazon EC2 Dedicated Hosts now support AMD SEV-SNP",
-      "summary": "Amazon EC2 is announcing support for AMD Secure Encrypted Virtualization-Secure Nested Paging (SEV-SNP) on Dedicated Hosts, enabling customers to run their confidential computing workloads on physical...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-02T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-amd-sev-snp-dedicated-hosts",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 585,
+    "total": 592,
     "byCategory": {
+      "COMPUTE": 75,
+      "OTHER": 118,
+      "STORAGE": 21,
       "SECURITY": 126,
-      "DATABASE": 62,
-      "COMPUTE": 74,
-      "OTHER": 116,
-      "AI_ML": 112,
+      "DATABASE": 66,
+      "AI_ML": 111,
       "ANALYTICS": 16,
-      "STORAGE": 20,
       "SERVERLESS": 20,
       "CONTAINERS": 31,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-09-30T16:16:23.556Z"
+    "lastUpdated": "2026-10-01T01:05:10.058Z"
   },
-  "generatedAt": "2026-09-30T16:16:23.557Z"
+  "generatedAt": "2026-10-01T01:05:10.059Z"
 }
