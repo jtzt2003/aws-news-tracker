@@ -91,6 +91,16 @@
       "isNew": false
     },
     {
+      "id": "9aa146294b2d3b1d59113e15306b4cc0f7f7ad2b",
+      "title": "Amazon Bedrock expands Claude models in-region support in the UK (London)",
+      "summary": "We're excited to announce in-region support for Anthropic's Claude Opus 5.5 and Claude Sonnet 5 on Amazon Bedrock in the UK (London) Region. Customers who need to process data within the United Kingdo...",
+      "category": "AI_ML",
+      "timestamp": "2026-09-30T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-region-expansion-lhr/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "8fcd34bc692eb07e9ae2dd4a42ddd3aa1ba57922",
       "title": "Aurora PostgreSQL now supports querying of Apache Iceberg and Parquet data",
       "summary": "Starting today, you can directly query operational data together with data stored in data lakes in Apache Iceberg and Parquet formats using your existing PostgreSQL applications and tools, without ext...",
@@ -5922,20 +5932,20 @@
     }
   ],
   "stats": {
-    "total": 592,
+    "total": 593,
     "byCategory": {
       "COMPUTE": 75,
       "OTHER": 118,
       "STORAGE": 21,
       "SECURITY": 126,
       "DATABASE": 66,
-      "AI_ML": 111,
+      "AI_ML": 112,
       "ANALYTICS": 16,
       "SERVERLESS": 20,
       "CONTAINERS": 31,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-10-01T01:05:10.058Z"
+    "lastUpdated": "2026-10-01T16:54:03.522Z"
   },
-  "generatedAt": "2026-10-01T01:05:10.059Z"
+  "generatedAt": "2026-10-01T16:54:03.522Z"
 }
