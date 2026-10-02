@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "5829a0f448da96607afeb24c733520fb8641d119",
+      "title": "GuardDuty Runtime Monitoring is now included in the AWS Security Hub Threat Analytics plan",
+      "summary": "Today, AWS announces that Amazon GuardDuty Runtime Monitoring is now included in the AWS Security Hub Threat Analytics plan. Runtime Monitoring inspects operating system, network, and file activity to...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-02T03:35:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-security-hub-runtime-monitoring/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "53203197d88d6974ca94c54c3672ec55261a9e38",
       "title": "AWS Well-Architected Agent is now available in preview ",
       "summary": "AWS announces the preview of AWS Well-Architected Agent, a AI-powered service that is the next-gen evolution of AWS Trusted Advisor and the AWS Well-Architected Tool. The agent analyzes and optimizes ...",
@@ -6032,9 +6042,9 @@
     }
   ],
   "stats": {
-    "total": 603,
+    "total": 604,
     "byCategory": {
-      "SECURITY": 130,
+      "SECURITY": 131,
       "DATABASE": 68,
       "OTHER": 120,
       "STORAGE": 23,
@@ -6045,7 +6055,7 @@
       "CONTAINERS": 31,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-10-02T01:18:45.748Z"
+    "lastUpdated": "2026-10-02T16:07:10.235Z"
   },
-  "generatedAt": "2026-10-02T01:18:45.748Z"
+  "generatedAt": "2026-10-02T16:07:10.235Z"
 }
