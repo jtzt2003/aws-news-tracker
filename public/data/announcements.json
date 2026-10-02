@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "53203197d88d6974ca94c54c3672ec55261a9e38",
+      "title": "AWS Well-Architected Agent is now available in preview ",
+      "summary": "AWS announces the preview of AWS Well-Architected Agent, a AI-powered service that is the next-gen evolution of AWS Trusted Advisor and the AWS Well-Architected Tool. The agent analyzes and optimizes ...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-01T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-well-architected-agent/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4b1af2cc295a026e6f29e4d0244831ed61e1f6a7",
+      "title": "Amazon Redshift now supports cross-Region queries for your data lake",
+      "summary": "Amazon Redshift now supports querying Amazon S3 data lake tables located in a different AWS Region. With enhanced VPC routing, data lake query traffic between Amazon S3 and Amazon Redshift stays withi...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-01T18:41:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-cross-Region-queries-for-data-lake",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "75492bc240f87631648c099af9193ddf95ec3c61",
+      "title": "Amazon DynamoDB introduces filtered export to Amazon S3",
+      "summary": "Amazon DynamoDB now supports filtered export for tables. Export to Amazon S3 allows you to export your table data for analytics, data sharing, and other offline uses, as either a full export or an inc...",
+      "category": "DATABASE",
+      "timestamp": "2026-10-01T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dynamodb-introduces-filtered-export/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3e60c649bd09ca7b1151df493c8eb29dfa2c1b4d",
+      "title": "Amazon DynamoDB Accelerator (DAX) is now available in additional Regions",
+      "summary": "Today, AWS announces the availability of Amazon DynamoDB Accelerator (DAX) in 17 additional AWS Regions: Asia Pacific (Hong Kong), Asia Pacific (Hyderabad), Asia Pacific (Jakarta), Asia Pacific (Malay...",
+      "category": "DATABASE",
+      "timestamp": "2026-10-01T16:44:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-dynamodb-accelerator/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a2e88c02d25a1b3d27b4fd3158ecfe270008b03f",
+      "title": "Amazon GuardDuty now supports centralized management using AWS Organizations declarative policies",
+      "summary": "Amazon GuardDuty now supports AWS Organizations declarative policies, enabling you to centrally enable GuardDuty threat detection across every account and Region in your AWS organization. Using an org...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-01T16:01:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/guardduty-org-enablement-policies/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "94dd70496eb495134fb035526e5cade5b34ea0f9",
+      "title": "Amazon Corretto 8 September 2026 Patch Updates",
+      "summary": "On September 30, 2026, Amazon announced a patch update for the following Amazon Corretto Long-Term Support (LTS) version of OpenJDK: Corretto 8u504 is now available for download. Amazon Corretto is a ...",
+      "category": "OTHER",
+      "timestamp": "2026-10-01T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-corretto-8-sept-2026-updates/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1fc0704365a1d4f594f6d5705ac37d0e45e0ae93",
+      "title": "Amazon S3 Object Lock variable retention with event holds is now available in AWS GovCloud (US) Regions",
+      "summary": "Amazon S3 Object Lock support for variable retention with event holds is now available in AWS GovCloud (US-East) and AWS GovCloud (US-West).\nAmazon S3 Object Lock variable retention allows you to appl...",
+      "category": "STORAGE",
+      "timestamp": "2026-10-01T13:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/s3-object-lock-variable-retention-event-holds-aws-govcloud/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9ba9f5ef3cb9d473e9cf229c5b961abe8adf801c",
+      "title": "AWS Security Hub introduces remediation plans to prioritize and fix security exposures",
+      "summary": "AWS Security Hub now offers remediation plans that group related exposure findings sharing a root cause. Instead of addressing each exposure individually, you can now fix a single underlying resource,...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-01T10:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-security-hub-remediation-plans/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4bf22a0a1f0a2b5143785aecf8244fb6feaa052d",
+      "title": "AWS Transfer Family now supports custom CloudWatch log groups for managed workflows",
+      "summary": "AWS Transfer Family now lets you choose a custom log group in Amazon CloudWatch Logs for managed workflow execution logs. You can organize workflow logs to monitor individual workflows separately or b...",
+      "category": "OTHER",
+      "timestamp": "2026-10-01T10:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/transfer-family-custom-cloudwatch-log-groups/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "fc3311ef8fbf5f26ca9beb31663e5efe4394d312",
+      "title": "AWS Glue Data Catalog now supports table optimization, statistics, and crawlers for Apache Iceberg V3",
+      "summary": "AWS Glue Data Catalog now supports table optimization, statistics, and crawlers for Apache Iceberg Version 3 (V3) tables. With these new capabilities, you can automatically maintain V3 tables, optimiz...",
+      "category": "STORAGE",
+      "timestamp": "2026-10-01T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-glue-iceberg-v3-optimization/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "6fe8493e796a016eef0d6ea6e6a2e6edd296aeda",
       "title": "Amazon WorkSpaces Core Managed Instances adds support for NVIDIA Blackwell GPU",
       "summary": "Amazon WorkSpaces Core Managed Instances now supports Graphics G7 instances, powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs and Intel Xeon 6 processors. G7 instances deliver up to 2.1X b...",
@@ -5932,20 +6032,20 @@
     }
   ],
   "stats": {
-    "total": 593,
+    "total": 603,
     "byCategory": {
+      "SECURITY": 130,
+      "DATABASE": 68,
+      "OTHER": 120,
+      "STORAGE": 23,
       "COMPUTE": 75,
-      "OTHER": 118,
-      "STORAGE": 21,
-      "SECURITY": 126,
-      "DATABASE": 66,
       "AI_ML": 112,
       "ANALYTICS": 16,
       "SERVERLESS": 20,
       "CONTAINERS": 31,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-10-01T16:54:03.522Z"
+    "lastUpdated": "2026-10-02T01:18:45.748Z"
   },
-  "generatedAt": "2026-10-01T16:54:03.522Z"
+  "generatedAt": "2026-10-02T01:18:45.748Z"
 }
