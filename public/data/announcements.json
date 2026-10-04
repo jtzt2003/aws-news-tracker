@@ -6079,55 +6079,15 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-evs-vcf9",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "a031a26a6a0af2302a3711a6524ea0d5e4e6fd83",
-      "title": "AWS Certificate Manager now supports the ACME protocol for public certificates",
-      "summary": "AWS Certificate Manager (ACM) now allows you to provision a fully managed ACME server endpoint that issues public TLS certificates with a 45 day validity from Amazon Trust Services using any ACMEv2-co...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-06T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-certificate-manager-acme/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "35020386b56e4b5fc65dbfe62b6d49ae7d66a77e",
-      "title": "CloudWatch Application Signals now automatically captures errors, performance anomalies, and deployment events",
-      "summary": "Today, AWS announces Service Events for Amazon CloudWatch Application Signals, which automatically captures exception and latency event snapshots, function-level performance data, and deployment event...",
-      "category": "OTHER",
-      "timestamp": "2026-07-06T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/cloudwatch-service-events/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "649a335732e81d85d21311fe5e989ee9ff126160",
-      "title": "AWS CodePipeline now available in Asia Pacific (New Zealand) region",
-      "summary": "Starting today, AWS CodePipeline is now available in Asia Pacific (New Zealand) Region (ap-southeast-6). AWS CodePipeline is a continuous delivery service that enables you to model, visualize, and aut...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-06T09:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-codepipeline-new-zealand/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "afe3f8098c0536dfa21088b62e825239f9cd7f41",
-      "title": "AWS Secrets Manager adds managed external secrets support for Paddle and GitLab",
-      "summary": "AWS Secrets Manager now extends its managed external secrets capability to include Paddle API Keys and GitLab Access Tokens. Managed external secrets enable customers to automatically rotate third-par...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-06T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/secrets-manager-managed-external-secrets-paddle-gitlab/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 612,
+    "total": 608,
     "byCategory": {
       "CONTAINERS": 33,
-      "SECURITY": 133,
+      "SECURITY": 130,
       "DATABASE": 69,
-      "OTHER": 122,
+      "OTHER": 121,
       "AI_ML": 113,
       "STORAGE": 23,
       "COMPUTE": 75,
@@ -6135,7 +6095,7 @@
       "SERVERLESS": 20,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-10-04T00:22:14.806Z"
+    "lastUpdated": "2026-10-04T15:09:57.002Z"
   },
-  "generatedAt": "2026-10-04T00:22:14.806Z"
+  "generatedAt": "2026-10-04T15:09:57.002Z"
 }
