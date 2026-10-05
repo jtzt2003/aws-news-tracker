@@ -6029,73 +6029,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-auto-mode-gpu-price",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "ea627137f3146491dd448ffa6d7393dee1a666b3",
-      "title": "AWS Security Hub adds impact analysis for exposure findings",
-      "summary": "Today, AWS Security Hub adds impact analysis to exposure findings, helping security teams understand the full scope of what an attacker could reach if an exposure is exploited. Impact analysis extends...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-06T21:45:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/impact-analysis-aws-security-hub/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "9e46a177a51c96086b70286997d37f606c8971c5",
-      "title": "Amazon SageMaker HyperPod now supports disaggregated prefill and decode",
-      "summary": "Amazon SageMaker HyperPod now supports Disaggregated Prefill and Decode (DPD), an inference optimization that separates the two phases of large language model (LLM) inference — prefill and decode — on...",
-      "category": "AI_ML",
-      "timestamp": "2026-07-06T21:29:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-sagemaker-hyperpod-dpd/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "3a4d0ad872089d1ec2f225e2163c5dd1b502d689",
-      "title": "Amazon Cognito now supports self-service provisioned API rate limits",
-      "summary": "Amazon Cognito now allows you to increase or decrease your provisioned API rate limits on demand. Cognito has default rate limits for the maximum number of operations per second that you can perform i...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-06T21:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/cognito-provisioned-limits",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "9af3cf53010984efab2211063cce7cf09c8041b6",
-      "title": "Amazon SageMaker Studio now integrates with Hugging Face for one-click model deployment and customization ",
-      "summary": "Amazon SageMaker Studio now supports direct integration from Hugging Face, letting you go from discovering a model to working with it inside a fully configured Studio environment in a single click. Se...",
-      "category": "AI_ML",
-      "timestamp": "2026-07-06T20:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/sagemaker-studio-hugging-face-integration/ ",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "22febee947f67711416b4143ab327c1ccfd4e227",
-      "title": "Amazon EVS VCF 9.0 and 9.1 support",
-      "summary": "Today, we are announcing that Amazon Elastic VMware Service (EVS) now supports VMware Cloud Foundation (VCF) 9.0 and 9.1.\n \nAmazon EVS lets you run the latest VCF software directly within your Amazon ...",
-      "category": "OTHER",
-      "timestamp": "2026-07-06T17:29:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-evs-vcf9",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 608,
+    "total": 603,
     "byCategory": {
       "CONTAINERS": 33,
-      "SECURITY": 130,
+      "SECURITY": 128,
       "DATABASE": 69,
-      "OTHER": 121,
-      "AI_ML": 113,
+      "OTHER": 120,
+      "AI_ML": 111,
       "STORAGE": 23,
       "COMPUTE": 75,
       "ANALYTICS": 16,
       "SERVERLESS": 20,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-10-04T15:09:57.002Z"
+    "lastUpdated": "2026-10-05T00:28:13.499Z"
   },
-  "generatedAt": "2026-10-04T15:09:57.002Z"
+  "generatedAt": "2026-10-05T00:28:13.499Z"
 }
