@@ -1,6 +1,26 @@
 {
   "announcements": [
     {
+      "id": "8096ab0a49f811a1026a7d2459c45ad3e3201a1b",
+      "title": "AWS Capabilities by Region now offers availability notifications for individual features and advanced filters",
+      "summary": "Today, AWS announces feature-level availability notifications and advanced filters for AWS Capabilities by Region in AWS Builder Center. Builders can now set availability notifications for AWS service...",
+      "category": "OTHER",
+      "timestamp": "2026-10-05T17:57:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/awscapabilities-enhancements/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f10d699404efeefa977e324e0213e71c07e309cc",
+      "title": "AWS Private CA now provides detailed certificate issuance logs",
+      "summary": "AWS Private CA announces detailed certificate issuance logs, a new AWS CloudTrail service event that records the complete certificate content, issuing CA information, requester identity, and signing s...",
+      "category": "SERVERLESS",
+      "timestamp": "2026-10-05T09:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-private-ca-certificate-issuance-logs/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "65aba97442f9783d5acddaf0320be5dc25c34dea",
       "title": "Amazon ECS adds Amazon VPC Lattice support for blue/green, linear, and canary deployments",
       "summary": "Amazon Elastic Container Service (Amazon ECS) now supports built-in blue/green, linear, and canary deployment strategies for ECS services using Amazon VPC Lattice. Applications that use VPC Lattice fo...",
@@ -5929,123 +5949,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-gamelift-streams-terminal-access/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "287773fc6d77bf16aac8dbfe3f3e5cf656aa2056",
-      "title": "Amazon S3 Vectors is now available in AWS GovCloud (US) Regions",
-      "summary": "Amazon S3 Vectors is now available in AWS GovCloud (US-East) and AWS GovCloud (US-West).\n \nAmazon S3 Vectors is purpose-built vector storage for AI agents, inference, Retrieval Augmented Generation (R...",
-      "category": "STORAGE",
-      "timestamp": "2026-07-07T19:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/s3-vectors-available-aws-govcloud-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "468c6a1d841ccdca147b24b0630b115930de7069",
-      "title": "AWS Security Hub extends unified security management to Microsoft Azure",
-      "summary": "Today, AWS announces that AWS Security Hub now monitors Microsoft Azure resources, extending risk analytics, cloud security posture management, vulnerability management, and security response manageme...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-07T18:21:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-security-hub-supports-monitoring-microsoft-azure/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6fe75666774a3f44ed651574e8a082504e4799b8",
-      "title": "Amazon ECS Managed Instances reduces GPU management fees by up to 60%",
-      "summary": "Amazon Elastic Container Service (Amazon ECS) Managed Instances now offers significantly reduced management fees for GPU and accelerated instance types. Beginning July 1, 2026, G-series ECS management...",
-      "category": "CONTAINERS",
-      "timestamp": "2026-07-07T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-managed-instances-gpu-price/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ae94a9a4271ae9e078fe967b0882a3b246abcb22",
-      "title": "Amazon EMR Serverless now supports larger worker sizes to run more compute and memory intensive workloads",
-      "summary": "Amazon EMR Serverless now offers larger worker configurations of 32 vCPUs with up to 244 GB of memory, allowing you to run more compute and memory-intensive workloads. Previously, the largest worker c...",
-      "category": "ANALYTICS",
-      "timestamp": "2026-07-07T17:06:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-emr-serverless/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "625836d8acc0664b54003e83bb99b80c69e84351",
-      "title": "Amazon EC2 C8ine instances are now available in AWS Europe (Frankfurt) region",
-      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8ine instances are available in the AWS Europe (Frankfurt) region. C8ine instances are powered by custom sixth generation Intel Xeon Scalable...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-07T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c8ine-aws-frankfurt/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "21c6c214e605f49a1554d6228e8d115b72260d67",
-      "title": "Amazon SageMaker now supports data lineage in IAM-based domains",
-      "summary": "Amazon SageMaker Unified Studio now supports OpenLineage compatible data lineage in IAM-based domains, capturing lineage events from Apache Spark jobs run on Amazon EMR, AWS Glue, SageMaker Visual ETL...",
-      "category": "AI_ML",
-      "timestamp": "2026-07-07T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-data-lineage-iam-domain",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6e4996d28250fb8d950ca27b5e791edf398e769b",
-      "title": "Amazon Redshift RG instances now available in AWS GovCloud (US) Regions",
-      "summary": "Amazon Redshift RG instances, powered by AWS Graviton processors, are now available in the AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions. RG instances deliver better performance, running d...",
-      "category": "DATABASE",
-      "timestamp": "2026-07-07T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-rg-instances-aws-govcloud",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "3c5ba9d5567cd3b159e0edcd949ca2ba01b56aef",
-      "title": "Amazon RDS for Oracle now supports Oracle Database 26ai",
-      "summary": "Amazon RDS for Oracle now supports Oracle Database 26ai, Oracle's latest Long Term Support Release, with Amazon Bedrock integration which provides access to foundation models such as Anthropic Claude,...",
-      "category": "AI_ML",
-      "timestamp": "2026-07-07T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-oracle-database-26ai/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "71bde382653c3f0fb9e7edb8978707241bc2b5c1",
-      "title": "Amazon S3 Express One Zone is now available in the AWS Europe (Frankfurt) Region",
-      "summary": "The Amazon S3 Express One Zone storage class is now available in the AWS Europe (Frankfurt) Region.\n \nAmazon S3 Express One Zone is a high-performance, single-Availability Zone storage class purpose-b...",
-      "category": "AI_ML",
-      "timestamp": "2026-07-07T13:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/s3-express-one-zone-europe-frankfurt/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "63f11a29511ad33cdc4e14b0855b83c296741320",
-      "title": "Amazon EKS Auto Mode reduces GPU management fees by up to 60%",
-      "summary": "Amazon Elastic Kubernetes Service (Amazon EKS) Auto Mode now offers significantly reduced management fees for GPU and accelerated instance types. Beginning July 1, 2026, G-series Auto Mode management ...",
-      "category": "AI_ML",
-      "timestamp": "2026-07-07T12:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-auto-mode-gpu-price",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 603,
+    "total": 595,
     "byCategory": {
-      "CONTAINERS": 33,
-      "SECURITY": 128,
-      "DATABASE": 69,
-      "OTHER": 120,
-      "AI_ML": 111,
-      "STORAGE": 23,
+      "OTHER": 121,
+      "SERVERLESS": 21,
+      "CONTAINERS": 32,
+      "SECURITY": 126,
+      "DATABASE": 68,
+      "AI_ML": 107,
+      "STORAGE": 22,
       "COMPUTE": 75,
-      "ANALYTICS": 16,
-      "SERVERLESS": 20,
+      "ANALYTICS": 15,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-10-05T00:28:13.499Z"
+    "lastUpdated": "2026-10-05T19:04:52.999Z"
   },
-  "generatedAt": "2026-10-05T00:28:13.499Z"
+  "generatedAt": "2026-10-05T19:04:52.999Z"
 }
