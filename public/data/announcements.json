@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "e01ad13e4885ab551e0f955583405af7d670a36d",
+      "title": "AWS Certificate Manager now supports ACME issuance through AWS PrivateLink",
+      "summary": "AWS Certificate Manager (ACM) now supports AWS PrivateLink for ACME public certificate issuance, allowing you to request and renew public TLS certificates over a private network path that stays within...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-06T14:01:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/AWS-Certificate-Manager-ACME-Privatelink",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "9dbbadf94186b3a64b89b3a575a6d0f6b9507e12",
       "title": "Amazon Redshift adds support for creating and refreshing Apache Iceberg materialized views",
       "summary": "Amazon Redshift now supports the creation and refresh of Apache Iceberg materialized views. Materialized views pre-compute expensive joins and aggregations once and store the results in an Apache Iceb...",
@@ -31,6 +41,16 @@
       "isNew": false
     },
     {
+      "id": "ae76849790a635b6492157e026a9c42ae21c5b8f",
+      "title": "AWS Control Tower AFT now supports plan-only customization runs",
+      "summary": "AWS Control Tower Account Factory for Terraform (AFT) now supports plan-only customization runs, giving administrators the ability to preview Terraform changes before applying them across their manage...",
+      "category": "OTHER",
+      "timestamp": "2026-10-05T19:31:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-control-tower-aft/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "c437d7fc55f58f5ebf918fc34b6a0a1e1cb49105",
       "title": "AWS Continuum for Penetration Testing now supports continuous penetration testing integrated directly into your CI/CD pipeline",
       "summary": "AWS Continuum for Penetration Testing now integrates continuous penetration testing directly into your CI/CD pipeline (public preview)\nAWS Continuum for Penetration Testing (formerly AWS Security Agen...",
@@ -47,6 +67,16 @@
       "category": "OTHER",
       "timestamp": "2026-10-05T17:57:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/awscapabilities-enhancements/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d2588aded38a1a4c9c32f64fec48829080489a13",
+      "title": "Amazon EC2 introduces shared tags for Amazon Machine Images",
+      "summary": "Amazon EC2 now supports AMI tag sharing, a new feature that lets AMI owners make selected tags visible to all AWS accounts an AMI is shared with. Whether an AMI is shared with an account, across an or...",
+      "category": "COMPUTE",
+      "timestamp": "2026-10-05T17:28:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-ami-shared-tags",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -6012,20 +6042,20 @@
     }
   ],
   "stats": {
-    "total": 601,
+    "total": 604,
     "byCategory": {
+      "SECURITY": 131,
       "DATABASE": 69,
-      "SECURITY": 130,
-      "OTHER": 121,
+      "OTHER": 122,
+      "COMPUTE": 75,
       "CONTAINERS": 33,
       "SERVERLESS": 21,
       "AI_ML": 108,
       "STORAGE": 22,
-      "COMPUTE": 74,
       "ANALYTICS": 15,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-10-06T02:09:38.117Z"
+    "lastUpdated": "2026-10-06T16:31:26.252Z"
   },
-  "generatedAt": "2026-10-06T02:09:38.117Z"
+  "generatedAt": "2026-10-06T16:31:26.253Z"
 }
