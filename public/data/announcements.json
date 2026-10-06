@@ -1,6 +1,46 @@
 {
   "announcements": [
     {
+      "id": "9dbbadf94186b3a64b89b3a575a6d0f6b9507e12",
+      "title": "Amazon Redshift adds support for creating and refreshing Apache Iceberg materialized views",
+      "summary": "Amazon Redshift now supports the creation and refresh of Apache Iceberg materialized views. Materialized views pre-compute expensive joins and aggregations once and store the results in an Apache Iceb...",
+      "category": "DATABASE",
+      "timestamp": "2026-10-05T21:57:18.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-iceberg-materialized-views",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "56c672cac486b544c0f4220247daec2abe4dec82",
+      "title": "GLM 5.3 by Z.ai is now generally available on Amazon Bedrock ",
+      "summary": "Amazon Bedrock now supports GLM 5.3 from Z.ai, giving you a powerful new option for agentic coding and long-horizon software engineering work. Customers using GLM 5.3 on Amazon Bedrock have access to ...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-05T21:42:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-glm-5-3/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9e0d62bbafd64d85572cd4489061cd16b5dd2c6c",
+      "title": "AWS IAM Identity Center now supports network access controls for Identity Store",
+      "summary": "AWS IAM Identity Center helps you configure the single sign-on experience for your workforce to AWS accounts and applications. IAM Identity Center now supports network access controls for Identity Sto...",
+      "category": "OTHER",
+      "timestamp": "2026-10-05T21:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-identity-store-network-controls/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c437d7fc55f58f5ebf918fc34b6a0a1e1cb49105",
+      "title": "AWS Continuum for Penetration Testing now supports continuous penetration testing integrated directly into your CI/CD pipeline",
+      "summary": "AWS Continuum for Penetration Testing now integrates continuous penetration testing directly into your CI/CD pipeline (public preview)\nAWS Continuum for Penetration Testing (formerly AWS Security Agen...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-05T18:32:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-continuum-penetration-testing/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "8096ab0a49f811a1026a7d2459c45ad3e3201a1b",
       "title": "AWS Capabilities by Region now offers availability notifications for individual features and advanced filters",
       "summary": "Today, AWS announces feature-level availability notifications and advanced filters for AWS Capabilities by Region in AWS Builder Center. Builders can now set availability notifications for AWS service...",
@@ -11,12 +51,52 @@
       "isNew": false
     },
     {
+      "id": "3641563df21660c383453ccfeb585efc9f69b451",
+      "title": "AWS Advanced Ruby Driver Wrapper is generally available",
+      "summary": "The Amazon Web Services (AWS) Advanced Ruby Driver Wrapper is now generally available for use with Amazon RDS and Amazon Aurora PostgreSQL and MySQL-compatible databases. This advanced database driver...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-05T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-ruby-driver-wrapper-available/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "86aebc035f244dbc4dc173025f2e61dea4acd010",
+      "title": "AWS Client VPN now supports device posture assessment",
+      "summary": "AWS Client VPN now supports device posture assessment, allowing you to verify that connecting user devices meet your security and compliance requirements before granting network access. This feature i...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-05T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-client-vpn-device-posture/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "09a29627599fd87799a87a8fb257fd7ff710657d",
+      "title": "AWS Batch now supports Amazon EKS access entry authentication",
+      "summary": "AWS Batch now supports Amazon EKS access entry authentication for compute environments. EKS access entries provide an API-driven approach to granting IAM principals access to Kubernetes clusters, comp...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-10-05T15:31:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-batch-access-entries/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "f10d699404efeefa977e324e0213e71c07e309cc",
       "title": "AWS Private CA now provides detailed certificate issuance logs",
       "summary": "AWS Private CA announces detailed certificate issuance logs, a new AWS CloudTrail service event that records the complete certificate content, issuing CA information, requester identity, and signing s...",
       "category": "SERVERLESS",
       "timestamp": "2026-10-05T09:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-private-ca-certificate-issuance-logs/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6652b1bfc26d4e3254276dc93ad1259bb47eb0e8",
+      "title": "Announcing Amazon Nova 2.5 Sonic with improved reasoning for voice agents",
+      "summary": "Today, we announce the general availability of Amazon Nova 2.5 Sonic, our latest speech-to-speech model for natural, real-time voice agents. This release brings improved reasoning, instruction followi...",
+      "category": "AI_ML",
+      "timestamp": "2026-10-05T08:10:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-nova-2.5-sonic/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5929,43 +6009,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect-customer-agent-scheduling-tasks/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "9d73376c1d9b86b88722e9586e016cc9332eb50e",
-      "title": "Amazon EC2 High Memory U7i instances now available in AWS Europe (Zurich) region",
-      "summary": "Amazon EC2 High Memory U7i instances with 12TB of memory (u7i-12tb.224xlarge) are now available in the AWS Europe (Zurich) region. U7i instances are part of AWS 7th generation and are powered by custo...",
-      "category": "COMPUTE",
-      "timestamp": "2026-07-07T23:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-u7i-aws-europe-zurich/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ded8e83097b9aa1c662c588c6853145964b21fe1",
-      "title": "Amazon GameLift Streams introduces secure terminal access for stream sessions",
-      "summary": "Amazon GameLift Streams now supports Stream Session Admin Shell, a secure terminal connection to the live runtime environment of a stream session for real-time troubleshooting. You can inspect logs, q...",
-      "category": "OTHER",
-      "timestamp": "2026-07-07T21:26:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-gamelift-streams-terminal-access/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 595,
+    "total": 601,
     "byCategory": {
+      "DATABASE": 69,
+      "SECURITY": 130,
       "OTHER": 121,
+      "CONTAINERS": 33,
       "SERVERLESS": 21,
-      "CONTAINERS": 32,
-      "SECURITY": 126,
-      "DATABASE": 68,
-      "AI_ML": 107,
+      "AI_ML": 108,
       "STORAGE": 22,
-      "COMPUTE": 75,
+      "COMPUTE": 74,
       "ANALYTICS": 15,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-10-05T19:04:52.999Z"
+    "lastUpdated": "2026-10-06T02:09:38.117Z"
   },
-  "generatedAt": "2026-10-05T19:04:52.999Z"
+  "generatedAt": "2026-10-06T02:09:38.117Z"
 }
