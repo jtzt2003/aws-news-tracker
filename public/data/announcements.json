@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "c5b86dca0dfb10e485ed3bd0909e8071479f4816",
+      "title": "AWS Batch now publishes job metrics to Amazon CloudWatch",
+      "summary": "AWS Batch now publishes job metrics to Amazon CloudWatch, providing native observability for batch workloads. AWS Batch emits metrics throughout the job lifecycle, giving you visibility into job queue...",
+      "category": "COMPUTE",
+      "timestamp": "2026-10-06T17:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-batch-job-cloudwatch-metrics/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "e01ad13e4885ab551e0f955583405af7d670a36d",
       "title": "AWS Certificate Manager now supports ACME issuance through AWS PrivateLink",
       "summary": "AWS Certificate Manager (ACM) now supports AWS PrivateLink for ACME public certificate issuance, allowing you to request and renew public TLS certificates over a private network path that stays within...",
@@ -5979,83 +5989,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-config-additional-managed-rules",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "7ab8badb56779fee11cd7ede22102741cf9a215d",
-      "title": "AWS Builder Center Now Offers Free Sandbox Environments",
-      "summary": "AWS Builder Center now lets builders request free, time-limited sandbox environments directly from eligible workshops, eliminating the need for a personal AWS account, credit card, or concerns about u...",
-      "category": "OTHER",
-      "timestamp": "2026-07-08T22:45:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-builder-center-sandbox/",
-      "source": "AWS What's New",
-      "isNew": true
-    },
-    {
-      "id": "4843118df9bb940e79118539c7aa2f334e4da8ec",
-      "title": "Amazon SageMaker Unified Studio Workflows now supports operators for Amazon Bedrock, S3 Tables, S3 Vectors, and Glue Catalog",
-      "summary": "Amazon SageMaker Unified Studio Workflows now supports 19 new operators for Amazon Bedrock, Amazon S3 Tables, Amazon S3 Vectors, AWS Glue Data Catalog, and Amazon MWAA Serverless. With these operators...",
-      "category": "AI_ML",
-      "timestamp": "2026-07-08T22:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/apache-airflow-operators-amazon-sagemaker-unified-studio-workflows/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "83dd46f595f34d94f70586f16082ff0dbe458269",
-      "title": "AWS Security Hub now offers Network Scanning to identify publicly reachable resources",
-      "summary": "Today, AWS Security Hub introduces Network Scanning, a capability that identifies resources in your environment that are reachable from the public internet.  Network Scanning probes your resources fro...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-08T21:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-network-scanning/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "aaf0936c2579b13170e260347162697efea5421c",
-      "title": "Amazon Redshift RG instances now available on the trailing track",
-      "summary": "Amazon Redshift now supports Graviton-based RG instances on the trailing track. Starting July 7, 2026, rg.4xlarge and rg.xlarge instance types are available for customers running workloads on the trai...",
-      "category": "DATABASE",
-      "timestamp": "2026-07-08T18:12:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-graviton-rg-instances-trailing-track",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "21eaa26bd05d5dec86a5fd20323234158c66b92f",
-      "title": "Amazon Aurora DSQL change data capture (CDC) Is now generally available",
-      "summary": "Amazon Aurora DSQL change data capture (CDC) is now generally available, enabling you to stream real-time database changes to Amazon Kinesis Data Streams for event-driven architectures and data integr...",
-      "category": "DATABASE",
-      "timestamp": "2026-07-08T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-cdc-ga/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "02263c66f4fe614514229518095db9c8d434a8c7",
-      "title": "Amazon Connect Customer now supports forecasting, planning, and scheduling for Tasks and Emails",
-      "summary": "Amazon Connect Customer now supports forecasting, capacity planning, and scheduling for Tasks and Emails, enabling you to plan and optimize your workforce across all workloads (Voice, Chat, Tasks, Ema...",
-      "category": "AI_ML",
-      "timestamp": "2026-07-08T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect-customer-agent-scheduling-tasks/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 604,
+    "total": 599,
     "byCategory": {
-      "SECURITY": 131,
-      "DATABASE": 69,
-      "OTHER": 122,
-      "COMPUTE": 75,
+      "COMPUTE": 76,
+      "SECURITY": 130,
+      "DATABASE": 67,
+      "OTHER": 121,
       "CONTAINERS": 33,
       "SERVERLESS": 21,
-      "AI_ML": 108,
+      "AI_ML": 106,
       "STORAGE": 22,
       "ANALYTICS": 15,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-10-06T16:31:26.252Z"
+    "lastUpdated": "2026-10-07T01:13:32.072Z"
   },
-  "generatedAt": "2026-10-06T16:31:26.253Z"
+  "generatedAt": "2026-10-07T01:13:32.072Z"
 }
