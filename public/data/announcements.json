@@ -51,6 +51,16 @@
       "isNew": false
     },
     {
+      "id": "d82f6a81a646e72b72426435f4b7c20eb0adef35",
+      "title": "Amazon EC2 Hpc8a instances are now available in Asia Pacific (Singapore)",
+      "summary": "Starting today, Amazon EC2 Hpc8a instances are available in Asia Pacific (Singapore) region. These instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin). With a maximum freq...",
+      "category": "COMPUTE",
+      "timestamp": "2026-10-05T20:33:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ec2-hpc8a-asia-pacific/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "ae76849790a635b6492157e026a9c42ae21c5b8f",
       "title": "AWS Control Tower AFT now supports plan-only customization runs",
       "summary": "AWS Control Tower Account Factory for Terraform (AFT) now supports plan-only customization runs, giving administrators the ability to preview Terraform changes before applying them across their manage...",
@@ -5929,83 +5939,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/timestream-influxdb-eventbridge/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "9b27887073aca295763bc3ae234b2be22c79e281",
-      "title": " AWS Client VPN extends availability to four additional AWS Regions",
-      "summary": "AWS Client VPN is now available in four new regions: Canada West (Calgary), Mexico (Central) and two in Asia Pacific - New Zealand and Taipei. This fully managed service enables customers to securely ...",
-      "category": "OTHER",
-      "timestamp": "2026-07-09T17:08:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-client-vpn-four-additional-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "8724403acb93088d47fc317dfb9cff00d8ea8646",
-      "title": "Amazon SageMaker Unified Studio adds custom asset types to the catalog in IAM-based domains",
-      "summary": "Amazon SageMaker Unified Studio now supports custom asset types for IAM-based domains. With custom asset types, domain administrators can catalog any format of asset within the SageMaker Unified Studi...",
-      "category": "AI_ML",
-      "timestamp": "2026-07-09T16:04:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/smus-custom-asset-types-iam/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "9166153d882013c698522db31745130a39c421f5",
-      "title": "Amazon SageMaker HyperPod now supports deep health checks for Slurm clusters with continuous provisioning",
-      "summary": "Amazon SageMaker HyperPod now supports deep health checks for Slurm-orchestrated clusters created with continuous provisioning, enabling you to proactively verify GPU accelerator health on running ins...",
-      "category": "AI_ML",
-      "timestamp": "2026-07-09T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/deep-health-check-continuous-slurm/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "e82167ad87f7e3919c29782fb17924ccbbdb29da",
-      "title": "Amazon SageMaker Feature Store now supports batch feature writes and record listing",
-      "summary": "Amazon SageMaker Feature Store is a fully managed capability that makes it easy to compute, store, and retrieve features for training and deploying AI models. SageMaker Feature Store now supports new ...",
-      "category": "AI_ML",
-      "timestamp": "2026-07-09T15:35:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amzn-sgm-feature-store-batch-write-list/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b6242797524e45e7c769d59767c51dcac743fdb9",
-      "title": "Amazon MSK Replicator now supports replication from external Apache Kafka clusters to MSK Standard brokers",
-      "summary": "Amazon MSK Replicator now supports data replication from external Apache Kafka clusters - including on-premises, self-managed on AWS, or other cloud providers to Amazon MSK Standard brokers. This capa...",
-      "category": "STORAGE",
-      "timestamp": "2026-07-09T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-msk-replicator-external-kafka-standard-broker-support",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "1947017ed4f71651449a3ccbae5278eaccf756ef",
-      "title": "AWS Config now supports 191 additional managed rules",
-      "summary": "AWS Config now supports 191 additional managed rules across key services including Amazon Bedrock, Amazon SageMaker, Amazon ECS, Amazon EKS, Amazon RDS, Amazon Redshift, Amazon S3, and Amazon CloudTra...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-09T12:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-config-additional-managed-rules",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 599,
+    "total": 594,
     "byCategory": {
-      "COMPUTE": 76,
-      "SECURITY": 130,
+      "COMPUTE": 77,
+      "SECURITY": 129,
       "DATABASE": 67,
-      "OTHER": 121,
+      "OTHER": 120,
       "CONTAINERS": 33,
       "SERVERLESS": 21,
-      "AI_ML": 106,
-      "STORAGE": 22,
+      "AI_ML": 103,
+      "STORAGE": 21,
       "ANALYTICS": 15,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-10-07T01:13:32.072Z"
+    "lastUpdated": "2026-10-07T17:18:11.624Z"
   },
-  "generatedAt": "2026-10-07T01:13:32.072Z"
+  "generatedAt": "2026-10-07T17:18:11.624Z"
 }
