@@ -1,6 +1,36 @@
 {
   "announcements": [
     {
+      "id": "895cf9cbd6bf12c10cab2b1517a6e47f76c535fd",
+      "title": "AWS Config now supports 77 new resource types",
+      "summary": "AWS Config now supports 77 additional AWS resource types across key services including Amazon EC2, Amazon S3 Files, and Amazon Q Business. This expansion provides greater coverage over your AWS enviro...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-07T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-config-new-resource-types",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5a50599c4c217241c21e7c6d72c35ac8787ec30c",
+      "title": "Claude Haiku 5.5 is now available on AWS ",
+      "summary": "AWS now offers Claude Haiku 5.5, the fastest and most efficient model in the Claude 5.5 family, built for subagents and high-volume, cost-sensitive work. According to Anthropic, it costs around 75% le...",
+      "category": "AI_ML",
+      "timestamp": "2026-10-07T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-haiku-5-5-aws/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "bac979a82da366b4b6231d70a1e7bb4b1e28d7c9",
+      "title": "Claude Haiku 5.5 is now available on AWS GovCloud (US)",
+      "summary": "AWS GovCloud (US) now offers Claude Haiku 5.5, the fastest and most efficient model in the Claude 5.5 family, built for subagents and high-volume, cost-sensitive work. According to Anthropic, it costs...",
+      "category": "AI_ML",
+      "timestamp": "2026-10-07T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-haiku-5-5-aws-govcloud/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "c5b86dca0dfb10e485ed3bd0909e8071479f4816",
       "title": "AWS Batch now publishes job metrics to Amazon CloudWatch",
       "summary": "AWS Batch now publishes job metrics to Amazon CloudWatch, providing native observability for batch workloads. AWS Batch emits metrics throughout the job lifecycle, giving you visibility into job queue...",
@@ -5919,43 +5949,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-organizations-security-controls-new-orgs-console",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "4b1f34a70159de14be134bdcfff04a49d15da905",
-      "title": "OAuth support for the AWS MCP Server",
-      "summary": "You can now connect AI agents directly to the AWS MCP Server using AWS Sign-In. Agents connect using industry-standard OAuth without requiring additional authentication software. Existing AWS identiti...",
-      "category": "OTHER",
-      "timestamp": "2026-07-09T23:03:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/oauth-aws-mcp-server/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "1bcab43e8d0ab8e80e3ec1aaae158ded0bf2f5cb",
-      "title": "Amazon Timestream for InfluxDB now publishes database state change events to Amazon EventBridge",
-      "summary": "Amazon Timestream for InfluxDB now publishes events to Amazon EventBridge when your database instances or clusters undergo state changes. Events are emitted for lifecycle operations including creation...",
-      "category": "DATABASE",
-      "timestamp": "2026-07-09T17:24:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/timestream-influxdb-eventbridge/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 594,
+    "total": 595,
     "byCategory": {
+      "SECURITY": 130,
+      "AI_ML": 105,
       "COMPUTE": 77,
-      "SECURITY": 129,
-      "DATABASE": 67,
-      "OTHER": 120,
+      "DATABASE": 66,
+      "OTHER": 119,
       "CONTAINERS": 33,
       "SERVERLESS": 21,
-      "AI_ML": 103,
       "STORAGE": 21,
       "ANALYTICS": 15,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-10-07T17:18:11.624Z"
+    "lastUpdated": "2026-10-08T01:35:03.716Z"
   },
-  "generatedAt": "2026-10-07T17:18:11.624Z"
+  "generatedAt": "2026-10-08T01:35:03.716Z"
 }
