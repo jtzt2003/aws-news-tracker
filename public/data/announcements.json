@@ -5879,85 +5879,15 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-enhanced-address-search",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "ac3360bf5d55268f9779f04016902027ad608dab",
-      "title": "Amazon SageMaker HyperPod now supports AMI-based node lifecycle configuration for Slurm clusters using continuous provisioning",
-      "summary": "Amazon SageMaker HyperPod now supports AMI-based configuration for Slurm clusters that use continuous provisioning. Continuous provisioning adds nodes to the cluster as capacity becomes available, and...",
-      "category": "AI_ML",
-      "timestamp": "2026-07-10T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/06/ami-configuration-continuous-slurm/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "65dae23dafba57fc9f315357beeb66d9d296cfc4",
-      "title": "Amazon EC2 G7 instances are now available in the AWS US East (N. Virginia) Region",
-      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) G7 instances powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs are now available in US East (N. Virginia) Region. G7 instances deli...",
-      "category": "COMPUTE",
-      "timestamp": "2026-07-10T15:14:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-g7-available-North-Virginia",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b3eb280e66a8df92553191ba661e5b672e30eb4a",
-      "title": "AWS DMS Schema Conversion now supports offline SQL Server conversion",
-      "summary": "AWS Database Migration Service (DMS) Schema Conversion now supports offline source conversion for Microsoft SQL Server, enabling you to convert SQL Server schemas and code without direct connectivity ...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-10T15:09:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-dms-schema-conversion-offline-source/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "8a1fb92a06e318a16cb5571c55422c4444378ddc",
-      "title": "Amazon EC2 I7ie instances now available in AWS Asia Pacific (Hyderabad) region",
-      "summary": "AWS is announcing starting today, Amazon EC2 I7ie instances are now available in AWS Asia Pacific (Hyderabad) region. Designed for large storage I/O intensive workloads, I7ie instances are powered by ...",
-      "category": "COMPUTE",
-      "timestamp": "2026-07-10T14:55:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-i7ie-instances-aws-hyd-region/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "19e17065fd1f06e96b7004b8968aec1afb26bf80",
-      "title": "Amazon DocumentDB (with MongoDB compatibility) now supports R8g.24xlarge and R8g.48xlarge instances",
-      "summary": "Amazon DocumentDB (with MongoDB compatibility) now supports R8g.24xlarge and R8g.48xlarge database instances. R8g instances are powered by AWS Graviton4 processors and feature DDR5 memory, enabling cu...",
-      "category": "DATABASE",
-      "timestamp": "2026-07-10T14:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-documentdb-r8g-24xl-48xl/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c21d5b77582010dd20fe6dc04c7e91d876719aea",
-      "title": "AWS DMS Schema Conversion now supports AI agent automation",
-      "summary": "AWS Database Migration Service (DMS) Schema Conversion now supports AI agent automation through the AWS MCP Server. You can connect AI coding agents, including Kiro, Claude Code, and Cursor, to DMS Sc...",
-      "category": "AI_ML",
-      "timestamp": "2026-07-10T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-dms-sc-ai-agent-automation-mcp-server/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4346ae40c686ba836843c4bb40f9dfe5a30956d5",
-      "title": "AWS Organizations now applies account departure security controls by default for new organizations created via AWS Organizations console",
-      "summary": "AWS Organizations now automatically applies security controls by default when you create a new organization via AWS Organizations console, simplifying initial security configuration by automatically a...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-10T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-organizations-security-controls-new-orgs-console",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 595,
+    "total": 588,
     "byCategory": {
-      "SECURITY": 130,
-      "AI_ML": 105,
-      "COMPUTE": 77,
-      "DATABASE": 66,
+      "SECURITY": 128,
+      "AI_ML": 103,
+      "COMPUTE": 75,
+      "DATABASE": 65,
       "OTHER": 119,
       "CONTAINERS": 33,
       "SERVERLESS": 21,
@@ -5965,7 +5895,7 @@
       "ANALYTICS": 15,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-10-08T01:35:03.716Z"
+    "lastUpdated": "2026-10-08T17:13:18.104Z"
   },
-  "generatedAt": "2026-10-08T01:35:03.716Z"
+  "generatedAt": "2026-10-08T17:13:18.104Z"
 }
