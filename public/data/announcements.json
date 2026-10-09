@@ -1,6 +1,66 @@
 {
   "announcements": [
     {
+      "id": "5b1e42c0b7253ca414a2c6fd4d1af45299e26a8b",
+      "title": "OpenAI GPT-6.1 Sol now supports Ultrafast mode on Amazon Bedrock",
+      "summary": "Today, AWS announces the availability of Ultrafast mode for GPT-6.1 Sol from OpenAI on Amazon Bedrock. Ultrafast mode provides faster inference for workloads where speed matters most. The Amazon Bedro...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-08T19:41:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-sol-ultrafast-amazon/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8f3edd2f517fd29380ddfec51cf8d9994b7599b2",
+      "title": "AWS Cost Explorer, Budgets, and Dashboards now support Amazon Bedrock product attributes",
+      "summary": "AWS Cost Explorer, AWS Budgets, and AWS Cost Management Dashboards now let you analyze Amazon Bedrock costs by product attributes, a new dimension that breaks down Bedrock cost by model, model provide...",
+      "category": "AI_ML",
+      "timestamp": "2026-10-08T18:51:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-bedrock-attributes-in-cost-explorer/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2f416a3248b0d45bc8118c31272643fdaeb2061b",
+      "title": "Amazon RDS for Oracle now supports minor version upgrade prechecks and a new RDS event to help reduce patching downtime",
+      "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle now lets you run a minor version upgrade precheck yourself, before you start an upgrade or before your scheduled maintenance window. RDS for ...",
+      "category": "DATABASE",
+      "timestamp": "2026-10-08T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-minor-version-upgrade-precheck-new-patching-rds-event/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "37f5fd09f27f61422216ac34ab861ea4e1359370",
+      "title": "AWS Network Firewall adds wildcard support for container attribute filters ",
+      "summary": "AWS Network Firewall now supports wildcard matching in container attribute-based inspection filters for Amazon Elastic Kubernetes Service (Amazon EKS) and Amazon Elastic Container Service (Amazon ECS)...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-08T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-network-firewall-container-attributes-wildcard",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1b0ecfbfb952ddf37085df3519aee40dad9b35d5",
+      "title": "Amazon GameLift Servers adds CPU burstability for container fleets",
+      "summary": "Amazon GameLift Servers now supports CPU burstability for container fleets, giving game developers greater flexibility in how compute resources are allocated and consumed at runtime. Previously, conta...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-10-08T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-gamelift-servers-cpu-burstability",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "05f6bfcab8494e9184872f640cc09804ee093191",
+      "title": "Amazon EC2 C8gb instances now generally available in additional regions ",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8gb instances, powered by the latest-generation AWS Graviton4 processors, are available in the US East (Ohio), US West (N. California), EU (F...",
+      "category": "COMPUTE",
+      "timestamp": "2026-10-07T18:26:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ec2-c8gb/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "895cf9cbd6bf12c10cab2b1517a6e47f76c535fd",
       "title": "AWS Config now supports 77 new resource types",
       "summary": "AWS Config now supports 77 additional AWS resource types across key services including Amazon EC2, Amazon S3 Files, and Amazon Q Business. This expansion provides greater coverage over your AWS enviro...",
@@ -5849,53 +5909,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/hyperpod-custom-ami-slurm/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "c6479f0087bed55379be122cc166b163cf7f192a",
-      "title": "Amazon EC2 network/EBS instances now available in additional regions",
-      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8in, R8ib, R8idn, and R8idb instances are available in the AWS Asia Pacific (Tokyo) and Europe (Frankfurt, Ireland) regions. These instances ...",
-      "category": "COMPUTE",
-      "timestamp": "2026-07-10T20:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-r8in-r8ib-r8idn-r8idb",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ff94fee405fc8b988f7c76527f229195867c7605",
-      "title": "Amazon EMR on EKS now supports Apache Spark troubleshooting agent",
-      "summary": "Amazon EMR on EKS now supports the Apache Spark troubleshooting agent. Data engineers can now diagnose EMR on EKS job failures through natural language, receiving automated root cause analysis and PyS...",
-      "category": "AI_ML",
-      "timestamp": "2026-07-10T18:16:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-emr-eks-spark-troubleshooting/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "377f11d00b4a77b2e5f26b1daf7382aab7338fae",
-      "title": "Amazon Location Service enhances Places APIs with new address and search options",
-      "summary": "Today, Amazon Location Service announced new enhancements to its Places APIs that give developers greater control over address name formatting, multilingual address, travel-optimized POI search, and d...",
-      "category": "OTHER",
-      "timestamp": "2026-07-10T17:26:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-enhanced-address-search",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 588,
+    "total": 591,
     "byCategory": {
-      "SECURITY": 128,
+      "SECURITY": 130,
       "AI_ML": 103,
+      "DATABASE": 66,
+      "CONTAINERS": 34,
       "COMPUTE": 75,
-      "DATABASE": 65,
-      "OTHER": 119,
-      "CONTAINERS": 33,
+      "OTHER": 118,
       "SERVERLESS": 21,
       "STORAGE": 21,
       "ANALYTICS": 15,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-10-08T17:13:18.104Z"
+    "lastUpdated": "2026-10-09T01:45:38.977Z"
   },
-  "generatedAt": "2026-10-08T17:13:18.104Z"
+  "generatedAt": "2026-10-09T01:45:38.977Z"
 }
