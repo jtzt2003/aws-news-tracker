@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "5fbfb72381fa592cedddb6e51148739df6abd5f3",
+      "title": "AWS Security Hub now exports findings to S3 in CSV or JSON format",
+      "summary": "Today, AWS Security Hub announces support for exporting findings to Amazon S3 in CSV or JSON (OCSF) format. Security teams that need findings outside the console for use cases such as compliance repor...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-09T22:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/security-hub-exports-s3-csv-json/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ccba9fc4ff504d1272a3a71c84cf9360b27a5a10",
+      "title": "Amazon EC2 R8gd instances are now available in additional regions ",
+      "summary": "Amazon Elastic Compute Cloud (Amazon EC2) R8gd instances are available in AWS European Sovereign Cloud (Germany) region. These instances feature up to 11.4 TB of local NVMe-based SSD block-level stora...",
+      "category": "COMPUTE",
+      "timestamp": "2026-10-09T19:29:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ec2-r8gd-thf/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "aba89b58b3614be9bbc3c8326cdfe7f5f6ec7a3d",
+      "title": "Amazon EC2 R8g instances now available in additional regions ",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8g instances are available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by AWS Graviton4 processors and ...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-09T19:19:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ec2-r8g-instances-thf/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "12a87baced37a4b986a86406b1308c287d4c913d",
+      "title": "Amazon Bedrock now supports reasoning summaries for OpenAI models",
+      "summary": "Amazon Bedrock now supports the reasoning.summary parameter for OpenAI models through the Responses API. This capability lets you request a human-readable summary of a model’s reasoning alongside its ...",
+      "category": "AI_ML",
+      "timestamp": "2026-10-09T17:44:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-reasoning-summaries-openai/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b67137aab065cab2e9c0d1c9305bb73a6268d08b",
+      "title": "Anthropic Claude Sonnet 5.5 and Claude Opus 5.5 are now available on Kiro in AWS GovCloud (US)",
+      "summary": "Two new Anthropic models are now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions.\nClaude Opus 5.5 is Anthropic's most capable Opus model yet and a step up from Opus 5 on long-runni...",
+      "category": "OTHER",
+      "timestamp": "2026-10-09T17:13:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/kiro-claude-5-5-aws-govcloud-us/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a3ff4bd451204e2201cbb51b5ba1f192adbb3c6f",
+      "title": "Amazon Connect Customer now provides automated checks to improve performance evaluation forms ",
+      "summary": "Amazon Connect Customer now suggests changes to performance evaluation forms that improve the accuracy of evaluations automatically filled by AI. While setting up an evaluation form, managers can run ...",
+      "category": "OTHER",
+      "timestamp": "2026-10-09T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-connect-customer-automated-checks-evaluation-forms/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f642327ff28e004e9e652e42fd7df6b0bf6202ac",
+      "title": "Amazon S3 Vectors metadata pre-filtering is now available in AWS GovCloud (US) Regions",
+      "summary": "Amazon S3 Vectors metadata pre-filtering is now available in the AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. Pre-filtering evaluates metadata filters before running similarity search, r...",
+      "category": "STORAGE",
+      "timestamp": "2026-10-09T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/s3-vectors-metadata-pre-filtering-in-govcloud-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "53d8a630312f111fa40f8ad015de5c4b48ad15e6",
+      "title": "AWS Lambda supports OAuth authentication for self-managed Apache Kafka event sources",
+      "summary": "AWS Lambda now supports OAuth authentication for self-managed Apache Kafka event source mappings (ESM), including Kafka clusters that customers run themselves and managed offerings such as Confluent C...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-09T16:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-Lambda-supports-oauth-kafka-esm/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4d2b5cbc00b810e8dcbfac3bd49c7f754d3d2ab2",
+      "title": "Amazon Quick now supports brand templates for on-brand presentations and documents",
+      "summary": "Starting today, you can upload brand templates in Amazon Quick, allowing you to create presentations and documents that match your approved visual identity. Brand managers set up a template once and e...",
+      "category": "OTHER",
+      "timestamp": "2026-10-09T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-quick-brand-templates-on-brand-presentations-documents/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4e2a17a42c94a42f38e06b1fc534c58ff2411fd7",
+      "title": "Amazon SageMaker Unified Studio now supports custom Tooling blueprints",
+      "summary": "Amazon SageMaker Unified Studio now supports custom Tooling blueprints, giving domain administrators the ability to define the foundation of every project by using their own AWS CloudFormation templat...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-09T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-custom-tooling-blueprints/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "5b1e42c0b7253ca414a2c6fd4d1af45299e26a8b",
       "title": "OpenAI GPT-6.1 Sol now supports Ultrafast mode on Amazon Bedrock",
       "summary": "Today, AWS announces the availability of Ultrafast mode for GPT-6.1 Sol from OpenAI on Amazon Bedrock. Ultrafast mode provides faster inference for workloads where speed matters most. The Amazon Bedro...",
@@ -5912,20 +6012,20 @@
     }
   ],
   "stats": {
-    "total": 591,
+    "total": 601,
     "byCategory": {
-      "SECURITY": 130,
-      "AI_ML": 103,
+      "SECURITY": 134,
+      "COMPUTE": 76,
+      "AI_ML": 104,
+      "OTHER": 121,
+      "STORAGE": 22,
       "DATABASE": 66,
       "CONTAINERS": 34,
-      "COMPUTE": 75,
-      "OTHER": 118,
       "SERVERLESS": 21,
-      "STORAGE": 21,
       "ANALYTICS": 15,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-10-09T16:49:51.105Z"
+    "lastUpdated": "2026-10-10T01:32:09.031Z"
   },
-  "generatedAt": "2026-10-09T16:49:51.105Z"
+  "generatedAt": "2026-10-10T01:32:09.032Z"
 }
