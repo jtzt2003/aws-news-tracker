@@ -5959,64 +5959,14 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-documentdb-mongodb-8-0-1-mongo-api",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "1c57331055f3e8bcfe996d8cf249708264ee31c4",
-      "title": "Gemma-4-E2B-it for is now available in Amazon SageMaker JumpStart",
-      "summary": "Today, AWS announced the availability of gemma-4-E2B-it in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from Google DeepMind is a mul...",
-      "category": "AI_ML",
-      "timestamp": "2026-07-13T15:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/gemma-4-e2b-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "41b59f111862a677c920e5a7d59f45f49b6da8b1",
-      "title": "OpenAI privacy-filter for PII detection and masking is now available in Amazon SageMaker JumpStart",
-      "summary": "Today, AWS announced the availability of privacy-filter in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from OpenAI is a bidirectiona...",
-      "category": "AI_ML",
-      "timestamp": "2026-07-13T15:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/privacy-filter-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "025568d444d7b1c64560811c18f4d0f2f8e68379",
-      "title": "Voxtral-Mini-4B-Realtime for real-time speech transcription is now available in Amazon SageMaker JumpStart",
-      "summary": "Today, AWS announced the availability of Voxtral-Mini-4B-Realtime-2602 in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from Mistral A...",
-      "category": "AI_ML",
-      "timestamp": "2026-07-13T15:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/voxtral-mini-realtime-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "628d003c14412170e2a5fe773a1e7bfaa587a618",
-      "title": "Qwen3 embedding and reranking models for retrieval are now available in Amazon SageMaker JumpStart",
-      "summary": "Today, AWS announced the availability of Qwen3-VL-Embedding-2B and Qwen3-Reranker-4B in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These model...",
-      "category": "AI_ML",
-      "timestamp": "2026-07-13T15:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/qwen3-search-retrieval-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "5bfa709e6e5ecc6b7292f63232a81a14c8379b9e",
-      "title": "Amazon SageMaker HyperPod now supports custom AMIs (Amazon Machine Images) for Slurm clusters ",
-      "summary": "Amazon SageMaker HyperPod now supports custom AMIs for Slurm-orchestrated clusters, enabling customers to deploy clusters with pre-configured, security-hardened environments that meet their specific o...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-13T14:31:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/hyperpod-custom-ami-slurm/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 601,
+    "total": 596,
     "byCategory": {
-      "SECURITY": 134,
+      "SECURITY": 133,
       "COMPUTE": 76,
-      "AI_ML": 104,
+      "AI_ML": 100,
       "OTHER": 121,
       "STORAGE": 22,
       "DATABASE": 66,
@@ -6025,7 +5975,7 @@
       "ANALYTICS": 15,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-10-11T00:41:47.231Z"
+    "lastUpdated": "2026-10-11T16:09:46.880Z"
   },
-  "generatedAt": "2026-10-11T00:41:47.231Z"
+  "generatedAt": "2026-10-11T16:09:46.880Z"
 }
