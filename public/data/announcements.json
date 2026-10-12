@@ -5919,63 +5919,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/cloudfront-functions-access-logs/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "81779e5e84cb8317b5b3e2fa61ead99fdcb5de9a",
-      "title": "OpenAI GPT-5.6 Sol, Terra, and Luna now generally available on Amazon Bedrock",
-      "summary": "GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock, bringing the smartest family of models from OpenAI yet to Bedrock's next-generation inference engine built for high-performa...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-13T22:03:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/openai-gpt-sol-terra/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c9c81d4aba5b93e3b93a7b78c9f099db5be6acc8",
-      "title": "Amazon Managed Service for Prometheus is now available in Asia Pacific (New Zealand) Region",
-      "summary": "Amazon Managed Service for Prometheus is now available in Asia Pacific (New Zealand) Region. Amazon Managed Service for Prometheus is a fully managed, Prometheus-compatible monitoring service that mak...",
-      "category": "OTHER",
-      "timestamp": "2026-07-13T21:17:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-prometheus-new-zealand/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "3a0b8f75723d6267b7d2f2cb83ae05a3b781604e",
-      "title": "Amazon DocumentDB (with MongoDB compatibility) now available as a skill in the Agent Toolkit for AWS ",
-      "summary": "Amazon DocumentDB (with MongoDB compatibility) is now available as a specialized database skill in the Agent Toolkit for AWS. With this skill, AI coding agents can set up, manage, migrate, optimize, a...",
-      "category": "DATABASE",
-      "timestamp": "2026-07-13T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-documentdb-agent-skill",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "22794c9296bcb8342761a3a2da846b405b04c144",
-      "title": "Amazon DocumentDB (with MongoDB compatibility) adds support for 46 new MongoDB operators in version 8.0.1 ",
-      "summary": "Amazon DocumentDB (with MongoDB compatibility) now supports 46 additional MongoDB aggregation operators and cursor methods starting from minor version 8.0.1. This release significantly expands query A...",
-      "category": "DATABASE",
-      "timestamp": "2026-07-13T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-documentdb-mongodb-8-0-1-mongo-api",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 596,
+    "total": 592,
     "byCategory": {
-      "SECURITY": 133,
+      "SECURITY": 132,
       "COMPUTE": 76,
       "AI_ML": 100,
-      "OTHER": 121,
+      "OTHER": 120,
       "STORAGE": 22,
-      "DATABASE": 66,
+      "DATABASE": 64,
       "CONTAINERS": 34,
       "SERVERLESS": 21,
       "ANALYTICS": 15,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-10-11T16:09:46.880Z"
+    "lastUpdated": "2026-10-12T01:02:37.820Z"
   },
-  "generatedAt": "2026-10-11T16:09:46.880Z"
+  "generatedAt": "2026-10-12T01:02:37.820Z"
 }
