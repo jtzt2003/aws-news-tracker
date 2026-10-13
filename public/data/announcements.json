@@ -1,6 +1,56 @@
 {
   "announcements": [
     {
+      "id": "348fd8b9782731379b9e3817851173ce89d058c8",
+      "title": "Amazon CloudFront now supports AWS Lambda Web Functions as an origin",
+      "summary": "Starting today, you can deliver web applications built on AWS Lambda Web Functions through CloudFront's global edge network.  \nWith CloudFront in front of a Lambda Web Function, you get TLS terminatio...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-12T23:10:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudfront-lambda-web-functions-origin/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "681fbadb036e1a75613347acab6b248c8aff090d",
+      "title": "Amazon EC2 G7 instances now available in Europe (Frankfurt) and Europe (Stockholm) Regions",
+      "summary": "Amazon Elastic Compute Cloud (Amazon EC2) G7 instances powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs are now available in Europe (Frankfurt) and Europe (Stockholm) Regions. G7 instances...",
+      "category": "COMPUTE",
+      "timestamp": "2026-10-12T22:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-g7-european-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "155f65b7c714ef5fbcdae9c91de8ad4080606a36",
+      "title": "Amazon Connect Customer now prefills step-by-step guides for after contact work ",
+      "summary": "Amazon Connect Customer can now fill in the step-by-step guides that agents complete after a contact, using information extracted from customer conversations, such as booking identifiers, claim number...",
+      "category": "OTHER",
+      "timestamp": "2026-10-12T22:28:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-prefills-guides-acw",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3b959706380b601263454cc7287074d62883c679",
+      "title": "AWS Lambda announces Lambda Web Functions",
+      "summary": "AWS Lambda announces Lambda Web Functions, a new serverless compute primitive where your code handles HTTP requests directly. Your code listens on a port and handles requests as it would on any HTTP s...",
+      "category": "SERVERLESS",
+      "timestamp": "2026-10-12T19:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-web-functions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d58c16b5de36d581b07abf392f79b62944b62f17",
+      "title": "Announcing consumption-based pricing for short-term memory in Amazon Bedrock AgentCore",
+      "summary": "Announcing consumption-based pricing for short-term memory in Amazon Bedrock AgentCore\nAmazon Bedrock AgentCore memory now prices short-term memory (STM) based on the data your agents ingest, retrieve...",
+      "category": "AI_ML",
+      "timestamp": "2026-10-12T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-memory-consumption-based-pricing",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "5ff92a0f293eff5c329c6e9a4fb5e6a85e55dd67",
       "title": "AWS Transfer Family supports custom ports for public SFTP servers",
       "summary": "AWS Transfer Family now lets you configure custom ports on public SFTP servers and choose a communication mode for each port. You can support clients that require different ports or start SFTP connect...",
@@ -11,12 +61,42 @@
       "isNew": false
     },
     {
+      "id": "ca4ac3455a6f690697289982495396d32f355ccc",
+      "title": "Amazon S3 Express One Zone is now available in 4 additional AWS Regions",
+      "summary": "The Amazon S3 Express One Zone storage class is now available in 4 additional AWS Regions: Europe (London), Asia Pacific (Jakarta), Asia Pacific (Hong Kong), and Africa (Cape Town).\nAmazon S3 Express ...",
+      "category": "AI_ML",
+      "timestamp": "2026-10-12T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/s3-express-one-zone-4-additional-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "938753a704dab619965b254a96ce493686a7b895",
       "title": "Amazon ElastiCache for Valkey introduces ElastiCache Insights",
       "summary": "Amazon ElastiCache for Valkey now features ElastiCache Insights, a pre-built dashboard in Amazon CloudWatch for your node-based clusters. ElastiCache Insights brings cluster health, memory, compute, n...",
       "category": "DATABASE",
       "timestamp": "2026-10-12T07:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-valkey-elasticache-insights/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "11c6c3f07cca4caca2efbfbfe967fe2bbdcac5b9",
+      "title": "AWS Secrets Manager adds managed external secrets support for Databricks and Twilio",
+      "summary": "AWS Secrets Manager now extends its managed external secrets capability to include Databricks and Twilio, enabling you to automatically rotate the credentials that your data pipelines and messaging ap...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-12T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/secrets-manager-managed-external-secrets-databricks-twilio/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "14c31313c1ec26f748c477d52389bdc7b6da6607",
+      "title": "Amazon EMR now supports native data quality checks in Apache Spark jobs",
+      "summary": "Amazon EMR now validates data quality natively within Apache Spark jobs. Data engineering teams can catch quality issues inline before bad data reaches downstream systems, without building or maintain...",
+      "category": "ANALYTICS",
+      "timestamp": "2026-10-12T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-emr-data-quality-spark/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5839,53 +5919,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/lambda-self-managed-code-storage/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "0fd788f1f970153b1378fcdf6e97070566ace1f7",
-      "title": "AWS Elastic Disaster Recovery now supports Amazon EBS volume initialization rate",
-      "summary": "AWS Elastic Disaster Recovery (AWS DRS) now supports the Amazon EBS volume initialization rate, helping recovered volumes reach full performance faster during drills and recoveries. When DRS restores ...",
-      "category": "STORAGE",
-      "timestamp": "2026-07-14T22:00:56.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-drs-fast-hydration/",
-      "source": "AWS What's New",
-      "isNew": true
-    },
-    {
-      "id": "7f81a1eb54e8e585fd32accdc90d4ea5fbe04532",
-      "title": "AWS Elastic Disaster Recovery reduces recovery time for AWS-to-AWS workloads",
-      "summary": "AWS Elastic Disaster Recovery (AWS DRS) now recovers your AWS-based workloads faster. For source servers running on Amazon EC2, DRS can now skip preparation steps that these workloads no longer need, ...",
-      "category": "COMPUTE",
-      "timestamp": "2026-07-14T22:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-drs-fast-recovery/ ",
-      "source": "AWS What's New",
-      "isNew": true
-    },
-    {
-      "id": "2f854f75d1ec82c1d588be1c4e55b3e06ade1007",
-      "title": "AWS Lambda console provides a one-click setup prompt for coding agents ",
-      "summary": "AWS Lambda console now provides a one-click setup prompt for coding agents that configures your agent with AWS Serverless skills and the Serverless Model Context Protocol (MCP) server, embedding serve...",
-      "category": "CONTAINERS",
-      "timestamp": "2026-07-14T20:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-prompt-coding-agents/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 587,
+    "total": 592,
     "byCategory": {
-      "OTHER": 120,
-      "DATABASE": 64,
-      "SECURITY": 129,
+      "SECURITY": 131,
       "COMPUTE": 76,
-      "AI_ML": 100,
-      "STORAGE": 21,
-      "CONTAINERS": 34,
-      "SERVERLESS": 21,
-      "ANALYTICS": 15,
+      "OTHER": 121,
+      "SERVERLESS": 22,
+      "AI_ML": 102,
+      "DATABASE": 64,
+      "ANALYTICS": 16,
+      "STORAGE": 20,
+      "CONTAINERS": 33,
       "NETWORKING": 7
     },
-    "lastUpdated": "2026-10-12T19:38:42.473Z"
+    "lastUpdated": "2026-10-13T02:51:11.851Z"
   },
-  "generatedAt": "2026-10-12T19:38:42.474Z"
+  "generatedAt": "2026-10-13T02:51:11.852Z"
 }
