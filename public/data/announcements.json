@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "6e3e52bdf29c45b355c9969402a561dd38eb99fa",
+      "title": "Bring deep SageMaker AI expertise to your coding agent with the AWS AI/ML skill in the Agent Toolkit for AWS",
+      "summary": "Your coding agent can select, train, optimize and deploy models on Amazon SageMaker AI while working across the rest of your AWS environment in a single natural-language workflow. The AWS AI/ML skill ...",
+      "category": "AI_ML",
+      "timestamp": "2026-10-13T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/bring-sagemaker-ai-expertise-to-your-coding-agent/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "348fd8b9782731379b9e3817851173ce89d058c8",
       "title": "Amazon CloudFront now supports AWS Lambda Web Functions as an origin",
       "summary": "Starting today, you can deliver web applications built on AWS Lambda Web Functions through CloudFront's global edge network.  \nWith CloudFront in front of a Lambda Web Function, you get TLS terminatio...",
@@ -5829,113 +5839,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-g7e-additional-regions/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "0984a2145215fc0c07155b2f99847504372dcebd",
-      "title": "Amazon RDS and Aurora now support R8g and M8g database instances in additional AWS Regions",
-      "summary": "AWS Graviton4-based R8g database instances are now generally available for Amazon Aurora (MySQL and PostgreSQL compatibility) and Amazon RDS for PostgreSQL, MySQL, and MariaDB in Asia Pacific (Hyderab...",
-      "category": "DATABASE",
-      "timestamp": "2026-07-15T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-rds-aurora-r8g-m8g-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "3e341ac1904c001e3ed54c26687bf7b5b269b87e",
-      "title": "Amazon RDS and Aurora expand R8gd and M8gd to additional Regions",
-      "summary": "Amazon Relational Database Service (RDS) now supports R8gd database instances in 12 additional regions and and M8gd database instances in 6 additional Regions with Optimized Reads for Amazon Aurora Po...",
-      "category": "DATABASE",
-      "timestamp": "2026-07-15T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-aurora-r8gd-m8gd-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d0f8feef9d3e3d52bba8fe9a6de0b67d0ea032d8",
-      "title": "Amazon Cognito now supports importing users with password hashes",
-      "summary": "Amazon Cognito now supports importing users with password hashes in CSV user imports. Previously, users imported from a CSV file had to reset their passwords on first sign-in. Now, you can include pas...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-15T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cognito-password-hash-import/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b2c9abcaaa33eb7d7ae22a9d6b9f2411d1dc2e32",
-      "title": "Amazon MSK Express Brokers adds support for Apache Kafka version 4.2",
-      "summary": "Amazon Managed Streaming for Apache Kafka (Amazon MSK) Express Brokers now supports Apache Kafka version 4.2. This release includes Eligible Leader Replicas (ELR) enhancements that strengthen availabi...",
-      "category": "ANALYTICS",
-      "timestamp": "2026-07-15T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-msk-express-version-42/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6842c4206f515c4bbb7edaaaebb71ce4d209ceed",
-      "title": "Amazon RDS now supports up to four storage modifications in 24 hours ",
-      "summary": "Amazon RDS now allows up to four storage modifications per database instance within a rolling 24-hour window. These modifications let you increase the size, change the type, and adjust the performance...",
-      "category": "DATABASE",
-      "timestamp": "2026-07-15T16:15:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-upto-four-storage-modifications-24-hours",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d84b7bfaafa9fa9609e1975e2a4b5b5278e649c2",
-      "title": "AWS Glue SAP OData connector and zero-ETL integrations are now available in AWS GovCloud (US) regions",
-      "summary": "AWS Glue SAP OData connector and zero-ETL integrations are now available in AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions, with support for Amazon DynamoDB, Salesforce, and SAP OData as so...",
-      "category": "DATABASE",
-      "timestamp": "2026-07-15T15:51:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-sap-zero-etl-govcloud",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "2296a2d1cacfd1dc535f858bdea5373ee477ab1a",
-      "title": "Amazon OpenSearch Service now supports the Agent Toolkit for AWS with a curated skill",
-      "summary": "Amazon OpenSearch Service now integrates with the Agent Toolkit for AWS, enabling you to build, manage, and query OpenSearch Service domains and OpenSearch Serverless collections directly from AI codi...",
-      "category": "ANALYTICS",
-      "timestamp": "2026-07-15T14:44:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-service-agent/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d539c9e3c631d91f091ededc77e59626890a5643",
-      "title": "Amazon RDS for Db2 is now available in additional AWS Commercial regions",
-      "summary": "Amazon Relational Database Service (Amazon RDS) for Db2 is now available in the Asia Pacific (Thailand), Asia Pacific (Malaysia), Asia Pacific (Taipei), Mexico (Central), and Canada West (Calgary) Reg...",
-      "category": "DATABASE",
-      "timestamp": "2026-07-15T07:39:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-db2-available-additional-aws-commercial-regions",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c20ac78ead5fd5f1ff930036bf150cdcd654a4dc",
-      "title": "AWS Lambda announces self-managed code storage",
-      "summary": "AWS Lambda now supports self-managed Amazon S3 buckets for code storage, enabling you to reference source code directly from your own S3 buckets without Lambda creating intermediate copies. This elimi...",
-      "category": "SERVERLESS",
-      "timestamp": "2026-07-15T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/lambda-self-managed-code-storage/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 592,
+    "total": 584,
     "byCategory": {
-      "SECURITY": 131,
+      "AI_ML": 103,
+      "SECURITY": 130,
       "COMPUTE": 76,
       "OTHER": 121,
-      "SERVERLESS": 22,
-      "AI_ML": 102,
-      "DATABASE": 64,
-      "ANALYTICS": 16,
+      "SERVERLESS": 21,
+      "DATABASE": 59,
+      "ANALYTICS": 14,
       "STORAGE": 20,
       "CONTAINERS": 33,
       "NETWORKING": 7
     },
-    "lastUpdated": "2026-10-13T02:51:11.851Z"
+    "lastUpdated": "2026-10-13T17:23:29.616Z"
   },
-  "generatedAt": "2026-10-13T02:51:11.852Z"
+  "generatedAt": "2026-10-13T17:23:29.617Z"
 }
