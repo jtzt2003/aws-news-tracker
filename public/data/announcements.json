@@ -1,12 +1,92 @@
 {
   "announcements": [
     {
+      "id": "8e8ff8a69e4f499ea17f49473da578d3bbc7db7b",
+      "title": "Amazon ECS adds LiveTaskCount and removes the charge for RunningTaskCount metric",
+      "summary": "Today, Amazon Elastic Container Service (Amazon ECS) announces LiveTaskCount, a new ECS service metric that reports how many tasks are actively running in your service, available to all customers at n...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-10-13T22:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/ecs-service-metrics/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1ffd3e89c1d92ff0adaa68420106cb5ee6c63da8",
+      "title": "AWS Agent Registry now supports custom metadata for registry records",
+      "summary": "AWS Agent Registry is the centralized, governed catalog for agents, MCP servers, agent skills, gateways, and custom resources within your organization. As organizations scale to hundreds of such resou...",
+      "category": "OTHER",
+      "timestamp": "2026-10-13T21:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-agent-registry-custom-metadata-registry-records",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "062f10a3df4575a8a21a9036dac88aa9fea5a201",
+      "title": "Amazon DCV releases version 2026.0 with RHEL 10 support and new clients",
+      "summary": "Amazon DCV 2026.0 is now available, adding support for RHEL 10, Rocky Linux 10, CentOS 10, and Ubuntu 26.04 along with a new macOS client and updated Windows and Linux clients. Amazon DCV is a high-pe...",
+      "category": "COMPUTE",
+      "timestamp": "2026-10-13T19:35:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dcv-2026-0/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "99c76ecb71616ad7bc20f043c1a0a45364fc549a",
+      "title": "AWS Deadline Cloud now helps users find their accessible resources in the Deadline Cloud monitor",
+      "summary": "AWS Deadline Cloud now lets users who have access to specific queues, fleets, or jobs, rather than an entire farm, find the resources they can reach directly from the Deadline Cloud monitor. Deadline ...",
+      "category": "OTHER",
+      "timestamp": "2026-10-13T18:54:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/deadline-cloud/resources",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9cc26596fedcae2b35c4c55da077ef08674f0015",
+      "title": "Amazon Location Service launches an interactive API Playground featuring Places, Routes and Maps APIs",
+      "summary": "Amazon Location Service now offers a complete, interactive API Playground that lets developers explore and test every Places, Routes, and Maps API visually without writing code. With this release, all...",
+      "category": "OTHER",
+      "timestamp": "2026-10-13T18:46:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-location-service-api-playground",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "6e3e52bdf29c45b355c9969402a561dd38eb99fa",
       "title": "Bring deep SageMaker AI expertise to your coding agent with the AWS AI/ML skill in the Agent Toolkit for AWS",
       "summary": "Your coding agent can select, train, optimize and deploy models on Amazon SageMaker AI while working across the rest of your AWS environment in a single natural-language workflow. The AWS AI/ML skill ...",
       "category": "AI_ML",
       "timestamp": "2026-10-13T14:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/bring-sagemaker-ai-expertise-to-your-coding-agent/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8b98b64596ba654f62aba1f1dcc665bae9650d99",
+      "title": "AWS DataSync Enhanced mode now supports FSx for OpenZFS, NFS 4.2, and object metadata controls",
+      "summary": "AWS DataSync Enhanced mode now supports Amazon FSx for OpenZFS as a source or destination location, NFS version 4.2 for on-premises NFS servers and FSx for OpenZFS file systems, and a new ObjectMetada...",
+      "category": "STORAGE",
+      "timestamp": "2026-10-13T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/datasync-enhanced-openzfs-nfs42-metadata/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "daf525b0ece718d92f702dcc2844683f44539a9e",
+      "title": "Amazon Route 53 now supports registrations, transfers, and renewals for Premium Domains",
+      "summary": "Amazon Route 53 Domains now supports Premium Domain Names. Customers can now search for, register, transfer, renew, and restore registry premium names directly through Route 53.\nMost domain registries...",
+      "category": "NETWORKING",
+      "timestamp": "2026-10-13T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/route-53-premium-domains/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a3f96c58bcc197f06eff18d572c4b2688f64ff1f",
+      "title": "Amazon RDS now supports the latest CU for Microsoft SQL Server",
+      "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) for Microsoft SQL Server. This release includes support for Microsoft SQL Server 2025 CU8...",
+      "category": "DATABASE",
+      "timestamp": "2026-10-13T07:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-supports-latest-cu-microsoft-sql-server/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5809,53 +5889,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-backup-restore-testing-regions/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "980331861685014783613cd1527602b8bf9f0838",
-      "title": "Amazon CloudWatch Logs announces intelligent tiering for storage",
-      "summary": "Amazon CloudWatch Logs now supports intelligent storage tiering, which automatically classifies your log data across three storage tiers - Standard (existing), Infrequent Access, and Archive Instant A...",
-      "category": "OTHER",
-      "timestamp": "2026-07-15T20:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cloudwatch-intelligent-tiering/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "32be83775b7794a5dc4938c9017f144461f86789",
-      "title": "Amazon MQ now supports configurable storage for RabbitMQ brokers",
-      "summary": "Amazon MQ now allows you to configure the EBS Disk storage size for RabbitMQ brokers independently of instance type. When creating or updating a broker, you can define a custom storage size, allowing ...",
-      "category": "COMPUTE",
-      "timestamp": "2026-07-15T18:18:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-mq-rabbitmq-configurable-storage/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "34c48ddf3b1b0813f084ca5d76fa032bfc0eaf21",
-      "title": "Amazon EC2 G7e instances now available in additional regions",
-      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) G7e instances accelerated by NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs are now available in the AWS Europe (Frankfurt, Stockholm) and ...",
-      "category": "AI_ML",
-      "timestamp": "2026-07-15T18:04:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-g7e-additional-regions/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 584,
+    "total": 589,
     "byCategory": {
-      "AI_ML": 103,
-      "SECURITY": 130,
+      "CONTAINERS": 34,
+      "OTHER": 123,
       "COMPUTE": 76,
-      "OTHER": 121,
+      "AI_ML": 102,
+      "STORAGE": 21,
+      "NETWORKING": 8,
+      "DATABASE": 60,
+      "SECURITY": 130,
       "SERVERLESS": 21,
-      "DATABASE": 59,
-      "ANALYTICS": 14,
-      "STORAGE": 20,
-      "CONTAINERS": 33,
-      "NETWORKING": 7
+      "ANALYTICS": 14
     },
-    "lastUpdated": "2026-10-13T17:23:29.616Z"
+    "lastUpdated": "2026-10-14T00:54:12.801Z"
   },
-  "generatedAt": "2026-10-13T17:23:29.617Z"
+  "generatedAt": "2026-10-14T00:54:12.802Z"
 }
