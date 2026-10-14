@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "584169939f7dffb6dbf48fb32ad9398defa03a43",
+      "title": "AWS Security Hub now supports resource criticality for prioritization",
+      "summary": "Today, AWS Security Hub adds resource criticality to exposure prioritization, helping central security teams focus on the exposures that threaten their most business-critical resources.\nYou can set cr...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-14T01:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/security-hub-resource-criticality/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "8e8ff8a69e4f499ea17f49473da578d3bbc7db7b",
       "title": "Amazon ECS adds LiveTaskCount and removes the charge for RunningTaskCount metric",
       "summary": "Today, Amazon Elastic Container Service (Amazon ECS) announces LiveTaskCount, a new ECS service metric that reports how many tasks are actively running in your service, available to all customers at n...",
@@ -5869,43 +5879,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/s3-removes-30-day-transitions-standard-ia-one-zone-ia",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "5645bdc06a130deceb32b7dd64fbd0ab3da93a4e",
-      "title": "AWS Backup extends logically air-gapped vault support to six additional AWS Regions",
-      "summary": "AWS Backup logically air-gapped vaults are now available in six additional AWS Regions: Asia Pacific (Taipei), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific (Thailand), Mexico (Cen...",
-      "category": "STORAGE",
-      "timestamp": "2026-07-16T10:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-backup-logically-air-gapped-vault-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "8efccaf11574a68b6d5126f72e81854f4d02a1bb",
-      "title": "AWS Backup extends restore testing support to six additional AWS Regions",
-      "summary": "AWS Backup restore testing is now available in six additional AWS Regions: Asia Pacific (Taipei), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific (Thailand), Mexico (Central), and Ca...",
-      "category": "STORAGE",
-      "timestamp": "2026-07-16T10:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-backup-restore-testing-regions/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 589,
+    "total": 588,
     "byCategory": {
+      "SECURITY": 131,
       "CONTAINERS": 34,
       "OTHER": 123,
       "COMPUTE": 76,
       "AI_ML": 102,
-      "STORAGE": 21,
+      "STORAGE": 19,
       "NETWORKING": 8,
       "DATABASE": 60,
-      "SECURITY": 130,
       "SERVERLESS": 21,
       "ANALYTICS": 14
     },
-    "lastUpdated": "2026-10-14T00:54:12.801Z"
+    "lastUpdated": "2026-10-14T14:54:13.156Z"
   },
-  "generatedAt": "2026-10-14T00:54:12.802Z"
+  "generatedAt": "2026-10-14T14:54:13.157Z"
 }
