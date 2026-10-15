@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "7c027ba2fe076982c45da766a908445ad8edea31",
+      "title": "Amazon CloudWatch announces log routing and chained log parsers",
+      "summary": "Amazon CloudWatch now supports conditional log routing and chained parsers via pipelines, giving you more control over how log data is transformed and which CloudWatch log group it's sent to. CloudWat...",
+      "category": "OTHER",
+      "timestamp": "2026-10-14T22:14:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudwatch-pipelines-log-routing/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "13c52955011591083a9f5adcfcdb9ba268f5665d",
       "title": "Amazon SageMaker Studio simplifies getting started for new AI/ML builders with social sign-in",
       "summary": "Amazon SageMaker Studio now lets new customers sign up with their Google, GitHub, or Apple credentials and land inside a fully configured Studio environment - no traditional AWS account setup, no cred...",
@@ -5892,20 +5902,20 @@
     }
   ],
   "stats": {
-    "total": 589,
+    "total": 590,
     "byCategory": {
+      "OTHER": 124,
       "AI_ML": 103,
       "CONTAINERS": 35,
       "SECURITY": 132,
       "COMPUTE": 75,
       "STORAGE": 20,
-      "OTHER": 123,
       "DATABASE": 59,
       "NETWORKING": 8,
       "SERVERLESS": 20,
       "ANALYTICS": 14
     },
-    "lastUpdated": "2026-10-15T00:18:04.834Z"
+    "lastUpdated": "2026-10-15T14:41:33.866Z"
   },
-  "generatedAt": "2026-10-15T00:18:04.834Z"
+  "generatedAt": "2026-10-15T14:41:33.866Z"
 }
