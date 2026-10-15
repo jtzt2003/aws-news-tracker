@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "13c52955011591083a9f5adcfcdb9ba268f5665d",
+      "title": "Amazon SageMaker Studio simplifies getting started for new AI/ML builders with social sign-in",
+      "summary": "Amazon SageMaker Studio now lets new customers sign up with their Google, GitHub, or Apple credentials and land inside a fully configured Studio environment - no traditional AWS account setup, no cred...",
+      "category": "AI_ML",
+      "timestamp": "2026-10-14T22:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-studio-social-sign-in/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "24cc59d5a7df1a89f5b19b51a898940b69cd556e",
+      "title": "ARC Region switch adds four new capabilities",
+      "summary": "Amazon Application Recovery Controller (ARC) Region switch helps you orchestrate the failover of multi-Region applications to achieve a bounded recovery time during a Regional impairment. Today, Regio...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-10-14T17:38:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/region-switch-target-health-ssm-lambda/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a74316342e0ebf21a66a78e986b0824c8706e84a",
+      "title": "AWS License Manager now supports license type conversions for Ubuntu Pro purchased through AWS Marketplace",
+      "summary": "AWS License Manager  now supports in-place upgrades for EC2 Ubuntu LTS (Long Term Support) instances to Ubuntu Pro available on AWS Marketplace. This allows customers to strengthen their security post...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-14T17:04:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-license-manager-conversions-ubuntu-pro-marketplace/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "21a408eabff63f02562a1bfcbb0769fd6f77e597",
+      "title": "AWS HealthOmics introduces resource fallback order for Nextflow workflows",
+      "summary": "Today, AWS HealthOmics introduces the resource fallback directive for tasks in your Nextflow workflows, enabling you to define an ordered list of preferred accelerator types, including an option to fa...",
+      "category": "COMPUTE",
+      "timestamp": "2026-10-14T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-healthomics-resource-fallback-for-Nextflow/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a8b1828ef5621a2e0da05beb2b738343259dd221",
+      "title": "AWS Backup now supports Amazon FSx file systems in the Asia Pacific (New Zealand) Region",
+      "summary": "AWS Backup now supports Amazon FSx for Lustre, Amazon FSx for NetApp ONTAP, Amazon FSx for OpenZFS, and Amazon FSx for Windows File Server in the Asia Pacific (New Zealand) Region.\nWith this launch, y...",
+      "category": "STORAGE",
+      "timestamp": "2026-10-14T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-backup-fsx-asia-pacific-new-zealand/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "78be7d990292c425225d80dae26a2e840f5a5285",
+      "title": "Announcing Blockchain Snapshots on AWS for node bootstrapping",
+      "summary": "For blockchain node operators running Ethereum or Solana, AWS is announcing Blockchain Snapshots on AWS, an initiative that publishes pre-synced public blockchain node chain data in Amazon Simple Stor...",
+      "category": "COMPUTE",
+      "timestamp": "2026-10-14T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/blockchain-snapshots-node-bootstrapping/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3b8f1007acd4d4ab08923d7ea1316f5f59c8ea12",
+      "title": "AWS Transfer Family console supports SVG logos and ICO favicons for web apps",
+      "summary": "The AWS Transfer Family console now supports SVG files for logos and ICO files for favicons in web apps, with upload limits increased to 2 MB. This gives you more flexibility to use existing branding ...",
+      "category": "OTHER",
+      "timestamp": "2026-10-14T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/transfer-family-svg-ico-favicons/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "93952b57451c2c066aea374cca7b6426836dff89",
+      "title": "AWS Transfer Family now supports AWS Secrets Manager storage for SFTP server host keys",
+      "summary": "AWS Transfer Family now lets you store SFTP server host keys in AWS Secrets Manager in your own AWS account. This gives you greater control over your server identity and helps simplify server migratio...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-14T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/transfer-family-secrets-host-keys/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9a9389c0ec586b212eb149a7282feed397727df0",
+      "title": "Amazon RDS Proxy now supports SQL Server 2022",
+      "summary": "Amazon RDS Proxy, a fully managed, highly available database proxy for Amazon Relational Database Service (RDS), now supports Amazon RDS for SQL Server instances running major version 2022.\n \ndocument...",
+      "category": "DATABASE",
+      "timestamp": "2026-10-14T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/rds-proxy-supports-sqlserver-2022",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "30622ddfcdeffbbc2c708c495a2cd4ddbe283cd7",
+      "title": "Amazon S3 is now available on the Vercel Marketplace and v0 by Vercel",
+      "summary": "Amazon S3, including S3 Tables and S3 Vectors, is now available on the Vercel Marketplace and v0 by Vercel. Developers can create and connect S3 resources in seconds without leaving their development ...",
+      "category": "STORAGE",
+      "timestamp": "2026-10-14T04:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-s3-vercel-marketplace-v0",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "584169939f7dffb6dbf48fb32ad9398defa03a43",
       "title": "AWS Security Hub now supports resource criticality for prioritization",
       "summary": "Today, AWS Security Hub adds resource criticality to exposure prioritization, helping central security teams focus on the exposures that threaten their most business-critical resources.\nYou can set cr...",
@@ -5789,113 +5889,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/hyperpod-partition-topology-slurm/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "fc6f2c7042754565dd317b5a20f68d9d45db6d7c",
-      "title": "Amazon Managed Grafana achieves FedRAMP High authorization in AWS GovCloud (US)",
-      "summary": "Amazon Managed Grafana is now a FedRAMP High authorized service in the AWS GovCloud (US-East) and AWS GovCloud (US-West) regions. Federal agencies, public sector organizations, and other enterprises w...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-16T19:31:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-grafana-fedramp-high/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d5bc194fef5d0cae6235b1fd721a85b5fc08fa33",
-      "title": "Track cost efficiency trends directly in Billing and Cost Management Dashboards with the new Cost Efficiency widget",
-      "summary": "Today, AWS Billing and Cost Management (BCM) announces support for Cost Efficiency widget in BCM Dashboards. You can now view cost efficiency trends alongside Cost Explorer, Budgets, and reports for S...",
-      "category": "COMPUTE",
-      "timestamp": "2026-07-16T18:56:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/monitor-cost-efficiency-using-dashboards",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "2dd2ed25d2ab92da334b8b7b96053325d097929d",
-      "title": "Amazon EC2 now surfaces the public SSM parameters associated with public AMIs",
-      "summary": "Amazon EC2 now surfaces the AWS Systems Manager (SSM) Parameter Store parameters associated with public AMIs directly in the AMI metadata. When you describe a public AMI, the response includes the ass...",
-      "category": "COMPUTE",
-      "timestamp": "2026-07-16T18:20:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-public-images-ssm-parameters",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "62486a6af994f5b1a070777cddcc2d2a3ab8d9b4",
-      "title": "Amazon S3 Event Notifications now include system-generated tags",
-      "summary": "Amazon S3 Event Notifications now include system-generated tags in events delivered to all destinations including Amazon EventBridge, Amazon SQS, Amazon SNS, and AWS Lambda. System-generated tags are ...",
-      "category": "SERVERLESS",
-      "timestamp": "2026-07-16T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-s3-event-notifications-system-generated-tags/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6db1cd61fe090f3dc77192ca2c6d542ffe23fc85",
-      "title": "PostgreSQL 19 Beta 2 is now available in Amazon RDS Database Preview Environment",
-      "summary": "Amazon RDS for PostgreSQL 19 Beta 2 is now available in the Amazon RDS Database Preview Environment, allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL. You can dep...",
-      "category": "DATABASE",
-      "timestamp": "2026-07-16T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/postgresql-19-beta-2-amazon-rds-database-preview-environment/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "3ae2080cdf20d95ebb4e2c2313360fa6551780a2",
-      "title": "AWS Sustainability service now includes water withdrawals data",
-      "summary": "Customers can now view annual water withdrawals data associated with their AWS workloads in AWS Sustainability, alongside existing carbon emissions data. This enhancement helps organizations gain comp...",
-      "category": "OTHER",
-      "timestamp": "2026-07-16T16:43:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-sustainability-water-withdrawals/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f4dd7af99b253a0a20208f0ff5fc349d86168bb6",
-      "title": "Amazon EC2 High Memory U7in-24TB instances now available in AWS Europe (Paris) region",
-      "summary": "Amazon EC2 High Memory U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS Europe (Paris) region. U7i instances are part of the AWS 7th generation and are powered by custom fourth-gener...",
-      "category": "COMPUTE",
-      "timestamp": "2026-07-16T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-high-memory-europe/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "da591ccf656410d658b84e6fc1259369720cc439",
-      "title": "Amazon Redshift adds rg.large and rg.12xlarge instance sizes",
-      "summary": "Amazon Redshift announces the general availability of two new RG instance sizes - rg.large and rg.12xlarge. These new sizes deliver the same Graviton-powered performance benefits as existing RG instan...",
-      "category": "DATABASE",
-      "timestamp": "2026-07-16T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-adds-rg-large-12xlarge-instance-sizes",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b6b7fb6d07eb92c2361b32d43fd97442714bf7e5",
-      "title": "Amazon S3 removes 30-day minimum for transitions to S3 Standard-IA and S3 One Zone-IA",
-      "summary": "You can now transition objects to S3 Standard-Infrequent Access (S3 Standard-IA) and S3 One Zone-Infrequent Access (S3 One Zone-IA) as soon as the day they are created, without the previous 30-day min...",
-      "category": "STORAGE",
-      "timestamp": "2026-07-16T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/s3-removes-30-day-transitions-standard-ia-one-zone-ia",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 588,
+    "total": 589,
     "byCategory": {
-      "SECURITY": 131,
-      "CONTAINERS": 34,
+      "AI_ML": 103,
+      "CONTAINERS": 35,
+      "SECURITY": 132,
+      "COMPUTE": 75,
+      "STORAGE": 20,
       "OTHER": 123,
-      "COMPUTE": 76,
-      "AI_ML": 102,
-      "STORAGE": 19,
+      "DATABASE": 59,
       "NETWORKING": 8,
-      "DATABASE": 60,
-      "SERVERLESS": 21,
+      "SERVERLESS": 20,
       "ANALYTICS": 14
     },
-    "lastUpdated": "2026-10-14T14:54:13.156Z"
+    "lastUpdated": "2026-10-15T00:18:04.834Z"
   },
-  "generatedAt": "2026-10-14T14:54:13.157Z"
+  "generatedAt": "2026-10-15T00:18:04.834Z"
 }
