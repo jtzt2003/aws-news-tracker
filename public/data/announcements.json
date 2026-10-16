@@ -1,6 +1,96 @@
 {
   "announcements": [
     {
+      "id": "765e0993864f1c280cb34dabc1db7aa575b505cc",
+      "title": "Web Search on Amazon Bedrock AgentCore expands to AWS GovCloud and 3 Regions",
+      "summary": "Web Search on Amazon Bedrock AgentCore is now available in four additional AWS Regions: US East (Ohio), US West (Oregon), Asia Pacific (Sydney), and AWS GovCloud (US-West). Web Search is a fully manag...",
+      "category": "AI_ML",
+      "timestamp": "2026-10-15T20:40:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-agentcore/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f4d917433faa395c1cda9eaabf6b9569da778e37",
+      "title": "Amazon EC2 T8i instances are now available in South America (São Paulo)",
+      "summary": "Amazon Elastic Compute Cloud (Amazon EC2) T8i instances are now available in South America (São Paulo). These instances are powered by custom sixth generation Intel Xeon 6 processors, available exclus...",
+      "category": "COMPUTE",
+      "timestamp": "2026-10-15T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-t8i-instances-south-america/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "73c0a875491828aed663de8d55a7f018e46c9f7e",
+      "title": "Amazon DynamoDB Streams now supports timestamp-based stream processing",
+      "summary": "Amazon DynamoDB Streams now supports timestamp-based stream processing, enabling you to begin reading stream records from a specific point in time. Previously, you could only start from the oldest ret...",
+      "category": "DATABASE",
+      "timestamp": "2026-10-15T18:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dynamodb-streams-timestamp-processing",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "18a2a14b55f8aa3f2926c25f36ddac90076b61d7",
+      "title": "AWS Lambda Durable Execution SDK for Go is now generally available",
+      "summary": "Today, AWS announces the general availability of the AWS Lambda Durable Execution SDK for Go, enabling Go developers to build resilient, long-running workflows using Lambda durable functions. With thi...",
+      "category": "SERVERLESS",
+      "timestamp": "2026-10-15T18:23:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-durable-go-sdk-support/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "81b70e342f7141d0de725410221fd4bb126ad44d",
+      "title": "Muse Spark Open model now available on Amazon SageMaker JumpStart",
+      "summary": "Meta's Muse Spark Open is now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This coding-optimized open-weight model from Meta is pur...",
+      "category": "AI_ML",
+      "timestamp": "2026-10-15T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/muse-spark-open-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e0cba7db9114f0e3969e3e3d177796c6df20f6f0",
+      "title": "AWS HealthOmics now supports shared VPCs",
+      "summary": "AWS HealthOmics now supports sharing VPCs across accounts, enabling your workflows to access resources in Amazon Virtual Private Clouds (VPCs) managed by other AWS accounts with AWS Resource Access Ma...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-15T17:42:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/omics-workflows-shared-vpcs/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "cce11f92c476601e7e7d889541dc815e8807f2f0",
+      "title": "Amazon Time Sync Service adds support for microsecond-accurate time on 135 additional EC2 instance types in all commercial regions",
+      "summary": "Amazon Time Sync Service introduces support for microsecond-accurate time on 135 additional EC2 instance types—spanning 12 instance families—in all commercial regions. Built on Amazon's proven network...",
+      "category": "COMPUTE",
+      "timestamp": "2026-10-15T17:34:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/time-sync-additional-instances-all-regions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0184ff1f60876b153b2a007220036be1a056aaea",
+      "title": "AWS Transform for full-stack Windows modernization now supports Aurora PostgreSQL cross-region deployment in 7 more Regions",
+      "summary": "Today, AWS Transform for full-stack Windows modernization adds support for cross-region deployment of converted Amazon Aurora PostgreSQL databases and is available in seven additional AWS Regions. Tog...",
+      "category": "DATABASE",
+      "timestamp": "2026-10-15T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transform-full-stack-aurora-cross-region",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "315204b9dd0d6aa1fb74818cc1aa408b76ba6477",
+      "title": "Amazon MSK Connect and AWS Glue Schema Registry are now available in the AWS European Sovereign Cloud (Germany) region",
+      "summary": "Starting today, Amazon MSK Connect and the AWS Glue Schema Registry are available in the AWS European Sovereign Cloud (Germany) region. Together with Amazon MSK Standard brokers, already available in ...",
+      "category": "SERVERLESS",
+      "timestamp": "2026-10-15T16:40:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-msk-connect-aws-gsr-additional-aws-regions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "7c027ba2fe076982c45da766a908445ad8edea31",
       "title": "Amazon CloudWatch announces log routing and chained log parsers",
       "summary": "Amazon CloudWatch now supports conditional log routing and chained parsers via pipelines, giving you more control over how log data is transformed and which CloudWatch log group it's sent to. CloudWat...",
@@ -5869,53 +5959,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/knfsd-file-cache/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "0728d97bab04c692160499975c9835c695985d46",
-      "title": "Amazon GameLift Streams now supports IAM role credentials for stream sessions ",
-      "summary": "Amazon GameLift Streams now supports assigning an IAM role to a stream session, enabling your application to securely access resources in your AWS account, such as Amazon S3 buckets and DynamoDB table...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-17T17:29:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-gamelift-streams-iam/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4ebe7f75d7f1dfdcb6c34952fc58ee0e169cfe9d",
-      "title": "Amazon OpenSearch UI now supports one-click dashboard migration  ",
-      "summary": "Amazon OpenSearch Service now supports one-click migration from legacy OpenSearch Dashboards to OpenSearch UI, for both OpenSearch domains and serverless collections. OpenSearch UI is the new, zero-do...",
-      "category": "ANALYTICS",
-      "timestamp": "2026-07-17T17:23:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-ui-one-click-dashboard-migration",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4f72c0d5f264d728a8343e036af802fd4361fdd7",
-      "title": "Amazon SageMaker HyperPod now supports partition-level topology for Slurm orchestrated clusters",
-      "summary": "Amazon SageMaker HyperPod now supports network topology configuration at the partition level for Slurm orchestrated clusters. A single cluster can now run tree topology in one partition and block topo...",
-      "category": "AI_ML",
-      "timestamp": "2026-07-17T15:16:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/hyperpod-partition-topology-slurm/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 590,
+    "total": 596,
     "byCategory": {
-      "OTHER": 124,
-      "AI_ML": 103,
-      "CONTAINERS": 35,
+      "AI_ML": 104,
+      "COMPUTE": 77,
+      "DATABASE": 61,
+      "SERVERLESS": 22,
       "SECURITY": 132,
-      "COMPUTE": 75,
+      "OTHER": 124,
+      "CONTAINERS": 35,
       "STORAGE": 20,
-      "DATABASE": 59,
       "NETWORKING": 8,
-      "SERVERLESS": 20,
-      "ANALYTICS": 14
+      "ANALYTICS": 13
     },
-    "lastUpdated": "2026-10-15T14:41:33.866Z"
+    "lastUpdated": "2026-10-16T00:05:56.663Z"
   },
-  "generatedAt": "2026-10-15T14:41:33.866Z"
+  "generatedAt": "2026-10-16T00:05:56.664Z"
 }
