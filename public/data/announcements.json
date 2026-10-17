@@ -61,6 +61,16 @@
       "isNew": false
     },
     {
+      "id": "e11e180c22d33452ff594d59026f8421d7b901e6",
+      "title": "Amazon Braket now in scope for FedRAMP Class C",
+      "summary": "Amazon Braket is now in scope for FedRAMP Class C in AWS US Regions where Braket is available. The Federal Risk and Authorization Management Program (FedRAMP) is a US government-wide program that deli...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-16T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/braket-fedramp-class-c/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "db28e1cd2d5aae593c81883a1822541e63cf3b1a",
       "title": "AWS End User Messaging adds registration improvements for faster, higher-quality submissions",
       "summary": "AWS End User Messaging now makes it easier to complete messaging registrations correctly the first time, with clearer guidance, explicit field requirements, and help avoiding the most common rejection...",
@@ -6062,10 +6072,10 @@
     }
   ],
   "stats": {
-    "total": 606,
+    "total": 607,
     "byCategory": {
       "OTHER": 129,
-      "SECURITY": 134,
+      "SECURITY": 135,
       "AI_ML": 105,
       "DATABASE": 62,
       "COMPUTE": 78,
@@ -6075,7 +6085,7 @@
       "NETWORKING": 8,
       "ANALYTICS": 13
     },
-    "lastUpdated": "2026-10-17T13:28:36.904Z"
+    "lastUpdated": "2026-10-17T23:47:07.929Z"
   },
-  "generatedAt": "2026-10-17T13:28:36.905Z"
+  "generatedAt": "2026-10-17T23:47:07.929Z"
 }
