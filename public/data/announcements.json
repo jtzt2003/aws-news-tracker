@@ -6049,43 +6049,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-local-zone-athens-greece/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "7c07d35f8a7e7ebcec23f6d036202ad257681190",
-      "title": "Amazon CloudWatch announces coding agent insights",
-      "summary": "Amazon CloudWatch announces the launch of coding agent insights, giving engineering leaders visibility into how AI coding tools are driving value across their organization. Coding Agent Insights integ...",
-      "category": "CONTAINERS",
-      "timestamp": "2026-07-20T09:51:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/cloudwatch-coding-agent-insights/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "656cd5b5e128530e950e6c47242887e0dee3406f",
-      "title": "Introducing KNFSD File Cache - Now in Preview  ",
-      "summary": "Today, AWS announces the availability of KNFSD File Cache, an open-source, Apache-2.0 licensed solution for deploying a scalable, high-speed Network File System (NFS) cache on AWS. KNFSD File Cache mo...",
-      "category": "COMPUTE",
-      "timestamp": "2026-07-20T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/knfsd-file-cache/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 607,
+    "total": 605,
     "byCategory": {
       "OTHER": 129,
       "SECURITY": 135,
       "AI_ML": 105,
       "DATABASE": 62,
-      "COMPUTE": 78,
+      "COMPUTE": 77,
       "SERVERLESS": 22,
-      "CONTAINERS": 35,
+      "CONTAINERS": 34,
       "STORAGE": 20,
       "NETWORKING": 8,
       "ANALYTICS": 13
     },
-    "lastUpdated": "2026-10-17T23:47:07.929Z"
+    "lastUpdated": "2026-10-18T13:46:59.694Z"
   },
-  "generatedAt": "2026-10-17T23:47:07.929Z"
+  "generatedAt": "2026-10-18T13:46:59.695Z"
 }
