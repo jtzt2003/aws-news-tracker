@@ -5959,113 +5959,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sqlserver-supports-sqlserver-2025",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "2847d322d4ba5b29b38ca7bf132d19b106d0b385",
-      "title": "AWS Partner Central agents expand funding guidance to all programs",
-      "summary": "AWS Partner Central agents now support all AWS Partner funding programs. AWS Partners can get guidance on eligibility requirements, application processes, and program details for any funding program a...",
-      "category": "OTHER",
-      "timestamp": "2026-07-20T20:08:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-partner-central/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "96eb40d81d3c757e83773aaac249e7014e2b3a08",
-      "title": "AWS Data Exports now provides standardized Amazon Bedrock product metadata ",
-      "summary": "Today, AWS announces standardized product metadata for Amazon Bedrock in AWS Data Exports (Cost and Usage Report), giving FinOps teams and cloud administrators consistent, structured attributes to und...",
-      "category": "AI_ML",
-      "timestamp": "2026-07-20T18:29:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-data-exports-amazon-bedrock-product-metadata/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "eb1dac421e99ec414a14fb5f1455b7173089bc7a",
-      "title": "Amazon EC2 R8i and R8i-flex instances are now available in additional regions",
-      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the Europe (Stockholm, Zurich) regions. These instances are powered by custom Intel Xeon 6 process...",
-      "category": "COMPUTE",
-      "timestamp": "2026-07-20T17:37:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-r8i-r8i-flex-instances-in-stockholm-zurich-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "10c8fcf2303893a2555cd7f4b5dd077ee58b3c9a",
-      "title": "Selectively log network activity events by identity in AWS CloudTrail",
-      "summary": "Today, AWS launches enhanced event filtering for network activity events for VPC end points, a CloudTrail event type that captures actions transmitted through a Virtual Private Cloud Endpoint. Custome...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-20T17:34:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-cloudtrail-filter-useridentity-advance-selectors/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "eb140f05fde4ac89fc1399bc638a20e735d6e9db",
-      "title": " Amazon Connect delivers more natural agentic voice experiences with expanded language support and speech controls",
-      "summary": "Amazon Connect customers can now deliver more natural, human-sounding agentic voice experiences with expanded support across 50+ languages including Spanish, French, Italian, Japanese, Korean, Portugu...",
-      "category": "OTHER",
-      "timestamp": "2026-07-20T16:16:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect-agentic-voice/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "3ad74ebe15dcda95f903ba9a46899be6d4fb5407",
-      "title": "Amazon EC2 I8ge instances are now available in AWS GovCloud (US) Regions",
-      "summary": "Amazon Web Services (AWS) announces the availability of Amazon EC2 I8ge instances in AWS GovCloud (US-East, US-West) regions. I8ge instances are powered by AWS Graviton4 processors and deliver up to 6...",
-      "category": "COMPUTE",
-      "timestamp": "2026-07-20T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-i8ge-instances-aws-govcloud-us-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ee60621f7d262704ad4e880fdcb6286ac8054f53",
-      "title": "Amazon WorkSpaces Applications now supports Microsoft OneDrive and Google Drive on Multi-Session fleets",
-      "summary": "Amazon WorkSpaces Applications now supports Microsoft OneDrive for Business and Google Drive as persistent storage options on multi-session fleets. Users streaming on multi-session fleets can now conn...",
-      "category": "COMPUTE",
-      "timestamp": "2026-07-20T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/storage-multi-session-fleets/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "0cb3f559c6c16e868dda9789bc6fd983f98f4f7a",
-      "title": "Amazon Managed Service for Apache Flink now supports Apache Flink 2.3",
-      "summary": "Amazon Managed Service for Apache Flink now supports Apache Flink version 2.3. This release includes adaptive partition selection for improved backpressure handling, so applications run more smoothly ...",
-      "category": "OTHER",
-      "timestamp": "2026-07-20T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-flink-2-3/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "69bd23768d863091884b45b69bdece6e597bea77",
-      "title": "Announcing the general availability of a new AWS Local Zone in Athens, Greece",
-      "summary": "Today, AWS announces the general availability of a new Local Zone in Athens, Greece. The Athens Local Zone is the second Local Zone in EMEA with support for Amazon Simple Storage Service (Amazon S3) a...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-20T14:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-local-zone-athens-greece/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 605,
+    "total": 596,
     "byCategory": {
-      "OTHER": 129,
-      "SECURITY": 135,
-      "AI_ML": 105,
+      "OTHER": 126,
+      "SECURITY": 133,
+      "AI_ML": 104,
       "DATABASE": 62,
-      "COMPUTE": 77,
+      "COMPUTE": 74,
       "SERVERLESS": 22,
       "CONTAINERS": 34,
       "STORAGE": 20,
       "NETWORKING": 8,
       "ANALYTICS": 13
     },
-    "lastUpdated": "2026-10-18T13:46:59.694Z"
+    "lastUpdated": "2026-10-18T23:56:10.221Z"
   },
-  "generatedAt": "2026-10-18T13:46:59.695Z"
+  "generatedAt": "2026-10-18T23:56:10.222Z"
 }
