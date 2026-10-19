@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "f218fc40886c7e7dd5feb0df2b3fabfc4018d8f3",
+      "title": "Amazon GuardDuty adds optional threat detection rules for Runtime Monitoring",
+      "summary": "Amazon GuardDuty now supports optional detection rules for Runtime Monitoring. You can enable more than 50 Runtime Monitoring rules that help detect process, file, and network activity that might be r...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-19T16:01:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/guardduty-runtime-optional-detection-rules/",
+      "source": "AWS What's New",
+      "isNew": true
+    },
+    {
       "id": "b5e2645c181344e7a8937c2a0fcb27e23b2263e1",
       "title": "Amazon CloudWatch log centralization now available in AWS GovCloud and additional commercial Regions",
       "summary": "Amazon CloudWatch log centralization is now available in AWS GovCloud (US) and 13 additional commercial Regions. CloudWatch log centralization copies log data from multiple AWS accounts and Regions in...",
@@ -5909,65 +5919,15 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-adv-deployments-eu-sovereign-cloud/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "7afd989852384890035238cdad4722f0f3d45fe1",
-      "title": "Amazon SES introduces pricing plans",
-      "summary": "Today, Amazon Simple Email Service (SES) introduced pricing plans, making it easy to purchase and access SES capabilities without evaluating them individually. Amazon SES pricing plans include three h...",
-      "category": "OTHER",
-      "timestamp": "2026-07-21T16:35:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ses-pricing-plans/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "219bc628a2d9836436b843c28b40187105f39c5d",
-      "title": "Amazon ECS now provides Action Logs for deployment and orchestration visibility",
-      "summary": "Today, Amazon Elastic Container Service (Amazon ECS) introduces Action Logs, a new observability feature that delivers detailed, timestamped records of the actions Amazon ECS performs on behalf of cus...",
-      "category": "AI_ML",
-      "timestamp": "2026-07-21T15:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-action-logs/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "41caa940b1fb42a3cd4a16879eb6eabcfeeb975c",
-      "title": "Amazon Managed Service for Prometheus supports 1.5B active metrics and 200K rules per workspace",
-      "summary": "Amazon Managed Service for Prometheus now supports up to 1.5 billion active metric time series and up to 200,000 total recording and alerting rules per workspace. Customers can also create many worksp...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-21T14:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-prometheus-1500m-metrics-workspace/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "67eddc8c902961f127f9bebe4b3318c1b014e666",
-      "title": "Amazon RDS now supports the latest CU and GDR updates for Microsoft SQL Server",
-      "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release inc...",
-      "category": "DATABASE",
-      "timestamp": "2026-07-21T07:45:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-supports-latest-cu-gdr-microsoft-sql-server ",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "0859bda49abe08ee3bdde05aa4795bd7ca4fab91",
-      "title": "Amazon RDS for SQL Server now supports Microsoft SQL Server 2025",
-      "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports Microsoft SQL Server 2025 for Enterprise, Standard, and Developer editions.\n  SQL Server 2025 brings AI integration directly...",
-      "category": "AI_ML",
-      "timestamp": "2026-07-21T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sqlserver-supports-sqlserver-2025",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 596,
+    "total": 592,
     "byCategory": {
-      "OTHER": 126,
       "SECURITY": 133,
-      "AI_ML": 104,
-      "DATABASE": 62,
+      "OTHER": 125,
+      "AI_ML": 102,
+      "DATABASE": 61,
       "COMPUTE": 74,
       "SERVERLESS": 22,
       "CONTAINERS": 34,
@@ -5975,7 +5935,7 @@
       "NETWORKING": 8,
       "ANALYTICS": 13
     },
-    "lastUpdated": "2026-10-18T23:56:10.221Z"
+    "lastUpdated": "2026-10-19T16:48:47.441Z"
   },
-  "generatedAt": "2026-10-18T23:56:10.222Z"
+  "generatedAt": "2026-10-19T16:48:47.441Z"
 }
