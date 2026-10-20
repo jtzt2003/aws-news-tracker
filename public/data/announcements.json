@@ -1,6 +1,36 @@
 {
   "announcements": [
     {
+      "id": "c46bfa74071e9ae3a3e0ac46fbd484cd58d41c82",
+      "title": "Amazon Connect Customer Global Resiliency now provides business users visibility into resiliency readiness across linked Regions",
+      "summary": "Amazon Connect Customer Global Resiliency now provides a Global Resiliency page in the admin website, giving administrators a single place to review their Region switch readiness. The page shows an ov...",
+      "category": "COMPUTE",
+      "timestamp": "2026-10-19T21:45:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-connect-global-resiliency-readiness-overview",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "eb36d722e3c66e69b923d431c528a07334fc1347",
+      "title": "Amazon CloudWatch Omni is now available in additional AWS Regions",
+      "summary": "AWS announces that Amazon CloudWatch Omni is now available in eight additional AWS Regions. CloudWatch Omni is an AI-powered observability experience, organized around your teams and the applications ...",
+      "category": "OTHER",
+      "timestamp": "2026-10-19T19:10:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-cloudwatch-omni-8-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "19a75aa0df7e4f338c2aa8a38d162c46ac98bfb9",
+      "title": "EC2 Image Builder now integrates with ASG for faster image builds",
+      "summary": "EC2 Image Builder now supports using existing instances from an Auto Scaling Group (ASG) for building images, enabling faster builds by eliminating the time spent in launching and bootstrapping new in...",
+      "category": "COMPUTE",
+      "timestamp": "2026-10-19T17:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-image-builder-asg-faster-builds/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "f218fc40886c7e7dd5feb0df2b3fabfc4018d8f3",
       "title": "Amazon GuardDuty adds optional threat detection rules for Runtime Monitoring",
       "summary": "Amazon GuardDuty now supports optional detection rules for Runtime Monitoring. You can enable more than 50 Runtime Monitoring rules that help detect process, file, and network activity that might be r...",
@@ -9,6 +39,66 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/guardduty-runtime-optional-detection-rules/",
       "source": "AWS What's New",
       "isNew": true
+    },
+    {
+      "id": "ec3912cd048a09be47d4f3a92ed0f45245f27882",
+      "title": "Grok 4.7 is now available on Amazon Bedrock in AWS GovCloud (US)",
+      "summary": "Amazon Bedrock now supports SpaceXAI Grok 4.7, a frontier model built for coding, agentic tasks, and knowledge work in AWS GovCloud (US).\nGrok 4.7 builds on Grok 4.6 with better mixed-document handlin...",
+      "category": "AI_ML",
+      "timestamp": "2026-10-19T13:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-grok-4-7-govcloud/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "86855a2f88a0af85cad1ec827814b3a0946609fe",
+      "title": "AWS IAM Identity Center now supports optimistic locking for users and groups in its identity store",
+      "summary": "IAM Identity Center helps you configure the single sign-on experience of your workforce to AWS accounts and applications. You can now use optimistic locking for users and groups in the identity store,...",
+      "category": "OTHER",
+      "timestamp": "2026-10-19T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/iam-identity-store-optimistic-locking/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "76f02e9c44db0bad8587db1298527d6a14f13dc6",
+      "title": "AWS Elemental MediaConnect Router now supports high bitrate mode",
+      "summary": "AWS Elemental MediaConnect Router now supports high bitrate modes with two new tiers: 250 Mbps and 500 Mbps. This allows professional broadcasters that need higher bitrates to transport high-value con...",
+      "category": "OTHER",
+      "timestamp": "2026-10-19T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/mediaconnect-router-high-bitrate/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8e818903c77bf51dcf59e0e7ad7a7da9f23cf1f3",
+      "title": "Amazon RDS Custom now supports the latest Cumulative Update and GDR updates for Microsoft SQL Server",
+      "summary": "Amazon Relational Database Service (Amazon RDS) Custom for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This rele...",
+      "category": "DATABASE",
+      "timestamp": "2026-10-19T07:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-custom-supports-latest-cumulative-update-gdr-microsoft-sql-server/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1a51231c06f71f995de85ebb34e0a9ecd4276d51",
+      "title": "Amazon RDS for SQL Server now supports snapshots on read replicas",
+      "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports creating DB snapshots directly on read replica instances. Previously, you could create snapshots only on standalone and prim...",
+      "category": "DATABASE",
+      "timestamp": "2026-10-19T07:01:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/rds-sqlserver-supports-snapshots-on-read-replicas",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c67c73cbd73121aace9e44b9ac569747387b44b7",
+      "title": "AWS Partner Central adds Solution Matching Engine performance insights",
+      "summary": "AWS Partner Central now gives AWS Partners more visibility into how the Solution Matching Engine (SME) contributes to their co-sell pipeline. The Solution Matching Engine performance section in Partne...",
+      "category": "OTHER",
+      "timestamp": "2026-10-17T03:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/solution-matching-engine-performance",
+      "source": "AWS What's New",
+      "isNew": false
     },
     {
       "id": "b5e2645c181344e7a8937c2a0fcb27e23b2263e1",
@@ -5879,63 +5969,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-direct-connect-100g-lima/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "e74913e818ca82af356dba0cf8bff3792b1e73b2",
-      "title": "Amazon EC2 R6in and R6idn instances are now available in additional regions",
-      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R6in and R6idn instances are available in AWS Europe (Paris) and Canada (Central) regions. These sixth-generation network optimized instances,...",
-      "category": "COMPUTE",
-      "timestamp": "2026-07-21T20:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-r6in-r6idn/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "cfa8e67c27342537ea0a8f89654cb5f6772b8763",
-      "title": " Amazon EC2 C6in instances are now available in Asia Pacific (Taipei) Region",
-      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C6in instances are available in AWS Asia Pacific (Taipei). These sixth-generation network optimized instances, powered by 3rd Generation Intel...",
-      "category": "COMPUTE",
-      "timestamp": "2026-07-21T20:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c6in/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "58ff95c65a7873e6e1e45c1236b3322261e09ba5",
-      "title": "Amazon EC2 M6in and M6idn instances are now available in additional regions",
-      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M6in and M6idn instances are available in AWS Asia Pacific (Hyderabad) and South America (Sao Paulo) regions. These sixth-generation network o...",
-      "category": "COMPUTE",
-      "timestamp": "2026-07-21T20:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-m6in-m6idn/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "3f597ab1d1ecceb8018985a11841aa9e1d673bf3",
-      "title": "Amazon ECS advanced deployment strategies now available in AWS European Sovereign Cloud",
-      "summary": "Amazon Elastic Container Service (Amazon ECS) now supports built-in blue/green, linear, and canary deployment strategies in the AWS European Sovereign Cloud, making software updates for containerized ...",
-      "category": "CONTAINERS",
-      "timestamp": "2026-07-21T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-adv-deployments-eu-sovereign-cloud/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 592,
+    "total": 597,
     "byCategory": {
+      "COMPUTE": 73,
+      "OTHER": 129,
       "SECURITY": 133,
-      "OTHER": 125,
-      "AI_ML": 102,
-      "DATABASE": 61,
-      "COMPUTE": 74,
+      "AI_ML": 103,
+      "DATABASE": 63,
       "SERVERLESS": 22,
-      "CONTAINERS": 34,
+      "CONTAINERS": 33,
       "STORAGE": 20,
       "NETWORKING": 8,
       "ANALYTICS": 13
     },
-    "lastUpdated": "2026-10-19T16:48:47.441Z"
+    "lastUpdated": "2026-10-20T00:55:06.349Z"
   },
-  "generatedAt": "2026-10-19T16:48:47.441Z"
+  "generatedAt": "2026-10-20T00:55:06.349Z"
 }
