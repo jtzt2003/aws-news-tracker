@@ -5939,53 +5939,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-organizations-resource-control-policy-limit-increase-2000",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "705e58d52d8a682d3010e15859f668d8c1a08ec0",
-      "title": "Amazon EKS now supports EFA and placement groups on Amazon EKS Auto Mode and Karpenter",
-      "summary": "Amazon Elastic Kubernetes Service (EKS) now supports Amazon EC2 placement groups and Elastic Fabric Adapter (EFA) network device configuration for node pools on EKS Auto Mode and the open-source Karpe...",
-      "category": "CONTAINERS",
-      "timestamp": "2026-07-22T14:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-efa-placement-groups/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ac41727d1650290a6cebcc18edb9d0cd42e86e28",
-      "title": "AWS Secrets Manager now publishes secret update notifications to Amazon EventBridge",
-      "summary": "AWS Secrets Manager now automatically publishes events to Amazon EventBridge whenever your secret values change, enabling you to build event-driven workflows that respond in real time to secret update...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-22T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/secrets-manager-update-notifications",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "0d09209f43f72b3b338d8981bf58909908c9ed27",
-      "title": "AWS Direct Connect announces 100G expansion in Lima, Peru",
-      "summary": "Today, AWS announced the expansion of 100 Gbps dedicated connections at the existing AWS Direct Connect location within the Cirion data center in Lima, Peru. You can now establish private, direct netw...",
-      "category": "COMPUTE",
-      "timestamp": "2026-07-22T04:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-direct-connect-100g-lima/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 597,
+    "total": 594,
     "byCategory": {
-      "COMPUTE": 73,
+      "COMPUTE": 72,
       "OTHER": 129,
-      "SECURITY": 133,
+      "SECURITY": 132,
       "AI_ML": 103,
       "DATABASE": 63,
       "SERVERLESS": 22,
-      "CONTAINERS": 33,
+      "CONTAINERS": 32,
       "STORAGE": 20,
       "NETWORKING": 8,
       "ANALYTICS": 13
     },
-    "lastUpdated": "2026-10-20T00:55:06.349Z"
+    "lastUpdated": "2026-10-20T14:43:20.454Z"
   },
-  "generatedAt": "2026-10-20T00:55:06.349Z"
+  "generatedAt": "2026-10-20T14:43:20.454Z"
 }
