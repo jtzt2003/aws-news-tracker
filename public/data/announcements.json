@@ -1,6 +1,26 @@
 {
   "announcements": [
     {
+      "id": "dec813d41f02b1a929463ab13b2460a7af0388d0",
+      "title": "Announcing Amazon ECS Gateway, a managed ingress solution for your ECS services",
+      "summary": "AWS announces Amazon Elastic Container Service (Amazon ECS) Gateway, a new resource that simplifies ingress networking for containerized applications by dynamically provisioning and managing Applicati...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-10-20T23:26:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/announcing-amazon-ecs-gateway/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "64c66cb3331951fa82344959a64e53a9f48bcc07",
+      "title": "Amazon DynamoDB global tables now support disassociating replicas",
+      "summary": "Amazon DynamoDB global tables now support disassociating a replica without deleting its table or data. Global tables provide fully managed, multi-Region, multi-active replication. You can now stop rep...",
+      "category": "DATABASE",
+      "timestamp": "2026-10-20T23:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/dynamodb-global-tables-disassociate/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "2ba792e977f41dc473f18c1540be380fc4751f37",
       "title": "Polly Generative engine upgraded with more natural speech, 14 new voices, and 2 new languages",
       "summary": "Today, we are introducing a new model behind the Amazon Polly Generative engine that delivers more natural-sounding, accurate speech output with low latency. With this upgrade, you get access to an en...",
@@ -5939,43 +5959,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/g7e-sagemaker-ai/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "98ee3826df86cabe8d0a3bffd01e5a7b7c0847b0",
-      "title": "Announcing region expansion of G6 instances on SageMaker AI Inference",
-      "summary": "We are pleased to announce the availability of Amazon EC2 G6 instances in the AWS GovCloud (US-East) region on Amazon SageMaker AI inference. G6 instances are powered by up to 8 NVIDIA L4 Tensor Core ...",
-      "category": "AI_ML",
-      "timestamp": "2026-07-23T14:51:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/g6-sagemaker-ai-inference/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "1204ccde6b3e375500305fe42a7e8af423f6b801",
-      "title": "AWS Wickr announces Data Retention Service feature",
-      "summary": "AWS Wickr now offers a managed Data Retention Service feature for Premium users, enabling organizations to retain conversations across their network for data archiving purposes. AWS Wickr is an enterp...",
-      "category": "CONTAINERS",
-      "timestamp": "2026-07-23T04:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-wickr-data/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
     "total": 596,
     "byCategory": {
-      "AI_ML": 107,
+      "CONTAINERS": 32,
+      "DATABASE": 64,
+      "AI_ML": 106,
       "COMPUTE": 70,
       "STORAGE": 21,
       "OTHER": 130,
       "SECURITY": 131,
-      "DATABASE": 63,
       "SERVERLESS": 22,
-      "CONTAINERS": 32,
       "NETWORKING": 7,
       "ANALYTICS": 13
     },
-    "lastUpdated": "2026-10-21T00:23:21.396Z"
+    "lastUpdated": "2026-10-21T14:52:58.208Z"
   },
-  "generatedAt": "2026-10-21T00:23:21.396Z"
+  "generatedAt": "2026-10-21T14:52:58.208Z"
 }
