@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "2ba792e977f41dc473f18c1540be380fc4751f37",
+      "title": "Polly Generative engine upgraded with more natural speech, 14 new voices, and 2 new languages",
+      "summary": "Today, we are introducing a new model behind the Amazon Polly Generative engine that delivers more natural-sounding, accurate speech output with low latency. With this upgrade, you get access to an en...",
+      "category": "AI_ML",
+      "timestamp": "2026-10-20T15:32:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/polly-generative/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "205208c03437303d0af7a2cd3cc4076a8b4bd81c",
+      "title": "AWS announces TorchNeuron: Native PyTorch Support for AWS Trainium (Public Beta)",
+      "summary": "Today, AWS launched the public beta of TorchNeuron, an open source native PyTorch backend for AWS Trainium. Trainium is a portfolio of AI chips designed to deliver high performance and cost efficiency...",
+      "category": "COMPUTE",
+      "timestamp": "2026-10-20T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-announce-native-pytorch-support-trainium",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8262f5ff17bcee74f5f1ead2692eb252a3059f1b",
+      "title": "Structured outputs for Claude models available on Amazon Bedrock",
+      "summary": "Amazon Bedrock now supports structured outputs for all Anthropic Claude models across both the bedrock-runtime and the bedrock-mantle endpoint. Whether you call Claude through boto3 and the bedrock-ru...",
+      "category": "AI_ML",
+      "timestamp": "2026-10-20T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-structured-outputs-bedrock/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6b01aa15dfdaff90dbbb86ac3f4ab01fdf22e6f5",
+      "title": "AWS Clean Rooms now supports Databricks as a data source",
+      "summary": "AWS Clean Rooms now supports Databricks as a data source, so collaboration members and their partners can securely analyze data managed in Databricks without moving or revealing the source data. Membe...",
+      "category": "STORAGE",
+      "timestamp": "2026-10-20T12:23:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-clean-rooms-supports-databricks",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f96113f8a52213bd0c529ae8baccbc659974cdb3",
+      "title": "AWS IAM Identity Center simplifies identity source changes from Active Directory",
+      "summary": "AWS IAM Identity Center now retains your workforce identities and their assignments when you change your identity source from Active Directory to an external identity provider (IdP), such as Okta or M...",
+      "category": "OTHER",
+      "timestamp": "2026-10-20T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/iam-identity-center-chg-id-src-from-ad/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8edf703a7ba1f2e9eb30aa6f0e56c72198d49e0a",
+      "title": "Amazon Bedrock Guardrails now supports Standard tier for contextual grounding checks",
+      "summary": "Amazon Bedrock Guardrails now offers a Standard tier for contextual grounding checks, which detect and filter hallucinations by checking whether a model response is grounded in your reference source a...",
+      "category": "AI_ML",
+      "timestamp": "2026-10-20T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-guardrails-grounding-standard/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6ed2d0410c769d34a53bb0ec413d6515dff579bf",
+      "title": "AWS Partner Central launches Program Navigator, Case Study Generator, and streamlined specialization review",
+      "summary": "AWS Partner Central now features Program Navigator, a unified experience that lets partners discover, apply for, and track AWS Specialization program applications in one place. Partners can browse spe...",
+      "category": "OTHER",
+      "timestamp": "2026-10-20T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/partner-central-program-navigator/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "97bc58c760bc768a643a46d9840e4ed58aaa4a48",
+      "title": "Amazon Bedrock Advanced Prompt Optimization now supports prompt shortening",
+      "summary": "Amazon Bedrock Advanced Prompt Optimization now supports prompt shortening, an optional setting that reduces the length of your prompt while maintaining or improving your evaluation scores. Advanced P...",
+      "category": "AI_ML",
+      "timestamp": "2026-10-20T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-prompt-optimization-shortening/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "838ad9ad2f50a29005a9220d94e70e0ec5f9c268",
+      "title": "AWS Transform for migrations expands support for existing landing zones",
+      "summary": "AWS Transform now supports more types of existing AWS environments when building landing zones for your migration, including AWS Control Tower landing zones and landing zones built with AWS Organizati...",
+      "category": "OTHER",
+      "timestamp": "2026-10-20T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transform-migrations-landing-zones/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "29044607ae843e5c599cfb5c3e3f635a8636a262",
+      "title": "Amazon ElastiCache Serverless for Valkey now supports online migration with zero downtime",
+      "summary": "Amazon ElastiCache Serverless for Valkey now supports online migration from self-managed Valkey and Redis OSS on Amazon EC2 with zero downtime. Zero downtime means zero Errors returned to the client d...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-20T07:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-serverless-valkey-online-migration/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "c46bfa74071e9ae3a3e0ac46fbd484cd58d41c82",
       "title": "Amazon Connect Customer Global Resiliency now provides business users visibility into resiliency readiness across linked Regions",
       "summary": "Amazon Connect Customer Global Resiliency now provides a Global Resiliency page in the admin website, giving administrators a single place to review their Region switch readiness. The page shows an ov...",
@@ -5859,103 +5959,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-wickr-data/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "c1af54aeea9a6e7134ae73852de2faa5d89e75d1",
-      "title": "Amazon EC2 High Memory U7i instances now available in additional regions",
-      "summary": "Amazon EC2 High Memory U7in-16TB instances (u7in-16tb.224xlarge) are now available in AWS South America (São Paulo) region, and U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS Europ...",
-      "category": "COMPUTE",
-      "timestamp": "2026-07-23T00:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-high-memory-u7i/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "1aac866222ee86b6184ada0c02d5fb0b69f64dc4",
-      "title": "Amazon EC2 C7a instances are now available in the US West (N. California) Region",
-      "summary": "Starting today, the compute optimized Amazon EC2 C7a instances are now available in AWS US West (N. California) Region. C7a instances, powered by 4th Gen AMD EPYC processors (code-named Genoa) with a ...",
-      "category": "COMPUTE",
-      "timestamp": "2026-07-22T21:42:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c7a-instances-us-west-ncalifornia-region/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c90de4340bbb718819b6ebb3be968283619a1fff",
-      "title": "Amazon EC2 M8a instances now available in the Asia Pacific (Hyderabad) region",
-      "summary": "Starting today, the general-purpose Amazon EC2 M8a instances are available in AWS Asia Pacific (Hyderabad) region. M8a instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin) ...",
-      "category": "COMPUTE",
-      "timestamp": "2026-07-22T20:55:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-m8a-instances-asia-pacific-hyderabad-region/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f43100d31c10d4b695b4468faf0c00d8a4147e4b",
-      "title": "AWS Network Load Balancer now supports Listener Rules for custom traffic routing",
-      "summary": "Network Load Balancer (NLB) now supports listener rules allowing you to route connections to different target groups based on the source IP address type. With listener rules, a single dual-stack NLB s...",
-      "category": "NETWORKING",
-      "timestamp": "2026-07-22T19:13:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-network-load-balancer-supports-listener-rules/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "0973d6e4b3d386e54ed31f9d9bf5217b5a1f04f9",
-      "title": "AWS Entity Resolution now supports advanced real-time matching ",
-      "summary": "AWS Entity Resolution now supports real-time matching with advanced matching workflows, enabling customers to match records in milliseconds using complex rulesets through the GenerateMatchId API. Prev...",
-      "category": "OTHER",
-      "timestamp": "2026-07-22T19:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-entity-resolution/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "2b632ac9a2ae97d4209240034370b847a93da7a9",
-      "title": "AWS Lambda durable functions now supports customer managed key encryption",
-      "summary": "AWS Lambda durable functions now supports encryption of durable execution data with an AWS Key Management Service (AWS KMS) customer managed key. Lambda durable functions lets you build long-running, ...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-22T18:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/durablefunctions-cmk/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "932a129395a9bf56e32f3c7721fa952cf353a248",
-      "title": "Amazon Corretto July 2026 Quarterly Updates",
-      "summary": "On July 22, 2026, Amazon announced quarterly security and critical updates for Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK. Corretto 26.0.2, 25.0.4, 21.0.12, 1...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-22T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-corretto-july-2026-quarterly-updates",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "fdc859654433fcf87d0fdc5a99e2ebc2be2505af",
-      "title": "AWS Organizations increases RCP quota to 2,000 per organization",
-      "summary": "AWS Organizations now supports up to 2,000 resource control policies (RCPs) per organization, doubling the previous limit of 1,000. RCPs enable centralized management of the maximum permissions availa...",
-      "category": "OTHER",
-      "timestamp": "2026-07-22T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-organizations-resource-control-policy-limit-increase-2000",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 594,
+    "total": 596,
     "byCategory": {
-      "COMPUTE": 72,
-      "OTHER": 129,
-      "SECURITY": 132,
-      "AI_ML": 103,
+      "AI_ML": 107,
+      "COMPUTE": 70,
+      "STORAGE": 21,
+      "OTHER": 130,
+      "SECURITY": 131,
       "DATABASE": 63,
       "SERVERLESS": 22,
       "CONTAINERS": 32,
-      "STORAGE": 20,
-      "NETWORKING": 8,
+      "NETWORKING": 7,
       "ANALYTICS": 13
     },
-    "lastUpdated": "2026-10-20T14:43:20.454Z"
+    "lastUpdated": "2026-10-21T00:23:21.396Z"
   },
-  "generatedAt": "2026-10-20T14:43:20.454Z"
+  "generatedAt": "2026-10-21T00:23:21.396Z"
 }
