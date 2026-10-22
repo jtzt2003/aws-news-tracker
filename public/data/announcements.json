@@ -5949,43 +5949,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/claude-opus-5-aws/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "aa6ffeab944051ea7065072ebeb85a26aaedf8f0",
-      "title": "Opus 4.8, Sonnet 5, and User Activity Monitoring now available on Kiro in AWS GovCloud (US)",
-      "summary": "Two new models are now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions.\n  Claude Opus 4.8 is the most intelligent Opus model, delivering stronger self-verification, more efficient ...",
-      "category": "OTHER",
-      "timestamp": "2026-07-24T14:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/kiro-opus-sonnet-monitoring-launch-aws-govcloud-us/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "fd2526cab23b059cf6127970064a00f0fc093a95",
-      "title": " AWS announces aws-bench, an open-source benchmark for AI agents on AWS",
-      "summary": "Today, AWS announces a research preview of aws-bench, an open-source benchmark that measures how accurately and efficiently AI agents complete real-world AWS tasks. Model providers and AI researchers ...",
-      "category": "AI_ML",
-      "timestamp": "2026-07-24T13:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-bench/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 597,
+    "total": 595,
     "byCategory": {
       "STORAGE": 21,
       "COMPUTE": 71,
       "DATABASE": 65,
       "SECURITY": 133,
       "CONTAINERS": 33,
-      "OTHER": 129,
-      "AI_ML": 104,
+      "OTHER": 128,
+      "AI_ML": 103,
       "SERVERLESS": 21,
       "NETWORKING": 7,
       "ANALYTICS": 13
     },
-    "lastUpdated": "2026-10-22T00:26:48.442Z"
+    "lastUpdated": "2026-10-22T14:53:22.759Z"
   },
-  "generatedAt": "2026-10-22T00:26:48.442Z"
+  "generatedAt": "2026-10-22T14:53:22.759Z"
 }
