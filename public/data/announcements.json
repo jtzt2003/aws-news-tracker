@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "2f09d0667d42d72e79a54ba3ba00762abfcd3b74",
+      "title": "Amazon Connect Customer now supports customizing the Customer Profiles app on the agent workspace",
+      "summary": "Amazon Connect Customer Profiles now allows administrators to customize which customer data that agents see in the agent workspace, and how it is displayed, using layouts they build in Profile Explore...",
+      "category": "OTHER",
+      "timestamp": "2026-10-22T21:10:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-customize-cp",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8394141a5727b3fe3b9f49cf37d5fa56685f8da9",
+      "title": "AWS Continuum for code vulnerabilities is now generally available ",
+      "summary": "Today, AWS announces the general availability of AWS Continuum for code vulnerabilities. Continuum for code vulnerabilities discovers, validates, prioritizes, and remediates code vulnerabilities at ma...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-22T21:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-continuum-for-code-vulnerabilities-is-now-generally-available",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "778e44abc61ada7af8f445cafcd41c19c12bafa2",
+      "title": "Amazon OpenSearch Serverless now supports a 5-second default refresh interval",
+      "summary": "Starting today, Amazon OpenSearch Serverless reduces the default refresh interval to 5 seconds for both search and vector collections. The refresh interval controls how quickly newly ingested document...",
+      "category": "ANALYTICS",
+      "timestamp": "2026-10-22T18:34:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-opensearch-serverless-supports-5-second-refresh-interval/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8d97487f2c92bf944af9a04f0f2dac48eebf96c3",
+      "title": "AWS CloudFormation now simplifies stack update rollback operations",
+      "summary": "AWS CloudFormation now makes it simpler to complete an update rollback and get back to deploying. An update rollback returns your stack to a known good state. Starting today, if some resources cannot ...",
+      "category": "OTHER",
+      "timestamp": "2026-10-22T17:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-cloudformation-cdk/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "8bd721819f380c79930d285c4aeae10ee2504efc",
+      "title": "Amazon SageMaker AI announces training session APIs for serverless model customization",
+      "summary": "Amazon SageMaker AI serverless model customization now supports training session APIs, giving customers full control over their post-training algorithm without provisioning or managing GPU infrastruct...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-22T16:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/training-session-apis-on-sagemaker-ai",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3ed0aa8ffeb876bedc097a22d404b2d639b91c1c",
+      "title": "AWS Direct Connect announces 100G expansion in Bangalore, India",
+      "summary": "Today, AWS announced the expansion of 100 Gbps dedicated connections at the existing AWS Direct Connect location in the Netmagic DC2 data center near Bangalore, India. You can now establish private, d...",
+      "category": "COMPUTE",
+      "timestamp": "2026-10-22T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-direct-connect-100g-bangalore/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d4651dcd8180cb4c942c115db2c34d0ce32bef0f",
+      "title": "AWS announces AWS Interconnect - last mile preview with Megaport",
+      "summary": "AWS launches AWS Interconnect - last mile preview with Megaport, a fully managed connectivity offering that allows customers to connect their branch offices, data centers, and remote locations to AWS ...",
+      "category": "NETWORKING",
+      "timestamp": "2026-10-22T12:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-announces-AWS-interconnect-last-mile-megaport-preview/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5fc97181692d5b273b31a2b96041d6ef5034ea5d",
+      "title": "Amazon SageMaker AI now supports serverless model customization for Muse Glimmer, Qwen 3.8 and Ministral 3 models",
+      "summary": "Amazon SageMaker AI now supports serverless model customization for Muse Glimmer, Qwen3.8 27B, and Ministral 3 3B, 8B, and 14B models. In addition to deploying these models on SageMaker AI, you can no...",
+      "category": "AI_ML",
+      "timestamp": "2026-10-22T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-sagemaker-muse-qwen-ministral/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "811dc9092ea620c36b4a765953f41ee5c9c015d5",
+      "title": "AgentCore Gateway now supports Bedrock InvokeModel APIs and model fallback",
+      "summary": "Amazon Bedrock AgentCore Gateway now supports the Amazon Bedrock InvokeModel and InvokeModelWithResponseStream APIs on its inference endpoint, along with model fallback routing for inference traffic. ...",
+      "category": "AI_ML",
+      "timestamp": "2026-10-22T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-gateway-invokemodel-fallback/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "22a5d1fad4cd49ee8ad19a23807834dfc41f6a77",
+      "title": "AWS Lambda MicroVMs is now available in 4 additional AWS regions",
+      "summary": "AWS Lambda MicroVMs is now available in 4 additional AWS Regions: Asia Pacific (Hong Kong), Asia Pacific (Malaysia), Asia Pacific (Thailand), and Europe (Spain). With this launch, you can use Lambda M...",
+      "category": "SERVERLESS",
+      "timestamp": "2026-10-22T07:06:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/lambda-microvms-4-additional-regions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "b0c32396b20f5ae43478e77a4f95abb8cd231247",
       "title": "AWS Transform adds storage migration assessments for Amazon S3, EBS, EFS, and FSx",
       "summary": "Migration assessments in AWS Transform now evaluate on-premises storage for migration to AWS. Instead of manually analyzing thousands of volumes across protocols, capacity, and performance, you upload...",
@@ -5879,93 +5979,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sql-server-supports-tde-for-maz/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "06504c094b727f7697ba28569701cd2d9d88efac",
-      "title": "Amazon Connect now supports audio optimization for Azure Virtual Desktop and Windows 365 Cloud PC",
-      "summary": "Agents using Microsoft Azure Virtual Desktop (AVD) or Windows 365 Cloud PC can now take calls directly from their virtual desktop session with audio optimization enabled. To get started, IT administra...",
-      "category": "OTHER",
-      "timestamp": "2026-07-24T23:11:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "0d2b24bc30f178cddf7989a86dc75b02c9608c3d",
-      "title": "Amazon MWAA now supports Apache Airflow version 2.11.2",
-      "summary": "Amazon Managed Workflows for Apache Airflow (MWAA) now supports Apache Airflow version 2.11.2. Amazon MWAA is a managed service that runs Apache Airflow at scale without the operational overhead of ma...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-24T21:57:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-mwaa-now-supports-apache-airflow-version-2-11-2",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "891007a2b64d16aba503a8799874b65693d1e050",
-      "title": "Amazon EC2 Dedicated Hosts now support host resource groups without self-managed licenses",
-      "summary": "Starting today, customers can create Host Resource Groups (HRGs) for EC2 Dedicated Hosts without the previously required step of creating Self-Managed Licenses (SMLs) and associating AMIs through AWS ...",
-      "category": "COMPUTE",
-      "timestamp": "2026-07-24T21:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-dedicated-hosts-hrg/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c0c9052c6dd884aaf3d5a8239c2fdfbdf3f9fd68",
-      "title": "Amazon Kinesis Data Streams now supports scaling down ingest capacity with warm throughput",
-      "summary": "Amazon Kinesis Data Streams is a serverless streaming data service that makes it easy to capture, process, and store data streams at any scale. On-demand streams automatically increase ingest capacity...",
-      "category": "ANALYTICS",
-      "timestamp": "2026-07-24T18:55:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/kinesis/on-demand-scale-down",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ae2b2021e7ddba49c747a76f6c3b5fcac0c1f5e3",
-      "title": "AWS Lambda now publishes logs for Lambda Managed Instances capacity providers",
-      "summary": "AWS Lambda now publishes logs for Lambda Managed Instances (LMI) capacity providers to Amazon CloudWatch Logs, giving you visibility into scaling activity and instance lifecycle operations. LMI enable...",
-      "category": "SERVERLESS",
-      "timestamp": "2026-07-24T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-managed-instances-logs/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "cdece069f458e926b56e7d7b5188dc4a464c4661",
-      "title": "Amazon SES simplifies sending emails over SMTP using Mail Manager",
-      "summary": "Amazon Simple Email Service (SES) now offers a simplified console experience for sending emails over SMTP using Mail Manager. Mail Manager is a capability within SES for managing email flow, but confi...",
-      "category": "OTHER",
-      "timestamp": "2026-07-24T15:03:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ses-simplified-smtp-mail-manager",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "83d5c9420ae6940698f20e5dd2286dd43424212b",
-      "title": "Claude Opus 5 is now available on AWS ",
-      "summary": "AWS now offers Claude Opus 5 — the most advanced Opus model yet, and compatible with zero data retention (ZDR) — bringing a step-change in coding, long-running agents, and complex professional work to...",
-      "category": "AI_ML",
-      "timestamp": "2026-07-24T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/claude-opus-5-aws/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 595,
+    "total": 598,
     "byCategory": {
-      "STORAGE": 21,
-      "COMPUTE": 71,
-      "DATABASE": 65,
-      "SECURITY": 133,
-      "CONTAINERS": 33,
       "OTHER": 128,
-      "AI_ML": 103,
+      "SECURITY": 134,
+      "ANALYTICS": 13,
+      "COMPUTE": 71,
+      "NETWORKING": 8,
+      "AI_ML": 104,
       "SERVERLESS": 21,
-      "NETWORKING": 7,
-      "ANALYTICS": 13
+      "STORAGE": 21,
+      "DATABASE": 65,
+      "CONTAINERS": 33
     },
-    "lastUpdated": "2026-10-22T14:53:22.759Z"
+    "lastUpdated": "2026-10-23T00:24:44.428Z"
   },
-  "generatedAt": "2026-10-22T14:53:22.759Z"
+  "generatedAt": "2026-10-23T00:24:44.428Z"
 }
