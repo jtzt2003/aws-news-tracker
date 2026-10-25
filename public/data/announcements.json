@@ -5979,83 +5979,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-s3-tables-variant-iceberg-v3/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "279dd74b59b67764de13775cd604a904fd8f0211",
-      "title": "Amazon Neptune now supports tag-based access control for IAM",
-      "summary": "Amazon Neptune Database now supports tag-based access control (TBAC) for IAM, enabling customers to use AWS resource tags and IAM principal tags as conditions in IAM policies and Service Control Polic...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-27T22:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-neptune-tbac/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "40b816236f0b5c1cf68cff9d812bc079d9f6ccf1",
-      "title": "AWS Glue Data Quality now supports anomaly detection and writing results to the AWS Glue Data Catalog",
-      "summary": "AWS Glue Data Quality now supports anomaly detection for Catalog-based data quality evaluations and the ability to write evaluation results to AWS Glue Data Catalog (GDC) tables. These capabilities wo...",
-      "category": "ANALYTICS",
-      "timestamp": "2026-07-27T20:45:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-data-quality-catalog-anomaly-detection-write-results",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "a5fb9f5de228df79675cbe69dab679b60e2ed14e",
-      "title": "AWS Glue Data Quality now supports distribution statistics for data profiling",
-      "summary": "AWS Glue Data Quality now supports a new Distribution Analyzer that generates frequency distribution profiles for your data. Using this new Distribution Analyzer in the Data Quality Definition Languag...",
-      "category": "AI_ML",
-      "timestamp": "2026-07-27T20:23:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-data-quality-distribution-profiling",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "a544c69fdc38a10dc3bf773b4409de8c6a2a7492",
-      "title": "Amazon GameLift Streams now supports Custom Aspect Ratio and Dynamic Resolution",
-      "summary": "Amazon GameLift Streams now supports Custom Aspect Ratio and Dynamic Resolution, giving you greater control over the streaming experience across diverse player devices and network conditions.\n \nWith C...",
-      "category": "OTHER",
-      "timestamp": "2026-07-27T18:58:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-gamelift-streams/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "763f947e1a6a31d3a31ab96bfe532fedceae9827",
-      "title": "AWS Security Hub MCP App brings exposure findings into your AI-assisted workflow (Preview) ",
-      "summary": "AWS announces the preview of the AWS Security Hub MCP App, a local Model Context Protocol (MCP) server that brings your Security Hub exposure findings directly into Claude Desktop.  This capability ca...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-27T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-mcp-app/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "16f9132bda3adf538eb50116db9df947feccc081",
-      "title": "AWS Elemental MediaTailor adds configurable ad timeout and concurrency controls for improved ad fill and faster startup",
-      "summary": "AWS Elemental MediaTailor now gives you direct control over ad decision server (ADS) timeout. Previously, changing these settings required contacting AWS Support. You can now configure individual HTTP...",
-      "category": "OTHER",
-      "timestamp": "2026-07-27T16:09:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/mediatail-configurable-ad-timeout-and-concurrency",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 604,
+    "total": 598,
     "byCategory": {
-      "OTHER": 131,
-      "AI_ML": 105,
-      "SECURITY": 135,
+      "OTHER": 129,
+      "AI_ML": 104,
+      "SECURITY": 133,
       "CONTAINERS": 34,
       "STORAGE": 22,
-      "ANALYTICS": 13,
+      "ANALYTICS": 12,
       "COMPUTE": 71,
       "NETWORKING": 8,
       "SERVERLESS": 21,
       "DATABASE": 64
     },
-    "lastUpdated": "2026-10-25T14:07:04.810Z"
+    "lastUpdated": "2026-10-25T23:51:34.044Z"
   },
-  "generatedAt": "2026-10-25T14:07:04.811Z"
+  "generatedAt": "2026-10-25T23:51:34.044Z"
 }
