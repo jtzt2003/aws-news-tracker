@@ -6039,20 +6039,10 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/mediatail-configurable-ad-timeout-and-concurrency",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "2fd52cfc27aee635b58eefecff0b4fbf27ec68e5",
-      "title": "Amazon RDS for SQL Server now supports restoring TDE databases on Mult-AZ instances",
-      "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports restoring Transparent Data Encryption (TDE)-enabled SQL Server databases on Multi-AZ instances and instances configured with...",
-      "category": "DATABASE",
-      "timestamp": "2026-07-27T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sql-server-supports-tde-for-maz/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 605,
+    "total": 604,
     "byCategory": {
       "OTHER": 131,
       "AI_ML": 105,
@@ -6063,9 +6053,9 @@
       "COMPUTE": 71,
       "NETWORKING": 8,
       "SERVERLESS": 21,
-      "DATABASE": 65
+      "DATABASE": 64
     },
-    "lastUpdated": "2026-10-25T00:01:17.537Z"
+    "lastUpdated": "2026-10-25T14:07:04.810Z"
   },
-  "generatedAt": "2026-10-25T00:01:17.538Z"
+  "generatedAt": "2026-10-25T14:07:04.811Z"
 }
