@@ -5929,73 +5929,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-provisioned-control/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "e9188889d348bc42f3ea6bca0e8487569bfbfbca",
-      "title": "AWS Console Home now supports the Cost and Usage widget in the AWS European Sovereign Cloud (Germany) Region",
-      "summary": "AWS Console Home now supports the Cost and Usage widget in the AWS European Sovereign Cloud (Germany) Region, allowing customers to surface insights from Cost Explorer and Cost Optimization Hub on the...",
-      "category": "OTHER",
-      "timestamp": "2026-07-28T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-console-home-cost-and-usage-eu-sovereign-cloud",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "e0b0377db17c9b6f6997bc450b7407a5894ca72d",
-      "title": "Second-generation AWS Outposts racks now supported in the AWS Asia Pacific (Mumbai) Region",
-      "summary": "Second-generation AWS Outposts racks are now supported in the Asia Pacific (Mumbai) Region. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to virtually any on-premises data ce...",
-      "category": "COMPUTE",
-      "timestamp": "2026-07-28T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-outposts-asia-pacific-mumbai/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c7bf6709bdbc70396b6de1e820ad3fddc4759fbb",
-      "title": "AWS DataSync Enhanced mode now supports Amazon EFS and Amazon FSx for Lustre ",
-      "summary": "AWS DataSync Enhanced mode now supports Amazon EFS and Amazon FSx for Lustre as source or destination locations.\n \nAWS DataSync is a secure, high-speed data transfer service that simplifies moving dat...",
-      "category": "AI_ML",
-      "timestamp": "2026-07-28T10:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-datasync-amazon-efs-fsx-lustre/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "eaa779b9ca65b7e1045f333c8efb3b4987369ae8",
-      "title": "AWS DataSync Enhanced mode adds HDFS, Azure Blob, and object storage locations with Hyper-V agent support",
-      "summary": "AWS DataSync Enhanced mode now supports agent-based data transfers with Hadoop Distributed File Systems (HDFS), Microsoft Azure Blob Storage, and self-managed object storage. Additionally, Enhanced mo...",
-      "category": "OTHER",
-      "timestamp": "2026-07-28T10:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-datasync-hdfs-azure-blob-hyper-v/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "8251770b8a5a3ce432e509b17d021e8132fbb80b",
-      "title": "Amazon S3 Tables now support the Variant data type for Apache Iceberg V3",
-      "summary": "Amazon S3 Tables now support the Variant data type as defined in the Apache Iceberg Version 3 (V3) specification. You can now write semi-structured data like JSON directly to S3 Tables without definin...",
-      "category": "STORAGE",
-      "timestamp": "2026-07-28T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-s3-tables-variant-iceberg-v3/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 598,
+    "total": 593,
     "byCategory": {
-      "OTHER": 129,
-      "AI_ML": 104,
+      "OTHER": 127,
+      "AI_ML": 103,
       "SECURITY": 133,
       "CONTAINERS": 34,
-      "STORAGE": 22,
+      "STORAGE": 21,
       "ANALYTICS": 12,
-      "COMPUTE": 71,
+      "COMPUTE": 70,
       "NETWORKING": 8,
       "SERVERLESS": 21,
       "DATABASE": 64
     },
-    "lastUpdated": "2026-10-25T23:51:34.044Z"
+    "lastUpdated": "2026-10-26T16:32:40.338Z"
   },
-  "generatedAt": "2026-10-25T23:51:34.044Z"
+  "generatedAt": "2026-10-26T16:32:40.339Z"
 }
