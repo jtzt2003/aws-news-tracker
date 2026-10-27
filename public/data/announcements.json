@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "a097b2fedf3a1cc2e06ec675e50f26ab915790aa",
+      "title": "Amazon ECR now supports replication backfill for existing container images",
+      "summary": "Amazon Elastic Container Registry (Amazon ECR) now supports replication backfill, enabling you to replicate existing images in your private registry to your configured replication registry destination...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-10-26T20:24:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/replication-backfill-amazon-ecr",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "0c5c946db9a84a5a290bb7e1c3b4577820eb630a",
       "title": "OpenAI GPT-6.1 Terra is now generally available on Amazon Bedrock",
       "summary": "Today, AWS announces the general availability of OpenAI GPT-6.1 Terra on Amazon Bedrock. GPT-6.1 Terra expands the GPT-6 family with a balance of capability, speed, and cost efficiency for everyday wo...",
@@ -5969,73 +5979,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-rest-connector-filtering-partitioning-vpc",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "3819b0a300155cc958087e4087fc80c751c39d0d",
-      "title": "AWS WAF adds pre-parse text transformations and new text transformations",
-      "summary": "Today, AWS WAF adds pre-parse text transformations for query arguments and ten new text transformations for use in any rule statement. Both help you normalize request content so that AWS WAF inspects ...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-29T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-waf/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b73223c5c2956eff1caf3c13bff49597731e296a",
-      "title": "AWS announces AWS Interconnect - multicloud connectivity with Oracle Cloud Infrastructure in GA",
-      "summary": "AWS announces the general availability (GA) of AWS Interconnect — multicloud with Oracle Cloud Infrastructure (OCI).\n \nCustomers have been adopting multicloud strategies while migrating more applicati...",
-      "category": "OTHER",
-      "timestamp": "2026-07-29T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-announces-AWS-interconnect-multicloud-OCI-GA/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "9b86a017d797b362e7b0721891a716d497d69781",
-      "title": "Amazon Connect Customer now automatically finds example agent evaluations for tailored coaching ",
-      "summary": "Amazon Connect Customer now automatically surfaces relevant examples of an agent's evaluations when managers are preparing coaching feedback, so they can deliver actionable, evidence-backed coaching t...",
-      "category": "OTHER",
-      "timestamp": "2026-07-29T14:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect-customer-example-evaluations-for-agent-coaching/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "afd4bffe13d5ba7f7a4fd3b07a75778e02dfcb16",
-      "title": "Amazon EFS now supports cross-account Replication in AWS GovCloud (US)  ",
-      "summary": "Amazon EFS now supports cross-account Replication in AWS GovCloud (US), allowing customers to replicate file systems between AWS accounts. EFS Replication enables you to easily maintain an up-to-date ...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-29T12:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-efs-cross-account-replication-aws-gov-cloud-us",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "37117e514624946a921104ea0f46c78c4652c67b",
-      "title": "AWS IAM Identity Center extends multi-Region support to Identity Center directory",
-      "summary": "IAM Identity Center helps you configure the single sign-on experience of your workforce to AWS accounts and applications. You can now replicate IAM Identity Center from the primary AWS Region where yo...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-29T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-iam-identity-center-extends-multi-region-support-to-identity-center-directory",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 602,
+    "total": 598,
     "byCategory": {
-      "SECURITY": 135,
+      "CONTAINERS": 34,
+      "SECURITY": 132,
       "COMPUTE": 72,
       "AI_ML": 105,
-      "OTHER": 130,
+      "OTHER": 128,
       "DATABASE": 65,
-      "CONTAINERS": 33,
       "STORAGE": 21,
       "ANALYTICS": 12,
       "NETWORKING": 8,
       "SERVERLESS": 21
     },
-    "lastUpdated": "2026-10-27T01:12:07.432Z"
+    "lastUpdated": "2026-10-27T15:44:45.750Z"
   },
-  "generatedAt": "2026-10-27T01:12:07.433Z"
+  "generatedAt": "2026-10-27T15:44:45.750Z"
 }
