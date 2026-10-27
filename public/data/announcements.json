@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "0c5c946db9a84a5a290bb7e1c3b4577820eb630a",
+      "title": "OpenAI GPT-6.1 Terra is now generally available on Amazon Bedrock",
+      "summary": "Today, AWS announces the general availability of OpenAI GPT-6.1 Terra on Amazon Bedrock. GPT-6.1 Terra expands the GPT-6 family with a balance of capability, speed, and cost efficiency for everyday wo...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-26T18:27:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-6-1-terra-on-amazon-bedrock/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d0fa251659d79f0fc67ce314ab2fa39b236f0c67",
+      "title": "Amazon WorkSpaces Core Managed Instances now supports ModifyVolume API",
+      "summary": "Amazon WorkSpaces Core Managed Instances now supports the ModifyVolume API, which lets you change volume size, volume type, IOPS, or throughput in place, without detaching the volume or restarting the...",
+      "category": "COMPUTE",
+      "timestamp": "2026-10-26T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-workspaces-cmi-modifyvolume/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "fb8fcb86cdc11d35141a97ced9907f8207dd15b7",
+      "title": "Amazon SageMaker Unified Studio adds light mode support for IDC-based domains",
+      "summary": "Today, AWS announces light mode support in Amazon SageMaker Unified Studio for Identity Center (IDC) based domains. Customers can now configure the visual interface mode to match their preference, cho...",
+      "category": "AI_ML",
+      "timestamp": "2026-10-26T15:32:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/smus-light-mode",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "83cb3298c9867b9fc35ba38e0216243ea7999fca",
+      "title": "Amazon Connect Customer expands testing and simulation to validate flow action outcomes",
+      "summary": "Amazon Connect Customer now enables you to validate the outcomes of your customer experience flow actions during testing and simulation. In addition to confirming that an action started, you can now v...",
+      "category": "AI_ML",
+      "timestamp": "2026-10-26T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-validate-flow-actions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9d1beb736f2173009643fc2363644bced67dd873",
+      "title": "Amazon Connect Customer now lets you view metrics by customer lifetime value and repeat-caller status",
+      "summary": "Now you can view your metrics across customer segments: customer lifetime value (LTV) and repeat callers. See how any metric differs for repeat callers versus the rest of your contacts, or how results...",
+      "category": "OTHER",
+      "timestamp": "2026-10-26T13:47:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-boma-segment/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "eef082f1709a6687aed6f9caae4605bb93c1a942",
+      "title": "Amazon Connect Customer now measures the outcomes that drive retention and revenue",
+      "summary": "Amazon Connect Customer now scores the outcome of your customer interactions. It shows whether the customer left satisfied, is at risk of churning, made a purchase, or resolved their need in self-serv...",
+      "category": "OTHER",
+      "timestamp": "2026-10-26T13:31:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-boma-metrics/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "bb228c8dc7d26f2dab160da874367138b859b877",
+      "title": "AWS IAM Identity Center now supports cross-Region trusted identity propagation",
+      "summary": "Trusted identity propagation carries a user's identity with their request, so AWS services can grant permissions based on who the user is and their underlying group associations, and log that user's a...",
+      "category": "OTHER",
+      "timestamp": "2026-10-26T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-iam-identity-center-cross-region-tip/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "30d1ce5d72752a78261a96e66820f860988c1e26",
+      "title": "AWS Key Management Service now supports ML-KEM for post-quantum key encapsulation",
+      "summary": "AWS Key Management Service (KMS) now supports Module-Lattice-Based Key-Encapsulation Mechanism (ML-KEM), a post-quantum cryptography standard under NIST FIPS 203, which enables two parties to establis...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-26T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/kms-ml-kem-post-quantum/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2378eff049fb752685060dbde386b349b1993ddd",
+      "title": "AWS EC2 Auto Scaling now supports Launch Before Terminate at account-level to replace instances",
+      "summary": "AWS EC2 Auto Scaling now lets you enable Launch Before Terminate as the default replacement behavior across all Auto Scaling groups in your account. When enabled, Auto Scaling launches a replacement i...",
+      "category": "COMPUTE",
+      "timestamp": "2026-10-26T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-auto-scaling-launch-before-terminate/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "dcf34f11ecc8c85b3b3f75f21c4249b6ef7930f3",
+      "title": "Amazon RDS now supports the latest Cumulative Update and GDR updates for Microsoft SQL Server",
+      "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release inc...",
+      "category": "DATABASE",
+      "timestamp": "2026-10-26T07:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-supports-latest-cumulative-update-gdr-microsoft-sql-server/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "86f4a6d69637c7de4b0ac7ab60df8db423270cd3",
       "title": "Web Search on AWS Bedrock now supports domain filtering and user location controls",
       "summary": "Web Search on AWS Bedrock now supports two new controls that give you more precision over the results that ground a model's response: domain filtering and user location. Both are configured directly o...",
@@ -5919,33 +6019,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-iam-identity-center-extends-multi-region-support-to-identity-center-directory",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "d0ba727c4efc0bd886bca5a70016d16fe5ae60b6",
-      "title": "Amazon EKS Provisioned Control Plane now delivers faster pod autoscaling",
-      "summary": "Amazon EKS now delivers faster pod autoscaling across all Provisioned Control Plane clusters by increasing Horizontal Pod Autoscaler (HPA) sync concurrency to up to 40 times the default Kubernetes val...",
-      "category": "CONTAINERS",
-      "timestamp": "2026-07-28T17:18:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-provisioned-control/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 593,
+    "total": 602,
     "byCategory": {
-      "OTHER": 127,
-      "AI_ML": 103,
-      "SECURITY": 133,
-      "CONTAINERS": 34,
+      "SECURITY": 135,
+      "COMPUTE": 72,
+      "AI_ML": 105,
+      "OTHER": 130,
+      "DATABASE": 65,
+      "CONTAINERS": 33,
       "STORAGE": 21,
       "ANALYTICS": 12,
-      "COMPUTE": 70,
       "NETWORKING": 8,
-      "SERVERLESS": 21,
-      "DATABASE": 64
+      "SERVERLESS": 21
     },
-    "lastUpdated": "2026-10-26T16:32:40.338Z"
+    "lastUpdated": "2026-10-27T01:12:07.432Z"
   },
-  "generatedAt": "2026-10-26T16:32:40.339Z"
+  "generatedAt": "2026-10-27T01:12:07.433Z"
 }
