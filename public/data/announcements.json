@@ -1,6 +1,46 @@
 {
   "announcements": [
     {
+      "id": "9227ada578da028352c1420b8854a05fb8b176a3",
+      "title": "SageMaker MLflow Apps now support MLflow 3.16",
+      "summary": "Amazon SageMaker AI MLflow Apps now support MLflow 3.16, bringing a redesigned tracing experience and faster experiment tracking to your generative AI and machine learning workflows.\n \nMLflow 3.16 imp...",
+      "category": "AI_ML",
+      "timestamp": "2026-10-27T20:40:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/mflow-version-3-16/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "21d2c73d7cb4b3c96230b157fdb232c52f6d2127",
+      "title": "Amazon Aurora serverless now supports up to 384 ACUs",
+      "summary": "Amazon Aurora serverless now supports database capacity of up to 384 Aurora Capacity Units (ACUs) for Aurora PostgreSQL-Compatible Edition, a 50% increase from the previous maximum of 256 ACUs. Each A...",
+      "category": "DATABASE",
+      "timestamp": "2026-10-27T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-serverless-supports-384-acu/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a4fa2e14d7c441b661d72339409015e1eb85c211",
+      "title": "Amazon ElastiCache for Valkey now supports changing durability on existing clusters",
+      "summary": "Amazon ElastiCache for Valkey now lets you enable or disable durability on your existing node-based clusters without creating a new cluster. Previously, you couldn't change the durability configuratio...",
+      "category": "DATABASE",
+      "timestamp": "2026-10-27T15:21:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/elasticache-changing-durability/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a525cc70fbe1bab89960f540ece8012a715e2717",
+      "title": "Amazon Corretto October 2026 Patch Updates",
+      "summary": "On October 26, 2026 Amazon announced a patch update for the following Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK. Corretto 27.0.1.0.11, 25.0.5.0.10, 21.0.13.0...",
+      "category": "OTHER",
+      "timestamp": "2026-10-27T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-corretto-oct-2026-patch-updates",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "a097b2fedf3a1cc2e06ec675e50f26ab915790aa",
       "title": "Amazon ECR now supports replication backfill for existing container images",
       "summary": "Amazon Elastic Container Registry (Amazon ECR) now supports replication backfill, enabling you to replicate existing images in your private registry to your configured replication registry destination...",
@@ -27,6 +67,16 @@
       "category": "COMPUTE",
       "timestamp": "2026-10-26T18:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-workspaces-cmi-modifyvolume/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "02e968798e00983065fb64ed95c3312a0d7db390",
+      "title": "Amazon IVS Low-Latency Streaming now provides a failover slate",
+      "summary": "Amazon Interactive Video Service (Amazon IVS) Low-Latency Streaming now provides a failover slate, an animated image that IVS displays to viewers when a broadcaster's stream is unexpectedly interrupte...",
+      "category": "SERVERLESS",
+      "timestamp": "2026-10-26T15:40:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ivs-low-latency-streaming-failover-slate",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5949,53 +5999,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-microsoft-ad-edition-upgrade/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "76ab175aa0e4c90687df0c1972aadfbc68ec691e",
-      "title": "Amazon EC2 Auto Scaling now supports Instance Refresh in CloudFormation",
-      "summary": "Amazon EC2 Auto Scaling now supports Instance Refresh as a new AWS CloudFormation update policy. When you configure the new AutoScalingInstanceRefresh update policy and update properties that require ...",
-      "category": "COMPUTE",
-      "timestamp": "2026-07-29T21:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-auto-scaling-instance-refresh-cloudformation",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "00425cd52a03e797eaa95185152a0c11d5358f04",
-      "title": "Amazon Redshift Data API announces long polling, session management, and flexible batch execution",
-      "summary": "Amazon Redshift Data API introduces new capabilities that reduce the number of API calls to retrieve SQL statement metadata or results, provide visibility into sessions, and allow batch statements to ...",
-      "category": "DATABASE",
-      "timestamp": "2026-07-29T20:45:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-data-api-longpolling-listsession-flexiblebatchexecute/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4497b3a3be0dfe32755a6e4964360d1d18ee4ee5",
-      "title": "AWS Glue announces VPC support, filter pushdown, and partition support for the REST API connector",
-      "summary": "AWS Glue now supports VPC connections, filter pushdown, and partition support for the REST API connector. The REST API connector enables you to ingest data from any source that exposes a REST-based AP...",
-      "category": "ANALYTICS",
-      "timestamp": "2026-07-29T20:18:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-rest-connector-filtering-partitioning-vpc",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 598,
+    "total": 600,
     "byCategory": {
+      "AI_ML": 106,
+      "DATABASE": 66,
+      "OTHER": 129,
       "CONTAINERS": 34,
       "SECURITY": 132,
-      "COMPUTE": 72,
-      "AI_ML": 105,
-      "OTHER": 128,
-      "DATABASE": 65,
+      "COMPUTE": 71,
+      "SERVERLESS": 22,
       "STORAGE": 21,
-      "ANALYTICS": 12,
-      "NETWORKING": 8,
-      "SERVERLESS": 21
+      "ANALYTICS": 11,
+      "NETWORKING": 8
     },
-    "lastUpdated": "2026-10-27T15:44:45.750Z"
+    "lastUpdated": "2026-10-28T00:59:22.295Z"
   },
-  "generatedAt": "2026-10-27T15:44:45.750Z"
+  "generatedAt": "2026-10-28T00:59:22.295Z"
 }
