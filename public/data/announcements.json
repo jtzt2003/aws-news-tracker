@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "d227e8eeef7f0756ae763fa2fa03d1e108b1ea32",
+      "title": "Amazon ECS now supports GPU sharing with NVIDIA Multi-Process Service (MPS)",
+      "summary": "Amazon Elastic Container Service (Amazon ECS) now supports GPU sharing with NVIDIA Multi-Process Service (MPS), enabling you to run multiple Amazon ECS tasks concurrently on a single NVIDIA GPU. GPU s...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-10-27T23:31:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-gpu-sharing-nvidia-mps/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "9227ada578da028352c1420b8854a05fb8b176a3",
       "title": "SageMaker MLflow Apps now support MLflow 3.16",
       "summary": "Amazon SageMaker AI MLflow Apps now support MLflow 3.16, bringing a redesigned tracing experience and faster experiment tracking to your generative AI and machine learning workflows.\n \nMLflow 3.16 imp...",
@@ -37,6 +47,16 @@
       "category": "OTHER",
       "timestamp": "2026-10-27T14:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-corretto-oct-2026-patch-updates",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0f0554fdc697dda5e920e5b8a9e007720e87f28e",
+      "title": "Amazon Neptune now supports online index rebuild to reclaim storage",
+      "summary": "Amazon Neptune Database now supports online index rebuild, a new capability that helps database administrators and application teams defragment Neptune indexes and reclaim unused storage space without...",
+      "category": "DATABASE",
+      "timestamp": "2026-10-27T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/neptune-online-index-rebuild/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5929,93 +5949,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/iam-policy-simulator-iam-console/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "c1961a11f6137c76d8c9f6ec077ee333e6dff5e2",
-      "title": "Amazon Bedrock announces up to 80% lower prices for OpenAI GPT‑5.6 models",
-      "summary": "Today, OpenAI announced lower prices for GPT‑5.6 Luna and GPT‑5.6 Terra. Effective July 30, 2026, on-demand inference prices on Amazon Bedrock for GPT‑5.6 Luna are reduced by 80%, while prices for GPT...",
-      "category": "AI_ML",
-      "timestamp": "2026-07-30T16:18:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/openai-gpt-terra-luna-pricing-bedrock/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "1de04d23b1d53cafdd74f99261ffcaa25caf0702",
-      "title": "AWS announces general availability of Policy-Based Routing on AWS Transit Gateway",
-      "summary": "AWS Transit Gateway now supports Policy-Based Routing (PBR), giving network administrators granular control over how traffic is forwarded across their AWS network. With PBR, forwarding decisions can b...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-30T15:39:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-transit-gateway-policy-based-routing/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ea1af5410de09c929fbad22621e79ec32f0cc1e1",
-      "title": "Amazon MSK Express brokers now delivers Apache Kafka data to Amazon S3  ",
-      "summary": "Amazon MSK Express brokers now delivers data to Amazon S3 general purpose buckets, providing a fully managed capability to deliver Apache Kafka data in Amazon S3 for downstream processing in the easie...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-30T14:07:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-msk-express-brokers-delivers-to-amazon-s3",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "14394b64c06642e223594abd31f0cb37a8b22333",
-      "title": "Amazon MSK Express brokers now deliver data to streaming tables for Apache Iceberg  ",
-      "summary": "Amazon MSK Express brokers now deliver data to streaming tables for Apache Iceberg, a new capability that continuously materializes Apache Kafka topics as Apache Iceberg tables on Amazon S3 Tables. Am...",
-      "category": "STORAGE",
-      "timestamp": "2026-07-30T14:07:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-msk-streaming-tables-for-apache-iceberg",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "530576c9be2dec03b73b885672eff61e27a03dd4",
-      "title": "Grok 4.3 from xAI is now available on Amazon Bedrock in AWS GovCloud (US-West) ",
-      "summary": "xAI's Grok 4.3 model is now available on Amazon Bedrock in AWS GovCloud (US-West). With this launch, xAI joins Amazon Bedrock as a model provider in AWS GovCloud (US-West), giving you even more choice...",
-      "category": "AI_ML",
-      "timestamp": "2026-07-30T13:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/grok-4-3-bedrock-govcloud/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b8c0960f472ccb82d9a81e3e679cd3878bffbef6",
-      "title": "Gemma 4 models are now available on Amazon Bedrock in AWS GovCloud (US-West) ",
-      "summary": "The Gemma 4 family of open-weight models from Google DeepMind on Amazon Bedrock in AWS GovCloud (US-West). With Gemma 4, you can build generative AI applications across reasoning, multimodal understan...",
-      "category": "AI_ML",
-      "timestamp": "2026-07-30T13:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/gemma-4-bedrock-govcloud/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "9dc6c2adb9f63ab7d177df88f9fa07e79a11931d",
-      "title": "AWS Managed Microsoft AD now supports Standard to Enterprise Edition upgrade",
-      "summary": "AWS Directory Service now allows you to upgrade your AWS Managed Microsoft AD directory from Standard Edition to Enterprise Edition directly through the AWS Management Console, AWS CLI, and API withou...",
-      "category": "OTHER",
-      "timestamp": "2026-07-30T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-microsoft-ad-edition-upgrade/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 600,
+    "total": 595,
     "byCategory": {
-      "AI_ML": 106,
-      "DATABASE": 66,
-      "OTHER": 129,
-      "CONTAINERS": 34,
-      "SECURITY": 132,
+      "CONTAINERS": 35,
+      "AI_ML": 103,
+      "DATABASE": 67,
+      "OTHER": 128,
+      "SECURITY": 130,
       "COMPUTE": 71,
       "SERVERLESS": 22,
-      "STORAGE": 21,
+      "STORAGE": 20,
       "ANALYTICS": 11,
       "NETWORKING": 8
     },
-    "lastUpdated": "2026-10-28T00:59:22.295Z"
+    "lastUpdated": "2026-10-28T16:27:01.833Z"
   },
-  "generatedAt": "2026-10-28T00:59:22.295Z"
+  "generatedAt": "2026-10-28T16:27:01.833Z"
 }
