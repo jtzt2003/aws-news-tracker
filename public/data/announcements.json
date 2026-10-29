@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "118d029a647a76156f557b3c260252d58f3d05b2",
+      "title": "Amazon RDS for Oracle now supports September 2026 Monthly Recommended Patch",
+      "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports the September 2026 Monthly Recommended Patch (MRP) for Oracle Database version 19c and 26ai. An MRP is a minor engine version th...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-28T21:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-september-mrp",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9109257cc35fc3a79bde4c9c31c513bda0903bd6",
+      "title": "Amazon Bedrock AgentCore CLI version 1.0 is now available",
+      "summary": "AWS announces the general availability of Amazon Bedrock AgentCore CLI version 1.0 (@aws/agentcore 1.0.0), rebuilt with faster startup, a consistent command structure, and support for more AgentCore r...",
+      "category": "AI_ML",
+      "timestamp": "2026-10-28T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-agentcore-cli-version-1-0-available/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ef73768c6b0de5ed1e1d7964b573ed46b78f0d04",
+      "title": "AWS Lambda supports Seekable OCI (SOCI) lazy loading for Lambda Managed Instances ",
+      "summary": "AWS Lambda now supports Seekable OCI (SOCI) for lazy loading Event Functions packaged as Open Container Initiative (OCI) images running on Lambda Managed Instances. With SOCI support, Lambda fetches o...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-10-28T18:44:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-seekable-oci-soci/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a1d9dd307b56585bf315ca1bdc9ac6dd5d503123",
+      "title": "Introducing time series collections for the next generation of Amazon OpenSearch Serverless",
+      "summary": "Today, we're announcing support for time series collections on the next generation of Amazon OpenSearch Serverless. With time series collections, you can ingest, store, and analyze logs, metrics, trac...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-28T18:35:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/time-series-collection-next-generation-opensearch-serverless/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c91aa9a8823bd097410d67eddcefd5b57a8e9012",
+      "title": "Quick now supports smart approvals for agentic actions",
+      "summary": "Amazon Quick now supports smart approvals, a review layer that reduces unnecessary approval prompts while preserving human oversight of the actions that matter most. As agents take more actions on a u...",
+      "category": "OTHER",
+      "timestamp": "2026-10-28T18:28:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/quick-smart-approvals-agentic-actions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b0bb19bc12baf292d6ec190fa2b46a176c08465d",
+      "title": "Amazon EKS Dashboard now provides fleet-wide visibility into certificate authority (CA) rotation",
+      "summary": "Today, Amazon Elastic Kubernetes Service (Amazon EKS) announces certificate authority (CA) rotation visibility in the Amazon EKS Dashboard, giving you a consolidated view of CA rotation across your cl...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-10-28T18:07:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-dashboard-fleet-wide-visibility-certificate-authority-ca-rotation/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b7a29c601af051b84bc2ba29ee88822a7398532d",
+      "title": "AWS Lambda durable functions now exports live telemetry for execution insights ",
+      "summary": "AWS Lambda announces the Durable Execution Telemetry Exporter plugin for Lambda durable functions. This new observability plugin captures the step-by-step history of your durable executions and sends ...",
+      "category": "DATABASE",
+      "timestamp": "2026-10-28T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/lambda-durable-telemetry/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6f504586d36baf58417c8efbb5b80e5b278fc9e8",
+      "title": "Amazon ECS Managed Instances adds cross-instance and Spot consolidation",
+      "summary": "Today, Amazon Elastic Container Service (Amazon ECS) Managed Instances introduces two infrastructure optimization updates: cross-instance and Spot consolidation. Cross-instance consolidation evaluates...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-10-28T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/ecs-managed-instances-consolidation/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5cac41800c97cfb88b23bf77bdabf7b33f14fcb7",
+      "title": "Amazon EKS Auto Mode now supports Kubernetes Gateway API",
+      "summary": "Amazon EKS Auto Mode now supports the Kubernetes Gateway API, giving customers a standard, portable way to define how traffic reaches their applications. Customers can configure application load balan...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-28T17:33:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-auto-mode-kubernetes-gateway-api/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "570915d1de33f8940cbe123a8b0aa650e1dddb08",
+      "title": "AWS Backup adds restore testing support for Amazon Redshift",
+      "summary": "AWS Backup restore testing now supports Amazon Redshift. Restore testing helps you automate and periodically run restore tests of your backups, so you can confirm that your Amazon Redshift backups res...",
+      "category": "DATABASE",
+      "timestamp": "2026-10-28T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-backup-adds-redshift-restore-testing/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "d227e8eeef7f0756ae763fa2fa03d1e108b1ea32",
       "title": "Amazon ECS now supports GPU sharing with NVIDIA Multi-Process Service (MPS)",
       "summary": "Amazon Elastic Container Service (Amazon ECS) now supports GPU sharing with NVIDIA Multi-Process Service (MPS), enabling you to run multiple Amazon ECS tasks concurrently on a single NVIDIA GPU. GPU s...",
@@ -5889,83 +5989,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-codedeploy-five-additional-regions",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "6431cfb35c5a0c9380c6b6daef631601c8d1d428",
-      "title": "Amazon EC2 C7i-flex instances now available in Europe (Milan) region",
-      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C7i-flex instances powered by custom 4th Gen Intel Xeon Scalable processors (code-named Sapphire Rapids) are available in Europe (Milan) regio...",
-      "category": "COMPUTE",
-      "timestamp": "2026-07-31T00:21:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c7i-flex-instances-MXP-region/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "5fb2e9574387f59c7c100fa33f9d653ea51d4d72",
-      "title": "Amazon EC2 C7i instances now available in additional regions ",
-      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C7i instances powered by custom 4th Gen Intel Xeon Scalable processors (code-named Sapphire Rapids) are available in Europe (Milan) and Canada...",
-      "category": "COMPUTE",
-      "timestamp": "2026-07-31T00:17:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c7i-instances-mxp-yyc-region/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "9553f10d9266dad475930843c22a3b9fd506246d",
-      "title": "Amazon SageMaker Unified Studio brings richer Git version control to all project tools ",
-      "summary": "Amazon SageMaker Unified Studio gives project members full Git version control directly within the tools you already use - Query Editor, Visual ETL, Workflows, and Notebooks. The enhanced Repositories...",
-      "category": "AI_ML",
-      "timestamp": "2026-07-30T22:37:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified-studio-git/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "5257ef2664ff69aebf6a915edd0f5676576e8210",
-      "title": "AWS Direct Connect now supports BGP route visibility on Virtual Interfaces",
-      "summary": "AWS Direct Connect now provides Border Gateway Protocol (BGP) route visibility, allowing you to view the routes exchanged between AWS and your on-premises routers across your private, transit, and pub...",
-      "category": "NETWORKING",
-      "timestamp": "2026-07-30T20:21:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-direct-connect-bgp-visibility/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4c1791863df1e77ca1684bab9b369b3469bab021",
-      "title": "Amazon Redshift RG large and 12xlarge instances now available on the trailing track",
-      "summary": "Amazon Redshift now supports Graviton-based RG instances on the trailing track. Starting today, rg.large and rg.12xlarge instance types are available for customers running workloads on the trailing tr...",
-      "category": "DATABASE",
-      "timestamp": "2026-07-30T20:02:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-rg-large-12xlarge-trailing-track",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "02440e498cce6157dc22a4330671d01f26153993",
-      "title": "IAM Policy Simulator moves to the IAM console and adds additional capabilities",
-      "summary": "AWS Identity and Access Management (IAM) announces a major update to IAM Policy Simulator, the tool you use to test and validate the permissions your IAM policies grant before you deploy them. This up...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-30T17:43:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/iam-policy-simulator-iam-console/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 595,
+    "total": 599,
     "byCategory": {
-      "CONTAINERS": 35,
+      "SECURITY": 132,
       "AI_ML": 103,
-      "DATABASE": 67,
-      "OTHER": 128,
-      "SECURITY": 130,
-      "COMPUTE": 71,
+      "CONTAINERS": 38,
+      "OTHER": 129,
+      "DATABASE": 68,
+      "COMPUTE": 69,
       "SERVERLESS": 22,
       "STORAGE": 20,
       "ANALYTICS": 11,
-      "NETWORKING": 8
+      "NETWORKING": 7
     },
-    "lastUpdated": "2026-10-28T16:27:01.833Z"
+    "lastUpdated": "2026-10-29T01:34:41.667Z"
   },
-  "generatedAt": "2026-10-28T16:27:01.833Z"
+  "generatedAt": "2026-10-29T01:34:41.667Z"
 }
