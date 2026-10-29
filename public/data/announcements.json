@@ -5939,73 +5939,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-adds-multi-region-clusters-four-more-regions/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "1cbf3eac21a04ddd1889d9f77f73e56e9185f181",
-      "title": "Amazon RDS for Oracle now offers Reserved Instances for R8i and M8i instances",
-      "summary": "Amazon RDS for Oracle now offers 1-year and 3-year Reserved Instances for R8i and M8i instances with up to 53% cost savings compared to On-Demand prices. These instances are powered by custom Intel Xe...",
-      "category": "DATABASE",
-      "timestamp": "2026-07-31T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-oracle-r8i-m8i/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "7abd6fb7c1447d6ef6cbffce28784fae487c4d71",
-      "title": "AWS Lambda now supports Java 8, 11, and 17 on Amazon Linux 2023",
-      "summary": "AWS Lambda now supports Java 8, Java 11, and Java 17 runtimes on Amazon Linux 2023 (AL2023), available as both managed runtimes and container base images. These new runtimes enable customers running L...",
-      "category": "SECURITY",
-      "timestamp": "2026-07-31T14:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "71926e719272cd4643e37186af305d8b3fb9c30a",
-      "title": "Amazon Location Service adds Search Nearby support for GrabMaps in Southeast Asia",
-      "summary": "Amazon Location Service now supports proximity-based point of interest discovery with GrabMaps data in the Asia Pacific (Singapore) and Asia Pacific (Malaysia) AWS Regions. Builders creating local dis...",
-      "category": "OTHER",
-      "timestamp": "2026-07-31T14:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-search-nearby-grabmaps",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "16d141ca5387f7e26c9e211d226689d790a8dd8a",
-      "title": "Amazon CloudWatch announces managed Prometheus collectors",
-      "summary": "Amazon CloudWatch now supports collecting Prometheus metrics from your AWS infrastructure using fully managed collectors — enabling you to monitor Amazon EKS, Amazon EC2, Amazon ECS, Amazon MSK, and A...",
-      "category": "CONTAINERS",
-      "timestamp": "2026-07-31T13:06:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/cloudwatch-managed-collectors/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ae96c9f566b3e1bbf318a6581cb3aa8b31ca9265",
-      "title": "AWS CodeDeploy now available in five additional AWS regions",
-      "summary": "AWS CodeDeploy is now available in five additional AWS Regions: Asia Pacific (New Zealand), Asia Pacific (Thailand), Asia Pacific (Taipei), Asia Pacific (Malaysia), and Mexico (Central). AWS CodeDeplo...",
-      "category": "CONTAINERS",
-      "timestamp": "2026-07-31T10:54:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-codedeploy-five-additional-regions",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 599,
+    "total": 594,
     "byCategory": {
-      "SECURITY": 132,
+      "SECURITY": 131,
       "AI_ML": 103,
-      "CONTAINERS": 38,
-      "OTHER": 129,
-      "DATABASE": 68,
+      "CONTAINERS": 36,
+      "OTHER": 128,
+      "DATABASE": 67,
       "COMPUTE": 69,
       "SERVERLESS": 22,
       "STORAGE": 20,
       "ANALYTICS": 11,
       "NETWORKING": 7
     },
-    "lastUpdated": "2026-10-29T01:34:41.667Z"
+    "lastUpdated": "2026-10-29T16:38:54.435Z"
   },
-  "generatedAt": "2026-10-29T01:34:41.667Z"
+  "generatedAt": "2026-10-29T16:38:54.435Z"
 }
