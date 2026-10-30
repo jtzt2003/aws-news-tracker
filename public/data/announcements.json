@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "c447ee5df3f8309ca884fc41318c20931c019601",
+      "title": "AWS Glue Data Catalog now supports Apache Iceberg table optimization in the US West (N. California) Region",
+      "summary": "AWS Glue Data Catalog now supports automatic table optimization for Apache Iceberg tables in the US West (N. California) Region. Apache Iceberg is an open table format that delivers fast query perform...",
+      "category": "ANALYTICS",
+      "timestamp": "2026-10-30T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/glue-data-catalog-optimizers-us-west-1/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "434a9913339a1c32c6fe40c02d0ec36b66177ff6",
       "title": "AWS Marketplace now enables partners to list once and sell through multiple subsidiary accounts",
       "summary": "Today, AWS announces that AWS partners who operate multiple legal entities can publish a product listing once in their primary account and enable their local subsidiaries to sell it through direct pri...",
@@ -6022,12 +6032,12 @@
     }
   ],
   "stats": {
-    "total": 602,
+    "total": 603,
     "byCategory": {
+      "ANALYTICS": 13,
       "OTHER": 130,
       "DATABASE": 68,
       "SECURITY": 133,
-      "ANALYTICS": 12,
       "AI_ML": 104,
       "COMPUTE": 70,
       "CONTAINERS": 36,
@@ -6035,7 +6045,7 @@
       "STORAGE": 20,
       "NETWORKING": 7
     },
-    "lastUpdated": "2026-10-30T01:35:52.103Z"
+    "lastUpdated": "2026-10-30T16:32:35.322Z"
   },
-  "generatedAt": "2026-10-30T01:35:52.103Z"
+  "generatedAt": "2026-10-30T16:32:35.322Z"
 }
