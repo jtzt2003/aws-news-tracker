@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "434a9913339a1c32c6fe40c02d0ec36b66177ff6",
+      "title": "AWS Marketplace now enables partners to list once and sell through multiple subsidiary accounts",
+      "summary": "Today, AWS announces that AWS partners who operate multiple legal entities can publish a product listing once in their primary account and enable their local subsidiaries to sell it through direct pri...",
+      "category": "OTHER",
+      "timestamp": "2026-10-29T20:12:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-marketplace-subsidiary-account-authorization",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a218ad130e39a4672fb58325557de5656bebd26b",
+      "title": "Amazon RDS for Oracle and SQL Server now support storage autoscaling on additional storage volumes",
+      "summary": "Amazon RDS for SQL Server and Amazon RDS for Oracle now support RDS storage autoscaling on additional storage volumes. RDS storage autoscaling automatically scales storage capacity in response to grow...",
+      "category": "DATABASE",
+      "timestamp": "2026-10-29T18:06:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-sqlserver-autoscaling-additional-storage-volumes",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ce6ed10f75f13bd11f6653742108c16da3a4eadf",
+      "title": "Amazon Aurora now supports post-quantum TLS key exchange",
+      "summary": "Starting today, Amazon Aurora PostgreSQL-Compatible Edition introduces support for post-quantum TLS (PQ-TLS) key exchange, providing you with post-quantum cryptography options for encrypting your data...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-29T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-postgresql-post-quantum-tls-key-exchange/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "752e236292a5ae074221a50751d31c81bc3df1c6",
+      "title": "Amazon MSK Connect now supports updating connector plugins and worker configurations",
+      "summary": "Amazon MSK Connect (Amazon Managed Streaming for Apache Kafka Connect) now lets you update the custom plugin and worker configuration of an existing connector. This is useful when you need to update t...",
+      "category": "ANALYTICS",
+      "timestamp": "2026-10-29T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-msk-connect-update-plugin-worker-configurations",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "08b6fb71e4f6428ecfc7252bc1286f21ec367ec3",
+      "title": "AWS Step Functions workflows now available as AI agent tools",
+      "summary": "You can now use your AWS Step Functions workflows as tools for AI agents through Amazon Bedrock AgentCore Gateway. Your agent decides when to run a workflow and what input to pass, and Step Functions ...",
+      "category": "AI_ML",
+      "timestamp": "2026-10-29T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/step-functions-workflows-ai-agent-tools/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "aa7f0cce667ad347bd5bab0f8ff3e665e0995b6b",
+      "title": "Amazon DynamoDB Accelerator (DAX) is now available in additional Regions",
+      "summary": "Amazon DynamoDB Accelerator (DAX) is now available in two additional AWS Regions: Canada (Central) and Africa (Cape Town). DAX is a fully managed, highly available, in-memory cache for Amazon DynamoDB...",
+      "category": "DATABASE",
+      "timestamp": "2026-10-29T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/dax-additional-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1d4e80e6d3665eabde241c65a09271914cac3f54",
+      "title": "ACM now supports ACME for public certificates in AWS GovCloud (US)",
+      "summary": "AWS Certificate Manager (ACM) ACME protocol support is now available in AWS GovCloud (US-East) and AWS GovCloud (US-West), providing a fully managed ACME server endpoint that issues public TLS certifi...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-29T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/acm-acme-support-govcloud-us/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "299514e963fee2299882c211483246d8655b2c33",
+      "title": "AWS DataSync Enhanced mode now supports Amazon FSx for Windows File Server, FSx for NetApp ONTAP, and Red Hat OpenShift Virtualization",
+      "summary": "AWS DataSync Enhanced mode now supports Amazon FSx for Windows File Server and Amazon FSx for NetApp ONTAP as source or destination locations. You can now run Windows to Windows transfers, such as fro...",
+      "category": "COMPUTE",
+      "timestamp": "2026-10-29T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/datasync-enhanced-fsx-openshift/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "51394e29679c98b5e16fde925542e43fb0ffd0a8",
+      "title": "Amazon Managed Grafana now supports in-place upgrade to Grafana version 13.2",
+      "summary": "Amazon Managed Grafana now supports in-place upgrade from Grafana version 12.4 to 13.2. Upgrading to version 13.2 brings features launched as part of open-source Grafana versions 13.0 to 13.2. These i...",
+      "category": "OTHER",
+      "timestamp": "2026-10-29T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/managed-grafana-upgrade-version-13-2/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "15c2982606a5dccd557757ececeda4fa0430fe18",
+      "title": "Amazon SageMaker AI now supports SOCI-indexed images to start training jobs in seconds",
+      "summary": "Today, Amazon SageMaker AI announces support for Seekable OCI (SOCI)-indexed container images for training and processing jobs, so your jobs start running your code sooner. SOCI-indexed images start A...",
+      "category": "AI_ML",
+      "timestamp": "2026-10-29T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-ai-soci-images-training/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "118d029a647a76156f557b3c260252d58f3d05b2",
       "title": "Amazon RDS for Oracle now supports September 2026 Monthly Recommended Patch",
       "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports the September 2026 Monthly Recommended Patch (MRP) for Oracle Database version 19c and 26ai. An MRP is a minor engine version th...",
@@ -5919,43 +6019,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-config-new-resource-types",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "20f04d926af070fee7e5e66fc53e08605c655592",
-      "title": "Amazon SageMaker Unified Studio now supports Teradata Vantage",
-      "summary": "Amazon SageMaker Unified Studio now supports Teradata Vantage as a data source, enabling you to query and analyze your enterprise data warehouse data directly alongside your other data assets. With th...",
-      "category": "AI_ML",
-      "timestamp": "2026-07-31T20:19:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified-teradata",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "45d52a7cb4695a3a31176abe09519fe31d809f5c",
-      "title": "Amazon Aurora DSQL adds multi-Region cluster support in four more Regions",
-      "summary": "Starting today, Amazon Aurora DSQL supports multi-Region clusters in four additional AWS Regions: Europe (Stockholm), Europe (Spain), Asia Pacific (Mumbai), and Asia Pacific (Singapore). Aurora DSQL i...",
-      "category": "DATABASE",
-      "timestamp": "2026-07-31T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-adds-multi-region-clusters-four-more-regions/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 594,
+    "total": 602,
     "byCategory": {
-      "SECURITY": 131,
-      "AI_ML": 103,
+      "OTHER": 130,
+      "DATABASE": 68,
+      "SECURITY": 133,
+      "ANALYTICS": 12,
+      "AI_ML": 104,
+      "COMPUTE": 70,
       "CONTAINERS": 36,
-      "OTHER": 128,
-      "DATABASE": 67,
-      "COMPUTE": 69,
       "SERVERLESS": 22,
       "STORAGE": 20,
-      "ANALYTICS": 11,
       "NETWORKING": 7
     },
-    "lastUpdated": "2026-10-29T16:38:54.435Z"
+    "lastUpdated": "2026-10-30T01:35:52.103Z"
   },
-  "generatedAt": "2026-10-29T16:38:54.435Z"
+  "generatedAt": "2026-10-30T01:35:52.103Z"
 }
