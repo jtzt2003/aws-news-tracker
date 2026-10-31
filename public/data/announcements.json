@@ -1,12 +1,112 @@
 {
   "announcements": [
     {
+      "id": "90d634c9e73519a12114d1c7cbddda2269f0a5e2",
+      "title": "Amazon Bedrock expands API support and introduces Cross-Region Inferencing for OpenAI models in AWS GovCloud (US)",
+      "summary": "Amazon Bedrock now supports the OpenAI GPT-5.6 models (Terra and Luna) on the bedrock-runtime endpoint, with support for the Responses, Converse, and Chat Completions APIs in AWS GovCloud (US). It als...",
+      "category": "AI_ML",
+      "timestamp": "2026-10-30T20:43:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-openai-runtime-govcloud/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "df06406c54979dfb60aa14a12d2173500870493b",
+      "title": "Web Search now available on Kiro in AWS GovCloud (US)",
+      "summary": "Kiro web search gives the agent real-time access to current information on the internet, so its answers draw on up-to-date search results and page content. The agent uses web search automatically when...",
+      "category": "OTHER",
+      "timestamp": "2026-10-30T19:40:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/kiro-web-search-aws-govcloud-us/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ebd41dffa30d68683fd1f05e485ea0d15ed555d3",
+      "title": "Amazon Connect Customer automatically saves in-progress emails as drafts",
+      "summary": "Amazon Connect Customer automatically saves in-progress emails as drafts, helping agents resume work without losing progress when connectivity is interrupted or when their browser is accidentally clos...",
+      "category": "STORAGE",
+      "timestamp": "2026-10-30T19:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-connect-email-draft-save/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "44eb82e3e0e4e2d78924e1a3da14ed0de5018b46",
+      "title": "Daybreak Red from OpenAI now available to eligible customers on Amazon Bedrock in AWS GovCloud (US-East)",
+      "summary": "Security teams need powerful tools to find vulnerabilities, test exploits, and build defenses. Daybreak Red from OpenAI is now available to eligible customers on Amazon Bedrock in AWS GovCloud (US-Eas...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-30T18:20:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-daybreak-red-govcloud-east/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "895640e1e7e3c3aa8dc335af8c829b494fe49694",
+      "title": "Amazon CloudFront now provides viewer ISP and post-quantum TLS details ",
+      "summary": "Amazon CloudFront can now forward two new optional headers to your origin. The CloudFront-Viewer-ISP header contains the name of the viewer's internet service provider (ISP), so you can see which netw...",
+      "category": "NETWORKING",
+      "timestamp": "2026-10-30T18:15:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudfront-viewer-isp-post-quantum-visbility/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "203ca073d81dcb45e1fce41776f353f2757e28b9",
+      "title": "Amazon MSK now supports TLS 1.3 for data in transit ",
+      "summary": "Amazon MSK now supports version 1.3 of Transport Layer Security (TLS) protocol for MSK Provisioned clusters through encryption policies. TLS 1.3 delivers faster, more secure encryption for streaming d...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-30T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-msk-tls/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "bd097fe58f1f5c2a6612b2fad48d8104feacb590",
+      "title": "Amazon RDS for Oracle no longer requires automatic minor version upgrades for JVM, Spatial, Locator, and OLAP options",
+      "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle now lets you turn off automatic minor version upgrades on new and existing DB instances that use the JVM, Spatial, Locator, or OLAP option. P...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-30T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/oracle-jvm-spatial-locator-olap-options-amvu-optional/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d90b410693cece436db43a8262bd721ce9cd3363",
+      "title": "AWS WAF announces automatic SDK integration for Amazon CloudFront distributions",
+      "summary": "AWS WAF announces automatic SDK integration for Amazon CloudFront distributions. When you enable it, CloudFront adds the script tag for the AWS WAF JavaScript SDK to the HTML it serves, with no change...",
+      "category": "SECURITY",
+      "timestamp": "2026-10-30T15:57:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-waf-automatic-sdk-integration-amazon-cloudfront/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "882da41b114479d7e8bda60ff9fcb1fec8afc04b",
+      "title": "Amazon Connect Customer now supports versioning and aliasing for flows",
+      "summary": "Amazon Connect Customer now supports versioning and aliasing for flows and flow modules, simplifying how you build, test, and deploy customer experience flows while minimizing impact to live end-custo...",
+      "category": "OTHER",
+      "timestamp": "2026-10-30T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-flows-versioning-aliasing/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "c447ee5df3f8309ca884fc41318c20931c019601",
       "title": "AWS Glue Data Catalog now supports Apache Iceberg table optimization in the US West (N. California) Region",
       "summary": "AWS Glue Data Catalog now supports automatic table optimization for Apache Iceberg tables in the US West (N. California) Region. Apache Iceberg is an open table format that delivers fast query perform...",
       "category": "ANALYTICS",
       "timestamp": "2026-10-30T08:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/glue-data-catalog-optimizers-us-west-1/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f4695226ea2d8376e6a6dfecb91ff38ac7dbc417",
+      "title": "Managed Prometheus collectors now support Amazon MSK consumer-group metrics",
+      "summary": "Managed Prometheus collectors now support Amazon MSK consumer-group metrics for Amazon Managed Service for Prometheus and Amazon CloudWatch. The integration collects Kafka exporter metrics and consume...",
+      "category": "ANALYTICS",
+      "timestamp": "2026-10-30T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/prometheus-collectors-msk-metrics/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -6032,20 +6132,20 @@
     }
   ],
   "stats": {
-    "total": 603,
+    "total": 613,
     "byCategory": {
-      "ANALYTICS": 13,
-      "OTHER": 130,
+      "AI_ML": 105,
+      "OTHER": 132,
+      "STORAGE": 21,
+      "SECURITY": 137,
+      "NETWORKING": 8,
+      "ANALYTICS": 14,
       "DATABASE": 68,
-      "SECURITY": 133,
-      "AI_ML": 104,
       "COMPUTE": 70,
       "CONTAINERS": 36,
-      "SERVERLESS": 22,
-      "STORAGE": 20,
-      "NETWORKING": 7
+      "SERVERLESS": 22
     },
-    "lastUpdated": "2026-10-30T16:32:35.322Z"
+    "lastUpdated": "2026-10-31T01:25:56.390Z"
   },
-  "generatedAt": "2026-10-30T16:32:35.322Z"
+  "generatedAt": "2026-10-31T01:25:56.390Z"
 }
