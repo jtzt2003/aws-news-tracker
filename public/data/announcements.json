@@ -6089,63 +6089,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-sagemaker-fft",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "598365edf42480248e303632e8bb046221d1e69d",
-      "title": "AWS Transform for full-stack Windows modernization now supports offline schema transformation to Aurora PostgreSQL",
-      "summary": "Today, AWS Transform for full-stack Windows modernization announced general availability of offline source transformation, enabling customers to modernize Microsoft SQL Server databases to Amazon Auro...",
-      "category": "DATABASE",
-      "timestamp": "2026-08-03T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/7/aws-transform-windows-sql-schema-aurora",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b548e9ab496a2523733705b090060be3676e4f9a",
-      "title": "AWS WAF now supports Miggo Security managed rule groups for emerging threats and AI/ML application protection",
-      "summary": "AWS WAF now supports two new partner managed rule groups from Miggo Security, available through AWS Marketplace: Miggo Rules for AWS WAF – High Emerging Application Threats, and Miggo Rules for AWS WA...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-03T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-waf-miggo-managed-rule-groups",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "217c58db41a572fc93946e1187e7d038fc003ddd",
-      "title": "Amazon ECR now supports image layers up to 200 GB",
-      "summary": "Amazon Elastic Container Registry (Amazon ECR) has increased the maximum image layer size limit to 200 GB, for images pushed via Docker push.\n \nPreviously, packaging assets required splitting data acr...",
-      "category": "CONTAINERS",
-      "timestamp": "2026-08-03T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecr-image-layers/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "50645b9232d57faff446dab239e5fa205cc9b9e1",
-      "title": "AWS Config now supports 15 new resource types",
-      "summary": "AWS Config now supports 15 additional AWS resource types across key services including Amazon Bedrock,  Amazon OpenSearch Serverless, and Amazon SageMaker. This expansion provides greater coverage ove...",
-      "category": "AI_ML",
-      "timestamp": "2026-08-03T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-config-new-resource-types",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 613,
+    "total": 609,
     "byCategory": {
-      "AI_ML": 105,
+      "AI_ML": 104,
       "OTHER": 132,
       "STORAGE": 21,
-      "SECURITY": 137,
+      "SECURITY": 136,
       "NETWORKING": 8,
       "ANALYTICS": 14,
-      "DATABASE": 68,
+      "DATABASE": 67,
       "COMPUTE": 70,
-      "CONTAINERS": 36,
+      "CONTAINERS": 35,
       "SERVERLESS": 22
     },
-    "lastUpdated": "2026-11-01T00:43:46.708Z"
+    "lastUpdated": "2026-11-01T16:35:48.660Z"
   },
-  "generatedAt": "2026-11-01T00:43:46.708Z"
+  "generatedAt": "2026-11-01T16:35:48.660Z"
 }
