@@ -5999,113 +5999,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sql-server-supports-developer-edition-in-additional-aws-regions/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "a7ef5fec1338e15bff459df3dbd05839abf94ff8",
-      "title": "AWS Transform continuous modernization is now generally available ",
-      "summary": "AWS Transform continuous modernization is now generally available in all AWS Regions where AWS Transform is supported. This capability helps engineering teams analyze and remediate technical debt acro...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-03T21:15:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/7/aws-transform-continuous-general-available",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "52a9fe4121a3210ea9646932dada24d0bc4dfa94",
-      "title": "OpenAI GPT-5.6 Sol, Terra, and Luna now support 1 million token context windows on Amazon Bedrock",
-      "summary": "GPT-5.6 Sol, Terra, and Luna now support 1 million token context windows on Amazon Bedrock, enabling you to process full codebases, lengthy documents, and multi-turn agent histories in a single reques...",
-      "category": "AI_ML",
-      "timestamp": "2026-08-03T21:03:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/gpt-sol-terra-luna-long-context-bedrock",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "8592d2224311a923c326006a58705a23dd074156",
-      "title": "Amazon GameLift Streams now supports sharing streams with stream URLs",
-      "summary": "Amazon GameLift Streams now offers stream URLs, which give end users temporary, unauthenticated access to a playable stream session in a supported web browser. Recipients need no AWS account, no crede...",
-      "category": "OTHER",
-      "timestamp": "2026-08-03T20:24:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-gamelift-streams/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "e1f2278fe5c7ba8ef35881f9b096439ae54924ca",
-      "title": "AWS HealthOmics now supports task-level timeout for WDL workflows ",
-      "summary": "AWS HealthOmics now supports task-level timeout for Workflow Description Language (WDL) workflows, enabling you to set maximum execution duration for individual tasks. AWS HealthOmics is a HIPAA-eligi...",
-      "category": "OTHER",
-      "timestamp": "2026-08-03T20:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-healthomics-wdl-task-level-timeout/ ",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "efdd809a0dbe6a9e7b207e01db704735eb8f82fe",
-      "title": "AWS Resilience Hub now provides recommended resilience tests",
-      "summary": "AWS Resilience Hub now offers recommended resilience tests that help platform engineering and site reliability teams validate how their services respond to and recover from known failure scenarios. \n ...",
-      "category": "OTHER",
-      "timestamp": "2026-08-03T19:02:58.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-resilience-hub/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "3437b1185e3b2e560d50ad78f944563f7daf4d9b",
-      "title": "AWS Organizations now provides maximum account quota visibility in Service Quotas",
-      "summary": "AWS Organizations customers can now view their maximum number of accounts quota and its utilization directly through AWS Service Quotas instead of relying on AWS Support or AWS account teams to determ...",
-      "category": "OTHER",
-      "timestamp": "2026-08-03T18:54:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-organizations/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "dd99b6dedbbbb249405f158b7941a492e5ca975f",
-      "title": "AWS Lambda Provisioned Mode for Amazon SQS event source mappings now supports up to 10,000 event pollers",
-      "summary": "AWS Lambda now supports a maximum of 10,000 event pollers for Provisioned Mode for Amazon SQS event source mappings (ESMs), a 5x increase from the previous limit of 2,000. This enables you to reach up...",
-      "category": "SERVERLESS",
-      "timestamp": "2026-08-03T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-Lambda-provisioned-sqs-esm-max-pollers/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "bb59e3b53f38c5bf77593e9288b889cca4108569",
-      "title": "Amazon EC2 I7i instances now available in Asia Pacific (Thailand) and Israel (Tel Aviv) Regions",
-      "summary": "Amazon Web Services (AWS) announces the availability of high performance Storage Optimized Amazon EC2 I7i instances in the Asia Pacific (Thailand) and Israel (Tel Aviv) Regions. Powered by 5th Gen Int...",
-      "category": "COMPUTE",
-      "timestamp": "2026-08-03T17:28:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-i7i-instances-in-additional-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "aa9e9facf41b719992d954abcd7972cb0f75274f",
-      "title": "Amazon SageMaker AI serverless model customization now supports full fine-tuning",
-      "summary": "Amazon SageMaker AI serverless model customization now supports full fine-tuning for over 25 open-source models. These include popular models from gpt-oss, Gemma, Llama, Nemotron, and Qwen model famil...",
-      "category": "AI_ML",
-      "timestamp": "2026-08-03T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-sagemaker-fft",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 609,
+    "total": 600,
     "byCategory": {
-      "AI_ML": 104,
-      "OTHER": 132,
+      "AI_ML": 102,
+      "OTHER": 128,
       "STORAGE": 21,
-      "SECURITY": 136,
+      "SECURITY": 135,
       "NETWORKING": 8,
       "ANALYTICS": 14,
       "DATABASE": 67,
-      "COMPUTE": 70,
+      "COMPUTE": 69,
       "CONTAINERS": 35,
-      "SERVERLESS": 22
+      "SERVERLESS": 21
     },
-    "lastUpdated": "2026-11-01T16:35:48.660Z"
+    "lastUpdated": "2026-11-02T01:17:38.405Z"
   },
-  "generatedAt": "2026-11-01T16:35:48.660Z"
+  "generatedAt": "2026-11-02T01:17:38.405Z"
 }
