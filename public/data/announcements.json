@@ -1,6 +1,26 @@
 {
   "announcements": [
     {
+      "id": "eee4fbcb582d52ebd6dbe35bfb6f1e5df7e4630e",
+      "title": "Amazon RDS now supports per snapshot billing",
+      "summary": "Starting today, Amazon RDS supports per snapshot billing for Amazon RDS snapshots. Per snapshot billing allows you to get the cost of each individual snapshot.\n \nPreviously, RDS snapshot charges were ...",
+      "category": "DATABASE",
+      "timestamp": "2026-11-02T18:43:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-per-snapshot-billing/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "183cdd10ccbab444b1698a32a2db0762830e99e9",
+      "title": "Amazon Quick on desktop now uses your organization's existing Amazon Quick sign-in",
+      "summary": "For organizations that use Amazon Quick, the desktop application now signs users in with the same sign-in method the organization already uses for Quick on the web. Administrators no longer need to re...",
+      "category": "OTHER",
+      "timestamp": "2026-11-02T18:36:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-quick-desktop-organization-sign-in/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "90d634c9e73519a12114d1c7cbddda2269f0a5e2",
       "title": "Amazon Bedrock expands API support and introduces Cross-Region Inferencing for OpenAI models in AWS GovCloud (US)",
       "summary": "Amazon Bedrock now supports the OpenAI GPT-5.6 models (Terra and Luna) on the bedrock-runtime endpoint, with support for the Responses, Converse, and Chat Completions APIs in AWS GovCloud (US). It als...",
@@ -5919,103 +5939,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-emr-ec2-spark-connect/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "00f3afa813421938a031f5e9bb8922fbcbd18652",
-      "title": "AWS Security Hub Extended adds supply chain security as its 10th category",
-      "summary": "The AWS Security Hub Extended plan now includes Supply Chain Security as its 10th security category, with Chainguard and Socket as the curated partners. As developers adopt open-source libraries at sc...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-04T19:14:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-security-hub-extended-adds-supply-chain-security",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "21e3f5ca27dc1b45ed5ee75d14fc24d56ddce55e",
-      "title": "Amazon EC2 C8g instances now available in additional regions",
-      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8g instances are available in AWS Europe (Paris), AWS Africa (Cape Town), AWS Israel (Tel Aviv), and AWS Canada West (Calgary) regions. These...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-04T18:57:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8g-instances-additional-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "aa864724d755a63d6a52f019c4a5a861bd069310",
-      "title": "AWS Application and Network Load Balancers now support RFC 9151 compliant security policies",
-      "summary": "AWS Application Load Balancer (ALB) and Network Load Balancer (NLB) now support new TLS-based security policies that comply with RFC 9151 TLS server requirements for Commercial National Security Algor...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-04T18:28:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-application-network/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "d52c23c0fbfad667b853e7ea31379cc4b1f2c08a",
-      "title": "Amazon S3 Vectors is now available in the AWS European Sovereign Cloud (Germany) Region",
-      "summary": "Amazon S3 Vectors is now available in the AWS European Sovereign Cloud (Germany) Region. Amazon S3 Vectors is purpose-built vector storage for AI agents, inference, Retrieval Augmented Generation (RAG...",
-      "category": "STORAGE",
-      "timestamp": "2026-08-04T18:15:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-s3-vectors-european-sovereign-cloud-germany/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "848a3b2e0e3c4c301b4384d1a5e261faddab63e2",
-      "title": "Amazon Connect Customer now supports capacity planning in 15 or 30 minute intervals",
-      "summary": "Amazon Connect Customer now lets you generate capacity plans at the interval level (15-minute or 30-minute intervals), giving workforce planners visibility into more granular staffing requirements acr...",
-      "category": "OTHER",
-      "timestamp": "2026-08-04T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-interval-capacity-plan",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "af8bee8f01ea483395377ac8b6ea0b930433cbc3",
-      "title": "Amazon EC2 I8g instances now available in AWS Europe (Paris), Asia Pacific (Jakarta) regions",
-      "summary": "AWS announces the general availability of Amazon EC2 Storage Optimized I8g instances in AWS Europe (Paris) and Asia Pacific (Jakarta) regions. I8g instances are powered by AWS Graviton4 processors and...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-04T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-i8g-instances-aws-paris-jakarta-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f648329a0eceebac7ab8c4efdf72213184675abe",
-      "title": "Amazon RDS for SQL Server now support BYOM in additional commercial regions",
-      "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports Bring Your Own Media (BYOM) in 10 additional AWS Regions: Asia Pacific (Taipei, Hyderabad, Jakarta, Malaysia, Melbourne, New...",
-      "category": "DATABASE",
-      "timestamp": "2026-08-04T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sql-server-supports-byom-in-additional-aws-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "560afc0860aaccc61ffd0d94a28b58e52474abbe",
-      "title": "Amazon RDS for SQL Server supports Developer Edition in additional AWS regions",
-      "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server Developer Edition is now available in 13 additional AWS Regions: Asia Pacific (Hong Kong, Taipei, Hyderabad, Jakarta, Malaysia, Melbourne...",
-      "category": "DATABASE",
-      "timestamp": "2026-08-04T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sql-server-supports-developer-edition-in-additional-aws-regions/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 600,
+    "total": 594,
     "byCategory": {
-      "AI_ML": 102,
+      "DATABASE": 66,
       "OTHER": 128,
-      "STORAGE": 21,
-      "SECURITY": 135,
+      "AI_ML": 102,
+      "STORAGE": 20,
+      "SECURITY": 131,
       "NETWORKING": 8,
       "ANALYTICS": 14,
-      "DATABASE": 67,
       "COMPUTE": 69,
       "CONTAINERS": 35,
       "SERVERLESS": 21
     },
-    "lastUpdated": "2026-11-02T01:17:38.405Z"
+    "lastUpdated": "2026-11-02T19:59:23.641Z"
   },
-  "generatedAt": "2026-11-02T01:17:38.405Z"
+  "generatedAt": "2026-11-02T19:59:23.641Z"
 }
