@@ -5939,63 +5939,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-data-quality-anomaly-detection-free",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "9111536f298cf1ea83e3fa94d8f38e75749065a3",
-      "title": "AWS Marketplace adds AI Insights so buyers can understand pricing before they buy ",
-      "summary": "You can now understand how a product's pricing works before you buy it. Available in the pricing section of the listing in AWS Marketplace, AI Insights explains each product's pricing in plain languag...",
-      "category": "OTHER",
-      "timestamp": "2026-08-05T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace-ai-insights/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b55b05cda0f58435751016238b19097ee35badc6",
-      "title": "Amazon DynamoDB now supports real-time vector search",
-      "summary": "Today, AWS announces the general availability of vector search for Amazon DynamoDB, a new feature to index and search vectors in real time. As vector datasets grow into the billions or trillions, vect...",
-      "category": "AI_ML",
-      "timestamp": "2026-08-05T16:59:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-dynamodb-vector-search",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "09dfd8936c62dafdb054e4b51e67ed10e3a96b8f",
-      "title": "AWS IAM Identity Center makes managment of AWS account access optional for new organization instances",
-      "summary": "AWS IAM Identity Center now lets you decide whether to enable management of AWS account access when you create a new organization instance. This allows you to use IAM Identity Center to manage access ...",
-      "category": "COMPUTE",
-      "timestamp": "2026-08-05T15:12:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-identity-center-accounts-optional/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "af06b2227e80d40fcfdf84e2b34c9609db3b83c1",
-      "title": "Amazon Aurora serverless now scales faster to support agentic AI and other bursty workloads",
-      "summary": "Amazon Aurora serverless now delivers higher initial capacity during scale-up events, reaching up to 12 ACUs within a second and continuing to scale up to 256 ACUs as your workload grows. When the wor...",
-      "category": "DATABASE",
-      "timestamp": "2026-08-05T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-serverless-instant-12-acu-scaling",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 598,
+    "total": 594,
     "byCategory": {
-      "DATABASE": 67,
-      "OTHER": 130,
+      "DATABASE": 66,
+      "OTHER": 129,
       "SECURITY": 131,
       "SERVERLESS": 22,
-      "AI_ML": 102,
+      "AI_ML": 101,
       "STORAGE": 20,
       "NETWORKING": 8,
       "ANALYTICS": 14,
-      "COMPUTE": 69,
+      "COMPUTE": 68,
       "CONTAINERS": 35
     },
-    "lastUpdated": "2026-11-03T03:18:52.521Z"
+    "lastUpdated": "2026-11-03T17:34:40.916Z"
   },
-  "generatedAt": "2026-11-03T03:18:52.521Z"
+  "generatedAt": "2026-11-03T17:34:40.916Z"
 }
