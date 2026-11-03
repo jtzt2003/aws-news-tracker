@@ -1,6 +1,26 @@
 {
   "announcements": [
     {
+      "id": "c765d93c996000109b8e37b7335895f2b0982322",
+      "title": "Amazon RDS for Oracle now supports M8i and R8i instances in additional AWS Regions",
+      "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports M8i and R8i instances in additional AWS Regions. Both M8i and R8i instances are now available in Asia Pacific (New Zealand) and ...",
+      "category": "DATABASE",
+      "timestamp": "2026-11-03T00:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-m8i-r8i-instances-new-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "000083a5ad322d97910107aa397f720aa7d047fc",
+      "title": "Haiku 5.5 now available on Kiro in AWS GovCloud (US)",
+      "summary": "A new Anthropic model is now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions. With Haiku 5.5, all three Claude 5.5 models are now available in Kiro in AWS GovCloud (US).\n \nClaude H...",
+      "category": "OTHER",
+      "timestamp": "2026-11-02T20:45:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/kiro-haiku-5-5-aws-govcloud-us/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "eee4fbcb582d52ebd6dbe35bfb6f1e5df7e4630e",
       "title": "Amazon RDS now supports per snapshot billing",
       "summary": "Starting today, Amazon RDS supports per snapshot billing for Amazon RDS snapshots. Per snapshot billing allows you to get the cost of each individual snapshot.\n \nPreviously, RDS snapshot charges were ...",
@@ -17,6 +37,66 @@
       "category": "OTHER",
       "timestamp": "2026-11-02T18:36:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-quick-desktop-organization-sign-in/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "397a47fb048607862de5231fc2f7aa38e1d09bc6",
+      "title": "Amazon Aurora MySQL 8.4.10 is now generally available",
+      "summary": "Starting today, Amazon Aurora MySQL-Compatible Edition 8.4 supports MySQL 8.4.10. We recommend upgrading to the newer minor versions to accept fixes for Common Vulnerabilities and Exposures (CVEs) in ...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-02T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-mysql-8410-available/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "637ec7b2739626a1f8d2b6b4d60251111447301d",
+      "title": "AWS Lambda now supports queues for Apache Kafka in self-managed Kafka event sources",
+      "summary": "AWS Lambda now supports queues for Apache Kafka in self-managed Kafka event source mappings (ESM), for Kafka clusters that customers run themselves and for managed offerings such as Confluent Cloud. C...",
+      "category": "SERVERLESS",
+      "timestamp": "2026-11-02T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-queue-kafka-esm/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ce25bc1fe5273df0394d6723f5dee14ec9d782c9",
+      "title": "Amazon Aurora MySQL 3.14 (compatible with MySQL 8.0.46) is generally available",
+      "summary": "Starting today, Amazon Aurora MySQL-Compatible Edition 3 (compatible with MySQL 8.0) supports MySQL 8.0.46, which includes community MySQL fixes and Aurora-specific improvements. In addition to operat...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-02T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-mysql-314-available/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f9dac3090f79f2c3f400924a47c27d357c685663",
+      "title": "Amazon Connect Customer now supports Model Context Protocol (MCP) tools in flows",
+      "summary": "Amazon Connect Customer now enables you to invoke Model Context Protocol (MCP) tools in customer experience flows through the new 'External Tool' block. With this launch, you can connect flows to thir...",
+      "category": "AI_ML",
+      "timestamp": "2026-11-02T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-flows-mcp-tools/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "45605d11543599bd61c012b182ca7d8ac813abd8",
+      "title": "Amazon Connect Customer now supports Cases and External Tool events in the Wait block",
+      "summary": "Amazon Connect Customer now supports Cases and External Tool events in the Wait block, giving you more control over how your customer experience flows react to real-time data changes. In addition to w...",
+      "category": "OTHER",
+      "timestamp": "2026-11-02T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-wait-block-cases-tool-events/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "658460b6f929f397164b8c531f138be0c3d00bee",
+      "title": "EC2 Amazon Machine Images can now be scanned for vulnerabilities through Amazon Inspector",
+      "summary": "Amazon Inspector now extends its vulnerability scanning to EC2 Amazon Machine Images (AMIs), enabling you to identify software vulnerabilities in your AMIs without launching instances or installing ad...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-02T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-amis-scanned-through-inspector/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5899,63 +5979,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-serverless-instant-12-acu-scaling",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "1a7ded053c611a668acd8d1723bcc359f1380f52",
-      "title": "[Preview Announcement] Re-introducing Forward Proxy as AWS Network Firewall Functionality",
-      "summary": "You can now use your Network Firewall with all its existing filtering capabilities and features as an explicit forward proxy.\n  On Nov 25, 2025, AWS introduced Network Firewall proxy in public preview...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-04T22:24:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-network-firewall-forward-proxy-preview/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c71c2a8163e48ea96776a0c493ab3649bbf58cb4",
-      "title": "Amazon Connect Customer now lets you export cases to CSV from the agent workspace",
-      "summary": "Amazon Connect Customer now supports exporting cases to a CSV file directly from the agent workspace, making it easier to share case data with internal teams and external stakeholders such as vendors,...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-04T21:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-export-cases/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "a4e2950520e4c3af8ed94b53e06f94e6f63fc82c",
-      "title": "Amazon Bedrock launches Web Search for OpenAI GPT models",
-      "summary": "Today, we are announcing the general availability of Web Search on Amazon Bedrock, a built-in server side tool that performs web search entirely within AWS, enabling OpenAI models (GPT-5.4, GPT-5.5, a...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-04T20:37:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-web/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "0979da32bf71c87621b556f37142373c25270baf",
-      "title": "Run interactive workloads on Amazon EMR on EC2 with Spark Connect ",
-      "summary": "Amazon EMR on EC2 now supports interactive Apache Spark sessions with Spark Connect. Data engineers and data scientists can develop and debug Apache Spark applications interactively from managed noteb...",
-      "category": "AI_ML",
-      "timestamp": "2026-08-04T20:29:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-emr-ec2-spark-connect/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 594,
+    "total": 598,
     "byCategory": {
-      "DATABASE": 66,
-      "OTHER": 128,
+      "DATABASE": 67,
+      "OTHER": 130,
+      "SECURITY": 131,
+      "SERVERLESS": 22,
       "AI_ML": 102,
       "STORAGE": 20,
-      "SECURITY": 131,
       "NETWORKING": 8,
       "ANALYTICS": 14,
       "COMPUTE": 69,
-      "CONTAINERS": 35,
-      "SERVERLESS": 21
+      "CONTAINERS": 35
     },
-    "lastUpdated": "2026-11-02T19:59:23.641Z"
+    "lastUpdated": "2026-11-03T03:18:52.521Z"
   },
-  "generatedAt": "2026-11-02T19:59:23.641Z"
+  "generatedAt": "2026-11-03T03:18:52.521Z"
 }
