@@ -11,6 +11,16 @@
       "isNew": false
     },
     {
+      "id": "89ed024be140b595e9141060046a7bf40629b0b3",
+      "title": "Amazon WorkSpaces for AI agents now supports Linux and Windows 11 cloud desktops ",
+      "summary": "WorkSpaces for AI agents now supports Linux and Windows 11 cloud desktops, in addition to Windows Server. You can run each AI agent on the operating system that its workflows and applications require....",
+      "category": "SECURITY",
+      "timestamp": "2026-11-03T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/workspaces-ai-agents-linux-windows-11",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "694823d2c8580fe07e4af365bd37e1f292586a9d",
       "title": "Amazon Connect Customer prefills the email address for new threads started from cases ",
       "summary": "Amazon Connect Customer automatically fills in the customer’s email address from the linked customer profile when agents start a new email thread from a case. This saves agents time and reduces manual...",
@@ -47,6 +57,16 @@
       "category": "OTHER",
       "timestamp": "2026-11-03T08:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-transform-mainframe-reimagine/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "eb43b5f1e9b7b4eeb20bdefa2adced4e3466ffc3",
+      "title": "Amazon CloudWatch now supports API keys for OpenTelemetry traces",
+      "summary": "Amazon CloudWatch now supports bearer token authentication, using API keys (bearer tokens), as an additional option for sending OpenTelemetry traces to the AWS X-Ray OpenTelemetry Protocol (OTLP) trac...",
+      "category": "DEVTOOLS",
+      "timestamp": "2026-11-03T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-api-keys-opentelemetry/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5919,64 +5939,15 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-gsr-10-more-regions",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "cedf3811a598f1d0f5ea815097115fce8cd8118d",
-      "title": "AWS Transform for migrations automates post-launch actions ",
-      "summary": "AWS Transform now automates the configuration and execution of post-launch actions through the migration workflow. Define actions at the account level and apply them automatically to each source serve...",
-      "category": "OTHER",
-      "timestamp": "2026-08-06T17:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-transform-for-migrations-automates-post-launch-actions",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "47be6dc909e64a75e2ebed8260d511c333234fe3",
-      "title": "AWS Security Agent now supports email-based MFA for penetration testing",
-      "summary": "AWS Security Agent (now part of AWS Continuum) now enables penetration testing of applications that use email-based multi-factor authentication (MFA) as part of their login flow. Previously, applicati...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-06T16:54:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-security-agent-mfa/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4046c50acad95f12c60b9714d905255dc2ed0a31",
-      "title": "Amazon RDS now provides visibility into storage volume initialization status",
-      "summary": "Amazon RDS now provides visibility into the initialization status of database storage volumes created from snapshots. You can use this status to determine when your storage is fully initialized after ...",
-      "category": "DATABASE",
-      "timestamp": "2026-08-06T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-storage-volume-initialization-visibility",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4a8c1fbe26990cba2340a7b91d1561f4e11770e5",
-      "title": "Amazon WorkSpaces Applications now publishes enhanced observability metrics",
-      "summary": "Amazon WorkSpaces Applications now publishes additional performance and session health metrics to Amazon CloudWatch, enabling IT administrators to gain deeper visibility into their application streami...",
-      "category": "OTHER",
-      "timestamp": "2026-08-06T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-workspaces-applications-observability-metrics",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b98b017d79a284f37120e76d0744b4ecd526a22a",
-      "title": "Amazon WorkSpaces now publishes enhanced observability metrics",
-      "summary": "Amazon WorkSpaces now publishes additional performance and session health metrics to Amazon CloudWatch, enabling IT administrators to gain deeper visibility into their virtual desktop workloads. These...",
-      "category": "OTHER",
-      "timestamp": "2026-08-06T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-workspaces-observability-metrics",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 597,
+    "total": 594,
     "byCategory": {
-      "OTHER": 131,
-      "DATABASE": 68,
+      "OTHER": 128,
       "SECURITY": 132,
+      "DATABASE": 67,
+      "DEVTOOLS": 1,
       "SERVERLESS": 21,
       "AI_ML": 101,
       "STORAGE": 20,
@@ -5985,7 +5956,7 @@
       "COMPUTE": 68,
       "CONTAINERS": 35
     },
-    "lastUpdated": "2026-11-04T01:55:35.631Z"
+    "lastUpdated": "2026-11-04T17:47:19.973Z"
   },
-  "generatedAt": "2026-11-04T01:55:35.631Z"
+  "generatedAt": "2026-11-04T17:47:19.974Z"
 }
