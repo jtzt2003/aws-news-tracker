@@ -1,6 +1,66 @@
 {
   "announcements": [
     {
+      "id": "03eaf64b7d3e93d37021e3fe144250a1c1f50618",
+      "title": "Amazon Connect Customer lets agents pause and resume emails",
+      "summary": "Amazon Connect Customer lets agents pause emails while waiting for information or approvals, freeing them to handle higher-priority contacts and resume their work later. For example, an agent waiting ...",
+      "category": "OTHER",
+      "timestamp": "2026-11-03T20:15:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/connect-pause-resume-email/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "694823d2c8580fe07e4af365bd37e1f292586a9d",
+      "title": "Amazon Connect Customer prefills the email address for new threads started from cases ",
+      "summary": "Amazon Connect Customer automatically fills in the customer’s email address from the linked customer profile when agents start a new email thread from a case. This saves agents time and reduces manual...",
+      "category": "OTHER",
+      "timestamp": "2026-11-03T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-cases-email-addresses/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f493f9bf672ed26d239aa652f0a7cef3ca79fca2",
+      "title": "AWS Config now supports 10 new resource types",
+      "summary": "AWS Config now supports 10 additional AWS resource types across key services including Amazon ElastiCache and Amazon QuickSight. This expansion provides greater coverage over your AWS environment, ena...",
+      "category": "DATABASE",
+      "timestamp": "2026-11-03T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-config-new-resource-types",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b98196ed032920a1f754c112d39dc2a641a9b771",
+      "title": "Amazon RDS now supports the latest Cumulative Update and GDR updates for Microsoft SQL Server",
+      "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release inc...",
+      "category": "DATABASE",
+      "timestamp": "2026-11-03T08:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-supports-latest-cumulative-update-gdr-microsoft-sql-server/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "282ae2276740d0cab2442abc6cb00f23af6023cf",
+      "title": "AWS Transform for mainframe improves the reimagine modernization workflow",
+      "summary": "AWS Transform for mainframe now discovers business functions with field-level precision and generates a new requirements coverage report in the assess and reimagine workflow. Previously, business func...",
+      "category": "OTHER",
+      "timestamp": "2026-11-03T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-transform-mainframe-reimagine/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4fc32f2f322f3ee915fae1a07439d8943a2ba03e",
+      "title": "Amazon EKS Capabilities now supports Argo CD Notifications",
+      "summary": "The Amazon Elastic Kubernetes Service (Amazon EKS) Capability for Argo CD now supports Argo CD Notifications, providing notifications when your applications sync, fail, or change health. You define tr...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-03T06:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-eks-argo-cd-notifications",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "c765d93c996000109b8e37b7335895f2b0982322",
       "title": "Amazon RDS for Oracle now supports M8i and R8i instances in additional AWS Regions",
       "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports M8i and R8i instances in additional AWS Regions. Both M8i and R8i instances are now available in Asia Pacific (New Zealand) and ...",
@@ -5909,53 +5969,23 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-workspaces-observability-metrics",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "26f80dc64e9c289320d85cf49977e2cde19712b6",
-      "title": "AWS Lambda announces scalable network bandwidth up to 3,000 Mbps for functions outside a VPC",
-      "summary": "AWS Lambda now supports scalable network bandwidth for Lambda functions, enabling faster data transfer to and from your execution environment for latency-sensitive workloads. This feature enables func...",
-      "category": "SERVERLESS",
-      "timestamp": "2026-08-05T21:35:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-network-bandwidth/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ad60ddd0a22833f9ccc56174fc2d0a5f0266fe2b",
-      "title": "Amazon Keyspaces (for Apache Cassandra) is now available in the Canada West (Calgary) Region (ca-west-1)",
-      "summary": "Amazon Keyspaces (for Apache Cassandra) is now available in the Canada West (Calgary) Region (ca-west-1), allowing customers in the Canada West Region to build Cassandra-compatible applications with l...",
-      "category": "OTHER",
-      "timestamp": "2026-08-05T20:06:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-keyspaces-apache-cassandra-canada-west/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "35620bc7908fca89113103e3338acb29b9e75c04",
-      "title": "AWS Glue Data Quality makes ETL anomaly detection free and improves anomaly predictions",
-      "summary": "AWS Glue Data Quality now offers improved anomaly detection with a new observation mode that reduces detection of false anomalies and removes pricing for anomaly detection in ETL jobs. Customers using...",
-      "category": "ANALYTICS",
-      "timestamp": "2026-08-05T18:25:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-data-quality-anomaly-detection-free",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 594,
+    "total": 597,
     "byCategory": {
-      "DATABASE": 66,
-      "OTHER": 129,
-      "SECURITY": 131,
-      "SERVERLESS": 22,
+      "OTHER": 131,
+      "DATABASE": 68,
+      "SECURITY": 132,
+      "SERVERLESS": 21,
       "AI_ML": 101,
       "STORAGE": 20,
       "NETWORKING": 8,
-      "ANALYTICS": 14,
+      "ANALYTICS": 13,
       "COMPUTE": 68,
       "CONTAINERS": 35
     },
-    "lastUpdated": "2026-11-03T17:34:40.916Z"
+    "lastUpdated": "2026-11-04T01:55:35.631Z"
   },
-  "generatedAt": "2026-11-03T17:34:40.916Z"
+  "generatedAt": "2026-11-04T01:55:35.631Z"
 }
