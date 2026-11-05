@@ -5899,94 +5899,24 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-auth-agent-skill/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "af20bbf12146726156e9a00327c4cbbfce185549",
-      "title": "AWS IAM Identity Center supports one-click multi-Region option for new organization instances",
-      "summary": "AWS IAM Identity Center now makes it easier to enable multi-Region support when creating a new organization instance. Previously, enabling multi-Region support required multiple steps including creati...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-07T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-identity-center-supports-one-click-multi-region-option-new-organization-instances",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "dffd4686d3f0f32dc01330f589abbbc33c62b8ea",
-      "title": "Amazon VPC IPAM now supports BGP route protection monitoring and delegated RPKI for BYOIP prefixes",
-      "summary": "Amazon Virtual Private Cloud (VPC) IP Address Manager (IPAM) now supports BGP route protection monitoring and delegated Resource Public Key Infrastructure (RPKI) management for Bring Your Own IP (BYOI...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-07T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-vpc-ipam-bgp-rpki-byoip/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "8cf354f464df564be7dead8ef1fea6ff77f877b8",
-      "title": "Amazon Bedrock AgentCore adds memory, policy, and harness in AWS GovCloud (US-West)",
-      "summary": "Today, Amazon Bedrock AgentCore introduces new capabilities in AWS GovCloud (US-West). AgentCore is the platform to build, connect, and optimize agents. With these capabilities, teams operating in reg...",
-      "category": "AI_ML",
-      "timestamp": "2026-08-07T15:52:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcore-memory-policy-harness-govcloud/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "e5eb82d23f2dd35dadcfc29d16de040330e26d78",
-      "title": " Amazon GameLift Servers now supports 21 new EC2 instance types",
-      "summary": "Amazon GameLift Servers now supports 21 additional Amazon EC2 instance types for managed EC2 fleets and managed container fleets. Amazon GameLift Servers is a fully managed service that enables game d...",
-      "category": "CONTAINERS",
-      "timestamp": "2026-08-07T08:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/gamelift-ec2-instance-expansion/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "2a6137ab9f36ae8935dba10b98561867d208d838",
-      "title": "Amazon OpenSearch Service announces additional upgrade runway for existing domains and support dates for additional versions ",
-      "summary": "In November 2024, Amazon OpenSearch Service announced Extended Support for legacy Elasticsearch and OpenSearch engine versions (see also the detailed blog post). Since that announcement, many customer...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-07T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-service-additional-upgrade-runway-support-dates",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "132be4321fa0f1365c55deca8919d903e08ad4b9",
-      "title": "Amazon SES now helps identify automated open and click events in event notifications",
-      "summary": "Amazon Simple Email Service (SES) now helps you identify automated email interactions. Open and Click event notifications now include an isBotEvent field that indicates whether the event was likely tr...",
-      "category": "SERVERLESS",
-      "timestamp": "2026-08-07T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-automated-email-interactions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "4bcb09a3404b5185f76ff356dfa543d488356046",
-      "title": "AWS Parallel Computing Service is now in scope for FedRAMP, SOC, ISO, CSA STAR, and PCI",
-      "summary": "AWS Parallel Computing Service (PCS), a managed service that simplifies running and scaling high performance computing (HPC) workloads on AWS using Slurm, has expanded its security and compliance cove...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-07T04:58:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-pcs-august/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 597,
+    "total": 590,
     "byCategory": {
-      "CONTAINERS": 35,
+      "CONTAINERS": 34,
       "DATABASE": 68,
       "NETWORKING": 9,
       "OTHER": 129,
-      "SECURITY": 134,
+      "SECURITY": 130,
       "STORAGE": 21,
       "COMPUTE": 68,
       "DEVTOOLS": 1,
-      "SERVERLESS": 19,
-      "AI_ML": 100,
+      "SERVERLESS": 18,
+      "AI_ML": 99,
       "ANALYTICS": 13
     },
-    "lastUpdated": "2026-11-05T02:00:01.518Z"
+    "lastUpdated": "2026-11-05T17:52:00.523Z"
   },
-  "generatedAt": "2026-11-05T02:00:01.519Z"
+  "generatedAt": "2026-11-05T17:52:00.523Z"
 }
