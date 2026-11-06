@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "13a72a1318791eaea980b31d145db7e869bcf35b",
+      "title": "Capacity Reservation Resource Groups now support Amazon EC2 Capacity Blocks and interruptible Capacity Reservations in AWS GovCloud (US) Regions",
+      "summary": "Starting today, you can add Amazon EC2 Capacity Blocks for ML and interruptible Capacity Reservations to Capacity Reservation Resource Groups in AWS GovCloud (US) Regions. Amazon EC2 offers different ...",
+      "category": "COMPUTE",
+      "timestamp": "2026-11-06T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/capacity-reservation-resource-groups-support-in-aws-govcloud-regions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "2b361798ed11118d509da753dff827fc7c0789f0",
       "title": "AWS Security Hub now provides an SBOM inventory for your compute resources",
       "summary": "Today, AWS announces that AWS Security Hub now provides a Software Bill of Materials (SBOM) inventory, giving central security teams a continuously updated, organization-wide view of the software pack...",
@@ -67,6 +77,16 @@
       "category": "SECURITY",
       "timestamp": "2026-11-05T17:38:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-roles-anywhere-cdp/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "00b5bc98d9b154e37228f697b9518b134120b7af",
+      "title": "Amazon OpenSearch Service optimized engine now supports agent traces",
+      "summary": "Today, the Amazon OpenSearch Service optimized engine adds support for agent traces, including OpenTelemetry traces. Your traces and logs now live in the same place. You can follow a request or an age...",
+      "category": "ANALYTICS",
+      "timestamp": "2026-11-05T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-service-support-traces",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5972,21 +5992,21 @@
     }
   ],
   "stats": {
-    "total": 597,
+    "total": 599,
     "byCategory": {
+      "COMPUTE": 70,
       "SECURITY": 132,
-      "COMPUTE": 69,
       "AI_ML": 101,
       "DATABASE": 70,
+      "ANALYTICS": 14,
       "CONTAINERS": 34,
       "NETWORKING": 9,
       "OTHER": 129,
       "STORAGE": 21,
       "DEVTOOLS": 1,
-      "SERVERLESS": 18,
-      "ANALYTICS": 13
+      "SERVERLESS": 18
     },
-    "lastUpdated": "2026-11-06T01:59:51.255Z"
+    "lastUpdated": "2026-11-06T17:12:54.476Z"
   },
-  "generatedAt": "2026-11-06T01:59:51.255Z"
+  "generatedAt": "2026-11-06T17:12:54.476Z"
 }
