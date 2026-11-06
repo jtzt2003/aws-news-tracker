@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "2b361798ed11118d509da753dff827fc7c0789f0",
+      "title": "AWS Security Hub now provides an SBOM inventory for your compute resources",
+      "summary": "Today, AWS announces that AWS Security Hub now provides a Software Bill of Materials (SBOM) inventory, giving central security teams a continuously updated, organization-wide view of the software pack...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-06T00:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-sbom-inventory/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "82021c4f9288ff24747886843045a87b4bcbe9d5",
+      "title": "AWS Interconnect - last mile announces new metro in Northern Virginia, USA",
+      "summary": "Today, AWS announced a new AWS Interconnect - last mile metro in Northern Virginia, USA. Northern Virginia joins New York as the second metro where you can connect your data center, branch office, or ...",
+      "category": "COMPUTE",
+      "timestamp": "2026-11-05T21:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/interconnect-last-mile-northern-virginia/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3881849da0aa39ba85b7535f46df7f36c7cb0c21",
+      "title": "Announcing Web Answer on Amazon Bedrock AgentCore ",
+      "summary": "Today, we are announcing the general availability of Web Answer on Amazon Bedrock AgentCore. Web Answer is a managed tool that returns a synthesized, grounded, cited answer to a natural-language quest...",
+      "category": "AI_ML",
+      "timestamp": "2026-11-05T20:56:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/web-answer-amazon-bedrock/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "891bfd65a220f48dc316929952aec522eaba8127",
+      "title": "AWS Network Load Balancer is now available in the AWS Phoenix Local Zone",
+      "summary": "AWS Network Load Balancer is now available in the Phoenix Local Zone (us-west-2-phx-2a). AWS Local Zones is a type of AWS infrastructure deployment that places AWS compute, storage, database, and othe...",
+      "category": "COMPUTE",
+      "timestamp": "2026-11-05T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-nlb-available-phx-local-zone/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "90e2c8ce44a7dfbe0d19e8f4926cfb39ca00984b",
+      "title": "Amazon DynamoDB now supports bulk put items",
+      "summary": "Today, AWS announces the general availability of bulk put items for Amazon DynamoDB, a fully managed feature that writes data from Amazon S3 into your existing DynamoDB tables. Many DynamoDB applicati...",
+      "category": "DATABASE",
+      "timestamp": "2026-11-05T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-dynamodb-now-supports-bulk-put-items/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "fc07bf7de75064d128cb58173f82c6398f09d00d",
+      "title": "Amazon Cognito announces 99.99% Service Level Agreement for the Plus feature plan",
+      "summary": "Starting November 1, 2026, the Amazon Cognito Service Level Agreement (SLA) commits to a Monthly Uptime Percentage of 99.99% for user pools on the Plus feature plan, up from 99.9%. User pools already ...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-05T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cognito-sla-update/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "316530cd15d40fbe645dbc681e7222c5bfcb62ef",
+      "title": "IAM Roles Anywhere now supports automatic certificate revocation checking",
+      "summary": "AWS Identity and Access Management (IAM) Roles Anywhere now supports automatic revocation checking using certificate revocation list (CRL) distribution points (CDPs). This helps keep revocation checks...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-05T17:38:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-roles-anywhere-cdp/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ecb62bc341ebf65e234894e5bdfc7180eb6f8b54",
+      "title": "Amazon FSx for Lustre delivers 16x higher metadata IOPS on Intelligent-Tiering file systems",
+      "summary": "Amazon FSx for Lustre now supports up to 192,000 metadata I/O operations per second (IOPS) on file systems that use the Intelligent-Tiering storage class, 16x higher than the previous maximum of 12,00...",
+      "category": "AI_ML",
+      "timestamp": "2026-11-05T15:39:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-fsx-for-lustre-intelligent-tiering-16x-higher-metadata-iops",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "393203824328178a434a7819ff128ddcfb8ede17",
+      "title": "Amazon RDS for Oracle now supports Kerberos authentication with self-managed Active Directory",
+      "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle (Amazon Relational Database Service (Amazon RDS) for Oracle) now allows customers to join their RDS for Oracle DB instances directly to their...",
+      "category": "DATABASE",
+      "timestamp": "2026-11-05T10:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-kerberos-self-managed-ad/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a7af5889bc5e2e06655d95df82056798e162cc73",
+      "title": "AWS Security Hub Network Scanning now available in AWS GovCloud (US)",
+      "summary": "AWS Security Hub Network Scanning feature is now supported in AWS GovCloud (US).\n \nNetwork Scanning probes your resources from the internet to detect actual reachability, not just what could be reacha...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-05T09:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-network-scanning-govcloud/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "fe7e9f57ad24e5d72930c66717ee0d7684ecc174",
       "title": "Amazon ECS Managed Daemons can now collect json-file logs from application containers on Amazon ECS Managed Instances",
       "summary": "Amazon Elastic Container Service (Amazon ECS) introduces json-file log driver support for Amazon ECS Managed Instances and log driver volumes for Amazon ECS Managed Daemons. Together, these features l...",
@@ -5869,54 +5969,24 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-drs-linux-uefi",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "35f315fe6f25e3d9acb8fbd293721c3caa233103",
-      "title": "Amazon EC2 R8i and R8i-Flex instances are now available in Europe (Milan) region",
-      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the Europe (Milan) region. These instances are powered by custom Intel Xeon 6 processors, availabl...",
-      "category": "COMPUTE",
-      "timestamp": "2026-08-07T21:11:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8i-r8i-flex/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "231d03e39ff1c3e795ed0e2cd9b73b21df3f64da",
-      "title": "Amazon Timestream for InfluxDB now supports backup and restore",
-      "summary": "Amazon Timestream for InfluxDB now lets you create and manage your own backups and restore your data on demand. You can trigger one-time, on-demand backups, schedule automated recurring backups at the...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-07T19:21:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/timestream-influxdb-backup-restore/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "7ff1d5bf2513e56dd645d33c4d14c1049f305192",
-      "title": "Amazon Cognito now available as a skill in the Agent Toolkit for AWS",
-      "summary": "Amazon Cognito is now available as a core skill (aws-auth) in the Agent Toolkit for AWS. AI coding agents using the toolkit can now set up, configure, secure, and troubleshoot Amazon Cognito using bes...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-07T18:00:48.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-auth-agent-skill/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 590,
+    "total": 597,
     "byCategory": {
+      "SECURITY": 132,
+      "COMPUTE": 69,
+      "AI_ML": 101,
+      "DATABASE": 70,
       "CONTAINERS": 34,
-      "DATABASE": 68,
       "NETWORKING": 9,
       "OTHER": 129,
-      "SECURITY": 130,
       "STORAGE": 21,
-      "COMPUTE": 68,
       "DEVTOOLS": 1,
       "SERVERLESS": 18,
-      "AI_ML": 99,
       "ANALYTICS": 13
     },
-    "lastUpdated": "2026-11-05T17:52:00.523Z"
+    "lastUpdated": "2026-11-06T01:59:51.255Z"
   },
-  "generatedAt": "2026-11-05T17:52:00.523Z"
+  "generatedAt": "2026-11-06T01:59:51.255Z"
 }
