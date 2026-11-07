@@ -1,12 +1,92 @@
 {
   "announcements": [
     {
+      "id": "86b5725a099e9e140e215d5df331c144076d8067",
+      "title": "Kimi K3.1 Pro (Highspeed) now available on Amazon Bedrock ",
+      "summary": "Today, Kimi K3.1 Pro from Moonshot AI is available on Amazon Bedrock, expanding our open weight model portfolio with the security and governance that customers rely on. Customers using Amazon Bedrock ...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-06T22:47:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/moonshot-ai-kimi-k3-1-pro-on-amazon-bedrock",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9f9cecc9c112a29a0f15138997b9772e92533008",
+      "title": "Agent Registry is now generally available in AWS GovCloud (US-West) Region",
+      "summary": "AWS Agent Registry, available through Amazon Bedrock AgentCore, is now available in the AWS GovCloud (US-West) Region.\n \nAWS Agent Registry is a fully managed discovery service that gives your organiz...",
+      "category": "AI_ML",
+      "timestamp": "2026-11-06T19:48:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-agent-registry-govcloud-us-west/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d5c1d7112d1769a51c00a3fa424eb49e934e94ef",
+      "title": "Amazon MSK Replicator is now available in AWS GovCloud (US-East, US-West) Regions",
+      "summary": "You can now use Amazon MSK Replicator in the AWS GovCloud (US-East, US-West) Regions to replicate streaming data across Amazon MSK clusters and from external Apache Kafka clusters including on-premise...",
+      "category": "ANALYTICS",
+      "timestamp": "2026-11-06T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-msk-replicator-additional-aws-regions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "63049a8ec8ead59c5b6a5aa1938d9500b7afa6ea",
+      "title": "Amazon Redshift expands SUPER data type to store strings up to 16 million bytes",
+      "summary": "Amazon Redshift now supports individual strings up to 16 million bytes within SUPER data types. Once you opt in through a database parameter, this enhancement applies when ingesting structured or semi...",
+      "category": "DATABASE",
+      "timestamp": "2026-11-06T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-redshift-expands-super-to-16-million-bytes/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5ac2609b22747de622319ee9b0304db497747509",
+      "title": "AWS launches support for amortization of EC2 Capacity Blocks for ML",
+      "summary": "AWS Data Exports for Cost and Usage Report (CUR) 2.0 and AWS Cost Explorer now amortize the upfront fee for Amazon EC2 Capacity Blocks for ML across the duration of each reservation. You can see the a...",
+      "category": "COMPUTE",
+      "timestamp": "2026-11-06T15:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-ec2-capacity-blocks-ml/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "13a72a1318791eaea980b31d145db7e869bcf35b",
       "title": "Capacity Reservation Resource Groups now support Amazon EC2 Capacity Blocks and interruptible Capacity Reservations in AWS GovCloud (US) Regions",
       "summary": "Starting today, you can add Amazon EC2 Capacity Blocks for ML and interruptible Capacity Reservations to Capacity Reservation Resource Groups in AWS GovCloud (US) Regions. Amazon EC2 offers different ...",
       "category": "COMPUTE",
       "timestamp": "2026-11-06T14:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/capacity-reservation-resource-groups-support-in-aws-govcloud-regions",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "45e7ea51cd555e49c5a2777361b00e23e373f1d7",
+      "title": "Amazon Simple Email Service is now available in six new AWS Regions",
+      "summary": "Amazon Simple Email Service (Amazon SES)  is now available in the Asia Pacific (New Zealand, Melbourne, Taipei, Thailand), Mexico (Central), EU (Spain). Customers can now use these new Regions to leve...",
+      "category": "OTHER",
+      "timestamp": "2026-11-06T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-simple-email-service-new-aws-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "bbcaf356af3e96509c108ab2c8fc90bdf460b2c0",
+      "title": "AWS Glue Data Catalog now supports catalog-vended credentials with Apache Iceberg REST catalog federation",
+      "summary": "AWS Glue Data Catalog now supports external catalog's vended credentials in Apache Iceberg REST catalog federation. You can now read external Iceberg tables from Amazon Athena, Amazon EMR, Amazon Reds...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-06T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/glue-catalog-vended-credentials-iceberg/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ef802f0cd7f5063467ea6db5df6f8f9a29308b69",
+      "title": "AWS Elemental MediaConvert adds a native integration with AWS Elemental Inference Smart Subtitles",
+      "summary": "​​AWS Elemental MediaConvert now integrates Smart Subtitles, an AI-powered subtitling solution built on AWS Elemental Inference and the latest speech recognition models. This feature brings automated ...",
+      "category": "AI_ML",
+      "timestamp": "2026-11-06T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/mediaconvert-elemental-smart-subtitles/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5992,21 +6072,21 @@
     }
   ],
   "stats": {
-    "total": 599,
+    "total": 607,
     "byCategory": {
-      "COMPUTE": 70,
-      "SECURITY": 132,
-      "AI_ML": 101,
-      "DATABASE": 70,
-      "ANALYTICS": 14,
+      "SECURITY": 134,
+      "AI_ML": 103,
+      "ANALYTICS": 15,
+      "DATABASE": 71,
+      "COMPUTE": 71,
+      "OTHER": 130,
       "CONTAINERS": 34,
       "NETWORKING": 9,
-      "OTHER": 129,
       "STORAGE": 21,
       "DEVTOOLS": 1,
       "SERVERLESS": 18
     },
-    "lastUpdated": "2026-11-06T17:12:54.476Z"
+    "lastUpdated": "2026-11-07T01:39:24.312Z"
   },
-  "generatedAt": "2026-11-06T17:12:54.476Z"
+  "generatedAt": "2026-11-07T01:39:24.312Z"
 }
