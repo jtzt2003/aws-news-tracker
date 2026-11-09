@@ -5989,84 +5989,24 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-mariadb-1232-available/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "d49f5204b2d48d6798e27488bed44f769d67ca22",
-      "title": "FLUX.2-small-decoder and gemma-4-12B-it models now available on Amazon SageMaker JumpStart",
-      "summary": "Black Forest Labs' FLUX.2-small-decoder and Google's gemma-4-12B-it models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. The...",
-      "category": "AI_ML",
-      "timestamp": "2026-08-10T23:08:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/flux.2-small-decoder-gemma-4-12B-it-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c43c0cb734d97b2ee662d5516fd54d241c19e724",
-      "title": "langcache-embed-v3-small, Mellum2-12B-A2.5B-Thinking, and LightOnOCR-2-1B models now available on Amazon SageMaker JumpStart",
-      "summary": "Redis's langcache-embed-v3-small, JetBrains' Mellum2-12B-A2.5B-Thinking, and LightOn's LightOnOCR-2-1B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation mod...",
-      "category": "AI_ML",
-      "timestamp": "2026-08-10T23:05:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/langcache-embed-v3-small-mellum2-12B-A2.5B-thinking-lightOnOCR-2-1B-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "1584fcb1d20366910df50cbb5aa0a160e1898863",
-      "title": "Amazon EC2 High Memory U7i instances now available in AWS South America (São Paulo) region",
-      "summary": "Amazon EC2 High Memory U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS South America (São Paulo) region. U7i instances are part of the AWS 7th generation and are powered by custom f...",
-      "category": "COMPUTE",
-      "timestamp": "2026-08-10T23:02:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-high-memory-u7i-south-america",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "be2792ac897f912549c338ba17e7259c576463e3",
-      "title": "GLM-5.2 FP8, NVIDIA-Nemotron-Nano-12B-v2 and GLM-OCR models now available on Amazon SageMaker JumpStart",
-      "summary": "Z.ai's GLM-5.2 FP8, NVIDIA's Nemotron-Nano-12B-v2, and Z.ai's GLM-OCR models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. T...",
-      "category": "AI_ML",
-      "timestamp": "2026-08-10T23:02:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/glm-5.2-fp8-nemotron-nano-12b-v2-glm-ocr-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "df7376295f1f1852768f4f9386234d3432dd96f6",
-      "title": "Amazon GameLift Streams Now Offers Service-managed Shader Caching",
-      "summary": "Amazon GameLift Streams now manages shader cache capture and distribution for your applications. You capture a shader cache from a stream session, and the service automatically makes it available for ...",
-      "category": "OTHER",
-      "timestamp": "2026-08-10T21:15:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/Amazon-GameLift-Streams-Shader-Caching/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "052a621d0069ccc2237b38c54c8d2724a7aeb9c6",
-      "title": "Amazon EC2 introduces application status checks",
-      "summary": "Amazon EC2 introduces application status checks, a new status check that helps customers detect and respond to application-level issues on their EC2 instances. With application status checks, EC2 moni...",
-      "category": "CONTAINERS",
-      "timestamp": "2026-08-10T17:47:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-application-status-checks",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 605,
+    "total": 599,
     "byCategory": {
       "SECURITY": 133,
-      "AI_ML": 103,
+      "AI_ML": 100,
       "ANALYTICS": 15,
       "DATABASE": 71,
-      "COMPUTE": 71,
-      "OTHER": 129,
-      "CONTAINERS": 34,
+      "COMPUTE": 70,
+      "OTHER": 128,
+      "CONTAINERS": 33,
       "NETWORKING": 9,
       "STORAGE": 21,
       "DEVTOOLS": 1,
       "SERVERLESS": 18
     },
-    "lastUpdated": "2026-11-08T16:30:40.321Z"
+    "lastUpdated": "2026-11-09T01:27:38.327Z"
   },
-  "generatedAt": "2026-11-08T16:30:40.321Z"
+  "generatedAt": "2026-11-09T01:27:38.327Z"
 }
