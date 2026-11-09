@@ -1,6 +1,66 @@
 {
   "announcements": [
     {
+      "id": "36ebf879f8aa0114e8ce3178fb68d6787ce45312",
+      "title": "Amazon Bedrock now offers Claude Mythos 5.2 to Eligible Customers in AWS GovCloud (US)",
+      "summary": "Amazon Bedrock, the platform for building generative AI applications and agents at production scale, now offers Claude Mythos 5.2 to eligible customers in AWS GovCloud (US). Claude Mythos 5.2 is Anthr...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-09T18:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/bedrock-claude-mythos-5-2-govcloud/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c4cfcfa1e71f0ee09a994c48caa68c5ce66ed86c",
+      "title": "Claude Fable 5.2 is now available on AWS GovCloud (US)",
+      "summary": "Claude Fable 5.2 is now available on AWS GovCloud (US) and brings Anthropic's most capable generally available model for technical work to regulated customers. Fable 5.2 sets a new standard on the har...",
+      "category": "AI_ML",
+      "timestamp": "2026-11-09T18:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/claude-fable-5-2-aws-govcloud/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ca814a0556063b477122138dc62eb63c2d9db7f8",
+      "title": "Amazon Athena introduces system tables for observability, auditing, and usage analytics",
+      "summary": "Amazon Athena now offers system tables which automatically capture your usage data and make it available for observability, usage analysis, and audit use cases. When you enable system tables, usage da...",
+      "category": "DATABASE",
+      "timestamp": "2026-11-09T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/athena-system-tables/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3f1c640a37341b7c4d377a992eb703a61373c252",
+      "title": "Introducing AWS Nitro Sandboxes on Amazon EKS, ECS and EC2 for hardware isolated pods, tasks and VMs",
+      "summary": "AWS Nitro Sandboxes are now available as lightweight VMs managed by the Nitro Hypervisor. You can use Nitro Sandboxes for an Amazon EKS pod, or Amazon ECS task, or lightweight Virtual Machines (VMs), ...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-11-09T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/nitro-sandboxes-eks-ecs-ec2/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "eccfcbd02190a62ea69a2d6e38091edbccdd6726",
+      "title": "Amazon S3 Access Points for Amazon FSx are now available in additional AWS Regions",
+      "summary": "You can now attach Amazon S3 Access Points to your Amazon FSx for NetApp ONTAP file systems in 4 additional AWS Regions, and to your Amazon FSx for OpenZFS file systems in 20 additional AWS Regions. W...",
+      "category": "AI_ML",
+      "timestamp": "2026-11-09T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/s3-access-points-fsx-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "dff857440b2ae2a192d5f9ce5d70e8a9bb5e3e58",
+      "title": "Amazon EKS Auto Mode and Karpenter now support Dynamic Resource Allocation",
+      "summary": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports Dynamic Resource Allocation (DRA) for NVIDIA GPUs and Elastic Fabric Adapter (EFA) network devices when using Amazon EKS Auto Mode and Karpe...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-11-09T06:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-eks-auto-mode-karpenter-dra/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "86b5725a099e9e140e215d5df331c144076d8067",
       "title": "Kimi K3.1 Pro (Highspeed) now available on Amazon Bedrock ",
       "summary": "Today, Kimi K3.1 Pro from Moonshot AI is available on Amazon Bedrock, expanding our open weight model portfolio with the security and governance that customers rely on. Customers using Amazon Bedrock ...",
@@ -17,6 +77,26 @@
       "category": "AI_ML",
       "timestamp": "2026-11-06T19:48:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-agent-registry-govcloud-us-west/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "97bb11d1c498ee1a769b9d84e5c8412a16cdf393",
+      "title": "Amazon MWAA Serverless supports Apache Airflow connections and variables",
+      "summary": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) Serverless now supports Apache Airflow connections and variables, so your workflows can reach databases, APIs, and other external systems. You...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-06T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/mwaa-serverless-connections-variables/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "94ec484d4289315f7c43cbd07018b5fdac4a44f9",
+      "title": "Amazon MWAA Serverless now supports custom and provider package operators",
+      "summary": "Amazon MWAA Serverless now supports operators from Apache Airflow provider packages, such as HTTP, Snowflake, or dbt, and custom operators that you write. This gives data engineers the flexibility to ...",
+      "category": "STORAGE",
+      "timestamp": "2026-11-06T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/mwaa-serverless-custom-operators/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5909,104 +5989,24 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8a-instances-canada-central/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "8c2fc1cd66dbe35ba1984405d4c03748f5f2d6a1",
-      "title": "Amazon Bedrock expands IAM principal cost allocation to the bedrock-mantle endpoint",
-      "summary": "Amazon Bedrock is a fully managed service that provides secure, enterprise-grade access to high-performing foundation models from leading AI companies, enabling you to build and scale generative AI ap...",
-      "category": "AI_ML",
-      "timestamp": "2026-08-11T20:25:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-expands-iam-principal-cost-allocation-bedrock-mantle/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "33ffba8ac113df489cc24f59e7eb164e7bbfc2cb",
-      "title": "LocateAnything-3B, Qwen-AgentWorld-35B-A3B, and Qwen3.5-122B-A10B models now available on Amazon SageMaker JumpStart",
-      "summary": "NVIDIA's LocateAnything-3B, Qwen's Qwen-AgentWorld-35B-A3B, and Qwen's Qwen3.5-122B-A10B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available ...",
-      "category": "AI_ML",
-      "timestamp": "2026-08-11T15:22:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/locateAnything-3B-qwen-agentworld-35B-A3B-qwen3.5-122B-A10B-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "88caf411647d7c1d310fe05e47c166605847a192",
-      "title": "NVIDIA Nemotron 3.5 Lightning model is now available on Amazon SageMaker JumpStart",
-      "summary": "NVIDIA's Nemotron 3.5 Lightning is now available on Amazon SageMaker JumpStart, giving AWS customers access to the fastest open model in its class for persistent agent workloads and rapid task executi...",
-      "category": "AI_ML",
-      "timestamp": "2026-08-11T15:21:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/nvidia-nemotron-3.5-lightning-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "2088f502d2077024a5f119d7fa1558a7b409fca7",
-      "title": "AWS Glue adds one-click access to SageMaker Unified Studio from the AWS console ",
-      "summary": "AWS Glue now provides direct access to Amazon SageMaker Unified Studio, helping data engineers and analysts move from viewing the catalog in the Glue console to querying their data, running data quali...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-11T14:57:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/smus-glue-access",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "88eadfee4f4c2aa2be14ff797a426a03320233fb",
-      "title": "AWS Secrets Manager adds managed external secrets support for Jenkins and SonarQube",
-      "summary": "AWS Secrets Manager now extends its managed external secrets capability to include Jenkins API Tokens and SonarQube Tokens, enabling you to automatically rotate these third-party credentials directly ...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-11T14:57:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/secrets-manager-integration-jenkins-sonarqube/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "23caba99dd793fd6c7a03825b70ad0a849b9f5ec",
-      "title": "Amazon Connect Customer launches performance dashboard for Cases",
-      "summary": "Amazon Connect Customer now provides a performance dashboard for cases that helps managers monitor case volume, resolution trends, and performance against service level agreement (SLA) targets. Manage...",
-      "category": "OTHER",
-      "timestamp": "2026-08-11T13:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-dashboard/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "fd2c74664c81a56787d4c04da22cb08eb25df5cb",
-      "title": "AWS Clean Rooms supports exporting privacy-enhanced analysis logs for SQL ",
-      "summary": "AWS Clean Rooms now supports exporting privacy-enhanced analysis logs for SQL analyses, offering customers greater optimization and troubleshooting capabilities. With this launch, you can export priva...",
-      "category": "OTHER",
-      "timestamp": "2026-08-11T12:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-clean-rooms-export-analysis-log-sql",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "a43eb6593c4bc2e5b4abf0032d7cb1bbd638f72c",
-      "title": "Amazon RDS for MariaDB now supports MariaDB 12.3",
-      "summary": "Starting today, Amazon RDS for MariaDB supports MariaDB major version 12.3, the latest Long-Term Support release from the MariaDB community. This release supports MariaDB 12.3.2 minor version.  \n  Mar...",
-      "category": "DATABASE",
-      "timestamp": "2026-08-11T08:54:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-mariadb-1232-available/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
     "total": 599,
     "byCategory": {
       "SECURITY": 133,
-      "AI_ML": 100,
-      "ANALYTICS": 15,
+      "AI_ML": 99,
       "DATABASE": 71,
+      "CONTAINERS": 35,
+      "STORAGE": 22,
+      "ANALYTICS": 15,
       "COMPUTE": 70,
-      "OTHER": 128,
-      "CONTAINERS": 33,
+      "OTHER": 126,
       "NETWORKING": 9,
-      "STORAGE": 21,
       "DEVTOOLS": 1,
       "SERVERLESS": 18
     },
-    "lastUpdated": "2026-11-09T01:27:38.327Z"
+    "lastUpdated": "2026-11-09T20:27:36.940Z"
   },
-  "generatedAt": "2026-11-09T01:27:38.327Z"
+  "generatedAt": "2026-11-09T20:27:36.941Z"
 }
