@@ -1,6 +1,56 @@
 {
   "announcements": [
     {
+      "id": "84f8cd09245bc4d14993d1762e54bbcd2c07e932",
+      "title": "Amazon Bedrock AgentCore now offers a Web Search API",
+      "summary": "Today, AWS announces the general availability of the Web Search API on Amazon Bedrock AgentCore, which lets you search the web with a single API call. Web Search on AgentCore has been available as an ...",
+      "category": "AI_ML",
+      "timestamp": "2026-11-10T00:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-bedrock-agentcore-web-search-api/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "17b5364b57d95b7a0b6f728d1c71787a5f3ea945",
+      "title": "Amazon CloudWatch Logs announces account-level retention policies",
+      "summary": "Amazon CloudWatch Logs now supports account-level retention policies, so you can use a single policy to set how long log data is kept across all or subset of log groups in an AWS account. Account-leve...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-09T22:15:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-log-retention/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "fcee45539ac565b1007a0b9ac7d4c6fd59b99651",
+      "title": "AWS Glue adds 100 new native connectors for popular SaaS applications",
+      "summary": "AWS Glue now supports 100 new native connectors that simplify access to data in popular SaaS and REST API-based applications. Previously, bringing data from SaaS applications into AWS required writing...",
+      "category": "AI_ML",
+      "timestamp": "2026-11-09T21:33:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-glue-adds-100-new-native-connectors/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5500e2898da276249fd4f0483ec49fc3acbd3536",
+      "title": "AWS STS now supports cross-partition federation for AWS identities",
+      "summary": "AWS Security Token Service (AWS STS) now lets your workloads use their AWS Identity and Access Management (IAM) identity in one partition to get temporary credentials for an IAM role in a different pa...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-09T20:03:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-sts-cross-partition",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "28de3d4a73617fd5046478a7b35f8c9804aa3139",
+      "title": "Amazon Quick is now AWS Quick",
+      "summary": "Amazon Quick, the AI workspace built only for work, is now AWS Quick, a name that reflects the enterprise security and governance built into Quick from the start as an AWS service. The new name now ap...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-09T19:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-quick-aws-quick/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "36ebf879f8aa0114e8ce3178fb68d6787ce45312",
       "title": "Amazon Bedrock now offers Claude Mythos 5.2 to Eligible Customers in AWS GovCloud (US)",
       "summary": "Amazon Bedrock, the platform for building generative AI applications and agents at production scale, now offers Claude Mythos 5.2 to eligible customers in AWS GovCloud (US). Claude Mythos 5.2 is Anthr...",
@@ -21,12 +71,42 @@
       "isNew": false
     },
     {
+      "id": "7fa88f6944ec142cc1a3333e292ef7c1d9836c61",
+      "title": "Amazon Connect Customer launches evaluation form templates",
+      "summary": "Amazon Connect Customer now provides evaluation form templates so managers don't have to build forms from scratch, reducing the time to deploy automated evaluations of human and AI agent performance. ...",
+      "category": "OTHER",
+      "timestamp": "2026-11-09T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-customer-evaluation-form-templates/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f4fd9952e4273533d0d11f4140c7899117fdff6d",
+      "title": "Introducing an open-source UI for graph analytics over data lakes with Amazon Neptune Analytics",
+      "summary": "Today, AWS is introducing an open-source solution with a local web UI that helps customers turn data lake records into graphs for analysis with Amazon Neptune Analytics. By projecting selected records...",
+      "category": "DATABASE",
+      "timestamp": "2026-11-09T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-graphover-datalakes-generally-available",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "ca814a0556063b477122138dc62eb63c2d9db7f8",
       "title": "Amazon Athena introduces system tables for observability, auditing, and usage analytics",
       "summary": "Amazon Athena now offers system tables which automatically capture your usage data and make it available for observability, usage analysis, and audit use cases. When you enable system tables, usage da...",
       "category": "DATABASE",
       "timestamp": "2026-11-09T16:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/athena-system-tables/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e10ffb125a2374f5d4d1565d57b7d022f80d44bb",
+      "title": "Amazon DocumentDB Serverless now provides up to 35% higher throughput",
+      "summary": "Amazon DocumentDB Serverless now provides up to 35% higher throughput with the launch of platform version 4. Platform versions represent improvements in performance, scaling capabilities, or features,...",
+      "category": "DATABASE",
+      "timestamp": "2026-11-09T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/documentdb-serverless-platform-version-4/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -5969,44 +6049,24 @@
       "link": "https://aws.amazon.com/whats-new/2026/08/amazon-quick-dlp-purview/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "ad09acc0fa8e328e076fc5df9fdbdb6ba26e86ab",
-      "title": "Amazon Quick agentic AI capabilities are now available in AWS GovCloud (US-West) ",
-      "summary": "Today, AWS announces that Amazon Quick's agentic AI capabilities are now available in AWS GovCloud (US-West), bringing an agentic AI teammate to government and regulated-industry teams within an isola...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-11T23:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-aws-govcloud-us-west/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f6936440abd634b69a722a50238dd761154e11fc",
-      "title": "Amazon EC2 R8a instances are now available in Canada (Central) region",
-      "summary": "Starting today, Amazon EC2 R8a instances are now available in Canada (Central) Region. These instances, feature 5th Gen AMD EPYC processors (formerly code named Turin) with a maximum frequency of 4.5 ...",
-      "category": "COMPUTE",
-      "timestamp": "2026-08-11T22:03:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8a-instances-canada-central/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 599,
+    "total": 605,
     "byCategory": {
-      "SECURITY": 133,
-      "AI_ML": 99,
-      "DATABASE": 71,
+      "AI_ML": 101,
+      "SECURITY": 135,
+      "OTHER": 127,
+      "DATABASE": 73,
       "CONTAINERS": 35,
       "STORAGE": 22,
       "ANALYTICS": 15,
-      "COMPUTE": 70,
-      "OTHER": 126,
+      "COMPUTE": 69,
       "NETWORKING": 9,
       "DEVTOOLS": 1,
       "SERVERLESS": 18
     },
-    "lastUpdated": "2026-11-09T20:27:36.940Z"
+    "lastUpdated": "2026-11-10T03:57:50.896Z"
   },
-  "generatedAt": "2026-11-09T20:27:36.941Z"
+  "generatedAt": "2026-11-10T03:57:50.896Z"
 }
