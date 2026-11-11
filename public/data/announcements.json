@@ -6039,74 +6039,24 @@
       "link": "https://aws.amazon.com/amazon-quick-microsoft-365-extensions-generally-available",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "b1dc4003f0b9fcca305fc70e2e5b21bd8024e8e7",
-      "title": "Spot Placement Score now includes Local Zones",
-      "summary": "Today, AWS announces support for AWS Local Zones in Spot placement score, helping you identify locations where your Spot capacity request is most likely to succeed. Spot placement score evaluates your...",
-      "category": "COMPUTE",
-      "timestamp": "2026-08-13T17:13:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/spot-placement-score-local-zones/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "baaeb6244c2891db6cd3b7ca16f2ac8d2f17eab7",
-      "title": "Daybreak Red and Daybreak Blue from OpenAI are now available to eligible customers on Amazon Bedrock",
-      "summary": "Security teams can now access Daybreak Red and Daybreak Blue from OpenAI on Amazon Bedrock. Both are part of Daybreak, the cyber defense initiative from OpenAI that gives defenders governed access to ...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-13T16:12:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/openai-daybreak-red-and-blue-on-amazon-bedrock/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6e57af50ce7353b6bb6915b9b67ec00dd9f91e8a",
-      "title": "AWS Certificate Manager supports switching from e-mail to DNS validation",
-      "summary": "AWS Certificate Manager (ACM) now enables you to change the domain validation method on your existing ACM issued public TLS certificates from e-mail to DNS, without reissuing the certificate or changi...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-13T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/AWS-Certificate-Manager-Email-DNS-Switch",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "daa448c9c001f64b6ddd524d73cb1d8ae8f65720",
-      "title": "Amazon S3 adds additional policy details to access denied error messages",
-      "summary": "Amazon S3 now includes the specific AWS Identity and Access Management (IAM) and AWS Organizations policy Amazon Resource Name (ARN) in HTTP 403 Access Denied error messages for same-account and same-...",
-      "category": "STORAGE",
-      "timestamp": "2026-08-13T13:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/s3-additional-policy-details-access-denied-error-messages/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "627dce9ca6dcdfa4d9af687ed57b629ea6c443ad",
-      "title": "AWS Clean Rooms supports minimum aggregation thresholds in custom analysis rules",
-      "summary": "AWS Clean Rooms now supports minimum aggregation thresholds for the Custom analysis rule type. Minimum aggregation helps protect the privacy of individual data subjects by preventing queries from retu...",
-      "category": "OTHER",
-      "timestamp": "2026-08-13T12:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-clean-rooms-minimum-aggregation-custom-analysis-rules",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 609,
+    "total": 604,
     "byCategory": {
-      "OTHER": 126,
-      "COMPUTE": 71,
-      "SECURITY": 137,
+      "OTHER": 125,
+      "COMPUTE": 70,
+      "SECURITY": 135,
       "DATABASE": 74,
       "ANALYTICS": 16,
       "AI_ML": 101,
       "CONTAINERS": 34,
-      "STORAGE": 22,
+      "STORAGE": 21,
       "NETWORKING": 9,
       "DEVTOOLS": 1,
       "SERVERLESS": 18
     },
-    "lastUpdated": "2026-11-11T01:43:15.656Z"
+    "lastUpdated": "2026-11-11T17:43:20.950Z"
   },
-  "generatedAt": "2026-11-11T01:43:15.657Z"
+  "generatedAt": "2026-11-11T17:43:20.951Z"
 }
