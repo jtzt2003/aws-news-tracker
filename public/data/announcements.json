@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "4e1794bd95756cc5c5aceec80edd3b27f8114ff3",
+      "title": "AWS Billing and Cost Management now supports AWS Billing Conductor and AWS Billing Transfer views as source views for custom billing views ",
+      "summary": "Custom billing views now support AWS Billing Conductor and AWS Billing Transfer views as source views. These are the views AWS maintains per billing group and per billing transfer relationship. You ca...",
+      "category": "OTHER",
+      "timestamp": "2026-11-10T23:22:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-billing-and-cost-management-multi-source-custom-billing-views",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "614453bbec40b4444a4fc2274656c102aed48bdb",
+      "title": "Amazon EC2 G7 instances now available in additional regions",
+      "summary": "Amazon Elastic Compute Cloud (Amazon EC2) G7 instances powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs are now available in Europe (London), Asia Pacific (Mumbai, Sydney) and South Americ...",
+      "category": "COMPUTE",
+      "timestamp": "2026-11-10T19:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-g7-additional-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "883262429c01e999d215208817491eab1b642c75",
+      "title": "Amazon OpenSearch Service announces managed cross-Region disaster recovery",
+      "summary": "Amazon OpenSearch Service now offers managed cross-Region disaster recovery, so you can meet strict availability and business continuity requirements for mission-critical search, AI, and analytics wor...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-10T19:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-service-managed-cross-region-disaster-recovery/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "412dbd790a8a20a0e2516dd2f68f0e1ca4c76010",
+      "title": "Amazon RDS for PostgreSQL announces Extended Support minor versions 13.23-rds.20260819, 12.22-rds.20260820 and 11.22-rds.20260822",
+      "summary": "Amazon Relational Database Service (RDS) for PostgreSQL announces Amazon RDS Extended Support minor versions 13.23-rds.20260819, 12.22-rds.20260820 and 11.22-rds.20260822.\n \nAmazon RDS Extended Suppor...",
+      "category": "DATABASE",
+      "timestamp": "2026-11-10T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-postgresql-extended-support/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1229c3a132755235c2c7a6532cc877d1a5628ecc",
+      "title": "Amazon RDS for MySQL 26.10 is now available in Amazon RDS Database Preview Environment ",
+      "summary": "Starting today, Amazon RDS for MySQL 26.10 is available in the Amazon RDS Database Preview Environment, allowing you to evaluate the pre-release of MySQL 26.10 on Amazon RDS for MySQL.\n \nMySQL 26.10 i...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-10T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-mysql-26-10-preview-environment/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0a01318cae87012346895bbf7db63c2863a928d0",
+      "title": "AWS Partner Central now provides an improved business planning experience",
+      "summary": "AWS Partner Central now offers a new business planning experience in the AWS Console. AWS Partners can initiate plans for growing their AWS business or collaborate on plans initiated by AWS teams.\n \nP...",
+      "category": "OTHER",
+      "timestamp": "2026-11-10T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/partner-central-business-planning/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "489b936081748cbc11890df04af10317d0c86b1c",
+      "title": "Amazon S3 Access Grants now support listing grants across multiple AWS accounts",
+      "summary": "Amazon S3 Access Grants can now discover and list all your grants across multiple AWS accounts with a single API call, eliminating the need to query each account separately. A single ListCallerAccessG...",
+      "category": "COMPUTE",
+      "timestamp": "2026-11-10T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-s3-access-grants-list-across-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3020b3b9b35c40f6a62efb238e2632d247c7d24c",
+      "title": "Amazon Bedrock adds bedrock-runtime endpoint support for Daybreak models",
+      "summary": "Eligible customers can now access OpenAI’s specialized cybersecurity models Daybreak Red: GPT-5.6 Cyber and Daybreak Blue: GPT-5.6 Sol through the bedrock-runtime endpoint on Amazon Bedrock.\n  Daybrea...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-10T10:14:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/openai-gpt-daybreak-on-amazon-bedrock-runtime/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "24e87ff5928fe0493fbd5b557333c0d15c152d6b",
+      "title": "Amazon S3 Tables now support S3 server access logging",
+      "summary": "Amazon S3 Tables now support server access logging, providing you detailed records of the requests made to your table buckets. You can now track table operations, namespace management, and data access...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-10T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-s3-tables-server-access-logging/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5da48d238c99f9ba4b8bce18ade35eeb57d91428",
+      "title": "AWS Marketplace SaaS free trials now convert automatically to paid subscriptions",
+      "summary": "Today, AWS Marketplace announces that free trials of usage-based software as a service (SaaS) products can now convert automatically to paid subscriptions. When a free trial ends, the buyer's subscrip...",
+      "category": "OTHER",
+      "timestamp": "2026-11-10T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-marketplace-free-trial-conversion/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "35a351f7bafefa28a047443866d5e774e948660f",
       "title": "CloudWatch PromQL alarms now support EC2 and Application Auto Scaling",
       "summary": "Amazon CloudWatch alarms that use Prometheus Query Language (PromQL) can now trigger Amazon EC2 and Application Auto Scaling step and simple scaling policies. You can scale your EC2 Auto Scaling group...",
@@ -5989,74 +6089,24 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-clean-rooms-minimum-aggregation-custom-analysis-rules",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "c5eac0b8d6b65f23218e61beebc8d798a24ee941",
-      "title": "Amazon Quick now supports approval policies for sharing",
-      "summary": "Amazon Quick now offers approval policies, giving administrators governance controls over how assets are shared within their organization. With approval policies, administrators can require designated...",
-      "category": "OTHER",
-      "timestamp": "2026-08-12T22:22:00.000Z",
-      "link": "https://aws.amazon.com/whats-new/2026/08/amazon-quick-approval-policies-sharing/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "5cb4772e570d9bee896be495b3db01d70ebc2825",
-      "title": "Amazon Quick now supports per-user resource limits",
-      "summary": "Amazon Quick now enables administrators to set per-user limits on index storage and agent hours, giving them direct control over subscription costs. With limits management, administrators can create l...",
-      "category": "OTHER",
-      "timestamp": "2026-08-12T22:17:00.000Z",
-      "link": "https://aws.amazon.com/whats-new/2026/08/amazon-quick-per-user-resource-limits/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "cf776519c3803fcfad3a493e8648fcb57e62fe99",
-      "title": "AWS Global View now offers an interactive map view for AWS Regions and AWS Local Zones",
-      "summary": "Today, AWS announces the addition of an interactive map view to AWS Global View in the AWS Management Console, providing a visual way to explore AWS Global Infrastructure.\n \nPreviously, customers had ...",
-      "category": "COMPUTE",
-      "timestamp": "2026-08-12T22:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-global-view-map-view/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "082c22527d27b8cb0174d683ef734e17822de296",
-      "title": "Amazon EKS now supports advanced Kubernetes control plane configuration parameters",
-      "summary": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports configuring parameters for Kubernetes control plane components including the scheduler, controller manager, and API server. You can tune pod...",
-      "category": "CONTAINERS",
-      "timestamp": "2026-08-12T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-control-plane-configuration-parameters",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "3e6b1e7c44eb77caea0bb28219df17e56638a5b3",
-      "title": "AWS IAM now provides role manager to set up IAM roles automatically",
-      "summary": "Today, AWS announces the general availability of role manager, a capability in AWS Identity and Access Management (IAM) that automatically sets up the IAM roles your AWS services need. When you set up...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-12T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-role-manager",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 604,
+    "total": 609,
     "byCategory": {
-      "COMPUTE": 70,
+      "OTHER": 126,
+      "COMPUTE": 71,
+      "SECURITY": 137,
+      "DATABASE": 74,
       "ANALYTICS": 16,
       "AI_ML": 101,
-      "SECURITY": 134,
-      "OTHER": 125,
-      "DATABASE": 73,
-      "CONTAINERS": 35,
+      "CONTAINERS": 34,
       "STORAGE": 22,
       "NETWORKING": 9,
       "DEVTOOLS": 1,
       "SERVERLESS": 18
     },
-    "lastUpdated": "2026-11-10T17:30:19.520Z"
+    "lastUpdated": "2026-11-11T01:43:15.656Z"
   },
-  "generatedAt": "2026-11-10T17:30:19.520Z"
+  "generatedAt": "2026-11-11T01:43:15.657Z"
 }
