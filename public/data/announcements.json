@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "03fba84e76b2bb2cd0cf13aa4cce5e2c0f8bb648",
+      "title": "Ornith-1.0-9B and Ornith-1.0-35B models now available on Amazon SageMaker JumpStart",
+      "summary": "DeepReinforce AI's Ornith-1.0-9B and Ornith-1.0-35B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models ar...",
+      "category": "AI_ML",
+      "timestamp": "2026-11-11T23:36:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/ornith-1-0-9b-ornith-1-0-35b-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "207a39dbc5b502aba399bf68a4f579ee65521079",
+      "title": "DeepSeek-V4-Pro, DeepSeek-V4-Flash, and DeepSeek-V4.1-Flash models now available on Amazon SageMaker JumpStart",
+      "summary": "DeepSeek's DeepSeek-V4-Pro, DeepSeek-V4-Flash, and DeepSeek-V4.1-Flash models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. ...",
+      "category": "AI_ML",
+      "timestamp": "2026-11-11T23:18:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/deepseek-v4-pro-v4-flash-v4.1-flash-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d7e60a14df6857abf8ca9980f6f3ba973272e9bc",
+      "title": "AWS Network Security Manager now available in AWS European Sovereign Cloud and Additional New Regions",
+      "summary": "AWS Network Security Manager is now available in AWS European Sovereign Cloud Region and Thirty-One new Regions\n  Today, AWS announces the general availability of AWS Network Security Manager in the A...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-11T21:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/network-security-mgr-eu-sovereign-cloud/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6e4df7c694c131de7b115a19b3d3092219a9b235",
+      "title": "AWS Cloud WAN now supports Flow Logs",
+      "summary": "AWS Cloud WAN now supports VPC Flow Logs, giving you central visibility into IP traffic across your global network. Flow Logs capture detailed information for each flow, so you can understand how traf...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-11T20:05:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-cloud-wan-flow-logs/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7983ef26c5654f20499086edfa31d0adc63399b5",
+      "title": "Amazon EKS Provisioned Control Plane now offers a 24 GB etcd database on 4XL and 8XL tiers",
+      "summary": "Amazon Elastic Kubernetes Service (Amazon EKS) now offers a larger 24 GB etcd database, up from 16 GB, for 4XL and 8XL Provisioned Control Plane clusters. etcd is the key-value store in the Kubernetes...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-11-11T19:45:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-eks-provisioned-control-plane-larger-etcd-database/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "54e7e75769610b05e03d0fde5c9ae9e6da336505",
+      "title": "Amazon Cognito now supports user pool session management",
+      "summary": "Amazon Cognito now supports session management for user pools, giving you visibility into and control over the sessions your users establish when they sign in to your applications. Single sign-on (SSO...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-11T19:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cognito-session-management/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "172f4186adad79bee64ec94287949a528070583d",
+      "title": "AWS Lambda MicroVMs now supports the x86 CPU architecture",
+      "summary": "AWS Lambda MicroVMs now supports the x86 CPU architecture, so you can run your existing x86 applications, tools, and software dependencies without recompiling or porting them. When you create a MicroV...",
+      "category": "SERVERLESS",
+      "timestamp": "2026-11-11T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-microvms-x86-architecture/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a38f3dc5f2f509bd9f099a6e09c4e8e5a958fb16",
+      "title": "Amazon EKS Auto Mode now supports security groups for Pods",
+      "summary": "Amazon EKS Auto Mode now supports security groups for Pods, letting you apply dedicated Amazon EC2 security group rules to individual Pods. Different workloads on the same node can carry different sec...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-11T17:26:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-eks-auto-mode-security-groups-for-pods/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d630710aaf49da772d41305d8794e04dd58f2559",
+      "title": "AWS Emulator is now available for building and testing AWS applications locally",
+      "summary": "AWS Emulator is now available for building and testing AWS applications locally.\n \nStarting today, you can use AWS Emulator to build and test AWS applications on your computer or in your continuous in...",
+      "category": "DATABASE",
+      "timestamp": "2026-11-11T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-emulator-now-available/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c5d1ee644d2b7751132db2da1c0b84eff8c51707",
+      "title": "AWS Quick apps are now available in Asia Pacific (Singapore) ",
+      "summary": "The AWS Quick desktop app for macOS and Windows and the Quick mobile app for iOS and Android are now available in the Asia Pacific (Singapore) Region. This launch builds on the recent availability of ...",
+      "category": "OTHER",
+      "timestamp": "2026-11-11T15:20:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-apps-available-in-asia-pacific-singapore/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "4e1794bd95756cc5c5aceec80edd3b27f8114ff3",
       "title": "AWS Billing and Cost Management now supports AWS Billing Conductor and AWS Billing Transfer views as source views for custom billing views ",
       "summary": "Custom billing views now support AWS Billing Conductor and AWS Billing Transfer views as source views. These are the views AWS maintains per billing group and per billing transfer relationship. You ca...",
@@ -5989,74 +6089,24 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-supports-customurl-deeplinking",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "1a54f340e89c276d153caf84a129f8d1d898d13f",
-      "title": "AWS Billing and Cost Management introduces Managed Dashboards",
-      "summary": "AWS Billing and Cost Management (BCM) Dashboards now include Managed Dashboards. These are a collection of preconfigured and read-only dashboards located in your dashboard list. They deliver actionabl...",
-      "category": "OTHER",
-      "timestamp": "2026-08-14T02:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-billing-and-cost-management-managed-dashboards/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "a7e931f855ccd83be4e92ba5a247dcdadacc3647",
-      "title": "AWS Client VPN now supports CLI, administration controls, and faster connections",
-      "summary": "AWS Client VPN introduces a rebuilt AWS VPN Client v6.0.x which offers new features like command-line interface (CLI) support, enterprise administrative controls, and faster connection establishment t...",
-      "category": "OTHER",
-      "timestamp": "2026-08-13T20:49:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-client-vpn-cli/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c63c5b74a1ae073d6ef2ab67e473f8bcc7a4c246",
-      "title": "Amazon Redshift adds rg.large and rg.12xlarge instance sizes in AWS GovCloud (US) Regions",
-      "summary": "Amazon Redshift now offers rg.large and rg.12xlarge instance sizes for RG instances in the AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions. RG instances deliver better performance, running d...",
-      "category": "DATABASE",
-      "timestamp": "2026-08-13T19:34:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-redshift-adds-rg-large-12xlarge-aws-govcloud-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "820af04ba1d7ba832c205386d2b649324c425367",
-      "title": "Claude Opus 5 is now available in AWS GovCloud (US) ",
-      "summary": "AWS GovCloud (US) now offers Claude Opus 5 — the most advanced Opus model yet, and compatible with zero data retention (ZDR) — bringing a step-change in coding, long-running agents, and complex profes...",
-      "category": "AI_ML",
-      "timestamp": "2026-08-13T18:23:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/claude-opus-5-aws-govcloud/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "5dd0ee741c393a3aebd6bbfc768fc14e9fc53799",
-      "title": "Amazon Quick Microsoft 365 extensions are now generally available ",
-      "summary": "Today, Amazon Quick announces the general availability of Microsoft 365 extensions for Excel, PowerPoint, Word, and Outlook. These extensions enable Quick to perform tasks directly within users' M365 ...",
-      "category": "OTHER",
-      "timestamp": "2026-08-13T18:00:00.000Z",
-      "link": "https://aws.amazon.com/amazon-quick-microsoft-365-extensions-generally-available",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 604,
+    "total": 609,
     "byCategory": {
-      "OTHER": 125,
-      "COMPUTE": 70,
-      "SECURITY": 135,
+      "AI_ML": 102,
+      "SECURITY": 139,
+      "CONTAINERS": 35,
+      "SERVERLESS": 19,
       "DATABASE": 74,
+      "OTHER": 123,
+      "COMPUTE": 70,
       "ANALYTICS": 16,
-      "AI_ML": 101,
-      "CONTAINERS": 34,
       "STORAGE": 21,
       "NETWORKING": 9,
-      "DEVTOOLS": 1,
-      "SERVERLESS": 18
+      "DEVTOOLS": 1
     },
-    "lastUpdated": "2026-11-11T17:43:20.950Z"
+    "lastUpdated": "2026-11-12T02:42:47.225Z"
   },
-  "generatedAt": "2026-11-11T17:43:20.951Z"
+  "generatedAt": "2026-11-12T02:42:47.225Z"
 }
