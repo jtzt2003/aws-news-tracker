@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "f7d85f6d3f999ab8810bdcaa0aba54d9c79a0124",
+      "title": "Grok 4.7 now available on Kiro in AWS GovCloud (US)",
+      "summary": "A new model is now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions.\n \nGrok 4.7 is SpaceXSI's most capable model for coding and knowledge work. It's built to stay focused through ha...",
+      "category": "OTHER",
+      "timestamp": "2026-11-13T13:13:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/kiro-grok-4-7-aws-govcloud-us/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "50434053494890342e760fd84417b10db3296159",
       "title": "Amazon Cognito now supports OAuth 2.0 token exchange",
       "summary": "Amazon Cognito now supports OAuth 2.0 token exchange (RFC 8693). Amazon Cognito helps you add sign-up, sign-in, and access control to your web applications, mobile applications, and AI agents. With to...",
@@ -6152,12 +6162,12 @@
     }
   ],
   "stats": {
-    "total": 615,
+    "total": 616,
     "byCategory": {
+      "OTHER": 124,
       "SECURITY": 139,
       "DATABASE": 75,
       "STORAGE": 23,
-      "OTHER": 123,
       "SERVERLESS": 20,
       "NETWORKING": 10,
       "AI_ML": 103,
@@ -6166,7 +6176,7 @@
       "ANALYTICS": 16,
       "DEVTOOLS": 1
     },
-    "lastUpdated": "2026-11-13T02:25:53.369Z"
+    "lastUpdated": "2026-11-13T17:31:03.371Z"
   },
-  "generatedAt": "2026-11-13T02:25:53.369Z"
+  "generatedAt": "2026-11-13T17:31:03.371Z"
 }
