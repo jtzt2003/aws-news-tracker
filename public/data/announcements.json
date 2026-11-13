@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "50434053494890342e760fd84417b10db3296159",
+      "title": "Amazon Cognito now supports OAuth 2.0 token exchange",
+      "summary": "Amazon Cognito now supports OAuth 2.0 token exchange (RFC 8693). Amazon Cognito helps you add sign-up, sign-in, and access control to your web applications, mobile applications, and AI agents. With to...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-12T22:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-token-exchange/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "2a8a195de5263ec069e07456e1171a94d0235c0a",
+      "title": "Amazon Aurora and RDS now support Graviton5-based R9g database instances",
+      "summary": "AWS Graviton5-based R9g database instances are now generally available for Amazon Aurora with PostgreSQL compatibility and MySQL compatibility, and for Amazon RDS for PostgreSQL, MySQL, and MariaDB.\n ...",
+      "category": "DATABASE",
+      "timestamp": "2026-11-12T19:02:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-rds-postgresql-mysql-mariadb-r9g-instances/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1b3f2f9d1b1cca9894b52872d228ee34eb1956bd",
+      "title": "Amazon MWAA now supports fine-grained access control with IAM Identity Center and multi-team environments",
+      "summary": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) now supports fine-grained access control, giving administrators precise control over who can access which workflows and resources in an Apache...",
+      "category": "STORAGE",
+      "timestamp": "2026-11-12T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/mwaa-fine-grained-access-control/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "867374befae2f029622d5ccf7df8ab367601e0fc",
+      "title": "Amazon Connect Customer supports merging and linking related cases in the agent workspace",
+      "summary": "Amazon Connect Customer now lets agents merge and link related cases in the agent workspace, so they can resolve customer issues faster and respond consistently. When a customer contacts a business ab...",
+      "category": "OTHER",
+      "timestamp": "2026-11-12T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-cases-merge-link/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "63df85ec7627c1233dcdfefc061dc87eae3f182e",
+      "title": "Amazon SNS now supports push notifications in four additional AWS Regions",
+      "summary": "Amazon Simple Notification Service (Amazon SNS) now supports sending push notifications in the Asia Pacific (Hyderabad), Asia Pacific (Melbourne), Europe (Zurich), and AWS GovCloud (US-East) Regions.\n...",
+      "category": "SERVERLESS",
+      "timestamp": "2026-11-12T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sns-push-four-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f5a0acbf7e00e729c4dd79609b394530a7bcbb15",
+      "title": "AWS Quick enhances granular governance with the ability to restrict structured data sources",
+      "summary": "Today, AWS Quick is announcing the general availability of structured data connector restrictions through custom permissions. This capability gives administrators granular control over which types of ...",
+      "category": "DATABASE",
+      "timestamp": "2026-11-12T09:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-structured-data-source-restrictions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "84c1d22357374a433976f32572fde8664865ca86",
+      "title": "Amazon Route 53 Domains now supports self-service restore for expired and deleted domains",
+      "summary": "Amazon Route 53 Domains now lets you restore an expired or recently deleted domain yourself, using the Amazon Route 53 console, AWS CLI, or AWS SDKs. Previously, restoring a domain required a request ...",
+      "category": "NETWORKING",
+      "timestamp": "2026-11-12T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-domains-self-service-restore/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0856dcf267c717133a21d4c1317a62f31cdff9da",
+      "title": "EC2 Image Builder console now integrates with the DevOps Agent for troubleshooting and resource creation",
+      "summary": "EC2 Image Builder now integrates with the AWS DevOps Agent directly in the Image Builder console, enabling you to troubleshoot failed image pipelines and create resources directly from the console cha...",
+      "category": "OTHER",
+      "timestamp": "2026-11-12T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-image-builder-devops-agent-integration",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "718e327b5292d7dd6b81b0561629e273e6a1eb93",
+      "title": "Amazon FSx for Lustre lowers the entry cost of Intelligent-Tiering file systems by 75%",
+      "summary": "Amazon FSx for Lustre is reducing the minimum provisioned throughput capacity and metadata IOPS on Intelligent-Tiering file systems by 75%, allowing you to use Intelligent-Tiering even more cost-effec...",
+      "category": "AI_ML",
+      "timestamp": "2026-11-12T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/fsx-lustre-intelligent-tiering-lower-throughput/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9256138d2f5c4b91e2f8c28c8be7470e91b01153",
+      "title": "AWS Backup adds logically air-gapped vault support for Amazon EBS Snapshots Archive",
+      "summary": "AWS Backup logically air-gapped vault now supports Amazon EBS Snapshots Archive. Logically air-gapped vaults are a type of AWS Backup vault that allows secure sharing of backups across accounts and AW...",
+      "category": "STORAGE",
+      "timestamp": "2026-11-12T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-backup-lag-vault-ebs-archive/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "03fba84e76b2bb2cd0cf13aa4cce5e2c0f8bb648",
       "title": "Ornith-1.0-9B and Ornith-1.0-35B models now available on Amazon SageMaker JumpStart",
       "summary": "DeepReinforce AI's Ornith-1.0-9B and Ornith-1.0-35B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models ar...",
@@ -6049,44 +6149,24 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-cloudshell-visual-file-editor/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "d02e8c519b569f5ba2ade8045c0479ae5c5a9ed8",
-      "title": "Amazon Quick now supports per-user resource limits",
-      "summary": "Amazon Quick now enables administrators to set per-user limits on index storage and agent hours, giving them direct control over subscription costs. With limits management, administrators can create l...",
-      "category": "OTHER",
-      "timestamp": "2026-08-14T21:07:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-per-user-resource-limits/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "bf4dd3e0deed98b5a6cf8d413f9007258d3c4a75",
-      "title": "Amazon Quick now supports data loss prevention with Microsoft Purview",
-      "summary": "Amazon Quick now integrates with Microsoft Purview to enforce data loss prevention (DLP) policies across your Quick environment. Organizations need to ensure that sensitive files aren't shared outside...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-14T21:04:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-dlp-purview/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 607,
+    "total": 615,
     "byCategory": {
-      "AI_ML": 102,
       "SECURITY": 139,
+      "DATABASE": 75,
+      "STORAGE": 23,
+      "OTHER": 123,
+      "SERVERLESS": 20,
+      "NETWORKING": 10,
+      "AI_ML": 103,
       "CONTAINERS": 35,
-      "SERVERLESS": 19,
-      "DATABASE": 73,
-      "OTHER": 122,
       "COMPUTE": 70,
       "ANALYTICS": 16,
-      "STORAGE": 21,
-      "NETWORKING": 9,
       "DEVTOOLS": 1
     },
-    "lastUpdated": "2026-11-12T17:56:14.504Z"
+    "lastUpdated": "2026-11-13T02:25:53.369Z"
   },
-  "generatedAt": "2026-11-12T17:56:14.505Z"
+  "generatedAt": "2026-11-13T02:25:53.369Z"
 }
