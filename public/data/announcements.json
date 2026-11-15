@@ -6209,64 +6209,24 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-routing-steps/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "769808c3594d07b168ee8c565c24f08eeb15be92",
-      "title": "AWS Network Firewall Now Supports Stateful Rule Hit Counts ",
-      "summary": "AWS Network Firewall now provides rule hit counts for stateful rules, giving network administrators and security engineers visibility into how often each stateful rule in the firewall policy matches n...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-17T16:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-network-firewall-stateful-rule-hit-counts/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "cac1bf00a89bee5dbdf13f37749426f524dcd0ef",
-      "title": "Amazon Quick Microsoft 365 extensions are now generally available ",
-      "summary": "Amazon Quick announces the general availability of Microsoft 365 extensions for Excel, PowerPoint, Word, and Outlook. These extensions enable Quick to perform tasks directly within users' M365 environ...",
-      "category": "OTHER",
-      "timestamp": "2026-08-17T15:41:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-microsoft-365-extensions-generally-available",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "2dd38f1c2d974e70306ee5a6a97373977a655bea",
-      "title": "Amazon OpenSearch Service now supports automatic semantic enrichment for VPC domains",
-      "summary": "Amazon OpenSearch Service now extends automatic semantic enrichment to VPC-enabled domains, allowing customers with private network configurations to leverage AI-powered semantic search without exposi...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-17T15:39:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-service-vpc/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f412e06626d3cf48626826fcee7e2decca0209aa",
-      "title": "AWS CloudShell now includes a built-in visual file editor",
-      "summary": "AWS CloudShell now includes a built-in visual file editor that you can launch directly from your shell session using a single 'edit' command, no setup required. CloudShell provides a browser-based she...",
-      "category": "SERVERLESS",
-      "timestamp": "2026-08-17T13:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-cloudshell-visual-file-editor/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 625,
+    "total": 621,
     "byCategory": {
       "DATABASE": 77,
-      "OTHER": 126,
-      "SECURITY": 142,
+      "OTHER": 125,
+      "SECURITY": 140,
       "AI_ML": 105,
       "STORAGE": 23,
-      "SERVERLESS": 20,
+      "SERVERLESS": 19,
       "NETWORKING": 10,
       "CONTAINERS": 35,
       "COMPUTE": 70,
       "ANALYTICS": 16,
       "DEVTOOLS": 1
     },
-    "lastUpdated": "2026-11-15T01:30:59.670Z"
+    "lastUpdated": "2026-11-15T16:49:45.951Z"
   },
-  "generatedAt": "2026-11-15T01:30:59.670Z"
+  "generatedAt": "2026-11-15T16:49:45.951Z"
 }
