@@ -6149,84 +6149,24 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/postgresql-19-beta-3-amazon-rds-database-preview-environment/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "31a62fb354db6e23283dc74a5399d77dcf4b141a",
-      "title": "Amazon Bedrock expands API support and introduces Cross Region Inferencing for OpenAI models",
-      "summary": "Amazon Bedrock now supports the OpenAI GPT-5.6 models (Sol, Terra, and Luna) on the bedrock-runtime endpoint, with support for the Responses, Converse, and Chat Completions APIs. It also adds support ...",
-      "category": "AI_ML",
-      "timestamp": "2026-08-17T20:29:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-cross-region-openai-v2/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6bca1f9371858be3409b4681b26490e75387ed83",
-      "title": "Amazon ECR now supports 25 replication rules per registry",
-      "summary": "Amazon Elastic Container Registry (Amazon ECR) has increased the maximum number of replication rules per registry from 10 to 25.\n \nPreviously, customers with complex multi-region or multi-account arch...",
-      "category": "CONTAINERS",
-      "timestamp": "2026-08-17T19:01:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecr-increased-replication-rules-limit",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b0fde257e4fa6be78a96482e6c57014984f03959",
-      "title": "Amazon EC2 Auto Scaling now supports batch instance termination",
-      "summary": "Amazon EC2 Auto Scaling now supports batch instance termination in a single API call. You can now pass up to 100 instance IDs to the TerminateInstanceInAutoScalingGroup API to terminate them as a batc...",
-      "category": "CONTAINERS",
-      "timestamp": "2026-08-17T18:11:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-auto-scaling-batch-termination",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "9723565b2965a283e02e68f2c16167ad75ea8eaf",
-      "title": "Amazon MSK now supports configuring custom domain names for MSK Provisioned clusters",
-      "summary": "You can now easily configure custom domain names on Amazon MSK Provisioned clusters, on either ZooKeeper or KRaft mode for metadata management. This capability helps client applications maintain the s...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-17T18:01:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/17/amazon-msk-custom-domain-names/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "30bc04c96ca2655b259ac396fb6926f0e4d49efa",
-      "title": "Amazon EC2 R8i and R8i-Flex instances are now available in Canada West (Calgary) region",
-      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the Canada West (Calgary) region. These instances are powered by custom Intel Xeon 6 processors, a...",
-      "category": "COMPUTE",
-      "timestamp": "2026-08-17T17:28:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8i-r8i-flex-calgary/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ecc036fe67108218fa9e94a886f5de33ba2bc7d3",
-      "title": "Amazon Connect Customer dashboards now support reporting on routing steps and agent proficiencies",
-      "summary": "Amazon Connect Customer dashboards now support reporting on routing steps and agent proficiencies enabling supervisors to monitor and optimize how contacts are matched to agents based on agent profici...",
-      "category": "OTHER",
-      "timestamp": "2026-08-17T17:23:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-routing-steps/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 621,
+    "total": 615,
     "byCategory": {
       "DATABASE": 77,
-      "OTHER": 125,
-      "SECURITY": 140,
-      "AI_ML": 105,
+      "OTHER": 124,
+      "SECURITY": 139,
+      "AI_ML": 104,
       "STORAGE": 23,
       "SERVERLESS": 19,
       "NETWORKING": 10,
-      "CONTAINERS": 35,
-      "COMPUTE": 70,
+      "CONTAINERS": 33,
+      "COMPUTE": 69,
       "ANALYTICS": 16,
       "DEVTOOLS": 1
     },
-    "lastUpdated": "2026-11-15T16:49:45.951Z"
+    "lastUpdated": "2026-11-16T01:35:37.836Z"
   },
-  "generatedAt": "2026-11-15T16:49:45.951Z"
+  "generatedAt": "2026-11-16T01:35:37.836Z"
 }
