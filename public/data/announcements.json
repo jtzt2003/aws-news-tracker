@@ -1,6 +1,26 @@
 {
   "announcements": [
     {
+      "id": "c7c5495c285624074d1c2b237907b56e78a9dec0",
+      "title": "AWS WAF advanced rate-based rules are now available in AWS GovCloud (US), Thailand, and Mexico",
+      "summary": "AWS WAF advanced rate-based rules are now available in the Asia Pacific (Thailand), Mexico (Central), AWS GovCloud (US-East), and AWS GovCloud (US-West) Regions. Customers in these Regions can now agg...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-16T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/waf-advanced-rate-rules-available/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0165a6b58e27995a89e8ad07b3500dc5f2480a48",
+      "title": "AgentCore runtime instances are now available in six more AWS Regions",
+      "summary": "Amazon Bedrock AgentCore runtime instances are now available in six additional AWS Regions: US West (N. California), Canada (Central), Europe (London), Europe (Paris), Europe (Stockholm), and Asia Pac...",
+      "category": "AI_ML",
+      "timestamp": "2026-11-16T07:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/agentcore-aws-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "45fcba7ce3a97728f2c61c1b915bb905f2f219f8",
       "title": "Aurora PostgreSQL with express configuration now supported in CloudFormation",
       "summary": "Aurora PostgreSQL now supports express configuration in AWS CloudFormation for infrastructure as code deployment. This launch enables you to automate the infrastructure deployment of your Aurora clust...",
@@ -6089,84 +6109,24 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-corretto-august-2026-security-updates",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "c7d8df8d629128e5c0a577ee8d22c213d494e14f",
-      "title": "AgentCore payments is now generally available in Amazon Bedrock AgentCore",
-      "summary": "Today, AWS announces the general availability of AgentCore payments, a capability within Amazon Bedrock AgentCore that enables AI agents to autonomously discover, access, and pay for paid APIs, MCPs, ...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-18T19:15:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-agentcore-payments-ga/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "77118f10791fca146de10049e205ca07a0c87e6d",
-      "title": "Amazon SageMaker Unified Studio now supports data profiling and anomaly detection",
-      "summary": "Amazon SageMaker Unified Studio now supports data profiling and anomaly detection, powered by AWS Glue Data Quality. Data stewards, engineers and analysts can generate statistical profiles of their da...",
-      "category": "AI_ML",
-      "timestamp": "2026-08-18T18:49:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/smus-data-profiling",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c9bfb7e9fb397ddf3c30919114b4b65534d7e1cc",
-      "title": "Amazon MWAA Serverless now supports PythonOperator and BashOperator",
-      "summary": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) Serverless now supports running custom Python functions and shell scripts directly in the serverless runtime using PythonOperator and BashOper...",
-      "category": "STORAGE",
-      "timestamp": "2026-08-18T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/mwaa-serverless-pythonoperator-bashoperator/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "1ca6624eae7e1b3867ca00a9e1f3133fc709bfa9",
-      "title": "Amazon EC2 R8i instances are now available in Israel (Tel Aviv) region",
-      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i instances are available in the Israel (Tel Aviv) region. These instances are powered by custom Intel Xeon 6 processors, available only on ...",
-      "category": "COMPUTE",
-      "timestamp": "2026-08-18T17:24:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8i-israel-tel-aviv/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b89a892f274afea17bbff2a45fa3ef3fcfd5d92b",
-      "title": "IAM Policy Autopilot now supports Terraform plan files",
-      "summary": "IAM Policy Autopilot can now generate baseline IAM policies directly from a Terraform plan file. IAM Policy Autopilot is an open source tool, launched at re:Invent 2025, that analyzes your code to det...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-18T17:19:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/iam-policy-autopilot-now-supports-terraform-plan-files",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "613c99088d1172d10f5faa18da1a5beee41d5428",
-      "title": "PostgreSQL 19 Beta 3 is now available in Amazon RDS Database Preview Environment",
-      "summary": "Starting today, Amazon RDS for PostgreSQL 19 Beta 3 is available in the Amazon RDS Database Preview Environment, allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL....",
-      "category": "DATABASE",
-      "timestamp": "2026-08-18T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/postgresql-19-beta-3-amazon-rds-database-preview-environment/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 615,
+    "total": 611,
     "byCategory": {
-      "DATABASE": 77,
-      "OTHER": 124,
-      "SECURITY": 139,
+      "SECURITY": 138,
       "AI_ML": 104,
-      "STORAGE": 23,
+      "DATABASE": 76,
+      "OTHER": 124,
+      "STORAGE": 22,
       "SERVERLESS": 19,
       "NETWORKING": 10,
       "CONTAINERS": 33,
-      "COMPUTE": 69,
+      "COMPUTE": 68,
       "ANALYTICS": 16,
       "DEVTOOLS": 1
     },
-    "lastUpdated": "2026-11-16T01:35:37.836Z"
+    "lastUpdated": "2026-11-16T20:00:50.686Z"
   },
-  "generatedAt": "2026-11-16T01:35:37.836Z"
+  "generatedAt": "2026-11-16T20:00:50.686Z"
 }
