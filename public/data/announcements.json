@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "de92b282d1be6fd4a529fc574fd3558fd1406eeb",
+      "title": "Amazon ECR now replicates image deletions across regions and accounts",
+      "summary": "Amazon Elastic Container Registry (Amazon ECR) now supports replicating image deletions and tag removals to your replication destinations. Previously, ECR replication copied images to destination regi...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-11-16T22:07:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/replication-deletes-amazon-ecr",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "189b93e4a9fef21ac04c2ad35e7b62c813320586",
+      "title": "Amazon EBS now supports associating additional KMS keys with snapshots",
+      "summary": "Amazon Elastic Block Store (EBS) now supports associating additional AWS Key Management Service (KMS) keys with EBS snapshots. This new capability enables you to share and copy encrypted snapshots acr...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-16T22:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/ebs-snapshots-associate-kms-keys/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1971db31412624560a9d5f6ebd6289a73bc0f1ed",
+      "title": "Amazon S3 Vectors now supports hybrid search combining vector and full text for more relevant search results",
+      "summary": "Amazon S3 Vectors now supports hybrid search that combines vector similarity search with full-text search within a single query. By combining semantic meaning and exact term matching into a single ran...",
+      "category": "STORAGE",
+      "timestamp": "2026-11-16T21:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/s3-vectors-hybrid-search/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "896e0e347b0abff138c927dbfc688d7fe91c8d19",
+      "title": "Amazon Redshift now supports multi-statement transactions, conflict resolution, and time travel for Apache Iceberg",
+      "summary": "Amazon Redshift now supports multi-statement transactions, automatic write-conflict resolution, and time travel for Apache Iceberg tables. You can run multi-step, concurrent transformation pipelines d...",
+      "category": "DATABASE",
+      "timestamp": "2026-11-16T20:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/redshift-time-travel-multi-statement",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1e611eb089c2dcdee4d3ad6757e34268499769c6",
+      "title": "AWS DevOps Agent is now available in AWS GovCloud (US-West)",
+      "summary": "Now available in AWS GovCloud (US-West), AWS DevOps Agent is your always-available operations teammate that resolves and proactively prevents incidents, optimizes application reliability and performan...",
+      "category": "OTHER",
+      "timestamp": "2026-11-16T19:55:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-devops-agent-govcloud-west/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3aa9a6a8a49facadca2fd3d09ed8f282aa0aa665",
+      "title": "Amazon Connect Health medical coding is now available in public preview",
+      "summary": "Today, AWS announces the public preview of medical coding in Amazon Connect Health, a HIPAA-eligible AI service that works alongside healthcare teams across patient engagement and point-of-care workfl...",
+      "category": "OTHER",
+      "timestamp": "2026-11-16T19:18:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-health-medical-coding/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f4fff8347a4c644b7373219b1e824b393a8ffa2b",
+      "title": "Amazon Connect Customer agent assist now supports interactive responses",
+      "summary": "Amazon Connect Customer agent assist now supports interactive components, including cards, carousels, buttons, and input fields. The AI agent analyzes conversation context in real time, recommends act...",
+      "category": "OTHER",
+      "timestamp": "2026-11-16T19:02:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/Connect-Custom-agent-interactive-responses",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "923dad6aa251b0e75cec0eae8d265d4e82f90eec",
+      "title": "AWS KMS now supports key sharing with AWS Resource Access Manager",
+      "summary": "AWS Key Management Service (KMS) now integrates with AWS Resource Access Manager (RAM), giving you a simpler and more consistent way to share KMS keys across your AWS accounts, within your organizatio...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-16T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/kms-key-sharing-resource-access-manager/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4d97a56c219110ad3e3f5cbecf2da37860f74be1",
+      "title": " Set up, connect, and govern AI agents faster with Amazon WorkSpaces",
+      "summary": "Building AI agents has become essential. Across your organization, teams want agents to handle ERP transactions, work through a claims queue, and operate the same applications your people use every da...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-16T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-workspaces-AI-agents-connect-govern",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c8ded8f1861a08b45fa7f54574fdb5b08677e1b7",
+      "title": "AWS Marketplace Metering Service now supports decimal usage quantities",
+      "summary": "AWS Marketplace Metering Service now supports decimal usage quantities in the MeterUsage and BatchMeterUsage APIs. Previously, AWS Marketplace sellers reported usage to both APIs in whole numbers, and...",
+      "category": "OTHER",
+      "timestamp": "2026-11-16T17:39:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-marketplace-metering-service-decimal-usage-quantities/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "c7c5495c285624074d1c2b237907b56e78a9dec0",
       "title": "AWS WAF advanced rate-based rules are now available in AWS GovCloud (US), Thailand, and Mexico",
       "summary": "AWS WAF advanced rate-based rules are now available in the Asia Pacific (Thailand), Mexico (Central), AWS GovCloud (US-East), and AWS GovCloud (US-West) Regions. Customers in these Regions can now agg...",
@@ -6079,54 +6179,24 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-grok-4-6/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "771383b8005dc41b6e606dac26e0fe9e00ae2a51",
-      "title": "Amazon Bedrock now supports OpenAI models in India",
-      "summary": "Amazon Bedrock now supports the OpenAI GPT-5.6 models (Terra and Luna) in India, with India Geo cross-Region inference. Customers with regulatory requirements of in-country inferencing can now use Ope...",
-      "category": "AI_ML",
-      "timestamp": "2026-08-18T23:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-openai-india-v1/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "a8d3fb3b9188bf448c45c7f1b454c94f4f5e60ec",
-      "title": "AWS IAM identity federation to external services is now available in AWS European Sovereign Cloud Region",
-      "summary": "AWS Identity and Access Management (IAM) now enables AWS workloads in the AWS European Sovereign Cloud (Germany) Region to securely authenticate with external services using short-lived JSON Web Token...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-18T22:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-european-sovereign-cloud/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "94573dda1ee37a32da9044802d49c472ea2338c4",
-      "title": "Amazon Corretto August 2026 Critical Security Patch Updates",
-      "summary": "On Aug 18, 2026, Amazon announced critical security patch update (CSPU) for Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK. Corretto 26.0.2.11.1, 25.0.4.8.1, 21.0...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-18T21:48:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-corretto-august-2026-security-updates",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 611,
+    "total": 618,
     "byCategory": {
-      "SECURITY": 138,
-      "AI_ML": 104,
-      "DATABASE": 76,
-      "OTHER": 124,
-      "STORAGE": 22,
+      "CONTAINERS": 34,
+      "SECURITY": 139,
+      "STORAGE": 23,
+      "DATABASE": 77,
+      "OTHER": 128,
+      "AI_ML": 103,
       "SERVERLESS": 19,
       "NETWORKING": 10,
-      "CONTAINERS": 33,
       "COMPUTE": 68,
       "ANALYTICS": 16,
       "DEVTOOLS": 1
     },
-    "lastUpdated": "2026-11-16T20:00:50.686Z"
+    "lastUpdated": "2026-11-17T04:19:27.867Z"
   },
-  "generatedAt": "2026-11-16T20:00:50.686Z"
+  "generatedAt": "2026-11-17T04:19:27.867Z"
 }
