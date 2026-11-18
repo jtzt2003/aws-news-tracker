@@ -1,6 +1,56 @@
 {
   "announcements": [
     {
+      "id": "b9c1771361764a2db757c5d9398fcbe028f42f84",
+      "title": "Amazon RDS for MySQL supports MySQL minor version 8.4.13",
+      "summary": "Starting today, Amazon Relational Database Service (Amazon RDS) for MySQL supports MySQL minor version 8.4.13, the latest minor released by community MySQL. We recommend upgrading to the newer minor v...",
+      "category": "DATABASE",
+      "timestamp": "2026-11-18T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-mysql-8413-available/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "58fbbf12ab0c111998a923f5107cba6ecec04c12",
+      "title": "Amazon Cognito now supports point-in-time recovery",
+      "summary": "Amazon Cognito now supports point-in-time recovery (PITR), so you can restore the user data in a user pool to an earlier time. Amazon Cognito helps you implement secure sign-in and access control for ...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-18T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-point-in-time-recovery/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f68a89b4487a9bf4fe4143a46ed71d7468f2521a",
+      "title": "Amazon RDS now supports fast storage volume initialization",
+      "summary": "Amazon RDS now initializes storage volumes faster when you perform a point-in-time restore (PITR), create a read replica, or convert a Single-AZ instance to Multi-AZ. Each of these operations creates ...",
+      "category": "DATABASE",
+      "timestamp": "2026-11-18T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-fast-storage-volume-initialization/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9768fdd60b7cfc6d41c3286fa165977a0c3ad1a6",
+      "title": "AWS Control Tower now supports existing Amazon S3 bucket for log delivery",
+      "summary": "AWS Control Tower now lets you use an existing Amazon S3 bucket in your landing zone to store AWS Config and AWS CloudTrail logs. Previously, AWS Control Tower required you to use the Amazon S3 bucket...",
+      "category": "STORAGE",
+      "timestamp": "2026-11-18T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/control-tower-existing-s3-log-bucket/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "56bff82d685c15b1b6090e307929c3fd01a2256a",
+      "title": "Amazon WorkSpaces Applications adds support for smart card redirection",
+      "summary": "Amazon WorkSpaces Applications now supports smart card redirection on single-session and multi-session fleets, so users can access the smart card connected to their local device from applications insi...",
+      "category": "OTHER",
+      "timestamp": "2026-11-17T23:46:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-workspaces-applications-smart-card-redirection/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "db88f419854d484316df6b66ab397cf874bc59cf",
       "title": "Amazon EMR 8.2 is now available",
       "summary": "Amazon EMR 8.2 is now available with new features across Amazon EMR on EC2, Amazon EMR on EKS, and Amazon EMR Serverless. This release upgrades Apache Spark to 4.1.3, Apache Iceberg to 1.11.0, and Del...",
@@ -6049,104 +6099,24 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8gd-m8gd/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "6feb33ac51fa5392a09d8158e1d25395ecdc38d1",
-      "title": "Amazon EC2 P6-B300 instances are now available in the Asia Pacific (Seoul) Region",
-      "summary": "Starting today, Amazon Elastic Cloud Compute (Amazon EC2) P6-B300 instances are available in the Asia Pacific (Seoul) Region. P6-B300 instances provide 8xNVIDIA Blackwell Ultra GPUs with 2.1 TB high b...",
-      "category": "COMPUTE",
-      "timestamp": "2026-08-20T18:31:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-p6-b300/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c62d682dbe487dacaab93b1944a0f05b96372816",
-      "title": "Amazon EKS now supports certificate authority (CA) rotation with automated lifecycle management",
-      "summary": "Today, Amazon Elastic Kubernetes Service (Amazon EKS) announced certificate authority (CA) rotation, enabling customers to rotate their cluster's CA through a managed lifecycle with automated safeguar...",
-      "category": "CONTAINERS",
-      "timestamp": "2026-08-20T18:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-certificate-authority-ca-rotation-automated-lifecycle-management",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b24279ca32e6bb16ce70c7006854d861ae5c908c",
-      "title": "Amazon CloudFront now supports Origin Access Control (OAC) for Amazon S3 Multi-Region Access Points ",
-      "summary": "Starting today, customers can protect their origins using Amazon S3 Multi-Region Access Points (MRAP) by using CloudFront Origin Access Control (OAC) to only allow access from designated CloudFront di...",
-      "category": "STORAGE",
-      "timestamp": "2026-08-20T18:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudfront-oac-s3-mrap",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "37ed8d584f7ac4c9cd8a3a09c2bfaa32d0638ba2",
-      "title": "AWS Partner Central agents MCP Server now supports OAuth with AWS Sign-In",
-      "summary": "AWS partners can now access AWS Partner Central agents from tools they already use, such as Amazon Quick and Kiro, using OAuth through AWS Sign-In. Partners can authorize agent access with their exist...",
-      "category": "OTHER",
-      "timestamp": "2026-08-20T18:02:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/8/aws-partner-central-mcp/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "69641d620c662c53d77d75cbc00778e9daa4fae0",
-      "title": "ARC Region switch adds Amazon RDS Switchover Read Replica execution block ",
-      "summary": "Today, we are launching the Amazon RDS Switchover Read Replica execution block in ARC Region switch, which automates recovery orchestration for Amazon RDS databases running Oracle Data Guard in multi-...",
-      "category": "DATABASE",
-      "timestamp": "2026-08-20T17:45:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/region-switch-rds-switchover-execution-block/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "0bb50d20ce29930e9fed2089ec345d0cf7377b1f",
-      "title": "Generative AI Inference Recommendation for Amazon SageMaker now available in the SageMaker AI Studio",
-      "summary": "Amazon SageMaker AI now offers Generative AI Inference Recommendations in SageMaker AI Studio, giving customers a guided, low-code, no-code path to find the best inference configuration for their work...",
-      "category": "AI_ML",
-      "timestamp": "2026-08-20T17:25:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/generative-ai-inference-recommendation-for-amazon-sagemaker-now-available-in-the-sagemaker-ai-studio",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6b31fec46a2da1e9f990fe663cf8e4da5ea209c4",
-      "title": "AWS Direct Connect introduces inbound prefix controls and higher prefix scale",
-      "summary": "Today, AWS Direct Connect announced inbound prefix controls, a new capability that lets you allocate and manage inbound route-prefix allocations for your private and transit virtual interfaces (VIFs) ...",
-      "category": "NETWORKING",
-      "timestamp": "2026-08-20T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-direct-connect-new-prefix-controls",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "474978892dc1cb16297f01cb460105df4d1db76e",
-      "title": "Amazon Redshift introduces long-term system table retention with Amazon S3 Tables integration ",
-      "summary": "Amazon Redshift now supports long-term retention for system table data through native integration with Amazon S3 Tables. With this feature, you can configure your Redshift system table data retention ...",
-      "category": "DATABASE",
-      "timestamp": "2026-08-20T15:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-long-term-system-table-retention/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 613,
+    "total": 610,
     "byCategory": {
       "DATABASE": 78,
-      "AI_ML": 103,
-      "OTHER": 128,
-      "SECURITY": 140,
-      "CONTAINERS": 35,
+      "SECURITY": 141,
       "STORAGE": 22,
+      "OTHER": 128,
+      "AI_ML": 102,
+      "CONTAINERS": 34,
       "SERVERLESS": 18,
-      "NETWORKING": 10,
-      "COMPUTE": 63,
+      "NETWORKING": 9,
+      "COMPUTE": 62,
       "ANALYTICS": 15,
       "DEVTOOLS": 1
     },
-    "lastUpdated": "2026-11-18T03:20:11.238Z"
+    "lastUpdated": "2026-11-18T18:40:14.047Z"
   },
-  "generatedAt": "2026-11-18T03:20:11.238Z"
+  "generatedAt": "2026-11-18T18:40:14.047Z"
 }
