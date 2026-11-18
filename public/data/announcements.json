@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "db88f419854d484316df6b66ab397cf874bc59cf",
+      "title": "Amazon EMR 8.2 is now available",
+      "summary": "Amazon EMR 8.2 is now available with new features across Amazon EMR on EC2, Amazon EMR on EKS, and Amazon EMR Serverless. This release upgrades Apache Spark to 4.1.3, Apache Iceberg to 1.11.0, and Del...",
+      "category": "DATABASE",
+      "timestamp": "2026-11-17T22:25:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-emr-8.2/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "5c82b52ee969fbb6d8ef53e0911817511c8d9810",
+      "title": "Introducing the Apache Spark Optimization Agent for Amazon EMR Serverless",
+      "summary": "Amazon EMR Serverless now offers the Apache Spark optimization agent, which analyzes completed Spark job runs and delivers cost and performance optimization recommendations in seconds. You can select ...",
+      "category": "AI_ML",
+      "timestamp": "2026-11-17T22:25:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/apache-spark-optimization-agent/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ab144c3651830376fb751168722fbe3fa83e7db6",
+      "title": "AWS Transform now accelerates migration deals for Migration Acceleration Program (MAP) benefits",
+      "summary": "AWS Partners can now expedite Migration Acceleration Program (MAP) deals, from qualification to incentive payout, with an end-to-end agentic workflow in AWS Transform. Partners can manage the full MAP...",
+      "category": "OTHER",
+      "timestamp": "2026-11-17T22:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/map-integration-with-aws-transform/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3058da9264ccfc1996482b9e5943a21115172fdb",
+      "title": "Amazon EC2 C8gn instances are now available in AWS Israel (Tel Aviv) region",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8gn instances, powered by the latest-generation AWS Graviton4 processors, are available in the AWS Israel (Tel Aviv) region. The C8gn instanc...",
+      "category": "AI_ML",
+      "timestamp": "2026-11-17T22:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-c8gn/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "9c85e14af0fc5cd101a7cae2599f17185e3de708",
+      "title": "Amazon EC2 C8ine instances are now available in AWS Europe (Ireland) region",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8ine instances are available in the AWS Europe (Ireland) region. C8ine instances are powered by custom sixth generation Intel Xeon Scalable p...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-17T22:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-c8ine",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e06ee3bfd27af410260e9993136b38c2c7cc2d80",
+      "title": "Amazon ECR now supports global authentication tokens for private registries",
+      "summary": "Amazon Elastic Container Registry (Amazon ECR) now supports global authentication tokens for private registries. Previously, you needed to request a separate authentication token in each AWS Region wh...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-11-17T21:37:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/global-authentication-amazon-ecr",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6d93802cee82980ee97e5ed1fd0cccfe62831c57",
+      "title": "Customize AWS Elemental Inference with custom models, prompts, and decisions",
+      "summary": "AWS Elemental Inference now lets you customize how it analyzes your live video in two ways. You can create functions that ask custom questions of the video using multi-modal foundational models in Ama...",
+      "category": "AI_ML",
+      "timestamp": "2026-11-17T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/elemental-inference-functions-decisions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "89ce060b87899ad75599ebc53b84756342c78966",
+      "title": "AWS Security Hub now infers resource criticality from installed software and usage",
+      "summary": "Today, AWS Security Hub adds installed software and resource usage as signals for resource criticality, which indicates how important a resource is to your business. Security Hub uses criticality to r...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-17T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-resource-criticality/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b592aa3ca52f5a6095742b2961d342b77766b8bc",
+      "title": "Amazon Bedrock AgentCore Memory now supports short-term memory retention of up to 10 years",
+      "summary": "Amazon Bedrock AgentCore Memory now lets you keep short-term memory events for up to 10 years, up from one year. Developers can now use short-term memory as a long-lived record of agent conversations ...",
+      "category": "AI_ML",
+      "timestamp": "2026-11-17T19:22:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-bedrock-agentcore-memory-10-year-retention",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "60f9ee66e6264de9426ec7f90720ddc308ae9828",
+      "title": "Amazon API Gateway REST APIs now support JWT authorizers",
+      "summary": "Amazon API Gateway now offers a native JWT authorizer for REST APIs, a new authorizer type that validates JSON Web Tokens directly in the gateway. Until now, validating tokens from an OpenID Connect o...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-17T19:22:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-api-gateway-rest-authorizers-jwt/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "8bc36fad49393a8146e3a7910694db10c12619ba",
       "title": "AWS Security Hub extends unified security management to Google Cloud Platform",
       "summary": "Today, AWS announces that AWS Security Hub now monitors Google Cloud Platform (GCP) resources, extending risk analytics, cloud security posture management, vulnerability management, and security respo...",
@@ -6029,94 +6129,24 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-long-term-system-table-retention/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "4d07c339eb9f19cde50d1dedb4b7377513ef9908",
-      "title": "AWS Marketplace now supports category-based notifications and multi-channel delivery for partners",
-      "summary": "AWS partners can now configure category-based notifications and multi-channel delivery for AWS Marketplace notifications through AWS User Notifications. Previously, partners received their AWS Marketp...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-20T00:06:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "eb8f498772831965374c98d21de5aa98b7fcea0b",
-      "title": "Launching External Web Access for Web Search on Amazon Bedrock ",
-      "summary": "Earlier this month, we announced Web Search on Amazon Bedrock, a built-in server-side tool that allows you to ground model responses with current web knowledge, while maintaining data within your secu...",
-      "category": "AI_ML",
-      "timestamp": "2026-08-19T23:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-web-access-web-search/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "24b9a580fc33685bbad31e692c3210d316856377",
-      "title": "Web Search in Amazon Bedrock AgentCore adds domain and published date filtering, expands to Europe and Asia Pacific ",
-      "summary": "Web Search in Amazon Bedrock AgentCore now supports domain filtering and published-date filtering, giving agents per-request control over which web sources and time windows they search. Amazon Bedrock...",
-      "category": "AI_ML",
-      "timestamp": "2026-08-19T22:55:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/web-search-amazon-bedrock/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "55999adad538dc268d1e8931e8d294e6b34ea96d",
-      "title": "Amazon EC2 enables AMI creation with local snapshots from instances on Outposts",
-      "summary": "Amazon EC2 now supports creating Amazon Machine Images (AMIs) with local snapshots from instances running on AWS Outposts. This capability makes it easier for customers to create AMIs while storing sn...",
-      "category": "COMPUTE",
-      "timestamp": "2026-08-19T21:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/ec2-create-image-local-snapshot-outpost",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "c7cd130b0f1f59cc7e305775c312a6b8fe09b925",
-      "title": "Amazon CloudWatch log Centralization now supports log group tag propagation",
-      "summary": "Amazon CloudWatch Centralization now copies log group tags from source accounts to the destination log groups created by centralization rules. CloudWatch Centralization aggregates log data from multip...",
-      "category": "OTHER",
-      "timestamp": "2026-08-19T21:06:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-centralization-tag-propogation/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "08196b206570ef3c02dadfee7da9f37640213de5",
-      "title": "Amazon SageMaker notebooks now support trusted identity propagation",
-      "summary": "Amazon SageMaker Notebooks now support Trusted Identity Propagation (TIP) with Amazon Athena, Amazon Redshift, and Amazon EMR Serverless, enabling per-user access control for data analytics.\n \nWhen co...",
-      "category": "AI_ML",
-      "timestamp": "2026-08-19T20:25:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-sagemaker/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "14b3e9ae32658b8764c776fa0f126668280dd355",
-      "title": "Amazon CloudWatch pipelines adds GeoIP, RDS, and XML processors",
-      "summary": "Amazon CloudWatch pipelines now includes three new processors that parse and enrich log data as it's ingested: an Amazon RDS log parser, an XML parser and a GeoIP enrichment processor. CloudWatch pipe...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-19T20:13:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/cloudwatch-geoip-rds-xml/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 610,
+    "total": 613,
     "byCategory": {
-      "SECURITY": 139,
+      "DATABASE": 78,
+      "AI_ML": 103,
       "OTHER": 128,
-      "CONTAINERS": 34,
+      "SECURITY": 140,
+      "CONTAINERS": 35,
       "STORAGE": 22,
-      "DATABASE": 77,
-      "AI_ML": 102,
       "SERVERLESS": 18,
       "NETWORKING": 10,
-      "COMPUTE": 64,
+      "COMPUTE": 63,
       "ANALYTICS": 15,
       "DEVTOOLS": 1
     },
-    "lastUpdated": "2026-11-17T18:57:31.985Z"
+    "lastUpdated": "2026-11-18T03:20:11.238Z"
   },
-  "generatedAt": "2026-11-17T18:57:31.986Z"
+  "generatedAt": "2026-11-18T03:20:11.238Z"
 }
