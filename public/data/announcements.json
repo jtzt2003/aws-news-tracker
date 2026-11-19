@@ -1,6 +1,86 @@
 {
   "announcements": [
     {
+      "id": "d06a0a33762520b10d0b4dac7c6d7bc4ef748c94",
+      "title": "Amazon OpenSearch Memory is now generally available",
+      "summary": "Today, AWS announced the general availability of Amazon OpenSearch Memory, a new serverless capability in Amazon OpenSearch Service for adding persistent memory to AI agents. OpenSearch Memory stores ...",
+      "category": "COMPUTE",
+      "timestamp": "2026-11-18T21:09:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-memory-generally-available/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "10d541c4ecaa51ecb9f44197be54193f28da4a64",
+      "title": "Introducing the Apache Spark Optimization Agent for AWS Glue ETL",
+      "summary": "AWS Glue ETL now offers the Apache Spark Optimization Agent, which analyzes completed Spark job runs and delivers cost and performance optimization recommendations within minutes. You can select a cos...",
+      "category": "AI_ML",
+      "timestamp": "2026-11-18T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/apache-spark-aws-glue-etl/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "27e8f52eb50c883c24483985176537dfcc02be2b",
+      "title": "Amazon SageMaker AI now supports cross-Region inference routing",
+      "summary": "Today, Amazon SageMaker AI announces cross-Region inference routing, which helps keep inference applications available when a region runs short of capacity by sending requests to endpoints deployed in...",
+      "category": "AI_ML",
+      "timestamp": "2026-11-18T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-cross-region-routing/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a354bb255087bba0756f9bec8d7bbb849c438cee",
+      "title": "AWS announces ExtendDB 1.0  ",
+      "summary": "Today, Amazon Web Services (AWS) announced version 1.0 of ExtendDB, the first release of the open source Amazon DynamoDB-compatible adapter for production use. ExtendDB is fully compatible with the Dy...",
+      "category": "DATABASE",
+      "timestamp": "2026-11-18T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-extenddb-1-0/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "00ba5333ab93c982dff647e9f6d17ee6c883a6e5",
+      "title": "AWS Transform custom now supports cross-account sharing of transformation definitions",
+      "summary": "AWS Transform custom now enables you to share transformation definitions (TDs) and their associated lessons across AWS accounts, organizational units (OUs), or your entire organization in AWS Organiza...",
+      "category": "OTHER",
+      "timestamp": "2026-11-18T19:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-custom-cross-account-td/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "eae15b3fe26d7e4636c34566eb8b19ba2b8949c8",
+      "title": "Amazon CloudFront standard logging now supports CMCD and additional log fields",
+      "summary": "Amazon CloudFront standard logging now supports additional access log fields that were previously available only in CloudFront real-time logs. You can now include these fields in your standard logs an...",
+      "category": "STORAGE",
+      "timestamp": "2026-11-18T19:28:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-standard-logging-cmcd-fields",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "557a8c90d55210daf2d42f39ba7d1a21de23e101",
+      "title": "Amazon CloudFront Announces WebSocket and gRPC Support for Origin Mutual TLS",
+      "summary": "Amazon CloudFront (CF) now supports WebSocket and gRPC traffic to application origins in AWS regions, with mutual TLS authentication between CF and the application origin (origin mTLS). Customers can ...",
+      "category": "NETWORKING",
+      "timestamp": "2026-11-18T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudfront-origin-mtls-websockets-grpc/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "7118b7ae3743c14328f2ec32eabc48f9868dbc7f",
+      "title": "AWS Lambda adds support for GPU instances on Lambda Managed Instances ",
+      "summary": "AWS Lambda now supports GPU-accelerated Event Functions on Lambda Managed Instances using EC2 G-series instances. You can now run GPU-accelerated workloads including AI inference, media processing, 3D...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-11-18T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-gpu-managed-instances/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "b9c1771361764a2db757c5d9398fcbe028f42f84",
       "title": "Amazon RDS for MySQL supports MySQL minor version 8.4.13",
       "summary": "Starting today, Amazon Relational Database Service (Amazon RDS) for MySQL supports MySQL minor version 8.4.13, the latest minor released by community MySQL. We recommend upgrading to the newer minor v...",
@@ -6069,54 +6149,24 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-adds-open-click-tracking-override/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "fd2d7745352a48a2c45aa11ab39f03169945d970",
-      "title": "AWS announces the general availability of a new AWS Local Zone in Las Vegas, Nevada",
-      "summary": "AWS Local Zone in Las Vegas, Nevada is now generally available. The new AWS Local Zone supports Amazon Elastic Compute Cloud (Amazon EC2) C7i, M7i, R7i, and C8gn instances, Amazon Elastic Block Store ...",
-      "category": "CONTAINERS",
-      "timestamp": "2026-08-20T21:45:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-local-zones-las-vegas-nevada/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "db00e65c08b427d0ef795ec029359511d980789e",
-      "title": "Amazon Timestream for InfluxDB now supports customer managed keys ",
-      "summary": "Amazon Timestream for InfluxDB now supports AWS Key Management Service (AWS KMS) customer managed keys for encrypting data at rest in InfluxDB 2 database instances, InfluxDB 2 Read Replicas, and Influ...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-20T20:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-timestream-influxdb-cmk/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "5adcb6a483af3c2133d198db1f0df4c76762b233",
-      "title": "Amazon EC2 C8gd, M8gd and R8gd instances are now available in additional AWS Regions",
-      "summary": "Amazon Elastic Compute Cloud (Amazon EC2) C8gd, M8gd, and R8gd instances with up to 11.4 TB of local NVMe-based SSD block-level storage are now available in additional regions. C8gd instances are now ...",
-      "category": "COMPUTE",
-      "timestamp": "2026-08-20T20:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8gd-m8gd/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 610,
+    "total": 615,
     "byCategory": {
-      "DATABASE": 78,
-      "SECURITY": 141,
-      "STORAGE": 22,
-      "OTHER": 128,
-      "AI_ML": 102,
-      "CONTAINERS": 34,
-      "SERVERLESS": 18,
-      "NETWORKING": 9,
       "COMPUTE": 62,
+      "AI_ML": 104,
+      "DATABASE": 79,
+      "OTHER": 129,
+      "STORAGE": 23,
+      "NETWORKING": 10,
+      "CONTAINERS": 34,
+      "SECURITY": 140,
+      "SERVERLESS": 18,
       "ANALYTICS": 15,
       "DEVTOOLS": 1
     },
-    "lastUpdated": "2026-11-18T18:40:14.047Z"
+    "lastUpdated": "2026-11-19T02:56:33.177Z"
   },
-  "generatedAt": "2026-11-18T18:40:14.047Z"
+  "generatedAt": "2026-11-19T02:56:33.177Z"
 }
