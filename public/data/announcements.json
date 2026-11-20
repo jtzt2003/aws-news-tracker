@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "799e717c67fea2f9dcb8fe4218d4349d4e353d02",
+      "title": "AWS Marketplace now supports agentic payments with AgentCore",
+      "summary": "AWS Marketplace now supports agentic payments over the x402 protocol, so AI agents can discover and buy select products and pay per request in US dollars through AgentCore payments, part of Amazon Bed...",
+      "category": "AI_ML",
+      "timestamp": "2026-11-19T21:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/marketplace-agentic-payments-agentcore/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ad9942991b58d39d2fc5ed02f47ff0b66c69d266",
+      "title": "Amazon Cognito now supports client ID metadata documents",
+      "summary": "Amazon Cognito now supports OAuth client ID metadata documents (CIMD). Amazon Cognito helps you implement secure sign-in and access control for users, AI agents, and microservices in minutes. With CIM...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-19T21:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-client-id-metadata-documents/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "88c1fdb2bd1964c9c8075fa93d9ed629651a4ac9",
+      "title": "Amazon Aurora DSQL now delivers up to 50% higher write throughput ",
+      "summary": "With upgrades to its storage layer, Amazon Aurora DSQL now delivers up to 50% higher write throughput for many transactional workloads. Data loads finish sooner, and tables whose primary key always in...",
+      "category": "DATABASE",
+      "timestamp": "2026-11-19T20:53:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-dsql-higher-write-throughput/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "933ab4118c3faf5c583fd0378c463fdb22a14d77",
+      "title": "Amazon CloudFront adds IP based routing and connection logs to SaaS Manager",
+      "summary": "Amazon CloudFront now allows web development and SaaS platforms to serve different tiers of customers on the same wildcard domain by using IP addresses to route them to the right configuration. For ex...",
+      "category": "NETWORKING",
+      "timestamp": "2026-11-19T20:26:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-ip-based-routing-connection-logging",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0265b42490e15e06862edf8086e1478e3b460cd1",
+      "title": "Amazon CloudFront simplifies domain moves and onboarding for SaaS Manager",
+      "summary": "Amazon CloudFront now lets web development platforms and SaaS providers move a customer's domain to their platform in a single request with no downtime, and serve requests to the domain while the TLS ...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-19T20:22:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-domain-moves-distribution-tenants",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "14838e985dc5ad7ce8cab53c9c8615631026d66f",
+      "title": "Amazon Connect launches Resolutions, an agentic solution for high-volume operational work ",
+      "summary": "Amazon Connect Customer announces the general availability of Resolutions, an agentic operations solution that resolves high-volume work end-to-end, including refund requests, transaction disputes, fr...",
+      "category": "OTHER",
+      "timestamp": "2026-11-19T20:06:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-resolutions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "ed283d59f8064ee4267113d8c8f71ca342cdee09",
+      "title": "AWS Lambda durable functions now supports OpenTelemetry tracing",
+      "summary": "AWS Lambda announces OpenTelemetry (OTel) support for Lambda durable functions. You can now trace your durable executions and emit traces to Amazon CloudWatch and other industry-standard observability...",
+      "category": "SERVERLESS",
+      "timestamp": "2026-11-19T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-otel/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "57e5d9662829ced41138cd9d655385c2563dbb17",
+      "title": "AWS Marketplace agent mode now helps you assess, buy, and deploy solutions",
+      "summary": "You can now assess a seller's security, buy, and deploy supported products in one conversation with AWS Marketplace agent mode, the conversational AI experience for procuring cloud solutions. You shar...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-19T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-marketplace/aws-marketplace-agent-mode-expansion",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e7edf120a215bc3c5ba3eb455c05ac6b659984d3",
+      "title": "Amazon WorkSpaces Applications now supports WebAuthn redirection",
+      "summary": "Amazon WorkSpaces Applications now supports WebAuthn redirection, so users can sign in to websites and applications in their streaming session with a FIDO2 authenticator on their local device, such as...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-19T19:57:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-workspaces-applications-webauthn-redirection/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d64b7591d2687766b24e50a7852f53af51d31824",
+      "title": "Amazon Route 53 now supports health checks for private endpoints ",
+      "summary": "Amazon Route 53 now offers Private Endpoint Health Checks, enabling business-critical workloads that never touch the public internet, such as internal APIs, databases, and self-hosted nodes behind int...",
+      "category": "SERVERLESS",
+      "timestamp": "2026-11-19T19:50:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-private-endpoint-health-checks/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "195a65fb0db436d8206a670e1a0bd29fce439b12",
       "title": "Amazon Aurora DSQL now supports multi-Region peering across continents",
       "summary": "Amazon Aurora DSQL now lets you create multi-Region clusters whose Regions are on different continents, such as US East (N. Virginia) and Europe (Ireland). Until now, the Regions in a multi-Region clu...",
@@ -6149,54 +6249,24 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-mysql-8411-available/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "c16400c215106cf6e32289c210535808832a18ff",
-      "title": "AWS Neuron 2.32 introduces expanded NKI programming, MXFP8 training kernels, and variable-size collectives for Trn2 and Trn",
-      "summary": "AWS Neuron 2.32.0 is now available, introducing NKI 0.6.0 with an on-device top-K instruction, a variable-length `all-gather `for kernels whose ranks hold differently sized tensors, and new loop const...",
-      "category": "COMPUTE",
-      "timestamp": "2026-08-21T21:11:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-announce-neuron-2-32-0",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ded64527b6be471fc88a964ab33f7a2046bb6bad",
-      "title": "Amazon Bedrock announces reduced pricing for OpenAI GPT-5.6 Sol",
-      "summary": "Today, OpenAI announced that they are lowering API prices for GPT-5.6 Sol. Following the recent Terra and Luna price reductions, Sol now costs $4 per million input tokens and $20 per million output to...",
-      "category": "AI_ML",
-      "timestamp": "2026-08-21T20:11:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-openai-gpt-56-sol-reduced-pricing/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "634661242924a7a08a68b0d15805afbd4249e0e1",
-      "title": "Amazon Connect Customer now lets managers chat with their data",
-      "summary": "Amazon Connect Customer now lets managers chat with their data in plain language and get back the answer, the evidence behind it, and the fix, in seconds. Managers have always had the data. What they ...",
-      "category": "OTHER",
-      "timestamp": "2026-08-21T20:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-ai-data-analytics",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 618,
+    "total": 625,
     "byCategory": {
-      "DATABASE": 80,
-      "OTHER": 130,
-      "SERVERLESS": 20,
-      "STORAGE": 24,
-      "COMPUTE": 62,
       "AI_ML": 103,
-      "NETWORKING": 10,
+      "SECURITY": 144,
+      "DATABASE": 81,
+      "NETWORKING": 11,
+      "OTHER": 130,
+      "SERVERLESS": 22,
+      "STORAGE": 24,
+      "COMPUTE": 61,
       "CONTAINERS": 33,
-      "SECURITY": 140,
       "ANALYTICS": 15,
       "DEVTOOLS": 1
     },
-    "lastUpdated": "2026-11-19T18:53:00.555Z"
+    "lastUpdated": "2026-11-20T02:51:31.538Z"
   },
-  "generatedAt": "2026-11-19T18:53:00.555Z"
+  "generatedAt": "2026-11-20T02:51:31.538Z"
 }
