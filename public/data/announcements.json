@@ -1,6 +1,76 @@
 {
   "announcements": [
     {
+      "id": "344b860c79e8a39f46097c85c6a5967bc51e583e",
+      "title": "AWS CloudFormation Service-Managed StackSets adds custom execution roles with nested stacks support",
+      "summary": "AWS CloudFormation StackSets now supports custom execution roles for service-managed stack sets, which enables you to scope the permissions StackSets uses in each target AWS account. StackSets deploys...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-20T17:45:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/stacksets-custom-execution-roles/",
+      "source": "AWS What's New",
+      "isNew": true
+    },
+    {
+      "id": "2ce88365065aaaf445be25c90cc4bb1d623a6f51",
+      "title": "Amazon Aurora MySQL 8.4.12 is now generally available",
+      "summary": "Starting today, Amazon Aurora MySQL-Compatible Edition 8.4 supports MySQL 8.4.12. This release includes several security enhancements and bug fixes. We recommend upgrading to the newer minor versions ...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-20T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-mysql-8412-available/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0c0d23bfb753d7cdfc4120dd32a078b0c4945cc3",
+      "title": "AWS Transform announces support for .NET 11 and expanded project types",
+      "summary": "Today, AWS announced the general availability of .NET 11 support in AWS Transform for .NET. Support for VB.NET, desktop projects, and mobile projects, previously in preview, is also now generally avai...",
+      "category": "OTHER",
+      "timestamp": "2026-11-20T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-transform-windows-dotnet-11/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b879d6e5bde55774fc455d4fa328fff88b2c9300",
+      "title": "Introducing Amazon EC2 T9g instances based on Graviton5 ",
+      "summary": "AWS is announcing the general availability of new low-cost burstable Amazon EC2 T9g instances, which offer the best price performance among general-purpose EC2 instances. These instances are powered b...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-20T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-t9g-instances-ga/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c49daaabd2b33202fd7d47ade7aca9eff2fdd0f3",
+      "title": "AWS launches standardized cost and rate columns in CUR 2.0 and Cost Explorer",
+      "summary": "AWS Data Exports for Cost and Usage Report (CUR) 2.0 now includes standardized cost and rate columns that represent cost consistently across AWS purchase options, including On Demand, Savings Plans, R...",
+      "category": "OTHER",
+      "timestamp": "2026-11-20T14:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-cur-cost-explorer/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "08dbc148bb7d0b59e3d0e5c7c9161da74da6c579",
+      "title": "Announcing the general availability of a new AWS Local Zone in Bogotá, Colombia",
+      "summary": "Today, AWS announces the general availability of a new Local Zone in Bogotá, Colombia, bringing AWS infrastructure closer to end users for applications that require single-digit millisecond latency. Y...",
+      "category": "CONTAINERS",
+      "timestamp": "2026-11-20T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-local-zone-bogota-colombia/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "cd0339545addd598b2efec11c8688986991c0161",
+      "title": "AWS DevOps Agent now supports Slack code channels and Microsoft Teams two-way conversations",
+      "summary": "AWS DevOps Agent now supports dedicated Slack code channels and two-way conversations in Microsoft Teams, so on-call engineers and DevOps teams can investigate and resolve incidents where they already...",
+      "category": "OTHER",
+      "timestamp": "2026-11-19T22:30:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-devops-agent-slack-code-channels-teams-two-way/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "799e717c67fea2f9dcb8fe4218d4349d4e353d02",
       "title": "AWS Marketplace now supports agentic payments with AgentCore",
       "summary": "AWS Marketplace now supports agentic payments over the x402 protocol, so AI agents can discover and buy select products and pay per request in US dollars through AgentCore payments, part of Amazon Bed...",
@@ -6252,21 +6322,21 @@
     }
   ],
   "stats": {
-    "total": 625,
+    "total": 632,
     "byCategory": {
+      "SECURITY": 147,
+      "OTHER": 133,
+      "CONTAINERS": 34,
       "AI_ML": 103,
-      "SECURITY": 144,
       "DATABASE": 81,
       "NETWORKING": 11,
-      "OTHER": 130,
       "SERVERLESS": 22,
       "STORAGE": 24,
       "COMPUTE": 61,
-      "CONTAINERS": 33,
       "ANALYTICS": 15,
       "DEVTOOLS": 1
     },
-    "lastUpdated": "2026-11-20T02:51:31.538Z"
+    "lastUpdated": "2026-11-20T18:21:08.708Z"
   },
-  "generatedAt": "2026-11-20T02:51:31.538Z"
+  "generatedAt": "2026-11-20T18:21:08.708Z"
 }
