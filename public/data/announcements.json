@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "5773cc6c5894dd48459d77d322ea3acbae675570",
+      "title": "Amazon CloudWatch Omni now supports Microsoft Azure platform logs, metrics and traces",
+      "summary": "Amazon CloudWatch Omni now supports collecting Azure resource logs, Azure Monitor platform metrics, virtual network (VNet) flow logs, and traces from Application Insights. Teams that run workloads on ...",
+      "category": "OTHER",
+      "timestamp": "2026-11-21T01:10:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-omni-microsoft-azure",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "e0fc98ef66b4cecc5a95d98917bfb19e3c0c5175",
+      "title": "Web Search on Amazon Bedrock expands language support and country-aware search ",
+      "summary": "Web Search on Amazon Bedrock, the tool that grounds AI agents and applications in cited, current web information, now supports five new languages, plus non-US English, on Amazon Bedrock AgentCore and ...",
+      "category": "AI_ML",
+      "timestamp": "2026-11-21T00:17:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/web-search-amazon-bedrock/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "34ca12b0edf222dced19882c6e5df11e7aef2df3",
+      "title": "Amazon RDS for Oracle now supports Primary Endpoint",
+      "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle now provides a Primary Endpoint, a DNS name that always resolves to the current primary DB instance in a replica configuration. When you swit...",
+      "category": "DATABASE",
+      "timestamp": "2026-11-20T22:54:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-primary-endpoint-v2/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "d0ec8f682174ffe2e30deb3b6bb329765f689425",
+      "title": "AWS Network Firewall introduces automated Internet firewall in public preview",
+      "summary": "AWS Network Firewall announces the public preview of automated Internet firewall, a new centralized control that allows you to configure Network Firewall, with native network address translation (NAT)...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-20T22:38:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/network-firewall-automated-internet/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6a2cebc4340117ae8e0d31d42a5786d069bff421",
+      "title": "Amazon RDS for Oracle now supports Replica First Patching for reduced downtime",
+      "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports Replica First Patching, which reduces downtime during minor version upgrades. Replica First Patching is available for Enterprise...",
+      "category": "DATABASE",
+      "timestamp": "2026-11-20T22:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-replica-first-patching/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "864da979c045b5e595db76e05e9889d0a540dd00",
+      "title": "Amazon Cognito extends multi-Region replication to additional AWS Regions",
+      "summary": "Amazon Cognito multi-Region replication (MRR) now supports additional AWS Regions, extending the resilience benefits of MRR to more workloads. Amazon Cognito helps you implement secure sign-in and acc...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-20T22:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-mrr-opt-in-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6e00c22c337f31343b32e730d59d47b7dbcfbbfe",
+      "title": "Amazon Neptune Serverless now delivers up to 30% better performance and smarter scaling",
+      "summary": "Amazon Neptune Serverless now delivers up to 30% better performance at the same price per Neptune Capacity Unit, running on AWS Graviton4 processors. The new Graviton4-based platform also brings an im...",
+      "category": "AI_ML",
+      "timestamp": "2026-11-20T21:50:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-neptune-serverless-r8g-generally-available",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "3a44c1a96340154fd49bfc7ddd110c254f93484b",
+      "title": "Amazon CloudWatch extends the PromQL query window to 30 days",
+      "summary": "Amazon CloudWatch now supports a 30-day query window for PromQL queries against OpenTelemetry metrics, up from 7 days. You can query a month of data in a single request, chart month-over-month and wee...",
+      "category": "OTHER",
+      "timestamp": "2026-11-20T21:23:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-promql-query-30days/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f153ada87741a768bccaae4b9523d9090e89d683",
+      "title": "Account Mapping and Planning now available in AWS Partner Central",
+      "summary": "AWS Partners can now map their target accounts against AWS records and find where to collaborate with AWS on joint go-to-market before an opportunity exists. Account Mapping and Planning in AWS Partne...",
+      "category": "OTHER",
+      "timestamp": "2026-11-20T21:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/account-mapping-and-planning/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "34345fb38770408032c115f1a4191e05c4320a9b",
+      "title": "Demand Center now available in AWS Partner Central",
+      "summary": "AWS Partners can now plan, launch, fund, and measure demand generation campaigns in one AI-powered experience. Demand Center in AWS Partner Central succeeds Marketing Central and brings together Marke...",
+      "category": "OTHER",
+      "timestamp": "2026-11-20T21:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/demand-center-partner-central/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "344b860c79e8a39f46097c85c6a5967bc51e583e",
       "title": "AWS CloudFormation Service-Managed StackSets adds custom execution roles with nested stacks support",
       "summary": "AWS CloudFormation StackSets now supports custom execution roles for service-managed stack sets, which enables you to scope the permissions StackSets uses in each target AWS account. StackSets deploys...",
@@ -6322,13 +6422,13 @@
     }
   ],
   "stats": {
-    "total": 632,
+    "total": 642,
     "byCategory": {
-      "SECURITY": 147,
-      "OTHER": 133,
+      "OTHER": 137,
+      "AI_ML": 105,
+      "DATABASE": 83,
+      "SECURITY": 149,
       "CONTAINERS": 34,
-      "AI_ML": 103,
-      "DATABASE": 81,
       "NETWORKING": 11,
       "SERVERLESS": 22,
       "STORAGE": 24,
@@ -6336,7 +6436,7 @@
       "ANALYTICS": 15,
       "DEVTOOLS": 1
     },
-    "lastUpdated": "2026-11-20T18:21:08.708Z"
+    "lastUpdated": "2026-11-21T02:59:02.134Z"
   },
-  "generatedAt": "2026-11-20T18:21:08.708Z"
+  "generatedAt": "2026-11-21T02:59:02.134Z"
 }
