@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "7e707b761ba75e75404d343abd9149897263bc6b",
+      "title": "AWS Quick now supports plugins to bundle agents, skills, connectors and flows",
+      "summary": "AWS Quick now supports plugins, agents, skills, connectors, and flows built for a specific task, role, or use case. Most work draws on several of these at once: connectors to reach your systems, skill...",
+      "category": "OTHER",
+      "timestamp": "2026-11-21T02:58:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-plugins-bundle-agents-skills-connectors-flows/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "5773cc6c5894dd48459d77d322ea3acbae675570",
       "title": "Amazon CloudWatch Omni now supports Microsoft Azure platform logs, metrics and traces",
       "summary": "Amazon CloudWatch Omni now supports collecting Azure resource logs, Azure Monitor platform metrics, virtual network (VNet) flow logs, and traces from Application Insights. Teams that run workloads on ...",
@@ -11,12 +21,32 @@
       "isNew": false
     },
     {
+      "id": "ba64504218769240ee1a5fd68f6abf1949d8f37f",
+      "title": "AWS Quick launches a new web experience with updated browser extension and Microsoft 365 add-ins",
+      "summary": "The AWS Quick web app now brings the Quick desktop experience to your browser. Create, share, and use the same agents and skills as on desktop, with the same connectors. Start each day with a daily br...",
+      "category": "OTHER",
+      "timestamp": "2026-11-21T00:27:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-launches-new-web-experience-updated-browser-extension-microsoft-365-add-ins/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "e0fc98ef66b4cecc5a95d98917bfb19e3c0c5175",
       "title": "Web Search on Amazon Bedrock expands language support and country-aware search ",
       "summary": "Web Search on Amazon Bedrock, the tool that grounds AI agents and applications in cited, current web information, now supports five new languages, plus non-US English, on Amazon Bedrock AgentCore and ...",
       "category": "AI_ML",
       "timestamp": "2026-11-21T00:17:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/web-search-amazon-bedrock/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "00da1162ce6d80562c229c06a3c8599478791345",
+      "title": "Build more capable automations through chat with Flows in AWS Quick",
+      "summary": "Flows in AWS Quick now lets users build, run, and refine automations for themselves and their teams, all through conversation. Users describe a process in chat, and Quick builds the flow, with no codi...",
+      "category": "OTHER",
+      "timestamp": "2026-11-20T23:59:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-flows-automations-chat/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -47,6 +77,16 @@
       "category": "SECURITY",
       "timestamp": "2026-11-20T22:38:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/network-firewall-automated-internet/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c8f2f77c6be4c8b577b8c2ca0a149175e67afa36",
+      "title": "AWS Quick now supports Japanese, German, Vietnamese, and Chinese",
+      "summary": "Today, AWS announces that AWS Quick, the AI workspace for business users, now supports Japanese, German, Vietnamese, and Chinese (Simplified and Traditional). AWS Quick now displays its interface in t...",
+      "category": "OTHER",
+      "timestamp": "2026-11-20T22:11:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-japanese-german-chinese-vietnamese/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -6432,9 +6472,9 @@
     }
   ],
   "stats": {
-    "total": 643,
+    "total": 647,
     "byCategory": {
-      "OTHER": 137,
+      "OTHER": 141,
       "AI_ML": 105,
       "DATABASE": 83,
       "SERVERLESS": 23,
@@ -6446,7 +6486,7 @@
       "ANALYTICS": 15,
       "DEVTOOLS": 1
     },
-    "lastUpdated": "2026-11-21T17:07:54.801Z"
+    "lastUpdated": "2026-11-22T01:55:01.919Z"
   },
-  "generatedAt": "2026-11-21T17:07:54.802Z"
+  "generatedAt": "2026-11-22T01:55:01.920Z"
 }
