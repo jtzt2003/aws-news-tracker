@@ -1,6 +1,106 @@
 {
   "announcements": [
     {
+      "id": "115deab71d8dd377725ba6c832970a8c8e516663",
+      "title": "Amazon Connect Customer launches the ability to force logout agents directly from the analytics dashboard ",
+      "summary": "Amazon Connect Customer now allows supervisors to force logout agents directly from the real-time analytics dashboard, eliminating the need to manually contact agents to end their sessions. Force logo...",
+      "category": "OTHER",
+      "timestamp": "2026-11-23T18:35:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-force-logout/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4776b278cf3413b5ff56c184b7a13095cffd901a",
+      "title": "Amazon Connect Customer expands automated performance evaluations to 45 new languages ",
+      "summary": "Amazon Connect Customer now uses generative AI to automate evaluations of human and AI agent performance in 45 additional languages, such as Arabic, Dutch, Indonesian, and Polish. Managers define cust...",
+      "category": "AI_ML",
+      "timestamp": "2026-11-23T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-customer-expands-automated-performance-evaluations-new-languages/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1d39ce5ee5dfee255c83d7eff1e924190d30d5a4",
+      "title": "AWS Partner Central expands analytics access with Partner Central Agents and Data Subscriptions",
+      "summary": "AWS Partners and AWS Marketplace sellers now have two new ways to access their analytics data in AWS Partner Central. Partner Central Agents answer questions in plain language, and Data Subscriptions ...",
+      "category": "AI_ML",
+      "timestamp": "2026-11-23T17:36:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/partner-analytics-agent-s3/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "56a2ac1b9a1416bad18e0fde6bc2d0d822784645",
+      "title": "AgentCore runtime instances are now generally available in the AWS GovCloud (US-West) Region",
+      "summary": "Amazon Bedrock AgentCore runtime instances are now available in the AWS GovCloud (US-West) Region. Runtime instances run your agents on Amazon EC2 instances in your own account, while AgentCore handle...",
+      "category": "AI_ML",
+      "timestamp": "2026-11-23T17:21:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/agentcore-runtime-instances-govcloud",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "6c492755e5a7606d53f702f3e8eed7e6e04a98f6",
+      "title": "Amazon CloudFront Announces HTTP/2 Support for Connections to Origins",
+      "summary": "Amazon CloudFront now supports HTTP/2 connections to custom origins and VPC origins. HTTP/2 lets CloudFront send many requests over fewer connections to your origin. This means fewer connections and T...",
+      "category": "NETWORKING",
+      "timestamp": "2026-11-23T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-cloudfront-http2-origins/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c85c7e95f87cdf18e1a4523197e28439f28de3e2",
+      "title": "AWS Global Accelerator now preserves client IPs for NLBs with TLS listeners",
+      "summary": "AWS Global Accelerator now preserves the client IP address for traffic sent to Network Load Balancer (NLB) endpoints with TLS listeners. You can terminate TLS at your NLB and still see the original cl...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-23T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/global-accelerator-client-ip-nlb-tls/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b95c1bb1d4d120f1899fe82c743e877778f1392f",
+      "title": "Announcing metal size for Amazon EC2 G7 instances",
+      "summary": "Today, AWS announces the general availability of the metal size for Amazon Elastic Compute Cloud (Amazon EC2) G7 instances, accelerated by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs. G7 instanc...",
+      "category": "COMPUTE",
+      "timestamp": "2026-11-23T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-g7-metal-size/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "32830008107d01a6562024ad77107d1a3d79cbfe",
+      "title": "Amazon Aurora serverless for MySQL now supports up to 384 ACUs ",
+      "summary": "Amazon Aurora serverless now supports database capacity of up to 384 Aurora Capacity Units (ACUs) for Aurora MySQL-Compatible Edition, a 50% increase from the previous maximum of 256 ACUs. Each ACU pr...",
+      "category": "DATABASE",
+      "timestamp": "2026-11-23T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-serverless-mysql-supports-384-acu/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f1310b37ba8fb89a9cbb6915da4abfdbb190bed2",
+      "title": "Amazon SageMaker Studio now supports training job submission and model deployment for SageMaker HyperPod clusters",
+      "summary": "Amazon SageMaker Studio now provides a native developer experience for Amazon SageMaker HyperPod, enabling data scientists to submit distributed training jobs, deploy models, and monitor workloads thr...",
+      "category": "AI_ML",
+      "timestamp": "2026-11-23T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-studio-hyperpod/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "66800ffddbfdfc33ae7e34f2d6d1618817c4ef5f",
+      "title": "Amazon Connect Customer AI agents now fill in step-by-step guides",
+      "summary": "AI agents in Amazon Connect Customer can now populate fields of a step-by-step guide for contact center agents during live customer interactions. With step-by-step guides, managers can design forms an...",
+      "category": "OTHER",
+      "timestamp": "2026-11-23T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/connect-ai-agents-fill-guides/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "7e707b761ba75e75404d343abd9149897263bc6b",
       "title": "AWS Quick now supports plugins to bundle agents, skills, connectors and flows",
       "summary": "AWS Quick now supports plugins, agents, skills, connectors, and flows built for a specific task, role, or use case. Most work draws on several of these at once: connectors to reach your systems, skill...",
@@ -6229,164 +6329,24 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-backup-cross-region-air-gapped-docdb/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "d0dfc1e4b5f9b2eb77ba0a168e019e102bee4071",
-      "title": "Amazon EC2 R8id instances are now available in additional AWS Regions",
-      "summary": "Amazon Elastic Compute Cloud (Amazon EC2) R8id instances are now available in additional regions. R8id instances are now available in Asia Pacific (Mumbai, Malaysia, Sydney), Canada (Central), and Eur...",
-      "category": "COMPUTE",
-      "timestamp": "2026-08-25T20:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8id/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "fc0099bb76bd2e5e6c2100f6a74d948defc8c78b",
-      "title": "Amazon EC2 C8id and M8id instances are now available in additional AWS Regions",
-      "summary": "Amazon Elastic Compute Cloud (Amazon EC2) C8id and M8id instances with up to 22.8 TB of local NVMe-based SSD block-level storage are now available in additional regions. C8id instances are now availab...",
-      "category": "COMPUTE",
-      "timestamp": "2026-08-25T20:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8id-m8id-aws-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "307077c7c45c71a4500e44806920aa553d84b8e1",
-      "title": "AWS IoT Core now supports native InfluxDB routing for time-series data",
-      "summary": "AWS IoT Core now supports InfluxDB rule action that routes time-series data from your Internet of Things (IoT) devices directly to InfluxDB databases, without writing custom device-side code or using ...",
-      "category": "DATABASE",
-      "timestamp": "2026-08-25T19:42:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iot-core-influxdb/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "77f1f7ea00c68f9f2fdb34fc182220ab2ac99a75",
-      "title": "AWS Batch now supports Amazon ECS Managed Instances",
-      "summary": "AWS Batch now supports Amazon ECS Managed Instances (ECS MI) as a new compute option, enabling you to run GPU-accelerated and compute-intensive batch workloads on AWS-managed infrastructure. With AWS ...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-25T19:36:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-batch-on-ecs-managed-instances/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6fa9794c5fcca1eb90e2c8aedf2a20b67fb45057",
-      "title": "Capacity Reservation Resource Groups now support Amazon EC2 Capacity Blocks and interruptible Capacity Reservations",
-      "summary": "Starting today, you can add Amazon EC2 Capacity Blocks for ML and interruptible Capacity Reservations to Capacity Reservation Resource Groups. Amazon EC2 offers different reservation offerings such as...",
-      "category": "COMPUTE",
-      "timestamp": "2026-08-25T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/capacity-reservation-resource-groups-ec2",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "07782dba5be68ae8460cae3ce043e5503d5413c4",
-      "title": "AWS Lambda MicroVMs now supports AWS PrivateLink",
-      "summary": "AWS Lambda MicroVMs now supports AWS PrivateLink, enabling private connectivity to Lambda MicroVMs directly from Amazon Virtual Private Cloud (VPC) resources without exposing traffic to the public int...",
-      "category": "SERVERLESS",
-      "timestamp": "2026-08-25T16:34:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/lambda-microvms-supports-privatelink",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "62c7204de59d9baa4287495607c1e7b3feac2d46",
-      "title": "Amazon RDS for PostgreSQL supports minor versions 18.6, 17.11, 16.15, 15.19, and 14.24",
-      "summary": "Amazon Relational Database Service (RDS) for PostgreSQL now supports the latest minor versions 18.6, 17.11, 16.15, 15.19, and 14.24. We recommend that you upgrade to the latest minor versions to addre...",
-      "category": "DATABASE",
-      "timestamp": "2026-08-25T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-postgresql-18-6-17-11-16-15-15-19-14-24/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "fcbbabd96b0d98ed3a5565d9eb98fc0c1857bb2b",
-      "title": "Amazon Connect Customer now lets you update the customer profile on a case or add a profile after a case is opened ",
-      "summary": "Amazon Connect Customer now lets agents change the profile on a case or choose a profile after the case is opened. If a case is linked to the wrong customer, agents can update the profile to keep case...",
-      "category": "OTHER",
-      "timestamp": "2026-08-25T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-flexible-profiles/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "eb1caf9e41b2c6fd9b0e0d145e0af0a088ad015f",
-      "title": "IAM Roles Anywhere now provides a Java plugin for the AWS SDK",
-      "summary": "AWS Identity and Access Management (IAM) Roles Anywhere now provides a plugin for the AWS SDK for Java v2 that enables workloads running outside of AWS to obtain temporary AWS credentials directly wit...",
-      "category": "OTHER",
-      "timestamp": "2026-08-25T13:18:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/iam-roles-anywhere-java/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "737f5cfc7b3c68ac089103839c6642fc5a42eb9b",
-      "title": "AWS Lambda introduces managed runtimes in public preview for Node.js 26 and Python 3.15",
-      "summary": "Today, AWS Lambda introduces managed runtimes in public preview, starting with Node.js 26 and Python 3.15. This gives customers, partners and upstream language communities the opportunity to try upcom...",
-      "category": "SERVERLESS",
-      "timestamp": "2026-08-25T13:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-node-js-python-public-preview/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "04408dbbdacb7d86ed3d4c3aa5aa5412d02b71c1",
-      "title": "Amazon EC2 M8i and M8i-flex instances are now available in Canada West (Calgary) region ",
-      "summary": "Starting today, Amazon EC2 M8i and M8i-flex instances are now available in Canada West (Calgary) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, deliverin...",
-      "category": "COMPUTE",
-      "timestamp": "2026-08-25T13:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/ec2-m8i-m8i-flex-canada-west/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "a265786c29fe8d054434e44518fa346e5fb027f7",
-      "title": "Amazon RDS now supports the latest CU for Microsoft SQL Server",
-      "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) for Microsoft SQL Server. This release includes support for Microsoft SQL Server 2025 CU6...",
-      "category": "DATABASE",
-      "timestamp": "2026-08-25T07:30:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-supports-latest-cu-microsoft-sql-server/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "ac0739540b21dbfe950082d970b9b85de9ac9f88",
-      "title": "Amazon RDS for Oracle now supports July 2026 Release Update ",
-      "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports the Oracle July 2026 Release Update (RU) for Oracle Database versions 19c, 21c and 26ai. We recommend upgrading to the July 2026...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-25T07:24:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-oracle-july-2026-release-update",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "f3419585aae6bb78c94fcc3f50809412c66c18d4",
-      "title": "AWS Secrets Manager adds managed external secrets support for Cisco Security Platform and Netskope",
-      "summary": "AWS Secrets Manager now extends its managed external secrets capability to include Cisco Security Platform API keys and Netskope API tokens, enabling you to automatically rotate these third-party cred...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-25T07:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/secrets-manager-cisco-netskope/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 637,
+    "total": 633,
     "byCategory": {
       "OTHER": 139,
-      "AI_ML": 104,
-      "DATABASE": 82,
-      "SERVERLESS": 23,
-      "SECURITY": 145,
+      "AI_ML": 108,
+      "NETWORKING": 12,
+      "SECURITY": 143,
+      "COMPUTE": 58,
+      "DATABASE": 80,
+      "SERVERLESS": 21,
       "CONTAINERS": 32,
-      "NETWORKING": 11,
       "STORAGE": 24,
-      "COMPUTE": 61,
       "ANALYTICS": 15,
       "DEVTOOLS": 1
     },
-    "lastUpdated": "2026-11-23T02:17:48.519Z"
+    "lastUpdated": "2026-11-23T21:54:19.198Z"
   },
-  "generatedAt": "2026-11-23T02:17:48.520Z"
+  "generatedAt": "2026-11-23T21:54:19.199Z"
 }
