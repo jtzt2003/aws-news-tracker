@@ -1,6 +1,56 @@
 {
   "announcements": [
     {
+      "id": "1c703815596e215596d8dedf6299d02308af8fe1",
+      "title": "Amazon EC2 X8i instances are now available in the Asia Pacific (New Zealand) Region ",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the Asia Pacific (New Zealand) Region. These instances are powered by custom Intel Xeon 6 processors available ...",
+      "category": "COMPUTE",
+      "timestamp": "2026-11-23T23:21:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-x8i-new-zealand/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4677e5a4242cc2a6e4241e0fec2abd565b1f6af2",
+      "title": "AWS Sign-In introduces configurable Sign-in duration of up to 90 days",
+      "summary": "AWS Sign-In now enables developers and AI agents to stay authenticated for up to 90 days without frequent sign-ins or consent prompts. With this launch, administrators can configure Sign-in duration, ...",
+      "category": "OTHER",
+      "timestamp": "2026-11-23T23:14:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/configurable-aws-sign-in-duration/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "765a47a7adb614804421be6562016c8aa8b73314",
+      "title": "Amazon SageMaker HyperPod now supports managed observability and user management extensions for Slurm clusters",
+      "summary": "Amazon SageMaker HyperPod now supports managed cluster extensions for Slurm clusters. You can install, configure, update, and remove managed features through the SageMaker AI console or API. The first...",
+      "category": "AI_ML",
+      "timestamp": "2026-11-23T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-hyperpod-extensions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "aaa7db14a954ddf9213b6a82bfc4017099fef3f3",
+      "title": "AWS WAF introduces simplified pricing",
+      "summary": "AWS WAF now offers simplified pricing that follows what you protect instead of how you configure it. Previously, you paid separate charges for each web ACL, rule, rule group subscription, and capacity...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-23T18:51:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-waf-introduces-simplified-pricing/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "eb2d6d8ec8640fc023d9b4e40e2b09e2c984facb",
+      "title": "AWS WAF announces automated discovery and protection for LLM, MCP, and A2A endpoints using Amazon Bedrock Guardrails",
+      "summary": "Automated AI endpoint discovery and protection are now generally available, enabling you to discover language model (LLM), Model Context Protocol (MCP), and Agent2Agent (A2A) endpoints behind Amazon A...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-23T18:47:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/waf-ai-endpoint-discovery-protection/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "115deab71d8dd377725ba6c832970a8c8e516663",
       "title": "Amazon Connect Customer launches the ability to force logout agents directly from the analytics dashboard ",
       "summary": "Amazon Connect Customer now allows supervisors to force logout agents directly from the real-time analytics dashboard, eliminating the need to manually contact agents to end their sessions. Force logo...",
@@ -17,6 +67,26 @@
       "category": "AI_ML",
       "timestamp": "2026-11-23T18:00:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-customer-expands-automated-performance-evaluations-new-languages/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "aa2d3c5393a359c75385eb93f466177017cbe9c7",
+      "title": "Amazon Connect Customer now lets you test AI model version upgrades for automated evaluations ",
+      "summary": "Amazon Connect Customer now enables managers to test new AI model versions for automated evaluations before switching, so evaluation scores remain consistent through model upgrades. When a new version...",
+      "category": "OTHER",
+      "timestamp": "2026-11-23T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-customer-test-ai-model-version-upgrades-automated-evaluations",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "a69b611574f3c493c2d4b20374528cc3eb1a502e",
+      "title": "Amazon CloudFront is now available in the AWS European Sovereign Cloud",
+      "summary": "Amazon CloudFront is now available in the AWS European Sovereign Cloud. Organizations with strict EU sovereignty requirements can now deliver websites, applications, and APIs with the performance, sec...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-23T18:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-european-sovereign-cloud",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -6332,13 +6402,13 @@
     }
   ],
   "stats": {
-    "total": 633,
+    "total": 640,
     "byCategory": {
-      "OTHER": 139,
-      "AI_ML": 108,
+      "COMPUTE": 59,
+      "OTHER": 141,
+      "AI_ML": 109,
+      "SECURITY": 146,
       "NETWORKING": 12,
-      "SECURITY": 143,
-      "COMPUTE": 58,
       "DATABASE": 80,
       "SERVERLESS": 21,
       "CONTAINERS": 32,
@@ -6346,7 +6416,7 @@
       "ANALYTICS": 15,
       "DEVTOOLS": 1
     },
-    "lastUpdated": "2026-11-23T21:54:19.198Z"
+    "lastUpdated": "2026-11-24T05:44:47.214Z"
   },
-  "generatedAt": "2026-11-23T21:54:19.199Z"
+  "generatedAt": "2026-11-24T05:44:47.214Z"
 }
