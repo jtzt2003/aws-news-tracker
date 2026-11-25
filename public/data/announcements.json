@@ -1,6 +1,66 @@
 {
   "announcements": [
     {
+      "id": "13a9f65ee8b496aff313fbb47a4792bc041022ba",
+      "title": "Amazon EC2 M8g instances are now available in Israel (Tel Aviv)",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M8g instances are available in the Israel (Tel Aviv) region. These instances are powered by AWS Graviton4 processors and deliver up to 30% bet...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-25T17:15:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-m8g-instances-telaviv-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "f84b0e0148b7bebeef4a1552cbbe9c0a367478ed",
+      "title": "Amazon EC2 M9gd instances are now available in Asia Pacific (Seoul)",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M9gd instances are available in the Asia Pacific (Seoul) region. These instances are powered by AWS Graviton5 processors, the fifth generation...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-25T17:10:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-m9gd-asiapacific-seoul/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "1261fa7782468a0acf9eae17357c16de93b8dc55",
+      "title": "Amazon EC2 C9gd instances now available in additional regions",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C9gd instances are available in the Europe (Ireland, Spain) regions. These instances are powered by AWS Graviton5 processors, the fifth genera...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-25T16:49:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-c9gd-instances-additional-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "05bc2c12ccf14794e8f46d6e7a48a82edcfc6ebf",
+      "title": "Amazon EC2 C9g instances are now available in additional regions",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C9g instances are available in the Asia Pacific (Sydney), Europe (Ireland, Spain), and South America (São Paulo) regions. These instances are ...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-25T16:17:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-c9g-instances-additional-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "748a70f6726698d7048854827cf1517d265097ff",
+      "title": "Amazon EC2 M9g instances now available in additional regions ",
+      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M9g instances, powered by AWS Graviton5 processors, are available in US West (N. California), Canada (Central), South America (São Paulo), and...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-25T16:06:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-m9g-instances-additional-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b858784192128dbc8ba48e2a3858f16fb2475916",
+      "title": "AWS IAM extends trusted identity propagation to IAM federation and IAM Roles Anywhere, and simplifies it in IAM Identity Center",
+      "summary": "Trusted identity propagation (TIP) carries the identity of a human user or workload with requests to supported AWS Services. Customers can use that identity in IAM policy conditions for access control...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-25T06:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-iam/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "7ccf6b03523294b5f308ca26add4391707736005",
       "title": "Amazon Bedrock adds bedrock-runtime endpoint support for OpenAI Daybreak Red in AWS GovCloud (US)",
       "summary": "Eligible customers can now access OpenAI’s specialized cybersecurity models Daybreak Red: GPT-5.6 Cyber through the bedrock-runtime endpoint on Amazon Bedrock in AWS GovCloud (US).\n  Daybreak Red is d...",
@@ -6349,84 +6409,24 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-agenttoolkit-for-ai-assisted-datawarehouse-mgmt",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "d032336abc9eb6c660a1ca3ac05d32ca610c36ec",
-      "title": "Amazon EC2 X8i instances are now available in additional regions",
-      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the Europe (Milan) and Europe (Spain) regions. These instances are powered by custom Intel Xeon 6 processors av...",
-      "category": "COMPUTE",
-      "timestamp": "2026-08-27T18:40:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-x8i-europe-milan-spain/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "889aac04bd044eba0f6bbfad9ea64d4faa5fe483",
-      "title": "AWS Elastic Disaster Recovery introduces Recovery Plans for orchestrated application recovery",
-      "summary": "AWS Elastic Disaster Recovery (AWS DRS) now offers Recovery Plans, a capability that automates the sequential launch of multi-server applications during recovery and drills. Instead of launching serve...",
-      "category": "OTHER",
-      "timestamp": "2026-08-27T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/elastic-disaster-recovery-plans/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "8941598cc287e755d586080bb5701a4af10035bb",
-      "title": "Amazon Bedrock AgentCore expands to two new regions",
-      "summary": "Amazon Bedrock AgentCore is now available in two additional AWS Regions: US West (N. California) and Asia Pacific (Hyderabad). Amazon Bedrock AgentCore is the platform to build, connect, and optimize ...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-27T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-agentcore-two-new-regions/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "53b37d2099f9d4b5a1621f93c1d26105814afc82",
-      "title": "Amazon Connect Customer expands conversational analytics capabilities in the Africa (Cape Town) Region",
-      "summary": "Amazon Connect Customer now supports generative AI-powered summaries, real-time call analytics, and real-time rules in the Africa (Cape Town) Region. These capabilities extend the post-contact convers...",
-      "category": "AI_ML",
-      "timestamp": "2026-08-27T18:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/connect-customer-analytics-cape-town/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "a67f9fb920a629d897c463e44d4c6123522a8e9b",
-      "title": "Amazon Connect Customer now automatically refreshes scheduling metrics",
-      "summary": "Amazon Connect Customer now automatically refreshes schedule metrics on the scheduling page, giving managers immediate visibility into the impact of schedule updates. For example, when a new team meet...",
-      "category": "OTHER",
-      "timestamp": "2026-08-27T17:59:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-scheduling-metrics/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b358c625f3cdb4c7331935bfb48fdca8d02f8724",
-      "title": "Amazon FSx for NetApp ONTAP now supports copying backups across AWS Regions and accounts ",
-      "summary": "Amazon FSx for NetApp ONTAP, a fully managed shared storage service built on NetApp's popular ONTAP file system, now supports copying backups within and across AWS Regions, and across trusted accounts...",
-      "category": "STORAGE",
-      "timestamp": "2026-08-27T17:37:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/fsx-ontap-cross-region-backup-copy/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
     "total": 641,
     "byCategory": {
-      "AI_ML": 111,
+      "SECURITY": 150,
+      "AI_ML": 110,
       "ANALYTICS": 16,
-      "OTHER": 140,
+      "OTHER": 138,
       "DATABASE": 80,
-      "COMPUTE": 59,
-      "SECURITY": 145,
+      "COMPUTE": 58,
       "NETWORKING": 12,
       "SERVERLESS": 21,
       "CONTAINERS": 32,
-      "STORAGE": 24,
+      "STORAGE": 23,
       "DEVTOOLS": 1
     },
-    "lastUpdated": "2026-11-25T04:47:04.418Z"
+    "lastUpdated": "2026-11-25T19:46:33.918Z"
   },
-  "generatedAt": "2026-11-25T04:47:04.418Z"
+  "generatedAt": "2026-11-25T19:46:33.918Z"
 }
