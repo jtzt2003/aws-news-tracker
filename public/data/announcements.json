@@ -1,6 +1,56 @@
 {
   "announcements": [
     {
+      "id": "7ccf6b03523294b5f308ca26add4391707736005",
+      "title": "Amazon Bedrock adds bedrock-runtime endpoint support for OpenAI Daybreak Red in AWS GovCloud (US)",
+      "summary": "Eligible customers can now access OpenAI’s specialized cybersecurity models Daybreak Red: GPT-5.6 Cyber through the bedrock-runtime endpoint on Amazon Bedrock in AWS GovCloud (US).\n  Daybreak Red is d...",
+      "category": "AI_ML",
+      "timestamp": "2026-11-24T21:27:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/gpt-daybreak-red-runtime-govcloud/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "c71718e379912f65ec350fd43eeccff3a1bf04da",
+      "title": "Amazon OpenSearch Serverless is now available in the Africa (Cape Town) Region",
+      "summary": "Starting today, the next generation of Amazon OpenSearch Serverless is available in the AWS Africa (Cape Town) Region. Customers can now use a fully managed search, vector and analytics engine that pr...",
+      "category": "ANALYTICS",
+      "timestamp": "2026-11-24T20:22:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-serverless-available-cape-town-region/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "0ef3f159d46f9258b0ca08f918de4ed71ce52921",
+      "title": "AWS CloudFormation makes resource coverage comprehensive with 206 new types",
+      "summary": "AWS CloudFormation now supports 206 additional resource types across 88 services, including Amazon SageMaker Hub, Amazon Bedrock AgentCore PolicyEngine, and Amazon EC2 Snapshot. This closes key gaps i...",
+      "category": "AI_ML",
+      "timestamp": "2026-11-24T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudformation-coverage-expansion/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "41103a102724ab982da9176567c6a550c7a4e63e",
+      "title": "Amazon Connect Customer dashboards now support grouping historical metrics by time interval",
+      "summary": "Amazon Connect Customer analytics dashboards now support grouping historical metrics by time interval on trailing widgets, giving contact center managers granular control over how performance data is ...",
+      "category": "OTHER",
+      "timestamp": "2026-11-24T17:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-time-interval/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "4ef0369cd03a57b16d09cd5c98f7079b92c760f4",
+      "title": "Amazon RDS for SQL Server now supports up to 500 databases per instance",
+      "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports up to 500 databases per DB instance, up from the previous limit of 100. This higher density helps software as a service (Saa...",
+      "category": "DATABASE",
+      "timestamp": "2026-11-24T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-sqlserver-supports-500-databases-per-instance",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "1c703815596e215596d8dedf6299d02308af8fe1",
       "title": "Amazon EC2 X8i instances are now available in the Asia Pacific (New Zealand) Region ",
       "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the Asia Pacific (New Zealand) Region. These instances are powered by custom Intel Xeon 6 processors available ...",
@@ -6359,34 +6409,24 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/fsx-ontap-cross-region-backup-copy/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "3a677181801026e455b9c728fc8d4adcb2d57f50",
-      "title": "Amazon Cognito adds admin API operation to reset user TOTP configurations",
-      "summary": "Amazon Cognito now provides a new admin API operation to reset a user's time-based one-time Password (TOTP) multi-factor authentication (MFA) configuration. When users lose access to their TOTP device...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-26T22:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cognito-totp-reset/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 637,
+    "total": 641,
     "byCategory": {
+      "AI_ML": 111,
+      "ANALYTICS": 16,
+      "OTHER": 140,
+      "DATABASE": 80,
       "COMPUTE": 59,
-      "OTHER": 139,
-      "AI_ML": 109,
-      "SECURITY": 146,
+      "SECURITY": 145,
       "NETWORKING": 12,
-      "DATABASE": 79,
       "SERVERLESS": 21,
       "CONTAINERS": 32,
       "STORAGE": 24,
-      "ANALYTICS": 15,
       "DEVTOOLS": 1
     },
-    "lastUpdated": "2026-11-24T20:30:07.231Z"
+    "lastUpdated": "2026-11-25T04:47:04.418Z"
   },
-  "generatedAt": "2026-11-24T20:30:07.231Z"
+  "generatedAt": "2026-11-25T04:47:04.418Z"
 }
