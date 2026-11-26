@@ -71,6 +71,16 @@
       "isNew": false
     },
     {
+      "id": "4d72ce4f6e7fcaffeb631f76d8a584c5f15661b3",
+      "title": "Elastic Load Balancing for Envoy is now generally available",
+      "summary": "Today, AWS announces the general availability of ELB for Envoy, a new load balancer type in Elastic Load Balancing (ELB) that runs open-source Envoy proxies. Platform teams that run Envoy themselves o...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-25T16:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/elastic-load-balancing-for-envoy-generally-available",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "de01eaaf2131bb9cfcc8f89ad3ff93321348acfa",
       "title": "Amazon Transcribe Turbo: more accurate transcripts and natural turn-taking for voice agents, now in public preview",
       "summary": "Amazon Transcribe Turbo, our next-generation speech-to-text model, is now in public preview in US East (Ohio) for batch and streaming. Turbo improves accuracy, supports custom vocabulary, and formats ...",
@@ -6369,74 +6379,24 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-transform-fedramp-class-c/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "0959a08ff3a4d6f9d4f74186c4d7efdab5c1e2b8",
-      "title": "Amazon EC2 P6-B300 instances are now available in additional AWS Regions",
-      "summary": "Starting today, Amazon Elastic Cloud Compute (Amazon EC2) P6-B300 instances are available in Asia Pacific (Hyderabad) and South America (Sao Paulo) Regions. P6-B300 instances provide 8xNVIDIA Blackwel...",
-      "category": "COMPUTE",
-      "timestamp": "2026-08-28T17:34:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-p6-b300-instances-available-additional-regions",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "a91f35130e129870dc7a88809d1e12ceb1d138a5",
-      "title": "Amazon EMR on EKS now supports job run concurrency controls",
-      "summary": "Amazon EMR on EKS lets you run open-source big data frameworks such as Apache Spark and Flink on AWS EKS(Elastic Kubernetes Service) clusters. You submit jobs to a virtual cluster, which maps to a nam...",
-      "category": "CONTAINERS",
-      "timestamp": "2026-08-28T17:08:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-emr-eks/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "65450bad5605397f17524661dbef1cc4ed0306c1",
-      "title": "Amazon Aurora MySQL 3.13 (compatible with MySQL 8.0.45) is generally available",
-      "summary": "Starting today, Amazon Aurora MySQL-Compatible Edition 3 (compatible with MySQL 8.0) supports MySQL 8.0.45, which includes community MySQL fixes and Aurora-specific improvements. For detailed informat...",
-      "category": "SECURITY",
-      "timestamp": "2026-08-28T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "30dedc4dc5191d4e41e20ffbce9e45399e83caf3",
-      "title": "Amazon CloudWatch agent adds support for journald logs",
-      "summary": "AWS announces support for collecting systemd journal (journald) logs with the Amazon CloudWatch agent. You can now configure the CloudWatch agent to read log entries directly from the systemd journal ...",
-      "category": "OTHER",
-      "timestamp": "2026-08-28T16:00:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-agent-journald/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "b1006e33418d2451c9af46ec84d3d32324b93cd9",
-      "title": "SpaceXAI Grok 4.6 now available on Amazon Bedrock in AWS GovCloud (US)",
-      "summary": "Amazon Bedrock in AWS GovCloud (US) now supports SpaceXAI Grok 4.6, a frontier model built for coding, agentic tasks, and knowledge work. Grok 4.6 is SpaceXAI’s latest flagship model, built for long-r...",
-      "category": "AI_ML",
-      "timestamp": "2026-08-28T13:17:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/spacexai-grok-4-6-govcloud/",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 642,
+    "total": 638,
     "byCategory": {
       "SECURITY": 152,
-      "OTHER": 140,
-      "AI_ML": 109,
+      "OTHER": 139,
+      "AI_ML": 108,
       "ANALYTICS": 16,
       "DATABASE": 78,
-      "COMPUTE": 58,
+      "COMPUTE": 57,
       "NETWORKING": 12,
       "SERVERLESS": 21,
-      "CONTAINERS": 32,
+      "CONTAINERS": 31,
       "STORAGE": 23,
       "DEVTOOLS": 1
     },
-    "lastUpdated": "2026-11-26T03:57:52.117Z"
+    "lastUpdated": "2026-11-26T19:25:33.977Z"
   },
-  "generatedAt": "2026-11-26T03:57:52.117Z"
+  "generatedAt": "2026-11-26T19:25:33.977Z"
 }
