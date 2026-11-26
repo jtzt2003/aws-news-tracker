@@ -1,6 +1,26 @@
 {
   "announcements": [
     {
+      "id": "04beebe56b418ea550545c13d2589e65a551fb25",
+      "title": "AWS Lambda now supports orchestrating MicroVMs with Lambda durable functions ",
+      "summary": "Today, AWS announces a developer preview of a new extension for orchestrating Lambda MicroVMs with Lambda durable functions. The extension adds durable operations for running work on MicroVMs and mana...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-25T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-microvm/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "24a9d93500bc2ee53803fc427e94715f20b0e75a",
+      "title": "Amazon CloudWatch Omni now integrates with PagerDuty",
+      "summary": "Amazon CloudWatch Omni alerts can now automatically create PagerDuty incidents, so notifications flow directly into your existing incident management workflows. This reduces mean time to resolution (M...",
+      "category": "OTHER",
+      "timestamp": "2026-11-25T20:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-omni-pagerduty/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
       "id": "13a9f65ee8b496aff313fbb47a4792bc041022ba",
       "title": "Amazon EC2 M8g instances are now available in Israel (Tel Aviv)",
       "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M8g instances are available in the Israel (Tel Aviv) region. These instances are powered by AWS Graviton4 processors and deliver up to 30% bet...",
@@ -47,6 +67,36 @@
       "category": "SECURITY",
       "timestamp": "2026-11-25T16:06:00.000Z",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-m9g-instances-additional-regions/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "de01eaaf2131bb9cfcc8f89ad3ff93321348acfa",
+      "title": "Amazon Transcribe Turbo: more accurate transcripts and natural turn-taking for voice agents, now in public preview",
+      "summary": "Amazon Transcribe Turbo, our next-generation speech-to-text model, is now in public preview in US East (Ohio) for batch and streaming. Turbo improves accuracy, supports custom vocabulary, and formats ...",
+      "category": "AI_ML",
+      "timestamp": "2026-11-25T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/transcribe-turbo-preview/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "b1e24734819b8442154aa6da6228dbda9657016f",
+      "title": "AWS IoT Core now uses dedicated IPv6 address ranges for the HTTP rule action",
+      "summary": "AWS IoT Core can now send traffic to HTTPS endpoints within a dedicated, published IPv6 address range. This launch enables you to configure your HTTPS endpoints to accept requests only from AWS IoT Co...",
+      "category": "SECURITY",
+      "timestamp": "2026-11-25T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-iot-core-dedicated-ipv6-ranges/",
+      "source": "AWS What's New",
+      "isNew": false
+    },
+    {
+      "id": "37c2475c2a609cf1dd04939aba52b07d5b4a8c00",
+      "title": "AWS IoT Core quotas and usage are now visible in AWS Service Quotas console",
+      "summary": "AWS IoT Core now publishes its most used service quotas and your current usage against the quotas in AWS Service Quotas console, improving observability and monitoring of API limits and quotas. This l...",
+      "category": "OTHER",
+      "timestamp": "2026-11-25T08:00:00.000Z",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-iot-core-quota-usage-monitoring/",
       "source": "AWS What's New",
       "isNew": false
     },
@@ -6369,56 +6419,16 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/spacexai-grok-4-6-govcloud/",
       "source": "AWS What's New",
       "isNew": false
-    },
-    {
-      "id": "bef13a0437360745c86de1cabe2f62d2cc5783da",
-      "title": "Cosmos3-Edge, Cosmos3-Nano, and Cosmos3-Super models now available on Amazon SageMaker JumpStart",
-      "summary": "NVIDIA's Cosmos3-Edge, Cosmos3-Nano, and Cosmos3-Super models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three mode...",
-      "category": "AI_ML",
-      "timestamp": "2026-08-27T22:41:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/cosmos3-edge-cosmos3-nano-cosmos3-super-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "18b94616957927074386db829296fa00d7e17e94",
-      "title": "Muse-Glimmer-30B and Qwen 3.8-27B models now available on Amazon SageMaker JumpStart",
-      "summary": "Meta's Muse-Glimmer-30B and Alibaba's Qwen 3.8-27B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models bri...",
-      "category": "AI_ML",
-      "timestamp": "2026-08-27T22:39:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/muse-glimmer-30b-qwen-3.8-27b-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "6d5bb4d1a8c2af042b2dfea1872493f0623fbf58",
-      "title": "Amazon Redshift streaming can now ingest 10MiB records from Amazon Kinesis Data Streams  ",
-      "summary": "Amazon Redshift  now supports Amazon Kinesis Data Streams (KDS) record sizes up to 10 MiB—a 10x increase from the previous 1 MiB limit—fully matching the expanded maximum record size in Amazon KDS. Th...",
-      "category": "DATABASE",
-      "timestamp": "2026-08-27T21:41:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-streaming-supports-kds-10mib-records",
-      "source": "AWS What's New",
-      "isNew": false
-    },
-    {
-      "id": "89a40c47ad478cc4d2ed42b9ddb3d053bc2f3fad",
-      "title": "Amazon Redshift integrates with Agent Toolkit for AWS for AI-assisted data warehouse management",
-      "summary": "Amazon Redshift now integrates with the Agent Toolkit for AWS, enabling you to build, query, troubleshoot, and migrate to Amazon Redshift data warehouses and date lakes directly from AI agents such as...",
-      "category": "DATABASE",
-      "timestamp": "2026-08-27T20:07:00.000Z",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-agenttoolkit-for-ai-assisted-datawarehouse-mgmt",
-      "source": "AWS What's New",
-      "isNew": false
     }
   ],
   "stats": {
-    "total": 641,
+    "total": 642,
     "byCategory": {
-      "SECURITY": 150,
-      "AI_ML": 110,
+      "SECURITY": 152,
+      "OTHER": 140,
+      "AI_ML": 109,
       "ANALYTICS": 16,
-      "OTHER": 138,
-      "DATABASE": 80,
+      "DATABASE": 78,
       "COMPUTE": 58,
       "NETWORKING": 12,
       "SERVERLESS": 21,
@@ -6426,7 +6436,7 @@
       "STORAGE": 23,
       "DEVTOOLS": 1
     },
-    "lastUpdated": "2026-11-25T19:46:33.918Z"
+    "lastUpdated": "2026-11-26T03:57:52.117Z"
   },
-  "generatedAt": "2026-11-25T19:46:33.918Z"
+  "generatedAt": "2026-11-26T03:57:52.117Z"
 }
